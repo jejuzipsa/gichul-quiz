@@ -732,3 +732,107 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
     height: 19px;
   }
 }
+
+
+/* v1.32: 20문제 일반 풀이 결과 전체보기 (저장하지 않음) */
+.practice-full-review-btn {
+  width: 100%;
+  margin-top: 18px;
+}
+
+.practice-sticky-only {
+  display: none;
+}
+
+.result-actions.practice-review-sticky {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  z-index: 85;
+  width: min(1080px, calc(100% - 32px));
+  margin: 0;
+  padding: 8px;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr) minmax(0, .8fr) auto;
+  gap: 8px;
+  border: 1px solid rgba(210, 219, 233, .92);
+  border-radius: 16px;
+  background: rgba(255,255,255,.95);
+  box-shadow: 0 12px 34px rgba(27,39,65,.14);
+  backdrop-filter: blur(12px);
+}
+
+.result-actions.practice-review-sticky .practice-sticky-only {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-actions.practice-review-sticky > button {
+  min-width: 0;
+  min-height: 42px;
+}
+
+.result-actions.practice-review-sticky .result-scroll-top-btn {
+  width: 42px;
+  min-width: 42px;
+  height: 42px;
+  padding: 0;
+}
+
+#practiceFullReview .exam-review-card {
+  scroll-margin-top: 78px;
+}
+
+#practiceFullReview .exam-review-question {
+  display: block;
+}
+
+#practiceFullReview .question-image {
+  max-width: 100%;
+  margin-bottom: 12px;
+  border-radius: 12px;
+}
+
+.practice-review-choice-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 6px;
+  border-radius: 8px;
+}
+
+@media (max-width: 560px) {
+  .result-actions.practice-review-sticky {
+    top: 6px;
+    width: calc(100% - 16px);
+    padding: 5px;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    border-radius: 14px;
+  }
+
+  .result-actions.practice-review-sticky > button {
+    width: auto;
+    min-height: 34px;
+    padding-inline: 7px;
+    font-size: 11px;
+  }
+
+  .result-actions.practice-review-sticky .result-scroll-top-btn {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    justify-self: end;
+  }
+
+  .result-actions.practice-review-sticky .result-scroll-top-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  #practiceFullReview .exam-review-card {
+    scroll-margin-top: 86px;
+  }
+}

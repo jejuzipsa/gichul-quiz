@@ -70,7 +70,7 @@
     headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'),
     bankBrowserSubject: $('bankBrowserSubject'), bankBrowserSummary: $('bankBrowserSummary'), bankQuestionList: $('bankQuestionList'), bankPagination: $('bankPagination'), bankStartQuizBtn: $('bankStartQuizBtn'), bankFloatActions: $('bankFloatActions'), bankFloatQuizBtn: $('bankFloatQuizBtn'), bankFloatHomeBtn: $('bankFloatHomeBtn'), bankFloatTopBtn: $('bankFloatTopBtn'),
     quizSubject: $('quizSubject'), quizProgress: $('quizProgress'), sourceMeta: $('sourceMeta'), progressFill: $('progressFill'), questionCard: $('questionCard'), questionNumber: $('questionNumber'), questionText: $('questionText'), answerForm: $('answerForm'), feedback: $('feedback'), nextBtn: $('nextBtn'), backToResultBtn: $('backToResultBtn'),
-    resultSubject: $('resultSubject'), resultScore: $('resultScore'), resultGrid: $('resultGrid'), resultHint: $('resultHint'), restartBtn: $('restartBtn'), changeSubjectBtn: $('changeSubjectBtn'),
+    resultSubject: $('resultSubject'), resultScore: $('resultScore'), resultGrid: $('resultGrid'), resultHint: $('resultHint'), practiceFullReviewBtn: $('practiceFullReviewBtn'), practiceFullReview: $('practiceFullReview'), practiceFullReviewList: $('practiceFullReviewList'), practiceResultActions: $('practiceResultActions'), practiceStickyCloseBtn: $('practiceStickyCloseBtn'), practiceScrollTopBtn: $('practiceScrollTopBtn'), restartBtn: $('restartBtn'), changeSubjectBtn: $('changeSubjectBtn'),
     examYearSelect: $('examYearSelect'), examTypeGrid: $('examTypeGrid'), examHistoryList: $('examHistoryList'), clearExamHistoryBtn: $('clearExamHistoryBtn'), examRunningTitle: $('examRunningTitle'), examRunningProgress: $('examRunningProgress'), examTimer: $('examTimer'), examProgressFill: $('examProgressFill'), examQuestionNumber: $('examQuestionNumber'), examQuestionText: $('examQuestionText'), examAnswerForm: $('examAnswerForm'), examNextBtn: $('examNextBtn'), examQuestionIndex: $('examQuestionIndex'),
     examResultMeta: $('examResultMeta'), examResultHeadline: $('examResultHeadline'), examResultScore: $('examResultScore'), examScoreCards: $('examScoreCards'), examFullReviewBtn: $('examFullReviewBtn'), examResultGrid: $('examResultGrid'), examResultNote: $('examResultNote'), examFullReview: $('examFullReview'), examFullReviewList: $('examFullReviewList'), examResultActions: $('examResultActions'), examWrongReviewBtn: $('examWrongReviewBtn'), examAgainBtn: $('examAgainBtn'), examStickyCloseBtn: $('examStickyCloseBtn'), examHomeBtn: $('examHomeBtn'), examScrollTopBtn: $('examScrollTopBtn')
   };
@@ -236,7 +236,7 @@
     const tagged=Array.from({length:count},(_,i)=>({text:q.choices?.[i]||'',image:q.choice_images?.[i]||'',originalIndex:i+1}));
     const shuffledChoices=shuffle(tagged); const originalAnswers=Array.isArray(q.answer)?q.answer:[q.answer];
     const correctDisplayIndices=shuffledChoices.map((c,idx)=>originalAnswers.includes(c.originalIndex)?idx+1:null).filter(Boolean);
-    return {q,shuffledChoices,correctDisplayIndices,attempts:0,hadWrong:false,completed:false,selected:null};
+    return {q,shuffledChoices,correctDisplayIndices,attempts:0,hadWrong:false,completed:false,selected:null,answerHistory:[]};
   }
 
   async function startSubject(subject) {
@@ -251,10 +251,129 @@
   function setChoicesLocked(locked){els.answerForm.querySelectorAll('input').forEach(i=>i.disabled=locked);els.answerForm.querySelectorAll('.choice').forEach(c=>c.classList.toggle('locked',locked));}
   function showFeedback(kind,html){els.feedback.className=`feedback ${kind}`;els.feedback.innerHTML=html;}
   function showWrongAnswer(item){els.feedback.className='feedback bad';els.feedback.innerHTML='';const title=document.createElement('div');title.textContent='오답입니다.';els.feedback.appendChild(title);[...item.correctDisplayIndices].sort((a,b)=>a-b).forEach(displayIndex=>{const choice=item.shuffledChoices[displayIndex-1];const line=document.createElement('div');line.className='answer-line';const prefix=document.createElement('strong');prefix.textContent=`정답: ${choiceLabel(displayIndex)}`;line.appendChild(prefix);if(choice.text){const text=document.createElement('span');text.className='answer-choice-text';text.textContent=` ${choice.text}`;line.appendChild(text);}els.feedback.appendChild(line);});}
-  function gradeSelection(){const item=currentItem();if(!item||!item.selected||item.completed)return;item.attempts++;const correct=item.correctDisplayIndices.includes(item.selected);if(correct){setChoicesLocked(true);els.questionCard.classList.remove('wrong');els.questionCard.classList.add('correct');showFeedback('good','정답입니다.');item.completed=true;if(state.reviewMode)els.backToResultBtn.classList.remove('hidden');else els.nextBtn.classList.remove('hidden');return;}item.hadWrong=true;els.questionCard.classList.remove('correct');els.questionCard.classList.add('wrong');if(item.attempts<2){showFeedback('bad','오답입니다. 다시 선택해.');return;}setChoicesLocked(true);showWrongAnswer(item);item.completed=true;if(state.reviewMode)els.backToResultBtn.classList.remove('hidden');else els.nextBtn.classList.remove('hidden');}
+  function gradeSelection(){const item=currentItem();if(!item||!item.selected||item.completed)return;item.attempts++;item.answerHistory=item.answerHistory||[];item.answerHistory.push(Number(item.selected));const correct=item.correctDisplayIndices.includes(item.selected);if(correct){setChoicesLocked(true);els.questionCard.classList.remove('wrong');els.questionCard.classList.add('correct');showFeedback('good','정답입니다.');item.completed=true;if(state.reviewMode)els.backToResultBtn.classList.remove('hidden');else els.nextBtn.classList.remove('hidden');return;}item.hadWrong=true;els.questionCard.classList.remove('correct');els.questionCard.classList.add('wrong');if(item.attempts<2){showFeedback('bad','오답입니다. 다시 선택해.');return;}setChoicesLocked(true);showWrongAnswer(item);item.completed=true;if(state.reviewMode)els.backToResultBtn.classList.remove('hidden');else els.nextBtn.classList.remove('hidden');}
   function nextQuestion(){if(state.index>=state.session.length-1)return showResult();state.index++;renderQuestion();}
 
-  function showResult(){state.reviewMode=false;showView('result');const correctCount=state.session.filter(i=>!i.hadWrong).length;const wrongCount=state.session.length-correctCount;els.resultSubject.textContent=state.subject||'';els.resultScore.textContent=`정답 ${correctCount} / ${state.session.length}`;els.resultGrid.innerHTML='';state.session.forEach((item,idx)=>{const btn=document.createElement('button');btn.type='button';btn.className=`result-number ${item.hadWrong?'wrong':'correct'}`;btn.textContent=String(idx+1);if(item.hadWrong)btn.addEventListener('click',()=>startReview(idx));else btn.disabled=true;els.resultGrid.appendChild(btn);});els.resultHint.textContent=wrongCount?'빨간 문제 번호를 누르면 그 문제를 다시 풀 수 있어.':'전부 정답이야.';if(state.sessionKind==='examReview'){els.restartBtn.textContent='시험 오답 다시 풀기';els.changeSubjectBtn.textContent='메인으로';}else{els.restartBtn.textContent='같은 과목 다시 풀기';els.changeSubjectBtn.textContent='과목 바꾸기';}}
+  function renderPracticeFullReview(){
+    if(!els.practiceFullReviewList)return;
+    els.practiceFullReviewList.innerHTML='';
+    state.session.forEach((item,idx)=>{
+      const status=item.hadWrong?'wrong':'correct';
+      const card=document.createElement('article');
+      card.className=`exam-review-card ${status}`;
+      card.id=`practice-review-${idx+1}`;
+
+      const top=document.createElement('div');
+      top.className='exam-review-meta';
+      const meta=document.createElement('span');
+      const metaParts=[`${idx+1}번`];
+      if(item.q.year)metaParts.push(`${item.q.year}년`);
+      if(item.q.paper)metaParts.push(item.q.paper);
+      if(item.q.question_number)metaParts.push(`원문 ${item.q.question_number}번`);
+      meta.textContent=metaParts.join(' · ');
+
+      const badge=document.createElement('strong');
+      badge.className=`exam-review-status ${status}`;
+      badge.textContent=status==='correct'?'정답':'오답';
+      top.append(meta,badge);
+
+      const question=document.createElement('div');
+      question.className='exam-review-question';
+      renderQuestionContentTo(question,item.q);
+
+      const list=document.createElement('div');
+      list.className='exam-review-choices';
+
+      const attempts=Array.isArray(item.answerHistory)&&item.answerHistory.length
+        ? item.answerHistory.map(Number)
+        : (item.selected==null?[]:[Number(item.selected)]);
+
+      item.shuffledChoices.forEach((choice,cidx)=>{
+        const n=cidx+1;
+        const isAnswer=item.correctDisplayIndices.includes(n);
+        const wasChosen=attempts.includes(n);
+        const wasWrongChosen=wasChosen&&!isAnswer;
+
+        const row=document.createElement('div');
+        row.className='exam-review-choice';
+        if(isAnswer)row.classList.add('correct-answer');
+        if(wasWrongChosen)row.classList.add('my-wrong-answer');
+
+        const num=document.createElement('span');
+        num.className='exam-review-choice-number';
+        num.textContent=choiceLabel(n);
+
+        const content=document.createElement('span');
+        content.className='exam-review-choice-text';
+        if(choice.image){
+          const img=document.createElement('img');
+          img.className='choice-image practice-review-choice-image';
+          img.src=choice.image;
+          img.alt='';
+          content.appendChild(img);
+        }
+        if(choice.text){
+          const text=document.createElement('span');
+          text.textContent=choice.text;
+          content.appendChild(text);
+        }
+
+        const marks=document.createElement('span');
+        marks.className='exam-review-choice-marks';
+        if(wasWrongChosen){
+          const mine=document.createElement('em');
+          mine.textContent='내 오답';
+          mine.className='mark-wrong';
+          marks.appendChild(mine);
+        }
+        if(isAnswer){
+          const answer=document.createElement('em');
+          answer.textContent=wasChosen?'내 답 · 정답':'정답';
+          answer.className='mark-answer';
+          marks.appendChild(answer);
+        }
+
+        row.append(num,content,marks);
+        list.appendChild(row);
+      });
+
+      card.append(top,question,list);
+
+      if(item.q.explanation){
+        const explanation=document.createElement('div');
+        explanation.className='exam-review-explanation';
+        explanation.textContent=item.q.explanation;
+        card.appendChild(explanation);
+      }
+
+      els.practiceFullReviewList.appendChild(card);
+    });
+  }
+
+  function setPracticeFullReview(open){
+    if(!els.practiceFullReview||!els.practiceFullReviewBtn)return;
+    if(open&&els.practiceFullReviewList&&!els.practiceFullReviewList.children.length)renderPracticeFullReview();
+    els.practiceFullReview.classList.toggle('hidden',!open);
+    els.practiceFullReviewBtn.textContent=open?'결과닫기':'결과보기';
+    els.practiceResultActions?.classList.toggle('practice-review-sticky',open);
+
+    if(open){
+      els.restartBtn.textContent=state.sessionKind==='examReview'?'오답다시풀기':'다시풀기';
+      els.changeSubjectBtn.textContent=state.sessionKind==='examReview'?'메인':'과목바꾸기';
+    }else if(state.sessionKind==='examReview'){
+      els.restartBtn.textContent='시험 오답 다시 풀기';
+      els.changeSubjectBtn.textContent='메인으로';
+    }else{
+      els.restartBtn.textContent='같은 과목 다시 풀기';
+      els.changeSubjectBtn.textContent='과목 바꾸기';
+    }
+  }
+
+  function togglePracticeFullReview(){
+    setPracticeFullReview(els.practiceFullReview.classList.contains('hidden'));
+  }
+
+  function showResult(){state.reviewMode=false;showView('result');if(els.practiceFullReviewList)els.practiceFullReviewList.innerHTML='';setPracticeFullReview(false);const correctCount=state.session.filter(i=>!i.hadWrong).length;const wrongCount=state.session.length-correctCount;els.resultSubject.textContent=state.subject||'';els.resultScore.textContent=`정답 ${correctCount} / ${state.session.length}`;els.resultGrid.innerHTML='';state.session.forEach((item,idx)=>{const btn=document.createElement('button');btn.type='button';btn.className=`result-number ${item.hadWrong?'wrong':'correct'}`;btn.textContent=String(idx+1);if(item.hadWrong)btn.addEventListener('click',()=>startReview(idx));else btn.disabled=true;els.resultGrid.appendChild(btn);});els.resultHint.textContent=wrongCount?'빨간 문제 번호를 누르면 그 문제를 다시 풀 수 있어.':'전부 정답이야.';if(state.sessionKind==='examReview'){els.restartBtn.textContent='시험 오답 다시 풀기';els.changeSubjectBtn.textContent='메인으로';}else{els.restartBtn.textContent='같은 과목 다시 풀기';els.changeSubjectBtn.textContent='과목 바꾸기';}}
   function startReview(index){state.reviewMode=true;state.reviewTargetIndex=index;state.index=index;const old=state.session[index];const fresh=buildSessionItem(old.q);fresh.hadWrong=true;state.session[index]=fresh;showView('quiz');renderQuestion();}
 
   const EXAM_HISTORY_KEY = 'gichulQuizExamHistoryV1';
@@ -620,7 +739,7 @@
   els.bankFloatHomeBtn?.addEventListener('click',resetToHome);
   els.bankFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   window.addEventListener('scroll',updateBankFloatActions,{passive:true});
-  els.nextBtn.addEventListener('click',nextQuestion); els.backToResultBtn.addEventListener('click',showResult); els.restartBtn.addEventListener('click',restartPractice); els.changeSubjectBtn.addEventListener('click',resetToHome); els.homeBtn.addEventListener('click',handleHome);
+  els.nextBtn.addEventListener('click',nextQuestion); els.backToResultBtn.addEventListener('click',showResult); els.practiceFullReviewBtn?.addEventListener('click',togglePracticeFullReview); els.practiceStickyCloseBtn?.addEventListener('click',()=>setPracticeFullReview(false)); els.practiceScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.restartBtn.addEventListener('click',restartPractice); els.changeSubjectBtn.addEventListener('click',resetToHome); els.homeBtn.addEventListener('click',handleHome);
   els.examEntryBtn.addEventListener('click',openExamSetup); els.examNextBtn.addEventListener('click',goExamNext); els.examFullReviewBtn.addEventListener('click',toggleExamFullReview); els.examWrongReviewBtn.addEventListener('click',startExamWrongReview); els.examAgainBtn.addEventListener('click',()=>startExam(state.exam.type,String(state.exam.year))); els.examStickyCloseBtn?.addEventListener('click',()=>setExamFullReview(false)); els.examHomeBtn.addEventListener('click',openExamSetup); els.examScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.clearExamHistoryBtn?.addEventListener('click',clearExamHistory);
 
   if(!manifest.length){alert('과목 manifest를 읽지 못했어. data/manifest.js 파일을 확인해줘.');return;}

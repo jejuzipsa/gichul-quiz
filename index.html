@@ -85,9 +85,33 @@
       </div>
       <div id="resultGrid" class="result-grid" aria-label="문제별 결과"></div>
       <p id="resultHint" class="helper"></p>
-      <div class="result-actions">
+
+      <button id="practiceFullReviewBtn" class="secondary-btn practice-full-review-btn" type="button">결과보기</button>
+
+      <section id="practiceFullReview" class="exam-full-review hidden" aria-label="전체 풀이 결과">
+        <div class="exam-full-review-head">
+          <div>
+            <p class="eyebrow">ANSWER REVIEW</p>
+            <h2>전체 풀이 결과</h2>
+          </div>
+          <div class="legend">
+            <span><i class="dot blue"></i>정답</span>
+            <span><i class="dot red"></i>오답</span>
+          </div>
+        </div>
+        <div id="practiceFullReviewList" class="exam-full-review-list"></div>
+      </section>
+
+      <div id="practiceResultActions" class="result-actions">
         <button id="restartBtn" class="primary-btn" type="button">같은 과목 다시 풀기</button>
         <button id="changeSubjectBtn" class="secondary-btn" type="button">과목 바꾸기</button>
+        <button id="practiceStickyCloseBtn" class="secondary-btn practice-sticky-only" type="button">결과닫기</button>
+        <button id="practiceScrollTopBtn" class="secondary-btn result-scroll-top-btn practice-sticky-only" type="button" aria-label="맨 위로" title="맨 위로">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 19V5"></path>
+            <path d="m6.5 10.5 5.5-5.5 5.5 5.5"></path>
+          </svg>
+        </button>
       </div>
     </section>
 
