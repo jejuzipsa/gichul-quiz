@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>공인중개사 기출문제</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell" id="app">
+    <header class="topbar">
+      <div>
+        <h1 id="headerTitle">공인중개사 기출문제</h1>
+      </div>
+      <button id="homeBtn" class="ghost-btn home-icon-btn hidden" type="button" aria-label="홈으로" title="홈으로">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5v-9.7Z"/><path d="M1.8 11.7 12 2.8l10.2 8.9"/></svg>
+      </button>
+    </header>
+
+    <section id="homeView" class="view">
+      <div class="subject-grid" id="subjectGrid"></div>
+      <button id="examEntryBtn" class="exam-entry-card exam-entry-card-button" type="button">
+        <img class="exam-entry-icon" src="assets/exam-icon.png" alt="" aria-hidden="true" />
+        <span>실전처럼 시험 보기</span>
+      </button>
+    </section>
+
+    <section id="bankView" class="view hidden">
+      <div class="bank-browser-head">
+        <div>
+          <p class="eyebrow">전체 문제 보기</p>
+          <h2 id="bankBrowserSubject">과목</h2>
+          <p id="bankBrowserSummary" class="bank-browser-summary"></p>
+        </div>
+        <button id="bankStartQuizBtn" class="primary-btn" type="button">이 과목 문제 풀기</button>
+      </div>
+      <div id="bankQuestionList" class="bank-question-list"></div>
+      <nav id="bankPagination" class="pagination" aria-label="전체 문제 페이지"></nav>
+
+      <div id="bankFloatActions" class="bank-float-actions hidden" aria-label="전체 문제 보기 빠른 메뉴">
+        <button id="bankFloatQuizBtn" class="primary-btn bank-float-quiz-btn" type="button">문제풀기</button>
+        <button id="bankFloatHomeBtn" class="secondary-btn bank-float-icon-btn" type="button" aria-label="홈" title="홈">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5v-9.7Z"></path>
+            <path d="M1.8 11.7 12 2.8l10.2 8.9"></path>
+          </svg>
+        </button>
+        <button id="bankFloatTopBtn" class="secondary-btn bank-float-icon-btn" type="button" aria-label="맨 위로" title="맨 위로">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 19V5"></path>
+            <path d="m6.5 10.5 5.5-5.5 5.5 5.5"></path>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <section id="quizView" class="view hidden">
+      <div class="quiz-meta">
+        <div>
+          <p class="eyebrow" id="quizSubject"></p>
+          <div class="progress-line"><span id="quizProgress">1 / 20</span><span id="sourceMeta"></span></div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><div id="progressFill" class="progress-fill"></div></div>
+      </div>
+      <article id="questionCard" class="question-card">
+        <div class="question-number" id="questionNumber">문제 1</div>
+        <h2 id="questionText"></h2>
+        <form id="answerForm" class="choices"></form>
+        <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+        <div class="quiz-actions">
+          <button id="nextBtn" class="primary-btn hidden" type="button">다음 문제</button>
+          <button id="backToResultBtn" class="secondary-btn hidden" type="button">결과로 돌아가기</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="resultView" class="view hidden">
+      <div class="result-head">
+        <div>
+          <p class="eyebrow" id="resultSubject"></p>
+          <h2>풀이 결과</h2>
+          <p id="resultScore" class="score-line"></p>
+        </div>
+        <div class="legend"><span><i class="dot blue"></i>정답</span><span><i class="dot red"></i>오답</span></div>
+      </div>
+      <div id="resultGrid" class="result-grid" aria-label="문제별 결과"></div>
+      <p id="resultHint" class="helper"></p>
+      <div class="result-actions">
+        <button id="restartBtn" class="primary-btn" type="button">같은 과목 다시 풀기</button>
+        <button id="changeSubjectBtn" class="secondary-btn" type="button">과목 바꾸기</button>
+      </div>
+    </section>
+
+    <section id="examSetupView" class="view hidden">
+      <div class="exam-setup-head">
+        <div class="exam-setup-title">
+          <img class="exam-setup-icon" src="assets/exam-icon.png" alt="" aria-hidden="true" />
+          <h2>시험 선택</h2>
+        </div>
+        <label class="year-picker">
+          <span>기출 연도</span>
+          <select id="examYearSelect"></select>
+        </label>
+      </div>
+      <div id="examTypeGrid" class="exam-type-grid"></div>
+
+      <section class="exam-history" aria-labelledby="examHistoryTitle">
+        <div class="exam-history-head">
+          <h2 id="examHistoryTitle">시험기록</h2>
+          <button id="clearExamHistoryBtn" class="secondary-btn exam-history-clear-btn" type="button">시험기록 지우기</button>
+        </div>
+        <div id="examHistoryList" class="exam-history-list"></div>
+      </section>
+    </section>
+
+    <section id="examQuizView" class="view hidden">
+      <div class="exam-toolbar">
+        <div class="exam-toolbar-meta">
+          <strong id="examRunningTitle">시험</strong>
+          <span id="examRunningProgress">1 / 80</span>
+        </div>
+        <div class="exam-toolbar-actions">
+          <div id="examTimer" class="exam-timer" aria-live="polite">01:40:00</div>
+          <button id="examNextBtn" class="primary-btn exam-toolbar-next" type="button">다음 문제</button>
+        </div>
+      </div>
+      <div class="progress-track exam-progress-track" aria-hidden="true"><div id="examProgressFill" class="progress-fill"></div></div>
+      <article class="question-card exam-question-card">
+        <div class="question-number" id="examQuestionNumber">문제 1</div>
+        <h2 id="examQuestionText"></h2>
+        <form id="examAnswerForm" class="choices"></form>
+        <div class="exam-question-index-wrap">
+          <div class="exam-question-index-head">
+            <strong>전체 문제</strong>
+            <div class="exam-index-legend" aria-hidden="true">
+              <span><i class="exam-index-swatch answered"></i>푼 문제</span>
+              <span><i class="exam-index-swatch unanswered"></i>안 푼 문제</span>
+            </div>
+          </div>
+          <div id="examQuestionIndex" class="exam-question-index" aria-label="전체 문제 번호"></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="examResultView" class="view hidden">
+      <div class="result-head exam-result-head">
+        <div>
+          <p class="eyebrow" id="examResultMeta">시험 결과</p>
+          <h2 id="examResultHeadline">시험 종료</h2>
+          <p id="examResultScore" class="score-line"></p>
+        </div>
+        <div class="legend"><span><i class="dot blue"></i>정답</span><span><i class="dot red"></i>오답</span><span><i class="dot gray"></i>미응답</span></div>
+      </div>
+      <div class="exam-score-summary-row">
+        <div id="examScoreCards" class="exam-score-cards"></div>
+        <button id="examFullReviewBtn" class="secondary-btn exam-full-review-btn" type="button">전체 결과 보기</button>
+      </div>
+      <div id="examResultGrid" class="result-grid" aria-label="시험 문제별 결과"></div>
+      <p id="examResultNote" class="helper"></p>
+      <section id="examFullReview" class="exam-full-review hidden" aria-label="전체 시험 결과">
+        <div class="exam-full-review-head">
+          <div>
+            <p class="eyebrow">ANSWER REVIEW</p>
+            <h2>전체 시험 결과</h2>
+          </div>
+          <div class="legend"><span><i class="dot blue"></i>정답</span><span><i class="dot red"></i>내 오답</span><span><i class="dot gray"></i>미응답</span></div>
+        </div>
+        <div id="examFullReviewList" class="exam-full-review-list"></div>
+      </section>
+      <div id="examResultActions" class="result-actions">
+        <button id="examWrongReviewBtn" class="primary-btn" type="button">틀린문제풀기</button>
+        <button id="examAgainBtn" class="secondary-btn" type="button">시험다시보기</button>
+        <button id="examStickyCloseBtn" class="secondary-btn result-sticky-close-btn" type="button">결과닫기</button>
+        <div class="result-nav-pair">
+          <button id="examHomeBtn" class="secondary-btn" type="button">시험홈</button>
+          <button id="examScrollTopBtn" class="secondary-btn result-scroll-top-btn" type="button" aria-label="맨 위로" title="맨 위로">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 19V5"></path>
+              <path d="m6.5 10.5 5.5-5.5 5.5 5.5"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="data/manifest.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
