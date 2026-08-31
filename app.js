@@ -8,6 +8,7 @@
     subjectOverrides: new Map(),
     session: [],
     sessionKind: 'practice',
+    practiceSize: 20,
     index: 0,
     reviewMode: false,
     reviewTargetIndex: null,
@@ -111,25 +112,61 @@
       const card = document.createElement('div');
       card.className = 'subject-card';
 
-      const btn = document.createElement('button');
-      btn.type = 'button'; btn.className = 'subject-btn';
+      const info = document.createElement('div');
+      info.className = 'subject-info';
       const years = Array.isArray(entry.years) && entry.years.length ? ` · ${entry.years.join('·')}` : '';
-      btn.innerHTML = `<strong>${escapeHtml(entry.name)}</strong><span>${count}문제 · 최대 ${Math.min(20, count)}문제 출제${years}</span>`;
-      btn.addEventListener('click', async () => {
-        btn.disabled = true; const original = btn.innerHTML;
-        btn.innerHTML = `<strong>${escapeHtml(entry.name)}</strong><span>문제 불러오는 중...</span>`;
-        try { await startSubject(entry.name); }
-        catch (err) { alert(`과목 문제를 불러오지 못했어.\n\n${err.message}`); btn.disabled = false; btn.innerHTML = original; }
-      });
+      info.innerHTML = `<strong>${escapeHtml(entry.name)}</strong><span>${count}문제${years}</span>`;
+
+      const actions = document.createElement('div');
+      actions.className = 'subject-actions';
+
+      const quick = document.createElement('div');
+      quick.className = 'subject-quick-actions';
+
+      const makeQuizBtn = (questionCount) => {
+        const quizBtn = document.createElement('button');
+        quizBtn.type = 'button';
+        quizBtn.className = 'subject-quiz-count-btn';
+        quizBtn.textContent = `${questionCount}문제`;
+        quizBtn.addEventListener('click', async () => {
+          const buttons = actions.querySelectorAll('button');
+          buttons.forEach(button => button.disabled = true);
+          const original = quizBtn.textContent;
+          quizBtn.textContent = '불러오는 중';
+          try {
+            await startSubject(entry.name, questionCount);
+          } catch (err) {
+            alert(`과목 문제를 불러오지 못했어.\n\n${err.message}`);
+            buttons.forEach(button => button.disabled = false);
+            quizBtn.textContent = original;
+          }
+        });
+        return quizBtn;
+      };
+
+      quick.append(makeQuizBtn(10), makeQuizBtn(20));
 
       const browseBtn = document.createElement('button');
-      browseBtn.type = 'button'; browseBtn.className = 'subject-browse-btn'; browseBtn.textContent = '전체 문제 보기';
+      browseBtn.type = 'button';
+      browseBtn.className = 'subject-browse-btn';
+      browseBtn.textContent = '전체 문제 보기';
       browseBtn.addEventListener('click', async () => {
-        browseBtn.disabled = true; const t = browseBtn.textContent; browseBtn.textContent = '불러오는 중';
-        try { await openSubjectBrowser(entry.name); }
-        catch (err) { alert(`전체 문제를 불러오지 못했어.\n\n${err.message}`); browseBtn.disabled = false; browseBtn.textContent = t; }
+        const buttons = actions.querySelectorAll('button');
+        buttons.forEach(button => button.disabled = true);
+        const t = browseBtn.textContent;
+        browseBtn.textContent = '불러오는 중';
+        try {
+          await openSubjectBrowser(entry.name);
+        } catch (err) {
+          alert(`전체 문제를 불러오지 못했어.\n\n${err.message}`);
+          buttons.forEach(button => button.disabled = false);
+          browseBtn.textContent = t;
+        }
       });
-      card.append(btn, browseBtn); els.subjectGrid.appendChild(card);
+
+      actions.append(quick, browseBtn);
+      card.append(info, actions);
+      els.subjectGrid.appendChild(card);
     }
   }
 
@@ -239,10 +276,20 @@
     return {q,shuffledChoices,correctDisplayIndices,attempts:0,hadWrong:false,completed:false,selected:null,answerHistory:[]};
   }
 
-  async function startSubject(subject) {
+  async function startSubject(subject, questionCount=20) {
     stopExamTimer();
     const pool=await loadSubjectBank(subject); if(!pool.length)return;
-    state.subject=subject;state.bank=pool;state.session=shuffle(pool).slice(0,Math.min(20,pool.length)).map(buildSessionItem);state.sessionKind='practice';state.index=0;state.reviewMode=false;state.reviewTargetIndex=null;showView('quiz');renderQuestion();
+    const requestedCount=questionCount===10?10:20;
+    state.practiceSize=requestedCount;
+    state.subject=subject;
+    state.bank=pool;
+    state.session=shuffle(pool).slice(0,Math.min(requestedCount,pool.length)).map(buildSessionItem);
+    state.sessionKind='practice';
+    state.index=0;
+    state.reviewMode=false;
+    state.reviewTargetIndex=null;
+    showView('quiz');
+    renderQuestion();
   }
   function scrollQuestionToTop(){
     window.scrollTo({top:0,left:0,behavior:'auto'});
@@ -734,12 +781,12 @@
     state.subject=`${state.exam.year}년 ${EXAM_CONFIGS[state.exam.type].label} 오답 복습`;
     state.session=r.wrongItems.map(x=>buildSessionItem(x.q));state.sessionKind='examReview';state.index=0;state.reviewMode=false;showView('quiz');renderQuestion();
   }
-  function restartPractice(){if(state.sessionKind==='examReview'){startExamWrongReview();return;}if(state.subject)startSubject(state.subject);}
+  function restartPractice(){if(state.sessionKind==='examReview'){startExamWrongReview();return;}if(state.subject)startSubject(state.subject,state.practiceSize||20);}
   function resetToHome(){stopExamTimer();state.subject=null;state.bank=[];state.session=[];state.sessionKind='practice';state.browseSubject=null;state.browseBank=[];renderHome();showView('home');}
   function handleHome(){if(!views.examQuiz.classList.contains('hidden')&&!state.exam.finished){if(!confirm('진행 중인 시험을 종료하고 메인으로 갈까?'))return;}resetToHome();}
 
-  els.bankStartQuizBtn.addEventListener('click',()=>{if(state.browseSubject)startSubject(state.browseSubject);});
-  els.bankFloatQuizBtn?.addEventListener('click',()=>{if(state.browseSubject)startSubject(state.browseSubject);});
+  els.bankStartQuizBtn.addEventListener('click',()=>{if(state.browseSubject)startSubject(state.browseSubject,20);});
+  els.bankFloatQuizBtn?.addEventListener('click',()=>{if(state.browseSubject)startSubject(state.browseSubject,20);});
   els.bankFloatHomeBtn?.addEventListener('click',resetToHome);
   els.bankFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   window.addEventListener('scroll',updateBankFloatActions,{passive:true});

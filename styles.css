@@ -836,3 +836,110 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
     scroll-margin-top: 86px;
   }
 }
+
+
+/* v1.34: 과목별 10문제 / 20문제 선택 */
+.subject-card {
+  grid-template-columns: minmax(0, 1fr) 148px;
+}
+
+.subject-info {
+  align-self: center;
+  min-width: 0;
+  padding: 4px 0;
+}
+
+.subject-info strong {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.subject-info span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.subject-actions {
+  display: grid;
+  gap: 7px;
+  width: 148px;
+}
+
+.subject-quick-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.subject-quiz-count-btn,
+.subject-actions .subject-browse-btn {
+  width: 100%;
+}
+
+.subject-quiz-count-btn {
+  min-height: 38px;
+  padding: 0 8px;
+  border: 1px solid #bfd0f5;
+  border-radius: 11px;
+  background: var(--blue-soft);
+  color: var(--primary-2);
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.subject-quiz-count-btn:hover {
+  border-color: #8eacec;
+  background: #e4edff;
+}
+
+.subject-quiz-count-btn:disabled,
+.subject-browse-btn:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+@media (max-width: 560px) {
+  .subject-card {
+    grid-template-columns: minmax(0, 1fr) 142px;
+    gap: 10px;
+  }
+
+  .subject-info strong {
+    font-size: 17px;
+  }
+
+  .subject-info span {
+    font-size: 12px;
+  }
+
+  .subject-actions {
+    width: 142px;
+    gap: 6px;
+  }
+
+  .subject-quiz-count-btn {
+    min-height: 36px;
+    padding: 0 5px;
+    font-size: 11px;
+  }
+
+  .subject-actions .subject-browse-btn {
+    min-height: 36px;
+    padding: 0 8px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 380px) {
+  .subject-card {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-actions {
+    width: 100%;
+  }
+}
