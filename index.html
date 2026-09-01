@@ -1,10 +1,47 @@
 <!doctype html>
 <html lang="ko">
 <head>
+  <script>
+  (() => {
+    const VERSION_CHECK_KEY = 'gichulLatestVersionCheck';
+    const VERSION_CHECK_INTERVAL = 30 * 1000;
+
+    async function checkLatestVersion() {
+      try {
+        const now = Date.now();
+        const last = Number(sessionStorage.getItem(VERSION_CHECK_KEY) || 0);
+        if (now - last < VERSION_CHECK_INTERVAL) return;
+        sessionStorage.setItem(VERSION_CHECK_KEY, String(now));
+
+        const response = await fetch(`version.json?t=${now}`, {
+          cache: 'no-store',
+          headers: { 'Cache-Control': 'no-cache' }
+        });
+        if (!response.ok) return;
+
+        const info = await response.json();
+        const latest = String(info.version || '').trim();
+        if (!latest) return;
+
+        const url = new URL(location.href);
+        const current = url.searchParams.get('v');
+
+        if (current !== latest) {
+          url.searchParams.set('v', latest);
+          location.replace(url.toString());
+        }
+      } catch (_) {}
+    }
+
+    checkLatestVersion();
+  })();
+  </script>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="app-version" content="1.45" />
   <title>공인중개사 기출문제</title>
-  <link rel="stylesheet" href="styles.css?v=1.44" />
+  <link rel="stylesheet" href="styles.css?v=1.45" />
 </head>
 <body>
   <main class="app-shell" id="app">
@@ -272,7 +309,7 @@
   </main>
 
   <script src="data/manifest.js"></script>
-  <script src="summary/manifest.js?v=1.44"></script>
-  <script src="app.js?v=1.44"></script>
+  <script src="summary/manifest.js?v=1.45"></script>
+  <script src="app.js?v=1.45"></script>
 </body>
 </html>
