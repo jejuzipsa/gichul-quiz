@@ -9,12 +9,19 @@
 <body>
   <main class="app-shell" id="app">
     <header class="topbar">
-      <div>
+      <div class="topbar-title-wrap">
         <h1 id="headerTitle">공인중개사 기출문제</h1>
       </div>
-      <button id="homeBtn" class="ghost-btn home-icon-btn hidden" type="button" aria-label="홈으로" title="홈으로">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5v-9.7Z"/><path d="M1.8 11.7 12 2.8l10.2 8.9"/></svg>
-      </button>
+      <div class="topbar-actions">
+        <div class="reading-size-control" role="group" aria-label="문제 글자 크기">
+          <button class="reading-size-btn" type="button" data-reading-size="small" aria-label="글자 작게" title="글자 작게">A−</button>
+          <button class="reading-size-btn" type="button" data-reading-size="normal" aria-label="글자 보통" title="글자 보통">A</button>
+          <button class="reading-size-btn" type="button" data-reading-size="large" aria-label="글자 크게" title="글자 크게">A+</button>
+        </div>
+        <button id="homeBtn" class="ghost-btn home-icon-btn hidden" type="button" aria-label="홈으로" title="홈으로">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5v-9.7Z"/><path d="M1.8 11.7 12 2.8l10.2 8.9"/></svg>
+        </button>
+      </div>
     </header>
 
     <section id="homeView" class="view">

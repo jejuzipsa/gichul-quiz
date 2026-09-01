@@ -943,3 +943,121 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
     width: 100%;
   }
 }
+
+
+/* v1.37: 문제/보기/해설 글자 크기 선택 */
+body {
+  --reading-question-size: clamp(22px, 2.5vw, 32px);
+  --reading-bank-question-size: clamp(18px, 2.1vw, 23px);
+  --reading-text-size: 16px;
+  --reading-explanation-size: 15px;
+}
+
+body[data-reading-size="small"] {
+  --reading-question-size: clamp(19px, 2.2vw, 27px);
+  --reading-bank-question-size: clamp(16px, 1.9vw, 20px);
+  --reading-text-size: 14px;
+  --reading-explanation-size: 14px;
+}
+
+body[data-reading-size="large"] {
+  --reading-question-size: clamp(25px, 3vw, 37px);
+  --reading-bank-question-size: clamp(21px, 2.5vw, 28px);
+  --reading-text-size: 19px;
+  --reading-explanation-size: 18px;
+}
+
+.topbar-title-wrap {
+  min-width: 0;
+}
+
+.topbar-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reading-size-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: var(--surface);
+}
+
+.reading-size-btn {
+  min-width: 36px;
+  height: 38px;
+  padding: 0 7px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 850;
+  line-height: 1;
+}
+
+.reading-size-btn:hover {
+  background: var(--surface-2);
+  color: var(--primary);
+}
+
+.reading-size-btn.active {
+  background: var(--blue-soft);
+  color: var(--primary);
+}
+
+.reading-size-btn:focus-visible {
+  outline: 3px solid rgba(31, 99, 233, .2);
+  outline-offset: 1px;
+}
+
+/* 읽기 영역만 조절하고 메뉴/버튼 크기는 유지 */
+.question-text-content {
+  font-size: var(--reading-question-size);
+}
+
+.bank-question-title {
+  font-size: var(--reading-bank-question-size);
+}
+
+.choice-text,
+.bank-choice-row,
+.exam-review-choice-text,
+.answer-choice-text,
+.feedback {
+  font-size: var(--reading-text-size);
+}
+
+.exam-review-explanation {
+  font-size: var(--reading-explanation-size);
+}
+
+@media (max-width: 560px) {
+  .topbar {
+    gap: 8px;
+  }
+
+  .topbar-actions {
+    gap: 5px;
+  }
+
+  .reading-size-control {
+    gap: 2px;
+    padding: 3px;
+    border-radius: 11px;
+  }
+
+  .reading-size-btn {
+    min-width: 30px;
+    width: 30px;
+    height: 36px;
+    padding: 0;
+    font-size: 11px;
+    border-radius: 8px;
+  }
+}

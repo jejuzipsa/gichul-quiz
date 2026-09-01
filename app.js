@@ -1,5 +1,7 @@
 (() => {
   const $ = (id) => document.getElementById(id);
+  const READING_SIZE_KEY = 'gichulQuizReadingSize';
+  const READING_SIZES = new Set(['small','normal','large']);
 
   const state = {
     subject: null,
@@ -75,6 +77,30 @@
     examYearSelect: $('examYearSelect'), examTypeGrid: $('examTypeGrid'), examHistoryList: $('examHistoryList'), clearExamHistoryBtn: $('clearExamHistoryBtn'), examRunningTitle: $('examRunningTitle'), examRunningProgress: $('examRunningProgress'), examTimer: $('examTimer'), examProgressFill: $('examProgressFill'), examQuestionNumber: $('examQuestionNumber'), examQuestionText: $('examQuestionText'), examAnswerForm: $('examAnswerForm'), examNextBtn: $('examNextBtn'), examQuestionIndex: $('examQuestionIndex'),
     examResultMeta: $('examResultMeta'), examResultHeadline: $('examResultHeadline'), examResultScore: $('examResultScore'), examScoreCards: $('examScoreCards'), examFullReviewBtn: $('examFullReviewBtn'), examResultGrid: $('examResultGrid'), examResultNote: $('examResultNote'), examFullReview: $('examFullReview'), examFullReviewList: $('examFullReviewList'), examResultActions: $('examResultActions'), examWrongReviewBtn: $('examWrongReviewBtn'), examAgainBtn: $('examAgainBtn'), examStickyCloseBtn: $('examStickyCloseBtn'), examHomeBtn: $('examHomeBtn'), examScrollTopBtn: $('examScrollTopBtn')
   };
+
+  const readingSizeButtons = [...document.querySelectorAll('.reading-size-btn')];
+
+  function loadReadingSize(){
+    try {
+      const saved = localStorage.getItem(READING_SIZE_KEY);
+      return READING_SIZES.has(saved) ? saved : 'normal';
+    } catch {
+      return 'normal';
+    }
+  }
+
+  function applyReadingSize(size, persist=true){
+    const next = READING_SIZES.has(size) ? size : 'normal';
+    document.body.dataset.readingSize = next;
+    readingSizeButtons.forEach(btn => {
+      const active = btn.dataset.readingSize === next;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    if(persist){
+      try { localStorage.setItem(READING_SIZE_KEY, next); } catch {}
+    }
+  }
 
   function showView(name) {
     Object.entries(views).forEach(([key, el]) => el.classList.toggle('hidden', key !== name));
@@ -792,6 +818,11 @@
   window.addEventListener('scroll',updateBankFloatActions,{passive:true});
   els.nextBtn.addEventListener('click',nextQuestion); els.backToResultBtn.addEventListener('click',showResult); els.practiceFullReviewBtn?.addEventListener('click',togglePracticeFullReview); els.practiceStickyCloseBtn?.addEventListener('click',()=>setPracticeFullReview(false)); els.practiceScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.restartBtn.addEventListener('click',restartPractice); els.changeSubjectBtn.addEventListener('click',resetToHome); els.homeBtn.addEventListener('click',handleHome);
   els.examEntryBtn.addEventListener('click',openExamSetup); els.examNextBtn.addEventListener('click',goExamNext); els.examFullReviewBtn.addEventListener('click',toggleExamFullReview); els.examWrongReviewBtn.addEventListener('click',startExamWrongReview); els.examAgainBtn.addEventListener('click',()=>startExam(state.exam.type,String(state.exam.year))); els.examStickyCloseBtn?.addEventListener('click',()=>setExamFullReview(false)); els.examHomeBtn.addEventListener('click',openExamSetup); els.examScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.clearExamHistoryBtn?.addEventListener('click',clearExamHistory);
+
+  readingSizeButtons.forEach(btn => {
+    btn.addEventListener('click', () => applyReadingSize(btn.dataset.readingSize));
+  });
+  applyReadingSize(loadReadingSize(), false);
 
   if(!manifest.length){alert('과목 manifest를 읽지 못했어. data/manifest.js 파일을 확인해줘.');return;}
   renderHome();showView('home');
