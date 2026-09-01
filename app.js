@@ -17,6 +17,9 @@
     browseSubject: null,
     browseBank: [],
     browsePage: 1,
+    summaryCode: null,
+    summaryData: null,
+    summaryCache: new Map(),
     exam: {
       type: null,
       year: null,
@@ -31,6 +34,7 @@
   };
 
   const manifest = Array.isArray(window.SUBJECT_MANIFEST) ? window.SUBJECT_MANIFEST : [];
+  const summaryManifest = Array.isArray(window.SUMMARY_MANIFEST) ? window.SUMMARY_MANIFEST : [];
 
   const EXAM_CONFIGS = {
     first: {
@@ -65,12 +69,13 @@
   };
 
   const views = {
-    home: $('homeView'), bank: $('bankView'), quiz: $('quizView'), result: $('resultView'),
+    home: $('homeView'), summary: $('summaryView'), bank: $('bankView'), quiz: $('quizView'), result: $('resultView'),
     examSetup: $('examSetupView'), examQuiz: $('examQuizView'), examResult: $('examResultView')
   };
 
   const els = {
     headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'),
+    summarySubjectGrid: $('summarySubjectGrid'), summaryTitle: $('summaryTitle'), summaryMeta: $('summaryMeta'), summarySearch: $('summarySearch'), summarySubjectTabs: $('summarySubjectTabs'), summaryToc: $('summaryToc'), summaryContent: $('summaryContent'), summarySearchStatus: $('summarySearchStatus'), summaryFloatActions: $('summaryFloatActions'), summaryFloatHomeBtn: $('summaryFloatHomeBtn'), summaryFloatTopBtn: $('summaryFloatTopBtn'),
     bankBrowserSubject: $('bankBrowserSubject'), bankBrowserSummary: $('bankBrowserSummary'), bankQuestionList: $('bankQuestionList'), bankPagination: $('bankPagination'), bankStartQuizBtn: $('bankStartQuizBtn'), bankFloatActions: $('bankFloatActions'), bankFloatQuizBtn: $('bankFloatQuizBtn'), bankFloatHomeBtn: $('bankFloatHomeBtn'), bankFloatTopBtn: $('bankFloatTopBtn'),
     quizSubject: $('quizSubject'), quizProgress: $('quizProgress'), sourceMeta: $('sourceMeta'), progressFill: $('progressFill'), questionCard: $('questionCard'), questionNumber: $('questionNumber'), questionText: $('questionText'), answerForm: $('answerForm'), feedback: $('feedback'), nextBtn: $('nextBtn'), backToResultBtn: $('backToResultBtn'),
     resultSubject: $('resultSubject'), resultScore: $('resultScore'), resultGrid: $('resultGrid'), resultHint: $('resultHint'), practiceFullReviewBtn: $('practiceFullReviewBtn'), practiceFullReview: $('practiceFullReview'), practiceFullReviewList: $('practiceFullReviewList'), practiceResultActions: $('practiceResultActions'), practiceStickyCloseBtn: $('practiceStickyCloseBtn'), practiceScrollTopBtn: $('practiceScrollTopBtn'), restartBtn: $('restartBtn'), changeSubjectBtn: $('changeSubjectBtn'),
@@ -106,6 +111,7 @@
     Object.entries(views).forEach(([key, el]) => el.classList.toggle('hidden', key !== name));
     els.homeBtn.classList.toggle('hidden', name === 'home');
     els.bankFloatActions?.classList.add('hidden');
+    els.summaryFloatActions?.classList.add('hidden');
     window.scrollTo({top: 0, behavior: 'smooth'});
   }
 
@@ -133,6 +139,7 @@
     const total = totalQuestionCount();
     els.headerTitle.textContent = `공인중개사 기출문제(${total}문항)`;
     els.subjectGrid.innerHTML = '';
+    renderSummaryHome();
     for (const entry of manifest) {
       const count = subjectCount(entry);
       const card = document.createElement('div');
@@ -194,6 +201,222 @@
       card.append(info, actions);
       els.subjectGrid.appendChild(card);
     }
+  }
+
+
+  function renderSummaryHome(){
+    if(!els.summarySubjectGrid)return;
+    els.summarySubjectGrid.innerHTML='';
+    for(const entry of summaryManifest){
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.className='summary-subject-home-btn';
+      btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>${entry.page_count}페이지</span>`;
+      btn.addEventListener('click',async()=>{
+        btn.disabled=true;
+        const original=btn.innerHTML;
+        btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>불러오는 중...</span>`;
+        try{await openSummary(entry.code);}
+        catch(err){
+          alert(`핵심요약을 불러오지 못했어.\n\n${err.message}`);
+          btn.disabled=false;
+          btn.innerHTML=original;
+        }
+      });
+      els.summarySubjectGrid.appendChild(btn);
+    }
+  }
+
+  function loadSummaryScriptOnce(src,code){
+    return new Promise((resolve,reject)=>{
+      if(window.SUMMARY_DATA&&window.SUMMARY_DATA[code])return resolve(window.SUMMARY_DATA[code]);
+      const script=document.createElement('script');
+      script.src=src;
+      script.async=true;
+      script.onload=()=>{
+        const data=window.SUMMARY_DATA&&window.SUMMARY_DATA[code];
+        if(!data)reject(new Error(`${src}에서 핵심요약 데이터를 찾지 못했어.`));
+        else resolve(data);
+      };
+      script.onerror=()=>reject(new Error(`${src} 파일을 읽지 못했어.`));
+      document.head.appendChild(script);
+    });
+  }
+
+  async function loadSummaryData(code){
+    if(state.summaryCache.has(code))return state.summaryCache.get(code);
+    const entry=summaryManifest.find(item=>item.code===code);
+    if(!entry)throw new Error(`핵심요약 설정을 찾을 수 없어: ${code}`);
+    let data;
+    if(location.protocol!=='file:'){
+      try{
+        const response=await fetch(entry.json,{cache:'no-store'});
+        if(!response.ok)throw new Error(`HTTP ${response.status}`);
+        data=await response.json();
+      }catch{
+        data=await loadSummaryScriptOnce(entry.script,code);
+      }
+    }else{
+      data=await loadSummaryScriptOnce(entry.script,code);
+    }
+    if(!data||!Array.isArray(data.sections))throw new Error('핵심요약 데이터 형식이 잘못됐어.');
+    state.summaryCache.set(code,data);
+    return data;
+  }
+
+  async function openSummary(code){
+    const data=await loadSummaryData(code);
+    state.summaryCode=code;
+    state.summaryData=data;
+    els.headerTitle.textContent='공인중개사 핵심요약';
+    if(els.summarySearch)els.summarySearch.value='';
+    renderSummaryTabs();
+    renderSummaryReader();
+    showView('summary');
+  }
+
+  function renderSummaryTabs(){
+    if(!els.summarySubjectTabs)return;
+    els.summarySubjectTabs.innerHTML='';
+    for(const entry of summaryManifest){
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.className=`summary-tab${entry.code===state.summaryCode?' active':''}`;
+      btn.textContent=entry.short_name||entry.name;
+      btn.addEventListener('click',()=>openSummary(entry.code));
+      els.summarySubjectTabs.appendChild(btn);
+    }
+  }
+
+  function summaryPageLabel(section){
+    return section.page_start===section.page_end
+      ? `PDF ${section.page_start}쪽`
+      : `PDF ${section.page_start}~${section.page_end}쪽`;
+  }
+
+  function renderSummaryReader(){
+    const data=state.summaryData;
+    if(!data)return;
+    els.summaryTitle.textContent=data.name;
+    els.summaryMeta.textContent=`${data.page_count}페이지 · ${data.section_count}개 항목 · 업로드한 요약 PDF 기준`;
+    els.summaryToc.innerHTML='';
+    els.summaryContent.innerHTML='';
+
+    let currentGroup='';
+    for(const section of data.sections){
+      if(section.group!==currentGroup){
+        currentGroup=section.group;
+        const group=document.createElement('div');
+        group.className='summary-group-heading';
+        group.dataset.summaryGroup=currentGroup;
+        group.textContent=currentGroup;
+        els.summaryContent.appendChild(group);
+
+        const tocGroup=document.createElement('div');
+        tocGroup.className='summary-toc-group';
+        tocGroup.textContent=currentGroup;
+        els.summaryToc.appendChild(tocGroup);
+      }
+
+      const details=document.createElement('details');
+      details.className='summary-section';
+      details.id=section.id;
+      details.open=true;
+      details.dataset.searchText=`${section.group} ${section.title} ${section.content}`.toLowerCase();
+
+      const head=document.createElement('summary');
+      head.className='summary-section-head';
+      const title=document.createElement('span');
+      title.className='summary-section-title';
+      title.textContent=section.title;
+      const page=document.createElement('span');
+      page.className='summary-section-page';
+      page.textContent=summaryPageLabel(section);
+      head.append(title,page);
+
+      const bodyWrap=document.createElement('div');
+      bodyWrap.className='summary-section-body-wrap';
+      const body=document.createElement('pre');
+      body.className='summary-section-body';
+      body.textContent=section.content;
+      bodyWrap.appendChild(body);
+
+      details.append(head,bodyWrap);
+      els.summaryContent.appendChild(details);
+
+      const tocBtn=document.createElement('button');
+      tocBtn.type='button';
+      tocBtn.className='summary-toc-btn';
+      tocBtn.textContent=section.title;
+      tocBtn.dataset.target=section.id;
+      tocBtn.dataset.searchText=`${section.group} ${section.title} ${section.content}`.toLowerCase();
+      tocBtn.addEventListener('click',()=>{
+        details.open=true;
+        details.scrollIntoView({behavior:'smooth',block:'start'});
+      });
+      els.summaryToc.appendChild(tocBtn);
+    }
+    applySummarySearch('');
+  }
+
+  function applySummarySearch(rawQuery){
+    const query=String(rawQuery||'').trim().toLowerCase();
+    const sections=[...els.summaryContent.querySelectorAll('.summary-section')];
+    const tocButtons=[...els.summaryToc.querySelectorAll('.summary-toc-btn')];
+
+    let matches=0;
+    sections.forEach(section=>{
+      const visible=!query||section.dataset.searchText.includes(query);
+      section.classList.toggle('hidden',!visible);
+      if(visible){
+        matches++;
+        if(query)section.open=true;
+      }
+    });
+
+    tocButtons.forEach(btn=>{
+      btn.classList.toggle('hidden',!!query&&!btn.dataset.searchText.includes(query));
+    });
+
+    [...els.summaryContent.querySelectorAll('.summary-group-heading')].forEach(group=>{
+      let next=group.nextElementSibling;
+      let hasVisible=false;
+      while(next&&!next.classList.contains('summary-group-heading')){
+        if(next.classList.contains('summary-section')&&!next.classList.contains('hidden')){
+          hasVisible=true;break;
+        }
+        next=next.nextElementSibling;
+      }
+      group.classList.toggle('hidden',!hasVisible);
+    });
+
+    [...els.summaryToc.querySelectorAll('.summary-toc-group')].forEach(group=>{
+      let next=group.nextElementSibling;
+      let hasVisible=false;
+      while(next&&!next.classList.contains('summary-toc-group')){
+        if(next.classList.contains('summary-toc-btn')&&!next.classList.contains('hidden')){
+          hasVisible=true;break;
+        }
+        next=next.nextElementSibling;
+      }
+      group.classList.toggle('hidden',!hasVisible);
+    });
+
+    if(query){
+      els.summarySearchStatus.classList.remove('hidden');
+      els.summarySearchStatus.textContent=matches
+        ? `“${rawQuery.trim()}” 검색 결과 ${matches}개 항목`
+        : `“${rawQuery.trim()}” 검색 결과가 없어.`;
+    }else{
+      els.summarySearchStatus.classList.add('hidden');
+      els.summarySearchStatus.textContent='';
+    }
+  }
+
+  function updateSummaryFloatActions(){
+    if(!els.summaryFloatActions)return;
+    const visible=!views.summary.classList.contains('hidden')&&window.scrollY>=280;
+    els.summaryFloatActions.classList.toggle('hidden',!visible);
   }
 
   function validateBank(data, expectedSubject = null) {
@@ -808,7 +1031,7 @@
     state.session=r.wrongItems.map(x=>buildSessionItem(x.q));state.sessionKind='examReview';state.index=0;state.reviewMode=false;showView('quiz');renderQuestion();
   }
   function restartPractice(){if(state.sessionKind==='examReview'){startExamWrongReview();return;}if(state.subject)startSubject(state.subject,state.practiceSize||20);}
-  function resetToHome(){stopExamTimer();state.subject=null;state.bank=[];state.session=[];state.sessionKind='practice';state.browseSubject=null;state.browseBank=[];renderHome();showView('home');}
+  function resetToHome(){stopExamTimer();state.subject=null;state.bank=[];state.session=[];state.sessionKind='practice';state.browseSubject=null;state.browseBank=[];state.summaryCode=null;state.summaryData=null;renderHome();showView('home');}
   function handleHome(){if(!views.examQuiz.classList.contains('hidden')&&!state.exam.finished){if(!confirm('진행 중인 시험을 종료하고 메인으로 갈까?'))return;}resetToHome();}
 
   els.bankStartQuizBtn.addEventListener('click',()=>{if(state.browseSubject)startSubject(state.browseSubject,20);});
@@ -817,6 +1040,10 @@
   els.bankFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   window.addEventListener('scroll',updateBankFloatActions,{passive:true});
   els.nextBtn.addEventListener('click',nextQuestion); els.backToResultBtn.addEventListener('click',showResult); els.practiceFullReviewBtn?.addEventListener('click',togglePracticeFullReview); els.practiceStickyCloseBtn?.addEventListener('click',()=>setPracticeFullReview(false)); els.practiceScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.restartBtn.addEventListener('click',restartPractice); els.changeSubjectBtn.addEventListener('click',resetToHome); els.homeBtn.addEventListener('click',handleHome);
+  els.summarySearch?.addEventListener('input',()=>applySummarySearch(els.summarySearch.value));
+  els.summaryFloatHomeBtn?.addEventListener('click',resetToHome);
+  els.summaryFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+  window.addEventListener('scroll',updateSummaryFloatActions,{passive:true});
   els.examEntryBtn.addEventListener('click',openExamSetup); els.examNextBtn.addEventListener('click',goExamNext); els.examFullReviewBtn.addEventListener('click',toggleExamFullReview); els.examWrongReviewBtn.addEventListener('click',startExamWrongReview); els.examAgainBtn.addEventListener('click',()=>startExam(state.exam.type,String(state.exam.year))); els.examStickyCloseBtn?.addEventListener('click',()=>setExamFullReview(false)); els.examHomeBtn.addEventListener('click',openExamSetup); els.examScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.clearExamHistoryBtn?.addEventListener('click',clearExamHistory);
 
   readingSizeButtons.forEach(btn => {

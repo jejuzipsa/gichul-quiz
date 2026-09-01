@@ -30,6 +30,56 @@
         <img class="exam-entry-icon" src="assets/exam-icon.png" alt="" aria-hidden="true" />
         <span>실전처럼 시험 보기</span>
       </button>
+
+      <section class="summary-home-section" aria-labelledby="summaryHomeTitle">
+        <div class="summary-home-head">
+          <h2 id="summaryHomeTitle">핵심요약</h2>
+        </div>
+        <div id="summarySubjectGrid" class="summary-subject-grid"></div>
+      </section>
+    </section>
+
+    <section id="summaryView" class="view hidden">
+      <div class="summary-reader-head">
+        <div>
+          <p class="eyebrow">핵심요약</p>
+          <h2 id="summaryTitle">과목</h2>
+          <p id="summaryMeta" class="summary-meta"></p>
+        </div>
+        <label class="summary-search-wrap">
+          <span class="sr-only">핵심요약 검색</span>
+          <input id="summarySearch" class="summary-search" type="search" placeholder="이 과목에서 검색" autocomplete="off" />
+        </label>
+      </div>
+
+      <div id="summarySubjectTabs" class="summary-subject-tabs" aria-label="핵심요약 과목"></div>
+
+      <div class="summary-reader-layout">
+        <aside class="summary-toc-panel">
+          <div class="summary-toc-title">목차</div>
+          <nav id="summaryToc" class="summary-toc" aria-label="핵심요약 목차"></nav>
+        </aside>
+
+        <div class="summary-main">
+          <div id="summarySearchStatus" class="summary-search-status hidden" aria-live="polite"></div>
+          <div id="summaryContent" class="summary-content"></div>
+        </div>
+      </div>
+
+      <div id="summaryFloatActions" class="summary-float-actions hidden" aria-label="핵심요약 빠른 메뉴">
+        <button id="summaryFloatHomeBtn" class="secondary-btn summary-float-icon-btn" type="button" aria-label="홈" title="홈">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5v-9.7Z"></path>
+            <path d="M1.8 11.7 12 2.8l10.2 8.9"></path>
+          </svg>
+        </button>
+        <button id="summaryFloatTopBtn" class="secondary-btn summary-float-icon-btn" type="button" aria-label="맨 위로" title="맨 위로">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 19V5"></path>
+            <path d="m6.5 10.5 5.5-5.5 5.5 5.5"></path>
+          </svg>
+        </button>
+      </div>
     </section>
 
     <section id="bankView" class="view hidden">
@@ -216,6 +266,7 @@
   </main>
 
   <script src="data/manifest.js"></script>
+  <script src="summary/manifest.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
