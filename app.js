@@ -211,10 +211,14 @@
       const btn=document.createElement('button');
       btn.type='button';
       btn.className='summary-subject-home-btn';
-      btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>${entry.code==='real_estate_intro'?'슬라이드형 · 새 탭':entry.page_count+'페이지'}</span>`;
+      btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>슬라이드형 · 새 탭</span>`;
       btn.addEventListener('click',async()=>{
         if(entry.code==='real_estate_intro'){
-          window.open('summary/real_estate_intro_slides.html','_blank','noopener');
+          window.open('summary/real_estate_intro_slides_v142.html','_blank','noopener');
+          return;
+        }
+        if(['civil_law','brokerage_law','public_law','registration_law','tax_law'].includes(entry.code)){
+          window.open(`summary/slides_v143.html?subject=${encodeURIComponent(entry.code)}`,'_blank','noopener');
           return;
         }
         btn.disabled=true;
