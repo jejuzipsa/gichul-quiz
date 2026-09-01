@@ -75,7 +75,7 @@
 
   const els = {
     headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'),
-    summarySubjectGrid: $('summarySubjectGrid'), summaryTitle: $('summaryTitle'), summaryMeta: $('summaryMeta'), summarySearch: $('summarySearch'), summarySubjectTabs: $('summarySubjectTabs'), summaryToc: $('summaryToc'), summaryContent: $('summaryContent'), summarySearchStatus: $('summarySearchStatus'), summaryFloatActions: $('summaryFloatActions'), summaryFloatHomeBtn: $('summaryFloatHomeBtn'), summaryFloatTopBtn: $('summaryFloatTopBtn'),
+    summarySubjectGrid: $('summarySubjectGrid'), summaryTitle: $('summaryTitle'), summaryMeta: $('summaryMeta'), summarySearch: $('summarySearch'), summarySubjectTabs: $('summarySubjectTabs'), summaryToc: $('summaryToc'), summaryTocSelect: $('summaryTocSelect'), summaryContent: $('summaryContent'), summarySearchStatus: $('summarySearchStatus'), summaryFloatActions: $('summaryFloatActions'), summaryFloatHomeBtn: $('summaryFloatHomeBtn'), summaryFloatTopBtn: $('summaryFloatTopBtn'),
     bankBrowserSubject: $('bankBrowserSubject'), bankBrowserSummary: $('bankBrowserSummary'), bankQuestionList: $('bankQuestionList'), bankPagination: $('bankPagination'), bankStartQuizBtn: $('bankStartQuizBtn'), bankFloatActions: $('bankFloatActions'), bankFloatQuizBtn: $('bankFloatQuizBtn'), bankFloatHomeBtn: $('bankFloatHomeBtn'), bankFloatTopBtn: $('bankFloatTopBtn'),
     quizSubject: $('quizSubject'), quizProgress: $('quizProgress'), sourceMeta: $('sourceMeta'), progressFill: $('progressFill'), questionCard: $('questionCard'), questionNumber: $('questionNumber'), questionText: $('questionText'), answerForm: $('answerForm'), feedback: $('feedback'), nextBtn: $('nextBtn'), backToResultBtn: $('backToResultBtn'),
     resultSubject: $('resultSubject'), resultScore: $('resultScore'), resultGrid: $('resultGrid'), resultHint: $('resultHint'), practiceFullReviewBtn: $('practiceFullReviewBtn'), practiceFullReview: $('practiceFullReview'), practiceFullReviewList: $('practiceFullReviewList'), practiceResultActions: $('practiceResultActions'), practiceStickyCloseBtn: $('practiceStickyCloseBtn'), practiceScrollTopBtn: $('practiceScrollTopBtn'), restartBtn: $('restartBtn'), changeSubjectBtn: $('changeSubjectBtn'),
@@ -211,8 +211,12 @@
       const btn=document.createElement('button');
       btn.type='button';
       btn.className='summary-subject-home-btn';
-      btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>${entry.page_count}페이지</span>`;
+      btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>${entry.code==='real_estate_intro'?'슬라이드형 · 새 탭':entry.page_count+'페이지'}</span>`;
       btn.addEventListener('click',async()=>{
+        if(entry.code==='real_estate_intro'){
+          window.open('summary/real_estate_intro_slides.html','_blank','noopener');
+          return;
+        }
         btn.disabled=true;
         const original=btn.innerHTML;
         btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>불러오는 중...</span>`;
@@ -294,16 +298,53 @@
       : `PDF ${section.page_start}~${section.page_end}쪽`;
   }
 
+  function renderSummaryMobileBody(container,content){
+    container.innerHTML='';
+    const lines=String(content||'').replace(/\r/g,'').split('\n');
+    let previousBlank=false;
+    for(const raw of lines){
+      const normalized=raw
+        .replace(/\t+/g,' ')
+        .replace(/[ ]{2,}/g,' ')
+        .trim();
+
+      if(!normalized){
+        if(!previousBlank){
+          const spacer=document.createElement('div');
+          spacer.className='summary-mobile-spacer';
+          container.appendChild(spacer);
+        }
+        previousBlank=true;
+        continue;
+      }
+
+      previousBlank=false;
+      const line=document.createElement('div');
+      line.className='summary-mobile-line';
+      if(/^※/.test(normalized))line.classList.add('note');
+      else if(/^[○●◎]/.test(normalized))line.classList.add('bullet');
+      else if(/^[-–—ㆍ·]/.test(normalized))line.classList.add('dash');
+      else if(/^\(?\d+\)?[.)]/.test(normalized)||/^\(\d+\)/.test(normalized))line.classList.add('numbered');
+      line.textContent=normalized;
+      container.appendChild(line);
+    }
+  }
+
   function renderSummaryReader(){
     const data=state.summaryData;
     if(!data)return;
     els.summaryTitle.textContent=data.name;
     els.summaryMeta.textContent=`${data.page_count}페이지 · ${data.section_count}개 항목 · 업로드한 요약 PDF 기준`;
     els.summaryToc.innerHTML='';
+    if(els.summaryTocSelect){
+      els.summaryTocSelect.innerHTML='<option value="">목차에서 이동</option>';
+      els.summaryTocSelect.value='';
+    }
     els.summaryContent.innerHTML='';
 
+    const compactMobile=window.matchMedia('(max-width: 820px)').matches;
     let currentGroup='';
-    for(const section of data.sections){
+    for(const [idx,section] of data.sections.entries()){
       if(section.group!==currentGroup){
         currentGroup=section.group;
         const group=document.createElement('div');
@@ -321,7 +362,7 @@
       const details=document.createElement('details');
       details.className='summary-section';
       details.id=section.id;
-      details.open=true;
+      details.open=!compactMobile||idx===0;
       details.dataset.searchText=`${section.group} ${section.title} ${section.content}`.toLowerCase();
 
       const head=document.createElement('summary');
@@ -336,10 +377,16 @@
 
       const bodyWrap=document.createElement('div');
       bodyWrap.className='summary-section-body-wrap';
-      const body=document.createElement('pre');
-      body.className='summary-section-body';
-      body.textContent=section.content;
-      bodyWrap.appendChild(body);
+
+      const desktopBody=document.createElement('pre');
+      desktopBody.className='summary-section-body summary-desktop-body';
+      desktopBody.textContent=section.content;
+
+      const mobileBody=document.createElement('div');
+      mobileBody.className='summary-mobile-body';
+      renderSummaryMobileBody(mobileBody,section.content);
+
+      bodyWrap.append(desktopBody,mobileBody);
 
       details.append(head,bodyWrap);
       els.summaryContent.appendChild(details);
@@ -355,6 +402,15 @@
         details.scrollIntoView({behavior:'smooth',block:'start'});
       });
       els.summaryToc.appendChild(tocBtn);
+
+      if(els.summaryTocSelect){
+        const option=document.createElement('option');
+        option.value=section.id;
+        option.textContent=section.group===section.title
+          ? section.title
+          : `${section.group} · ${section.title}`;
+        els.summaryTocSelect.appendChild(option);
+      }
     }
     applySummarySearch('');
   }
@@ -1041,6 +1097,17 @@
   window.addEventListener('scroll',updateBankFloatActions,{passive:true});
   els.nextBtn.addEventListener('click',nextQuestion); els.backToResultBtn.addEventListener('click',showResult); els.practiceFullReviewBtn?.addEventListener('click',togglePracticeFullReview); els.practiceStickyCloseBtn?.addEventListener('click',()=>setPracticeFullReview(false)); els.practiceScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.restartBtn.addEventListener('click',restartPractice); els.changeSubjectBtn.addEventListener('click',resetToHome); els.homeBtn.addEventListener('click',handleHome);
   els.summarySearch?.addEventListener('input',()=>applySummarySearch(els.summarySearch.value));
+  els.summaryTocSelect?.addEventListener('change',()=>{
+    const id=els.summaryTocSelect.value;
+    if(!id)return;
+    const target=document.getElementById(id);
+    if(target){
+      target.classList.remove('hidden');
+      target.open=true;
+      target.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+    els.summaryTocSelect.value='';
+  });
   els.summaryFloatHomeBtn?.addEventListener('click',resetToHome);
   els.summaryFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   window.addEventListener('scroll',updateSummaryFloatActions,{passive:true});

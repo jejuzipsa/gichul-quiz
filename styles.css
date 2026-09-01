@@ -1543,3 +1543,241 @@ body[data-reading-size="large"] {
     min-height: 38px;
   }
 }
+
+
+/* v1.39: 핵심요약 모바일 가독성 재설계 */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#summaryView,
+.summary-reader-head,
+.summary-reader-layout,
+.summary-main,
+.summary-content,
+.summary-section,
+.summary-section-body-wrap,
+.summary-section-body {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.summary-mobile-toc-wrap,
+.summary-mobile-body {
+  display: none;
+}
+
+.summary-section-body {
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+
+/* 모바일 Safari에서 PDF 고정폭 텍스트가 문서 전체 폭을 늘리지 않도록 차단 */
+@media (max-width: 820px) {
+  #summaryView {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .summary-reader-head {
+    width: 100%;
+  }
+
+  .summary-subject-tabs {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .summary-tab {
+    min-height: 42px;
+    padding-inline: 14px;
+    font-size: 13px;
+  }
+
+  .summary-toc-panel {
+    width: 100%;
+    padding: 0;
+    overflow: visible;
+    border: 0;
+    background: transparent;
+  }
+
+  .summary-toc-title,
+  .summary-toc {
+    display: none;
+  }
+
+  .summary-mobile-toc-wrap {
+    display: block;
+    width: 100%;
+  }
+
+  .summary-mobile-toc {
+    display: block;
+    width: 100%;
+    min-height: 46px;
+    padding: 0 40px 0 14px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 750;
+  }
+
+  .summary-desktop-body {
+    display: none;
+  }
+
+  .summary-mobile-body {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    padding: 14px 14px 16px;
+    border-radius: 13px;
+    background: #f7f9fc;
+    color: var(--text);
+    font-size: max(16px, var(--reading-text-size));
+    line-height: 1.78;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+
+  body[data-reading-size="small"] .summary-mobile-body {
+    font-size: 15px;
+  }
+
+  body[data-reading-size="normal"] .summary-mobile-body {
+    font-size: 17px;
+  }
+
+  body[data-reading-size="large"] .summary-mobile-body {
+    font-size: 20px;
+  }
+
+  .summary-mobile-line {
+    max-width: 100%;
+    margin: 0 0 5px;
+  }
+
+  .summary-mobile-line.note {
+    margin-top: 9px;
+    padding: 9px 10px;
+    border-radius: 9px;
+    background: #fff7e9;
+    font-weight: 650;
+  }
+
+  .summary-mobile-line.bullet,
+  .summary-mobile-line.dash {
+    padding-left: 3px;
+  }
+
+  .summary-mobile-line.numbered {
+    margin-top: 8px;
+    font-weight: 700;
+  }
+
+  .summary-mobile-spacer {
+    height: 10px;
+  }
+
+  .summary-group-heading {
+    margin-top: 16px;
+    font-size: 18px;
+  }
+
+  .summary-section-head {
+    min-width: 0;
+  }
+
+  .summary-section-title {
+    font-size: 16px;
+  }
+
+  .summary-section-page {
+    font-size: 11px;
+  }
+
+  .summary-section-body-wrap {
+    width: 100%;
+    padding: 0 10px 10px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 560px) {
+  .app-shell {
+    width: calc(100% - 16px);
+    padding-top: 14px;
+  }
+
+  #summaryView {
+    font-size: 16px;
+  }
+
+  .summary-reader-head {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .summary-reader-head h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .summary-meta {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .summary-search {
+    min-height: 46px;
+    font-size: 16px;
+  }
+
+  .summary-subject-tabs {
+    gap: 6px;
+  }
+
+  .summary-tab {
+    min-height: 40px;
+    padding-inline: 12px;
+    font-size: 12px;
+  }
+
+  .summary-mobile-toc {
+    font-size: 16px;
+  }
+
+  .summary-content {
+    gap: 10px;
+  }
+
+  .summary-section {
+    width: 100%;
+  }
+
+  .summary-section-head {
+    padding: 13px;
+  }
+
+  .summary-section-title {
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .summary-section-body-wrap {
+    padding: 0 8px 8px;
+  }
+
+  .summary-mobile-body {
+    padding: 14px 13px;
+    border-radius: 11px;
+  }
+}
