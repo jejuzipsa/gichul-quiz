@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f5f7fb" />
   <title>핵심 개념 퀴즈</title>
-  <link rel="stylesheet" href="quiz.css?v=1.5" />
+  <link rel="stylesheet" href="quiz.css?v=1.6" />
 </head>
 <body>
   <main class="quiz-shell">
@@ -36,8 +36,8 @@
     const key=new URLSearchParams(location.search).get('subject')||'real_estate_intro';
     const file=subjects[key]||subjects.real_estate_intro;
     const data=document.createElement('script');
-    data.src=`data/${file}?v=20260902-currentlaw-v3`;
-    data.onload=()=>{const app=document.createElement('script');app.src='quiz.js?v=1.5';document.body.appendChild(app);};
+    data.src=`data/${file}?v=20260902-core-v1`;
+    data.onload=()=>{const app=document.createElement('script');app.src='quiz.js?v=1.6';document.body.appendChild(app);};
     data.onerror=()=>{document.body.innerHTML='<main class="quiz-shell"><article class="result-card"><h1>문제 데이터를 불러오지 못했습니다.</h1><a class="secondary-btn" href="../index.html">홈으로</a></article></main>';};
     document.body.appendChild(data);
   })();

@@ -1,14 +1,15 @@
 window.WORD_QUIZ_BANK = {
-  "version": 4,
+  "version": "core-2026-09-02-v1",
   "subject": "부동산학개론",
-  "count": 300,
+  "count": 156,
+  "conceptCount": 156,
   "randomPickDefault": 30,
   "format": "single_choice",
-  "style": "교재체(이다/한다)",
-  "sourceNote": "사용자가 업로드한 「1.공인중개사요약_부동산학개론.pdf」를 주된 기준으로 구성하였다. 맹지는 2021년 기출문제에서 확인했고, 나지 정의는 사용자의 요청을 유지하기 위해 일반 교재 정의를 보완지식으로 별도 표시하였다.",
+  "style": "핵심개념·기초암기·공식",
+  "sourceNote": "업로드 요약자료와 2021~2022 기출을 중심으로 기존 300문제에서 반복·역방향 중복·저효율 항목을 제거한 핵심 선별본.",
   "questions": [
     {
-      "id": "RE001",
+      "id": "REK001",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "복합개념의 부동산이란?",
@@ -21,10 +22,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동산은 유형적 측면과 무형적 측면을 함께 고려하는 복합개념으로 이해한다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE001",
+      "conceptId": "REK001",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE002",
+      "id": "REK002",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "획지란?",
@@ -37,10 +42,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "획지는 여러 기준에 따라 다른 토지와 구별되며 가격수준이 비슷한 일단의 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE002",
+      "conceptId": "REK002",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE003",
+      "id": "REK003",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "맹지란?",
@@ -53,10 +62,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "맹지는 도로에 직접 연결되지 않은 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "기출"
+      "sourceType": "기출",
+      "legacyId": "RE003",
+      "conceptId": "REK003",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE004",
+      "id": "REK004",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "나지란?",
@@ -69,10 +82,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "나지는 건물 등 정착물이 없고 사용·수익을 제한하는 사법상 권리가 설정되지 않은 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "기출·일반교재 보완"
+      "sourceType": "기출·일반교재 보완",
+      "legacyId": "RE004",
+      "conceptId": "REK004",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE005",
+      "id": "REK005",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "소지(素地)란?",
@@ -85,10 +102,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "소지는 택지 등으로 개발되기 전의 자연상태 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE005",
+      "conceptId": "REK005",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE006",
+      "id": "REK006",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "공한지란?",
@@ -101,10 +122,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "공한지는 도시 내에서 장기간 사용하지 않고 방치된 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE006",
+      "conceptId": "REK006",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE007",
+      "id": "REK007",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "후보지란?",
@@ -117,10 +142,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "후보지는 택지·농지·임지 등 대분류 사이에서 용도가 전환되는 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE007",
+      "conceptId": "REK007",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE008",
+      "id": "REK008",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "이행지란?",
@@ -133,10 +162,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "이행지는 같은 용도적 지역 안에서 소분류 사이의 용도가 바뀌는 토지이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE008",
+      "conceptId": "REK008",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE009",
+      "id": "REK009",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "빈지(濱地)란?",
@@ -149,10 +182,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "빈지는 바다와 육지 사이의 해변토지로 소유권은 인정되지 않으나 사용실익은 있는 것으로 정리된다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE009",
+      "conceptId": "REK009",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE010",
+      "id": "REK010",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "법지(法地)란?",
@@ -165,10 +202,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "법지는 경사진 토지부분으로 소유권은 인정되지만 활용실익이 없는 것으로 정리된다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE010",
+      "conceptId": "REK010",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE011",
+      "id": "REK011",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "부동성이란?",
@@ -181,10 +222,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동성은 시장의 국지화·지역적 세분과 외부효과 발생의 근거가 된다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE011",
+      "conceptId": "REK011",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE012",
+      "id": "REK012",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "영속성이란?",
@@ -197,10 +242,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "영속성은 물리적 감가상각 배제와 임대차시장 발달의 근거가 된다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE012",
+      "conceptId": "REK012",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE013",
+      "id": "REK013",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "부증성이란?",
@@ -213,10 +262,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부증성은 토지의 면적이 유한하고 물리적 수량이 고정되어 있다는 성질이다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE013",
+      "conceptId": "REK013",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE014",
+      "id": "REK014",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "개별성이란?",
@@ -229,10 +282,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "개별성은 개별분석의 필요성과 일물일가 원칙 적용의 어려움을 설명한다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE014",
+      "conceptId": "REK014",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE015",
+      "id": "REK015",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "인접성이란?",
@@ -245,250 +302,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "인접성은 협동적 이용과 경계 문제, 개발이익 사회환수 논리와 관련된다.",
       "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE015",
+      "conceptId": "REK015",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE016",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 기술적·경제적·법률적 측면을 종합하여 파악하는 부동산 개념",
-      "choices": [
-        "복합개념의 부동산",
-        "획지",
-        "맹지",
-        "나지"
-      ],
-      "answer": 0,
-      "explanation": "부동산은 유형적 측면과 무형적 측면을 함께 고려하는 복합개념으로 이해한다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE017",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 행정적·법률적·물리적·자연적 기준에 따라 구별되고 가격수준이 비슷한 일단의 토지",
-      "choices": [
-        "획지",
-        "맹지",
-        "나지",
-        "소지(素地)"
-      ],
-      "answer": 0,
-      "explanation": "획지는 여러 기준에 따라 다른 토지와 구별되며 가격수준이 비슷한 일단의 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE018",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 도로에 직접 연결되지 않은 토지",
-      "choices": [
-        "맹지",
-        "나지",
-        "소지(素地)",
-        "공한지"
-      ],
-      "answer": 0,
-      "explanation": "맹지는 도로에 직접 연결되지 않은 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "기출"
-    },
-    {
-      "id": "RE019",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 건물 등 정착물이 없고 토지의 사용·수익을 제한하는 사법상 권리가 설정되지 않은 토지",
-      "choices": [
-        "나지",
-        "소지(素地)",
-        "공한지",
-        "후보지"
-      ],
-      "answer": 0,
-      "explanation": "나지는 건물 등 정착물이 없고 사용·수익을 제한하는 사법상 권리가 설정되지 않은 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "기출·일반교재 보완"
-    },
-    {
-      "id": "RE020",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 택지 등으로 개발되기 전 자연적인 상태 그대로의 토지",
-      "choices": [
-        "소지(素地)",
-        "공한지",
-        "후보지",
-        "이행지"
-      ],
-      "answer": 0,
-      "explanation": "소지는 택지 등으로 개발되기 전의 자연상태 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE021",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 도시 내에서 사용하지 않고 장기간 방치된 토지",
-      "choices": [
-        "공한지",
-        "후보지",
-        "이행지",
-        "빈지(濱地)"
-      ],
-      "answer": 0,
-      "explanation": "공한지는 도시 내에서 장기간 사용하지 않고 방치된 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE022",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 택지·농지·임지 등 대분류 상호 간에 용도가 전환되는 토지",
-      "choices": [
-        "후보지",
-        "이행지",
-        "빈지(濱地)",
-        "법지(法地)"
-      ],
-      "answer": 0,
-      "explanation": "후보지는 택지·농지·임지 등 대분류 사이에서 용도가 전환되는 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE023",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 동일 용도적 지역 내에서 소분류 상호 간에 이행되는 토지",
-      "choices": [
-        "이행지",
-        "빈지(濱地)",
-        "법지(法地)",
-        "건부감가"
-      ],
-      "answer": 0,
-      "explanation": "이행지는 같은 용도적 지역 안에서 소분류 사이의 용도가 바뀌는 토지이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE024",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 만조수위선부터 지적공부에 등록된 지역까지 사이의 해변토지",
-      "choices": [
-        "빈지(濱地)",
-        "법지(法地)",
-        "건부감가",
-        "부동성"
-      ],
-      "answer": 0,
-      "explanation": "빈지는 바다와 육지 사이의 해변토지로 소유권은 인정되지 않으나 사용실익은 있는 것으로 정리된다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE025",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 택지의 유효지표면 경계와 인접지 또는 도로면 사이의 경사진 토지부분",
-      "choices": [
-        "법지(法地)",
-        "건부감가",
-        "부동성",
-        "영속성"
-      ],
-      "answer": 0,
-      "explanation": "법지는 경사진 토지부분으로 소유권은 인정되지만 활용실익이 없는 것으로 정리된다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE026",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 토지의 지리적 위치가 고정되어 이동할 수 없는 성질",
-      "choices": [
-        "부동성",
-        "영속성",
-        "부증성",
-        "개별성"
-      ],
-      "answer": 0,
-      "explanation": "부동성은 시장의 국지화·지역적 세분과 외부효과 발생의 근거가 된다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE027",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 토지가 물리적으로 소모되거나 소멸하지 않는 성질",
-      "choices": [
-        "영속성",
-        "부증성",
-        "개별성",
-        "인접성"
-      ],
-      "answer": 0,
-      "explanation": "영속성은 물리적 감가상각 배제와 임대차시장 발달의 근거가 된다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE028",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 토지의 물리적 수량을 인위적으로 늘릴 수 없는 성질",
-      "choices": [
-        "부증성",
-        "개별성",
-        "인접성",
-        "용도의 다양성"
-      ],
-      "answer": 0,
-      "explanation": "부증성은 토지의 면적이 유한하고 물리적 수량이 고정되어 있다는 성질이다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE029",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 각 토지가 서로 동일하지 않아 완전한 대체가 어려운 성질",
-      "choices": [
-        "개별성",
-        "인접성",
-        "용도의 다양성",
-        "병합·분할의 가능성"
-      ],
-      "answer": 0,
-      "explanation": "개별성은 개별분석의 필요성과 일물일가 원칙 적용의 어려움을 설명한다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE030",
-      "category": "기본원리·토지용어",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 인접 토지의 이용이 서로 영향을 주는 성질",
-      "choices": [
-        "인접성",
-        "용도의 다양성",
-        "병합·분할의 가능성",
-        "부동산 결정"
-      ],
-      "answer": 0,
-      "explanation": "인접성은 협동적 이용과 경계 문제, 개발이익 사회환수 논리와 관련된다.",
-      "sourceSection": "1. 부동산학의 기본원리",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE031",
+      "id": "REK016",
       "category": "경제론",
       "difficulty": "기초",
       "question": "수요란?",
@@ -501,10 +322,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요는 구매력을 갖춘 유효수요를 전제로 하는 사전적 개념이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE031",
+      "conceptId": "REK016",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE032",
+      "id": "REK017",
       "category": "경제론",
       "difficulty": "기초",
       "question": "공급이란?",
@@ -517,10 +342,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "공급은 판매능력을 갖춘 유효공급을 전제로 하는 사전적 개념이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE032",
+      "conceptId": "REK017",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE033",
+      "id": "REK018",
       "category": "경제론",
       "difficulty": "기초",
       "question": "유량(Flow)이란?",
@@ -533,10 +362,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "유량은 기간 개념이며 신규주택정책과 연결된다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE033",
+      "conceptId": "REK018",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE034",
+      "id": "REK019",
       "category": "경제론",
       "difficulty": "기초",
       "question": "저량(Stock)이란?",
@@ -549,10 +382,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "저량은 시점 개념이며 기존주택정책과 연결된다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE034",
+      "conceptId": "REK019",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE035",
+      "id": "REK020",
       "category": "경제론",
       "difficulty": "기초",
       "question": "수요량의 변화란?",
@@ -565,10 +402,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "당해 재화의 가격 변화는 수요곡선 자체가 아니라 수요곡선상의 이동을 일으킨다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE035",
+      "conceptId": "REK020",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE036",
+      "id": "REK021",
       "category": "경제론",
       "difficulty": "기초",
       "question": "수요의 변화란?",
@@ -581,10 +422,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요의 변화는 가격 이외 요인으로 수요곡선 자체가 이동하는 현상이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE036",
+      "conceptId": "REK021",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE037",
+      "id": "REK022",
       "category": "경제론",
       "difficulty": "기초",
       "question": "공급량의 변화란?",
@@ -597,10 +442,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "당해 재화의 가격 변화는 공급곡선상의 이동을 일으킨다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE037",
+      "conceptId": "REK022",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE038",
+      "id": "REK023",
       "category": "경제론",
       "difficulty": "기초",
       "question": "공급의 변화란?",
@@ -613,10 +462,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "공급의 변화는 가격 이외 요인으로 공급곡선 자체가 이동하는 현상이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE038",
+      "conceptId": "REK023",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE039",
+      "id": "REK024",
       "category": "경제론",
       "difficulty": "기초",
       "question": "정상재란?",
@@ -629,10 +482,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "정상재는 소득이 증가할 때 수요가 증가하는 재화이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE039",
+      "conceptId": "REK024",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE040",
+      "id": "REK025",
       "category": "경제론",
       "difficulty": "기초",
       "question": "열등재란?",
@@ -645,10 +502,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "열등재는 소득탄력성이 음(-)인 재화이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE040",
+      "conceptId": "REK025",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE041",
+      "id": "REK026",
       "category": "경제론",
       "difficulty": "기초",
       "question": "대체재란?",
@@ -661,10 +522,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "대체재는 교차탄력성이 양(+)인 관계이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE041",
+      "conceptId": "REK026",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE042",
+      "id": "REK027",
       "category": "경제론",
       "difficulty": "기초",
       "question": "보완재란?",
@@ -677,202 +542,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "보완재는 교차탄력성이 음(-)인 관계이다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE042",
+      "conceptId": "REK027",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE043",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 일정한 기간 동안 구매력을 갖춘 소비자가 재화나 서비스를 구매하고자 하는 욕구",
-      "choices": [
-        "수요",
-        "공급",
-        "유량(Flow)",
-        "저량(Stock)"
-      ],
-      "answer": 0,
-      "explanation": "수요는 구매력을 갖춘 유효수요를 전제로 하는 사전적 개념이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE044",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 일정한 기간 동안 판매능력을 갖춘 공급자가 재화나 서비스를 판매하고자 하는 욕구",
-      "choices": [
-        "공급",
-        "유량(Flow)",
-        "저량(Stock)",
-        "수요량의 변화"
-      ],
-      "answer": 0,
-      "explanation": "공급은 판매능력을 갖춘 유효공급을 전제로 하는 사전적 개념이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE045",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 일정한 기간을 기준으로 측정하는 개념",
-      "choices": [
-        "유량(Flow)",
-        "저량(Stock)",
-        "수요량의 변화",
-        "수요의 변화"
-      ],
-      "answer": 0,
-      "explanation": "유량은 기간 개념이며 신규주택정책과 연결된다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE046",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 특정 시점을 기준으로 측정하는 개념",
-      "choices": [
-        "저량(Stock)",
-        "수요량의 변화",
-        "수요의 변화",
-        "공급량의 변화"
-      ],
-      "answer": 0,
-      "explanation": "저량은 시점 개념이며 기존주택정책과 연결된다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE047",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 해당 재화의 가격 변화로 수요곡선 위에서 이동하는 현상",
-      "choices": [
-        "수요량의 변화",
-        "수요의 변화",
-        "공급량의 변화",
-        "공급의 변화"
-      ],
-      "answer": 0,
-      "explanation": "당해 재화의 가격 변화는 수요곡선 자체가 아니라 수요곡선상의 이동을 일으킨다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE048",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 소득·연관재 가격·기호·기대·인구 등으로 수요곡선 자체가 이동하는 현상",
-      "choices": [
-        "수요의 변화",
-        "공급량의 변화",
-        "공급의 변화",
-        "수요의 가격탄력성"
-      ],
-      "answer": 0,
-      "explanation": "수요의 변화는 가격 이외 요인으로 수요곡선 자체가 이동하는 현상이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE049",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 해당 재화의 가격 변화로 공급곡선 위에서 이동하는 현상",
-      "choices": [
-        "공급량의 변화",
-        "공급의 변화",
-        "수요의 가격탄력성",
-        "정상재"
-      ],
-      "answer": 0,
-      "explanation": "당해 재화의 가격 변화는 공급곡선상의 이동을 일으킨다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE050",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 기술·요소가격·공급자 수·보조금 등으로 공급곡선 자체가 이동하는 현상",
-      "choices": [
-        "공급의 변화",
-        "수요의 가격탄력성",
-        "정상재",
-        "열등재"
-      ],
-      "answer": 0,
-      "explanation": "공급의 변화는 가격 이외 요인으로 공급곡선 자체가 이동하는 현상이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE051",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 수요의 소득탄력성이 0보다 큰 재화",
-      "choices": [
-        "정상재",
-        "열등재",
-        "독립재",
-        "대체재"
-      ],
-      "answer": 0,
-      "explanation": "정상재는 소득이 증가할 때 수요가 증가하는 재화이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE052",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 수요의 소득탄력성이 0보다 작은 재화",
-      "choices": [
-        "열등재",
-        "독립재",
-        "대체재",
-        "보완재"
-      ],
-      "answer": 0,
-      "explanation": "열등재는 소득탄력성이 음(-)인 재화이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE053",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 수요의 교차탄력성이 0보다 큰 두 재화의 관계",
-      "choices": [
-        "대체재",
-        "보완재",
-        "균형가격",
-        "수요"
-      ],
-      "answer": 0,
-      "explanation": "대체재는 교차탄력성이 양(+)인 관계이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE054",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 수요의 교차탄력성이 0보다 작은 두 재화의 관계",
-      "choices": [
-        "보완재",
-        "균형가격",
-        "수요",
-        "공급"
-      ],
-      "answer": 0,
-      "explanation": "보완재는 교차탄력성이 음(-)인 관계이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE055",
+      "id": "REK028",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "효율적 시장이란?",
@@ -885,10 +562,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "효율적 시장에서는 새로운 정보가 지체 없이 자산가치에 반영된다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE055",
+      "conceptId": "REK028",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE056",
+      "id": "REK029",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "약성 효율적 시장이란?",
@@ -901,10 +582,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "과거 가격·거래량 등의 과거정보가 이미 반영된 시장이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE056",
+      "conceptId": "REK029",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE057",
+      "id": "REK030",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "준강성 효율적 시장이란?",
@@ -917,10 +602,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "공개된 과거와 현재 정보가 이미 반영된 시장이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE057",
+      "conceptId": "REK030",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE058",
+      "id": "REK031",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "강성 효율적 시장이란?",
@@ -933,10 +622,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "공개정보뿐 아니라 비공개정보까지 반영된 가장 강한 형태의 효율적 시장이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE058",
+      "conceptId": "REK031",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE059",
+      "id": "REK032",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "할당효율적 시장이란?",
@@ -949,10 +642,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "완전경쟁시장뿐 아니라 불완전경쟁시장에서도 성립할 수 있다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE059",
+      "conceptId": "REK032",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE060",
+      "id": "REK033",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "튀넨의 농업입지론이란?",
@@ -965,10 +662,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "지대는 매상고에서 생산비와 수송비를 차감하여 설명한다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE060",
+      "conceptId": "REK033",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE061",
+      "id": "REK034",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "최적주거입지란?",
@@ -981,10 +682,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "한계주거비용 = 한계교통비용인 지점이 최적주거입지이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE061",
+      "conceptId": "REK034",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE062",
+      "id": "REK035",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "레일리의 소매인력법칙이란?",
@@ -997,10 +702,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "상권 영향력은 인구에 비례하고 거리의 제곱에 반비례한다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE062",
+      "conceptId": "REK035",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE063",
+      "id": "REK036",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "허프의 확률적 상권모형이란?",
@@ -1013,10 +722,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "허프모형은 소비자의 점포 선택을 확률적으로 설명한다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE063",
+      "conceptId": "REK036",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE064",
+      "id": "REK037",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "크리스탈러의 중심지이론이란?",
@@ -1029,10 +742,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "중심지이론은 도시의 분포와 정주체계를 설명한다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE064",
+      "conceptId": "REK037",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE065",
+      "id": "REK038",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "베버의 최소비용이론이란?",
@@ -1045,10 +762,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "베버는 최소운송비가 드는 지점을 최적 공업입지로 본다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE065",
+      "conceptId": "REK038",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE066",
+      "id": "REK039",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "입지계수란?",
@@ -1061,10 +782,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "입지계수는 지역 산업의 상대적 특화 정도를 측정하는 지표이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE066",
+      "conceptId": "REK039",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE067",
+      "id": "REK040",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "동심원이론이란?",
@@ -1077,10 +802,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "버제스의 도시내부구조이론이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE067",
+      "conceptId": "REK040",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE068",
+      "id": "REK041",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "선형이론이란?",
@@ -1093,10 +822,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "호이트의 도시내부구조이론이다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE068",
+      "conceptId": "REK041",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE069",
+      "id": "REK042",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "다핵심이론이란?",
@@ -1109,250 +842,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요약자료에서는 멕켄지의 이론으로 정리되어 있다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE069",
+      "conceptId": "REK042",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE070",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 새로운 정보가 지체 없이 가치에 반영되는 시장",
-      "choices": [
-        "효율적 시장",
-        "약성 효율적 시장",
-        "준강성 효율적 시장",
-        "강성 효율적 시장"
-      ],
-      "answer": 0,
-      "explanation": "효율적 시장에서는 새로운 정보가 지체 없이 자산가치에 반영된다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE071",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 과거의 정보가 이미 가격에 반영된 시장",
-      "choices": [
-        "약성 효율적 시장",
-        "준강성 효율적 시장",
-        "강성 효율적 시장",
-        "할당효율적 시장"
-      ],
-      "answer": 0,
-      "explanation": "과거 가격·거래량 등의 과거정보가 이미 반영된 시장이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE072",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 공표된 과거·현재 정보가 이미 가격에 반영된 시장",
-      "choices": [
-        "준강성 효율적 시장",
-        "강성 효율적 시장",
-        "할당효율적 시장",
-        "튀넨의 농업입지론"
-      ],
-      "answer": 0,
-      "explanation": "공개된 과거와 현재 정보가 이미 반영된 시장이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE073",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 공표된 정보와 공표되지 않은 정보까지 가격에 반영된 시장",
-      "choices": [
-        "강성 효율적 시장",
-        "할당효율적 시장",
-        "튀넨의 농업입지론",
-        "최적주거입지"
-      ],
-      "answer": 0,
-      "explanation": "공개정보뿐 아니라 비공개정보까지 반영된 가장 강한 형태의 효율적 시장이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE074",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 모든 투자자의 기회비용이 동일하여 자원이 효율적으로 배분되는 시장",
-      "choices": [
-        "할당효율적 시장",
-        "튀넨의 농업입지론",
-        "최적주거입지",
-        "레일리의 소매인력법칙"
-      ],
-      "answer": 0,
-      "explanation": "완전경쟁시장뿐 아니라 불완전경쟁시장에서도 성립할 수 있다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE075",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 수송비 절약을 지대로 보고 시장과의 거리에 따라 농업입지를 설명하는 이론",
-      "choices": [
-        "튀넨의 농업입지론",
-        "최적주거입지",
-        "레일리의 소매인력법칙",
-        "허프의 확률적 상권모형"
-      ],
-      "answer": 0,
-      "explanation": "지대는 매상고에서 생산비와 수송비를 차감하여 설명한다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE076",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 한계주거비용과 한계교통비용이 같아지는 지점",
-      "choices": [
-        "최적주거입지",
-        "레일리의 소매인력법칙",
-        "허프의 확률적 상권모형",
-        "넬슨의 소매입지이론"
-      ],
-      "answer": 0,
-      "explanation": "한계주거비용 = 한계교통비용인 지점이 최적주거입지이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE077",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 두 도시의 인구와 거리로 상권의 흡인력을 설명하는 법칙",
-      "choices": [
-        "레일리의 소매인력법칙",
-        "허프의 확률적 상권모형",
-        "넬슨의 소매입지이론",
-        "크리스탈러의 중심지이론"
-      ],
-      "answer": 0,
-      "explanation": "상권 영향력은 인구에 비례하고 거리의 제곱에 반비례한다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE078",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 대도시의 쇼핑패턴을 점포 선택확률로 설명하는 모형",
-      "choices": [
-        "허프의 확률적 상권모형",
-        "넬슨의 소매입지이론",
-        "크리스탈러의 중심지이론",
-        "베버의 최소비용이론"
-      ],
-      "answer": 0,
-      "explanation": "허프모형은 소비자의 점포 선택을 확률적으로 설명한다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE079",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 규모의 경제와 운송비를 중심으로 도시의 분포와 정주체계를 설명하는 이론",
-      "choices": [
-        "크리스탈러의 중심지이론",
-        "베버의 최소비용이론",
-        "입지계수",
-        "경제기반승수"
-      ],
-      "answer": 0,
-      "explanation": "중심지이론은 도시의 분포와 정주체계를 설명한다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE080",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 원료 운송비와 제품 운송비의 합이 최소인 공업입지를 찾는 이론",
-      "choices": [
-        "베버의 최소비용이론",
-        "입지계수",
-        "경제기반승수",
-        "동심원이론"
-      ],
-      "answer": 0,
-      "explanation": "베버는 최소운송비가 드는 지점을 최적 공업입지로 본다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE081",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 어떤 지역 산업의 전국 동일산업에 대한 상대적 중요도를 측정하는 계수",
-      "choices": [
-        "입지계수",
-        "경제기반승수",
-        "동심원이론",
-        "선형이론"
-      ],
-      "answer": 0,
-      "explanation": "입지계수는 지역 산업의 상대적 특화 정도를 측정하는 지표이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE082",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 도시가 중심지에서 동심원 모양으로 확대되어 여러 지구로 분화한다는 이론",
-      "choices": [
-        "동심원이론",
-        "선형이론",
-        "다핵심이론",
-        "차액지대설"
-      ],
-      "answer": 0,
-      "explanation": "버제스의 도시내부구조이론이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE083",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 토지이용이 도로망을 따라 부채꼴 모양으로 확장된다는 이론",
-      "choices": [
-        "선형이론",
-        "다핵심이론",
-        "차액지대설",
-        "위치지대설"
-      ],
-      "answer": 0,
-      "explanation": "호이트의 도시내부구조이론이다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE084",
-      "category": "시장론·입지론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 도시가 성장하면서 여러 개의 분리된 핵심으로 구성된다는 이론",
-      "choices": [
-        "다핵심이론",
-        "차액지대설",
-        "위치지대설",
-        "한계지"
-      ],
-      "answer": 0,
-      "explanation": "요약자료에서는 멕켄지의 이론으로 정리되어 있다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE085",
+      "id": "REK043",
       "category": "정책론",
       "difficulty": "기초",
       "question": "시장실패란?",
@@ -1365,10 +862,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "규모의 경제, 독과점, 외부효과, 공공재, 정보비대칭 등이 원인으로 정리된다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE085",
+      "conceptId": "REK043",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE086",
+      "id": "REK044",
       "category": "정책론",
       "difficulty": "기초",
       "question": "정(+)의 외부효과란?",
@@ -1381,10 +882,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "외부경제에서는 사회적 편익이 사적 편익보다 크고 과소소비·과소생산이 발생한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE086",
+      "conceptId": "REK044",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE087",
+      "id": "REK045",
       "category": "정책론",
       "difficulty": "기초",
       "question": "부(-)의 외부효과란?",
@@ -1397,10 +902,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "외부불경제에서는 사회적 비용이 사적 비용보다 크고 과다소비·과다생산이 발생한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE087",
+      "conceptId": "REK045",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE088",
+      "id": "REK046",
       "category": "정책론",
       "difficulty": "기초",
       "question": "지역지구제란?",
@@ -1413,10 +922,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "지역지구제의 주된 목적은 부의 외부효과 제거·감소이다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE088",
+      "conceptId": "REK046",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE089",
+      "id": "REK047",
       "category": "정책론",
       "difficulty": "기초",
       "question": "계획단위개발(PUD)이란?",
@@ -1429,10 +942,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "PUD는 성과주의 지역지구제, TDR 등과 함께 지역지구제 보완제도로 정리된다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE089",
+      "conceptId": "REK047",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE090",
+      "id": "REK048",
       "category": "정책론",
       "difficulty": "기초",
       "question": "개발권양도제(TDR)란?",
@@ -1445,10 +962,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "TDR은 지역지구제 보완 및 토지이용규제 수단으로 정리된다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE090",
+      "conceptId": "REK048",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE091",
+      "id": "REK049",
       "category": "정책론",
       "difficulty": "기초",
       "question": "토지은행제도란?",
@@ -1461,10 +982,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "토지은행제도는 토지정책의 직접적 개입수단이다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE091",
+      "conceptId": "REK049",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE092",
+      "id": "REK050",
       "category": "정책론",
       "difficulty": "기초",
       "question": "직접적 개입이란?",
@@ -1477,10 +1002,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "초과매수, 토지은행, 공영개발, 토지수용 등이 직접적 개입에 해당한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE092",
+      "conceptId": "REK050",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE093",
+      "id": "REK051",
       "category": "정책론",
       "difficulty": "기초",
       "question": "간접적 개입이란?",
@@ -1493,10 +1022,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "세금 감면·부과, 보조금, 개발부담금, 정보체계 구축 등이 간접적 개입에 해당한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE093",
+      "conceptId": "REK051",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE094",
+      "id": "REK052",
       "category": "정책론",
       "difficulty": "기초",
       "question": "토지공개념이란?",
@@ -1509,10 +1042,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "토지의 합리적 이용·개발, 적정 거래, 자연환경 보전과 균형발전을 중시한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE094",
+      "conceptId": "REK052",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE095",
+      "id": "REK053",
       "category": "정책론",
       "difficulty": "기초",
       "question": "임대료 규제정책이란?",
@@ -1525,10 +1062,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "규제임대료가 균형임대료보다 낮으면 초과수요와 암시장 등이 발생할 수 있다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE095",
+      "conceptId": "REK053",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE096",
+      "id": "REK054",
       "category": "정책론",
       "difficulty": "기초",
       "question": "임대료 보조정책이란?",
@@ -1541,10 +1082,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "임대료 보조는 저소득층의 주택부담능력을 높여 임대주택 수요와 공급을 자극한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE096",
+      "conceptId": "REK054",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE097",
+      "id": "REK055",
       "category": "정책론",
       "difficulty": "기초",
       "question": "하향여과란?",
@@ -1557,10 +1102,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "하향여과는 기존주택의 사용계층이 아래로 이동하는 과정이다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE097",
+      "conceptId": "REK055",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE098",
+      "id": "REK056",
       "category": "정책론",
       "difficulty": "기초",
       "question": "상향여과란?",
@@ -1573,234 +1122,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "상향여과는 재개발 등을 통해 주택의 사용계층이 위로 이동하는 과정이다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE098",
+      "conceptId": "REK056",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE099",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 시장기구만으로 자원이 효율적으로 배분되지 못하는 상태",
-      "choices": [
-        "시장실패",
-        "정(+)의 외부효과",
-        "부(-)의 외부효과",
-        "지역지구제"
-      ],
-      "answer": 0,
-      "explanation": "규모의 경제, 독과점, 외부효과, 공공재, 정보비대칭 등이 원인으로 정리된다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE100",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 타인에게 의도하지 않은 혜택을 주고도 보상을 받지 못하는 효과",
-      "choices": [
-        "정(+)의 외부효과",
-        "부(-)의 외부효과",
-        "지역지구제",
-        "계획단위개발(PUD)"
-      ],
-      "answer": 0,
-      "explanation": "외부경제에서는 사회적 편익이 사적 편익보다 크고 과소소비·과소생산이 발생한다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE101",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 타인에게 의도하지 않은 손해를 주고도 그 대가를 지불하지 않는 효과",
-      "choices": [
-        "부(-)의 외부효과",
-        "지역지구제",
-        "계획단위개발(PUD)",
-        "개발권양도제(TDR)"
-      ],
-      "answer": 0,
-      "explanation": "외부불경제에서는 사회적 비용이 사적 비용보다 크고 과다소비·과다생산이 발생한다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE102",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 어울리지 않는 토지이용을 규제하여 부의 외부효과를 제거·감소시키는 제도",
-      "choices": [
-        "지역지구제",
-        "계획단위개발(PUD)",
-        "개발권양도제(TDR)",
-        "토지은행제도"
-      ],
-      "answer": 0,
-      "explanation": "지역지구제의 주된 목적은 부의 외부효과 제거·감소이다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE103",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 지역지구제를 보완하는 계획적 개발기법",
-      "choices": [
-        "계획단위개발(PUD)",
-        "개발권양도제(TDR)",
-        "토지은행제도",
-        "직접적 개입"
-      ],
-      "answer": 0,
-      "explanation": "PUD는 성과주의 지역지구제, TDR 등과 함께 지역지구제 보완제도로 정리된다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE104",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 개발권을 다른 토지로 이전할 수 있게 하는 지역지구제 보완제도",
-      "choices": [
-        "개발권양도제(TDR)",
-        "토지은행제도",
-        "직접적 개입",
-        "간접적 개입"
-      ],
-      "answer": 0,
-      "explanation": "TDR은 지역지구제 보완 및 토지이용규제 수단으로 정리된다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE105",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 공공이 토지를 미리 취득·비축하여 장래 공공수요에 활용하는 직접적 시장개입 수단",
-      "choices": [
-        "토지은행제도",
-        "직접적 개입",
-        "간접적 개입",
-        "토지공개념"
-      ],
-      "answer": 0,
-      "explanation": "토지은행제도는 토지정책의 직접적 개입수단이다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE106",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 정부가 토지의 취득·개발·공급 등에 직접 참여하는 시장개입 방식",
-      "choices": [
-        "직접적 개입",
-        "간접적 개입",
-        "토지공개념",
-        "임대료 규제정책"
-      ],
-      "answer": 0,
-      "explanation": "초과매수, 토지은행, 공영개발, 토지수용 등이 직접적 개입에 해당한다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE107",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 세금·보조금·정보체계 등 경제적 동기와 시장여건을 조정하는 개입 방식",
-      "choices": [
-        "간접적 개입",
-        "토지공개념",
-        "임대료 규제정책",
-        "임대료 보조정책"
-      ],
-      "answer": 0,
-      "explanation": "세금 감면·부과, 보조금, 개발부담금, 정보체계 구축 등이 간접적 개입에 해당한다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE108",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 토지 이용에서 사적 이익보다 공공복리를 중시하는 사고",
-      "choices": [
-        "토지공개념",
-        "임대료 규제정책",
-        "임대료 보조정책",
-        "가격보조방식"
-      ],
-      "answer": 0,
-      "explanation": "토지의 합리적 이용·개발, 적정 거래, 자연환경 보전과 균형발전을 중시한다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE109",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 주택소유자가 일정 수준 이상 임대료를 부과하지 못하게 하는 최고가격제",
-      "choices": [
-        "임대료 규제정책",
-        "임대료 보조정책",
-        "가격보조방식",
-        "소득보조방식"
-      ],
-      "answer": 0,
-      "explanation": "규제임대료가 균형임대료보다 낮으면 초과수요와 암시장 등이 발생할 수 있다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE110",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 저소득층에게 임대료 일부를 보조하여 임대주택 수요를 높이는 정책",
-      "choices": [
-        "임대료 보조정책",
-        "가격보조방식",
-        "소득보조방식",
-        "공급측 보조금"
-      ],
-      "answer": 0,
-      "explanation": "임대료 보조는 저소득층의 주택부담능력을 높여 임대주택 수요와 공급을 자극한다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE111",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 상위계층이 사용하던 기존주택이 하위계층의 사용으로 전환되는 과정",
-      "choices": [
-        "하향여과",
-        "상향여과",
-        "주거분리",
-        "분양가 규제"
-      ],
-      "answer": 0,
-      "explanation": "하향여과는 기존주택의 사용계층이 아래로 이동하는 과정이다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE112",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 하위계층이 사용하던 저급주택이 재개발되어 상위계층의 사용으로 전환되는 과정",
-      "choices": [
-        "상향여과",
-        "주거분리",
-        "분양가 규제",
-        "시장실패"
-      ],
-      "answer": 0,
-      "explanation": "상향여과는 재개발 등을 통해 주택의 사용계층이 위로 이동하는 과정이다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE113",
+      "id": "REK057",
       "category": "투자론",
       "difficulty": "기초",
       "question": "부동산 투자란?",
@@ -1813,10 +1142,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동산 투자는 장래의 불확실한 수익을 위해 현재의 확실한 소비를 희생하는 행위로 정리된다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE113",
+      "conceptId": "REK057",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE114",
+      "id": "REK058",
       "category": "투자론",
       "difficulty": "기초",
       "question": "부동산 투기란?",
@@ -1829,10 +1162,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "투기는 단기간의 양도차익을 주된 목적으로 한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE114",
+      "conceptId": "REK058",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE115",
+      "id": "REK059",
       "category": "투자론",
       "difficulty": "기초",
       "question": "기대수익률이란?",
@@ -1845,10 +1182,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "기대수익률은 투자안에서 예상되는 수익률이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE115",
+      "conceptId": "REK059",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE116",
+      "id": "REK060",
       "category": "투자론",
       "difficulty": "기초",
       "question": "실현수익률이란?",
@@ -1861,10 +1202,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "실현수익률은 사후적으로 실제 달성된 수익률이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE116",
+      "conceptId": "REK060",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE117",
+      "id": "REK061",
       "category": "투자론",
       "difficulty": "기초",
       "question": "요구수익률이란?",
@@ -1877,10 +1222,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "위험이 커질수록 요구수익률도 높아지는 것이 일반적이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE117",
+      "conceptId": "REK061",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE118",
+      "id": "REK062",
       "category": "투자론",
       "difficulty": "기초",
       "question": "투자위험이란?",
@@ -1893,10 +1242,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "사업상·금융적·법적·인플레이션·유동성 위험 등이 있다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE118",
+      "conceptId": "REK062",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE119",
+      "id": "REK063",
       "category": "투자론",
       "difficulty": "공식",
       "question": "변이계수란?",
@@ -1909,10 +1262,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "변이계수는 표준편차를 기대수익률로 나누어 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE119",
+      "conceptId": "REK063",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE120",
+      "id": "REK064",
       "category": "투자론",
       "difficulty": "기초",
       "question": "자산3분법이란?",
@@ -1925,10 +1282,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "자산3분법은 투자자산을 여러 유형으로 분산하는 기본적 위험관리 방법이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE120",
+      "conceptId": "REK064",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE121",
+      "id": "REK065",
       "category": "투자론",
       "difficulty": "기초",
       "question": "평균-분산결정법이란?",
@@ -1941,10 +1302,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "평균-분산결정법은 기대수익과 위험을 함께 비교하여 효율적인 투자안을 선택한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE121",
+      "conceptId": "REK065",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE122",
+      "id": "REK066",
       "category": "투자론",
       "difficulty": "기초",
       "question": "가능조소득(PGI)이란?",
@@ -1957,10 +1322,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "가능조소득은 단위당 예상임대료에 임대단위수를 곱하여 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE122",
+      "conceptId": "REK066",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE123",
+      "id": "REK067",
       "category": "투자론",
       "difficulty": "기초",
       "question": "유효조소득(EGI)이란?",
@@ -1973,10 +1342,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "유효조소득은 실제로 기대할 수 있는 총영업수입에 가깝다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE123",
+      "conceptId": "REK067",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE124",
+      "id": "REK068",
       "category": "투자론",
       "difficulty": "기초",
       "question": "순영업소득(NOI)이란?",
@@ -1989,202 +1362,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "순영업소득은 부채서비스액과 소득세를 차감하기 전 영업소득이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE124",
+      "conceptId": "REK068",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE125",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 미래의 현금수입과 현재의 현금지출을 교환하는 행위",
-      "choices": [
-        "부동산 투자",
-        "부동산 투기",
-        "기대수익률",
-        "실현수익률"
-      ],
-      "answer": 0,
-      "explanation": "부동산 투자는 장래의 불확실한 수익을 위해 현재의 확실한 소비를 희생하는 행위로 정리된다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE126",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 단기간의 양도차익을 목적으로 개발가능성을 전제로 자본을 투입하는 행위",
-      "choices": [
-        "부동산 투기",
-        "기대수익률",
-        "실현수익률",
-        "요구수익률"
-      ],
-      "answer": 0,
-      "explanation": "투기는 단기간의 양도차익을 주된 목적으로 한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE127",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 투자에서 앞으로 기대되는 수익률",
-      "choices": [
-        "기대수익률",
-        "실현수익률",
-        "요구수익률",
-        "투자위험"
-      ],
-      "answer": 0,
-      "explanation": "기대수익률은 투자안에서 예상되는 수익률이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE128",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 투자가 이루어진 후 실제로 달성된 수익률",
-      "choices": [
-        "실현수익률",
-        "요구수익률",
-        "투자위험",
-        "변이계수"
-      ],
-      "answer": 0,
-      "explanation": "실현수익률은 사후적으로 실제 달성된 수익률이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE129",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 투자자가 투자를 위해 최소한 충족되기를 요구하는 수익률",
-      "choices": [
-        "요구수익률",
-        "투자위험",
-        "변이계수",
-        "자산3분법"
-      ],
-      "answer": 0,
-      "explanation": "위험이 커질수록 요구수익률도 높아지는 것이 일반적이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE130",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 투자안의 결과가 불확실하여 수익이 변동할 가능성",
-      "choices": [
-        "투자위험",
-        "변이계수",
-        "자산3분법",
-        "평균-분산결정법"
-      ],
-      "answer": 0,
-      "explanation": "사업상·금융적·법적·인플레이션·유동성 위험 등이 있다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE131",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 설명에 해당하는 것은? 기대수익률 한 단위당 위험을 나타내는 지표",
-      "choices": [
-        "변이계수",
-        "자산3분법",
-        "평균-분산결정법",
-        "가능조소득(PGI)"
-      ],
-      "answer": 0,
-      "explanation": "변이계수는 표준편차를 기대수익률로 나누어 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE132",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 안전성·수익성·환금성을 고려하여 부동산·유가증권·예금 등에 분산투자하는 방법",
-      "choices": [
-        "자산3분법",
-        "평균-분산결정법",
-        "가능조소득(PGI)",
-        "유효조소득(EGI)"
-      ],
-      "answer": 0,
-      "explanation": "자산3분법은 투자자산을 여러 유형으로 분산하는 기본적 위험관리 방법이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE133",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 같은 위험이면 기대수익이 큰 투자안, 같은 기대수익이면 위험이 작은 투자안이 지배한다는 원리",
-      "choices": [
-        "평균-분산결정법",
-        "가능조소득(PGI)",
-        "유효조소득(EGI)",
-        "순영업소득(NOI)"
-      ],
-      "answer": 0,
-      "explanation": "평균-분산결정법은 기대수익과 위험을 함께 비교하여 효율적인 투자안을 선택한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE134",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 공실이 없다고 가정한 잠재적인 최대 임대수입",
-      "choices": [
-        "가능조소득(PGI)",
-        "유효조소득(EGI)",
-        "순영업소득(NOI)",
-        "세전현금수지(BTCF)"
-      ],
-      "answer": 0,
-      "explanation": "가능조소득은 단위당 예상임대료에 임대단위수를 곱하여 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE135",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 가능조소득에서 공실·불량부채를 빼고 기타소득을 더한 소득",
-      "choices": [
-        "유효조소득(EGI)",
-        "순영업소득(NOI)",
-        "세전현금수지(BTCF)",
-        "세후현금수지(ATCF)"
-      ],
-      "answer": 0,
-      "explanation": "유효조소득은 실제로 기대할 수 있는 총영업수입에 가깝다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE136",
-      "category": "투자론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 유효조소득에서 영업경비를 차감한 소득",
-      "choices": [
-        "순영업소득(NOI)",
-        "세전현금수지(BTCF)",
-        "세후현금수지(ATCF)",
-        "내부수익률(IRR)"
-      ],
-      "answer": 0,
-      "explanation": "순영업소득은 부채서비스액과 소득세를 차감하기 전 영업소득이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE137",
+      "id": "REK069",
       "category": "금융론",
       "difficulty": "기초",
       "question": "저당금융이란?",
@@ -2197,10 +1382,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "저당금융은 부동산을 담보로 설정하고 금융기관에서 자금을 차입하는 방식이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE137",
+      "conceptId": "REK069",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE138",
+      "id": "REK070",
       "category": "금융론",
       "difficulty": "기초",
       "question": "신탁금융이란?",
@@ -2213,10 +1402,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "신탁금융은 담보신탁 구조를 통해 자금을 조달한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE138",
+      "conceptId": "REK070",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE139",
+      "id": "REK071",
       "category": "금융론",
       "difficulty": "기초",
       "question": "주택상환사채란?",
@@ -2229,10 +1422,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요약자료에서는 기명식 보증사채로 정리한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE139",
+      "conceptId": "REK071",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE140",
+      "id": "REK072",
       "category": "금융론",
       "difficulty": "기초",
       "question": "자산담보부증권(ABS)이란?",
@@ -2245,10 +1442,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "ABS는 자산유동화에 관한 법률에 근거한 자산유동화 수단으로 정리된다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE140",
+      "conceptId": "REK072",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE141",
+      "id": "REK073",
       "category": "금융론",
       "difficulty": "기초",
       "question": "프로젝트 파이낸싱(PF)이란?",
@@ -2261,10 +1462,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "PF는 프로젝트의 기대현금흐름과 사업자산을 중심으로 자금을 조달한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE141",
+      "conceptId": "REK073",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE142",
+      "id": "REK074",
       "category": "금융론",
       "difficulty": "기초",
       "question": "부동산 신디케이트란?",
@@ -2277,10 +1482,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동산 신디케이트는 다수 투자자가 공동으로 부동산 프로젝트에 참여하는 방식이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE142",
+      "conceptId": "REK074",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE143",
+      "id": "REK075",
       "category": "금융론",
       "difficulty": "기초",
       "question": "조인트벤처란?",
@@ -2293,10 +1502,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "조인트벤처는 특정 사업을 공동으로 수행하기 위한 결합체이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE143",
+      "conceptId": "REK075",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE144",
+      "id": "REK076",
       "category": "금융론",
       "difficulty": "기초",
       "question": "부동산투자신탁(REITs)이란?",
@@ -2309,10 +1522,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "REITs는 다수 투자자의 자금을 모아 부동산에 투자하는 지분금융 방식이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE144",
+      "conceptId": "REK076",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE145",
+      "id": "REK077",
       "category": "금융론",
       "difficulty": "기초",
       "question": "주택소비금융이란?",
@@ -2325,10 +1542,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "주택소비금융은 수요자금융 또는 소비자금융에 해당한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE145",
+      "conceptId": "REK077",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE146",
+      "id": "REK078",
       "category": "금융론",
       "difficulty": "기초",
       "question": "주택개발금융이란?",
@@ -2341,170 +1562,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "주택개발금융은 공급자금융에 해당한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE146",
+      "conceptId": "REK078",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE147",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 소유권을 보유한 채 부동산에 저당을 설정하고 직접 대출받는 부채금융",
-      "choices": [
-        "저당금융",
-        "신탁금융",
-        "주택상환사채",
-        "자산담보부증권(ABS)"
-      ],
-      "answer": 0,
-      "explanation": "저당금융은 부동산을 담보로 설정하고 금융기관에서 자금을 차입하는 방식이다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE148",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 담보신탁을 이용하여 대출받는 부채금융",
-      "choices": [
-        "신탁금융",
-        "주택상환사채",
-        "자산담보부증권(ABS)",
-        "프로젝트 파이낸싱(PF)"
-      ],
-      "answer": 0,
-      "explanation": "신탁금융은 담보신탁 구조를 통해 자금을 조달한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE149",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 주택건설업자가 발행하고 일정기간 후 주택으로 상환하는 채권",
-      "choices": [
-        "주택상환사채",
-        "자산담보부증권(ABS)",
-        "프로젝트 파이낸싱(PF)",
-        "부동산 신디케이트"
-      ],
-      "answer": 0,
-      "explanation": "요약자료에서는 기명식 보증사채로 정리한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE150",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 자산을 담보로 발행하는 유동화증권",
-      "choices": [
-        "자산담보부증권(ABS)",
-        "프로젝트 파이낸싱(PF)",
-        "부동산 신디케이트",
-        "조인트벤처"
-      ],
-      "answer": 0,
-      "explanation": "ABS는 자산유동화에 관한 법률에 근거한 자산유동화 수단으로 정리된다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE151",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 기업 전체의 신용보다 사업 자체의 수익성과 자산을 바탕으로 자금을 조달하는 방식",
-      "choices": [
-        "프로젝트 파이낸싱(PF)",
-        "부동산 신디케이트",
-        "조인트벤처",
-        "부동산투자신탁(REITs)"
-      ],
-      "answer": 0,
-      "explanation": "PF는 프로젝트의 기대현금흐름과 사업자산을 중심으로 자금을 조달한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE152",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 여러 투자자가 부동산전문가의 경험을 활용하여 공동 프로젝트를 수행하는 지분금융",
-      "choices": [
-        "부동산 신디케이트",
-        "조인트벤처",
-        "부동산투자신탁(REITs)",
-        "주택소비금융"
-      ],
-      "answer": 0,
-      "explanation": "부동산 신디케이트는 다수 투자자가 공동으로 부동산 프로젝트에 참여하는 방식이다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE153",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 특정 목적의 벤처사업을 공동으로 수행하기 위한 자연인 또는 법인의 결합체",
-      "choices": [
-        "조인트벤처",
-        "부동산투자신탁(REITs)",
-        "주택소비금융",
-        "주택개발금융"
-      ],
-      "answer": 0,
-      "explanation": "조인트벤처는 특정 사업을 공동으로 수행하기 위한 결합체이다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE154",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 소액투자자에게 지분권을 판매해 모은 자금을 부동산에 투자하고 수익을 배분하는 기구",
-      "choices": [
-        "부동산투자신탁(REITs)",
-        "주택소비금융",
-        "주택개발금융",
-        "저당금융"
-      ],
-      "answer": 0,
-      "explanation": "REITs는 다수 투자자의 자금을 모아 부동산에 투자하는 지분금융 방식이다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE155",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 가계의 주택구입능력을 높이기 위해 주택을 담보로 자금을 융자하는 금융",
-      "choices": [
-        "주택소비금융",
-        "주택개발금융",
-        "저당금융",
-        "신탁금융"
-      ],
-      "answer": 0,
-      "explanation": "주택소비금융은 수요자금융 또는 소비자금융에 해당한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE156",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 주택건설사업자의 건설활동에 필요한 자금을 지원하는 금융",
-      "choices": [
-        "주택개발금융",
-        "저당금융",
-        "신탁금융",
-        "주택상환사채"
-      ],
-      "answer": 0,
-      "explanation": "주택개발금융은 공급자금융에 해당한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE157",
+      "id": "REK079",
       "category": "경제론",
       "difficulty": "공식",
       "question": "수요의 가격탄력성의 공식은?",
@@ -2517,10 +1582,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요의 가격탄력성의 공식은 |수요량 변화율 ÷ 가격 변화율|이다. 가격 변화에 대한 수요량의 반응 정도를 나타낸다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE157",
+      "conceptId": "REK079",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE158",
+      "id": "REK080",
       "category": "시장론·입지론",
       "difficulty": "공식",
       "question": "튀넨의 지대의 공식은?",
@@ -2533,10 +1602,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "튀넨의 지대의 공식은 매상고 - 생산비 - 수송비이다. 수송비 절약분이 지대의 핵심이 된다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE158",
+      "conceptId": "REK080",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE159",
+      "id": "REK081",
       "category": "시장론·입지론",
       "difficulty": "공식",
       "question": "레일리의 구매지향비율의 공식은?",
@@ -2549,10 +1622,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "레일리의 구매지향비율의 공식은 A도시 인구 ÷ B도시 인구 × (B도시까지 거리 ÷ A도시까지 거리)²이다. 두 도시의 인구와 거리로 상거래 흡인력을 계산한다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE159",
+      "conceptId": "REK081",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE160",
+      "id": "REK082",
       "category": "투자론",
       "difficulty": "공식",
       "question": "요구수익률의 공식은?",
@@ -2565,10 +1642,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요구수익률의 공식은 무위험률 + 위험할증률 + 예상 인플레이션 할증률이다. 투자자가 요구하는 최소 수익률의 구성이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE160",
+      "conceptId": "REK082",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE161",
+      "id": "REK083",
       "category": "투자론",
       "difficulty": "공식",
       "question": "부동산 투자가치의 공식은?",
@@ -2581,10 +1662,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동산 투자가치의 공식은 예상 순수익 ÷ 시장의 요구수익률이다. 예상 순수익을 시장 요구수익률로 환원하여 투자가치를 설명한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE161",
+      "conceptId": "REK083",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE162",
+      "id": "REK084",
       "category": "투자론",
       "difficulty": "공식",
       "question": "변이계수의 공식은?",
@@ -2597,10 +1682,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "변이계수의 공식은 표준편차 ÷ 기대수익률이다. 기대수익률 한 단위당 위험을 나타낸다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE162",
+      "conceptId": "REK084",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE163",
+      "id": "REK085",
       "category": "투자론",
       "difficulty": "공식",
       "question": "일시불의 미래가치계수의 공식은?",
@@ -2613,10 +1702,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "일시불의 미래가치계수의 공식은 (1+r)ⁿ이다. 현재의 일시불이 n기간 후 얼마가 되는지 계산하는 계수이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE163",
+      "conceptId": "REK085",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE164",
+      "id": "REK086",
       "category": "투자론",
       "difficulty": "공식",
       "question": "일시불의 현재가치계수의 공식은?",
@@ -2629,10 +1722,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "일시불의 현재가치계수의 공식은 1 ÷ (1+r)ⁿ이다. n기간 후의 일시불을 현재가치로 할인하는 계수이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE164",
+      "conceptId": "REK086",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE165",
+      "id": "REK087",
       "category": "투자론",
       "difficulty": "공식",
       "question": "연금의 미래가치계수의 공식은?",
@@ -2645,10 +1742,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "연금의 미래가치계수의 공식은 ((1+r)ⁿ - 1) ÷ r이다. 매기간 같은 금액을 적립할 때 기간 말 누적금액을 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE165",
+      "conceptId": "REK087",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE166",
+      "id": "REK088",
       "category": "투자론",
       "difficulty": "공식",
       "question": "감채기금계수의 공식은?",
@@ -2661,10 +1762,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "감채기금계수의 공식은 r ÷ ((1+r)ⁿ - 1)이다. n기간 후 일정 금액을 만들기 위해 매기간 적립할 금액을 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE166",
+      "conceptId": "REK088",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE167",
+      "id": "REK089",
       "category": "투자론",
       "difficulty": "공식",
       "question": "연금의 현재가치계수의 공식은?",
@@ -2677,10 +1782,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "연금의 현재가치계수의 공식은 (1 - (1+r)⁻ⁿ) ÷ r이다. 매기간 같은 금액을 받을 때 그 연금의 현재가치를 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE167",
+      "conceptId": "REK089",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE168",
+      "id": "REK090",
       "category": "투자론",
       "difficulty": "공식",
       "question": "저당상수의 공식은?",
@@ -2693,10 +1802,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "저당상수의 공식은 r ÷ (1 - (1+r)⁻ⁿ)이다. 일정액을 빌렸을 때 매기간 갚아야 할 원리금액을 구하는 계수이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE168",
+      "conceptId": "REK090",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE169",
+      "id": "REK091",
       "category": "투자론",
       "difficulty": "공식",
       "question": "잔금비율의 공식은?",
@@ -2709,10 +1822,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "잔금비율의 공식은 연금현가계수(잔여기간) ÷ 연금현가계수(전기간)이다. 원래 저당대부액 중 특정 시점에 남아 있는 원금의 비율을 나타낸다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE169",
+      "conceptId": "REK091",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE170",
+      "id": "REK092",
       "category": "투자론",
       "difficulty": "공식",
       "question": "가능조소득(PGI)의 공식은?",
@@ -2725,10 +1842,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "가능조소득(PGI)의 공식은 단위당 예상임대료 × 임대단위수이다. 공실을 고려하기 전 잠재적인 총임대소득을 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE170",
+      "conceptId": "REK092",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE171",
+      "id": "REK093",
       "category": "투자론",
       "difficulty": "공식",
       "question": "유효조소득(EGI)의 공식은?",
@@ -2741,10 +1862,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "유효조소득(EGI)의 공식은 가능조소득 - 공실·불량부채 + 기타소득이다. 실제로 기대되는 총영업수입을 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE171",
+      "conceptId": "REK093",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE172",
+      "id": "REK094",
       "category": "투자론",
       "difficulty": "공식",
       "question": "순영업소득(NOI)의 공식은?",
@@ -2757,10 +1882,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "순영업소득(NOI)의 공식은 유효조소득 - 영업경비이다. 부채서비스액을 차감하기 전 영업소득을 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE172",
+      "conceptId": "REK094",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE173",
+      "id": "REK095",
       "category": "투자론",
       "difficulty": "공식",
       "question": "순현재가치(NPV)의 공식은?",
@@ -2773,10 +1902,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "순현재가치(NPV)의 공식은 현금유입의 현재가치 - 현금유출의 현재가치이다. 투자의 현재가치 기준 수익성을 계산한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE173",
+      "conceptId": "REK095",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE174",
+      "id": "REK096",
       "category": "투자론",
       "difficulty": "공식",
       "question": "수익성지수(PI)의 공식은?",
@@ -2789,10 +1922,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수익성지수(PI)의 공식은 현금유입의 현재가치 ÷ 현금유출의 현재가치이다. PI가 1보다 크면 투자안을 채택하는 기준으로 정리된다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE174",
+      "conceptId": "REK096",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE175",
+      "id": "REK097",
       "category": "투자론",
       "difficulty": "공식",
       "question": "종합자본환원율의 공식은?",
@@ -2805,10 +1942,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "종합자본환원율의 공식은 순영업소득 ÷ 총투자액이다. 총투자액에 대한 순영업소득의 비율이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE175",
+      "conceptId": "REK097",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE176",
+      "id": "REK098",
       "category": "금융론",
       "difficulty": "공식",
       "question": "담보인정비율(LTV)의 공식은?",
@@ -2821,10 +1962,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "담보인정비율(LTV)의 공식은 부채잔금 ÷ 부동산가치이다. 부동산가치에 대한 융자액의 비율이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE176",
+      "conceptId": "REK098",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE177",
+      "id": "REK099",
       "category": "투자론",
       "difficulty": "공식",
       "question": "부채감당률(DCR)의 공식은?",
@@ -2837,10 +1982,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부채감당률(DCR)의 공식은 순영업소득 ÷ 부채서비스액이다. 순영업소득이 부채서비스액의 몇 배인지 나타낸다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE177",
+      "conceptId": "REK099",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE178",
+      "id": "REK100",
       "category": "투자론",
       "difficulty": "공식",
       "question": "채무불이행률의 공식은?",
@@ -2853,10 +2002,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "채무불이행률의 공식은 (영업경비 + 부채서비스액) ÷ 유효조소득이다. 유효조소득 중 영업경비와 부채서비스액이 차지하는 비율이다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE178",
+      "conceptId": "REK100",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE179",
+      "id": "REK101",
       "category": "금융론",
       "difficulty": "공식",
       "question": "저당지불액의 공식은?",
@@ -2869,10 +2022,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "저당지불액의 공식은 대출금 × 저당상수이다. 원리금균등상환에서 매기간 지급하는 원리금액을 계산한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE179",
+      "conceptId": "REK101",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE180",
+      "id": "REK102",
       "category": "금융론",
       "difficulty": "공식",
       "question": "이자지급액의 공식은?",
@@ -2885,10 +2042,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "이자지급액의 공식은 미상환대출잔액 × 이자율이다. 원리금균등상환에서 해당 기간의 이자액을 계산한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE180",
+      "conceptId": "REK102",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE181",
+      "id": "REK103",
       "category": "개발·관리론",
       "difficulty": "공식",
       "question": "토지이용의 집약도의 공식은?",
@@ -2901,410 +2062,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "토지이용의 집약도의 공식은 노동이나 자본의 크기 ÷ 토지 단위면적이다. 단위면적당 투입되는 노동·자본의 정도를 나타낸다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE181",
+      "conceptId": "REK103",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE182",
-      "category": "경제론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? |수요량 변화율 ÷ 가격 변화율|",
-      "choices": [
-        "수요의 가격탄력성",
-        "튀넨의 지대",
-        "레일리의 구매지향비율",
-        "요구수익률"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 수요의 가격탄력성에 해당한다. 가격 변화에 대한 수요량의 반응 정도를 나타낸다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE183",
-      "category": "시장론·입지론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 매상고 - 생산비 - 수송비",
-      "choices": [
-        "튀넨의 지대",
-        "레일리의 구매지향비율",
-        "요구수익률",
-        "부동산의 투자가치"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 튀넨의 지대에 해당한다. 수송비 절약분이 지대의 핵심이 된다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE184",
-      "category": "시장론·입지론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? A도시 인구 ÷ B도시 인구 × (B도시까지 거리 ÷ A도시까지 거리)²",
-      "choices": [
-        "레일리의 구매지향비율",
-        "요구수익률",
-        "부동산의 투자가치",
-        "변이계수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 레일리의 구매지향비율에 해당한다. 두 도시의 인구와 거리로 상거래 흡인력을 계산한다.",
-      "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE185",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 무위험률 + 위험할증률 + 예상 인플레이션 할증률",
-      "choices": [
-        "요구수익률",
-        "부동산의 투자가치",
-        "변이계수",
-        "일시불의 미래가치계수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 요구수익률에 해당한다. 투자자가 요구하는 최소 수익률의 구성이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE186",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 예상 순수익 ÷ 시장의 요구수익률",
-      "choices": [
-        "부동산의 투자가치",
-        "변이계수",
-        "일시불의 미래가치계수",
-        "일시불의 현재가치계수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 부동산의 투자가치에 해당한다. 예상 순수익을 시장 요구수익률로 환원하여 투자가치를 설명한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE187",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 표준편차 ÷ 기대수익률",
-      "choices": [
-        "변이계수",
-        "일시불의 미래가치계수",
-        "일시불의 현재가치계수",
-        "연금의 미래가치계수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 변이계수에 해당한다. 기대수익률 한 단위당 위험을 나타낸다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE188",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? (1+r)ⁿ",
-      "choices": [
-        "일시불의 미래가치계수",
-        "일시불의 현재가치계수",
-        "연금의 미래가치계수",
-        "감채기금계수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 일시불의 미래가치계수에 해당한다. 현재의 일시불이 n기간 후 얼마가 되는지 계산하는 계수이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE189",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 1 ÷ (1+r)ⁿ",
-      "choices": [
-        "일시불의 현재가치계수",
-        "연금의 미래가치계수",
-        "감채기금계수",
-        "연금의 현재가치계수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 일시불의 현재가치계수에 해당한다. n기간 후의 일시불을 현재가치로 할인하는 계수이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE190",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? ((1+r)ⁿ - 1) ÷ r",
-      "choices": [
-        "연금의 미래가치계수",
-        "감채기금계수",
-        "연금의 현재가치계수",
-        "저당상수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 연금의 미래가치계수에 해당한다. 매기간 같은 금액을 적립할 때 기간 말 누적금액을 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE191",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? r ÷ ((1+r)ⁿ - 1)",
-      "choices": [
-        "감채기금계수",
-        "연금의 현재가치계수",
-        "저당상수",
-        "잔금비율"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 감채기금계수에 해당한다. n기간 후 일정 금액을 만들기 위해 매기간 적립할 금액을 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE192",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? (1 - (1+r)⁻ⁿ) ÷ r",
-      "choices": [
-        "연금의 현재가치계수",
-        "저당상수",
-        "잔금비율",
-        "미상환원금"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 연금의 현재가치계수에 해당한다. 매기간 같은 금액을 받을 때 그 연금의 현재가치를 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE193",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? r ÷ (1 - (1+r)⁻ⁿ)",
-      "choices": [
-        "저당상수",
-        "잔금비율",
-        "미상환원금",
-        "가능조소득(PGI)"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 저당상수에 해당한다. 일정액을 빌렸을 때 매기간 갚아야 할 원리금액을 구하는 계수이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE194",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 연금현가계수(잔여기간) ÷ 연금현가계수(전기간)",
-      "choices": [
-        "잔금비율",
-        "미상환원금",
-        "가능조소득(PGI)",
-        "유효조소득(EGI)"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 잔금비율에 해당한다. 원래 저당대부액 중 특정 시점에 남아 있는 원금의 비율을 나타낸다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE195",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 단위당 예상임대료 × 임대단위수",
-      "choices": [
-        "가능조소득(PGI)",
-        "유효조소득(EGI)",
-        "순영업소득(NOI)",
-        "세전현금수지(BTCF)"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 가능조소득(PGI)에 해당한다. 공실을 고려하기 전 잠재적인 총임대소득을 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE196",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 가능조소득 - 공실·불량부채 + 기타소득",
-      "choices": [
-        "유효조소득(EGI)",
-        "순영업소득(NOI)",
-        "세전현금수지(BTCF)",
-        "세후현금수지(ATCF)"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 유효조소득(EGI)에 해당한다. 실제로 기대되는 총영업수입을 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE197",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 유효조소득 - 영업경비",
-      "choices": [
-        "순영업소득(NOI)",
-        "세전현금수지(BTCF)",
-        "세후현금수지(ATCF)",
-        "순현재가치(NPV)"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 순영업소득(NOI)에 해당한다. 부채서비스액을 차감하기 전 영업소득을 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE198",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 현금유입의 현재가치 - 현금유출의 현재가치",
-      "choices": [
-        "순현재가치(NPV)",
-        "수익성지수(PI)",
-        "조소득승수",
-        "순소득승수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 순현재가치(NPV)에 해당한다. 투자의 현재가치 기준 수익성을 계산한다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE199",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 현금유입의 현재가치 ÷ 현금유출의 현재가치",
-      "choices": [
-        "수익성지수(PI)",
-        "조소득승수",
-        "순소득승수",
-        "세전현금수지승수"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 수익성지수(PI)에 해당한다. PI가 1보다 크면 투자안을 채택하는 기준으로 정리된다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE200",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 순영업소득 ÷ 총투자액",
-      "choices": [
-        "종합자본환원율",
-        "지분배당률",
-        "담보인정비율(LTV)",
-        "부채비율"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 종합자본환원율에 해당한다. 총투자액에 대한 순영업소득의 비율이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE201",
-      "category": "금융론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 부채잔금 ÷ 부동산가치",
-      "choices": [
-        "담보인정비율(LTV)",
-        "부채비율",
-        "부채감당률(DCR)",
-        "채무불이행률"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 담보인정비율(LTV)에 해당한다. 부동산가치에 대한 융자액의 비율이다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE202",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 순영업소득 ÷ 부채서비스액",
-      "choices": [
-        "부채감당률(DCR)",
-        "채무불이행률",
-        "총자산회전율",
-        "영업경비비율"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 부채감당률(DCR)에 해당한다. 순영업소득이 부채서비스액의 몇 배인지 나타낸다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE203",
-      "category": "투자론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? (영업경비 + 부채서비스액) ÷ 유효조소득",
-      "choices": [
-        "채무불이행률",
-        "총자산회전율",
-        "영업경비비율",
-        "저당지불액"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 채무불이행률에 해당한다. 유효조소득 중 영업경비와 부채서비스액이 차지하는 비율이다.",
-      "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE204",
-      "category": "금융론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 대출금 × 저당상수",
-      "choices": [
-        "저당지불액",
-        "이자지급액",
-        "토지이용의 집약도",
-        "수요의 가격탄력성"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 저당지불액에 해당한다. 원리금균등상환에서 매기간 지급하는 원리금액을 계산한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE205",
-      "category": "금융론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 미상환대출잔액 × 이자율",
-      "choices": [
-        "이자지급액",
-        "토지이용의 집약도",
-        "수요의 가격탄력성",
-        "튀넨의 지대"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 이자지급액에 해당한다. 원리금균등상환에서 해당 기간의 이자액을 계산한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE206",
-      "category": "개발·관리론",
-      "difficulty": "공식",
-      "question": "다음 공식에 해당하는 것은? 노동이나 자본의 크기 ÷ 토지 단위면적",
-      "choices": [
-        "토지이용의 집약도",
-        "수요의 가격탄력성",
-        "튀넨의 지대",
-        "레일리의 구매지향비율"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 토지이용의 집약도에 해당한다. 단위면적당 투입되는 노동·자본의 정도를 나타낸다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE207",
+      "id": "REK104",
       "category": "경제론",
       "difficulty": "기초",
       "question": "부동산 공급의 탄력성이 수요보다 일반적으로 더 낮은 주된 이유는?",
@@ -3317,90 +2082,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동산 공급은 개발·건설에 시간이 필요하므로 수요보다 비탄력적인 경향이 있다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE207",
+      "conceptId": "REK104",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE208",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "키친파동의 주기는?",
-      "choices": [
-        "약 30~40개월",
-        "약 8~10년",
-        "약 17~18년",
-        "약 50~60년"
-      ],
-      "answer": 0,
-      "explanation": "키친파동은 통화공급·이자율·기업재고 변동 등과 관련된 단기파동이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE209",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "쥬글라파동의 주기는?",
-      "choices": [
-        "약 8~10년",
-        "약 30~40개월",
-        "약 17~18년",
-        "약 50~60년"
-      ],
-      "answer": 0,
-      "explanation": "쥬글라파동은 기업의 설비투자와 관련된 대표적 중기파동이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE210",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "콘트라티에프파동의 주기는?",
-      "choices": [
-        "약 50~60년",
-        "약 30~40개월",
-        "약 8~10년",
-        "약 17~18년"
-      ],
-      "answer": 0,
-      "explanation": "콘트라티에프파동은 기술혁신과 관련된 장기파동이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE211",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "쿠즈네츠파동의 대략적인 주기는?",
-      "choices": [
-        "약 20년",
-        "약 30~40개월",
-        "약 8~10년",
-        "약 50~60년"
-      ],
-      "answer": 0,
-      "explanation": "쿠즈네츠파동은 인구증가율 변동에 따른 경제성장률 변화와 관련된 건축순환으로 정리된다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE212",
-      "category": "경제론",
-      "difficulty": "기초",
-      "question": "한센의 건축순환 주기는?",
-      "choices": [
-        "약 17~18년",
-        "약 30~40개월",
-        "약 8~10년",
-        "약 50~60년"
-      ],
-      "answer": 0,
-      "explanation": "한센의 건축순환은 주택수급의 시차를 원인으로 하는 약 17~18년의 순환이다.",
-      "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE213",
+      "id": "REK105",
       "category": "경제론",
       "difficulty": "기초",
       "question": "거미집이론에서 수렴형이 되는 조건은?",
@@ -3413,10 +2102,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요의 가격탄력성이 공급의 가격탄력성보다 크면 안정적 수렴형으로 정리된다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE213",
+      "conceptId": "REK105",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE214",
+      "id": "REK106",
       "category": "경제론",
       "difficulty": "기초",
       "question": "거미집이론에서 발산형이 되는 조건은?",
@@ -3429,10 +2122,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요의 가격탄력성이 공급의 가격탄력성보다 작으면 불안정적 발산형으로 정리된다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE214",
+      "conceptId": "REK106",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE215",
+      "id": "REK107",
       "category": "경제론",
       "difficulty": "기초",
       "question": "거미집이론에서 순환형이 되는 조건은?",
@@ -3445,10 +2142,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요와 공급의 가격탄력성이 같으면 순환형으로 정리된다.",
       "sourceSection": "2. 부동산 경제론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE215",
+      "conceptId": "REK107",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE216",
+      "id": "REK108",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "한계주거비용이 한계교통비용보다 크면 주거입지는 어느 방향으로 이동하는가?",
@@ -3461,10 +2162,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "한계주거비용이 한계교통비용보다 크면 외곽으로 이전하는 것이 유리하다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE216",
+      "conceptId": "REK108",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE217",
+      "id": "REK109",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "한계주거비용이 한계교통비용보다 작으면 주거입지는 어느 방향으로 이동하는가?",
@@ -3477,10 +2182,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "한계주거비용이 한계교통비용보다 작으면 도심으로 이전하는 것이 유리하다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE217",
+      "conceptId": "REK109",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE218",
+      "id": "REK110",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "버제스의 동심원이론에서 가장 중심에 위치하는 지구는?",
@@ -3493,10 +2202,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "동심원이론은 중심업무지구에서 바깥쪽으로 여러 지구가 동심원 형태로 분화한다고 본다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE218",
+      "conceptId": "REK110",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE219",
+      "id": "REK111",
       "category": "정책론",
       "difficulty": "기초",
       "question": "균형임대료보다 낮은 수준에서 임대료를 규제할 때 나타날 가능성이 큰 것은?",
@@ -3509,10 +2222,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "낮은 임대료 상한은 수요를 늘리고 공급유인을 낮춰 초과수요·암시장·이중가격 등을 유발할 수 있다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE219",
+      "conceptId": "REK111",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE220",
+      "id": "REK112",
       "category": "정책론",
       "difficulty": "기초",
       "question": "정(+)의 외부효과에서 일반적으로 나타나는 생산·소비 수준은?",
@@ -3525,10 +2242,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "정(+)의 외부효과에서는 사회적 편익이 사적 편익보다 커 시장에서 과소생산·과소소비가 발생한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE220",
+      "conceptId": "REK112",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE221",
+      "id": "REK113",
       "category": "정책론",
       "difficulty": "기초",
       "question": "부(-)의 외부효과에서 일반적으로 나타나는 생산·소비 수준은?",
@@ -3541,42 +2262,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부(-)의 외부효과에서는 사회적 비용이 사적 비용보다 커 과다생산·과다소비가 발생한다.",
       "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE221",
+      "conceptId": "REK113",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE222",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "재산세 귀착에서 수요가 완전탄력적이면 누가 전액 부담하는 것으로 정리되는가?",
-      "choices": [
-        "공급자",
-        "수요자",
-        "정부",
-        "임차인과 임대인이 반드시 절반씩"
-      ],
-      "answer": 0,
-      "explanation": "요약자료의 조세귀착 표에서는 수요가 완전탄력적이면 공급자가 전액 부담하는 것으로 정리된다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE223",
-      "category": "정책론",
-      "difficulty": "기초",
-      "question": "재산세 귀착에서 공급이 완전비탄력적이면 누가 전액 부담하는 것으로 정리되는가?",
-      "choices": [
-        "공급자",
-        "수요자",
-        "정부",
-        "수요자와 공급자가 반드시 절반씩"
-      ],
-      "answer": 0,
-      "explanation": "요약자료의 조세귀착 표에서는 공급이 완전비탄력적이면 공급자가 전액 부담하는 것으로 정리된다.",
-      "sourceSection": "4. 부동산 정책론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE224",
+      "id": "REK114",
       "category": "투자론",
       "difficulty": "기초",
       "question": "순현재가치법(NPV)의 일반적인 투자안 채택 기준은?",
@@ -3589,10 +2282,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요약자료에서는 순현재가치가 0 이상이면 투자안을 채택하는 것으로 정리한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE224",
+      "conceptId": "REK114",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE225",
+      "id": "REK115",
       "category": "투자론",
       "difficulty": "기초",
       "question": "수익성지수법(PI)의 일반적인 투자안 채택 기준은?",
@@ -3605,10 +2302,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요약자료에서는 수익성지수가 1보다 크면 투자안을 채택하는 것으로 정리한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE225",
+      "conceptId": "REK115",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE226",
+      "id": "REK116",
       "category": "투자론",
       "difficulty": "기초",
       "question": "현금수지분석에서 순영업소득 다음에 차감하는 항목은?",
@@ -3621,10 +2322,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "순영업소득에서 부채서비스액을 차감하면 세전현금수지가 된다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE226",
+      "conceptId": "REK116",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE227",
+      "id": "REK117",
       "category": "투자론",
       "difficulty": "기초",
       "question": "지분복귀액 계산에서 순매도액 다음에 차감하는 항목은?",
@@ -3637,10 +2342,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "순매도액에서 미상환저당잔금을 차감하면 세전지분복귀액이 된다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE227",
+      "conceptId": "REK117",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE228",
+      "id": "REK118",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원리금균등분할상환에서 시간이 지나면서 원금상환액은 어떻게 변하는가?",
@@ -3653,10 +2362,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "원리금균등분할상환은 총 원리금지불액이 일정하고 원금상환액은 증가, 이자액은 감소한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE228",
+      "conceptId": "REK118",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE229",
+      "id": "REK119",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원금균등분할상환에서 월 원리금지불액은 어떻게 변하는가?",
@@ -3669,10 +2382,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "원금균등분할상환은 원금상환액이 일정하고 이자액이 감소하므로 총 지불액도 감소한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE229",
+      "conceptId": "REK119",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE230",
+      "id": "REK120",
       "category": "금융론",
       "difficulty": "기초",
       "question": "1차 저당시장이란?",
@@ -3685,10 +2402,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "1차 저당시장은 차입자와 대출기관 사이에서 저당대출이 발생하는 시장이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE230",
+      "conceptId": "REK120",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE231",
+      "id": "REK121",
       "category": "금융론",
       "difficulty": "기초",
       "question": "2차 저당시장이란?",
@@ -3701,10 +2422,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "2차 저당시장은 기존 저당대출채권을 유통시키는 시장이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE231",
+      "conceptId": "REK121",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE232",
+      "id": "REK122",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "도시스프롤(sprawl)이란?",
@@ -3717,10 +2442,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "도시스프롤은 급속한 도시화 과정에서 도시가 무질서하게 외곽으로 확산되는 현상이다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE232",
+      "conceptId": "REK122",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE233",
+      "id": "REK123",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "부동산 개발과정에서 타당성 분석 다음 단계는?",
@@ -3733,26 +2462,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요약자료의 개발과정은 구상 → 예비적 타당성 → 부지 모색·확보 → 타당성 분석 → 금융 → 건설 → 마케팅 순이다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE233",
+      "conceptId": "REK123",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE234",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "부지분석의 주된 대상은?",
-      "choices": [
-        "대상부지 자체의 조건",
-        "국가경제 전체",
-        "투자자의 개인성향만",
-        "과거 주가만"
-      ],
-      "answer": 0,
-      "explanation": "부지분석은 지역지구제, 접근성, 크기와 모양, 지형, 편익시설 등 대상부지 자체를 분석한다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE235",
+      "id": "REK124",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "시장가치의 발생요인에 해당하는 것은?",
@@ -3765,10 +2482,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "요약자료는 시장가치의 발생요인으로 효용, 상대적 희소성, 유효수요, 이전성을 제시한다.",
       "sourceSection": "8. 부동산 가격이론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE235",
+      "conceptId": "REK124",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE236",
+      "id": "REK125",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "감정평가 3방식은?",
@@ -3781,10 +2502,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "감정평가의 3방식은 비용성에 기초한 원가방식, 시장성에 기초한 비교방식, 수익성에 기초한 수익방식이다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE236",
+      "conceptId": "REK125",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE237",
+      "id": "REK126",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원리금균등분할상환(CPM)이란?",
@@ -3797,10 +2522,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "원리금균등분할상환은 매기간 원리금지불액이 일정한 방식이다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE237",
+      "conceptId": "REK126",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE238",
+      "id": "REK127",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원금균등분할상환(CAM)이란?",
@@ -3813,42 +2542,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "원금균등분할상환은 원금상환액이 일정하고 총 지불액은 점차 감소한다.",
       "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE238",
+      "conceptId": "REK127",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE239",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 매기간 원리금지불액은 일정하고 원금상환액은 증가하며 이자액은 감소하는 상환방식",
-      "choices": [
-        "원리금균등분할상환(CPM)",
-        "원금균등분할상환(CAM)",
-        "원리금체증식 저당대출(GPM)",
-        "만기일시상환"
-      ],
-      "answer": 0,
-      "explanation": "원리금균등분할상환은 매기간 원리금지불액이 일정한 방식이다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE240",
-      "category": "금융론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 매기간 원금상환액은 일정하고 이자액이 감소하여 원리금지불액도 감소하는 상환방식",
-      "choices": [
-        "원금균등분할상환(CAM)",
-        "원리금균등분할상환(CPM)",
-        "원리금체증식 저당대출(GPM)",
-        "만기일시상환"
-      ],
-      "answer": 0,
-      "explanation": "원금균등분할상환은 원금상환액이 일정하고 총 지불액은 점차 감소한다.",
-      "sourceSection": "6. 부동산 금융론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE241",
+      "id": "REK128",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "공급분석이란?",
@@ -3861,10 +2562,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "공급분석은 공실률·임대료 추세, 건축착공량·허가수, 건축비용과 금융의 유용성 등을 조사한다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE241",
+      "conceptId": "REK128",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE242",
+      "id": "REK129",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "집약적 토지이용이란?",
@@ -3877,10 +2582,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "집약도는 노동이나 자본의 크기를 토지 단위면적으로 나누어 나타낸다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE242",
+      "conceptId": "REK129",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE243",
+      "id": "REK130",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "입지잉여란?",
@@ -3893,10 +2602,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "입지잉여는 입지조건의 우수성에서 생기는 특별한 이익이다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE243",
+      "conceptId": "REK130",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE244",
+      "id": "REK131",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "지가구배란?",
@@ -3909,26 +2622,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "지가구배는 중심입지에서 거리 증가에 따라 지가가 하락하는 정도를 나타낸다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE244",
+      "conceptId": "REK131",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE245",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "도시스프롤이란?",
-      "choices": [
-        "급속한 도시화로 토지이용이 무질서·무계획적으로 평면 확산되는 현상",
-        "새로운 이용주체의 침입으로 기존 이용주체가 다른 이용주체로 바뀌는 토지이용 변화",
-        "택지이용이 가능한 가장 먼 경계지역",
-        "부동산의 취득·유지·보존과 운용에 관한 일체의 행위"
-      ],
-      "answer": 0,
-      "explanation": "도시스프롤은 도시가 외곽으로 불규칙하게 확산되는 현상이다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE246",
+      "id": "REK132",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "침입적 토지이용이란?",
@@ -3941,10 +2642,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "침입적 토지이용은 새로운 요인의 침입으로 기존 토지이용이 변화하는 현상이다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE246",
+      "conceptId": "REK132",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE247",
+      "id": "REK133",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "택지의 한계지란?",
@@ -3957,10 +2662,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "개발·이용론에서 한계지는 택지이용의 최원방권으로 정리된다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE247",
+      "conceptId": "REK133",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE248",
+      "id": "REK134",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "부동산 관리란?",
@@ -3973,10 +2682,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부동산 관리는 부동산의 물리적·경제적·법률적 상태를 유지·운용하는 활동이다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE248",
+      "conceptId": "REK134",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE249",
+      "id": "REK135",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "부지분석이란?",
@@ -3989,10 +2702,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "부지분석은 개발대상 부지 자체의 조건을 분석한다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE249",
+      "conceptId": "REK135",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE250",
+      "id": "REK136",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "수요분석이란?",
@@ -4005,170 +2722,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수요분석은 경쟁력·인구·추세 등을 통해 유효수요를 추계한다.",
       "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE250",
+      "conceptId": "REK136",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE251",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 기존 공급과 장래 기대되는 공급을 조사하는 것",
-      "choices": [
-        "공급분석",
-        "집약적 토지이용",
-        "입지잉여",
-        "지가구배"
-      ],
-      "answer": 0,
-      "explanation": "공급분석은 공실률·임대료 추세, 건축착공량·허가수, 건축비용과 금융의 유용성 등을 조사한다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE252",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 단위면적당 노동이나 자본의 투입량이 큰 토지이용",
-      "choices": [
-        "집약적 토지이용",
-        "입지잉여",
-        "지가구배",
-        "도시스프롤"
-      ],
-      "answer": 0,
-      "explanation": "집약도는 노동이나 자본의 크기를 토지 단위면적으로 나누어 나타낸다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE253",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 같은 산업환경과 같은 집약도라도 입지조건이 좋아 발생하는 특별한 이익",
-      "choices": [
-        "입지잉여",
-        "지가구배",
-        "도시스프롤",
-        "침입적 토지이용"
-      ],
-      "answer": 0,
-      "explanation": "입지잉여는 입지조건의 우수성에서 생기는 특별한 이익이다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE254",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 100% 입지에서 멀어질수록 지가수준이 낮아지는 정도",
-      "choices": [
-        "지가구배",
-        "도시스프롤",
-        "침입적 토지이용",
-        "택지의 한계지"
-      ],
-      "answer": 0,
-      "explanation": "지가구배는 중심입지에서 거리 증가에 따라 지가가 하락하는 정도를 나타낸다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE255",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 급속한 도시화로 토지이용이 무질서·무계획적으로 평면 확산되는 현상",
-      "choices": [
-        "도시스프롤",
-        "침입적 토지이용",
-        "택지의 한계지",
-        "부동산 관리"
-      ],
-      "answer": 0,
-      "explanation": "도시스프롤은 도시가 외곽으로 불규칙하게 확산되는 현상이다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE256",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 새로운 이용주체의 침입으로 기존 이용주체가 다른 이용주체로 바뀌는 토지이용 변화",
-      "choices": [
-        "침입적 토지이용",
-        "택지의 한계지",
-        "부동산 관리",
-        "부지분석"
-      ],
-      "answer": 0,
-      "explanation": "침입적 토지이용은 새로운 요인의 침입으로 기존 토지이용이 변화하는 현상이다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE257",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 택지이용이 가능한 가장 먼 경계지역",
-      "choices": [
-        "택지의 한계지",
-        "부동산 관리",
-        "부지분석",
-        "수요분석"
-      ],
-      "answer": 0,
-      "explanation": "개발·이용론에서 한계지는 택지이용의 최원방권으로 정리된다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE258",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 부동산의 취득·유지·보존과 운용에 관한 일체의 행위",
-      "choices": [
-        "부동산 관리",
-        "부지분석",
-        "수요분석",
-        "공급분석"
-      ],
-      "answer": 0,
-      "explanation": "부동산 관리는 부동산의 물리적·경제적·법률적 상태를 유지·운용하는 활동이다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE259",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 지역지구제·접근성·크기와 모양·지형·편익시설 등 대상부지 자체를 분석하는 것",
-      "choices": [
-        "부지분석",
-        "수요분석",
-        "공급분석",
-        "집약적 토지이용"
-      ],
-      "answer": 0,
-      "explanation": "부지분석은 개발대상 부지 자체의 조건을 분석한다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE260",
-      "category": "개발·관리론",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 개발사업에 대한 유효수요를 추계하기 위해 시장을 평가하는 것",
-      "choices": [
-        "수요분석",
-        "공급분석",
-        "집약적 토지이용",
-        "입지잉여"
-      ],
-      "answer": 0,
-      "explanation": "수요분석은 경쟁력·인구·추세 등을 통해 유효수요를 추계한다.",
-      "sourceSection": "7. 부동산 개발 및 관리론",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE261",
+      "id": "REK137",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "시장가치란?",
@@ -4181,10 +2742,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "시장가치는 정상적인 거래조건 아래 성립할 가능성이 가장 높은 가액을 의미한다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE261",
+      "conceptId": "REK137",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE262",
+      "id": "REK138",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "비교방식이란?",
@@ -4197,10 +2762,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "비교방식은 시장성에 기초하며 거래사례비교법과 임대사례비교법을 포함한다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE262",
+      "conceptId": "REK138",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE263",
+      "id": "REK139",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "균형의 원칙이란?",
@@ -4213,10 +2782,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "균형의 원칙은 기능적 감가와 관련된다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE263",
+      "conceptId": "REK139",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE264",
+      "id": "REK140",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "수익배분의 원칙이란?",
@@ -4229,10 +2802,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수익배분의 원칙은 잔여법과 수익분석법의 이론적 근거로 정리된다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE264",
+      "conceptId": "REK140",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE265",
+      "id": "REK141",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "적합의 원칙이란?",
@@ -4245,10 +2822,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "적합의 원칙은 외부환경과의 부적합에서 발생하는 경제적 감가와 관련된다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE265",
+      "conceptId": "REK141",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE266",
+      "id": "REK142",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "지역분석이란?",
@@ -4261,10 +2842,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "지역분석은 개별분석보다 먼저 실시하며 가격수준과 사례수집 범위를 파악한다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE266",
+      "conceptId": "REK142",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE267",
+      "id": "REK143",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "개별분석이란?",
@@ -4277,10 +2862,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "개별분석은 지역분석 후 대상부동산 자체의 최유효이용과 구체적 가격을 판단한다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE267",
+      "conceptId": "REK143",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE268",
+      "id": "REK144",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "원가법이란?",
@@ -4293,10 +2882,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "원가법은 비용성에 기초한 원가방식의 가치평가 방법이다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE268",
+      "conceptId": "REK144",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE269",
+      "id": "REK145",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "거래사례비교법이란?",
@@ -4309,10 +2902,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "거래사례비교법은 시장성에 기초한 비교방식의 가치평가 방법이다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE269",
+      "conceptId": "REK145",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE270",
+      "id": "REK146",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "수익환원법이란?",
@@ -4325,170 +2922,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수익환원법은 수익성에 기초한 수익방식의 가치평가 방법이다.",
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE270",
+      "conceptId": "REK146",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE271",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 통상적인 시장에서 충분한 기간 공개된 후 성립할 가능성이 가장 높은 대상물건의 가액",
-      "choices": [
-        "시장가치",
-        "비교방식",
-        "균형의 원칙",
-        "수익배분의 원칙"
-      ],
-      "answer": 0,
-      "explanation": "시장가치는 정상적인 거래조건 아래 성립할 가능성이 가장 높은 가액을 의미한다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE272",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 시장성에 기초하여 거래사례나 임대사례를 비교·보정하는 감정평가 방식",
-      "choices": [
-        "비교방식",
-        "균형의 원칙",
-        "수익배분의 원칙",
-        "적합의 원칙"
-      ],
-      "answer": 0,
-      "explanation": "비교방식은 시장성에 기초하며 거래사례비교법과 임대사례비교법을 포함한다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE273",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 부동산 내부 구성요소 사이의 균형을 중시하는 가치원칙",
-      "choices": [
-        "균형의 원칙",
-        "수익배분의 원칙",
-        "적합의 원칙",
-        "지역분석"
-      ],
-      "answer": 0,
-      "explanation": "균형의 원칙은 기능적 감가와 관련된다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE274",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 총수익이 생산요소에 어떻게 배분되는지를 설명하는 가치원칙",
-      "choices": [
-        "수익배분의 원칙",
-        "적합의 원칙",
-        "지역분석",
-        "개별분석"
-      ],
-      "answer": 0,
-      "explanation": "수익배분의 원칙은 잔여법과 수익분석법의 이론적 근거로 정리된다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE275",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 부동산과 외부환경 사이의 균형을 중시하는 가치원칙",
-      "choices": [
-        "적합의 원칙",
-        "지역분석",
-        "개별분석",
-        "원가법"
-      ],
-      "answer": 0,
-      "explanation": "적합의 원칙은 외부환경과의 부적합에서 발생하는 경제적 감가와 관련된다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE276",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 대상부동산이 속한 지역의 표준적 이용과 가격수준을 거시적으로 분석하는 것",
-      "choices": [
-        "지역분석",
-        "개별분석",
-        "원가법",
-        "거래사례비교법"
-      ],
-      "answer": 0,
-      "explanation": "지역분석은 개별분석보다 먼저 실시하며 가격수준과 사례수집 범위를 파악한다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE277",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 대상부동산의 최유효이용과 구체적 가격을 미시적으로 판정하는 것",
-      "choices": [
-        "개별분석",
-        "원가법",
-        "거래사례비교법",
-        "수익환원법"
-      ],
-      "answer": 0,
-      "explanation": "개별분석은 지역분석 후 대상부동산 자체의 최유효이용과 구체적 가격을 판단한다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE278",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 재조달원가에서 감가누계액을 차감하여 적산가치를 구하는 방법",
-      "choices": [
-        "원가법",
-        "거래사례비교법",
-        "수익환원법",
-        "시장가치"
-      ],
-      "answer": 0,
-      "explanation": "원가법은 비용성에 기초한 원가방식의 가치평가 방법이다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE279",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 유사 거래사례를 보정·비교하여 비준가치를 구하는 방법",
-      "choices": [
-        "거래사례비교법",
-        "수익환원법",
-        "시장가치",
-        "비교방식"
-      ],
-      "answer": 0,
-      "explanation": "거래사례비교법은 시장성에 기초한 비교방식의 가치평가 방법이다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE280",
-      "category": "감정평가·가격공시",
-      "difficulty": "기초",
-      "question": "다음 설명에 해당하는 것은? 순수익을 환원이율로 환원하여 수익가치를 구하는 방법",
-      "choices": [
-        "수익환원법",
-        "시장가치",
-        "비교방식",
-        "균형의 원칙"
-      ],
-      "answer": 0,
-      "explanation": "수익환원법은 수익성에 기초한 수익방식의 가치평가 방법이다.",
-      "sourceSection": "8~12. 가격이론·감정평가·가격공시",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE281",
+      "id": "REK147",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "원가법의 산식은?",
@@ -4501,10 +2942,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "원가법의 산식은 재조달원가 - 감가누계액이다. 비용성에 기초하여 적산가치를 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE281",
+      "conceptId": "REK147",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE282",
+      "id": "REK148",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "적산법의 산식은?",
@@ -4517,10 +2962,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "적산법의 산식은 (기초가액 × 기대이율) + 필요제경비이다. 원가방식으로 적산임료를 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE282",
+      "conceptId": "REK148",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE283",
+      "id": "REK149",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "거래사례비교법의 산식은?",
@@ -4533,10 +2982,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "거래사례비교법의 산식은 사례가격 × 사정보정 × 시점수정 × 지역요인비교 × 개별요인비교 × 면적비교이다. 시장성에 기초하여 비준가치를 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE283",
+      "conceptId": "REK149",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE284",
+      "id": "REK150",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "임대사례비교법의 산식은?",
@@ -4549,10 +3002,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "임대사례비교법의 산식은 사례임료 × 사정보정 × 시점수정 × 지역요인비교 × 개별요인비교 × 면적비교이다. 시장성에 기초하여 비준임료를 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE284",
+      "conceptId": "REK150",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE285",
+      "id": "REK151",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "수익환원법의 산식은?",
@@ -4565,10 +3022,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수익환원법의 산식은 순수익(순영업소득) ÷ 환원이율이다. 수익성에 기초하여 수익가치를 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE285",
+      "conceptId": "REK151",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE286",
+      "id": "REK152",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "수익분석법의 산식은?",
@@ -4581,10 +3042,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "수익분석법의 산식은 순수익 + 필요제경비이다. 수익방식으로 수익임료를 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE286",
+      "conceptId": "REK152",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE287",
+      "id": "REK153",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "매년감가액의 산식은?",
@@ -4597,10 +3062,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "매년감가액의 산식은 (재조달원가 - 잔존가액) ÷ 경제적 내용연수이다. 감가수정에서 경제적 내용연수를 기준으로 연간 감가액을 계산한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE287",
+      "conceptId": "REK153",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE288",
+      "id": "REK154",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "종합환원이율의 산식은?",
@@ -4613,10 +3082,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "종합환원이율의 산식은 (자기자본비율 × 자기자본환원율) + (타인자본비율 × 저당상수)이다. 자기자본과 타인자본의 비중을 결합하여 종합환원이율을 산정한다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE288",
+      "conceptId": "REK154",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE289",
+      "id": "REK155",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "자본환원율의 산식은?",
@@ -4629,10 +3102,14 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "자본환원율의 산식은 부채감당률 × 저당비율 × 저당상수이다. 부채감당률과 저당비율·저당상수를 이용해 자본환원율을 계산하는 식이다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE289",
+      "conceptId": "REK155",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     },
     {
-      "id": "RE290",
+      "id": "REK156",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "직선법 수익가격의 산식은?",
@@ -4645,168 +3122,11 @@ window.WORD_QUIZ_BANK = {
       "answer": 0,
       "explanation": "직선법 수익가격의 산식은 순수익(상각전) ÷ (환원이율 + 상각률)이다. 직선법에서 상각률은 1 ÷ 잔존내용연수로 정리된다.",
       "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE291",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 재조달원가 - 감가누계액",
-      "choices": [
-        "원가법",
-        "적산법",
-        "거래사례비교법",
-        "임대사례비교법"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 원가법에 해당한다. 비용성에 기초하여 적산가치를 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE292",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? (기초가액 × 기대이율) + 필요제경비",
-      "choices": [
-        "적산법",
-        "거래사례비교법",
-        "임대사례비교법",
-        "수익환원법"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 적산법에 해당한다. 원가방식으로 적산임료를 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE293",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 사례가격 × 사정보정 × 시점수정 × 지역요인비교 × 개별요인비교 × 면적비교",
-      "choices": [
-        "거래사례비교법",
-        "임대사례비교법",
-        "수익환원법",
-        "수익분석법"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 거래사례비교법에 해당한다. 시장성에 기초하여 비준가치를 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE294",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 사례임료 × 사정보정 × 시점수정 × 지역요인비교 × 개별요인비교 × 면적비교",
-      "choices": [
-        "임대사례비교법",
-        "수익환원법",
-        "수익분석법",
-        "매년감가액"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 임대사례비교법에 해당한다. 시장성에 기초하여 비준임료를 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE295",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 순수익(순영업소득) ÷ 환원이율",
-      "choices": [
-        "수익환원법",
-        "수익분석법",
-        "매년감가액",
-        "종합환원이율"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 수익환원법에 해당한다. 수익성에 기초하여 수익가치를 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE296",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 순수익 + 필요제경비",
-      "choices": [
-        "수익분석법",
-        "매년감가액",
-        "종합환원이율",
-        "자본환원율"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 수익분석법에 해당한다. 수익방식으로 수익임료를 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE297",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? (재조달원가 - 잔존가액) ÷ 경제적 내용연수",
-      "choices": [
-        "매년감가액",
-        "종합환원이율",
-        "자본환원율",
-        "직선법 수익가격"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 매년감가액에 해당한다. 감가수정에서 경제적 내용연수를 기준으로 연간 감가액을 계산한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE298",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? (자기자본비율 × 자기자본환원율) + (타인자본비율 × 저당상수)",
-      "choices": [
-        "종합환원이율",
-        "자본환원율",
-        "직선법 수익가격",
-        "원가법"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 종합환원이율에 해당한다. 자기자본과 타인자본의 비중을 결합하여 종합환원이율을 산정한다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE299",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 부채감당률 × 저당비율 × 저당상수",
-      "choices": [
-        "자본환원율",
-        "직선법 수익가격",
-        "원가법",
-        "적산법"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 자본환원율에 해당한다. 부채감당률과 저당비율·저당상수를 이용해 자본환원율을 계산하는 식이다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
-    },
-    {
-      "id": "RE300",
-      "category": "감정평가·가격공시",
-      "difficulty": "공식",
-      "question": "다음 산식에 해당하는 것은? 순수익(상각전) ÷ (환원이율 + 상각률)",
-      "choices": [
-        "직선법 수익가격",
-        "원가법",
-        "적산법",
-        "거래사례비교법"
-      ],
-      "answer": 0,
-      "explanation": "제시된 식은 직선법 수익가격에 해당한다. 직선법에서 상각률은 1 ÷ 잔존내용연수로 정리된다.",
-      "sourceSection": "10. 감정평가의 방식",
-      "sourceType": "요약자료"
+      "sourceType": "요약자료",
+      "legacyId": "RE290",
+      "conceptId": "REK156",
+      "curation": "시험핵심선별",
+      "reviewedAt": "2026-09-02"
     }
-  ],
-  "review": "300문제 전수 문체·중복·정답키 검토 완료"
+  ]
 };
