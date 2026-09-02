@@ -1,4 +1,4 @@
-.word-quiz-home-section{
+﻿.word-quiz-home-section{
   margin-top:22px;
   padding:22px;
   border:1px solid var(--line,#dfe4ec);
@@ -35,3 +35,5 @@
   .word-quiz-subject-btn{min-height:68px;padding:11px 12px}
   .word-quiz-copy strong{font-size:14px}
 }
+.word-quiz-subject-btn{ text-decoration:none; }
+

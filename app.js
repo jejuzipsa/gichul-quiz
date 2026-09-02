@@ -1,4 +1,4 @@
-const SITE_BUILD_VERSION='1.45';
+﻿const SITE_BUILD_VERSION='1.46';
 (() => {
   const $ = (id) => document.getElementById(id);
   const READING_SIZE_KEY = 'gichulQuizReadingSize';
@@ -215,11 +215,11 @@ const SITE_BUILD_VERSION='1.45';
       btn.innerHTML=`<strong>${escapeHtml(entry.short_name||entry.name)}</strong><span>슬라이드형 · 새 탭</span>`;
       btn.addEventListener('click',async()=>{
         if(entry.code==='real_estate_intro'){
-          window.open('summary/real_estate_intro_slides_v142.html?v=1.45','_blank','noopener');
+          window.open('summary/real_estate_intro_slides_v142.html?v=1.46','_blank','noopener');
           return;
         }
         if(['civil_law','brokerage_law','public_law','registration_law','tax_law'].includes(entry.code)){
-          window.open(`summary/slides_v143.html?subject=${encodeURIComponent(entry.code)}&v=1.45`,'_blank','noopener');
+          window.open(`summary/slides_v143.html?subject=${encodeURIComponent(entry.code)}&v=1.46`,'_blank','noopener');
           return;
         }
         btn.disabled=true;
@@ -1126,3 +1126,4 @@ const SITE_BUILD_VERSION='1.45';
   if(!manifest.length){alert('과목 manifest를 읽지 못했어. data/manifest.js 파일을 확인해줘.');return;}
   renderHome();showView('home');
 })();
+
