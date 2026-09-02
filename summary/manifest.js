@@ -55,3 +55,13 @@ window.SUMMARY_MANIFEST = [
     "script": "summary/tax_law.js"
   }
 ];
+
+/* 핵심 개념 퀴즈 홈 카드 로더 */
+(() => {
+  if (document.querySelector('script[data-word-quiz-entry]')) return;
+  const script = document.createElement('script');
+  script.src = 'word-quiz/home-entry.js?v=1.0';
+  script.defer = true;
+  script.dataset.wordQuizEntry = '1';
+  document.head.appendChild(script);
+})();
