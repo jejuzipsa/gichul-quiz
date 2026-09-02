@@ -1,4 +1,4 @@
-﻿.word-quiz-home-section{
+.word-quiz-home-section{
   margin-top:22px;
   padding:22px;
   border:1px solid var(--line,#dfe4ec);
@@ -37,3 +37,25 @@
 }
 .word-quiz-subject-btn{ text-decoration:none; }
 
+/* 핵심 개념 퀴즈 과목 카드 간소화 */
+.word-quiz-subject-btn{
+  text-decoration:none;
+}
+.word-quiz-subject-btn > strong{
+  min-width:0;
+  font-size:15px;
+  line-height:1.4;
+  overflow-wrap:anywhere;
+}
+.word-quiz-subject-btn > span{
+  flex:0 0 auto;
+  margin-left:auto;
+  color:var(--muted,#697386);
+  font-size:13px;
+  font-weight:750;
+  white-space:nowrap;
+}
+@media(max-width:560px){
+  .word-quiz-subject-btn > strong{font-size:14px}
+  .word-quiz-subject-btn > span{font-size:12px}
+}
