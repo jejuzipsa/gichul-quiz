@@ -81,3 +81,121 @@ button:disabled{cursor:default}
   .result-card,.wrong-section{padding:18px;border-radius:18px}
   .result-actions>*{flex:1 1 100%;width:100%}
 }
+
+/* ===== 정답/해설 중앙 플로팅 팝업 ===== */
+body.answer-modal-open{
+  overflow:hidden;
+}
+.answer-overlay{
+  position:fixed;
+  inset:0;
+  z-index:1000;
+  display:grid;
+  place-items:center;
+  padding:20px;
+  background:rgba(31,41,55,.28);
+  -webkit-backdrop-filter:blur(3px);
+  backdrop-filter:blur(3px);
+  animation:answerOverlayIn .14s ease-out;
+}
+.answer-modal{
+  width:min(560px,100%);
+  max-height:min(78vh,650px);
+  overflow:auto;
+  padding:26px;
+  border:1px solid rgba(255,255,255,.72);
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 24px 70px rgba(18,34,64,.24);
+  animation:answerModalIn .16s ease-out;
+}
+.answer-modal-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:58px;
+  height:30px;
+  margin-bottom:12px;
+  padding:0 12px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:900;
+}
+.answer-overlay.is-good .answer-modal-badge{
+  background:#e9f1ff;
+  color:#174bb0;
+}
+.answer-overlay.is-bad .answer-modal-badge{
+  background:#fff0f0;
+  color:#b12f2f;
+}
+.answer-modal-title{
+  margin:0;
+  font-size:clamp(24px,3.2vw,32px);
+  line-height:1.25;
+  letter-spacing:-.03em;
+}
+.answer-overlay.is-good .answer-modal-title{color:#174bb0}
+.answer-overlay.is-bad .answer-modal-title{color:#b12f2f}
+.answer-modal-correct{
+  margin:14px 0 0;
+  padding:11px 13px;
+  border-radius:12px;
+  background:#e9f1ff;
+  color:#174bb0;
+  font-size:15px;
+  font-weight:850;
+  line-height:1.5;
+}
+.answer-modal-explain{
+  margin:15px 0 0;
+  color:#334155;
+  font-size:16px;
+  line-height:1.7;
+  word-break:keep-all;
+}
+.answer-modal-next{
+  width:100%;
+  min-height:50px;
+  margin-top:22px;
+  border:0;
+  border-radius:14px;
+  background:#1f63e9;
+  color:#fff;
+  font-size:16px;
+  font-weight:900;
+  box-shadow:0 8px 20px rgba(31,99,233,.20);
+}
+.answer-modal-next:hover{background:#174bb0}
+.answer-modal-next:focus-visible{
+  outline:3px solid rgba(31,99,233,.25);
+  outline-offset:3px;
+}
+@keyframes answerOverlayIn{
+  from{opacity:0}
+  to{opacity:1}
+}
+@keyframes answerModalIn{
+  from{opacity:0;transform:translateY(10px) scale(.985)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+@media(max-width:600px){
+  .answer-overlay{
+    padding:16px;
+  }
+  .answer-modal{
+    padding:22px 18px 18px;
+    border-radius:20px;
+    max-height:82vh;
+  }
+  .answer-modal-explain{
+    font-size:15px;
+  }
+  .answer-modal-next{
+    min-height:52px;
+    margin-top:19px;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .answer-overlay,.answer-modal{animation:none}
+}
