@@ -2,7 +2,7 @@
   const $=id=>document.getElementById(id);
   const bank=window.WORD_QUIZ_BANK;
   if(!bank || !Array.isArray(bank.questions)){
-    document.body.innerHTML='<main class="quiz-shell"><article class="result-card"><h1>문제 데이터를 불러오지 못했어.</h1><a class="secondary-btn" href="../index.html">홈으로</a></article></main>';
+    document.body.innerHTML='<main class="quiz-shell"><article class="result-card"><h1>문제 데이터를 불러오지 못했습니다.</h1><a class="secondary-btn" href="../index.html">홈으로</a></article></main>';
     return;
   }
 
@@ -53,7 +53,7 @@
     modalEls.overlay.classList.add(selectedCorrect?'is-good':'is-bad');
 
     modalEls.badge.textContent=selectedCorrect?'정답':'오답';
-    modalEls.title.textContent=selectedCorrect?'정답이야.':'오답이야.';
+    modalEls.title.textContent=selectedCorrect?'정답.':'오답.';
 
     if(selectedCorrect){
       modalEls.correct.classList.add('hidden');
@@ -188,7 +188,7 @@
     if(!wrong.length){
       const empty=document.createElement('div');
       empty.className='empty-wrong';
-      empty.textContent='틀린 문제가 없어. 전부 맞았어.';
+      empty.textContent='오답 없음. 전 문항 정답.';
       els.wrongList.appendChild(empty);
     } else {
       wrong.forEach((item,idx)=>{
@@ -209,7 +209,7 @@
   els.retryWrongBtn.addEventListener('click',startWrong);
   els.newSetBtn.addEventListener('click',startRandom);
   els.newSetTopBtn.addEventListener('click',()=>{
-    if(confirm('현재 풀이를 끝내고 새로운 30문제를 시작할까?')) startRandom();
+    if(confirm('새 30문제를 시작하시겠습니까?')) startRandom();
   });
 
   startRandom();
