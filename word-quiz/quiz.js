@@ -6,7 +6,10 @@
     return;
   }
 
-  const state={session:[],index:0,answers:[],mode:'random'};
+  const params=new URLSearchParams(location.search);
+  const requestedCount=Number(params.get('count'));
+  const quizCount=requestedCount===10?10:30;
+  const state={session:[],index:0,answers:[],mode:'random',quizCount};
   const els={
     playView:$('playView'),resultView:$('resultView'),subjectTitle:$('subjectTitle'),progressText:$('progressText'),
     categoryText:$('categoryText'),progressFill:$('progressFill'),questionNumber:$('questionNumber'),
@@ -15,6 +18,8 @@
     newSetBtn:$('newSetBtn'),newSetTopBtn:$('newSetTopBtn'),wrongSection:$('wrongSection'),wrongCount:$('wrongCount'),wrongList:$('wrongList')
   };
   els.subjectTitle.textContent=bank.subject||'핵심 개념';
+  els.newSetTopBtn.textContent=`새 ${state.quizCount}문제`;
+  els.newSetBtn.textContent=`새로운 ${state.quizCount}문제`;
 
   // 정답/해설 중앙 플로팅 팝업
   const answerOverlay=document.createElement('div');
@@ -102,7 +107,7 @@
   function startRandom(){
     hideAnswerModal();
     const uniqueCount=new Set(bank.questions.map(q=>q.conceptId||q.id)).size;
-    const n=Math.min(Number(bank.randomPickDefault)||30,uniqueCount);
+    const n=Math.min(state.quizCount,uniqueCount);
     state.session=pickUniqueConcepts(bank.questions,n).map(prepareQuestion);
     state.index=0; state.answers=[]; state.mode='random';
     showPlay();
@@ -223,7 +228,7 @@
   els.retryWrongBtn.addEventListener('click',startWrong);
   els.newSetBtn.addEventListener('click',startRandom);
   els.newSetTopBtn.addEventListener('click',()=>{
-    if(confirm('새 30문제를 시작하시겠습니까?')) startRandom();
+    if(confirm(`새 ${state.quizCount}문제를 시작하시겠습니까?`)) startRandom();
   });
 
   startRandom();

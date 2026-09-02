@@ -59,3 +59,59 @@
   .word-quiz-subject-btn > strong{font-size:14px}
   .word-quiz-subject-btn > span{font-size:12px}
 }
+
+/* ===== 핵심 개념 퀴즈 10문제 / 30문제 선택 ===== */
+.word-quiz-subject-card{
+  cursor:default;
+}
+.word-quiz-subject-info{
+  min-width:0;
+}
+.word-quiz-subject-info strong{
+  display:block;
+  overflow-wrap:anywhere;
+  font-size:15px;
+  line-height:1.35;
+}
+.word-quiz-subject-info>span{
+  display:block;
+  margin-top:6px;
+  color:var(--muted,#697386);
+  font-size:12px;
+  font-weight:700;
+}
+.word-quiz-count-actions{
+  flex:0 0 auto;
+  display:flex;
+  gap:7px;
+}
+.word-quiz-count-actions a{
+  min-width:58px;
+  min-height:36px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:0 10px;
+  border:1px solid var(--line,#dfe4ec);
+  border-radius:10px;
+  background:var(--surface,#fff);
+  color:var(--text,#161b22);
+  font-size:12px;
+  font-weight:850;
+  text-decoration:none;
+}
+.word-quiz-count-actions a:hover{
+  border-color:var(--primary,#1f63e9);
+  background:var(--blue-soft,#e9f1ff);
+  color:var(--primary,#1f63e9);
+}
+@media(max-width:560px){
+  .word-quiz-subject-card{
+    min-height:72px;
+  }
+  .word-quiz-count-actions a{
+    min-width:56px;
+    min-height:36px;
+    padding:0 8px;
+  }
+}
