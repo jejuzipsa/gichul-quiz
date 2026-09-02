@@ -5,63 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f5f7fb" />
   <title>핵심 개념 퀴즈</title>
-  <link rel="stylesheet" href="quiz.css?v=1.2" />
+  <link rel="stylesheet" href="quiz.css?v=1.5" />
 </head>
 <body>
   <main class="quiz-shell">
     <header class="quiz-topbar">
       <a class="home-link" href="../index.html" aria-label="기출문제 홈으로">← 홈</a>
-      <div>
-        <p class="eyebrow">핵심 개념 퀴즈</p>
-        <h1 id="subjectTitle">부동산학개론</h1>
-      </div>
+      <div><p class="eyebrow">핵심 개념 퀴즈</p><h1 id="subjectTitle">핵심 개념 퀴즈</h1></div>
       <button id="newSetTopBtn" class="soft-btn" type="button">새 30문제</button>
     </header>
-
     <section id="playView">
-      <div class="quiz-status">
-        <div class="status-line">
-          <strong id="progressText">1 / 30</strong>
-          <span id="categoryText"></span>
-        </div>
-        <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
-      </div>
-
-      <article id="questionCard" class="question-card">
-        <div class="question-kicker" id="questionNumber">문제 1</div>
-        <h2 id="questionText"></h2>
-        <div id="choices" class="choices"></div>
-        <div id="feedback" class="feedback hidden" aria-live="polite"></div>
-        <div class="actions">
-          <button id="nextBtn" class="primary-btn hidden" type="button">다음 문제</button>
-        </div>
-      </article>
+      <div class="quiz-status"><div class="status-line"><strong id="progressText">1 / 30</strong><span id="categoryText"></span></div><div class="progress-track"><div id="progressFill" class="progress-fill"></div></div></div>
+      <article id="questionCard" class="question-card"><div class="question-kicker" id="questionNumber">문제 1</div><h2 id="questionText"></h2><div id="choices" class="choices"></div><div id="feedback" class="feedback hidden" aria-live="polite"></div><div class="actions"><button id="nextBtn" class="primary-btn hidden" type="button">다음 문제</button></div></article>
     </section>
-
     <section id="resultView" class="hidden">
-      <article class="result-card">
-        <p class="eyebrow">퀴즈 결과</p>
-        <h2 id="resultHeadline">30문제 완료</h2>
-        <p id="resultScore" class="result-score"></p>
-        <div id="resultBar" class="result-bar"><span></span></div>
-        <div class="result-actions">
-          <button id="retryWrongBtn" class="primary-btn" type="button">틀린 문제 다시 풀기</button>
-          <button id="newSetBtn" class="secondary-btn" type="button">새로운 30문제</button>
-          <a class="secondary-btn link-btn" href="../index.html">홈으로</a>
-        </div>
-      </article>
-
-      <section id="wrongSection" class="wrong-section">
-        <div class="wrong-head">
-          <h2>틀린 문제</h2>
-          <span id="wrongCount"></span>
-        </div>
-        <div id="wrongList" class="wrong-list"></div>
-      </section>
+      <article class="result-card"><p class="eyebrow">퀴즈 결과</p><h2 id="resultHeadline">30문제 완료</h2><p id="resultScore" class="result-score"></p><div id="resultBar" class="result-bar"><span></span></div><div class="result-actions"><button id="retryWrongBtn" class="primary-btn" type="button">틀린 문제 다시 풀기</button><button id="newSetBtn" class="secondary-btn" type="button">새로운 30문제</button><a class="secondary-btn link-btn" href="../index.html">홈으로</a></div></article>
+      <section id="wrongSection" class="wrong-section"><div class="wrong-head"><h2>틀린 문제</h2><span id="wrongCount"></span></div><div id="wrongList" class="wrong-list"></div></section>
     </section>
   </main>
-
-  <script src="data/real_estate_intro.js?v=3.0"></script>
-  <script src="quiz.js?v=1.2"></script>
+  <script>
+  (()=>{
+    const subjects={
+      real_estate_intro:'real_estate_intro.js',
+      civil_law:'civil_law.js',
+      brokerage_law:'brokerage_law.js',
+      public_law:'public_law.js',
+      registration_law:'registration_law.js',
+      tax_law:'tax_law.js'
+    };
+    const key=new URLSearchParams(location.search).get('subject')||'real_estate_intro';
+    const file=subjects[key]||subjects.real_estate_intro;
+    const data=document.createElement('script');
+    data.src=`data/${file}?v=20260902-currentlaw-v3`;
+    data.onload=()=>{const app=document.createElement('script');app.src='quiz.js?v=1.5';document.body.appendChild(app);};
+    data.onerror=()=>{document.body.innerHTML='<main class="quiz-shell"><article class="result-card"><h1>문제 데이터를 불러오지 못했습니다.</h1><a class="secondary-btn" href="../index.html">홈으로</a></article></main>';};
+    document.body.appendChild(data);
+  })();
+  </script>
 </body>
 </html>

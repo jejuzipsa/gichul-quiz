@@ -86,10 +86,24 @@
     return {...q,displayChoices:shuffle(opts)};
   }
 
+  function pickUniqueConcepts(questions,n){
+    const picked=[];
+    const seen=new Set();
+    for(const q of shuffle(questions)){
+      const key=q.conceptId||q.id;
+      if(seen.has(key)) continue;
+      seen.add(key);
+      picked.push(q);
+      if(picked.length>=n) break;
+    }
+    return picked;
+  }
+
   function startRandom(){
     hideAnswerModal();
-    const n=Math.min(Number(bank.randomPickDefault)||30,bank.questions.length);
-    state.session=shuffle(bank.questions).slice(0,n).map(prepareQuestion);
+    const uniqueCount=new Set(bank.questions.map(q=>q.conceptId||q.id)).size;
+    const n=Math.min(Number(bank.randomPickDefault)||30,uniqueCount);
+    state.session=pickUniqueConcepts(bank.questions,n).map(prepareQuestion);
     state.index=0; state.answers=[]; state.mode='random';
     showPlay();
   }
