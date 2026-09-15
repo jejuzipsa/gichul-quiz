@@ -1,0 +1,54 @@
+/* ===== 듀오링고식 괄호문제 ===== */
+.blank-quiz-mode .question-card h2{
+  line-height:1.65;
+}
+.blank-slot{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:92px;
+  min-height:42px;
+  margin:0 5px;
+  padding:2px 12px;
+  border:2px dashed #9bb2d8;
+  border-radius:11px;
+  background:#f7faff;
+  color:#6b7b93;
+  font-size:.82em;
+  font-weight:900;
+  line-height:1.25;
+  vertical-align:.08em;
+  transition:.15s ease;
+}
+.blank-slot.is-correct{
+  border-style:solid;
+  border-color:var(--primary);
+  background:var(--blueSoft);
+  color:#174bb0;
+}
+.blank-slot.is-wrong{
+  border-style:solid;
+  border-color:var(--bad);
+  background:var(--badSoft);
+  color:#a52d2d;
+}
+.blank-quiz-mode .choices{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+.blank-quiz-mode .blank-choice{
+  min-height:64px;
+}
+.blank-quiz-mode .result-card .result-score{
+  line-height:1.6;
+}
+@media(max-width:600px){
+  .blank-slot{
+    min-width:76px;
+    min-height:36px;
+    margin:0 3px;
+    padding:2px 9px;
+  }
+  .blank-quiz-mode .choices{
+    grid-template-columns:1fr;
+  }
+}

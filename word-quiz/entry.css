@@ -11,7 +11,7 @@
 .word-quiz-home-head p{margin:5px 0 0;color:var(--muted,#697386);font-size:13px}
 .word-quiz-subject-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .word-quiz-subject-btn{
-  min-width:0;min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  min-width:0;min-height:102px;display:flex;align-items:center;justify-content:space-between;gap:12px;
   padding:13px 14px;text-align:left;border:1px solid var(--line,#dfe4ec);border-radius:14px;
   background:var(--surface-2,#f0f3f8);color:var(--text,#161b22);transition:.15s ease
 }
@@ -32,12 +32,10 @@
   .word-quiz-home-head{align-items:flex-start;flex-direction:column;margin-bottom:12px}
   .word-quiz-home-head p{font-size:12px}
   .word-quiz-subject-grid{grid-template-columns:1fr;gap:7px}
-  .word-quiz-subject-btn{min-height:68px;padding:11px 12px}
+  .word-quiz-subject-btn{min-height:96px;padding:11px 12px}
   .word-quiz-copy strong{font-size:14px}
 }
 .word-quiz-subject-btn{ text-decoration:none; }
-
-/* 핵심 개념 퀴즈 과목 카드 간소화 */
 .word-quiz-subject-btn{
   text-decoration:none;
 }
@@ -59,14 +57,8 @@
   .word-quiz-subject-btn > strong{font-size:14px}
   .word-quiz-subject-btn > span{font-size:12px}
 }
-
-/* ===== 핵심 개념 퀴즈 10문제 / 30문제 선택 ===== */
-.word-quiz-subject-card{
-  cursor:default;
-}
-.word-quiz-subject-info{
-  min-width:0;
-}
+.word-quiz-subject-card{cursor:default}
+.word-quiz-subject-info{min-width:0}
 .word-quiz-subject-info strong{
   display:block;
   overflow-wrap:anywhere;
@@ -80,13 +72,15 @@
   font-size:12px;
   font-weight:700;
 }
-.word-quiz-count-actions{
+.word-quiz-action-stack{
   flex:0 0 auto;
-  display:flex;
+  display:grid;
   gap:7px;
+  width:129px;
 }
-.word-quiz-count-actions a{
-  min-width:58px;
+.word-quiz-count-actions{display:flex;gap:7px}
+.word-quiz-count-actions a,
+.word-quiz-blank-action{
   min-height:36px;
   display:inline-flex;
   align-items:center;
@@ -100,18 +94,22 @@
   font-weight:850;
   text-decoration:none;
 }
-.word-quiz-count-actions a:hover{
+.word-quiz-count-actions a{min-width:58px}
+.word-quiz-blank-action{
+  width:100%;
+  border-color:#b8c8e7;
+  background:#f8fbff;
+  color:#174bb0;
+}
+.word-quiz-count-actions a:hover,
+.word-quiz-blank-action:hover{
   border-color:var(--primary,#1f63e9);
   background:var(--blue-soft,#e9f1ff);
   color:var(--primary,#1f63e9);
 }
 @media(max-width:560px){
-  .word-quiz-subject-card{
-    min-height:72px;
-  }
-  .word-quiz-count-actions a{
-    min-width:56px;
-    min-height:36px;
-    padding:0 8px;
-  }
+  .word-quiz-subject-card{min-height:96px}
+  .word-quiz-action-stack{width:125px}
+  .word-quiz-count-actions a{min-width:55px;min-height:36px;padding:0 8px}
+  .word-quiz-blank-action{min-height:36px}
 }
