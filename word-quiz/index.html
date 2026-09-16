@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f5f7fb" />
   <title>핵심 개념 퀴즈</title>
   <link rel="stylesheet" href="quiz.css?v=1.7" />
-  <link rel="stylesheet" href="blank-quiz.css?v=1.0" />
+  <link rel="stylesheet" href="blank-quiz.css?v=1.1" />
 </head>
 <body>
   <main class="quiz-shell">
@@ -38,21 +38,31 @@
     const key=params.get('subject')||'real_estate_intro';
     const mode=params.get('mode')==='blank'?'blank':'standard';
     const file=subjects[key]||subjects.real_estate_intro;
-    const data=document.createElement('script');
 
-    if(mode==='blank'){
-      data.src=`blank-data/${file}?v=20260916-blank-v1`;
-      data.onload=()=>{const app=document.createElement('script');app.src='blank-quiz.js?v=1.0';document.body.appendChild(app);};
-    }else{
-      data.src=`data/${file}?v=20260902-core-v1`;
-      data.onload=()=>{const app=document.createElement('script');app.src='quiz.js?v=1.7';document.body.appendChild(app);};
-    }
-
-    data.onerror=()=>{
-      const kind=mode==='blank'?'괄호문제':'문제';
+    const fail=(kind)=>{
       document.body.innerHTML=`<main class="quiz-shell"><article class="result-card"><h1>${kind} 데이터를 불러오지 못했습니다.</h1><a class="secondary-btn" href="../index.html">홈으로</a></article></main>`;
     };
-    document.body.appendChild(data);
+    const load=(src,onload,onerror)=>{
+      const script=document.createElement('script');
+      script.src=src;
+      script.onload=onload||null;
+      script.onerror=onerror||(()=>fail('문제'));
+      document.body.appendChild(script);
+    };
+
+    if(mode==='blank'){
+      load(`blank-data/${file}?v=20260916-blank-v2`,()=>{
+        load(`../summary/${file}?v=1.48`,()=>{
+          load('blank-bank-builder.js?v=1.48',()=>{
+            load('blank-quiz.js?v=1.1',null,()=>fail('괄호문제'));
+          },()=>fail('괄호문제'));
+        },()=>fail('핵심요약'));
+      },()=>fail('괄호문제'));
+    }else{
+      load(`data/${file}?v=20260902-core-v1`,()=>{
+        load('quiz.js?v=1.7',null,()=>fail('문제'));
+      },()=>fail('문제'));
+    }
   })();
   </script>
 </body>
