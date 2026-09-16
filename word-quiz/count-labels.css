@@ -1,0 +1,6 @@
+.word-quiz-subject-grid .word-quiz-subject-card:nth-child(1) .word-quiz-blank-action::after,
+.word-quiz-subject-grid .word-quiz-subject-card:nth-child(2) .word-quiz-blank-action::after,
+.word-quiz-subject-grid .word-quiz-subject-card:nth-child(3) .word-quiz-blank-action::after,
+.word-quiz-subject-grid .word-quiz-subject-card:nth-child(4) .word-quiz-blank-action::after{content:" · 300"}
+.word-quiz-subject-grid .word-quiz-subject-card:nth-child(5) .word-quiz-blank-action::after{content:" · 220"}
+.word-quiz-subject-grid .word-quiz-subject-card:nth-child(6) .word-quiz-blank-action::after{content:" · 180"}
