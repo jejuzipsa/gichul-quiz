@@ -54,7 +54,7 @@
       load(`blank-data/${file}?v=20260916-blank-v2`,()=>{
         load(`../summary/${file}?v=1.48`,()=>{
           load('blank-bank-builder.js?v=1.48',()=>{
-            load('blank-quiz.js?v=1.1',null,()=>fail('괄호문제'));
+            load('blank-quiz.js?v=1.2',null,()=>fail('괄호문제'));
           },()=>fail('괄호문제'));
         },()=>fail('핵심요약'));
       },()=>fail('괄호문제'));
