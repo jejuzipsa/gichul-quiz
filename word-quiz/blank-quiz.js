@@ -168,14 +168,14 @@
 
     if (state.phase === 'main') {
       els.progressText.textContent = `${state.index + 1} / ${state.session.length}`;
-      els.categoryText.textContent = '괄호문제 · 10문제 고정';
+      els.categoryText.textContent = `괄호문제 · 전체 ${bank.questions.length}문제 중 10문제`;
       els.progressFill.style.width = `${((state.index + 1) / state.session.length) * 100}%`;
       els.questionNumber.textContent = `문제 ${state.index + 1}`;
     } else {
       const resolved = state.initialWrongCount - state.reviewQueue.length;
       const rate = state.initialWrongCount ? resolved / state.initialWrongCount * 100 : 100;
       els.progressText.textContent = '오답 복습';
-      els.categoryText.textContent = `남은 오답 ${state.reviewQueue.length}문제`;
+      els.categoryText.textContent = `전체 ${bank.questions.length}문제 · 남은 오답 ${state.reviewQueue.length}문제`;
       els.progressFill.style.width = `${Math.max(0, Math.min(100, rate))}%`;
       els.questionNumber.textContent = `오답 복습 · 남은 ${state.reviewQueue.length}문제`;
     }
@@ -251,7 +251,7 @@
     const wrong = total - correct;
     const rate = total ? Math.round(correct / total * 100) : 0;
     els.resultHeadline.textContent = wrong ? '오답 복습까지 완료' : '10문제 전부 정답';
-    els.resultScore.textContent = wrong ? `최초 정답 ${correct} / ${total} · 오답 ${wrong}문제 복습 완료` : `최초 정답 ${correct} / ${total} · 정답률 100%`;
+    els.resultScore.textContent = wrong ? `전체 ${bank.questions.length}문제 중 무작위 10문제 · 최초 정답 ${correct} / ${total} · 오답 ${wrong}문제 복습 완료` : `전체 ${bank.questions.length}문제 중 무작위 10문제 · 최초 정답 ${correct} / ${total} · 정답률 100%`;
     els.resultBar.querySelector('span').style.width = `${rate}%`;
     els.retryWrongBtn.classList.add('hidden');
     els.wrongSection.classList.add('hidden');
