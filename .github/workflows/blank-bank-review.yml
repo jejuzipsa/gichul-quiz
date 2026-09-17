@@ -1,0 +1,29 @@
+name: Blank bank review
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/blank-bank/validate.cjs
+      - run: node tools/blank-bank/test.cjs
+  content-release:
+    # User deferred the full legal/content review on 2026-09-17.
+    # Keep the strict audit available without claiming content approval.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tools/blank-bank/validate.cjs --release

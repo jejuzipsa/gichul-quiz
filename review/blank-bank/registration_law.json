@@ -1,0 +1,4606 @@
+{
+  "subject": "부동산공시법",
+  "targetCount": 220,
+  "generatedCount": 220,
+  "questions": [
+    {
+      "id": "blank-05-001",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적제도는 토지의 사실관계를 공시하고 일부 {{blank}}도 공시한다.",
+      "answer": "권리관계",
+      "choices": [
+        "권리관계",
+        "세율",
+        "채권만",
+        "임대료"
+      ],
+      "explanation": "요약자료는 지적제도를 사실공시와 소유권 등 권리공시 기능으로 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-002",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기제도는 주로 부동산의 {{blank}}관계를 공시하는 제도다.",
+      "answer": "권리",
+      "choices": [
+        "권리",
+        "세금",
+        "가격",
+        "임대료"
+      ],
+      "explanation": "등기제도는 권리관계 공시가 중심이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-003",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적제도의 등록장부는 지적공부 {{blank}}종으로 정리돼 있다.",
+      "answer": "7",
+      "choices": [
+        "7",
+        "2",
+        "5",
+        "10"
+      ],
+      "explanation": "요약자료 표에서 지적공부는 7종이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-004",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기제도의 등록장부는 등기부 {{blank}}종으로 정리돼 있다.",
+      "answer": "2",
+      "choices": [
+        "2",
+        "7",
+        "5",
+        "10"
+      ],
+      "explanation": "요약자료 표에서 등기부는 2종이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-005",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적제도는 원칙적으로 {{blank}}적 심사를 한다.",
+      "answer": "실질",
+      "choices": [
+        "실질",
+        "형식",
+        "무심사",
+        "사법"
+      ],
+      "explanation": "지적제도는 실질적 심사로 정리된다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-006",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기제도는 원칙적으로 {{blank}}적 심사를 한다.",
+      "answer": "형식",
+      "choices": [
+        "형식",
+        "실질",
+        "정책",
+        "과세"
+      ],
+      "explanation": "등기제도는 형식적 심사로 정리된다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-007",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "우리나라 지적은 토지소유자의 신청이 없어도 직권 등록할 수 있는 {{blank}}적 지적이다.",
+      "answer": "적극",
+      "choices": [
+        "적극",
+        "소극",
+        "임의",
+        "폐쇄"
+      ],
+      "explanation": "우리나라는 적극적 지적제도를 채택한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-008",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "토지의 표시에는 소재·지번·지목·면적·경계 또는 {{blank}}가 포함된다.",
+      "answer": "좌표",
+      "choices": [
+        "좌표",
+        "세율",
+        "가격",
+        "등기원인"
+      ],
+      "explanation": "요약자료는 토지의 표시 항목에 좌표를 포함한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-009",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "필지는 대통령령에 따라 구획되는 토지의 {{blank}}단위다.",
+      "answer": "등록",
+      "choices": [
+        "등록",
+        "과세",
+        "거래",
+        "평가"
+      ],
+      "explanation": "필지는 토지의 등록단위다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-010",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "임야대장과 임야도에 등록하는 토지의 지번에는 숫자 앞에 {{blank}}자를 붙인다.",
+      "answer": "산",
+      "choices": [
+        "산",
+        "임",
+        "전",
+        "지"
+      ],
+      "explanation": "임야 지번은 숫자 앞에 '산'을 붙인다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-011",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지번은 본번과 {{blank}}으로 구성할 수 있다.",
+      "answer": "부번",
+      "choices": [
+        "부번",
+        "지목",
+        "축척",
+        "좌표"
+      ],
+      "explanation": "지번은 본번과 부번으로 구성된다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-012",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "도해지적의 대표 장부에는 지적도와 {{blank}}가 있다.",
+      "answer": "임야도",
+      "choices": [
+        "임야도",
+        "토지대장",
+        "건축물대장",
+        "등기부"
+      ],
+      "explanation": "도해지적은 지적도·임야도와 같은 도면을 사용한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-013",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "수치지적은 토지의 경계점을 {{blank}}로 표시한다.",
+      "answer": "좌표",
+      "choices": [
+        "좌표",
+        "색상",
+        "가격",
+        "면적만"
+      ],
+      "explanation": "수치지적은 경계점좌표등록부를 이용한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-014",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "연속지적도는 전산화된 지적도·임야도 파일을 연결한 도면으로 {{blank}}에는 활용할 수 없다.",
+      "answer": "측량",
+      "choices": [
+        "측량",
+        "열람",
+        "계획",
+        "검색"
+      ],
+      "explanation": "요약자료는 연속지적도를 측량에 활용할 수 없는 도면으로 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-015",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적기준점에는 지적삼각점·지적삼각보조점·{{blank}}이 있다.",
+      "answer": "지적도근점",
+      "choices": [
+        "지적도근점",
+        "수준점만",
+        "도로점",
+        "필지점"
+      ],
+      "explanation": "요약자료는 지적기준점의 종류로 지적도근점을 포함한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-016",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "분할 후 원칙적으로 한 필지는 분할 전 {{blank}}을 그대로 사용한다.",
+      "answer": "지번",
+      "choices": [
+        "지번",
+        "지목",
+        "소유자",
+        "면적"
+      ],
+      "explanation": "분할 시 원칙적으로 한 필지는 분할 전 지번을 유지한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-017",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "합병 시 원칙적으로 합병대상 지번 중 {{blank}} 지번을 사용한다.",
+      "answer": "선순위",
+      "choices": [
+        "선순위",
+        "후순위",
+        "최고가",
+        "임의"
+      ],
+      "explanation": "합병 후 지번은 원칙적으로 선순위 지번을 사용한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-018",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "부동산종합공부는 부동산 관련 정보를 {{blank}}적으로 관리·운영하기 위한 공부다.",
+      "answer": "종합",
+      "choices": [
+        "종합",
+        "분리",
+        "비공개",
+        "일시"
+      ],
+      "explanation": "부동산종합공부는 관련 정보를 종합적으로 관리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-019",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기필정보는 등기신청의 진정성과 등기의사를 {{blank}}하기 위해 제출한다.",
+      "answer": "확인",
+      "choices": [
+        "확인",
+        "과세",
+        "평가",
+        "공고"
+      ],
+      "explanation": "등기필정보 제출 목적은 진정성 보장과 등기의사 확인이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-020",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "인감증명의 유효기간은 발행일로부터 {{blank}}개월 이내로 정리돼 있다.",
+      "answer": "3",
+      "choices": [
+        "3",
+        "1",
+        "6",
+        "12"
+      ],
+      "explanation": "요약자료는 인감증명 유효기간을 3개월 이내로 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-021",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "전자신청의 경우 접수번호는 {{blank}}에 의해 자동 생성된다.",
+      "answer": "전산정보처리조직",
+      "choices": [
+        "전산정보처리조직",
+        "신청인",
+        "시·도지사",
+        "법무사협회"
+      ],
+      "explanation": "전자신청 접수번호는 전산정보처리조직이 자동 생성한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-022",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기필정보의 일련번호는 영문 또는 아라비아숫자를 조합한 {{blank}}개로 구성된다.",
+      "answer": "12",
+      "choices": [
+        "12",
+        "10",
+        "8",
+        "16"
+      ],
+      "explanation": "요약자료는 등기필정보 일련번호를 12개로 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-023",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기필정보의 비밀번호는 {{blank}}개를 부여하는 것으로 정리돼 있다.",
+      "answer": "50",
+      "choices": [
+        "50",
+        "10",
+        "20",
+        "100"
+      ],
+      "explanation": "요약자료는 비밀번호를 50개 부여한다고 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-024",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "말소등기는 기존 등기사항을 {{blank}}하기 위한 등기다.",
+      "answer": "말소",
+      "choices": [
+        "말소",
+        "보존",
+        "신설",
+        "분할"
+      ],
+      "explanation": "말소등기는 기존 등기사항을 소멸시키는 등기다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-025",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "말소회복등기는 부적법하게 말소된 등기를 {{blank}}하기 위한 등기다.",
+      "answer": "회복",
+      "choices": [
+        "회복",
+        "신규등록",
+        "과세",
+        "분할"
+      ],
+      "explanation": "말소회복등기는 부적법하게 말소된 등기를 회복한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-026",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "일부 말소회복은 {{blank}}등기로 실행한다.",
+      "answer": "부기",
+      "choices": [
+        "부기",
+        "주",
+        "가",
+        "예고"
+      ],
+      "explanation": "요약자료는 일부 말소회복을 부기등기로 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-027",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "전부 말소회복은 {{blank}}등기로 실행한다.",
+      "answer": "주",
+      "choices": [
+        "주",
+        "부기",
+        "가",
+        "예고"
+      ],
+      "explanation": "요약자료는 전부 말소회복을 주등기로 정리한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-028",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "가등기는 청구권과 {{blank}} 보전을 위한 임시적인 등기다.",
+      "answer": "순위",
+      "choices": [
+        "순위",
+        "세율",
+        "면적",
+        "용도지역"
+      ],
+      "explanation": "가등기는 청구권과 순위 보전을 위한 제도다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-029",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "가등기 신청은 원칙적으로 {{blank}}신청이다.",
+      "answer": "공동",
+      "choices": [
+        "공동",
+        "단독",
+        "직권",
+        "구두"
+      ],
+      "explanation": "가등기는 원칙적으로 공동신청이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-030",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "가등기의무자의 승낙서나 가처분명령 정본이 있으면 가등기권리자가 {{blank}}신청할 수 있다.",
+      "answer": "단독",
+      "choices": [
+        "단독",
+        "공동",
+        "직권",
+        "구두"
+      ],
+      "explanation": "해당 서류가 있으면 가등기권리자의 단독신청이 가능하다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-031",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 면적본위로 운영되는 지적제도.",
+      "answer": "세지적(과세지적)",
+      "choices": [
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며",
+        "위치본위로 운영되고"
+      ],
+      "explanation": "2. 지적 총론: 세지적(과세지적) : 면적본위로 운영되는 지적제도.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-032",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "면적결정 ㎡ 이하가 0.5㎡ 미만 : 버림 ㎡ 이하가 {{blank}} 미만 : 버림",
+      "answer": "0.05㎡",
+      "choices": [
+        "0.05㎡",
+        "1.05㎡",
+        "2.05㎡",
+        "3.05㎡"
+      ],
+      "explanation": "3. 토지의 등록사항: 면적결정 ㎡ 이하가 0.5㎡ 미만 : 버림 ㎡ 이하가 0.05㎡ 미만 : 버림",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-033",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "조사 또는 측량이 완료되어 지적공부를 복구하려는 경우 토지의 표시 등을 시.군.구 게시판 및 인터넷홈페이지에 {{blank}} 이상 게",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "4. 지적공부: 조사 또는 측량이 완료되어 지적공부를 복구하려는 경우 토지의 표시 등을 시.군.구 게시판 및 인터넷홈페이지에 15일 이상 게",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-034",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "접수 {{blank}} 내 토지소유자에 통지",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 접수 15일 내 토지소유자에 통지",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-035",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "한국국토정보공사 : {{blank}} 이상 보증보험",
+      "answer": "20억원",
+      "choices": [
+        "20억원",
+        "18억원",
+        "22억원",
+        "25억원"
+      ],
+      "explanation": "6. 지적측량: 한국국토정보공사 : 20억원 이상 보증보험",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-036",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "\"등기기록\"이란 1필의 토지 또는 {{blank}}의 건물에 관한 등기정보자료를 말한다.",
+      "answer": "1개",
+      "choices": [
+        "1개",
+        "2개",
+        "3개",
+        "4개"
+      ],
+      "explanation": "1. 개요: \"등기기록\"이란 1필의 토지 또는 1개의 건물에 관한 등기정보자료를 말한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-037",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "그 사실이 있는 때부터 {{blank}} 이내에 그 등기를 신청하여야 한다.",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "2. 등기기관과 장부: 그 사실이 있는 때부터 1개월 이내에 그 등기를 신청하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-038",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 인감증명의 유효기간은 발행일로부터 {{blank}} 이내의 것에 한하며, 발행일인 초일은 산입하지 않음",
+      "answer": "3개월",
+      "choices": [
+        "3개월",
+        "2개월",
+        "4개월",
+        "5개월"
+      ],
+      "explanation": "3. 등기의 일반적 절차: ※ 인감증명의 유효기간은 발행일로부터 3개월 이내의 것에 한하며, 발행일인 초일은 산입하지 않음",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-039",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기관은 제1항의 경우에 부동산이 {{blank}} 이상일 때에는 공동담보목록을 작성하여야 한다.",
+      "answer": "5개",
+      "choices": [
+        "5개",
+        "4개",
+        "6개",
+        "7개"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 등기관은 제1항의 경우에 부동산이 5개 이상일 때에는 공동담보목록을 작성하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-040",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 건물의 멸실등기 신청이 있으면 등기관은 이해관계인에게 {{blank}} 이내의 기간을 정하여 이의진술 통지를 해야 함",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: ※ 건물의 멸실등기 신청이 있으면 등기관은 이해관계인에게 1개월 이내의 기간을 정하여 이의진술 통지를 해야 함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-041",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "건물의 구조변경.멸실.분합등기를 1개월 내에 신청을 게을리 한 경우 {{blank}} 이하의 과태료 부과",
+      "answer": "50만원",
+      "choices": [
+        "50만원",
+        "40만원",
+        "60만원",
+        "70만원"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 건물의 구조변경.멸실.분합등기를 1개월 내에 신청을 게을리 한 경우 50만원 이하의 과태료 부과",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-042",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지적삼각점, 지적삼각보조점, 지적도근점",
+      "answer": "※ 지적기준점",
+      "choices": [
+        "※ 지적기준점",
+        "지적삼각점",
+        "지적삼각보조점",
+        "지적도근점"
+      ],
+      "explanation": "2. 지적 총론: ※ 지적기준점 : 지적삼각점, 지적삼각보조점, 지적도근점",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-043",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "면적결정 ㎡ 이하가 {{blank}} 미만 : 버림 ㎡ 이하가 0.05㎡ 미만 : 버림",
+      "answer": "0.5㎡",
+      "choices": [
+        "0.5㎡",
+        "1.5㎡",
+        "2.5㎡",
+        "3.5㎡"
+      ],
+      "explanation": "3. 토지의 등록사항: 면적결정 ㎡ 이하가 0.5㎡ 미만 : 버림 ㎡ 이하가 0.05㎡ 미만 : 버림",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-044",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "부여한 종선, 횡선 수치 – 가로 40㎝, 세로 30㎝), 삼각점 및 지적기준점의 위치(지적삼각점(+)/보조점● {{blank}}m, 지적도근",
+      "answer": "3m",
+      "choices": [
+        "3m",
+        "2m",
+        "4m",
+        "5m"
+      ],
+      "explanation": "4. 지적공부: 부여한 종선, 횡선 수치 – 가로 40㎝, 세로 30㎝), 삼각점 및 지적기준점의 위치(지적삼각점(+)/보조점● 3mm, 지적도근",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-045",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "기간 : {{blank}} 이내 신청의무 발생",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 기간 : 60일 이내 신청의무 발생",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-046",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적도근점 : 점간 거리 {{blank}} → 지적소관청 관리",
+      "answer": "50~300m",
+      "choices": [
+        "50~300m",
+        "0~50m",
+        "300~550m",
+        "550~800m"
+      ],
+      "explanation": "6. 지적측량: 지적도근점 : 점간 거리 50~300m → 지적소관청 관리",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-047",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 경매신청권, 우선배제권",
+      "answer": "담보가등기의 특수한 효력",
+      "choices": [
+        "담보가등기의 특수한 효력",
+        "※ 등기의 완료 시기",
+        "성립요건의 등기(형식주의)",
+        "임의적 기재사항 등"
+      ],
+      "explanation": "1. 개요: 담보가등기의 특수한 효력 : 경매신청권, 우선배제권",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-048",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등이 아닌 자 {{blank}} 이상의 참여가 없으면 등기를 할 수 없다. 배우자등의 관계가 끝난 후에도 같다.",
+      "answer": "2명",
+      "choices": [
+        "2명",
+        "1명",
+        "3명",
+        "4명"
+      ],
+      "explanation": "2. 등기기관과 장부: 등이 아닌 자 2명 이상의 참여가 없으면 등기를 할 수 없다. 배우자등의 관계가 끝난 후에도 같다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-049",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 등기필정보의 일련번호는 영문 또는 아라비아숫자를 조합한 {{blank}}로 구성하고 비밀번호는 50개를 부여함",
+      "answer": "12개",
+      "choices": [
+        "12개",
+        "10개",
+        "14개",
+        "17개"
+      ],
+      "explanation": "3. 등기의 일반적 절차: ※ 등기필정보의 일련번호는 영문 또는 아라비아숫자를 조합한 12개로 구성하고 비밀번호는 50개를 부여함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-050",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기상 이해관계 있는 제3자에게 {{blank}} 이내의 기간을 정하여 그 기간에 이의를 진술하지 아니하면 등기를 말소한다는 뜻을 통",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 등기상 이해관계 있는 제3자에게 1개월 이내의 기간을 정하여 그 기간에 이의를 진술하지 아니하면 등기를 말소한다는 뜻을 통",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-051",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "기간 : 대장과 등기부의 일치 위해 {{blank}} 이내 신청의무 (건물소유자가 신청 해태 시 토지소유자가 대위신청 가능)",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 기간 : 대장과 등기부의 일치 위해 1개월 이내 신청의무 (건물소유자가 신청 해태 시 토지소유자가 대위신청 가능)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-052",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "건물의 구조변경.멸실.분합등기를 {{blank}} 내에 신청을 게을리 한 경우 50만원 이하의 과태료 부과",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 건물의 구조변경.멸실.분합등기를 1개월 내에 신청을 게을리 한 경우 50만원 이하의 과태료 부과",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-053",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지소유자의 신청이 있는 경우에만 등록하는 제도",
+      "answer": "소극적 지적",
+      "choices": [
+        "소극적 지적",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: 소극적 지적 : 토지소유자의 신청이 있는 경우에만 등록하는 제도",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-054",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지역단위법 : {{blank}}의 지번부여지역 전체를 단위로 하여 순차적으로 지번을 부여하는 방식",
+      "answer": "1개",
+      "choices": [
+        "1개",
+        "2개",
+        "3개",
+        "4개"
+      ],
+      "explanation": "3. 토지의 등록사항: 지역단위법 : 1개의 지번부여지역 전체를 단위로 하여 순차적으로 지번을 부여하는 방식",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-055",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지적소관청(시군구청장)",
+      "answer": "지적공부 관리책임",
+      "choices": [
+        "지적공부 관리책임",
+        "등록사항",
+        "지번",
+        "지목"
+      ],
+      "explanation": "4. 지적공부: 지적공부 관리책임 : 지적소관청(시군구청장)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-056",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "신청 : 사유 발생 후 {{blank}} 내 지적소관청에",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 신청 : 사유 발생 후 60일 내 지적소관청에",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-057",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "측량업 등고취소 후 {{blank}} 미경과 (파산자로서 복권되지 않은 자는 삭제됨)",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "6. 지적측량: 측량업 등고취소 후 2년 미경과 (파산자로서 복권되지 않은 자는 삭제됨)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-058",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 상속, 판결, 수용, 매각 등의 법률규정",
+      "answer": "취득한 권리를 처분하기 위해",
+      "choices": [
+        "취득한 권리를 처분하기 위해",
+        "※ 등기의 완료 시기",
+        "성립요건의 등기(형식주의)",
+        "임의적 기재사항 등"
+      ],
+      "explanation": "1. 개요: 취득한 권리를 처분하기 위해 : 상속, 판결, 수용, 매각 등의 법률규정",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-059",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제1항의 경우 그 소유권의 등기명의인이 {{blank}} 이내에 멸실등기를 신청하지 아니하면 그 건물대지의 소유자가 건물 소유권의 등",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "2. 등기기관과 장부: 제1항의 경우 그 소유권의 등기명의인이 1개월 이내에 멸실등기를 신청하지 아니하면 그 건물대지의 소유자가 건물 소유권의 등",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-060",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 등기필정보의 일련번호는 영문 또는 아라비아숫자를 조합한 12개로 구성하고 비밀번호는 {{blank}}를 부여함",
+      "answer": "50개",
+      "choices": [
+        "50개",
+        "40개",
+        "60개",
+        "70개"
+      ],
+      "explanation": "3. 등기의 일반적 절차: ※ 등기필정보의 일련번호는 영문 또는 아라비아숫자를 조합한 12개로 구성하고 비밀번호는 50개를 부여함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-061",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제2항 단서에 따라 등기된 건물에 대하여 「건축법」상 사용승인이 이루어진 경우에는 그 건물 소유권의 등기명의인은 {{blank}} 이",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 제2항 단서에 따라 등기된 건물에 대하여 「건축법」상 사용승인이 이루어진 경우에는 그 건물 소유권의 등기명의인은 1개월 이",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-062",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 건물의 분할,구분,합병이 있는 경우와 등기사항에 변경이 있는 경우 그 건물소유권의 등기명의인은 그 사실이 있는 때부터 {{blank}}",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: ※ 건물의 분할,구분,합병이 있는 경우와 등기사항에 변경이 있는 경우 그 건물소유권의 등기명의인은 그 사실이 있는 때부터 1개월",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-063",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제111조(벌칙) 다음 각 호의 어느 하나에 해당하는 사람은 {{blank}} 이하의 징역 또는 1천만원 이하의 벌금에 처한다.",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 제111조(벌칙) 다음 각 호의 어느 하나에 해당하는 사람은 2년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-064",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지소유자의 신청이 있는 때는 물론, 신청이 없더라도 직권으로 등록하는 제도",
+      "answer": "적극적 지적",
+      "choices": [
+        "적극적 지적",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: 적극적 지적 : 토지소유자의 신청이 있는 때는 물론, 신청이 없더라도 직권으로 등록하는 제도",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-065",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "단지단위법 : {{blank}}의 지번부여지역을 단지로 구분하고 단지를 단위로 하여 단지의 순서에 따라 단지별로 지번을 부여하는 방식",
+      "answer": "1개",
+      "choices": [
+        "1개",
+        "2개",
+        "3개",
+        "4개"
+      ],
+      "explanation": "3. 토지의 등록사항: 단지단위법 : 1개의 지번부여지역을 단지로 구분하고 단지를 단위로 하여 단지의 순서에 따라 단지별로 지번을 부여하는 방식",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-066",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 필지 단위로 경계점 위치를 좌표로 등록, 공시",
+      "answer": "경계점좌표등록부",
+      "choices": [
+        "경계점좌표등록부",
+        "등록사항",
+        "지번",
+        "지목"
+      ],
+      "explanation": "4. 지적공부: 경계점좌표등록부 : 필지 단위로 경계점 위치를 좌표로 등록, 공시",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-067",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "원칙 : 토지소유자의 신청 (사유발생 후 {{blank}} 이내)",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 원칙 : 토지소유자의 신청 (사유발생 후 60일 이내)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-068",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "기능 : 심의.의결(지적측량적부재심사 등), 회의소집 시 {{blank}} 전까지 서면통지",
+      "answer": "5일",
+      "choices": [
+        "5일",
+        "4일",
+        "6일",
+        "7일"
+      ],
+      "explanation": "6. 지적측량: 기능 : 심의.의결(지적측량적부재심사 등), 회의소집 시 5일 전까지 서면통지",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-069",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산임차권, 환매권, 임의적 기재사항 등",
+      "answer": "제3자에게 대항하기 위해",
+      "choices": [
+        "제3자에게 대항하기 위해",
+        "2차원지적",
+        "면적결정 ㎡ 이하가 0.5㎡ 미만",
+        "공동주택부지/학교/철도/공장 등은 60일 내 신청의무"
+      ],
+      "explanation": "1. 개요: 제3자에게 대항하기 위해 : 부동산임차권, 환매권, 임의적 기재사항 등",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-070",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "소유권 외의 권리가 등기되어 있는 건물에 대한 멸실등기의 신청이 있는 경우에 등기관은 그 권리의 등기명의인에게 {{blank}} 이내",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "2. 등기기관과 장부: 소유권 외의 권리가 등기되어 있는 건물에 대한 멸실등기의 신청이 있는 경우에 등기관은 그 권리의 등기명의인에게 1개월 이내",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-071",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 전자신청 사용자등록은 본인이 등기소에 출석, 유효기간 3년, 연장 제한 X (연장 : 만료 {{blank}}전~만료일)",
+      "answer": "3개월",
+      "choices": [
+        "3개월",
+        "2개월",
+        "4개월",
+        "5개월"
+      ],
+      "explanation": "3. 등기의 일반적 절차: ※ 전자신청 사용자등록은 본인이 등기소에 출석, 유효기간 3년, 연장 제한 X (연장 : 만료 3개월전~만료일)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-072",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "유증을 원인으로 하는 소유권이전등기 시 등기원인은 ‘00년 {{blank}} 유증’이라 기재하고, 그 연월일은 유증자가 사망한 날을 기재",
+      "answer": "0월 0일",
+      "choices": [
+        "0월 0일",
+        "0월 1일",
+        "0월 14일",
+        "1월 0일"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 유증을 원인으로 하는 소유권이전등기 시 등기원인은 ‘00년 0월 0일 유증’이라 기재하고, 그 연월일은 유증자가 사망한 날을 기재",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-073",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소유권에 대한 가처분등기는 갑구에 주등기, 소유권 아닌 권리를 목적으로 하는 가처분등기는 을구에 부기등기",
+      "answer": "※ 가처분등기",
+      "choices": [
+        "※ 가처분등기",
+        "등기",
+        "변경등기",
+        "※ 기타 주등기"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: ※ 가처분등기 : 소유권에 대한 가처분등기는 갑구에 주등기, 소유권 아닌 권리를 목적으로 하는 가처분등기는 을구에 부기등기",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-074",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 실권리자명의 등기의무를 위반한 명의신탁자는 당해 부동산가액의 {{blank}}에 해당하는 금액의 범위 안에서 과징금을 부과한",
+      "answer": "100분의 30",
+      "choices": [
+        "100분의 30",
+        "101분의 30",
+        "99분의 30",
+        "102분의 30"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: ※ 실권리자명의 등기의무를 위반한 명의신탁자는 당해 부동산가액의 100분의 30에 해당하는 금액의 범위 안에서 과징금을 부과한",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-075",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소유(법)지적, 2차원지적, 도해지적, 수치적지적(일부 지역), 적극적 지적",
+      "answer": "※ 우리나라",
+      "choices": [
+        "※ 우리나라",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: ※ 우리나라 : 소유(법)지적, 2차원지적, 도해지적, 수치적지적(일부 지역), 적극적 지적",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-076",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 버림 ㎡ 이하가 0.05㎡ 미만 : 버림",
+      "answer": "면적결정 ㎡ 이하가 0.5㎡ 미만",
+      "choices": [
+        "면적결정 ㎡ 이하가 0.5㎡ 미만",
+        "2차원지적",
+        "공동주택부지/학교/철도/공장 등은 60일 내 신청의무",
+        "5~10인 위원"
+      ],
+      "explanation": "3. 토지의 등록사항: 면적결정 ㎡ 이하가 0.5㎡ 미만 : 버림 ㎡ 이하가 0.05㎡ 미만 : 버림",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-077",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 국토교통부장관이 제공 → 수입인지, 시도지사/지적소관청이 제공 → 수입증지",
+      "answer": "사용료",
+      "choices": [
+        "사용료",
+        "등록사항",
+        "지번",
+        "지목"
+      ],
+      "explanation": "4. 지적공부: . 사용료 : 국토교통부장관이 제공 → 수입인지, 시도지사/지적소관청이 제공 → 수입증지",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-078",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "관할등기소 등기완료통지 접수 후 {{blank}} 내 토지소유자에게 통지",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 관할등기소 등기완료통지 접수 후 15일 내 토지소유자에게 통지",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-079",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "사({{blank}}간, 시도지사, 지적소관청) → 지적측량 성과도 발급(지적소관청이 지적측량수행자에게)",
+      "answer": "4일",
+      "choices": [
+        "4일",
+        "3일",
+        "5일",
+        "6일"
+      ],
+      "explanation": "6. 지적측량: 사(4일간, 시도지사, 지적소관청) → 지적측량 성과도 발급(지적소관청이 지적측량수행자에게)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-080",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 법률행위에 의한 부동산물권변동 (존속요건 X)",
+      "answer": "성립요건의 등기(형식주의)",
+      "choices": [
+        "성립요건의 등기(형식주의)",
+        "※ 등기의 완료 시기",
+        "임의적 기재사항 등",
+        "취득한 권리를 처분하기 위해"
+      ],
+      "explanation": "1. 개요: 성립요건의 등기(형식주의) : 법률행위에 의한 부동산물권변동 (존속요건 X)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-081",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "건물이 멸실된 경우에는 그 건물 소유권의 등기명의인은 그 사실이 있는 때부터 {{blank}} 이내에 그 등기를 신청하여야 한다. 이 경",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "2. 등기기관과 장부: 건물이 멸실된 경우에는 그 건물 소유권의 등기명의인은 그 사실이 있는 때부터 1개월 이내에 그 등기를 신청하여야 한다. 이 경",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-082",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 전자신청 사용자등록은 본인이 등기소에 출석, 유효기간 {{blank}}, 연장 제한 X (연장 : 만료 3개월전~만료일)",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "3. 등기의 일반적 절차: ※ 전자신청 사용자등록은 본인이 등기소에 출석, 유효기간 3년, 연장 제한 X (연장 : 만료 3개월전~만료일)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-083",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "유증을 원인으로 하는 소유권이전등기 시 등기원인은 ‘{{blank}} 0월 0일 유증’이라 기재하고, 그 연월일은 유증자가 사망한 날을 기재",
+      "answer": "00년",
+      "choices": [
+        "00년",
+        "1년",
+        "2년",
+        "3년"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 유증을 원인으로 하는 소유권이전등기 시 등기원인은 ‘00년 0월 0일 유증’이라 기재하고, 그 연월일은 유증자가 사망한 날을 기재",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-084",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 금전채권 이외의 채권에 관해 집행보전을 목적으로 하는 절차 (금전으로 환산할 수 있는 채권에 대한 가압류와는 구별)",
+      "answer": "※ 가처분",
+      "choices": [
+        "※ 가처분",
+        "권을 등기한 건물의 등기기록에",
+        "에 한다. 그 청구권이 시기부 또",
+        "분명령이 있을 때에"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: ※ 가처분 : 금전채권 이외의 채권에 관해 집행보전을 목적으로 하는 절차 (금전으로 환산할 수 있는 채권에 대한 가압류와는 구별)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-085",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기관은 이의가 이유 없다고 인정하면 이의신청일부터 {{blank}} 이내에 의견을 붙여 이의신청서를 관할 지방법원에 보내야 한다.",
+      "answer": "3일",
+      "choices": [
+        "3일",
+        "2일",
+        "4일",
+        "5일"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 등기관은 이의가 이유 없다고 인정하면 이의신청일부터 3일 이내에 의견을 붙여 이의신청서를 관할 지방법원에 보내야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-086",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 전산화된 지적도.임야도 파일을 이용하여 연결한 도면으로 측량에 활용할 수 없는 도면",
+      "answer": "※ 연속지적도",
+      "choices": [
+        "※ 연속지적도",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: ※ 연속지적도 : 전산화된 지적도.임야도 파일을 이용하여 연결한 도면으로 측량에 활용할 수 없는 도면",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-087",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 연접되는 토지 사이에 고저가 없는 경우에는 그 구조물 등의 중앙",
+      "answer": "고저무중 (高低無中)",
+      "choices": [
+        "고저무중 (高低無中)",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 고저무중 (高低無中) : 연접되는 토지 사이에 고저가 없는 경우에는 그 구조물 등의 중앙",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-088",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 철도용지, 수도용지, 하천, 제방, 구거, 임야, 묘지, 목장용지, 유지, 도로 (10)",
+      "answer": "임야대장에 등록하는 지목",
+      "choices": [
+        "임야대장에 등록하는 지목",
+        "등록사항",
+        "지번",
+        "지목"
+      ],
+      "explanation": "4. 지적공부: 임야대장에 등록하는 지목 : 철도용지, 수도용지, 하천, 제방, 구거, 임야, 묘지, 목장용지, 유지, 도로 (10)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-089",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "탁 → 지적소관청은 등기완료통지 접수 후 {{blank}} 내 토지소유자에게 통지",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 탁 → 지적소관청은 등기완료통지 접수 후 15일 내 토지소유자에게 통지",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-090",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적측량업자 : {{blank}} 이상 보증보험(보장기간 10년 이상), 지적측량업등록증 발급 후 10일 내 가입",
+      "answer": "1억원",
+      "choices": [
+        "1억원",
+        "2억원",
+        "3억원",
+        "4억원"
+      ],
+      "explanation": "6. 지적측량: 지적측량업자 : 1억원 이상 보증보험(보장기간 10년 이상), 지적측량업등록증 발급 후 10일 내 가입",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-091",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 표제부 변경.경정, 승낙서 미첨부 권리변경, 소유권 이전, 전무말소회복, 소유권처분제한",
+      "answer": "※ 기타 주등기",
+      "choices": [
+        "※ 기타 주등기",
+        "등기",
+        "변경등기",
+        "보존등기"
+      ],
+      "explanation": "1. 개요: ※ 기타 주등기 : 표제부 변경.경정, 승낙서 미첨부 권리변경, 소유권 이전, 전무말소회복, 소유권처분제한",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-092",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제39조(멸실등기의 신청) 토지가 멸실된 경우에는 그 토지 소유권의 등기명의인은 그 사실이 있는 때부터 {{blank}} 이내에 그 등기를 신청",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "2. 등기기관과 장부: 제39조(멸실등기의 신청) 토지가 멸실된 경우에는 그 토지 소유권의 등기명의인은 그 사실이 있는 때부터 1개월 이내에 그 등기를 신청",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-093",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "교합처리해야 하며, 지연처리 사건이나 보정을 명한 사건 외에는 {{blank}} 내에 등기필정보의 송신 및 등기사실의 통지를 해야 함",
+      "answer": "24시간",
+      "choices": [
+        "24시간",
+        "14시간",
+        "34시간",
+        "44시간"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 교합처리해야 하며, 지연처리 사건이나 보정을 명한 사건 외에는 24시간 내에 등기필정보의 송신 및 등기사실의 통지를 해야 함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-094",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 채권액, 채무자(성명/명칭, 주소/사무소소재지), 권리표시",
+      "answer": "필요적 기재사항",
+      "choices": [
+        "필요적 기재사항",
+        "등기관이 갑구 또",
+        "와 주소 또",
+        "외국인의 등록번호"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 필요적 기재사항 : 채권액, 채무자(성명/명칭, 주소/사무소소재지), 권리표시",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-095",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 즉시항고를 할 수 있다.",
+      "answer": "제1항의 신청을 각하한 결정에 대하여",
+      "choices": [
+        "제1항의 신청을 각하한 결정에 대하여",
+        "제88조(가등기의 대상) 가등기",
+        "제2항의 즉시항고에 관하여",
+        "2차원지적"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 제1항의 신청을 각하한 결정에 대하여는 즉시항고를 할 수 있다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-096",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등기를 마친 후에 이의신청이 있는 경우에는 {{blank}} 이내에 의견을 붙여 이의신청서를 관할 지방법원에 보내고 등기상 이해관계 있",
+      "answer": "3일",
+      "choices": [
+        "3일",
+        "2일",
+        "4일",
+        "5일"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 등기를 마친 후에 이의신청이 있는 경우에는 3일 이내에 의견을 붙여 이의신청서를 관할 지방법원에 보내고 등기상 이해관계 있",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-097",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 측량 및 수로조사의 기준 및 절차와 지적공부.부동산종합공부 작성, 관리 등에 관한 규",
+      "answer": "“공간정보의 구축 및 관리 등에 관한 법률”",
+      "choices": [
+        "“공간정보의 구축 및 관리 등에 관한 법률”",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: “공간정보의 구축 및 관리 등에 관한 법률” : 측량 및 수로조사의 기준 및 절차와 지적공부.부동산종합공부 작성, 관리 등에 관한 규",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-098",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 연접되는 토지 사이에 고저가 있는 경우에는 그 구조물 등의 하단부",
+      "answer": "고저유하 (高低有下)",
+      "choices": [
+        "고저유하 (高低有下)",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 고저유하 (高低有下) : 연접되는 토지 사이에 고저가 있는 경우에는 그 구조물 등의 하단부",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-099",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지의 소재, 지번, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "answer": "등록사항",
+      "choices": [
+        "등록사항",
+        "지번",
+        "지목",
+        "임야대장에 등록하는 지목"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-100",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 도시개발사업 등의 착수.변경 또는 완료사실의 신고는 사유 발생일부터 {{blank}} 내 해야 함",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: ※ 도시개발사업 등의 착수.변경 또는 완료사실의 신고는 사유 발생일부터 15일 내 해야 함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-101",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적측량업자 : 1억원 이상 보증보험(보장기간 {{blank}} 이상), 지적측량업등록증 발급 후 10일 내 가입",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "6. 지적측량: 지적측량업자 : 1억원 이상 보증보험(보장기간 10년 이상), 지적측량업등록증 발급 후 10일 내 가입",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-102",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기사무를 처리한 등기관이 누구인지 알 수 있는 조치를 하였을 때 (등기관 식별번호 입력한 때)",
+      "answer": "※ 등기의 완료 시기",
+      "choices": [
+        "※ 등기의 완료 시기",
+        "성립요건의 등기(형식주의)",
+        "임의적 기재사항 등",
+        "취득한 권리를 처분하기 위해"
+      ],
+      "explanation": "1. 개요: ※ 등기의 완료 시기 : 등기사무를 처리한 등기관이 누구인지 알 수 있는 조치를 하였을 때 (등기관 식별번호 입력한 때)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-103",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "표시번호, 2. 접수연월일, 3. 소재, 지번 및 건물번호. 다만, 같은 지번 위에 {{blank}}의 건물만 있는 경우에는 건물번호는 기록하지 아니",
+      "answer": "1개",
+      "choices": [
+        "1개",
+        "2개",
+        "3개",
+        "4개"
+      ],
+      "explanation": "2. 등기기관과 장부: 표시번호, 2. 접수연월일, 3. 소재, 지번 및 건물번호. 다만, 같은 지번 위에 1개의 건물만 있는 경우에는 건물번호는 기록하지 아니",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-104",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제25조(신청정보의 제공방법) 등기의 신청은 1건당 {{blank}}의 부동산에 관한 신청정보를 제공하는 방법으로 하여야 한다. 다만, 등기목적",
+      "answer": "1개",
+      "choices": [
+        "1개",
+        "2개",
+        "3개",
+        "4개"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 제25조(신청정보의 제공방법) 등기의 신청은 1건당 1개의 부동산에 관한 신청정보를 제공하는 방법으로 하여야 한다. 다만, 등기목적",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-105",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기원인이 근저당설정계약이라는 사실과 채권의 최고액 및 채무자",
+      "answer": "※ 근저당의 필요적 기재사항",
+      "choices": [
+        "※ 근저당의 필요적 기재사항",
+        "등기관이 갑구 또",
+        "와 주소 또",
+        "외국인의 등록번호"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: ※ 근저당의 필요적 기재사항 : 등기원인이 근저당설정계약이라는 사실과 채권의 최고액 및 채무자",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-106",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 「비송사건절차법」을 준용한다.",
+      "answer": "제2항의 즉시항고에 관하여",
+      "choices": [
+        "제2항의 즉시항고에 관하여",
+        "제88조(가등기의 대상) 가등기",
+        "제1항의 신청을 각하한 결정에 대하여",
+        "2차원지적"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 제2항의 즉시항고에 관하여는 「비송사건절차법」을 준용한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-107",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제112조(과태료) 제41조 및 제43조에 따른 등기신청의 의무가 있는 자가 그 등기신청을 게을리하였을 때에는 {{blank}} 이하의 과태료를",
+      "answer": "50만원",
+      "choices": [
+        "50만원",
+        "40만원",
+        "60만원",
+        "70만원"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 제112조(과태료) 제41조 및 제43조에 따른 등기신청의 의무가 있는 자가 그 등기신청을 게을리하였을 때에는 50만원 이하의 과태료를",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-108",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지인 전국토를 필지 단위로 구획하여 소관청이 강제적으로 지적공부에 등록·공시해야 함",
+      "answer": "적극적등록주의",
+      "choices": [
+        "적극적등록주의",
+        "지적형식(등록)주의",
+        "지적공개주의",
+        "실질적심사주의"
+      ],
+      "explanation": "2. 지적 총론: 적극적등록주의 : 토지인 전국토를 필지 단위로 구획하여 소관청이 강제적으로 지적공부에 등록·공시해야 함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-109",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지적공부에 토지의 소재.지번.지목.면적.경계 또는 좌표를 등록하는 것",
+      "answer": "※ 토지의 표시",
+      "choices": [
+        "※ 토지의 표시",
+        "사행식",
+        "기우식",
+        "단지식"
+      ],
+      "explanation": "3. 토지의 등록사항: ※ 토지의 표시 : 지적공부에 토지의 소재.지번.지목.면적.경계 또는 좌표를 등록하는 것",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-110",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지의 특정성을 살리고 지적업무의 전산화에 기여하기 위해 19자리로 구성되는 토지의 번호로 대장과 경계",
+      "answer": "※ 토지의 고유번호",
+      "choices": [
+        "※ 토지의 고유번호",
+        "등록사항",
+        "지번",
+        "지목"
+      ],
+      "explanation": "4. 지적공부: ※ 토지의 고유번호 : 토지의 특정성을 살리고 지적업무의 전산화에 기여하기 위해 19자리로 구성되는 토지의 번호로 대장과 경계",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-111",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "도시개발.농어촌정비 등 토지개발사업 착수.변경.완료신고는 사유발생일 {{blank}} 이내 지적소관청에",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 도시개발.농어촌정비 등 토지개발사업 착수.변경.완료신고는 사유발생일 15일 이내 지적소관청에",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-112",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "설치 : 국토교통부 / 위원장1(국토교통부 지적담당국장), 부위원장1(지적담당과장) 포함 5~10인 위원(임기 {{blank}})",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "6. 지적측량: 설치 : 국토교통부 / 위원장1(국토교통부 지적담당국장), 부위원장1(지적담당과장) 포함 5~10인 위원(임기 2년)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-113",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 후발적 일부 하자의 경우, 등기완료 후 등기사항의 일부가 실체관계와 불일치한 경우에 이를 일치시키는 등기 (권리내용",
+      "answer": "변경등기",
+      "choices": [
+        "변경등기",
+        "등기",
+        "※ 기타 주등기",
+        "보존등기"
+      ],
+      "explanation": "1. 개요: 변경등기 : 후발적 일부 하자의 경우, 등기완료 후 등기사항의 일부가 실체관계와 불일치한 경우에 이를 일치시키는 등기 (권리내용",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-114",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 뜻을 기록하여야 한다.",
+      "answer": "임차권이 대지권이라",
+      "choices": [
+        "임차권이 대지권이라",
+        "등기사무",
+        "등기관이 등기사무를 처리한 때에",
+        "등기부"
+      ],
+      "explanation": "2. 등기기관과 장부: 임차권이 대지권이라는 뜻을 기록하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-115",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 절차상의 요건만을 심사",
+      "answer": "형식적 심사",
+      "choices": [
+        "형식적 심사",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 형식적 심사 : 절차상의 요건만을 심사",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-116",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 신탁원부, 등기원인정보(검인계약서), 농지취득자격증명서 (토지거래허가증은 X)",
+      "answer": "※ 신탁첨부정보",
+      "choices": [
+        "※ 신탁첨부정보",
+        "등기관이 갑구 또",
+        "와 주소 또",
+        "외국인의 등록번호"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: ※ 신탁첨부정보 : 신탁원부, 등기원인정보(검인계약서), 농지취득자격증명서 (토지거래허가증은 X)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-117",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 단독으로 가등기를 신청할 수 있다.",
+      "answer": "분명령이 있을 때에",
+      "choices": [
+        "분명령이 있을 때에",
+        "권을 등기한 건물의 등기기록에",
+        "에 한다. 그 청구권이 시기부 또",
+        "가등기의무자 또"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 분명령이 있을 때에는 단독으로 가등기를 신청할 수 있다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-118",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — ‘부동산 실권리자명의 등기에 관한 법률’은 원칙적으로 무효",
+      "answer": "명의신탁등기 효력",
+      "choices": [
+        "명의신탁등기 효력",
+        "명의신탁된 부동산을 취득한 자",
+        "수익권의 발생 또",
+        "신탁관리인이 선임된 경우에"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 명의신탁등기 효력 : ‘부동산 실권리자명의 등기에 관한 법률’은 원칙적으로 무효",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-119",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 경위의측량방법으로 측량하여 토지의 경계점을 좌표(평면직각종횡선수치)로 표시하는 지적제도이",
+      "answer": "수치지적 (경계점좌표등록부)",
+      "choices": [
+        "수치지적 (경계점좌표등록부)",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: 수치지적 (경계점좌표등록부) : 경위의측량방법으로 측량하여 토지의 경계점을 좌표(평면직각종횡선수치)로 표시하는 지적제도이",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-120",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 1개의 지번부여지역 전체를 단위로 하여 순차적으로 지번을 부여하는 방식",
+      "answer": "지역단위법",
+      "choices": [
+        "지역단위법",
+        "북서기번법",
+        "북동기번법",
+        "단지단위법"
+      ],
+      "explanation": "3. 토지의 등록사항: 지역단위법 : 1개의 지번부여지역 전체를 단위로 하여 순차적으로 지번을 부여하는 방식",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-121",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지의 소재, 지번, 지목, 면적, 소유자, 고유번호, 도면번호와 필지별대장의 장번호, 토지등급 및 기준수확량등급, 개별",
+      "answer": "등록사항",
+      "choices": [
+        "등록사항",
+        "지번",
+        "지목",
+        "임야대장에 등록하는 지목"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 지목, 면적, 소유자, 고유번호, 도면번호와 필지별대장의 장번호, 토지등급 및 기준수확량등급, 개별",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-122",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "기간 : 기간 없음. 단, 1필 일부의 용도변경은 {{blank}} 내 신청의무 발생 (지목변경신청서를 함께 제출)",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 기간 : 기간 없음. 단, 1필 일부의 용도변경은 60일 내 신청의무 발생 (지목변경신청서를 함께 제출)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-123",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 측량기간은 {{blank}}로 하며, 측량검사기간은 4일로 함. 다만 지적기준점을 설치하여 측량(검사)하는 경우 지적기준점이 15점 이하인 경",
+      "answer": "5일",
+      "choices": [
+        "5일",
+        "4일",
+        "6일",
+        "7일"
+      ],
+      "explanation": "6. 지적측량: ※ 측량기간은 5일로 하며, 측량검사기간은 4일로 함. 다만 지적기준점을 설치하여 측량(검사)하는 경우 지적기준점이 15점 이하인 경",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-124",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기 → 완료(날인) 전에는 자구정정의 방법에 의한다. (경정 전후 등기 사이에 동일성 또는 유사성이 유지되어야 함)",
+      "answer": "일치시키",
+      "choices": [
+        "일치시키",
+        "※ 등기의 완료 시기",
+        "성립요건의 등기(형식주의)",
+        "임의적 기재사항 등"
+      ],
+      "explanation": "1. 개요: 일치시키는 등기 → 완료(날인) 전에는 자구정정의 방법에 의한다. (경정 전후 등기 사이에 동일성 또는 유사성이 유지되어야 함)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-125",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 영구히 보존하여야 한다.",
+      "answer": "등기부",
+      "choices": [
+        "등기부",
+        "등기사무",
+        "등기관이 등기사무를 처리한 때에",
+        "외에"
+      ],
+      "explanation": "2. 등기기관과 장부: 등기부는 영구히 보존하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-126",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 상속등기 등의 단독신청 시",
+      "answer": "제출면제",
+      "choices": [
+        "제출면제",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 제출면제 : 상속등기 등의 단독신청 시",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-127",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 미등기부동산에 처분제한등기 촉탁이나 미등기주택에 임차권등기명령에 의한 임차권등기촉탁 시",
+      "answer": "등기관 직권",
+      "choices": [
+        "등기관 직권",
+        "소유권.지상권.전세권.임차권",
+        "승역지에 대한 지역권",
+        "부동산임차권"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 등기관 직권 : 미등기부동산에 처분제한등기 촉탁이나 미등기주택에 임차권등기명령에 의한 임차권등기촉탁 시",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-128",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 정지조건부일 경우나 그 밖에 장래에 확정될 것인 경우에도 같다.",
+      "answer": "에 한다. 그 청구권이 시기부 또",
+      "choices": [
+        "에 한다. 그 청구권이 시기부 또",
+        "권을 등기한 건물의 등기기록에",
+        "분명령이 있을 때에",
+        "가등기의무자 또"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 에 한다. 그 청구권이 시기부 또는 정지조건부일 경우나 그 밖에 장래에 확정될 것인 경우에도 같다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-129",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 집행정지의 효력이 없다.",
+      "answer": "제104조(집행 부정지) 이의에",
+      "choices": [
+        "제104조(집행 부정지) 이의에",
+        "제101조(이의절차) 이의의 신청",
+        "제1항의 결정에 대하여",
+        "제108조(송달) 송달에 대하여"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 제104조(집행 부정지) 이의에는 집행정지의 효력이 없다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-130",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "토지의 표시사항을 일정한 형식을 갖춘 공부에 등록하여 공시해야 한다는 지적제도의 원칙은 {{blank}}이다.",
+      "answer": "지적형식주의",
+      "choices": [
+        "지적형식주의",
+        "지적공개주의",
+        "지적국정주의",
+        "실질적심사주의"
+      ],
+      "explanation": "지적형식주의는 토지의 표시사항을 정해진 형식의 지적공부에 등록하여 공시한다는 원칙이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "d2e5f8cedd0a6644adc5a667d3eda50661e4a20c18066589d3f4088d0609b454",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-05-131",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도로·구거 등의 토지에 절토된 부분이 있는 경우에는 그 구조물 등의 상단부",
+      "answer": "토지절상 (土地絶上)",
+      "choices": [
+        "토지절상 (土地絶上)",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 토지절상 (土地絶上) : 도로·구거 등의 토지에 절토된 부분이 있는 경우에는 그 구조물 등의 상단부",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-132",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지의 소재, 지번, 소유권에 관한 사항, 토지의 고유번호, 대지권의 비율, 집합건물별 대지권등록부의 장번호, 건물의 명",
+      "answer": "등록사항",
+      "choices": [
+        "등록사항",
+        "지번",
+        "지목",
+        "임야대장에 등록하는 지목"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 소유권에 관한 사항, 토지의 고유번호, 대지권의 비율, 집합건물별 대지권등록부의 장번호, 건물의 명",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-133",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 토지의 표시에 관한 변경등기시 지적소관청은 등기완료통지 접수한 날부터 {{blank}} 이내 토지소유자에게 통지함",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: ※ 토지의 표시에 관한 변경등기시 지적소관청은 등기완료통지 접수한 날부터 15일 이내 토지소유자에게 통지함",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-134",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 측량기간은 5일로 하며, 측량검사기간은 {{blank}}로 함. 다만 지적기준점을 설치하여 측량(검사)하는 경우 지적기준점이 15점 이하인 경",
+      "answer": "4일",
+      "choices": [
+        "4일",
+        "3일",
+        "5일",
+        "6일"
+      ],
+      "explanation": "6. 지적측량: ※ 측량기간은 5일로 하며, 측량검사기간은 4일로 함. 다만 지적기준점을 설치하여 측량(검사)하는 경우 지적기준점이 15점 이하인 경",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-135",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산의 표시(表示)와 다음 각 호의 어느 하나에 해당하는 권리의 보존, 이전, 설정, 변경, 처분의 제한 또는 소멸에 대하여",
+      "answer": "등기",
+      "choices": [
+        "등기",
+        "변경등기",
+        "※ 기타 주등기",
+        "보존등기"
+      ],
+      "explanation": "1. 개요: 등기는 부동산의 표시(表示)와 다음 각 호의 어느 하나에 해당하는 권리의 보존, 이전, 설정, 변경, 처분의 제한 또는 소멸에 대하여",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-136",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 직권말소한 경우 그 회복등기",
+      "answer": "말소회복",
+      "choices": [
+        "말소회복",
+        "권리자",
+        "변경.경정",
+        "부동산표시변경"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 말소회복 : 직권말소한 경우 그 회복등기",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-137",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기기록의 일부로 본다.",
+      "answer": "제2항의 공동담보목록",
+      "choices": [
+        "제2항의 공동담보목록",
+        "제1항에 따라 등기를 말소할 때에",
+        "제1항 및 제2항에 따른 등기",
+        "제1항 후단의 약정의 변경등기"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 제2항의 공동담보목록은 등기기록의 일부로 본다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-138",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 그 건물만을 목적으로 하는 소유권이전이나 저당권설정등기를 하지 못한다.",
+      "answer": "권을 등기한 건물의 등기기록에",
+      "choices": [
+        "권을 등기한 건물의 등기기록에",
+        "에 한다. 그 청구권이 시기부 또",
+        "분명령이 있을 때에",
+        "가등기의무자 또"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 권을 등기한 건물의 등기기록에는 그 건물만을 목적으로 하는 소유권이전이나 저당권설정등기를 하지 못한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-139",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소유권보호가 목적이며, 위치본위로 운영되고, 소유권의 한계설정과 경계복원의 기능이 강조되는 지적제도",
+      "answer": "법지적(소유지적)",
+      "choices": [
+        "법지적(소유지적)",
+        "세지적(과세지적)",
+        "소유권보호가 목적이며",
+        "위치본위로 운영되고"
+      ],
+      "explanation": "2. 지적 총론: 법지적(소유지적) : 소유권보호가 목적이며, 위치본위로 운영되고, 소유권의 한계설정과 경계복원의 기능이 강조되는 지적제도",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-140",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지가 해면 또는 수면에 접하는 경우에는 최대만조위 또는 최대만수위가 되는 선",
+      "answer": "해수면만 (海水面滿)",
+      "choices": [
+        "해수면만 (海水面滿)",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 해수면만 (海水面滿) : 토지가 해면 또는 수면에 접하는 경우에는 최대만조위 또는 최대만수위가 되는 선",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-141",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지의 소재, 지번, 소유권에 관한 사항(소유자 성명.주소.주민번호, 변경일, 원인), 토지의 고유번호, 소유권 지분, 필지별",
+      "answer": "등록사항",
+      "choices": [
+        "등록사항",
+        "지번",
+        "지목",
+        "임야대장에 등록하는 지목"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 소유권에 관한 사항(소유자 성명.주소.주민번호, 변경일, 원인), 토지의 고유번호, 소유권 지분, 필지별",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-142",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "통지의 시기 : 토지표시변경등기가 필요한 경우 등기완료통지서를 접수한 날부터 {{blank}} 이내, 변경등기가 필요 없는 경우 지적공",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 통지의 시기 : 토지표시변경등기가 필요한 경우 등기완료통지서를 접수한 날부터 15일 이내, 변경등기가 필요 없는 경우 지적공",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-143",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "소유자.이해관계인 의뢰(수수료 납부) → 지적측량수행자, 측량수행계획서 제출(신청 다음날까지 to 지적소관청) → 측량({{blank}}간) → 검",
+      "answer": "5일",
+      "choices": [
+        "5일",
+        "4일",
+        "6일",
+        "7일"
+      ],
+      "explanation": "6. 지적측량: 소유자.이해관계인 의뢰(수수료 납부) → 지적측량수행자, 측량수행계획서 제출(신청 다음날까지 to 지적소관청) → 측량(5일간) → 검",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-144",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제3자에게 대항하기 위해 : 부동산임차권, 환매권, {{blank}}",
+      "answer": "임의적 기재사항 등",
+      "choices": [
+        "임의적 기재사항 등",
+        "부동산임차권",
+        "환매권",
+        "※ 등기의 완료 시기"
+      ],
+      "explanation": "1. 개요: 제3자에게 대항하기 위해 : 부동산임차권, 환매권, 임의적 기재사항 등",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-145",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 그 장소 밖으로 옮기지 못한다.",
+      "answer": "외에",
+      "choices": [
+        "외에",
+        "등기사무",
+        "등기관이 등기사무를 처리한 때에",
+        "등기부"
+      ],
+      "explanation": "2. 등기기관과 장부: 외에는 그 장소 밖으로 옮기지 못한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-146",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 신청서 제외한 모든 서류 환부",
+      "answer": "각하 시 조치",
+      "choices": [
+        "각하 시 조치",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 각하 시 조치 : 신청서 제외한 모든 서류 환부",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-147",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 그 부분을 표시한 도면의 번호",
+      "answer": "토지의 일부인 경우에",
+      "choices": [
+        "토지의 일부인 경우에",
+        "등기관이 갑구 또",
+        "와 주소 또",
+        "외국인의 등록번호"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 토지의 일부인 경우에는 그 부분을 표시한 도면의 번호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-148",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 제3조 각 호의 어느 하나에 해당하는 권리의 설정, 이전, 변경 또는 소멸의 청구권을 보전하려는 때",
+      "answer": "제88조(가등기의 대상) 가등기",
+      "choices": [
+        "제88조(가등기의 대상) 가등기",
+        "제1항의 신청을 각하한 결정에 대하여",
+        "제2항의 즉시항고에 관하여",
+        "2차원지적"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 제88조(가등기의 대상) 가등기는 제3조 각 호의 어느 하나에 해당하는 권리의 설정, 이전, 변경 또는 소멸의 청구권을 보전하려는 때",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-149",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 수탁자가 단독으로 신청할 수 있다.",
+      "answer": "신탁등기의 말소등기",
+      "choices": [
+        "신탁등기의 말소등기",
+        "등기",
+        "변경등기",
+        "※ 기타 주등기"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 신탁등기의 말소등기는 수탁자가 단독으로 신청할 수 있다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-150",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "토지이동의 적법성뿐 아니라 신청 내용과 사실관계가 일치하는지도 조사하여 지적공부를 정리하는 원칙은 {{blank}}이다.",
+      "answer": "실질적심사주의",
+      "choices": [
+        "실질적심사주의",
+        "형식적심사주의",
+        "지적공개주의",
+        "지적형식주의"
+      ],
+      "explanation": "실질적심사는 서류의 형식만 살피는 것을 넘어 사실관계와의 부합 여부도 확인하는 것이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "bdde64c6fb04d05064444df95640ad684e69f651292d9f7391d4baba74abfc3f",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-05-151",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공유수면매립지의 토지 중 제방 등을 토지에 편입하여 등록하는 경우에는 바깥쪽 어깨부분",
+      "answer": "토지편입외견 (土地編入外肩)",
+      "choices": [
+        "토지편입외견 (土地編入外肩)",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 토지편입외견 (土地編入外肩) : 공유수면매립지의 토지 중 제방 등을 토지에 편입하여 등록하는 경우에는 바깥쪽 어깨부분",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-152",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 측량이 완료되어 지적공부를 복구하려는 경우 토지의 표시 등을 시.군.구 게시판 및 인터넷홈페이지에 15일 이상 게",
+      "answer": "조사 또",
+      "choices": [
+        "조사 또",
+        "등록사항",
+        "지번",
+        "지목"
+      ],
+      "explanation": "4. 지적공부: 조사 또는 측량이 완료되어 지적공부를 복구하려는 경우 토지의 표시 등을 시.군.구 게시판 및 인터넷홈페이지에 15일 이상 게",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-153",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적소관청은 청산금 산정시 청산금조서를 작성하고 그 뜻을 {{blank}} 이상 공고하여 일반인이 열람할 수 있게 해야 함 → 청산금 결",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 지적소관청은 청산금 산정시 청산금조서를 작성하고 그 뜻을 15일 이상 공고하여 일반인이 열람할 수 있게 해야 함 → 청산금 결",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-154",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "절차 : 소유자.이해관계인의 적부심 청구 → 시도지사 회부({{blank}} 내) → 지방지적위원회 소집통지(5일 전까지 서면으로) → 의결(60일",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "6. 지적측량: 절차 : 소유자.이해관계인의 적부심 청구 → 시도지사 회부(30일 내) → 지방지적위원회 소집통지(5일 전까지 서면으로) → 의결(60일",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-155",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제3자에게 대항하기 위해 : {{blank}}, 환매권, 임의적 기재사항 등",
+      "answer": "부동산임차권",
+      "choices": [
+        "부동산임차권",
+        "환매권",
+        "임의적 기재사항 등",
+        "소유권.지상권.전세권.임차권"
+      ],
+      "explanation": "1. 개요: 제3자에게 대항하기 위해 : 부동산임차권, 환매권, 임의적 기재사항 등",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-156",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 제58조제2항부터 제4항까지를 준용한다.",
+      "answer": "제1항 본문의 경우에",
+      "choices": [
+        "제1항 본문의 경우에",
+        "제8조(관할의 위임) 대법원장",
+        "제10조(등기사무의 정지) 대법원장",
+        "제13조(재정보증) 법원행정처장"
+      ],
+      "explanation": "2. 등기기관과 장부: 제1항 본문의 경우에는 제58조제2항부터 제4항까지를 준용한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-157",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 의무자의 권리에 관한 등기필정보",
+      "answer": "적격성",
+      "choices": [
+        "적격성",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 적격성 : 의무자의 권리에 관한 등기필정보",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-158",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 가등기에 관하여 등기상 이해관계 있는 자는 제23조제1항에도 불구하고 가등기명의인의 승낙을 받아 단독으",
+      "answer": "가등기의무자 또",
+      "choices": [
+        "가등기의무자 또",
+        "권을 등기한 건물의 등기기록에",
+        "에 한다. 그 청구권이 시기부 또",
+        "분명령이 있을 때에"
+      ],
+      "explanation": "5. 각종 등기절차 특칙: 가등기의무자 또는 가등기에 관하여 등기상 이해관계 있는 자는 제23조제1항에도 불구하고 가등기명의인의 승낙을 받아 단독으",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 각종 등기절차 특칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-159",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 제82조제2항 및 제3항을 준용한다.",
+      "answer": "신탁등기의 말소등기의 신청에 관하여",
+      "choices": [
+        "신탁등기의 말소등기의 신청에 관하여",
+        "명의신탁등기 효력",
+        "명의신탁된 부동산을 취득한 자",
+        "수익권의 발생 또"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 신탁등기의 말소등기의 신청에 관하여는 제82조제2항 및 제3항을 준용한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-160",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적공부의 등록사항을 일반 국민이 열람하고 이용할 수 있도록 한다는 지적제도의 원칙은 {{blank}}이다.",
+      "answer": "지적공개주의",
+      "choices": [
+        "지적공개주의",
+        "지적형식주의",
+        "지적국정주의",
+        "실질적심사주의"
+      ],
+      "explanation": "지적공개주의는 지적공부의 등록사항을 공시하여 일반 국민이 이용할 수 있도록 하는 원칙이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "c46c6a070cd0e9b1b3a73baa9aeef5ff094ff43551d5394c9c887631cbc5bcb6",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-05-161",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 필지의 배열이 불규칙한 지역에서 뱀이 기어 다니는 식으로 지번을 부여하는 방식 (농촌지역)",
+      "answer": "사행식",
+      "choices": [
+        "사행식",
+        "※ 토지의 표시",
+        "기우식",
+        "단지식"
+      ],
+      "explanation": "3. 토지의 등록사항: 사행식 : 필지의 배열이 불규칙한 지역에서 뱀이 기어 다니는 식으로 지번을 부여하는 방식 (농촌지역)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-162",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : 토지의 소재, 지번, {{blank}}, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "answer": "토지의 고유번호",
+      "choices": [
+        "토지의 고유번호",
+        "토지의 소재",
+        "지번",
+        "좌표"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-163",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "기간 : 토지소유자의 자유의사에 의한 신청에 의하며, 기간제한 없음. 단, 공동주택부지/학교/철도/공장 등은 {{blank}} 내 신청의무",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 기간 : 토지소유자의 자유의사에 의한 신청에 의하며, 기간제한 없음. 단, 공동주택부지/학교/철도/공장 등은 60일 내 신청의무",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-164",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "절차 : 소유자.이해관계인의 적부심 청구 → 시도지사 회부(30일 내) → 지방지적위원회 소집통지({{blank}} 전까지 서면으로) → 의결(60일",
+      "answer": "5일",
+      "choices": [
+        "5일",
+        "4일",
+        "6일",
+        "7일"
+      ],
+      "explanation": "6. 지적측량: 절차 : 소유자.이해관계인의 적부심 청구 → 시도지사 회부(30일 내) → 지방지적위원회 소집통지(5일 전까지 서면으로) → 의결(60일",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-165",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "제3자에게 대항하기 위해 : 부동산임차권, {{blank}}, 임의적 기재사항 등",
+      "answer": "환매권",
+      "choices": [
+        "환매권",
+        "부동산임차권",
+        "임의적 기재사항 등",
+        "소유권.지상권.전세권.임차권"
+      ],
+      "explanation": "1. 개요: 제3자에게 대항하기 위해 : 부동산임차권, 환매권, 임의적 기재사항 등",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-166",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기관의 재정보증에 관한 사항을 정하여 운용할 수 있다.",
+      "answer": "제13조(재정보증) 법원행정처장",
+      "choices": [
+        "제13조(재정보증) 법원행정처장",
+        "제8조(관할의 위임) 대법원장",
+        "제10조(등기사무의 정지) 대법원장",
+        "제34조(등기사항) 등기관"
+      ],
+      "explanation": "2. 등기기관과 장부: 제13조(재정보증) 법원행정처장은 등기관의 재정보증에 관한 사항을 정하여 운용할 수 있다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-167",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 신청서 포함하여 모든 서류 환부",
+      "answer": "조치",
+      "choices": [
+        "조치",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 조치 : 신청서 포함하여 모든 서류 환부",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-168",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — \"수탁자\"는 \"신탁재산관리인\"으로 본다.",
+      "answer": "조 및 제87조의2를 적용할 때에",
+      "choices": [
+        "조 및 제87조의2를 적용할 때에",
+        "제101조(이의절차) 이의의 신청",
+        "제104조(집행 부정지) 이의에",
+        "제1항의 결정에 대하여"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 조 및 제87조의2를 적용할 때에는 \"수탁자\"는 \"신탁재산관리인\"으로 본다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-169",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 것 (지적공부 열람, 지적이동 신청, 경계복원측량, 분할측정신청 등)",
+      "answer": "여야 한다",
+      "choices": [
+        "여야 한다",
+        "세지적(과세지적)",
+        "법지적(소유지적)",
+        "소유권보호가 목적이며"
+      ],
+      "explanation": "2. 지적 총론: 여야 한다는 것 (지적공부 열람, 지적이동 신청, 경계복원측량, 분할측정신청 등)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-170",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 북쪽에서 기번하여 남서쪽으로 순차적으로 지번을 부여하는 방식으로 한자로 지번을 부여하는데 적합",
+      "answer": "북동기번법",
+      "choices": [
+        "북동기번법",
+        "북서기번법",
+        "지역단위법",
+        "단지단위법"
+      ],
+      "explanation": "3. 토지의 등록사항: 북동기번법 : 북쪽에서 기번하여 남서쪽으로 순차적으로 지번을 부여하는 방식으로 한자로 지번을 부여하는데 적합",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-171",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : {{blank}}, 지번, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "answer": "토지의 소재",
+      "choices": [
+        "토지의 소재",
+        "지번",
+        "토지의 고유번호",
+        "좌표"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-172",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "정 공고 후 {{blank}} 이내 토지소유자에게 청산금 납부고지 또는 수령통지를 해야 함 → 납부/수령통지에 이의가 있는 경우 1개월 내",
+      "answer": "20일",
+      "choices": [
+        "20일",
+        "18일",
+        "22일",
+        "25일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 정 공고 후 20일 이내 토지소유자에게 청산금 납부고지 또는 수령통지를 해야 함 → 납부/수령통지에 이의가 있는 경우 1개월 내",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-173",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 20억원 이상 보증보험",
+      "answer": "한국국토정보공사",
+      "choices": [
+        "한국국토정보공사",
+        "면적",
+        "좌표 등을 정하기 위한 측량",
+        "지적확정측량"
+      ],
+      "explanation": "6. 지적측량: 한국국토정보공사 : 20억원 이상 보증보험",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-174",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "취득한 권리를 처분하기 위해 : {{blank}}, 판결, 수용, 매각 등의 법률규정",
+      "answer": "상속",
+      "choices": [
+        "상속",
+        "판결",
+        "수용",
+        "매각 등의 법률규정"
+      ],
+      "explanation": "1. 개요: 취득한 권리를 처분하기 위해 : 상속, 판결, 수용, 매각 등의 법률규정",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-175",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지 등기기록의 표제부에 다음 각 호의 사항을 기록하여야 한다.",
+      "answer": "제34조(등기사항) 등기관",
+      "choices": [
+        "제34조(등기사항) 등기관",
+        "제8조(관할의 위임) 대법원장",
+        "제10조(등기사무의 정지) 대법원장",
+        "제13조(재정보증) 법원행정처장"
+      ],
+      "explanation": "2. 등기기관과 장부: 제34조(등기사항) 등기관은 토지 등기기록의 표제부에 다음 각 호의 사항을 기록하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-176",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 법 제29조에서 11가지를 규정",
+      "answer": "사유",
+      "choices": [
+        "사유",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 사유 : 법 제29조에서 11가지를 규정",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-177",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 「비송사건절차법」에 따라 항고할 수 있다.",
+      "answer": "제1항의 결정에 대하여",
+      "choices": [
+        "제1항의 결정에 대하여",
+        "제101조(이의절차) 이의의 신청",
+        "제104조(집행 부정지) 이의에",
+        "제108조(송달) 송달에 대하여"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 제1항의 결정에 대하여는 「비송사건절차법」에 따라 항고할 수 있다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-178",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 지적기준점 : 지적삼각점, {{blank}}, 지적도근점",
+      "answer": "지적삼각보조점",
+      "choices": [
+        "지적삼각보조점",
+        "지적삼각점",
+        "지적도근점",
+        "※ 지적기준점"
+      ],
+      "explanation": "2. 지적 총론: ※ 지적기준점 : 지적삼각점, 지적삼각보조점, 지적도근점",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-179",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 결번대장 기록, 영구 보존 (예외적으로 사용 가능한 경우 : 지번변경, 지적확정측량, 축척변경)",
+      "answer": "지번 결번",
+      "choices": [
+        "지번 결번",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 지번 결번 : 결번대장 기록, 영구 보존 (예외적으로 사용 가능한 경우 : 지번변경, 지적확정측량, 축척변경)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-180",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : 토지의 소재, {{blank}}, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "answer": "지번",
+      "choices": [
+        "지번",
+        "토지의 소재",
+        "토지의 고유번호",
+        "좌표"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 토지의 고유번호, 좌표, 부호 및 부호도, 도면번호, 필지별 장번호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-181",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "정 공고 후 20일 이내 토지소유자에게 청산금 납부고지 또는 수령통지를 해야 함 → 납부/수령통지에 이의가 있는 경우 {{blank}} 내",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 정 공고 후 20일 이내 토지소유자에게 청산금 납부고지 또는 수령통지를 해야 함 → 납부/수령통지에 이의가 있는 경우 1개월 내",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-182",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 심의.의결(지적측량적부심사)",
+      "answer": "기능",
+      "choices": [
+        "기능",
+        "면적",
+        "좌표 등을 정하기 위한 측량",
+        "지적확정측량"
+      ],
+      "explanation": "6. 지적측량: 기능 : 심의.의결(지적측량적부심사)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-183",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "취득한 권리를 처분하기 위해 : 상속, {{blank}}, 수용, 매각 등의 법률규정",
+      "answer": "판결",
+      "choices": [
+        "판결",
+        "상속",
+        "수용",
+        "매각 등의 법률규정"
+      ],
+      "explanation": "1. 개요: 취득한 권리를 처분하기 위해 : 상속, 판결, 수용, 매각 등의 법률규정",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-184",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기사무를 처리한 등기관이 누구인지 알 수 있는 조치를 하여야 한다.",
+      "answer": "등기관이 등기사무를 처리한 때에",
+      "choices": [
+        "등기관이 등기사무를 처리한 때에",
+        "등기사무",
+        "등기부",
+        "외에"
+      ],
+      "explanation": "2. 등기기관과 장부: 등기관이 등기사무를 처리한 때에는 등기사무를 처리한 등기관이 누구인지 알 수 있는 조치를 하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-185",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 계약원인으로 소유권이전등기신청 시",
+      "answer": "검인계약서",
+      "choices": [
+        "검인계약서",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 검인계약서 : 계약원인으로 소유권이전등기신청 시",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-186",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 그 채권의 평가액을 기록하여야 한다.",
+      "answer": "저당권설정의 등기를 할 때에",
+      "choices": [
+        "저당권설정의 등기를 할 때에",
+        "등기관이 갑구 또",
+        "와 주소 또",
+        "외국인의 등록번호"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 저당권설정의 등기를 할 때에는 그 채권의 평가액을 기록하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-187",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소멸에 관한 조건이 있는 경우에는 그 조건",
+      "answer": "수익권의 발생 또",
+      "choices": [
+        "수익권의 발생 또",
+        "명의신탁등기 효력",
+        "명의신탁된 부동산을 취득한 자",
+        "신탁관리인이 선임된 경우에"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 수익권의 발생 또는 소멸에 관한 조건이 있는 경우에는 그 조건",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-188",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 지적기준점 : {{blank}}, 지적삼각보조점, 지적도근점",
+      "answer": "지적삼각점",
+      "choices": [
+        "지적삼각점",
+        "지적삼각보조점",
+        "지적도근점",
+        "※ 지적기준점"
+      ],
+      "explanation": "2. 지적 총론: ※ 지적기준점 : 지적삼각점, 지적삼각보조점, 지적도근점",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-189",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 북서쪽에서 기번하여 남동쪽으로 순차적으로 지번을 부여하는 방식으로 아라비아숫자로 지번을 부여하는데 적합",
+      "answer": "북서기번법",
+      "choices": [
+        "북서기번법",
+        "북동기번법",
+        "지역단위법",
+        "단지단위법"
+      ],
+      "explanation": "3. 토지의 등록사항: 북서기번법 : 북서쪽에서 기번하여 남동쪽으로 순차적으로 지번을 부여하는 방식으로 아라비아숫자로 지번을 부여하는데 적합",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-190",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : 토지의 소재, 지번, {{blank}}, 토지의 고유번호, 대지권의 비율, 집합건물별 대지권등록부의 장번호, 건물의 명",
+      "answer": "소유권에 관한 사항",
+      "choices": [
+        "소유권에 관한 사항",
+        "토지의 소재",
+        "지번",
+        "토지의 고유번호"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 소유권에 관한 사항, 토지의 고유번호, 대지권의 비율, 집합건물별 대지권등록부의 장번호, 건물의 명",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-191",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "절차 : 지적소관청, 토지소유자에게 통지 → 통지받은 날로부터 {{blank}} 내 말소신청(측량비용 면제) → 신청해태 시 지적소관청 직권",
+      "answer": "90일",
+      "choices": [
+        "90일",
+        "80일",
+        "100일",
+        "110일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 절차 : 지적소관청, 토지소유자에게 통지 → 통지받은 날로부터 90일 내 말소신청(측량비용 면제) → 신청해태 시 지적소관청 직권",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-192",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 점간 거리 2~5km → 시도지사 관리",
+      "answer": "지적삼각점",
+      "choices": [
+        "지적삼각점",
+        "지적삼각보조점",
+        "지적도근점",
+        "※ 지적기준점"
+      ],
+      "explanation": "6. 지적측량: 지적삼각점 : 점간 거리 2~5km → 시도지사 관리",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-193",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "취득한 권리를 처분하기 위해 : 상속, 판결, {{blank}}, 매각 등의 법률규정",
+      "answer": "수용",
+      "choices": [
+        "수용",
+        "상속",
+        "판결",
+        "매각 등의 법률규정"
+      ],
+      "explanation": "1. 개요: 취득한 권리를 처분하기 위해 : 상속, 판결, 수용, 매각 등의 법률규정",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-194",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 어느 등기소의 관할에 속하는 사무를 다른 등기소에 위임하게 할 수 있다.",
+      "answer": "제8조(관할의 위임) 대법원장",
+      "choices": [
+        "제8조(관할의 위임) 대법원장",
+        "제10조(등기사무의 정지) 대법원장",
+        "제13조(재정보증) 법원행정처장",
+        "제34조(등기사항) 등기관"
+      ],
+      "explanation": "2. 등기기관과 장부: 제8조(관할의 위임) 대법원장은 어느 등기소의 관할에 속하는 사무를 다른 등기소에 위임하게 할 수 있다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-195",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등기완료 전 또는 각하결정 전까지",
+      "answer": "시기",
+      "choices": [
+        "시기",
+        "말소회복",
+        "권리자",
+        "변경.경정"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 시기 : 등기완료 전 또는 각하결정 전까지",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-196",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 사무소 소재지를 함께 기록하여야 한다.",
+      "answer": "와 주소 또",
+      "choices": [
+        "와 주소 또",
+        "등기관이 갑구 또",
+        "외국인의 등록번호",
+        "에 관한 것이라"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 와 주소 또는 사무소 소재지를 함께 기록하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-197",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 선의, 악의를 불문하고 제3자에게 대항이 가능",
+      "answer": "명의신탁된 부동산을 취득한 자",
+      "choices": [
+        "명의신탁된 부동산을 취득한 자",
+        "명의신탁등기 효력",
+        "수익권의 발생 또",
+        "신탁관리인이 선임된 경우에"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 명의신탁된 부동산을 취득한 자는 선의, 악의를 불문하고 제3자에게 대항이 가능",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-198",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 지적기준점 : 지적삼각점, 지적삼각보조점, {{blank}}",
+      "answer": "지적도근점",
+      "choices": [
+        "지적도근점",
+        "지적삼각점",
+        "지적삼각보조점",
+        "※ 지적기준점"
+      ],
+      "explanation": "2. 지적 총론: ※ 지적기준점 : 지적삼각점, 지적삼각보조점, 지적도근점",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-199",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 1개의 지번부여지역을 단지로 구분하고 단지를 단위로 하여 단지의 순서에 따라 단지별로 지번을 부여하는 방식",
+      "answer": "단지단위법",
+      "choices": [
+        "단지단위법",
+        "북서기번법",
+        "북동기번법",
+        "지역단위법"
+      ],
+      "explanation": "3. 토지의 등록사항: 단지단위법 : 1개의 지번부여지역을 단지로 구분하고 단지를 단위로 하여 단지의 순서에 따라 단지별로 지번을 부여하는 방식",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-200",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : {{blank}}, 지번, 지목, 면적, 소유자, 고유번호, 도면번호와 필지별대장의 장번호, 토지등급 및 기준수확량등급, 개별",
+      "answer": "토지의 소재",
+      "choices": [
+        "토지의 소재",
+        "지번",
+        "지목",
+        "면적"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 지목, 면적, 소유자, 고유번호, 도면번호와 필지별대장의 장번호, 토지등급 및 기준수확량등급, 개별",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-201",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적소관청에 이의신청 → 축척변경위원회는 {{blank}} 내 심의.의결(지체없이 결과 통지) → 납부고지 6개월 내 납부, 통지 6개월 내",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 지적소관청에 이의신청 → 축척변경위원회는 1개월 내 심의.의결(지체없이 결과 통지) → 납부고지 6개월 내 납부, 통지 6개월 내",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-202",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 점간 거리 1~3km → 지적소관청 관리",
+      "answer": "지적삼각보조점",
+      "choices": [
+        "지적삼각보조점",
+        "지적삼각점",
+        "지적도근점",
+        "※ 지적기준점"
+      ],
+      "explanation": "6. 지적측량: 지적삼각보조점 : 점간 거리 1~3km → 지적소관청 관리",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-203",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 기타 주등기 : 표제부 변경.경정, {{blank}}, 소유권 이전, 전무말소회복, 소유권처분제한",
+      "answer": "승낙서 미첨부 권리변경",
+      "choices": [
+        "승낙서 미첨부 권리변경",
+        "표제부 변경.경정",
+        "소유권 이전",
+        "전무말소회복"
+      ],
+      "explanation": "1. 개요: ※ 기타 주등기 : 표제부 변경.경정, 승낙서 미첨부 권리변경, 소유권 이전, 전무말소회복, 소유권처분제한",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-204",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지체 없이 그 사실을 지적소관청과 소유권의 등기명의인에게 알려야 한다. 다만, 등기명",
+      "answer": "제1항의 등기를 하였을 때에는 등기관",
+      "choices": [
+        "제1항의 등기를 하였을 때에는 등기관",
+        "제8조(관할의 위임) 대법원장",
+        "제10조(등기사무의 정지) 대법원장",
+        "제13조(재정보증) 법원행정처장"
+      ],
+      "explanation": "2. 등기기관과 장부: 제1항의 등기를 하였을 때에는 등기관은 지체 없이 그 사실을 지적소관청과 소유권의 등기명의인에게 알려야 한다. 다만, 등기명",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-205",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 각하결정 전 보정을 명할 수 있음",
+      "answer": "보정통지",
+      "choices": [
+        "보정통지",
+        "축척변경 시행지역 토지",
+        "소유자가 등록된 토지",
+        "신규등록지"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 보정통지 : 각하결정 전 보정을 명할 수 있음",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-206",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 건축물대장 소관청에 각각 알려야 한다.",
+      "answer": "건물의 경우에",
+      "choices": [
+        "건물의 경우에",
+        "등기관이 갑구 또",
+        "와 주소 또",
+        "외국인의 등록번호"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 건물의 경우에는 건축물대장 소관청에 각각 알려야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-207",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 직권으로 등기기록에 수탁자 해임의 뜻을 부기하여야 한다.",
+      "answer": "기를 하였을 때에",
+      "choices": [
+        "기를 하였을 때에",
+        "명의신탁등기 효력",
+        "명의신탁된 부동산을 취득한 자",
+        "수익권의 발생 또"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 기를 하였을 때에는 직권으로 등기기록에 수탁자 해임의 뜻을 부기하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-208",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "정을 함 → 목적 : {{blank}}, 해상교통안전, 국민의 소유권 보호",
+      "answer": "국토의 효율적 관리",
+      "choices": [
+        "국토의 효율적 관리",
+        "해상교통안전",
+        "국민의 소유권 보호",
+        "세지적(과세지적)"
+      ],
+      "explanation": "2. 지적 총론: 정을 함 → 목적 : 국토의 효율적 관리, 해상교통안전, 국민의 소유권 보호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-209",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지적소관청이 지번변경 필요시 시도지사나 대도시시장 승인 받아 진행 → 소유자에게 변경사항 통지 → 관할등기",
+      "answer": "지번 변경",
+      "choices": [
+        "지번 변경",
+        "※ 토지의 표시",
+        "사행식",
+        "기우식"
+      ],
+      "explanation": "3. 토지의 등록사항: 지번 변경 : 지적소관청이 지번변경 필요시 시도지사나 대도시시장 승인 받아 진행 → 소유자에게 변경사항 통지 → 관할등기",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-210",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : {{blank}}, 지번, 소유권에 관한 사항, 토지의 고유번호, 대지권의 비율, 집합건물별 대지권등록부의 장번호, 건물의 명",
+      "answer": "토지의 소재",
+      "choices": [
+        "토지의 소재",
+        "지번",
+        "소유권에 관한 사항",
+        "토지의 고유번호"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 소유권에 관한 사항, 토지의 고유번호, 대지권의 비율, 집합건물별 대지권등록부의 장번호, 건물의 명",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-211",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "절차 : {{blank}} 내 신청의무 발생 → 지적측량 → 토지대장에 경계.좌표 등록 → 임야대장(도) 등록 말소 → 등기소에 표시변경등기 촉",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "5. 토지이동 및 지적정리: 절차 : 60일 내 신청의무 발생 → 지적측량 → 토지대장에 경계.좌표 등록 → 임야대장(도) 등록 말소 → 등기소에 표시변경등기 촉",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "5. 토지이동 및 지적정리",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-212",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 점간 거리 50~300m → 지적소관청 관리",
+      "answer": "지적도근점",
+      "choices": [
+        "지적도근점",
+        "지적삼각점",
+        "지적삼각보조점",
+        "※ 지적기준점"
+      ],
+      "explanation": "6. 지적측량: 지적도근점 : 점간 거리 50~300m → 지적소관청 관리",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 지적측량",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-213",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "※ 기타 주등기 : {{blank}}, 승낙서 미첨부 권리변경, 소유권 이전, 전무말소회복, 소유권처분제한",
+      "answer": "표제부 변경.경정",
+      "choices": [
+        "표제부 변경.경정",
+        "승낙서 미첨부 권리변경",
+        "소유권 이전",
+        "전무말소회복"
+      ],
+      "explanation": "1. 개요: ※ 기타 주등기 : 표제부 변경.경정, 승낙서 미첨부 권리변경, 소유권 이전, 전무말소회복, 소유권처분제한",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "1. 개요",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-214",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 1동에 속하는 다른 구분건물의 소유자를 대위하여 그 건물의 표시에 관한 등기를 신청할",
+      "answer": "제1항의 경우에 구분건물의 소유자",
+      "choices": [
+        "제1항의 경우에 구분건물의 소유자",
+        "제8조(관할의 위임) 대법원장",
+        "제10조(등기사무의 정지) 대법원장",
+        "제13조(재정보증) 법원행정처장"
+      ],
+      "explanation": "2. 등기기관과 장부: 제1항의 경우에 구분건물의 소유자는 1동에 속하는 다른 구분건물의 소유자를 대위하여 그 건물의 표시에 관한 등기를 신청할",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 등기기관과 장부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-215",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 미등기부동산에 대한 처분제한등기 시",
+      "answer": "보존등기",
+      "choices": [
+        "보존등기",
+        "말소등기",
+        "지역권등기",
+        "가등기의 말소등기"
+      ],
+      "explanation": "3. 등기의 일반적 절차: 보존등기 : 미등기부동산에 대한 처분제한등기 시",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 등기의 일반적 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-216",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공유자 전원이 공동으로 신청하여야 한다.",
+      "answer": "제1항 후단의 약정의 변경등기",
+      "choices": [
+        "제1항 후단의 약정의 변경등기",
+        "제1항에 따라 등기를 말소할 때에",
+        "제1항 및 제2항에 따른 등기",
+        "제2항의 통지를 받"
+      ],
+      "explanation": "4. 각종 권리에 관한 등기절차: 제1항 후단의 약정의 변경등기는 공유자 전원이 공동으로 신청하여야 한다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 각종 권리에 관한 등기절차",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-217",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지수용위원회의 재결로써 존속이 인정된 권리의 등기는 그러하지 아니하다.",
+      "answer": "기 또",
+      "choices": [
+        "기 또",
+        "명의신탁등기 효력",
+        "명의신탁된 부동산을 취득한 자",
+        "수익권의 발생 또"
+      ],
+      "explanation": "6. 이의신청 및 벌칙 등: 기 또는 토지수용위원회의 재결로써 존속이 인정된 권리의 등기는 그러하지 아니하다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "6. 이의신청 및 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-218",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "정을 함 → 목적 : 국토의 효율적 관리, 해상교통안전, {{blank}}",
+      "answer": "국민의 소유권 보호",
+      "choices": [
+        "국민의 소유권 보호",
+        "국토의 효율적 관리",
+        "해상교통안전",
+        "세지적(과세지적)"
+      ],
+      "explanation": "2. 지적 총론: 정을 함 → 목적 : 국토의 효율적 관리, 해상교통안전, 국민의 소유권 보호",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-219",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도로를 중심으로 한쪽은 홀수인 기수로 부여하고 그 반대쪽은 짝수인 우수로 지번을 부여하는 방식 (시가지지역)",
+      "answer": "기우식",
+      "choices": [
+        "기우식",
+        "※ 토지의 표시",
+        "사행식",
+        "단지식"
+      ],
+      "explanation": "3. 토지의 등록사항: 기우식 : 도로를 중심으로 한쪽은 홀수인 기수로 부여하고 그 반대쪽은 짝수인 우수로 지번을 부여하는 방식 (시가지지역)",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "3. 토지의 등록사항",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-05-220",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "등록사항 : 토지의 소재, 지번, 소유권에 관한 사항(소유자 성명.주소.주민번호, 변경일, 원인), {{blank}}, 소유권 지분, 필지별",
+      "answer": "토지의 고유번호",
+      "choices": [
+        "토지의 고유번호",
+        "토지의 소재",
+        "지번",
+        "소유권 지분"
+      ],
+      "explanation": "4. 지적공부: 등록사항 : 토지의 소재, 지번, 소유권에 관한 사항(소유자 성명.주소.주민번호, 변경일, 원인), 토지의 고유번호, 소유권 지분, 필지별",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "4. 지적공부",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "reviewStatus": "pending",
+  "legalAsOf": null
+}

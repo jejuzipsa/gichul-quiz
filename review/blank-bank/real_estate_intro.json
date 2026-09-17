@@ -1,0 +1,6290 @@
+{
+  "subject": "부동산학개론",
+  "targetCount": 300,
+  "generatedCount": 300,
+  "questions": [
+    {
+      "id": "blank-01-001",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지는 물리적 위치가 고정되는 {{blank}} 때문에 부동산시장이 국지화된다.",
+      "answer": "부동성",
+      "choices": [
+        "부동성",
+        "부증성",
+        "영속성",
+        "개별성"
+      ],
+      "explanation": "부동성은 토지의 지리적 위치가 고정되어 있다는 특성이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-002",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지의 {{blank}}은 물리적 감가상각이 배제되는 근거가 된다.",
+      "answer": "영속성",
+      "choices": [
+        "영속성",
+        "인접성",
+        "개별성",
+        "적재성"
+      ],
+      "explanation": "영속성은 토지가 소모·소멸되지 않는다는 특성이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-003",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지의 면적이 인위적으로 늘어나지 않는 특성을 {{blank}}이라 한다.",
+      "answer": "부증성",
+      "choices": [
+        "부증성",
+        "부동성",
+        "인접성",
+        "용도의 다양성"
+      ],
+      "explanation": "부증성은 토지 수량의 고정성과 면적의 유한성을 뜻한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-004",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지의 {{blank}} 때문에 일물일가의 법칙이 적용되기 어렵다.",
+      "answer": "개별성",
+      "choices": [
+        "개별성",
+        "부동성",
+        "영속성",
+        "인접성"
+      ],
+      "explanation": "개별성은 토지가 서로 완전히 동일하지 않다는 특성이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-005",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "인접 토지와의 협동적 이용 필요성을 낳는 토지의 특성은 {{blank}}이다.",
+      "answer": "인접성",
+      "choices": [
+        "인접성",
+        "영속성",
+        "부증성",
+        "개별성"
+      ],
+      "explanation": "인접성은 토지가 서로 연결되어 영향을 주고받는 특성이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-006",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "택지·농지·임지 지역 사이에서 용도가 전환 중인 토지를 {{blank}}라 한다.",
+      "answer": "후보지",
+      "choices": [
+        "후보지",
+        "이행지",
+        "법지",
+        "빈지"
+      ],
+      "explanation": "후보지는 대분류 용도지역 상호 간 전환이 진행되는 토지다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-007",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "동일한 용도지역 안에서 세부 용도가 바뀌는 과정의 토지를 {{blank}}라 한다.",
+      "answer": "이행지",
+      "choices": [
+        "이행지",
+        "후보지",
+        "소지",
+        "공한지"
+      ],
+      "explanation": "이행지는 동일 용도적 지역 내 소분류 상호 간 이행 중인 토지다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-008",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "지번이 부여되는 토지의 등록단위를 {{blank}}라 한다.",
+      "answer": "필지",
+      "choices": [
+        "필지",
+        "획지",
+        "법지",
+        "소지"
+      ],
+      "explanation": "필지는 하나의 지번이 부여되는 토지의 등록단위다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-009",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "가격수준이 비슷한 일단의 토지를 경제적 개념으로 {{blank}}라 한다.",
+      "answer": "획지",
+      "choices": [
+        "획지",
+        "필지",
+        "후보지",
+        "포락지"
+      ],
+      "explanation": "획지는 가격수준이 비슷한 일단의 토지를 말한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-010",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "도시 안에서 장기간 사용하지 않고 방치된 토지를 {{blank}}라 한다.",
+      "answer": "공한지",
+      "choices": [
+        "공한지",
+        "나지",
+        "법지",
+        "빈지"
+      ],
+      "explanation": "공한지는 도시 내에서 사용하지 않고 장기간 방치된 토지다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-011",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요곡선 위의 이동은 당해 재화의 {{blank}} 변화 때문에 발생한다.",
+      "answer": "가격",
+      "choices": [
+        "가격",
+        "소득",
+        "인구",
+        "기호"
+      ],
+      "explanation": "수요량의 변화는 당해 재화 가격 변화로 수요곡선 위에서 일어난다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-012",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요곡선 자체의 이동 요인에는 소득·연관재 가격·기호·인구 등이 있으며 이를 수요의 {{blank}}라 한다.",
+      "answer": "변화",
+      "choices": [
+        "변화",
+        "수량",
+        "균형",
+        "감소"
+      ],
+      "explanation": "가격 외 요인으로 수요곡선 자체가 이동하는 것을 수요의 변화라 한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-013",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 가격탄력성은 수요량의 변화율을 {{blank}}의 변화율로 나눈 값의 절댓값이다.",
+      "answer": "가격",
+      "choices": [
+        "가격",
+        "소득",
+        "공급량",
+        "비용"
+      ],
+      "explanation": "수요의 가격탄력성은 수요량 변화율/가격 변화율의 절댓값이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-014",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 교차탄력성이 0보다 크면 두 재화는 {{blank}} 관계다.",
+      "answer": "대체재",
+      "choices": [
+        "대체재",
+        "보완재",
+        "독립재",
+        "열등재"
+      ],
+      "explanation": "교차탄력성이 양수이면 한 재화 가격 상승 시 다른 재화 수요가 증가하는 대체재 관계다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-015",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 교차탄력성이 0보다 작으면 두 재화는 {{blank}} 관계다.",
+      "answer": "보완재",
+      "choices": [
+        "보완재",
+        "대체재",
+        "독립재",
+        "정상재"
+      ],
+      "explanation": "교차탄력성이 음수이면 보완재 관계다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-016",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 소득탄력성이 0보다 크면 해당 재화는 {{blank}}이다.",
+      "answer": "정상재",
+      "choices": [
+        "정상재",
+        "열등재",
+        "독립재",
+        "보완재"
+      ],
+      "explanation": "소득탄력성이 양수이면 정상재다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-017",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요량과 공급량이 일치하는 가격을 {{blank}}이라 한다.",
+      "answer": "균형가격",
+      "choices": [
+        "균형가격",
+        "한계가격",
+        "정상가격",
+        "공시가격"
+      ],
+      "explanation": "균형가격은 시장 수요량과 공급량이 일치하는 가격이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-018",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "장기에는 일반적으로 부동산 공급의 가격탄력성이 단기보다 더 {{blank}}이다.",
+      "answer": "탄력적",
+      "choices": [
+        "탄력적",
+        "비탄력적",
+        "완전비탄력적",
+        "불변"
+      ],
+      "explanation": "장기에는 공급 조정이 가능해져 상대적으로 탄력적이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-019",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산의 수요보다 공급은 일반적으로 더 {{blank}}이다.",
+      "answer": "비탄력적",
+      "choices": [
+        "비탄력적",
+        "탄력적",
+        "완전탄력적",
+        "동일"
+      ],
+      "explanation": "부동산 공급에는 시간이 오래 걸려 수요보다 공급이 비탄력적인 경향이 있다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-020",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "최유효이용은 합리적이고 합법적인 이용 중 부동산의 {{blank}}을 최대화하는 이용을 말한다.",
+      "answer": "가치",
+      "choices": [
+        "가치",
+        "면적",
+        "세금",
+        "소유자 수"
+      ],
+      "explanation": "최유효이용은 부동산 가치를 최대화하는 이용 개념이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-021",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지이용의 집약도는 노동이나 자본의 크기를 토지 {{blank}}로 나눈 개념이다.",
+      "answer": "단위면적",
+      "choices": [
+        "단위면적",
+        "가격",
+        "거리",
+        "세율"
+      ],
+      "explanation": "집약도는 투입된 노동·자본을 토지 단위면적과 대비한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-022",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "개발대상 부지를 둘러싼 인접지역의 동태적 변화를 살피는 분석은 {{blank}}이다.",
+      "answer": "근린분석",
+      "choices": [
+        "근린분석",
+        "부지분석",
+        "공급분석",
+        "수요분석"
+      ],
+      "explanation": "근린분석은 대상부지 주변 인접지역의 변화를 분석한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-023",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "대상부지 자체의 접근성·크기·형상·지형 등을 살피는 분석은 {{blank}}이다.",
+      "answer": "부지분석",
+      "choices": [
+        "부지분석",
+        "지역분석",
+        "수요분석",
+        "근린분석"
+      ],
+      "explanation": "부지분석은 대상부지 자체의 물리적·입지적 조건을 본다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-024",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "시장평가를 위해 대상 개발사업의 유효수요를 추계하는 것은 {{blank}}이다.",
+      "answer": "수요분석",
+      "choices": [
+        "수요분석",
+        "공급분석",
+        "부지분석",
+        "지역분석"
+      ],
+      "explanation": "수요분석은 개발사업에 대한 유효수요를 추계한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-025",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "기존 공급과 장래 예상 공급을 조사하는 것은 {{blank}}이다.",
+      "answer": "공급분석",
+      "choices": [
+        "공급분석",
+        "수요분석",
+        "근린분석",
+        "부지분석"
+      ],
+      "explanation": "공급분석은 기존 및 장래 공급을 조사한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-026",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산개발 과정에서 부지 매입은 {{blank}} 단계와 연결된다.",
+      "answer": "부지의 모색과 확보",
+      "choices": [
+        "부지의 모색과 확보",
+        "금융",
+        "건설",
+        "마케팅"
+      ],
+      "explanation": "요약자료의 개발과정에서 부지 매입은 부지의 모색과 확보 단계다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-027",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산개발의 마지막 단계로 제시된 것은 {{blank}}이다.",
+      "answer": "마케팅(분양)",
+      "choices": [
+        "마케팅(분양)",
+        "금융",
+        "건설",
+        "예비적 타당성분석"
+      ],
+      "explanation": "요약자료의 개발과정은 마케팅(분양) 단계로 마무리된다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-028",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "금리가 상승하면 일반적으로 투자자의 요구수익률은 {{blank}}한다.",
+      "answer": "상승",
+      "choices": [
+        "상승",
+        "하락",
+        "불변",
+        "소멸"
+      ],
+      "explanation": "금리 상승은 요구수익률을 높이는 요인이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-029",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산 투자에서 미래 투자환경 변화가 투자 가치에 미치는 영향을 검토하는 분석은 {{blank}}이다.",
+      "answer": "민감도분석",
+      "choices": [
+        "민감도분석",
+        "지역분석",
+        "근린분석",
+        "원가분석"
+      ],
+      "explanation": "민감도분석은 주요 변수 변화에 따른 투자 가치 변화를 검토한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-030",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "고객집단을 세분화하고 표적시장을 선정하며 시장에서 위치를 정하는 전략을 {{blank}}전략이라 한다.",
+      "answer": "STP",
+      "choices": [
+        "STP",
+        "4P",
+        "CRM",
+        "DCF"
+      ],
+      "explanation": "STP는 Segmentation, Targeting, Positioning의 약자다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-031",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "취득시효 {{blank}}(등기 10년) 10년(선의취득 5년)",
+      "answer": "20년",
+      "choices": [
+        "20년",
+        "18년",
+        "22년",
+        "25년"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 취득시효 20년(등기 10년) 10년(선의취득 5년)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-032",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "변동주기 : 일반경기변동보다 {{blank}} 정도 길다.",
+      "answer": "2배",
+      "choices": [
+        "2배",
+        "1배",
+        "3배",
+        "4배"
+      ],
+      "explanation": "2. 부동산 경제론: 변동주기 : 일반경기변동보다 2배 정도 길다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-033",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "넬슨의 소매입지이론 : 점포입지 {{blank}}칙(양립성-인접 점포간에 고객을 주고받는 현상 등)",
+      "answer": "8원",
+      "choices": [
+        "8원",
+        "6원",
+        "10원",
+        "13원"
+      ],
+      "explanation": "3. 부동산 시장론: 넬슨의 소매입지이론 : 점포입지 8원칙(양립성-인접 점포간에 고객을 주고받는 현상 등)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-034",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택생산비를 절감시켜 주택공급이",
+      "answer": "정책적 소비자용 측면에서는 효 장기",
+      "choices": [
+        "정책적 소비자용 측면에서는 효 장기",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 정책적 소비자용 측면에서는 효 장기 : 주택생산비를 절감시켜 주택공급이",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-035",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부채비율 (대부비율이 {{blank}}이면 부채비율은 무한대가 됨) 저당대부액/지분투자액",
+      "answer": "100%",
+      "choices": [
+        "100%",
+        "90%",
+        "110%",
+        "120%"
+      ],
+      "explanation": "5. 부동산 투자론: 부채비율 (대부비율이 100%이면 부채비율은 무한대가 됨) 저당대부액/지분투자액",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-036",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "적용금리 : 3개월 CD금리 + {{blank}}",
+      "answer": "1.1%",
+      "choices": [
+        "1.1%",
+        "0.1%",
+        "2.1%",
+        "3.1%"
+      ],
+      "explanation": "6. 부동산 금융론: 적용금리 : 3개월 CD금리 + 1.1%",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-037",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 나지의 활용, 세금 감면",
+      "answer": "토지 경제적 관리",
+      "choices": [
+        "토지 경제적 관리",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 토지 경제적 관리 : 나지의 활용, 세금 감면",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-038",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 쾌적성, 수익성, 생산성",
+      "answer": "효용",
+      "choices": [
+        "효용",
+        "쾌적성",
+        "수익성",
+        "생산성"
+      ],
+      "explanation": "8. 부동산 가격이론: 효용 : 쾌적성, 수익성, 생산성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-039",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 표준적 사용에 의한 피결정성",
+      "answer": "최유효이용의 피결정성 최유효이용",
+      "choices": [
+        "최유효이용의 피결정성 최유효이용",
+        "일치여부 최유효이용",
+        "피드백 관계 양자",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "9. 지역분석 및 개별분석: 최유효이용의 피결정성 최유효이용은 표준적 사용에 의한 피결정성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "9. 지역분석 및 개별분석",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-040",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 반영하지 않음 관찰감가법, 내용연수법 병용",
+      "answer": "방법 관찰감가법",
+      "choices": [
+        "방법 관찰감가법",
+        "부동산법",
+        "사법",
+        "공법"
+      ],
+      "explanation": "10. 감정평가의 방식: 방법 관찰감가법은 반영하지 않음 관찰감가법, 내용연수법 병용",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "10. 감정평가의 방식",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-041",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 선체.기관.의장별로 구분하여 평가하되 각각 원가법을 적용",
+      "answer": "선박",
+      "choices": [
+        "선박",
+        "산림 입목",
+        "계속적인 수익이 예상되",
+        "본래의 효용가치 없는 물건"
+      ],
+      "explanation": "11. 감정평가의 절차: 선박 : 선체.기관.의장별로 구분하여 평가하되 각각 원가법을 적용",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-042",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "국세청장이 국토교통부장관과 협의하여 별도로 결정.고시하는 경우 : 아파트, {{blank}} 이상의 연립주택",
+      "answer": "165㎡",
+      "choices": [
+        "165㎡",
+        "115㎡",
+        "215㎡",
+        "265㎡"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 국세청장이 국토교통부장관과 협의하여 별도로 결정.고시하는 경우 : 아파트, 165㎡ 이상의 연립주택",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-043",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지질, 지형 기술적 개념",
+      "answer": "유형적측면 자연적 측면",
+      "choices": [
+        "유형적측면 자연적 측면",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 유형적측면 자연적 측면 : 지질, 지형 기술적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-044",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "콘트라티에프파동(장기) : {{blank}}, 기술혁신과 연관",
+      "answer": "50~60년",
+      "choices": [
+        "50~60년",
+        "40~50년",
+        "60~70년",
+        "70~80년"
+      ],
+      "explanation": "2. 부동산 경제론: 콘트라티에프파동(장기) : 50~60년, 기술혁신과 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-045",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 하위시장으로 구성되기 때문",
+      "answer": "시장의 비조직화",
+      "choices": [
+        "시장의 비조직화",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "토지이용의 외부성(외부효과)",
+        "자금의 융통성(유용성)과 관계가 큼"
+      ],
+      "explanation": "3. 부동산 시장론: 시장의 비조직화 : 하위시장으로 구성되기 때문",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-046",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공급곡선이 수직, 아무 효과 없음",
+      "answer": "단기",
+      "choices": [
+        "단기",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 단기 : 공급곡선이 수직, 아무 효과 없음",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-047",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "감채기금계수 n년 후에 {{blank}}을 만들기 위해 일정액을 기간 말에 만들기 위해 r",
+      "answer": "1원",
+      "choices": [
+        "1원",
+        "2원",
+        "3원",
+        "4원"
+      ],
+      "explanation": "5. 부동산 투자론: 감채기금계수 n년 후에 1원을 만들기 위해 일정액을 기간 말에 만들기 위해 r",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-048",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "설립시 자본금 {{blank}} 이상 5억원 이상",
+      "answer": "10억원",
+      "choices": [
+        "10억원",
+        "8억원",
+        "12억원",
+        "15억원"
+      ],
+      "explanation": "6. 부동산 금융론: 설립시 자본금 10억원 이상 5억원 이상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-049",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 위생관리, 설비관리, 보안관리, 보전관리",
+      "answer": "건물의 기술적 관리",
+      "choices": [
+        "건물의 기술적 관리",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 기술적 관리 : 위생관리, 설비관리, 보안관리, 보전관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-050",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 인구, 가족, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "answer": "사회적 제요인",
+      "choices": [
+        "사회적 제요인",
+        "효용",
+        "쾌적성",
+        "수익성"
+      ],
+      "explanation": "8. 부동산 가격이론: 사회적 제요인 : 인구, 가족, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-051",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 피드백 관계로 서로 영향 미침",
+      "answer": "피드백 관계 양자",
+      "choices": [
+        "피드백 관계 양자",
+        "일치여부 최유효이용",
+        "최유효이용의 피결정성 최유효이용",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "9. 지역분석 및 개별분석: 피드백 관계 양자는 피드백 관계로 서로 영향 미침",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "9. 지역분석 및 개별분석",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-052",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 고려할 필요없음 비용성, 수익성,시장성을 고려함",
+      "answer": "고려사항 시장성",
+      "choices": [
+        "고려사항 시장성",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "10. 감정평가의 방식: 고려사항 시장성은 고려할 필요없음 비용성, 수익성,시장성을 고려함",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "10. 감정평가의 방식",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-053",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 광업재단 감정평가액에서 해당 광산의 현존시설을 빼고 감정평가",
+      "answer": "광업권",
+      "choices": [
+        "광업권",
+        "무형자산 어업권",
+        "부동산 결정분야(실무)",
+        "부동산의 특성"
+      ],
+      "explanation": "11. 감정평가의 절차: 광업권 : 광업재단 감정평가액에서 해당 광산의 현존시설을 빼고 감정평가",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-054",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 표준지 지번, 단위면적당 가격, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "answer": "표준지공시지가의 공시",
+      "choices": [
+        "표준지공시지가의 공시",
+        "표준지 지번",
+        "단위면적당 가격",
+        "면적 및 형상"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 표준지공시지가의 공시 : 표준지 지번, 단위면적당 가격, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-055",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산 투자.금융.개발.정책",
+      "answer": "부동산 결정분야(실무)",
+      "choices": [
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)",
+        "부동산의 특성"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 결정분야(실무) : 부동산 투자.금융.개발.정책",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-056",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "한센의 건축순환 : 약 {{blank}}, 주택수급의 시차가 원인",
+      "answer": "17~18년",
+      "choices": [
+        "17~18년",
+        "16~17년",
+        "18~19년",
+        "19~20년"
+      ],
+      "explanation": "2. 부동산 경제론: 한센의 건축순환 : 약 17~18년, 주택수급의 시차가 원인",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-057",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 금리인하 시 수요와 공급 증대",
+      "answer": "자금의 융통성(유용성)과 관계가 큼",
+      "choices": [
+        "자금의 융통성(유용성)과 관계가 큼",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 자금의 융통성(유용성)과 관계가 큼 : 금리인하 시 수요와 공급 증대",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-058",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 개발부담금제도, 양도소득세, 부동산가격공시제도",
+      "answer": "개발이익환수제도",
+      "choices": [
+        "개발이익환수제도",
+        "토지소유제도",
+        "개발부담금제도",
+        "부동산가격공시제도"
+      ],
+      "explanation": "4. 부동산 정책론: 개발이익환수제도 : 개발부담금제도, 양도소득세, 부동산가격공시제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-059",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "일시불의 미래가치계수 {{blank}}을 이자율 r로 저금했을 기간 초 불입된 일시불에 대해",
+      "answer": "1원",
+      "choices": [
+        "1원",
+        "2원",
+        "3원",
+        "4원"
+      ],
+      "explanation": "5. 부동산 투자론: 일시불의 미래가치계수 1원을 이자율 r로 저금했을 기간 초 불입된 일시불에 대해",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-060",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "자산구성 기업구조조정부동산 {{blank}} 이상",
+      "answer": "70%",
+      "choices": [
+        "70%",
+        "60%",
+        "80%",
+        "90%"
+      ],
+      "explanation": "6. 부동산 금융론: 자산구성 기업구조조정부동산 70% 이상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-061",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 임대건물의 손익분기점 파악, 회계관리, 인력관리",
+      "answer": "건물의 경제적 관리",
+      "choices": [
+        "건물의 경제적 관리",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 경제적 관리 : 임대건물의 손익분기점 파악, 회계관리, 인력관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-062",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 저축.소비.투자 수준, 물가.임금.고용 수준, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "answer": "경제적 제요인",
+      "choices": [
+        "경제적 제요인",
+        "효용",
+        "쾌적성",
+        "수익성"
+      ],
+      "explanation": "8. 부동산 가격이론: 경제적 제요인 : 저축.소비.투자 수준, 물가.임금.고용 수준, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-063",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 개별성으로 인해 표준적사용과 반드시 일치하지는 않음",
+      "answer": "일치여부 최유효이용",
+      "choices": [
+        "일치여부 최유효이용",
+        "최유효이용의 피결정성 최유효이용",
+        "피드백 관계 양자",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "9. 지역분석 및 개별분석: 일치여부 최유효이용은 개별성으로 인해 표준적사용과 반드시 일치하지는 않음",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "9. 지역분석 및 개별분석",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-064",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 자산.부채.자본 항목을 평가하여 수정대차대조표 작성 후 기업의 유무형",
+      "answer": "비상장주식",
+      "choices": [
+        "비상장주식",
+        "산림 입목",
+        "계속적인 수익이 예상되",
+        "선박"
+      ],
+      "explanation": "11. 감정평가의 절차: 비상장주식 : 자산.부채.자본 항목을 평가하여 수정대차대조표 작성 후 기업의 유무형",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-065",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 표준주택 지번, 가격, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "answer": "공시사항",
+      "choices": [
+        "공시사항",
+        "표준지공시지가의 공시",
+        "표준지 지번",
+        "단위면적당 가격"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 공시사항 : 표준주택 지번, 가격, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-066",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산 마케팅.관리.평가.상담",
+      "answer": "부동산 결정지원분야(실무)",
+      "choices": [
+        "부동산 결정지원분야(실무)",
+        "부동산 결정분야(실무)",
+        "부동산학의 기초분야(이론)",
+        "부동산의 특성"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 결정지원분야(실무) : 부동산 마케팅.관리.평가.상담",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-067",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "쿠즈네츠파동 : 약 {{blank}}, 인구증가율 변동에 따른 경제성장률 변동이 원인",
+      "answer": "20년",
+      "choices": [
+        "20년",
+        "18년",
+        "22년",
+        "25년"
+      ],
+      "explanation": "2. 부동산 경제론: 쿠즈네츠파동 : 약 20년, 인구증가율 변동에 따른 경제성장률 변동이 원인",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-068",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 대도시에서 쇼핑패턴을 결정하는 확률모델",
+      "answer": "허프의 확률적 상권모형",
+      "choices": [
+        "허프의 확률적 상권모형",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 허프의 확률적 상권모형 : 대도시에서 쇼핑패턴을 결정하는 확률모델",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-069",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시장실패를 수정하기 위해 (예; 외부효과의 제거)",
+      "answer": "경제적 기능",
+      "choices": [
+        "경제적 기능",
+        "정치적 기능",
+        "※ 시장실패의 원인",
+        "규모의 경제(비용체감)"
+      ],
+      "explanation": "4. 부동산 정책론: 경제적 기능 : 시장실패를 수정하기 위해 (예; 외부효과의 제거)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-070",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "기간당 할인율을 r(소수), 기간 수를 n이라 할 때, n기간 후 받을 1원의 현재가치를 구하는 계수는 {{blank}}이다.",
+      "answer": "1 / (1+r)^n",
+      "choices": [
+        "1 / (1+r)^n",
+        "(1+r)^n",
+        "((1+r)^n - 1) / r",
+        "r / ((1+r)^n - 1)"
+      ],
+      "explanation": "일시불의 현가계수는 1/(1+r)^n이다. 미래의 일시금을 현재가치로 할인할 때 사용한다. 원문 부동산 투자론의 수식 표를 문장으로 복원했다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "6c630652b758ca8c978bfa90aceca16888086353811c7400f8276fd9060cb3c8",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-01-071",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "적용금리 : {{blank}} CD금리 + 1.1%",
+      "answer": "3개월",
+      "choices": [
+        "3개월",
+        "2개월",
+        "4개월",
+        "5개월"
+      ],
+      "explanation": "6. 부동산 금융론: 적용금리 : 3개월 CD금리 + 1.1%",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-072",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 집약도 = 노동이나 자본의 크기 / 토지(단위면적)",
+      "answer": "조방적 토지이용과 집약적 토지이용",
+      "choices": [
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리",
+        "건물의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 조방적 토지이용과 집약적 토지이용 : 집약도 = 노동이나 자본의 크기 / 토지(단위면적)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-073",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지제도, 토지이용계획.규제, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "answer": "행정적 제요인",
+      "choices": [
+        "행정적 제요인",
+        "효용",
+        "쾌적성",
+        "수익성"
+      ],
+      "explanation": "8. 부동산 가격이론: 행정적 제요인 : 토지제도, 토지이용계획.규제, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-074",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 어장 전체의 수익환원법에 따라 평가한 가액에서 어장 현존시설 가액을 뺌",
+      "answer": "무형자산 어업권",
+      "choices": [
+        "무형자산 어업권",
+        "광업권",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)"
+      ],
+      "explanation": "11. 감정평가의 절차: 무형자산 어업권 : 어장 전체의 수익환원법에 따라 평가한 가액에서 어장 현존시설 가액을 뺌",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-075",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "공시사항 : 표준주택 지번, 가격, {{blank}}, 주택 용도.연면적.구조 및 사용승인일",
+      "answer": "대지면적 및 형상",
+      "choices": [
+        "대지면적 및 형상",
+        "표준주택 지번",
+        "가격",
+        "주택 용도.연면적.구조 및 사용승인일"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 공시사항 : 표준주택 지번, 가격, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-076",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 최유효이용원칙의 성립근거, 적지론의 근거",
+      "answer": "용도의 다양성",
+      "choices": [
+        "용도의 다양성",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 용도의 다양성 : 최유효이용원칙의 성립근거, 적지론의 근거",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-077",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "키친파동(단기) : {{blank}} 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "answer": "30~40개월",
+      "choices": [
+        "30~40개월",
+        "20~30개월",
+        "40~50개월",
+        "50~60개월"
+      ],
+      "explanation": "2. 부동산 경제론: 키친파동(단기) : 30~40개월 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-078",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 단기적으로 초과수요(공급)과 가격왜곡 발생",
+      "answer": "공급의 시차로 인한 수급조절의 곤란성",
+      "choices": [
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)",
+        "자금의 융통성(유용성)과 관계가 큼"
+      ],
+      "explanation": "3. 부동산 시장론: 공급의 시차로 인한 수급조절의 곤란성 : 단기적으로 초과수요(공급)과 가격왜곡 발생",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-079",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 농지소유 상한제, 기업의 비업무용 토지에 대한 중과",
+      "answer": "토지소유 관련",
+      "choices": [
+        "토지소유 관련",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 토지소유 관련 : 농지소유 상한제, 기업의 비업무용 토지에 대한 중과",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-080",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 순현가(NPV)를 0으로 만드는 수익률",
+      "answer": "내부수익률법(IRR법)",
+      "choices": [
+        "내부수익률법(IRR법)",
+        "부동산 투자",
+        "단기간의 양도차익을 목적으로 기대되",
+        "(일시불의 내가계수) 때 n년 후 찾"
+      ],
+      "explanation": "5. 부동산 투자론: 내부수익률법(IRR법) : 순현가(NPV)를 0으로 만드는 수익률",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-081",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "설립시 자본금 10억원 이상 {{blank}} 이상",
+      "answer": "5억원",
+      "choices": [
+        "5억원",
+        "4억원",
+        "6억원",
+        "7억원"
+      ],
+      "explanation": "6. 부동산 금융론: 설립시 자본금 10억원 이상 5억원 이상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-082",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 권리관계의 조정, 토지도난 방지 대책, 법률적 이용가치 개선",
+      "answer": "토지의 법률적 관리",
+      "choices": [
+        "토지의 법률적 관리",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 토지의 법률적 관리 : 권리관계의 조정, 토지도난 방지 대책, 법률적 이용가치 개선",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-083",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "효용 : {{blank}}, 수익성, 생산성",
+      "answer": "쾌적성",
+      "choices": [
+        "쾌적성",
+        "수익성",
+        "생산성",
+        "효용"
+      ],
+      "explanation": "8. 부동산 가격이론: 효용 : 쾌적성, 수익성, 생산성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-084",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 해체처분가액으로 감정평가 가능",
+      "answer": "본래의 효용가치 없는 물건",
+      "choices": [
+        "본래의 효용가치 없는 물건",
+        "산림 입목",
+        "계속적인 수익이 예상되",
+        "선박"
+      ],
+      "explanation": "11. 감정평가의 절차: 본래의 효용가치 없는 물건은 해체처분가액으로 감정평가 가능",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-085",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "공시사항 : {{blank}}, 가격, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "answer": "표준주택 지번",
+      "choices": [
+        "표준주택 지번",
+        "가격",
+        "대지면적 및 형상",
+        "주택 용도.연면적.구조 및 사용승인일"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 공시사항 : 표준주택 지번, 가격, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-086",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 사법, 공법, 행정, 정치, 규범 – 법률적 개념",
+      "answer": "법률적 측면",
+      "choices": [
+        "법률적 측면",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 법률적 측면 : 사법, 공법, 행정, 정치, 규범 – 법률적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-087",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "쥬글라파동(중기) : {{blank}}, 일반경기순환의 대표적 파동, 기업의 설비투자 연관",
+      "answer": "8~10년",
+      "choices": [
+        "8~10년",
+        "6~8년",
+        "10~12년",
+        "12~14년"
+      ],
+      "explanation": "2. 부동산 경제론: 쥬글라파동(중기) : 8~10년, 일반경기순환의 대표적 파동, 기업의 설비투자 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-088",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주변환경에 영향 많이 받음 → 지역분석 필요",
+      "answer": "토지이용의 외부성(외부효과)",
+      "choices": [
+        "토지이용의 외부성(외부효과)",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "자금의 융통성(유용성)과 관계가 큼"
+      ],
+      "explanation": "3. 부동산 시장론: 토지이용의 외부성(외부효과) : 주변환경에 영향 많이 받음 → 지역분석 필요",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-089",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산실명제, 미등기전매금지, 등기의무화, 검인제도 등",
+      "answer": "전형적인 투기수단 탈법행위 금지",
+      "choices": [
+        "전형적인 투기수단 탈법행위 금지",
+        "미등기전매금지",
+        "획지",
+        "후보지"
+      ],
+      "explanation": "4. 부동산 정책론: 전형적인 투기수단 탈법행위 금지 : 부동산실명제, 미등기전매금지, 등기의무화, 검인제도 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-090",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 기대수익률(내부수익률), 실현수익률, 요구수익률",
+      "answer": "수익률의 종류",
+      "choices": [
+        "수익률의 종류",
+        "부동산 투자",
+        "단기간의 양도차익을 목적으로 기대되",
+        "(일시불의 내가계수) 때 n년 후 찾"
+      ],
+      "explanation": "5. 부동산 투자론: 수익률의 종류 : 기대수익률(내부수익률), 실현수익률, 요구수익률",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-091",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산/부동산관련 증권 및 현금 {{blank}} 이상",
+      "answer": "80%",
+      "choices": [
+        "80%",
+        "70%",
+        "90%",
+        "100%"
+      ],
+      "explanation": "6. 부동산 금융론: 부동산/부동산관련 증권 및 현금 80% 이상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-092",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 임대차예약/계약 및 기타 시설에 관한 계약, 권리의 보존 관리, 공법상 규제사항에",
+      "answer": "건물의 법률적 관리",
+      "choices": [
+        "건물의 법률적 관리",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 법률적 관리 : 임대차예약/계약 및 기타 시설에 관한 계약, 권리의 보존 관리, 공법상 규제사항에",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-093",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "효용 : 쾌적성, {{blank}}, 생산성",
+      "answer": "수익성",
+      "choices": [
+        "수익성",
+        "쾌적성",
+        "생산성",
+        "효용"
+      ],
+      "explanation": "8. 부동산 가격이론: 효용 : 쾌적성, 수익성, 생산성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-094",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 등 일괄하여 감정평가하는 경우 수익환원법 적용 가능",
+      "answer": "계속적인 수익이 예상되",
+      "choices": [
+        "계속적인 수익이 예상되",
+        "산림 입목",
+        "선박",
+        "본래의 효용가치 없는 물건"
+      ],
+      "explanation": "11. 감정평가의 절차: 계속적인 수익이 예상되는 등 일괄하여 감정평가하는 경우 수익환원법 적용 가능",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-095",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "표준지공시지가의 공시 : 표준지 지번, {{blank}}, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "answer": "단위면적당 가격",
+      "choices": [
+        "단위면적당 가격",
+        "표준지 지번",
+        "면적 및 형상",
+        "표준지 및 주변토지의 이용상황"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 표준지공시지가의 공시 : 표준지 지번, 단위면적당 가격, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-096",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 경제, 경영, 사회, 심리, 인문지리 – 경제적 개념",
+      "answer": "경제적 측면",
+      "choices": [
+        "경제적 측면",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 경제적 측면 : 경제, 경영, 사회, 심리, 인문지리 – 경제적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-097",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 일반경기변동보다 크다.",
+      "answer": "변동진폭",
+      "choices": [
+        "변동진폭",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 변동진폭 : 일반경기변동보다 크다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-098",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지역에 따라 여러 개의 부분시장(하위시장)존재",
+      "answer": "국지적 시장",
+      "choices": [
+        "국지적 시장",
+        "효율적 시장",
+        "할당효율적시장",
+        "추상적 시장"
+      ],
+      "explanation": "3. 부동산 시장론: 국지적 시장 : 지역에 따라 여러 개의 부분시장(하위시장)존재",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-099",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 양적.질적으로 충분한 주택의 확보, 쾌적한 주택의 확보",
+      "answer": "목표",
+      "choices": [
+        "목표",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 목표 : 양적.질적으로 충분한 주택의 확보, 쾌적한 주택의 확보",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-100",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 사업상의 위험, 금융적 위험, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "answer": "위험의 유형",
+      "choices": [
+        "위험의 유형",
+        "부동산 투자",
+        "단기간의 양도차익을 목적으로 기대되",
+        "(일시불의 내가계수) 때 n년 후 찾"
+      ],
+      "explanation": "5. 부동산 투자론: 위험의 유형 : 사업상의 위험, 금융적 위험, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-101",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주식공모 자본금 {{blank}} 이상 의무사항 아님(사모 가능)",
+      "answer": "30%",
+      "choices": [
+        "30%",
+        "20%",
+        "40%",
+        "50%"
+      ],
+      "explanation": "6. 부동산 금융론: 주식공모 자본금 30% 이상 의무사항 아님(사모 가능)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-102",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 경계확정(경계표시, 측량), 사도의 방지(철조망), 경사지 대책(옹벽, 배수지 시설)",
+      "answer": "토지의 기술적 관리",
+      "choices": [
+        "토지의 기술적 관리",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "건물의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 토지의 기술적 관리 : 경계확정(경계표시, 측량), 사도의 방지(철조망), 경사지 대책(옹벽, 배수지 시설)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-103",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "효용 : 쾌적성, 수익성, {{blank}}",
+      "answer": "생산성",
+      "choices": [
+        "생산성",
+        "쾌적성",
+        "수익성",
+        "효용"
+      ],
+      "explanation": "8. 부동산 가격이론: 효용 : 쾌적성, 수익성, 생산성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-104",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 거래사례비교법 적용(단, 소경목림은 원가법 적용 가능)",
+      "answer": "산림 입목",
+      "choices": [
+        "산림 입목",
+        "계속적인 수익이 예상되",
+        "선박",
+        "본래의 효용가치 없는 물건"
+      ],
+      "explanation": "11. 감정평가의 절차: 산림 입목은 거래사례비교법 적용(단, 소경목림은 원가법 적용 가능)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "11. 감정평가의 절차",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-105",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "공시사항 : 표준주택 지번, {{blank}}, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "answer": "가격",
+      "choices": [
+        "가격",
+        "표준주택 지번",
+        "대지면적 및 형상",
+        "주택 용도.연면적.구조 및 사용승인일"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 공시사항 : 표준주택 지번, 가격, 대지면적 및 형상, 주택 용도.연면적.구조 및 사용승인일",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-106",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 택지 등으로 개발되기 전의 자연적인 상태 그대로의 토지",
+      "answer": "소지(素地)",
+      "choices": [
+        "소지(素地)",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 소지(素地) : 택지 등으로 개발되기 전의 자연적인 상태 그대로의 토지",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-107",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 50~60년, 기술혁신과 연관",
+      "answer": "콘트라티에프파동(장기)",
+      "choices": [
+        "콘트라티에프파동(장기)",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 콘트라티에프파동(장기) : 50~60년, 기술혁신과 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-108",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 새로운 정보가 지체 없이 가치에 반영되는 시장",
+      "answer": "효율적 시장",
+      "choices": [
+        "효율적 시장",
+        "국지적 시장",
+        "할당효율적시장",
+        "추상적 시장"
+      ],
+      "explanation": "3. 부동산 시장론: 효율적 시장 : 새로운 정보가 지체 없이 가치에 반영되는 시장",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-109",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 상위계층이 사용하던 기존주택이 하위계층의 사용으로 전환되는 것",
+      "answer": "하향여과",
+      "choices": [
+        "하향여과",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 하향여과 : 상위계층이 사용하던 기존주택이 하위계층의 사용으로 전환되는 것",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-110",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 미래의 현금수입과 현재의 현금지출을 교환하는 행위 (장래의 불확실한 수익을 위해 현재의",
+      "answer": "부동산 투자",
+      "choices": [
+        "부동산 투자",
+        "단기간의 양도차익을 목적으로 기대되",
+        "(일시불의 내가계수) 때 n년 후 찾",
+        "일시불 내가 ↔ 일시불 현가"
+      ],
+      "explanation": "5. 부동산 투자론: 부동산 투자 : 미래의 현금수입과 현재의 현금지출을 교환하는 행위 (장래의 불확실한 수익을 위해 현재의",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-111",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "대출기간 단기 (건축기간동안) 장기 (보통 {{blank}} 이상)",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "6. 부동산 금융론: 대출기간 단기 (건축기간동안) 장기 (보통 10년 이상)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-112",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 동일한 산업환경 내에서 토지이용의 집약도가 같더라도 입지조건이 양호한 경우 생기는 특별한",
+      "answer": "입지잉여",
+      "choices": [
+        "입지잉여",
+        "조방적 토지이용과 집약적 토지이용",
+        "토지의 기술적 관리",
+        "건물의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 입지잉여 : 동일한 산업환경 내에서 토지이용의 집약도가 같더라도 입지조건이 양호한 경우 생기는 특별한",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-113",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "사회적 제요인 : 인구, 가족, {{blank}}, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "answer": "도시형성",
+      "choices": [
+        "도시형성",
+        "인구",
+        "가족",
+        "공공시설정비"
+      ],
+      "explanation": "8. 부동산 가격이론: 사회적 제요인 : 인구, 가족, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-114",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "표준지공시지가의 공시 : 표준지 지번, 단위면적당 가격, {{blank}}, 표준지 및 주변토지의 이용상황",
+      "answer": "면적 및 형상",
+      "choices": [
+        "면적 및 형상",
+        "표준지 지번",
+        "단위면적당 가격",
+        "표준지 및 주변토지의 이용상황"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 표준지공시지가의 공시 : 표준지 지번, 단위면적당 가격, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-115",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 목적 설정 > 자료의 수집.분석.판단 > 행동방안의 모색",
+      "answer": "부동산 결정(3단계)",
+      "choices": [
+        "부동산 결정(3단계)",
+        "= 0 → 독립재",
+        "> 0 → 대체재",
+        "< 0 → 보완재 (연관 상품 가격변화)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 결정(3단계) : 목적 설정 > 자료의 수집.분석.판단 > 행동방안의 모색",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-116",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 수요량과 공급량이 일치되는 가격",
+      "answer": "균형가격",
+      "choices": [
+        "균형가격",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 균형가격 : 수요량과 공급량이 일치되는 가격",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-117",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택가격, 비용, 융자금의 유용성, 다른 건축의 수익성",
+      "answer": "주택공급 결정요인",
+      "choices": [
+        "주택공급 결정요인",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 주택공급 결정요인 : 주택가격, 비용, 융자금의 유용성, 다른 건축의 수익성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-118",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지이용 효율화와 생산성 제고를 위한 제도 운영, 규제를 일원화",
+      "answer": "토지이용규제",
+      "choices": [
+        "토지이용규제",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 토지이용규제 : 토지이용 효율화와 생산성 제고를 위한 제도 운영, 규제를 일원화",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-119",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 금액 일정기간 후 원리금 합계를 구함",
+      "answer": "(일시불의 내가계수) 때 n년 후 찾",
+      "choices": [
+        "(일시불의 내가계수) 때 n년 후 찾",
+        "부동산 투자",
+        "단기간의 양도차익을 목적으로 기대되",
+        "일시불 내가 ↔ 일시불 현가"
+      ],
+      "explanation": "5. 부동산 투자론: (일시불의 내가계수) 때 n년 후 찾는 금액 일정기간 후 원리금 합계를 구함",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-120",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "인당 주식한도 1인당 {{blank}} 이내 1인당 40% 이내 제한 없음",
+      "answer": "30%",
+      "choices": [
+        "30%",
+        "20%",
+        "40%",
+        "50%"
+      ],
+      "explanation": "6. 부동산 금융론: 인당 주식한도 1인당 30% 이내 1인당 40% 이내 제한 없음",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-121",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부지를 중심으로 - 교통의 흐름(교통량,유형,수단)",
+      "answer": "개발대상이 되",
+      "choices": [
+        "개발대상이 되",
+        "조방적 토지이용과 집약적 토지이용",
+        "입지잉여",
+        "토지의 기술적 관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 개발대상이 되는 부지를 중심으로 - 교통의 흐름(교통량,유형,수단)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-122",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "경제적 제요인 : {{blank}}, 물가.임금.고용 수준, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "answer": "저축.소비.투자 수준",
+      "choices": [
+        "저축.소비.투자 수준",
+        "물가.임금.고용 수준",
+        "조세부담 상태",
+        "기술혁신.산업구조"
+      ],
+      "explanation": "8. 부동산 가격이론: 경제적 제요인 : 저축.소비.투자 수준, 물가.임금.고용 수준, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-123",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "표준지공시지가의 공시 : {{blank}}, 단위면적당 가격, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "answer": "표준지 지번",
+      "choices": [
+        "표준지 지번",
+        "단위면적당 가격",
+        "면적 및 형상",
+        "표준지 및 주변토지의 이용상황"
+      ],
+      "explanation": "12. 부동산가격 공시제도: 표준지공시지가의 공시 : 표준지 지번, 단위면적당 가격, 면적 및 형상, 표준지 및 주변토지의 이용상황",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "12. 부동산가격 공시제도",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-124",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산의 특성, 부동산법, 도시지역, 부동산 시장.세금, 금융수학",
+      "answer": "부동산학의 기초분야(이론)",
+      "choices": [
+        "부동산학의 기초분야(이론)",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산의 특성"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산학의 기초분야(이론) : 부동산의 특성, 부동산법, 도시지역, 부동산 시장.세금, 금융수학",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-125",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 일반경기변동보다 2배 정도 길다.",
+      "answer": "변동주기",
+      "choices": [
+        "변동주기",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 변동주기 : 일반경기변동보다 2배 정도 길다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-126",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도시의 분포와 정주체계를 규모의 경제와 운송비를 중심으로 설명",
+      "answer": "크리스탈러의 중심지이론",
+      "choices": [
+        "크리스탈러의 중심지이론",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 크리스탈러의 중심지이론 : 도시의 분포와 정주체계를 규모의 경제와 운송비를 중심으로 설명",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-127",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 고소득층 주거지역과 저소득층 주거지역이 서로 분리되고 있는 현상",
+      "answer": "주거분리",
+      "choices": [
+        "주거분리",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 주거분리 : 고소득층 주거지역과 저소득층 주거지역이 서로 분리되고 있는 현상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-128",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 개발가능성을 전제로 자본을 투입하는 것",
+      "answer": "단기간의 양도차익을 목적으로 기대되",
+      "choices": [
+        "단기간의 양도차익을 목적으로 기대되",
+        "부동산 투자",
+        "(일시불의 내가계수) 때 n년 후 찾",
+        "일시불 내가 ↔ 일시불 현가"
+      ],
+      "explanation": "5. 부동산 투자론: 단기간의 양도차익을 목적으로 기대되는 개발가능성을 전제로 자본을 투입하는 것",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-129",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "인당 주식한도 1인당 30% 이내 1인당 {{blank}} 이내 제한 없음",
+      "answer": "40%",
+      "choices": [
+        "40%",
+        "30%",
+        "50%",
+        "60%"
+      ],
+      "explanation": "6. 부동산 금융론: 인당 주식한도 1인당 30% 이내 1인당 40% 이내 제한 없음",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-130",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "건물의 경제적 관리 : {{blank}}, 회계관리, 인력관리",
+      "answer": "임대건물의 손익분기점 파악",
+      "choices": [
+        "임대건물의 손익분기점 파악",
+        "회계관리",
+        "인력관리",
+        "조방적 토지이용과 집약적 토지이용"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 경제적 관리 : 임대건물의 손익분기점 파악, 회계관리, 인력관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-131",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "경제적 제요인 : 저축.소비.투자 수준, {{blank}}, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "answer": "물가.임금.고용 수준",
+      "choices": [
+        "물가.임금.고용 수준",
+        "저축.소비.투자 수준",
+        "조세부담 상태",
+        "기술혁신.산업구조"
+      ],
+      "explanation": "8. 부동산 가격이론: 경제적 제요인 : 저축.소비.투자 수준, 물가.임금.고용 수준, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-132",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 협동적 이용을 필연화, 경계 문제 야기, 개발이익 사회환수 논리의 근거",
+      "answer": "인접성(연결성)",
+      "choices": [
+        "인접성(연결성)",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 인접성(연결성) : 협동적 이용을 필연화, 경계 문제 야기, 개발이익 사회환수 논리의 근거",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-133",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 회복기간이 길고 후퇴기간이 짧다.",
+      "answer": "변동의 비대칭",
+      "choices": [
+        "변동의 비대칭",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 변동의 비대칭 : 회복기간이 길고 후퇴기간이 짧다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-134",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 점포입지 8원칙(양립성-인접 점포간에 고객을 주고받는 현상 등)",
+      "answer": "넬슨의 소매입지이론",
+      "choices": [
+        "넬슨의 소매입지이론",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 넬슨의 소매입지이론 : 점포입지 8원칙(양립성-인접 점포간에 고객을 주고받는 현상 등)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-135",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 안전하고 건강한 주거환경, 편리하고 효율적인/쾌적한/문화적 주거환경",
+      "answer": "주거환경계획",
+      "choices": [
+        "주거환경계획",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "4. 부동산 정책론: 주거환경계획 : 안전하고 건강한 주거환경, 편리하고 효율적인/쾌적한/문화적 주거환경",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-136",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 다른 방법에 의해 계산된 비율과 직접 비교 곤란",
+      "answer": "한 가지 방법에 의해 계산된 비율",
+      "choices": [
+        "한 가지 방법에 의해 계산된 비율",
+        "부동산 투자",
+        "단기간의 양도차익을 목적으로 기대되",
+        "(일시불의 내가계수) 때 n년 후 찾"
+      ],
+      "explanation": "5. 부동산 투자론: 한 가지 방법에 의해 계산된 비율은 다른 방법에 의해 계산된 비율과 직접 비교 곤란",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-137",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "대출금리 = 기준금리(3개월 CD금리 또는 {{blank}} COFIX금리) + 가산금리",
+      "answer": "6~12개월",
+      "choices": [
+        "6~12개월",
+        "0~6개월",
+        "12~18개월",
+        "18~24개월"
+      ],
+      "explanation": "6. 부동산 금융론: 대출금리 = 기준금리(3개월 CD금리 또는 6~12개월 COFIX금리) + 가산금리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-138",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "건물의 기술적 관리 : {{blank}}, 설비관리, 보안관리, 보전관리",
+      "answer": "위생관리",
+      "choices": [
+        "위생관리",
+        "설비관리",
+        "보안관리",
+        "보전관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 기술적 관리 : 위생관리, 설비관리, 보안관리, 보전관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-139",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "사회적 제요인 : {{blank}}, 가족, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "answer": "인구",
+      "choices": [
+        "인구",
+        "가족",
+        "도시형성",
+        "공공시설정비"
+      ],
+      "explanation": "8. 부동산 가격이론: 사회적 제요인 : 인구, 가족, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-140",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 효율성(토지의 치유효이용), 형평성(소유권의 가장 폭넓은 배분), 합법성",
+      "answer": "일반이념",
+      "choices": [
+        "일반이념",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 일반이념 : 효율성(토지의 치유효이용), 형평성(소유권의 가장 폭넓은 배분), 합법성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-141",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 수요의 가격탄력성 > 공급의 가격탄력성",
+      "answer": "수렴형(안정적 균형)",
+      "choices": [
+        "수렴형(안정적 균형)",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 수렴형(안정적 균형) : 수요의 가격탄력성 > 공급의 가격탄력성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-142",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 인구변화, 소득변화, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "answer": "주택수요 결정요인",
+      "choices": [
+        "주택수요 결정요인",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 주택수요 결정요인 : 인구변화, 소득변화, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-143",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 이유 → 계획적 개발, 공공용지 확보, 개발이익 환수, 택지의 대량공급",
+      "answer": "직접적 개입",
+      "choices": [
+        "직접적 개입",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 직접적 개입 : 이유 → 계획적 개발, 공공용지 확보, 개발이익 환수, 택지의 대량공급",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-144",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수익률의 종류 : {{blank}}, 실현수익률, 요구수익률",
+      "answer": "기대수익률(내부수익률)",
+      "choices": [
+        "기대수익률(내부수익률)",
+        "실현수익률",
+        "요구수익률",
+        "부동산 투자"
+      ],
+      "explanation": "5. 부동산 투자론: 수익률의 종류 : 기대수익률(내부수익률), 실현수익률, 요구수익률",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-145",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "위탁관리 및 기업구조조정 부동산투자회사의 자본금은 {{blank}} 이상이 되어야 한다.",
+      "answer": "50억원",
+      "choices": [
+        "50억원",
+        "40억원",
+        "60억원",
+        "70억원"
+      ],
+      "explanation": "6. 부동산 금융론: 위탁관리 및 기업구조조정 부동산투자회사의 자본금은 50억원 이상이 되어야 한다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-146",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "건물의 기술적 관리 : 위생관리, {{blank}}, 보안관리, 보전관리",
+      "answer": "설비관리",
+      "choices": [
+        "설비관리",
+        "위생관리",
+        "보안관리",
+        "보전관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 기술적 관리 : 위생관리, 설비관리, 보안관리, 보전관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-147",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "사회적 제요인 : 인구, {{blank}}, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "answer": "가족",
+      "choices": [
+        "가족",
+        "인구",
+        "도시형성",
+        "공공시설정비"
+      ],
+      "explanation": "8. 부동산 가격이론: 사회적 제요인 : 인구, 가족, 도시형성, 공공시설정비, 교육 및 사회복지, 부동산거래관행 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-148",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도시내의 토지 중 사용하지 않고 장기간 방치하고 있는 토지 (주로 투기목적)",
+      "answer": "공한지(空閑地)",
+      "choices": [
+        "공한지(空閑地)",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 공한지(空閑地) : 도시내의 토지 중 사용하지 않고 장기간 방치하고 있는 토지 (주로 투기목적)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-149",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 수요의 가격탄력성 < 공급의 가격탄력성",
+      "answer": "발산형(불안정적 균형)",
+      "choices": [
+        "발산형(불안정적 균형)",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 발산형(불안정적 균형) : 수요의 가격탄력성 < 공급의 가격탄력성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-150",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 두 중심지 사이에 위치하는 소비자에 대해 상권이 미치는 영향력의 크기는 그 두",
+      "answer": "레일리의 소매인력법칙",
+      "choices": [
+        "레일리의 소매인력법칙",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 레일리의 소매인력법칙 : 두 중심지 사이에 위치하는 소비자에 대해 상권이 미치는 영향력의 크기는 그 두",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-151",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 하위계층이 사용하던 저급주택이 재개발되어 상위계층 사용으로 전환되는 것",
+      "answer": "상향여과",
+      "choices": [
+        "상향여과",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 상향여과 : 하위계층이 사용하던 저급주택이 재개발되어 상위계층 사용으로 전환되는 것",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-152",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수익률의 종류 : 기대수익률(내부수익률), {{blank}}, 요구수익률",
+      "answer": "실현수익률",
+      "choices": [
+        "실현수익률",
+        "기대수익률(내부수익률)",
+        "요구수익률",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "5. 부동산 투자론: 수익률의 종류 : 기대수익률(내부수익률), 실현수익률, 요구수익률",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-153",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "대출금리 = 기준금리({{blank}} CD금리 또는 6~12개월 COFIX금리) + 가산금리",
+      "answer": "3개월",
+      "choices": [
+        "3개월",
+        "2개월",
+        "4개월",
+        "5개월"
+      ],
+      "explanation": "6. 부동산 금융론: 대출금리 = 기준금리(3개월 CD금리 또는 6~12개월 COFIX금리) + 가산금리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-154",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "건물의 기술적 관리 : 위생관리, 설비관리, {{blank}}, 보전관리",
+      "answer": "보안관리",
+      "choices": [
+        "보안관리",
+        "위생관리",
+        "설비관리",
+        "보전관리"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 기술적 관리 : 위생관리, 설비관리, 보안관리, 보전관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-155",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "행정적 제요인 : 토지제도, {{blank}}, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "answer": "토지이용계획.규제",
+      "choices": [
+        "토지이용계획.규제",
+        "토지제도",
+        "건축물구조",
+        "부동산세제"
+      ],
+      "explanation": "8. 부동산 가격이론: 행정적 제요인 : 토지제도, 토지이용계획.규제, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-156",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 용도의 다양성을 지원하는 기능, 최유효이용을 간접적으로 지원, 한정가격을 존재",
+      "answer": "병합.분할의 가능성",
+      "choices": [
+        "병합.분할의 가능성",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 병합.분할의 가능성 : 용도의 다양성을 지원하는 기능, 최유효이용을 간접적으로 지원, 한정가격을 존재",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-157",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 수요의 가격탄력성 = 공급의 가격탄력성",
+      "answer": "순환형",
+      "choices": [
+        "순환형",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 순환형 : 수요의 가격탄력성 = 공급의 가격탄력성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-158",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 최소운송비가 드는 지점에 입지(원료의 운송비와 제품의 운송비 합이 최소인 지점)",
+      "answer": "베버의 최소비용이론",
+      "choices": [
+        "베버의 최소비용이론",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 베버의 최소비용이론 : 최소운송비가 드는 지점에 입지(원료의 운송비와 제품의 운송비 합이 최소인 지점)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-159",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 특정지역 독점적 지위로 인한 자원의 부적정할당 문제, 추가적인 수익의 기존",
+      "answer": "지역지구제와 독점의 문제",
+      "choices": [
+        "지역지구제와 독점의 문제",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 지역지구제와 독점의 문제 : 특정지역 독점적 지위로 인한 자원의 부적정할당 문제, 추가적인 수익의 기존",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-160",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수익률의 종류 : 기대수익률(내부수익률), 실현수익률, {{blank}}",
+      "answer": "요구수익률",
+      "choices": [
+        "요구수익률",
+        "기대수익률(내부수익률)",
+        "실현수익률",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "5. 부동산 투자론: 수익률의 종류 : 기대수익률(내부수익률), 실현수익률, 요구수익률",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-161",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "영업인가를 받은 날로부터 {{blank}}이 지난 자기관리 부동산투자회사의 자본금은 70억 이상",
+      "answer": "6개월",
+      "choices": [
+        "6개월",
+        "4개월",
+        "8개월",
+        "11개월"
+      ],
+      "explanation": "6. 부동산 금융론: 영업인가를 받은 날로부터 6개월이 지난 자기관리 부동산투자회사의 자본금은 70억 이상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-162",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "건물의 경제적 관리 : 임대건물의 손익분기점 파악, {{blank}}, 인력관리",
+      "answer": "회계관리",
+      "choices": [
+        "회계관리",
+        "임대건물의 손익분기점 파악",
+        "인력관리",
+        "조방적 토지이용과 집약적 토지이용"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 경제적 관리 : 임대건물의 손익분기점 파악, 회계관리, 인력관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-163",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "경제적 제요인 : 저축.소비.투자 수준, 물가.임금.고용 수준, {{blank}}, 기술혁신.산업구조, 교통체계",
+      "answer": "조세부담 상태",
+      "choices": [
+        "조세부담 상태",
+        "저축.소비.투자 수준",
+        "물가.임금.고용 수준",
+        "기술혁신.산업구조"
+      ],
+      "explanation": "8. 부동산 가격이론: 경제적 제요인 : 저축.소비.투자 수준, 물가.임금.고용 수준, 조세부담 상태, 기술혁신.산업구조, 교통체계",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-164",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소유활동(최유효이용의 원칙), 거래활동(거래질서 확립), 부동산 정책 및 행정활동",
+      "answer": "부동산 활동의 분류",
+      "choices": [
+        "부동산 활동의 분류",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 활동의 분류 : 소유활동(최유효이용의 원칙), 거래활동(거래질서 확립), 부동산 정책 및 행정활동",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-165",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 약 17~18년, 주택수급의 시차가 원인",
+      "answer": "한센의 건축순환",
+      "choices": [
+        "한센의 건축순환",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 한센의 건축순환 : 약 17~18년, 주택수급의 시차가 원인",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-166",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 정보 분석방법 초과이윤 정상이윤",
+      "answer": "효율적 시장 반영되",
+      "choices": [
+        "효율적 시장 반영되",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 효율적 시장 반영되는 정보 분석방법 초과이윤 정상이윤",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-167",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 효율성, 형평성 등 다양한 사회적 목표 달성 (예; 저소득층에 임대주택 공급)",
+      "answer": "정치적 기능",
+      "choices": [
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인",
+        "규모의 경제(비용체감)"
+      ],
+      "explanation": "4. 부동산 정책론: 정치적 기능 : 효율성, 형평성 등 다양한 사회적 목표 달성 (예; 저소득층에 임대주택 공급)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-168",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "위험의 유형 : {{blank}}, 금융적 위험, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "answer": "사업상의 위험",
+      "choices": [
+        "사업상의 위험",
+        "금융적 위험",
+        "법적 위험",
+        "인플레이션 위험"
+      ],
+      "explanation": "5. 부동산 투자론: 위험의 유형 : 사업상의 위험, 금융적 위험, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-169",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "가입비 및 연보증료 : 주택가격 2% 최초 연금지급일에 납부, 보증잔액의 연 {{blank}}를 매월 납부",
+      "answer": "0.5%",
+      "choices": [
+        "0.5%",
+        "1.5%",
+        "2.5%",
+        "3.5%"
+      ],
+      "explanation": "6. 부동산 금융론: 가입비 및 연보증료 : 주택가격 2% 최초 연금지급일에 납부, 보증잔액의 연 0.5%를 매월 납부",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-170",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "건물의 경제적 관리 : 임대건물의 손익분기점 파악, 회계관리, {{blank}}",
+      "answer": "인력관리",
+      "choices": [
+        "인력관리",
+        "임대건물의 손익분기점 파악",
+        "회계관리",
+        "조방적 토지이용과 집약적 토지이용"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 건물의 경제적 관리 : 임대건물의 손익분기점 파악, 회계관리, 인력관리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-171",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "행정적 제요인 : 토지제도, 토지이용계획.규제, {{blank}}, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "answer": "건축물구조",
+      "choices": [
+        "건축물구조",
+        "토지제도",
+        "토지이용계획.규제",
+        "부동산세제"
+      ],
+      "explanation": "8. 부동산 가격이론: 행정적 제요인 : 토지제도, 토지이용계획.규제, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-172",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 바다와 육지 사이의 해변토지로 만조수위선으로부터 지적공부에 등록된 지역까지의 사이",
+      "answer": "빈지(濱地)",
+      "choices": [
+        "빈지(濱地)",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 빈지(濱地) : 바다와 육지 사이의 해변토지로 만조수위선으로부터 지적공부에 등록된 지역까지의 사이",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-173",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시점, 단기 → 기존주택정책(질적인 향상)",
+      "answer": "저량(Stock)",
+      "choices": [
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多",
+        "용도전환이 용이"
+      ],
+      "explanation": "2. 부동산 경제론: 저량(Stock) : 시점, 단기 → 기존주택정책(질적인 향상)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-174",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 완전경쟁시장, 불완전경쟁시장에서도 가능하다.",
+      "answer": "할당효율적시장",
+      "choices": [
+        "할당효율적시장",
+        "국지적 시장",
+        "효율적 시장",
+        "추상적 시장"
+      ],
+      "explanation": "3. 부동산 시장론: 할당효율적시장은 완전경쟁시장, 불완전경쟁시장에서도 가능하다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-175",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지가안정과 투기억제, 부동산중개업자의 전문적 자질 향상, 부동산권리분석사 제도도입",
+      "answer": "토지거래",
+      "choices": [
+        "토지거래",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 토지거래 : 지가안정과 투기억제, 부동산중개업자의 전문적 자질 향상, 부동산권리분석사 제도도입",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-176",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "* 역수관계 : {{blank}}, 연금의 내가 ↔ 감채기금계수, 연금의 현가계수 ↔ 저당상수",
+      "answer": "일시불 내가 ↔ 일시불 현가",
+      "choices": [
+        "일시불 내가 ↔ 일시불 현가",
+        "연금의 내가 ↔ 감채기금계수",
+        "연금의 현가계수 ↔ 저당상수",
+        "부동산 투자"
+      ],
+      "explanation": "5. 부동산 투자론: * 역수관계 : 일시불 내가 ↔ 일시불 현가, 연금의 내가 ↔ 감채기금계수, 연금의 현가계수 ↔ 저당상수",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-177",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "가입비 및 연보증료 : 주택가격 {{blank}} 최초 연금지급일에 납부, 보증잔액의 연 0.5%를 매월 납부",
+      "answer": "2%",
+      "choices": [
+        "2%",
+        "1%",
+        "3%",
+        "4%"
+      ],
+      "explanation": "6. 부동산 금융론: 가입비 및 연보증료 : 주택가격 2% 최초 연금지급일에 납부, 보증잔액의 연 0.5%를 매월 납부",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-178",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지의 법률적 관리 : 권리관계의 조정, 토지도난 방지 대책, {{blank}}",
+      "answer": "법률적 이용가치 개선",
+      "choices": [
+        "법률적 이용가치 개선",
+        "권리관계의 조정",
+        "토지도난 방지 대책",
+        "조방적 토지이용과 집약적 토지이용"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 토지의 법률적 관리 : 권리관계의 조정, 토지도난 방지 대책, 법률적 이용가치 개선",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-179",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "행정적 제요인 : {{blank}}, 토지이용계획.규제, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "answer": "토지제도",
+      "choices": [
+        "토지제도",
+        "토지이용계획.규제",
+        "건축물구조",
+        "부동산세제"
+      ],
+      "explanation": "8. 부동산 가격이론: 행정적 제요인 : 토지제도, 토지이용계획.규제, 건축물구조, 부동산세제, 부동산가격.임료 규제. 공시지가제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "8. 부동산 가격이론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-180",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공간 및 환경가치 증대(기술적 측면), 효율적 관리(경제적 측면), 공익과 사익의 조화",
+      "answer": "지도이념",
+      "choices": [
+        "지도이념",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 지도이념 : 공간 및 환경가치 증대(기술적 측면), 효율적 관리(경제적 측면), 공익과 사익의 조화",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-181",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다른 조건이 같을 때, 부동산을 다른 용도로 쉽게 전환할 수 있으면 공급의 가격탄력성은 일반적으로 {{blank}}.",
+      "answer": "커진다",
+      "choices": [
+        "커진다",
+        "작아진다",
+        "항상 0이다",
+        "반드시 음수가 된다"
+      ],
+      "explanation": "용도전환이 쉬우면 가격 변화에 대응하여 해당 용도의 공급량을 조절하기 쉬우므로 공급이 더 탄력적이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "63763e6c262df3fa2da1e40d0683b1410ad7d2f2c62ee74190d37dbdf04c9c84",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-01-182",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부동산시장에 투기가 성립되는 이유 : 시장이 불완전하기때문이 아니라",
+      "answer": "부동산에서 초과 이윤을 획득 또",
+      "choices": [
+        "부동산에서 초과 이윤을 획득 또",
+        "공급의 시차로 인한 수급조절의 곤란성",
+        "시장의 비조직화",
+        "토지이용의 외부성(외부효과)"
+      ],
+      "explanation": "3. 부동산 시장론: 부동산에서 초과 이윤을 획득 또는 부동산시장에 투기가 성립되는 이유 : 시장이 불완전하기때문이 아니라",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-183",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 일반소득분포 개선, 주택규모분포 개선, 서민을 위한 저당금융제도 실시, 사회임대주택",
+      "answer": "구매력 강화 방안",
+      "choices": [
+        "구매력 강화 방안",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 구매력 강화 방안 : 일반소득분포 개선, 주택규모분포 개선, 서민을 위한 저당금융제도 실시, 사회임대주택",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-184",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "* 역수관계 : 일시불 내가 ↔ 일시불 현가, {{blank}}, 연금의 현가계수 ↔ 저당상수",
+      "answer": "연금의 내가 ↔ 감채기금계수",
+      "choices": [
+        "연금의 내가 ↔ 감채기금계수",
+        "일시불 내가 ↔ 일시불 현가",
+        "연금의 현가계수 ↔ 저당상수",
+        "부동산 투자"
+      ],
+      "explanation": "5. 부동산 투자론: * 역수관계 : 일시불 내가 ↔ 일시불 현가, 연금의 내가 ↔ 감채기금계수, 연금의 현가계수 ↔ 저당상수",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-185",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부부기준 1주택(시가 {{blank}} 이하) 소유자가 만 60세 이상인 경우 (공동소유 시 연장자가 60세 이상)",
+      "answer": "9억원",
+      "choices": [
+        "9억원",
+        "7억원",
+        "11억원",
+        "14억원"
+      ],
+      "explanation": "6. 부동산 금융론: 부부기준 1주택(시가 9억원 이하) 소유자가 만 60세 이상인 경우 (공동소유 시 연장자가 60세 이상)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-186",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지의 법률적 관리 : 권리관계의 조정, {{blank}}, 법률적 이용가치 개선",
+      "answer": "토지도난 방지 대책",
+      "choices": [
+        "토지도난 방지 대책",
+        "권리관계의 조정",
+        "법률적 이용가치 개선",
+        "조방적 토지이용과 집약적 토지이용"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 토지의 법률적 관리 : 권리관계의 조정, 토지도난 방지 대책, 법률적 이용가치 개선",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-187",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "기존 건물이 토지의 최유효이용을 방해하여 그 제약만큼 부지가격을 낮게 평가하는 것을 {{blank}}라고 한다.",
+      "answer": "건부감가",
+      "choices": [
+        "건부감가",
+        "건부증가",
+        "개발이익",
+        "외부경제"
+      ],
+      "explanation": "건물로 인한 이용 제약을 부지가격에 감가하는 것이다. 원문에서 다음 줄로 이어지는 정의를 복원했다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "253393171bbdf6aa896cac7e91a13ef8ef9cbd37202b44745627b4629c1e1220",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-01-188",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 탄력적 ② 장기 : 탄력적, 단기 : 비탄력적",
+      "answer": "대체재 多",
+      "choices": [
+        "대체재 多",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "용도전환이 용이"
+      ],
+      "explanation": "2. 부동산 경제론: 대체재 多 : 탄력적 ② 장기 : 탄력적, 단기 : 비탄력적",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-189",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택공급 결정요인 : 주택가격, 비용, {{blank}}, 다른 건축의 수익성",
+      "answer": "융자금의 유용성",
+      "choices": [
+        "융자금의 유용성",
+        "주택가격",
+        "비용",
+        "다른 건축의 수익성"
+      ],
+      "explanation": "3. 부동산 시장론: 주택공급 결정요인 : 주택가격, 비용, 융자금의 유용성, 다른 건축의 수익성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-190",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 부의 외부효과 장지에 역점 → 용도지역.지구제, 개발권양도제도(TDR), 토지구획규제",
+      "answer": "토지이용규제",
+      "choices": [
+        "토지이용규제",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 토지이용규제 : 부의 외부효과 장지에 역점 → 용도지역.지구제, 개발권양도제도(TDR), 토지구획규제",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-191",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "* 역수관계 : 일시불 내가 ↔ 일시불 현가, 연금의 내가 ↔ 감채기금계수, {{blank}}",
+      "answer": "연금의 현가계수 ↔ 저당상수",
+      "choices": [
+        "연금의 현가계수 ↔ 저당상수",
+        "일시불 내가 ↔ 일시불 현가",
+        "연금의 내가 ↔ 감채기금계수",
+        "부동산 투자"
+      ],
+      "explanation": "5. 부동산 투자론: * 역수관계 : 일시불 내가 ↔ 일시불 현가, 연금의 내가 ↔ 감채기금계수, 연금의 현가계수 ↔ 저당상수",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-192",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 3개월 CD금리 + 1.1%",
+      "answer": "적용금리",
+      "choices": [
+        "적용금리",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 적용금리 : 3개월 CD금리 + 1.1%",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-193",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지의 법률적 관리 : {{blank}}, 토지도난 방지 대책, 법률적 이용가치 개선",
+      "answer": "권리관계의 조정",
+      "choices": [
+        "권리관계의 조정",
+        "토지도난 방지 대책",
+        "법률적 이용가치 개선",
+        "조방적 토지이용과 집약적 토지이용"
+      ],
+      "explanation": "7. 부동산 개발 및 관리론: 토지의 법률적 관리 : 권리관계의 조정, 토지도난 방지 대책, 법률적 이용가치 개선",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "7. 부동산 개발 및 관리론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-194",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 택지.농지.임지 지역의 대분류 상호간에 전환되는 용도지역 내의 토지 (예; 농지→택지지역)",
+      "answer": "후보지",
+      "choices": [
+        "후보지",
+        "획지",
+        "전형적인 투기수단 탈법행위 금지",
+        "미등기전매금지"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 후보지 : 택지.농지.임지 지역의 대분류 상호간에 전환되는 용도지역 내의 토지 (예; 농지→택지지역)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-195",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 약 20년, 인구증가율 변동에 따른 경제성장률 변동이 원인",
+      "answer": "쿠즈네츠파동",
+      "choices": [
+        "쿠즈네츠파동",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 쿠즈네츠파동 : 약 20년, 인구증가율 변동에 따른 경제성장률 변동이 원인",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-196",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택공급 결정요인 : {{blank}}, 비용, 융자금의 유용성, 다른 건축의 수익성",
+      "answer": "주택가격",
+      "choices": [
+        "주택가격",
+        "비용",
+        "융자금의 유용성",
+        "다른 건축의 수익성"
+      ],
+      "explanation": "3. 부동산 시장론: 주택공급 결정요인 : 주택가격, 비용, 융자금의 유용성, 다른 건축의 수익성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-197",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소유권 중심에서 이용권 중심으로 전환, 국.공유지 처분중심에서 보전중심으로, 개발이익환",
+      "answer": "토지소유제도",
+      "choices": [
+        "토지소유제도",
+        "개발이익환수제도",
+        "개발부담금제도",
+        "부동산가격공시제도"
+      ],
+      "explanation": "4. 부동산 정책론: 토지소유제도 : 소유권 중심에서 이용권 중심으로 전환, 국.공유지 처분중심에서 보전중심으로, 개발이익환",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-198",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "위험의 유형 : 사업상의 위험, {{blank}}, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "answer": "금융적 위험",
+      "choices": [
+        "금융적 위험",
+        "사업상의 위험",
+        "법적 위험",
+        "인플레이션 위험"
+      ],
+      "explanation": "5. 부동산 투자론: 위험의 유형 : 사업상의 위험, 금융적 위험, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-199",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 담보신탁을 통해 대출받는 방법",
+      "answer": "신탁금융",
+      "choices": [
+        "신탁금융",
+        "저당금융",
+        "주택상환사채",
+        "자산담보부증권(ABS)"
+      ],
+      "explanation": "6. 부동산 금융론: 신탁금융 : 담보신탁을 통해 대출받는 방법",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-200",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 행정적.법률적.물리적.자연적 기준에 의해 다른 토지와 구별되어 가격수준이 비슷한 일단의 토지",
+      "answer": "획지",
+      "choices": [
+        "획지",
+        "후보지",
+        "전형적인 투기수단 탈법행위 금지",
+        "미등기전매금지"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 획지 : 행정적.법률적.물리적.자연적 기준에 의해 다른 토지와 구별되어 가격수준이 비슷한 일단의 토지",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-201",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 8~10년, 일반경기순환의 대표적 파동, 기업의 설비투자 연관",
+      "answer": "쥬글라파동(중기)",
+      "choices": [
+        "쥬글라파동(중기)",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 쥬글라파동(중기) : 8~10년, 일반경기순환의 대표적 파동, 기업의 설비투자 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-202",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택공급 결정요인 : 주택가격, {{blank}}, 융자금의 유용성, 다른 건축의 수익성",
+      "answer": "비용",
+      "choices": [
+        "비용",
+        "주택가격",
+        "융자금의 유용성",
+        "다른 건축의 수익성"
+      ],
+      "explanation": "3. 부동산 시장론: 주택공급 결정요인 : 주택가격, 비용, 융자금의 유용성, 다른 건축의 수익성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-203",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 검인계약서, 토지거래허가제, 농지취득자격증명제, 투기과열지구(분양권 전매제한), 투기지",
+      "answer": "토지거래 관련",
+      "choices": [
+        "토지거래 관련",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 토지거래 관련 : 검인계약서, 토지거래허가제, 농지취득자격증명제, 투기과열지구(분양권 전매제한), 투기지",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-204",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "위험의 유형 : 사업상의 위험, 금융적 위험, {{blank}}, 인플레이션 위험, 유동성 위험",
+      "answer": "법적 위험",
+      "choices": [
+        "법적 위험",
+        "사업상의 위험",
+        "금융적 위험",
+        "인플레이션 위험"
+      ],
+      "explanation": "5. 부동산 투자론: 위험의 유형 : 사업상의 위험, 금융적 위험, 법적 위험, 인플레이션 위험, 유동성 위험",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-205",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택분양보증, 주택임대보증, 하자보수보증",
+      "answer": "주택건설보증(대한주택보증주식회사)",
+      "choices": [
+        "주택건설보증(대한주택보증주식회사)",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 주택건설보증(대한주택보증주식회사) : 주택분양보증, 주택임대보증, 하자보수보증",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-206",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공시수단은 다르나 이 원칙이 적용됨에는 차이가 없다.",
+      "answer": "원칙으로서 부동산과 동산",
+      "choices": [
+        "원칙으로서 부동산과 동산",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 원칙으로서 부동산과 동산은 공시수단은 다르나 이 원칙이 적용됨에는 차이가 없다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-207",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 30~40개월 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "answer": "키친파동(단기)",
+      "choices": [
+        "키친파동(단기)",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 키친파동(단기) : 30~40개월 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-208",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택수요 결정요인 : {{blank}}, 소득변화, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "answer": "인구변화",
+      "choices": [
+        "인구변화",
+        "소득변화",
+        "주택가격",
+        "관련재가격"
+      ],
+      "explanation": "3. 부동산 시장론: 주택수요 결정요인 : 인구변화, 소득변화, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-209",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 규모의 경제(비용체감), 독과점기업 존재, 외부효과 발생, 공공재의 존재, 정보의 비대칭",
+      "answer": "※ 시장실패의 원인",
+      "choices": [
+        "※ 시장실패의 원인",
+        "정치적 기능",
+        "경제적 기능",
+        "규모의 경제(비용체감)"
+      ],
+      "explanation": "4. 부동산 정책론: ※ 시장실패의 원인 : 규모의 경제(비용체감), 독과점기업 존재, 외부효과 발생, 공공재의 존재, 정보의 비대칭",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-210",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "영업경비 (OE : Operation Expense) 유지비, {{blank}}, 수수료, 재산세, 보험료, 광고비",
+      "answer": "관리비",
+      "choices": [
+        "관리비",
+        "수수료",
+        "재산세",
+        "보험료"
+      ],
+      "explanation": "5. 부동산 투자론: 영업경비 (OE : Operation Expense) 유지비, 관리비, 수수료, 재산세, 보험료, 광고비",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-211",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 정부예산에는 한계가 있으므로 민간자금 유치 필요",
+      "answer": "자금의 확보",
+      "choices": [
+        "자금의 확보",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 자금의 확보 : 정부예산에는 한계가 있으므로 민간자금 유치 필요",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-212",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 반드시 외부에서 인식할 수 있는 표상, 즉 공시방법을 갖추어야 한다는",
+      "answer": "물권의 변동",
+      "choices": [
+        "물권의 변동",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 물권의 변동은 반드시 외부에서 인식할 수 있는 표상, 즉 공시방법을 갖추어야 한다는",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-213",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 수요와 공급이론의 동태적 응용이론으로 특정재화시장이 불균형상태에서",
+      "answer": "거미집이론(Cob-web theory)",
+      "choices": [
+        "거미집이론(Cob-web theory)",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 거미집이론(Cob-web theory) : 수요와 공급이론의 동태적 응용이론으로 특정재화시장이 불균형상태에서",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-214",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택수요 결정요인 : 인구변화, {{blank}}, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "answer": "소득변화",
+      "choices": [
+        "소득변화",
+        "인구변화",
+        "주택가격",
+        "관련재가격"
+      ],
+      "explanation": "3. 부동산 시장론: 주택수요 결정요인 : 인구변화, 소득변화, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-215",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 신규주택 건설촉진(싼 택지 공급, 주택생산성 증대, 건설주체의 역할 증대), 재고주택의 보",
+      "answer": "공급확대방안",
+      "choices": [
+        "공급확대방안",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 공급확대방안 : 신규주택 건설촉진(싼 택지 공급, 주택생산성 증대, 건설주체의 역할 증대), 재고주택의 보",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-216",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "영업경비 (OE : Operation Expense) 유지비, 관리비, {{blank}}, 재산세, 보험료, 광고비",
+      "answer": "수수료",
+      "choices": [
+        "수수료",
+        "관리비",
+        "재산세",
+        "보험료"
+      ],
+      "explanation": "5. 부동산 투자론: 영업경비 (OE : Operation Expense) 유지비, 관리비, 수수료, 재산세, 보험료, 광고비",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-217",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 자금의 장기 고정화의 단점을 해소하기 위해 유동화 필요",
+      "answer": "부동산 대출채권의 유동화",
+      "choices": [
+        "부동산 대출채권의 유동화",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 부동산 대출채권의 유동화 : 자금의 장기 고정화의 단점을 해소하기 위해 유동화 필요",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-218",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "일반이념 : 효율성(토지의 치유효이용), {{blank}}, 합법성",
+      "answer": "형평성(소유권의 가장 폭넓은 배분)",
+      "choices": [
+        "형평성(소유권의 가장 폭넓은 배분)",
+        "효율성(토지의 치유효이용)",
+        "합법성",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 일반이념 : 효율성(토지의 치유효이용), 형평성(소유권의 가장 폭넓은 배분), 합법성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-219",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 상업/공업용 건축경기는 일반경제 패턴과 유사, 주거용 부동산은 일반경기와 반대",
+      "answer": "변동의 시차적 관계",
+      "choices": [
+        "변동의 시차적 관계",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 변동의 시차적 관계 : 상업/공업용 건축경기는 일반경제 패턴과 유사, 주거용 부동산은 일반경기와 반대",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-220",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택수요 결정요인 : 인구변화, 소득변화, {{blank}}, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "answer": "주택가격",
+      "choices": [
+        "주택가격",
+        "인구변화",
+        "소득변화",
+        "관련재가격"
+      ],
+      "explanation": "3. 부동산 시장론: 주택수요 결정요인 : 인구변화, 소득변화, 주택가격, 관련재가격, 주택금융제도, 금리변동과 취득능력",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "3. 부동산 시장론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-221",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 투기억제/지가안정, 택지 지속적 공급/확대, 개발이익 사유화 방지, 토지오용 방지 및 무용토지 활용",
+      "answer": "목표",
+      "choices": [
+        "목표",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 목표 : 투기억제/지가안정, 택지 지속적 공급/확대, 개발이익 사유화 방지, 토지오용 방지 및 무용토지 활용",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-222",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "영업경비 (OE : Operation Expense) 유지비, 관리비, 수수료, {{blank}}, 보험료, 광고비",
+      "answer": "재산세",
+      "choices": [
+        "재산세",
+        "관리비",
+        "수수료",
+        "보험료"
+      ],
+      "explanation": "5. 부동산 투자론: 영업경비 (OE : Operation Expense) 유지비, 관리비, 수수료, 재산세, 보험료, 광고비",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-223",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 자산유동화에 관한 법률에 근거하여 자산을 담보로 ABS를 발행",
+      "answer": "자산담보부증권(ABS)",
+      "choices": [
+        "자산담보부증권(ABS)",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 자산담보부증권(ABS) : 자산유동화에 관한 법률에 근거하여 자산을 담보로 ABS를 발행",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-224",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "일반이념 : {{blank}}, 형평성(소유권의 가장 폭넓은 배분), 합법성",
+      "answer": "효율성(토지의 치유효이용)",
+      "choices": [
+        "효율성(토지의 치유효이용)",
+        "형평성(소유권의 가장 폭넓은 배분)",
+        "합법성",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 일반이념 : 효율성(토지의 치유효이용), 형평성(소유권의 가장 폭넓은 배분), 합법성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-225",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — = 0 → 독립재, > 0 → 대체재, < 0 → 보완재 (연관 상품 가격변화)",
+      "answer": "수요의 교차탄력성",
+      "choices": [
+        "수요의 교차탄력성",
+        "저량(Stock)",
+        "대체재 多",
+        "용도전환이 용이"
+      ],
+      "explanation": "2. 부동산 경제론: 수요의 교차탄력성 : = 0 → 독립재, > 0 → 대체재, < 0 → 보완재 (연관 상품 가격변화)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-226",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 효 장기 : 주택생산비를 절감시켜 주택공급이",
+      "answer": "정책적 소비자용 측면에서",
+      "choices": [
+        "정책적 소비자용 측면에서",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 정책적 소비자용 측면에서는 효 장기 : 주택생산비를 절감시켜 주택공급이",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-227",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 저소득층.중간계층을 위한 대출이므로 장기.저리에 안정적이어야 함",
+      "answer": "대출금리의 책정",
+      "choices": [
+        "대출금리의 책정",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 대출금리의 책정 : 저소득층.중간계층을 위한 대출이므로 장기.저리에 안정적이어야 함",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-228",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "법률적 측면 : {{blank}}, 공법, 행정, 정치, 규범 – 법률적 개념",
+      "answer": "사법",
+      "choices": [
+        "사법",
+        "공법",
+        "행정",
+        "정치"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 법률적 측면 : 사법, 공법, 행정, 정치, 규범 – 법률적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-229",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 건축량, 거래량, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "answer": "부동산경기",
+      "choices": [
+        "부동산경기",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 부동산경기 : 건축량, 거래량, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-230",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 적정 면적과 적당한 가격으로 이루어지도록 유도함",
+      "answer": "토지의 거래",
+      "choices": [
+        "토지의 거래",
+        "정치적 기능",
+        "경제적 기능",
+        "※ 시장실패의 원인"
+      ],
+      "explanation": "4. 부동산 정책론: 토지의 거래는 적정 면적과 적당한 가격으로 이루어지도록 유도함",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-231",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 저당대출기관과 다른 투자자들 사이에 기존의 저당을 사고 파는 시장",
+      "answer": "차 저당시장",
+      "choices": [
+        "차 저당시장",
+        "추상적 시장",
+        "국지적 시장",
+        "효율적 시장"
+      ],
+      "explanation": "6. 부동산 금융론: 2차 저당시장 : 저당대출기관과 다른 투자자들 사이에 기존의 저당을 사고 파는 시장",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-232",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "법률적 측면 : 사법, {{blank}}, 행정, 정치, 규범 – 법률적 개념",
+      "answer": "공법",
+      "choices": [
+        "공법",
+        "사법",
+        "행정",
+        "정치"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 법률적 측면 : 사법, 공법, 행정, 정치, 규범 – 법률적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-233",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 생산량, 소득, 소비, 저축, 투자, 고용과 실업, 이자율, 물가, 재고, 수출입, 국제수지 등",
+      "answer": "일반경기",
+      "choices": [
+        "일반경기",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 일반경기 : 생산량, 소득, 소비, 저축, 투자, 고용과 실업, 이자율, 물가, 재고, 수출입, 국제수지 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-234",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "개발이익환수제도 : 개발부담금제도, 양도소득세, {{blank}}",
+      "answer": "부동산가격공시제도",
+      "choices": [
+        "부동산가격공시제도",
+        "개발부담금제도",
+        "양도소득세",
+        "토지소유제도"
+      ],
+      "explanation": "4. 부동산 정책론: 개발이익환수제도 : 개발부담금제도, 양도소득세, 부동산가격공시제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-235",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 신용보완책으로 여러 조치 필요 → 부동산부문으로 자금 유입 용이하게",
+      "answer": "부동산 채권보전",
+      "choices": [
+        "부동산 채권보전",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 부동산 채권보전 : 신용보완책으로 여러 조치 필요 → 부동산부문으로 자금 유입 용이하게",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-236",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "법률적 측면 : 사법, 공법, {{blank}}, 정치, 규범 – 법률적 개념",
+      "answer": "행정",
+      "choices": [
+        "행정",
+        "사법",
+        "공법",
+        "정치"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 법률적 측면 : 사법, 공법, 행정, 정치, 규범 – 법률적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-237",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 과정이 거미집모양 같다는 정리",
+      "answer": "균형상태로 조정되",
+      "choices": [
+        "균형상태로 조정되",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 균형상태로 조정되는 과정이 거미집모양 같다는 정리",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-238",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "개발이익환수제도 : {{blank}}, 양도소득세, 부동산가격공시제도",
+      "answer": "개발부담금제도",
+      "choices": [
+        "개발부담금제도",
+        "양도소득세",
+        "부동산가격공시제도",
+        "토지소유제도"
+      ],
+      "explanation": "4. 부동산 정책론: 개발이익환수제도 : 개발부담금제도, 양도소득세, 부동산가격공시제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-239",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 특정목적의 벤처사업을 공동으로 영위하기 위한 자연인이나 법인의 결합체",
+      "answer": "조인트벤처",
+      "choices": [
+        "조인트벤처",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 조인트벤처 : 특정목적의 벤처사업을 공동으로 영위하기 위한 자연인이나 법인의 결합체",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-240",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "인접성(연결성) : 협동적 이용을 필연화, 경계 문제 야기, {{blank}}",
+      "answer": "개발이익 사회환수 논리의 근거",
+      "choices": [
+        "개발이익 사회환수 논리의 근거",
+        "협동적 이용을 필연화",
+        "경계 문제 야기",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 인접성(연결성) : 협동적 이용을 필연화, 경계 문제 야기, 개발이익 사회환수 논리의 근거",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-241",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 전기의 해당재화가격의 함수이다.",
+      "answer": "재화의 공급",
+      "choices": [
+        "재화의 공급",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 재화의 공급은 전기의 해당재화가격의 함수이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-242",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "개발이익환수제도 : 개발부담금제도, {{blank}}, 부동산가격공시제도",
+      "answer": "양도소득세",
+      "choices": [
+        "양도소득세",
+        "개발부담금제도",
+        "부동산가격공시제도",
+        "종합부동산세"
+      ],
+      "explanation": "4. 부동산 정책론: 개발이익환수제도 : 개발부담금제도, 양도소득세, 부동산가격공시제도",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-243",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 저당대부를 원하는 수요자와 대부를 제공하는 금융기관으로 이루어진 시장",
+      "answer": "차 저당시장",
+      "choices": [
+        "차 저당시장",
+        "추상적 시장",
+        "국지적 시장",
+        "효율적 시장"
+      ],
+      "explanation": "6. 부동산 금융론: 1차 저당시장 : 저당대부를 원하는 수요자와 대부를 제공하는 금융기관으로 이루어진 시장",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-244",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "지도이념 : {{blank}}, 효율적 관리(경제적 측면), 공익과 사익의 조화",
+      "answer": "공간 및 환경가치 증대(기술적 측면)",
+      "choices": [
+        "공간 및 환경가치 증대(기술적 측면)",
+        "효율적 관리(경제적 측면)",
+        "공익과 사익의 조화",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 지도이념 : 공간 및 환경가치 증대(기술적 측면), 효율적 관리(경제적 측면), 공익과 사익의 조화",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-245",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "쥬글라파동(중기) : 8~10년, {{blank}}, 기업의 설비투자 연관",
+      "answer": "일반경기순환의 대표적 파동",
+      "choices": [
+        "일반경기순환의 대표적 파동",
+        "8~10년",
+        "기업의 설비투자 연관",
+        "저량(Stock)"
+      ],
+      "explanation": "2. 부동산 경제론: 쥬글라파동(중기) : 8~10년, 일반경기순환의 대표적 파동, 기업의 설비투자 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-246",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지거래 : 지가안정과 투기억제, {{blank}}, 부동산권리분석사 제도도입",
+      "answer": "부동산중개업자의 전문적 자질 향상",
+      "choices": [
+        "부동산중개업자의 전문적 자질 향상",
+        "지가안정과 투기억제",
+        "부동산권리분석사 제도도입",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지거래 : 지가안정과 투기억제, 부동산중개업자의 전문적 자질 향상, 부동산권리분석사 제도도입",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-247",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 소액투자자에게 지분권을 판매하여 수집한 자금을 부동산에 투자하고 수익을",
+      "answer": "부동산투자신탁(REITs)",
+      "choices": [
+        "부동산투자신탁(REITs)",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 부동산투자신탁(REITs) : 소액투자자에게 지분권을 판매하여 수집한 자금을 부동산에 투자하고 수익을",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-248",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "경제적 측면 : 경제, {{blank}}, 사회, 심리, 인문지리 – 경제적 개념",
+      "answer": "경영",
+      "choices": [
+        "경영",
+        "경제",
+        "사회",
+        "심리"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 경제적 측면 : 경제, 경영, 사회, 심리, 인문지리 – 경제적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-249",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다른 조건이 같을 때, 한 재화의 가격 상승으로 다른 재화의 수요량이 감소하면 두 재화는 {{blank}} 관계이다.",
+      "answer": "보완재",
+      "choices": [
+        "보완재",
+        "대체재",
+        "독립재",
+        "동일재"
+      ],
+      "explanation": "보완재는 수요의 교차탄력성이 음수인 관계이다. 함께 사용하는 재화의 가격이 오르면 해당 재화의 수요도 줄어든다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "1dfa34c07908666f967b4d94f3e926b80e575f6d743dcb2550896b7afd7229c1",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-01-250",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지소유제도 : {{blank}}, 국.공유지 처분중심에서 보전중심으로, 개발이익환",
+      "answer": "소유권 중심에서 이용권 중심으로 전환",
+      "choices": [
+        "소유권 중심에서 이용권 중심으로 전환",
+        "국.공유지 처분중심에서 보전중심으로",
+        "개발이익환",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지소유제도 : 소유권 중심에서 이용권 중심으로 전환, 국.공유지 처분중심에서 보전중심으로, 개발이익환",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-251",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택 거래를 원활히 하고 국민의 주택자금 지불능력을 높이기 위해 주택을",
+      "answer": "주택소비금융(소비자금융)",
+      "choices": [
+        "주택소비금융(소비자금융)",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 주택소비금융(소비자금융) : 주택 거래를 원활히 하고 국민의 주택자금 지불능력을 높이기 위해 주택을",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-252",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "경제적 측면 : 경제, 경영, {{blank}}, 심리, 인문지리 – 경제적 개념",
+      "answer": "사회",
+      "choices": [
+        "사회",
+        "경제",
+        "경영",
+        "심리"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 경제적 측면 : 경제, 경영, 사회, 심리, 인문지리 – 경제적 개념",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-253",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "쥬글라파동(중기) : 8~10년, 일반경기순환의 대표적 파동, {{blank}}",
+      "answer": "기업의 설비투자 연관",
+      "choices": [
+        "기업의 설비투자 연관",
+        "8~10년",
+        "일반경기순환의 대표적 파동",
+        "저량(Stock)"
+      ],
+      "explanation": "2. 부동산 경제론: 쥬글라파동(중기) : 8~10년, 일반경기순환의 대표적 파동, 기업의 설비투자 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-254",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지소유제도 : 소유권 중심에서 이용권 중심으로 전환, {{blank}}, 개발이익환",
+      "answer": "국.공유지 처분중심에서 보전중심으로",
+      "choices": [
+        "국.공유지 처분중심에서 보전중심으로",
+        "소유권 중심에서 이용권 중심으로 전환",
+        "개발이익환",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지소유제도 : 소유권 중심에서 이용권 중심으로 전환, 국.공유지 처분중심에서 보전중심으로, 개발이익환",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-255",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택건설을 촉진하려는 목적에서 주택건설사업자의 건설활동에 필요한 자금을",
+      "answer": "주택개발금융(공급자금융)",
+      "choices": [
+        "주택개발금융(공급자금융)",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 주택개발금융(공급자금융) : 주택건설을 촉진하려는 목적에서 주택건설사업자의 건설활동에 필요한 자금을",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-256",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "인접성(연결성) : {{blank}}, 경계 문제 야기, 개발이익 사회환수 논리의 근거",
+      "answer": "협동적 이용을 필연화",
+      "choices": [
+        "협동적 이용을 필연화",
+        "경계 문제 야기",
+        "개발이익 사회환수 논리의 근거",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 인접성(연결성) : 협동적 이용을 필연화, 경계 문제 야기, 개발이익 사회환수 논리의 근거",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-257",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "키친파동(단기) : {{blank}}, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "answer": "30~40개월 주기",
+      "choices": [
+        "30~40개월 주기",
+        "통화공급",
+        "이자율",
+        "기업재고 변동 등 연관"
+      ],
+      "explanation": "2. 부동산 경제론: 키친파동(단기) : 30~40개월 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-258",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지개발 : 민간토지개발주체 육성.강화, {{blank}}, 토지개발사업 효율적 추진",
+      "answer": "토지개발과 주택건설 능률적 연계",
+      "choices": [
+        "토지개발과 주택건설 능률적 연계",
+        "민간토지개발주체 육성.강화",
+        "토지개발사업 효율적 추진",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지개발 : 민간토지개발주체 육성.강화, 토지개발과 주택건설 능률적 연계, 토지개발사업 효율적 추진",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-259",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택가격 2% 최초 연금지급일에 납부, 보증잔액의 연 0.5%를 매월 납부",
+      "answer": "가입비 및 연보증료",
+      "choices": [
+        "가입비 및 연보증료",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 가입비 및 연보증료 : 주택가격 2% 최초 연금지급일에 납부, 보증잔액의 연 0.5%를 매월 납부",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-260",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "병합.분할의 가능성 : {{blank}}, 최유효이용을 간접적으로 지원, 한정가격을 존재",
+      "answer": "용도의 다양성을 지원하는 기능",
+      "choices": [
+        "용도의 다양성을 지원하는 기능",
+        "최유효이용을 간접적으로 지원",
+        "한정가격을 존재",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 병합.분할의 가능성 : 용도의 다양성을 지원하는 기능, 최유효이용을 간접적으로 지원, 한정가격을 존재",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-261",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "키친파동(단기) : 30~40개월 주기, {{blank}}, 이자율, 기업재고 변동 등 연관",
+      "answer": "통화공급",
+      "choices": [
+        "통화공급",
+        "30~40개월 주기",
+        "이자율",
+        "기업재고 변동 등 연관"
+      ],
+      "explanation": "2. 부동산 경제론: 키친파동(단기) : 30~40개월 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-262",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지거래 : 지가안정과 투기억제, 부동산중개업자의 전문적 자질 향상, {{blank}}",
+      "answer": "부동산권리분석사 제도도입",
+      "choices": [
+        "부동산권리분석사 제도도입",
+        "지가안정과 투기억제",
+        "부동산중개업자의 전문적 자질 향상",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지거래 : 지가안정과 투기억제, 부동산중개업자의 전문적 자질 향상, 부동산권리분석사 제도도입",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-263",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 여러 명의 투자자가 부동산전문가의 경험을 동원하여 공동의 부동산 프로젝트를 수행",
+      "answer": "부동산신디케이트",
+      "choices": [
+        "부동산신디케이트",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 부동산신디케이트 : 여러 명의 투자자가 부동산전문가의 경험을 동원하여 공동의 부동산 프로젝트를 수행",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-264",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "지도이념 : 공간 및 환경가치 증대(기술적 측면), {{blank}}, 공익과 사익의 조화",
+      "answer": "효율적 관리(경제적 측면)",
+      "choices": [
+        "효율적 관리(경제적 측면)",
+        "공간 및 환경가치 증대(기술적 측면)",
+        "공익과 사익의 조화",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 지도이념 : 공간 및 환경가치 증대(기술적 측면), 효율적 관리(경제적 측면), 공익과 사익의 조화",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-265",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "키친파동(단기) : 30~40개월 주기, 통화공급, {{blank}}, 기업재고 변동 등 연관",
+      "answer": "이자율",
+      "choices": [
+        "이자율",
+        "30~40개월 주기",
+        "통화공급",
+        "기업재고 변동 등 연관"
+      ],
+      "explanation": "2. 부동산 경제론: 키친파동(단기) : 30~40개월 주기, 통화공급, 이자율, 기업재고 변동 등 연관",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-266",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "직접적 개입 : 이유 → 계획적 개발, 공공용지 확보, 개발이익 환수, {{blank}}",
+      "answer": "택지의 대량공급",
+      "choices": [
+        "택지의 대량공급",
+        "공공용지 확보",
+        "개발이익 환수",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 직접적 개입 : 이유 → 계획적 개발, 공공용지 확보, 개발이익 환수, 택지의 대량공급",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-267",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주택건설업자가 발행하는 채권으로 일정기간이 지나면 주택으로 상환(기명식 보증사채)",
+      "answer": "주택상환사채",
+      "choices": [
+        "주택상환사채",
+        "저당금융",
+        "신탁금융",
+        "자산담보부증권(ABS)"
+      ],
+      "explanation": "6. 부동산 금융론: 주택상환사채 : 주택건설업자가 발행하는 채권으로 일정기간이 지나면 주택으로 상환(기명식 보증사채)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-268",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "병합.분할의 가능성 : 용도의 다양성을 지원하는 기능, {{blank}}, 한정가격을 존재",
+      "answer": "최유효이용을 간접적으로 지원",
+      "choices": [
+        "최유효이용을 간접적으로 지원",
+        "용도의 다양성을 지원하는 기능",
+        "한정가격을 존재",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 병합.분할의 가능성 : 용도의 다양성을 지원하는 기능, 최유효이용을 간접적으로 지원, 한정가격을 존재",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-269",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 교차탄력성 : {{blank}}, > 0 → 대체재, < 0 → 보완재 (연관 상품 가격변화)",
+      "answer": "= 0 → 독립재",
+      "choices": [
+        "= 0 → 독립재",
+        "> 0 → 대체재",
+        "< 0 → 보완재 (연관 상품 가격변화)",
+        "30~40개월 주기"
+      ],
+      "explanation": "2. 부동산 경제론: 수요의 교차탄력성 : = 0 → 독립재, > 0 → 대체재, < 0 → 보완재 (연관 상품 가격변화)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-270",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지개발 : {{blank}}, 토지개발과 주택건설 능률적 연계, 토지개발사업 효율적 추진",
+      "answer": "민간토지개발주체 육성.강화",
+      "choices": [
+        "민간토지개발주체 육성.강화",
+        "토지개발과 주택건설 능률적 연계",
+        "토지개발사업 효율적 추진",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지개발 : 민간토지개발주체 육성.강화, 토지개발과 주택건설 능률적 연계, 토지개발사업 효율적 추진",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-271",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 기업전체의 자산이나 신용이 아닌 자체 수익성과 사업자산을 담보로 융자 또는 회사채",
+      "answer": "프로젝트파이낸싱",
+      "choices": [
+        "프로젝트파이낸싱",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 프로젝트파이낸싱 : 기업전체의 자산이나 신용이 아닌 자체 수익성과 사업자산을 담보로 융자 또는 회사채",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-272",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동성(지리적 위치의 고정성, 비이동성) : {{blank}}, 추상적 시장, 외부효과 발생",
+      "answer": "국지화 지역적 세분",
+      "choices": [
+        "국지화 지역적 세분",
+        "추상적 시장",
+        "외부효과 발생",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동성(지리적 위치의 고정성, 비이동성) : 국지화 지역적 세분, 추상적 시장, 외부효과 발생",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-273",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다른 조건이 같을 때, 한 재화의 가격 상승으로 다른 재화의 수요량이 증가하면 두 재화는 {{blank}} 관계이다.",
+      "answer": "대체재",
+      "choices": [
+        "대체재",
+        "보완재",
+        "독립재",
+        "동일재"
+      ],
+      "explanation": "대체재는 수요의 교차탄력성이 양수인 관계이다. 상대 재화의 가격이 오르면 그 재화를 대신하는 재화의 수요가 늘어난다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "8341a88aef77674f1f6c1ce47de1c991e4490ee713d87a57c421936d310a0ab3",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    },
+    {
+      "id": "blank-01-274",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "직접적 개입 : 이유 → 계획적 개발, {{blank}}, 개발이익 환수, 택지의 대량공급",
+      "answer": "공공용지 확보",
+      "choices": [
+        "공공용지 확보",
+        "개발이익 환수",
+        "택지의 대량공급",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 직접적 개입 : 이유 → 계획적 개발, 공공용지 확보, 개발이익 환수, 택지의 대량공급",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-275",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 차입자가 소유권을 보유한 채 대상부동산에 저당을 설정하고 금융기관으로부터 직접 대출",
+      "answer": "저당금융",
+      "choices": [
+        "저당금융",
+        "신탁금융",
+        "주택상환사채",
+        "자산담보부증권(ABS)"
+      ],
+      "explanation": "6. 부동산 금융론: 저당금융 : 차입자가 소유권을 보유한 채 대상부동산에 저당을 설정하고 금융기관으로부터 직접 대출",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-276",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "인접성(연결성) : 협동적 이용을 필연화, {{blank}}, 개발이익 사회환수 논리의 근거",
+      "answer": "경계 문제 야기",
+      "choices": [
+        "경계 문제 야기",
+        "협동적 이용을 필연화",
+        "개발이익 사회환수 논리의 근거",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 인접성(연결성) : 협동적 이용을 필연화, 경계 문제 야기, 개발이익 사회환수 논리의 근거",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-277",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산경기 : 건축량, 거래량, {{blank}}, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "answer": "가격변동",
+      "choices": [
+        "가격변동",
+        "건축량",
+        "거래량",
+        "택지의 분양실적"
+      ],
+      "explanation": "2. 부동산 경제론: 부동산경기 : 건축량, 거래량, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-278",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "직접적 개입 : 이유 → 계획적 개발, 공공용지 확보, {{blank}}, 택지의 대량공급",
+      "answer": "개발이익 환수",
+      "choices": [
+        "개발이익 환수",
+        "공공용지 확보",
+        "택지의 대량공급",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 직접적 개입 : 이유 → 계획적 개발, 공공용지 확보, 개발이익 환수, 택지의 대량공급",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-279",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 연소자가 만55~74세. 노인복지주택 제외",
+      "answer": "확정기간방식",
+      "choices": [
+        "확정기간방식",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 확정기간방식은 연소자가 만55~74세. 노인복지주택 제외",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-280",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산 활동의 분류 : {{blank}}, 거래활동(거래질서 확립), 부동산 정책 및 행정활동",
+      "answer": "소유활동(최유효이용의 원칙)",
+      "choices": [
+        "소유활동(최유효이용의 원칙)",
+        "거래활동(거래질서 확립)",
+        "부동산 정책 및 행정활동",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 활동의 분류 : 소유활동(최유효이용의 원칙), 거래활동(거래질서 확립), 부동산 정책 및 행정활동",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-281",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산경기 : {{blank}}, 거래량, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "answer": "건축량",
+      "choices": [
+        "건축량",
+        "거래량",
+        "가격변동",
+        "택지의 분양실적"
+      ],
+      "explanation": "2. 부동산 경제론: 부동산경기 : 건축량, 거래량, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-282",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지개발 : 민간토지개발주체 육성.강화, 토지개발과 주택건설 능률적 연계, {{blank}}",
+      "answer": "토지개발사업 효율적 추진",
+      "choices": [
+        "토지개발사업 효율적 추진",
+        "민간토지개발주체 육성.강화",
+        "토지개발과 주택건설 능률적 연계",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지개발 : 민간토지개발주체 육성.강화, 토지개발과 주택건설 능률적 연계, 토지개발사업 효율적 추진",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-283",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 날로부터 6개월이 지난 자기관리 부동산투자회사의 자본금은 70억 이상",
+      "answer": "영업인가를 받",
+      "choices": [
+        "영업인가를 받",
+        "저당금융",
+        "신탁금융",
+        "주택상환사채"
+      ],
+      "explanation": "6. 부동산 금융론: 영업인가를 받은 날로부터 6개월이 지난 자기관리 부동산투자회사의 자본금은 70억 이상",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-284",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "일반이념 : 효율성(토지의 치유효이용), 형평성(소유권의 가장 폭넓은 배분), {{blank}}",
+      "answer": "합법성",
+      "choices": [
+        "합법성",
+        "효율성(토지의 치유효이용)",
+        "형평성(소유권의 가장 폭넓은 배분)",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 일반이념 : 효율성(토지의 치유효이용), 형평성(소유권의 가장 폭넓은 배분), 합법성",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-285",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산경기 : 건축량, {{blank}}, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "answer": "거래량",
+      "choices": [
+        "거래량",
+        "건축량",
+        "가격변동",
+        "택지의 분양실적"
+      ],
+      "explanation": "2. 부동산 경제론: 부동산경기 : 건축량, 거래량, 가격변동, 택지의 분양실적, 공가율과 임료수준, 주택금융 상태 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-286",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지거래 : {{blank}}, 부동산중개업자의 전문적 자질 향상, 부동산권리분석사 제도도입",
+      "answer": "지가안정과 투기억제",
+      "choices": [
+        "지가안정과 투기억제",
+        "부동산중개업자의 전문적 자질 향상",
+        "부동산권리분석사 제도도입",
+        "정치적 기능"
+      ],
+      "explanation": "4. 부동산 정책론: 토지거래 : 지가안정과 투기억제, 부동산중개업자의 전문적 자질 향상, 부동산권리분석사 제도도입",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-287",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택건설보증(대한주택보증주식회사) : {{blank}}, 주택임대보증, 하자보수보증",
+      "answer": "주택분양보증",
+      "choices": [
+        "주택분양보증",
+        "주택임대보증",
+        "하자보수보증",
+        "저당금융"
+      ],
+      "explanation": "6. 부동산 금융론: 주택건설보증(대한주택보증주식회사) : 주택분양보증, 주택임대보증, 하자보수보증",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-288",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "지도이념 : 공간 및 환경가치 증대(기술적 측면), 효율적 관리(경제적 측면), {{blank}}",
+      "answer": "공익과 사익의 조화",
+      "choices": [
+        "공익과 사익의 조화",
+        "공간 및 환경가치 증대(기술적 측면)",
+        "효율적 관리(경제적 측면)",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 지도이념 : 공간 및 환경가치 증대(기술적 측면), 효율적 관리(경제적 측면), 공익과 사익의 조화",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-289",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "구매력 강화 방안 : 일반소득분포 개선, 주택규모분포 개선, {{blank}}, 사회임대주택",
+      "answer": "서민을 위한 저당금융제도 실시",
+      "choices": [
+        "서민을 위한 저당금융제도 실시",
+        "일반소득분포 개선",
+        "주택규모분포 개선",
+        "사회임대주택"
+      ],
+      "explanation": "4. 부동산 정책론: 구매력 강화 방안 : 일반소득분포 개선, 주택규모분포 개선, 서민을 위한 저당금융제도 실시, 사회임대주택",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-290",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택건설보증(대한주택보증주식회사) : 주택분양보증, {{blank}}, 하자보수보증",
+      "answer": "주택임대보증",
+      "choices": [
+        "주택임대보증",
+        "주택분양보증",
+        "하자보수보증",
+        "저당금융"
+      ],
+      "explanation": "6. 부동산 금융론: 주택건설보증(대한주택보증주식회사) : 주택분양보증, 주택임대보증, 하자보수보증",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-291",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산 활동의 분류 : 소유활동(최유효이용의 원칙), {{blank}}, 부동산 정책 및 행정활동",
+      "answer": "거래활동(거래질서 확립)",
+      "choices": [
+        "거래활동(거래질서 확립)",
+        "소유활동(최유효이용의 원칙)",
+        "부동산 정책 및 행정활동",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 활동의 분류 : 소유활동(최유효이용의 원칙), 거래활동(거래질서 확립), 부동산 정책 및 행정활동",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-292",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "전형적인 투기수단 탈법행위 금지 : 부동산실명제, {{blank}}, 등기의무화, 검인제도 등",
+      "answer": "미등기전매금지",
+      "choices": [
+        "미등기전매금지",
+        "부동산실명제",
+        "등기의무화",
+        "검인제도 등"
+      ],
+      "explanation": "4. 부동산 정책론: 전형적인 투기수단 탈법행위 금지 : 부동산실명제, 미등기전매금지, 등기의무화, 검인제도 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-293",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "주택건설보증(대한주택보증주식회사) : 주택분양보증, 주택임대보증, {{blank}}",
+      "answer": "하자보수보증",
+      "choices": [
+        "하자보수보증",
+        "주택분양보증",
+        "주택임대보증",
+        "저당금융"
+      ],
+      "explanation": "6. 부동산 금융론: 주택건설보증(대한주택보증주식회사) : 주택분양보증, 주택임대보증, 하자보수보증",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "6. 부동산 금융론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-294",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산 활동의 분류 : 소유활동(최유효이용의 원칙), 거래활동(거래질서 확립), {{blank}}",
+      "answer": "부동산 정책 및 행정활동",
+      "choices": [
+        "부동산 정책 및 행정활동",
+        "소유활동(최유효이용의 원칙)",
+        "거래활동(거래질서 확립)",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산 활동의 분류 : 소유활동(최유효이용의 원칙), 거래활동(거래질서 확립), 부동산 정책 및 행정활동",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-295",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "전형적인 투기수단 탈법행위 금지 : {{blank}}, 미등기전매금지, 등기의무화, 검인제도 등",
+      "answer": "부동산실명제",
+      "choices": [
+        "부동산실명제",
+        "미등기전매금지",
+        "등기의무화",
+        "검인제도 등"
+      ],
+      "explanation": "4. 부동산 정책론: 전형적인 투기수단 탈법행위 금지 : 부동산실명제, 미등기전매금지, 등기의무화, 검인제도 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-296",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동성(지리적 위치의 고정성, 비이동성) : 국지화 지역적 세분, 추상적 시장, {{blank}}",
+      "answer": "외부효과 발생",
+      "choices": [
+        "외부효과 발생",
+        "국지화 지역적 세분",
+        "추상적 시장",
+        "부동산 결정분야(실무)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동성(지리적 위치의 고정성, 비이동성) : 국지화 지역적 세분, 추상적 시장, 외부효과 발생",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-297",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "전형적인 투기수단 탈법행위 금지 : 부동산실명제, 미등기전매금지, {{blank}}, 검인제도 등",
+      "answer": "등기의무화",
+      "choices": [
+        "등기의무화",
+        "부동산실명제",
+        "미등기전매금지",
+        "검인제도 등"
+      ],
+      "explanation": "4. 부동산 정책론: 전형적인 투기수단 탈법행위 금지 : 부동산실명제, 미등기전매금지, 등기의무화, 검인제도 등",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-298",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동산학의 기초분야(이론) : {{blank}}, 부동산법, 도시지역, 부동산 시장.세금, 금융수학",
+      "answer": "부동산의 특성",
+      "choices": [
+        "부동산의 특성",
+        "부동산법",
+        "도시지역",
+        "부동산 시장.세금"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동산학의 기초분야(이론) : 부동산의 특성, 부동산법, 도시지역, 부동산 시장.세금, 금융수학",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-299",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "토지거래 관련 : 검인계약서, 토지거래허가제, {{blank}}, 투기과열지구(분양권 전매제한), 투기지",
+      "answer": "농지취득자격증명제",
+      "choices": [
+        "농지취득자격증명제",
+        "검인계약서",
+        "토지거래허가제",
+        "투기과열지구(분양권 전매제한)"
+      ],
+      "explanation": "4. 부동산 정책론: 토지거래 관련 : 검인계약서, 토지거래허가제, 농지취득자격증명제, 투기과열지구(분양권 전매제한), 투기지",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "4. 부동산 정책론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-01-300",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "부동성(지리적 위치의 고정성, 비이동성) : 국지화 지역적 세분, {{blank}}, 외부효과 발생",
+      "answer": "추상적 시장",
+      "choices": [
+        "추상적 시장",
+        "국지화 지역적 세분",
+        "외부효과 발생",
+        "국지적 시장"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 부동성(지리적 위치의 고정성, 비이동성) : 국지화 지역적 세분, 추상적 시장, 외부효과 발생",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "reviewStatus": "pending",
+  "legalAsOf": null
+}
