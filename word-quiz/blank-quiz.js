@@ -36,7 +36,7 @@
   els.subjectTitle.textContent = bank.subject || '괄호문제';
   const bankStatus=document.createElement('p');
   bankStatus.className='bank-status';
-  bankStatus.textContent=`전체 ${bank.questions.length}문제`+(bank.reviewStatus==='approved'?'':' · 내용 검토 중인 초안');
+  bankStatus.textContent=`전체 ${bank.questions.length}문제`+(bank.reviewStatus==='approved'?'':' · 내용 검토 진행 중');
   els.subjectTitle.insertAdjacentElement('afterend',bankStatus);
   els.newSetTopBtn.textContent = '새 10문제';
   els.newSetBtn.textContent = '새로운 10문제';
