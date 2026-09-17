@@ -1,0 +1,754 @@
+[
+  {
+    "id": "blank-01-070",
+    "before": {
+      "id": "blank-01-070",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "(일시불의 현가계수) {{blank}}이 현재 얼마만한 가치? 가치를 가지는 현재의 액수 구함 (1+r)n",
+      "answer": "1원",
+      "choices": [
+        "1원",
+        "2원",
+        "3원",
+        "4원"
+      ],
+      "explanation": "5. 부동산 투자론: (일시불의 현가계수) 1원이 현재 얼마만한 가치? 가치를 가지는 현재의 액수 구함 (1+r)n",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-01-070",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "기간당 할인율을 r(소수), 기간 수를 n이라 할 때, n기간 후 받을 1원의 현재가치를 구하는 계수는 {{blank}}이다.",
+      "answer": "1 / (1+r)^n",
+      "choices": [
+        "1 / (1+r)^n",
+        "(1+r)^n",
+        "((1+r)^n - 1) / r",
+        "r / ((1+r)^n - 1)"
+      ],
+      "explanation": "일시불의 현가계수는 1/(1+r)^n이다. 미래의 일시금을 현재가치로 할인할 때 사용한다. 원문 부동산 투자론의 수식 표를 문장으로 복원했다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "5. 부동산 투자론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "6c630652b758ca8c978bfa90aceca16888086353811c7400f8276fd9060cb3c8",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-01-181",
+    "before": {
+      "id": "blank-01-181",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 탄력적 ④ 주거용이 다른 용도 보다 탄력적",
+      "answer": "용도전환이 용이",
+      "choices": [
+        "용도전환이 용이",
+        "저량(Stock)",
+        "수요의 교차탄력성",
+        "대체재 多"
+      ],
+      "explanation": "2. 부동산 경제론: 용도전환이 용이 : 탄력적 ④ 주거용이 다른 용도 보다 탄력적",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-01-181",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다른 조건이 같을 때, 부동산을 다른 용도로 쉽게 전환할 수 있으면 공급의 가격탄력성은 일반적으로 {{blank}}.",
+      "answer": "커진다",
+      "choices": [
+        "커진다",
+        "작아진다",
+        "항상 0이다",
+        "반드시 음수가 된다"
+      ],
+      "explanation": "용도전환이 쉬우면 가격 변화에 대응하여 해당 용도의 공급량을 조절하기 쉬우므로 공급이 더 탄력적이다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "63763e6c262df3fa2da1e40d0683b1410ad7d2f2c62ee74190d37dbdf04c9c84",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-01-187",
+    "before": {
+      "id": "blank-01-187",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — (건부지평가액 < 나지평가액) 건물 등이 부지의 최유효이용을 저해하는 경우에 그 제약분을",
+      "answer": "건부감가",
+      "choices": [
+        "건부감가",
+        "부동산 결정분야(실무)",
+        "부동산 결정지원분야(실무)",
+        "부동산학의 기초분야(이론)"
+      ],
+      "explanation": "1. 부동산학의 기본원리: 건부감가 : (건부지평가액 < 나지평가액) 건물 등이 부지의 최유효이용을 저해하는 경우에 그 제약분을",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-01-187",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "기존 건물이 토지의 최유효이용을 방해하여 그 제약만큼 부지가격을 낮게 평가하는 것을 {{blank}}라고 한다.",
+      "answer": "건부감가",
+      "choices": [
+        "건부감가",
+        "건부증가",
+        "개발이익",
+        "외부경제"
+      ],
+      "explanation": "건물로 인한 이용 제약을 부지가격에 감가하는 것이다. 원문에서 다음 줄로 이어지는 정의를 복원했다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "1. 부동산학의 기본원리",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "253393171bbdf6aa896cac7e91a13ef8ef9cbd37202b44745627b4629c1e1220",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-01-249",
+    "before": {
+      "id": "blank-01-249",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 교차탄력성 : = 0 → 독립재, > 0 → 대체재, {{blank}}",
+      "answer": "< 0 → 보완재 (연관 상품 가격변화)",
+      "choices": [
+        "< 0 → 보완재 (연관 상품 가격변화)",
+        "= 0 → 독립재",
+        "> 0 → 대체재",
+        "30~40개월 주기"
+      ],
+      "explanation": "2. 부동산 경제론: 수요의 교차탄력성 : = 0 → 독립재, > 0 → 대체재, < 0 → 보완재 (연관 상품 가격변화)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-01-249",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다른 조건이 같을 때, 한 재화의 가격 상승으로 다른 재화의 수요량이 감소하면 두 재화는 {{blank}} 관계이다.",
+      "answer": "보완재",
+      "choices": [
+        "보완재",
+        "대체재",
+        "독립재",
+        "동일재"
+      ],
+      "explanation": "보완재는 수요의 교차탄력성이 음수인 관계이다. 함께 사용하는 재화의 가격이 오르면 해당 재화의 수요도 줄어든다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "1dfa34c07908666f967b4d94f3e926b80e575f6d743dcb2550896b7afd7229c1",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-01-273",
+    "before": {
+      "id": "blank-01-273",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "수요의 교차탄력성 : = 0 → 독립재, {{blank}}, < 0 → 보완재 (연관 상품 가격변화)",
+      "answer": "> 0 → 대체재",
+      "choices": [
+        "> 0 → 대체재",
+        "= 0 → 독립재",
+        "< 0 → 보완재 (연관 상품 가격변화)",
+        "30~40개월 주기"
+      ],
+      "explanation": "2. 부동산 경제론: 수요의 교차탄력성 : = 0 → 독립재, > 0 → 대체재, < 0 → 보완재 (연관 상품 가격변화)",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "pending",
+        "legal": "not-applicable",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-01-273",
+      "type": "blank",
+      "subject": "부동산학개론",
+      "prompt": "다른 조건이 같을 때, 한 재화의 가격 상승으로 다른 재화의 수요량이 증가하면 두 재화는 {{blank}} 관계이다.",
+      "answer": "대체재",
+      "choices": [
+        "대체재",
+        "보완재",
+        "독립재",
+        "동일재"
+      ],
+      "explanation": "대체재는 수요의 교차탄력성이 양수인 관계이다. 상대 재화의 가격이 오르면 그 재화를 대신하는 재화의 수요가 늘어난다.",
+      "source": "1.공인중개사요약_부동산학개론.pdf",
+      "section": "2. 부동산 경제론",
+      "review": {
+        "wording": "approved",
+        "legal": "not-applicable",
+        "references": [],
+        "contentHash": "8341a88aef77674f1f6c1ce47de1c991e4490ee713d87a57c421936d310a0ab3",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-03-069",
+    "before": {
+      "id": "blank-03-069",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 장관의 ‘인가’를 받아야 설립등기 가능",
+      "answer": "인가주의",
+      "choices": [
+        "인가주의",
+        "임의설립주의",
+        "년 공인중개사법 법 분리",
+        "제척 사유"
+      ],
+      "explanation": "8. 공인중개사협회 (1~3문제): 인가주의 : 장관의 ‘인가’를 받아야 설립등기 가능",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "8. 공인중개사협회 (1~3문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-03-069",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "공인중개사협회 설립 시 국토교통부장관의 승인을 요구하는 법적 방식은 {{blank}}이다.",
+      "answer": "인가주의",
+      "choices": [
+        "인가주의",
+        "준칙주의",
+        "신고주의",
+        "자유설립주의"
+      ],
+      "explanation": "공인중개사협회는 국토교통부장관의 인가를 받아 설립하는 구조이다. 단순 신고만으로 설립하는 방식과 구별한다.",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "8. 공인중개사협회 (1~3문제)",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "fbaf2bfecfe8e1128c987b24bcaa260b9022b49836fb762cc2bd5afe03f83607",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    }
+  },
+  {
+    "id": "blank-03-099",
+    "before": {
+      "id": "blank-03-099",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 설립 및 가입 자유, 협회의 수 제한 없음, 복수 협회 가입 가능",
+      "answer": "임의설립주의",
+      "choices": [
+        "임의설립주의",
+        "인가주의",
+        "년 공인중개사법 법 분리",
+        "제척 사유"
+      ],
+      "explanation": "8. 공인중개사협회 (1~3문제): 임의설립주의 : 설립 및 가입 자유, 협회의 수 제한 없음, 복수 협회 가입 가능",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "8. 공인중개사협회 (1~3문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-03-099",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "협회에 가입할지 여부를 구성원의 자유로운 의사에 맡기는 원칙을 {{blank}}라고 한다.",
+      "answer": "임의가입주의",
+      "choices": [
+        "임의가입주의",
+        "강제가입주의",
+        "당연가입주의",
+        "의무가입주의"
+      ],
+      "explanation": "이 문항은 임의가입이라는 용어의 뜻을 묻는다. 협회의 설립 인가와 회원의 가입 의무는 서로 다른 쟁점이다.",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "8. 공인중개사협회 (1~3문제)",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "10e5bb794aa95ca180de206b656c7c23e173c953d35722029f1f101db30c67ba",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-03-231",
+    "before": {
+      "id": "blank-03-231",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 일정한 요건을 갖추 자에게만 권리를 행사할 수 있게 허가해 주는 것 (건축, 운전면허, 음식점 등)",
+      "answer": "※ 허가",
+      "choices": [
+        "※ 허가",
+        "※ 부동산 거래사고 예방을 위한 교육",
+        "장관",
+        "시도지사"
+      ],
+      "explanation": "7. 교육 및 보칙 (2~3문제): ※ 허가 : 일정한 요건을 갖추 자에게만 권리를 행사할 수 있게 허가해 주는 것 (건축, 운전면허, 음식점 등)",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "7. 교육 및 보칙 (2~3문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-03-231",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "행정법상 일반적으로 금지된 행위를 일정한 요건을 갖춘 사람에게 할 수 있도록 금지를 해제하는 행위를 {{blank}}라고 한다.",
+      "answer": "허가",
+      "choices": [
+        "허가",
+        "특허",
+        "인가",
+        "행정지도"
+      ],
+      "explanation": "허가는 일반적 금지를 해제하는 행위이다. 새로운 권리를 설정하는 특허나 법률행위의 효력을 보충하는 인가와 구별한다.",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "7. 교육 및 보칙 (2~3문제)",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "bf9c6d61c23c1a96af99d873345f88e1a7c0ce0332ed6242c1b9bdc82bcfbbdd",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-03-270",
+    "before": {
+      "id": "blank-03-270",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "설정 금액 : {{blank}}, 개인인 개업공인중개사 1억원 이상, 지역농",
+      "answer": "법인 2억원 이상(분사무소마다 1억원 이상 추가)",
+      "choices": [
+        "법인 2억원 이상(분사무소마다 1억원 이상 추가)",
+        "개인인 개업공인중개사 1억원 이상",
+        "지역농",
+        "공탁 → 공탁금은 폐업.사망 후 3년 이내 회수 불가"
+      ],
+      "explanation": "5. 개업공인중개사의 의무 및 책임 (6~7문제): 설정 금액 : 법인 2억원 이상(분사무소마다 1억원 이상 추가), 개인인 개업공인중개사 1억원 이상, 지역농",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "5. 개업공인중개사의 의무 및 책임 (6~7문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-03-270",
+      "type": "blank",
+      "subject": "공인중개사법령 및 중개실무",
+      "prompt": "분사무소가 없는 법인인 개업공인중개사가 설정해야 하는 손해배상책임 보장금액의 최저한도는 {{blank}}이다.",
+      "answer": "4억원",
+      "choices": [
+        "4억원",
+        "1억원",
+        "2억원",
+        "3억원"
+      ],
+      "explanation": "법인인 개업공인중개사의 보장금액은 4억원 이상이다. 분사무소를 두면 분사무소마다 2억원 이상을 추가한다.",
+      "source": "3.공인중개사요약_중개사법.pdf",
+      "section": "5. 개업공인중개사의 의무 및 책임 (6~7문제)",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "e0a1cde0d971a5fe113118e70932cb895db2988d78d8624557a54f109f5e95a8",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    }
+  },
+  {
+    "id": "blank-04-132",
+    "before": {
+      "id": "blank-04-132",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 대도시 시장이 아닌 시장은 기본계획 수립/변경 시 도지사 승인 얻어야 하며, 도",
+      "answer": "도지사의 승인 및 심의",
+      "choices": [
+        "도지사의 승인 및 심의",
+        "지사",
+        "고시 및 보고",
+        "정비계획의 내용"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 도지사의 승인 및 심의 : 대도시 시장이 아닌 시장은 기본계획 수립/변경 시 도지사 승인 얻어야 하며, 도",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-04-132",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·주거환경정비기본계획을 수립하거나 변경하는 대도시가 아닌 시의 시장이 원칙적으로 승인을 받아야 하는 기관은 {{blank}}이다.",
+      "answer": "도지사",
+      "choices": [
+        "도지사",
+        "국토교통부장관",
+        "구청장",
+        "정비사업조합"
+      ],
+      "explanation": "대도시가 아닌 시의 시장은 도시·주거환경정비기본계획을 수립하거나 변경할 때 원칙적으로 도지사의 승인을 받는다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "d460455aaafbe83dea83eea10da7ef27205e1f7f5271952f6a35fd36c01f2980",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    }
+  },
+  {
+    "id": "blank-04-170",
+    "before": {
+      "id": "blank-04-170",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 농업보호구역을 농업진흥구역으로 변경하거나 농업진흥구역 안의",
+      "answer": "농촌및식품산업정책심의회 심의 없이",
+      "choices": [
+        "농촌및식품산업정책심의회 심의 없이",
+        "농지조성사업 또",
+        "농지개량사업 또",
+        "지하자원 개발을 위한 탐사 또"
+      ],
+      "explanation": "3. 농지의 보전: 농촌및식품산업정책심의회 심의 없이 : 농업보호구역을 농업진흥구역으로 변경하거나 농업진흥구역 안의",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-04-170",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "농업진흥지역은 농업진흥구역과 {{blank}}으로 구분한다.",
+      "answer": "농업보호구역",
+      "choices": [
+        "농업보호구역",
+        "개발제한구역",
+        "보전산지",
+        "수산자원보호구역"
+      ],
+      "explanation": "농업진흥지역은 농업진흥구역과 농업보호구역으로 구분한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "2078f70d5a8b765d1c6dec2724b7cda81e66b14e43471175e006da6ac5cf0050",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    }
+  },
+  {
+    "id": "blank-04-231",
+    "before": {
+      "id": "blank-04-231",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시장.순수의 시행인가 전",
+      "answer": "건축위원회 심의",
+      "choices": [
+        "건축위원회 심의",
+        "조합의 시공자 선정",
+        "토지등소유자의 시공자 선정",
+        "시장.군수 등의 시공자 선정"
+      ],
+      "explanation": "3. 정비사업의 시행: 건축위원회 심의 : 시장.순수의 시행인가 전",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-04-231",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군관리계획으로 정하는 용도지역 중 도시지역은 주거지역·상업지역·공업지역과 {{blank}}으로 구분한다.",
+      "answer": "녹지지역",
+      "choices": [
+        "녹지지역",
+        "관리지역",
+        "농림지역",
+        "자연환경보전지역"
+      ],
+      "explanation": "도시지역은 주거지역·상업지역·공업지역·녹지지역으로 구분한다. 관리지역·농림지역·자연환경보전지역은 도시지역과 같은 단계의 구분이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "1f12287c342dabbfddd17da9db31892a40820b9597e1198e4883ec9850a3d807",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    }
+  },
+  {
+    "id": "blank-05-130",
+    "before": {
+      "id": "blank-05-130",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지표시변동이 있을 때 토지표시사항은 일정한 형식을 갖춘 지적공부에 등록·공시하여야 공식적인 효력",
+      "answer": "지적형식(등록)주의",
+      "choices": [
+        "지적형식(등록)주의",
+        "지적공개주의",
+        "실질적심사주의",
+        "적극적등록주의"
+      ],
+      "explanation": "2. 지적 총론: 지적형식(등록)주의 : 토지표시변동이 있을 때 토지표시사항은 일정한 형식을 갖춘 지적공부에 등록·공시하여야 공식적인 효력",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-05-130",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "토지의 표시사항을 일정한 형식을 갖춘 공부에 등록하여 공시해야 한다는 지적제도의 원칙은 {{blank}}이다.",
+      "answer": "지적형식주의",
+      "choices": [
+        "지적형식주의",
+        "지적공개주의",
+        "지적국정주의",
+        "실질적심사주의"
+      ],
+      "explanation": "지적형식주의는 토지의 표시사항을 정해진 형식의 지적공부에 등록하여 공시한다는 원칙이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "d2e5f8cedd0a6644adc5a667d3eda50661e4a20c18066589d3f4088d0609b454",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-05-150",
+    "before": {
+      "id": "blank-05-150",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지이동이 있는 경우에 소관청은 적법성과 사실관계의 부합여부 등을 실질적으로 심사하여 즉, 토지이동조사",
+      "answer": "실질적심사주의",
+      "choices": [
+        "실질적심사주의",
+        "지적형식(등록)주의",
+        "지적공개주의",
+        "적극적등록주의"
+      ],
+      "explanation": "2. 지적 총론: 실질적심사주의 : 토지이동이 있는 경우에 소관청은 적법성과 사실관계의 부합여부 등을 실질적으로 심사하여 즉, 토지이동조사",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-05-150",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "토지이동의 적법성뿐 아니라 신청 내용과 사실관계가 일치하는지도 조사하여 지적공부를 정리하는 원칙은 {{blank}}이다.",
+      "answer": "실질적심사주의",
+      "choices": [
+        "실질적심사주의",
+        "형식적심사주의",
+        "지적공개주의",
+        "지적형식주의"
+      ],
+      "explanation": "실질적심사는 서류의 형식만 살피는 것을 넘어 사실관계와의 부합 여부도 확인하는 것이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "bdde64c6fb04d05064444df95640ad684e69f651292d9f7391d4baba74abfc3f",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-05-160",
+    "before": {
+      "id": "blank-05-160",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지적공부에 등록된 모든 사항은 토지소유자나 이해관계인은 물론이고 일반국민으로 하여금 이용할 수 있도록 하",
+      "answer": "지적공개주의",
+      "choices": [
+        "지적공개주의",
+        "지적형식(등록)주의",
+        "실질적심사주의",
+        "적극적등록주의"
+      ],
+      "explanation": "2. 지적 총론: 지적공개주의 : 지적공부에 등록된 모든 사항은 토지소유자나 이해관계인은 물론이고 일반국민으로 하여금 이용할 수 있도록 하",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-05-160",
+      "type": "blank",
+      "subject": "부동산공시법",
+      "prompt": "지적공부의 등록사항을 일반 국민이 열람하고 이용할 수 있도록 한다는 지적제도의 원칙은 {{blank}}이다.",
+      "answer": "지적공개주의",
+      "choices": [
+        "지적공개주의",
+        "지적형식주의",
+        "지적국정주의",
+        "실질적심사주의"
+      ],
+      "explanation": "지적공개주의는 지적공부의 등록사항을 공시하여 일반 국민이 이용할 수 있도록 하는 원칙이다.",
+      "source": "4.공인중개사요약_공시법.pdf",
+      "section": "2. 지적 총론",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "c46c6a070cd0e9b1b3a73baa9aeef5ff094ff43551d5394c9c887631cbc5bcb6",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  },
+  {
+    "id": "blank-06-085",
+    "before": {
+      "id": "blank-06-085",
+      "type": "blank",
+      "subject": "부동산세법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 이자소득, 배당소득을 제외한 모든 소득은 열거주의",
+      "answer": "열거주의와 유형별 포괄주의",
+      "choices": [
+        "열거주의와 유형별 포괄주의",
+        "성격 각종 의무의 불이행에 가해지",
+        "➝ 종합부동산세",
+        "※ 소멸시효 정지(시효 유예) 사유"
+      ],
+      "explanation": "6. 기타 소득세 (1문제): 열거주의와 유형별 포괄주의 : 이자소득, 배당소득을 제외한 모든 소득은 열거주의",
+      "source": "4.공인중개사요약_세법.pdf",
+      "section": "6. 기타 소득세 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    "after": {
+      "id": "blank-06-085",
+      "type": "blank",
+      "subject": "부동산세법",
+      "prompt": "법률에서 과세대상 소득을 개별적으로 나열하고 그 범위에 포함된 소득에 과세하는 방식을 {{blank}}라고 한다.",
+      "answer": "열거주의",
+      "choices": [
+        "열거주의",
+        "포괄주의",
+        "실질과세원칙",
+        "신의성실원칙"
+      ],
+      "explanation": "열거주의는 법률에 열거된 소득을 과세대상으로 삼는 방식이다. 개별 소득 유형에 대한 적용 범위는 별도 문제이다.",
+      "source": "4.공인중개사요약_세법.pdf",
+      "section": "6. 기타 소득세 (1문제)",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "8526989ce52d7a936187755ffbb05b0978b6c6834900f071005121519c3c0d8b",
+        "note": "문장·선택지 교정. 법령 문항의 현행성 검토는 별도 상태를 따른다."
+      }
+    }
+  }
+]

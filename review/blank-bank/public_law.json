@@ -1,0 +1,6286 @@
+{
+  "subject": "부동산공법",
+  "targetCount": 300,
+  "generatedCount": 300,
+  "questions": [
+    {
+      "id": "blank-04-001",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "광역도시계획은 국토종합계획의 {{blank}}계획이다.",
+      "answer": "하위",
+      "choices": [
+        "하위",
+        "상위",
+        "동일",
+        "대체"
+      ],
+      "explanation": "요약자료는 광역도시계획을 국토종합계획의 하위계획으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-002",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군기본계획은 도시·군관리계획의 {{blank}}이 되는 계획이다.",
+      "answer": "지침",
+      "choices": [
+        "지침",
+        "허가",
+        "등기",
+        "세율"
+      ],
+      "explanation": "도시·군기본계획은 도시·군관리계획의 지침이 된다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-003",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군기본계획은 원칙적으로 {{blank}}적 행정계획이다.",
+      "answer": "비구속",
+      "choices": [
+        "비구속",
+        "구속",
+        "사법",
+        "처분"
+      ],
+      "explanation": "요약자료는 도시·군기본계획을 비구속적 행정계획으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-004",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군기본계획의 타당성 여부는 {{blank}}년마다 재검토한다.",
+      "answer": "5",
+      "choices": [
+        "5",
+        "3",
+        "10",
+        "1"
+      ],
+      "explanation": "요약자료는 5년마다 타당성 여부를 재검토하도록 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-005",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군기본계획 수립 과정에서 관계 행정기관의 장은 원칙적으로 {{blank}}일 이내 의견을 제시한다.",
+      "answer": "30",
+      "choices": [
+        "30",
+        "15",
+        "60",
+        "90"
+      ],
+      "explanation": "요약자료는 관계 행정기관의 장의 의견제시 기간을 30일 이내로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-006",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군관리계획의 원칙적 입안권자는 관할구역의 {{blank}}이다.",
+      "answer": "시장·군수",
+      "choices": [
+        "시장·군수",
+        "법원장",
+        "국세청장",
+        "협회장"
+      ],
+      "explanation": "도시·군관리계획은 원칙적으로 시장·군수가 입안한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-007",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군관리계획에 포함되는 사항 중 하나는 용도지역·용도지구의 {{blank}} 또는 변경이다.",
+      "answer": "지정",
+      "choices": [
+        "지정",
+        "과세",
+        "등기",
+        "매매"
+      ],
+      "explanation": "용도지역·용도지구 지정 또는 변경은 도시·군관리계획 내용이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-008",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "주민이 도시·군관리계획 입안을 제안한 경우 입안권자는 원칙적으로 {{blank}}일 내 반영 여부를 통보한다.",
+      "answer": "45",
+      "choices": [
+        "45",
+        "30",
+        "60",
+        "90"
+      ],
+      "explanation": "요약자료는 주민 제안에 대해 45일 내 반영 여부 통보로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-009",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군관리계획의 주민 의견청취에서 공람기간은 {{blank}}일 이상이다.",
+      "answer": "14",
+      "choices": [
+        "14",
+        "7",
+        "30",
+        "60"
+      ],
+      "explanation": "요약자료는 주민 의견청취를 위해 14일 이상 공람하도록 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-010",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "제1종 전용주거지역은 {{blank}} 중심의 양호한 주거환경 보호를 위한 지역이다.",
+      "answer": "단독주택",
+      "choices": [
+        "단독주택",
+        "공동주택",
+        "공장",
+        "상업시설"
+      ],
+      "explanation": "제1종 전용주거지역은 단독주택 중심이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-011",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "제2종 전용주거지역은 {{blank}} 중심의 양호한 주거환경 보호를 위한 지역이다.",
+      "answer": "공동주택",
+      "choices": [
+        "공동주택",
+        "단독주택",
+        "공장",
+        "창고"
+      ],
+      "explanation": "제2종 전용주거지역은 공동주택 중심이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-012",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "제1종 일반주거지역은 {{blank}}주택 중심의 편리한 주거환경 조성을 위한 지역이다.",
+      "answer": "저층",
+      "choices": [
+        "저층",
+        "중층",
+        "고층",
+        "초고층"
+      ],
+      "explanation": "요약자료는 제1종 일반주거지역을 저층주택 중심으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-013",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "제2종 일반주거지역은 {{blank}}주택 중심의 편리한 주거환경 조성을 위한 지역이다.",
+      "answer": "중층",
+      "choices": [
+        "중층",
+        "저층",
+        "단독",
+        "공업"
+      ],
+      "explanation": "요약자료는 제2종 일반주거지역을 중층주택 중심으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-014",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "준주거지역은 주거기능을 위주로 일부 {{blank}}·업무기능을 보완하는 지역이다.",
+      "answer": "상업",
+      "choices": [
+        "상업",
+        "농업",
+        "수산",
+        "광업"
+      ],
+      "explanation": "준주거지역은 주거기능을 중심으로 상업·업무기능을 보완한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-015",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "중심상업지역은 도심·부도심의 {{blank}} 및 업무기능 확충을 위한 지역이다.",
+      "answer": "상업기능",
+      "choices": [
+        "상업기능",
+        "농업기능",
+        "주거전용기능",
+        "보전기능"
+      ],
+      "explanation": "중심상업지역은 도심·부도심의 상업 및 업무기능 확충을 목적으로 한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-016",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "일반상업지역은 일반적인 {{blank}} 및 업무기능을 담당하게 하기 위한 지역이다.",
+      "answer": "상업기능",
+      "choices": [
+        "상업기능",
+        "농림기능",
+        "보전기능",
+        "주거전용기능"
+      ],
+      "explanation": "일반상업지역은 일반적인 상업 및 업무기능을 담당한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-017",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "근린상업지역은 근린지역의 일용품 및 {{blank}} 공급을 위한 지역이다.",
+      "answer": "서비스",
+      "choices": [
+        "서비스",
+        "농산물만",
+        "광물",
+        "공업용수"
+      ],
+      "explanation": "근린상업지역은 일용품과 서비스 공급을 위한 지역이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-018",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "환지방식 개발계획에서 토지면적 기준 동의요건은 {{blank}} 이상이다.",
+      "answer": "3분의 2",
+      "choices": [
+        "3분의 2",
+        "2분의 1",
+        "4분의 3",
+        "5분의 3"
+      ],
+      "explanation": "요약자료는 환지방식 개발계획에서 토지면적 3분의 2 이상 동의를 요구한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-019",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "환지방식 개발계획에서 토지소유자 총수 기준 동의요건은 {{blank}} 이상이다.",
+      "answer": "2분의 1",
+      "choices": [
+        "2분의 1",
+        "3분의 2",
+        "4분의 3",
+        "3분의 1"
+      ],
+      "explanation": "요약자료는 토지소유자 총수 2분의 1 이상 동의를 요구한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-020",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시개발구역이 지정·고시된 날부터 원칙적으로 {{blank}}년까지 실시계획 인가를 신청하지 않으면 지정 해제 사유가 된다.",
+      "answer": "3",
+      "choices": [
+        "3",
+        "2",
+        "5",
+        "1"
+      ],
+      "explanation": "요약자료의 원칙적 해제기준은 3년이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-021",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "일반적인 건축법상 도로는 보행과 자동차 통행이 가능한 너비 {{blank}}m 이상의 도로다.",
+      "answer": "4",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "explanation": "요약자료는 원칙적 도로 너비를 4m 이상으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-022",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "차량통행이 곤란한 구간으로 지정·공고된 도로는 너비 {{blank}}m 이상일 수 있다.",
+      "answer": "3",
+      "choices": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "explanation": "요약자료는 예외적인 차량통행 불가능 도로를 3m 이상으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-023",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "건축물 대지는 원칙적으로 도로에 {{blank}}m 이상 접해야 한다.",
+      "answer": "2",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "1"
+      ],
+      "explanation": "대지와 도로의 관계에서 접도길이는 원칙적으로 2m 이상이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-024",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "연면적 2천㎡ 이상 건축물의 대지는 원칙적으로 너비 6m 이상 도로에 {{blank}}m 이상 접해야 한다.",
+      "answer": "4",
+      "choices": [
+        "4",
+        "2",
+        "6",
+        "8"
+      ],
+      "explanation": "요약자료는 일정 대규모 건축물에 4m 이상 접도를 요구한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-025",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "막다른 도로 길이가 10m 미만이면 도로 너비는 {{blank}}m 이상이다.",
+      "answer": "2",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "요약자료는 10m 미만 막다른 도로 너비를 2m 이상으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-026",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "막다른 도로 길이가 10m 이상 35m 미만이면 도로 너비는 {{blank}}m 이상이다.",
+      "answer": "3",
+      "choices": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "explanation": "요약자료는 해당 구간의 도로 너비를 3m 이상으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-027",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "막다른 도로 길이가 35m 이상이면 원칙적으로 도로 너비는 {{blank}}m 이상이다.",
+      "answer": "6",
+      "choices": [
+        "6",
+        "4",
+        "3",
+        "2"
+      ],
+      "explanation": "요약자료는 35m 이상 막다른 도로를 원칙적으로 6m 이상으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-028",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공개공지는 연간 {{blank}}일 이내에서 주민 문화행사나 판촉활동에 이용할 수 있다.",
+      "answer": "60",
+      "choices": [
+        "60",
+        "30",
+        "90",
+        "120"
+      ],
+      "explanation": "요약자료는 공개공지의 행사·판촉 이용기간을 연간 60일 이내로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-029",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시개발구역 안 주거·상업·공업지역 면적 합계가 전체의 {{blank}} 이하이면 일부 경우 구역 지정 후 개발계획 수립이 가능하다.",
+      "answer": "30%",
+      "choices": [
+        "30%",
+        "50%",
+        "20%",
+        "10%"
+      ],
+      "explanation": "요약자료는 30% 이하를 예외 요건 중 하나로 제시한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-030",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시개발구역이 330만㎡ 이상인 경우 일부 해제 관련 기간은 {{blank}}년으로 연장되어 정리된다.",
+      "answer": "5",
+      "choices": [
+        "5",
+        "3",
+        "2",
+        "10"
+      ],
+      "explanation": "요약자료는 330만㎡ 이상인 경우 관련 기간을 5년으로 정리한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-031",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "일 전까지 {{blank}} 이상 일간신문에 공고",
+      "answer": "1회",
+      "choices": [
+        "1회",
+        "2회",
+        "3회",
+        "4회"
+      ],
+      "explanation": "1. 광역도시계획: 일 전까지 1회 이상 일간신문에 공고",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-032",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "타당성 여부 재검토 {{blank}}마다 “시장.군수”",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "2. 도시.군기본계획 (매년 출제): 타당성 여부 재검토 5년마다 “시장.군수”",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시.군기본계획 (매년 출제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-033",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "입안의 제안 주민이 입안을 제안할 수 있는 사항 (입안권자는 {{blank}} 내 반영여부 통보)",
+      "answer": "45일",
+      "choices": [
+        "45일",
+        "35일",
+        "55일",
+        "65일"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 입안의 제안 주민이 입안을 제안할 수 있는 사항 (입안권자는 45일 내 반영여부 통보)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-034",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "주 제1종~ {{blank}} 이하",
+      "answer": "100~200%",
+      "choices": [
+        "100~200%",
+        "0~100%",
+        "200~300%",
+        "300~400%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 주 제1종~ 100~200% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-035",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "정비구역, 택지개발지구에서 사업시행이 끝난 후 {{blank}}이 지난 지역",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 정비구역, 택지개발지구에서 사업시행이 끝난 후 10년이 지난 지역",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-036",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "자연환경보전지역 5,{{blank}} 미만",
+      "answer": "000㎡",
+      "choices": [
+        "000㎡",
+        "1㎡",
+        "2㎡",
+        "3㎡"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 자연환경보전지역 5,000㎡ 미만",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-037",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "시 결정을 알린 날로부터 {{blank}} 내 매수해야 함",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 시 결정을 알린 날로부터 2년 내 매수해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-038",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "수립 - 도시.군계획시설결정 고시일로부터 {{blank}} 이내",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 수립 - 도시.군계획시설결정 고시일로부터 2년 이내",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-039",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "일 이상 공고, {{blank}}간 일반 열람",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "9. 토지거래허가: 일 이상 공고, 15일간 일반 열람",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-040",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공무원이 아닌 위원의 수는 {{blank}} 이상, 임기는 2년",
+      "answer": "10명",
+      "choices": [
+        "10명",
+        "8명",
+        "12명",
+        "15명"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 공무원이 아닌 위원의 수는 10명 이상, 임기는 2년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-041",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "(위 예외사항 모두 330만㎡ 이상인 경우 {{blank}})",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "1. 도시개발구역의 지정: (위 예외사항 모두 330만㎡ 이상인 경우 5년)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-042",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "조합설립등기 조합설립인가를 받은 조합 대표자는 인가일부터 {{blank}} 내 주된 사무소 소재지",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 조합설립등기 조합설립인가를 받은 조합 대표자는 인가일부터 30일 내 주된 사무소 소재지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-043",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "소멸시효 – 이전의 고시일 다음 날부터 {{blank}}",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "1. 목적 및 용어: 소멸시효 – 이전의 고시일 다음 날부터 5년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-044",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "절차 : 주민에게 서면 통보 후 설명회 > {{blank}} 이상 공람 > 지방의회 의견청취 > 시도지사에게 정비구역",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 절차 : 주민에게 서면 통보 후 설명회 > 30일 이상 공람 > 지방의회 의견청취 > 시도지사에게 정비구역",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-045",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "인가 신청 전 {{blank}} 이상 토지등소유자에게 공람 및 의견청취",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "3. 정비사업의 시행: 인가 신청 전 30일 이상 토지등소유자에게 공람 및 의견청취",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-046",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 사업시행자가 부담 원칙",
+      "answer": "정비사업비",
+      "choices": [
+        "정비사업비",
+        "국가 또",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "4. 비용의 부담 등: 정비사업비는 사업시행자가 부담 원칙",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 비용의 부담 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-047",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "층의 구분이 명확하지 않은 경우 {{blank}}마다 하나의 층으로 봄",
+      "answer": "4m",
+      "choices": [
+        "4m",
+        "3m",
+        "5m",
+        "6m"
+      ],
+      "explanation": "1. 총칙: 층의 구분이 명확하지 않은 경우 4m마다 하나의 층으로 봄",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-048",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "연면적 {{blank}} 미만 3층 미만 대수선",
+      "answer": "200㎡",
+      "choices": [
+        "200㎡",
+        "150㎡",
+        "250㎡",
+        "300㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 연면적 200㎡ 미만 3층 미만 대수선",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-049",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "m 이상 35m 미만 {{blank}} 이상",
+      "answer": "3m",
+      "choices": [
+        "3m",
+        "2m",
+        "4m",
+        "5m"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: m 이상 35m 미만 3m 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-050",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "기둥과 기둥 사이의 거리가 {{blank}} 이상인 건축물",
+      "answer": "10m",
+      "choices": [
+        "10m",
+        "8m",
+        "12m",
+        "15m"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 기둥과 기둥 사이의 거리가 10m 이상인 건축물",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-051",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": ". 대지가 도로에 접하는 길이가 {{blank}}에 미달하는 대지",
+      "answer": "2m",
+      "choices": [
+        "2m",
+        "1m",
+        "3m",
+        "4m"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: . 대지가 도로에 접하는 길이가 2m에 미달하는 대지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-052",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "승강기 : 6층 이상 연면적 {{blank}} 이상인 건축물을 건축 시 승강기를 설치해야 함 (단, 6층인 건물로서 각",
+      "answer": "2000㎡",
+      "choices": [
+        "2000㎡",
+        "1950㎡",
+        "2050㎡",
+        "2100㎡"
+      ],
+      "explanation": "6. 건축설비 및 특별건축구역: 승강기 : 6층 이상 연면적 2000㎡ 이상인 건축물을 건축 시 승강기를 설치해야 함 (단, 6층인 건물로서 각",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 건축설비 및 특별건축구역",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-053",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주거환경관리사업을 시행하기 위해 지정.고시된 정비구역",
+      "answer": "주거환경개선사업 또",
+      "choices": [
+        "주거환경개선사업 또",
+        "소유자들",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "7. 건축협정 등: 주거환경개선사업 또는 주거환경관리사업을 시행하기 위해 지정.고시된 정비구역",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 건축협정 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-054",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": ". 각각의 주거전용면적이 {{blank}} 이상일 것",
+      "answer": "14㎡",
+      "choices": [
+        "14㎡",
+        "12㎡",
+        "16㎡",
+        "19㎡"
+      ],
+      "explanation": "1. 용어: . 각각의 주거전용면적이 14㎡ 이상일 것",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-055",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "신청일로부터 {{blank}} 이내에 사용검사 실시",
+      "answer": "15일",
+      "choices": [
+        "15일",
+        "13일",
+        "17일",
+        "20일"
+      ],
+      "explanation": "2. 주택의 건설: 신청일로부터 15일 이내에 사용검사 실시",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-056",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "운용상황의 보고 : 지방자치단체의 장은 분기가 끝나는 달의 다음달 {{blank}}까지 국토교통부장관에게 보고 (시",
+      "answer": "20일",
+      "choices": [
+        "20일",
+        "18일",
+        "22일",
+        "25일"
+      ],
+      "explanation": "3. 주택자금: 운용상황의 보고 : 지방자치단체의 장은 분기가 끝나는 달의 다음달 20일까지 국토교통부장관에게 보고 (시",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 주택자금",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-057",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "입주자자격제한 : {{blank}} 이내 범위",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "4. 주택의 공급: 입주자자격제한 : 10년 이내 범위",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-058",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "부과횟수 : 매년 {{blank}} 부과.징수",
+      "answer": "1회",
+      "choices": [
+        "1회",
+        "2회",
+        "3회",
+        "4회"
+      ],
+      "explanation": "1. 농지 소유 상한: 부과횟수 : 매년 1회 부과.징수",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-059",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "질병.징집 등 불가피한 경우 {{blank}} 미만 가능",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "2. 농지의 이용: 질병.징집 등 불가피한 경우 3년 미만 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 농지의 이용",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-060",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "필지의 토지 중 일부가 농업진흥지역 농업진흥지역에 속하는 토지부분의 면적이 {{blank}} 이하면 그",
+      "answer": "330㎡",
+      "choices": [
+        "330㎡",
+        "280㎡",
+        "380㎡",
+        "430㎡"
+      ],
+      "explanation": "3. 농지의 보전: 필지의 토지 중 일부가 농업진흥지역 농업진흥지역에 속하는 토지부분의 면적이 330㎡ 이하면 그",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-061",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공고.열람 송부받은 시도지사는 공고하고 {{blank}} 이상 열람하게 해야 함",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "1. 광역도시계획: 공고.열람 송부받은 시도지사는 공고하고 30일 이상 열람하게 해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-062",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "협의 관계 행정기관의 장, {{blank}} 이내 의견제시",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "2. 도시.군기본계획 (매년 출제): 협의 관계 행정기관의 장, 30일 이내 의견제시",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시.군기본계획 (매년 출제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-063",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "타당성 재검토 5년마다 “시장.군수” (도시군계획시설 결정의 타당성은 {{blank}} 내 검토)",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 타당성 재검토 5년마다 “시장.군수” (도시군계획시설 결정의 타당성은 10년 내 검토)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-064",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "거 제2종~ {{blank}} 이하",
+      "answer": "150~250%",
+      "choices": [
+        "150~250%",
+        "50~150%",
+        "250~350%",
+        "350~450%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 거 제2종~ 150~250% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-065",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "면 그 {{blank}}이 되는 날의 다음 날에 구역 지정 결정은 효력을 잃음",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 면 그 3년이 되는 날의 다음 날에 구역 지정 결정은 효력을 잃음",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-066",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시지역 공업지역 30,{{blank}} 미만",
+      "answer": "000㎡",
+      "choices": [
+        "000㎡",
+        "1㎡",
+        "2㎡",
+        "3㎡"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 도시지역 공업지역 30,000㎡ 미만",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-067",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "유지관리계획 : 공동구관리자가 {{blank}}마다 수립, 시행",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 유지관리계획 : 공동구관리자가 5년마다 수립, 시행",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-068",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "서 전부 또는 일부를 국가예산에서 보조 가능, 행정청이 시행하는 도시.군계획시설사업 비용 {{blank}} 이하",
+      "answer": "50%",
+      "choices": [
+        "50%",
+        "40%",
+        "60%",
+        "70%"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 서 전부 또는 일부를 국가예산에서 보조 가능, 행정청이 시행하는 도시.군계획시설사업 비용 50% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-069",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시 이외의 지역 임야 1,{{blank}} 초과",
+      "answer": "000㎡",
+      "choices": [
+        "000㎡",
+        "1㎡",
+        "2㎡",
+        "3㎡"
+      ],
+      "explanation": "9. 토지거래허가: 도시 이외의 지역 임야 1,000㎡ 초과",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-070",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공무원이 아닌 위원의 수는 10명 이상, 임기는 {{blank}}",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 공무원이 아닌 위원의 수는 10명 이상, 임기는 2년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-071",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시지역 안 (생산녹지지역이 도시개발구역 면적의 {{blank}} 이하인 경우만 해당)",
+      "answer": "30%",
+      "choices": [
+        "30%",
+        "20%",
+        "40%",
+        "50%"
+      ],
+      "explanation": "1. 도시개발구역의 지정: 도시지역 안 (생산녹지지역이 도시개발구역 면적의 30% 이하인 경우만 해당)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-072",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "조합설립의 인가 도시개발구역의 토지소유자 {{blank}} 이상이 정관을 작성하여 지정권자에게 조합",
+      "answer": "7명",
+      "choices": [
+        "7명",
+        "5명",
+        "9명",
+        "12명"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 조합설립의 인가 도시개발구역의 토지소유자 7명 이상이 정관을 작성하여 지정권자에게 조합",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-073",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양공고 사업시행자, 시행인가 고시가 있는 날부터 {{blank}} 이내",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "1. 목적 및 용어: 분양공고 사업시행자, 시행인가 고시가 있는 날부터 60일 이내",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-074",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공람, 의견청취, 심의 : 기본계획을 수립/변경하고자 하는 경우 {{blank}} 이상 주민(세입자 포함)에게 공람, 지",
+      "answer": "14일",
+      "choices": [
+        "14일",
+        "12일",
+        "16일",
+        "19일"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 공람, 의견청취, 심의 : 기본계획을 수립/변경하고자 하는 경우 14일 이상 주민(세입자 포함)에게 공람, 지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-075",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "입찰공고는 {{blank}} 이상 일간신문에 하고 현장설명회를 개최할 것",
+      "answer": "1회",
+      "choices": [
+        "1회",
+        "2회",
+        "3회",
+        "4회"
+      ],
+      "explanation": "3. 정비사업의 시행: 입찰공고는 1회 이상 일간신문에 하고 현장설명회를 개최할 것",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-076",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지자체는 정비사업에 필요한 비용을 보조 또는 융자하는 경우 순환정비방식의 정비사업에 우선적",
+      "answer": "국가 또",
+      "choices": [
+        "국가 또",
+        "정비사업비",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "4. 비용의 부담 등: 국가 또는 지자체는 정비사업에 필요한 비용을 보조 또는 융자하는 경우 순환정비방식의 정비사업에 우선적",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 비용의 부담 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-077",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "축허가 신청 시 {{blank}} 범위 내에서 대통령령으로 정하는 비율로 완화하여 적용 가능",
+      "answer": "100분의 120",
+      "choices": [
+        "100분의 120",
+        "1.5m",
+        "85㎡",
+        "4m"
+      ],
+      "explanation": "1. 총칙: 축허가 신청 시 100분의 120 범위 내에서 대통령령으로 정하는 비율로 완화하여 적용 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-078",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다중주택 연면적 {{blank}} 이하, 3층 이하",
+      "answer": "33㎡",
+      "choices": [
+        "33㎡",
+        "23㎡",
+        "43㎡",
+        "53㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 다중주택 연면적 33㎡ 이하, 3층 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-079",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "그 위치를 지정.공고하는 구간의 너비 {{blank}} 이상인 도로",
+      "answer": "3m",
+      "choices": [
+        "3m",
+        "2m",
+        "4m",
+        "5m"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 그 위치를 지정.공고하는 구간의 너비 3m 이상인 도로",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-080",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "연면적 {{blank}} 이상 건축물 (단, 창고.축사.작물재재사 및 표준설계도서에 따른 건축물은 제외)",
+      "answer": "500㎡",
+      "choices": [
+        "500㎡",
+        "450㎡",
+        "550㎡",
+        "600㎡"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 연면적 500㎡ 이상 건축물 (단, 창고.축사.작물재재사 및 표준설계도서에 따른 건축물은 제외)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-081",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "높이 9m 이하인 부분 : 인접 대지경계선으로부터 {{blank}} 이상",
+      "answer": "1.5m",
+      "choices": [
+        "1.5m",
+        "0.5m",
+        "2.5m",
+        "3.5m"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 높이 9m 이하인 부분 : 인접 대지경계선으로부터 1.5m 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-082",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 특별건축구역에 건축하는 경우 다음 사항을 적용하지 않을 수 있음",
+      "answer": "배제규정",
+      "choices": [
+        "배제규정",
+        "국가또",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "6. 건축설비 및 특별건축구역: 배제규정 : 특별건축구역에 건축하는 경우 다음 사항을 적용하지 않을 수 있음",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 건축설비 및 특별건축구역",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-083",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 건축협정 체결 시 경관법에 따른 경관협정을 함께 체결하려는 경우 경관법에 관한 사항을 반영",
+      "answer": "소유자들",
+      "choices": [
+        "소유자들",
+        "주거환경개선사업 또",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "7. 건축협정 등: 소유자들은 건축협정 체결 시 경관법에 따른 경관협정을 함께 체결하려는 경우 경관법에 관한 사항을 반영",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 건축협정 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-084",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "인 주택(수도권 제외한 도시지역 아닌 읍.면지역은 {{blank}})",
+      "answer": "100㎡",
+      "choices": [
+        "100㎡",
+        "90㎡",
+        "110㎡",
+        "120㎡"
+      ],
+      "explanation": "1. 용어: 인 주택(수도권 제외한 도시지역 아닌 읍.면지역은 100㎡)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-085",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "자본금 3억 (개인인 경우에는 자산평가액 {{blank}}) 이상",
+      "answer": "6억원",
+      "choices": [
+        "6억원",
+        "4억원",
+        "8억원",
+        "11억원"
+      ],
+      "explanation": "2. 주택의 건설: 자본금 3억 (개인인 경우에는 자산평가액 6억원) 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-086",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지방자치단체의 장은 분기가 끝나는 달의 다음달 20일까지 국토교통부장관에게 보고 (시",
+      "answer": "운용상황의 보고",
+      "choices": [
+        "운용상황의 보고",
+        "발행권자",
+        "주택상환사채",
+        "국토교통부장관"
+      ],
+      "explanation": "3. 주택자금: 운용상황의 보고 : 지방자치단체의 장은 분기가 끝나는 달의 다음달 20일까지 국토교통부장관에게 보고 (시",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 주택자금",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-087",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "하지 못 함. 그 외의 지역은 {{blank}}",
+      "answer": "1년",
+      "choices": [
+        "1년",
+        "2년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "4. 주택의 공급: 하지 못 함. 그 외의 지역은 1년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-088",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "농업경영을 통한 농산물의 연간 판매액이 {{blank}} 이상인 자",
+      "answer": "120만원",
+      "choices": [
+        "120만원",
+        "70만원",
+        "170만원",
+        "220만원"
+      ],
+      "explanation": "1. 농지 소유 상한: 농업경영을 통한 농산물의 연간 판매액이 120만원 이상인 자",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-089",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "임대차 기간 : 3년 이상(자경 농지를 이모작 하기 위해 {{blank}} 이내로 임대/사용대 하는 경우 제외)",
+      "answer": "8개월",
+      "choices": [
+        "8개월",
+        "6개월",
+        "10개월",
+        "13개월"
+      ],
+      "explanation": "2. 농지의 이용: 임대차 기간 : 3년 이상(자경 농지를 이모작 하기 위해 8개월 이내로 임대/사용대 하는 경우 제외)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 농지의 이용",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-090",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "필지의 토지가 농업진흥구역과 농업보 농업진흥구역에 속하는 토지부분이 {{blank}} 이하이면 그 토지부",
+      "answer": "330㎡",
+      "choices": [
+        "330㎡",
+        "280㎡",
+        "380㎡",
+        "430㎡"
+      ],
+      "explanation": "3. 농지의 보전: 필지의 토지가 농업진흥구역과 농업보 농업진흥구역에 속하는 토지부분이 330㎡ 이하이면 그 토지부",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-091",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "국가계획관련 또는 광역계획권 지정 {{blank}} 경과시까지 시도지사의 광역도시계",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "1. 광역도시계획: 국가계획관련 또는 광역계획권 지정 3년 경과시까지 시도지사의 광역도시계",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-092",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공고.열람 “시장.군수”가 공고, {{blank}} 이상 열람",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "2. 도시.군기본계획 (매년 출제): 공고.열람 “시장.군수”가 공고, 30일 이상 열람",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시.군기본계획 (매년 출제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-093",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "타당성 재검토 {{blank}}마다 “시장.군수” (도시군계획시설 결정의 타당성은 10년 내 검토)",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 타당성 재검토 5년마다 “시장.군수” (도시군계획시설 결정의 타당성은 10년 내 검토)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-094",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "전용공업지역 {{blank}} 이하",
+      "answer": "150~300%",
+      "choices": [
+        "150~300%",
+        "0~150%",
+        "300~450%",
+        "450~600%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 전용공업지역 150~300% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-095",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "지정하려는 구역 면적의 {{blank}} 이상이 계획관리지역으로 대통령령으로 정하는 요건에 해당하는 지역",
+      "answer": "50%",
+      "choices": [
+        "50%",
+        "40%",
+        "60%",
+        "70%"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 지정하려는 구역 면적의 50% 이상이 계획관리지역으로 대통령령으로 정하는 요건에 해당하는 지역",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-096",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "주거지역, 상업지역, 자연녹지지역, 생산녹지지역 10,{{blank}} 미만",
+      "answer": "000㎡",
+      "choices": [
+        "000㎡",
+        "1㎡",
+        "2㎡",
+        "3㎡"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 주거지역, 상업지역, 자연녹지지역, 생산녹지지역 10,000㎡ 미만",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-097",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "채권 : 상환기간 {{blank}} 이내, 이율은 1년만기 정기예금금리 평균 이상(조례로 정함)",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 채권 : 상환기간 10년 이내, 이율은 1년만기 정기예금금리 평균 이상(조례로 정함)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-098",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "보조 또는 융자 : 광역도시계획 또는 도시.군계획에 관한 기초조사나 지형도면 작성비용 {{blank}} 범위 내에",
+      "answer": "80%",
+      "choices": [
+        "80%",
+        "70%",
+        "90%",
+        "100%"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 보조 또는 융자 : 광역도시계획 또는 도시.군계획에 관한 기초조사나 지형도면 작성비용 80% 범위 내에",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-099",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "토지이용의무 : {{blank}} 이내 허가 받은 목적대로 이용해야 함",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "9. 토지거래허가: 토지이용의무 : 5년 이내 허가 받은 목적대로 이용해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-100",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "사전통지 : {{blank}} 전까지 소유자/점유자/관리인에게 통지",
+      "answer": "3일",
+      "choices": [
+        "3일",
+        "2일",
+        "4일",
+        "5일"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 사전통지 : 3일 전까지 소유자/점유자/관리인에게 통지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-101",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공람  지정권자인 시군구청장은 해당 관계서류를 일반에게 {{blank}} 이상 공람시켜야 함",
+      "answer": "14일",
+      "choices": [
+        "14일",
+        "12일",
+        "16일",
+        "19일"
+      ],
+      "explanation": "1. 도시개발구역의 지정: 공람  지정권자인 시군구청장은 해당 관계서류를 일반에게 14일 이상 공람시켜야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-102",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "결과 통보 : 시행자는 공람 기일 종료된 날부터 {{blank}} 이내 의견제출자에게 환지계획 반영여부 통보",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 결과 통보 : 시행자는 공람 기일 종료된 날부터 60일 이내 의견제출자에게 환지계획 반영여부 통보",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-103",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "수립 단위 및 재검토 : {{blank}} 단위로 수립, 5년마다 타당성 검토하여 결과를 기본계획에",
+      "answer": "10년",
+      "choices": [
+        "10년",
+        "8년",
+        "12년",
+        "15년"
+      ],
+      "explanation": "1. 목적 및 용어: 수립 단위 및 재검토 : 10년 단위로 수립, 5년마다 타당성 검토하여 결과를 기본계획에",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-104",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 기본계획 수립/변경 시 지체 없이 공보에 고시, 국토교통부장관에 보고",
+      "answer": "고시 및 보고",
+      "choices": [
+        "고시 및 보고",
+        "도지사의 승인 및 심의",
+        "지사",
+        "정비계획의 내용"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 고시 및 보고 : 기본계획 수립/변경 시 지체 없이 공보에 고시, 국토교통부장관에 보고",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-105",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양신청기간 : 통지한 날로부터 {{blank}} 이상 60일 이내(20일 범위 내 연장 가능)",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "3. 정비사업의 시행: 분양신청기간 : 통지한 날로부터 30일 이상 60일 이내(20일 범위 내 연장 가능)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-106",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "합계가 해당 건축면적의 1/8 (공동주택 전용면적 {{blank}} 이하는 1/6) 이하인 것과 지하층은 건축물의 층수에",
+      "answer": "85㎡",
+      "choices": [
+        "85㎡",
+        "75㎡",
+        "95㎡",
+        "105㎡"
+      ],
+      "explanation": "1. 총칙: 합계가 해당 건축면적의 1/8 (공동주택 전용면적 85㎡ 이하는 1/6) 이하인 것과 지하층은 건축물의 층수에",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-107",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "㎡ 이하 창고 및 {{blank}} 이하 축사.작물재배사",
+      "answer": "400㎡",
+      "choices": [
+        "400㎡",
+        "350㎡",
+        "450㎡",
+        "500㎡"
+      ],
+      "explanation": "2. 건축물의 건축: ㎡ 이하 창고 및 400㎡ 이하 축사.작물재배사",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-108",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "m 이상 {{blank}} (도시지역이 아닌 읍.면지역에서는 4m)",
+      "answer": "6m",
+      "choices": [
+        "6m",
+        "4m",
+        "8m",
+        "11m"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: m 이상 6m (도시지역이 아닌 읍.면지역에서는 4m)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-109",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 건축물은 {{blank}}소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "answer": "2개",
+      "choices": [
+        "2개",
+        "1개",
+        "3개",
+        "4개"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-110",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "높이 {{blank}} 이하인 부분 : 인접 대지경계선으로부터 1.5m 이상",
+      "answer": "9m",
+      "choices": [
+        "9m",
+        "7m",
+        "11m",
+        "14m"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 높이 9m 이하인 부분 : 인접 대지경계선으로부터 1.5m 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-111",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지자체가 건축하는 건축물",
+      "answer": "국가또",
+      "choices": [
+        "국가또",
+        "배제규정",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "6. 건축설비 및 특별건축구역: 국가또는 지자체가 건축하는 건축물",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 건축설비 및 특별건축구역",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-112",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "택으로서 공공택지에 사업계획승인을 받아 건설하여 임대하는 주택 ({{blank}} 이하)",
+      "answer": "85㎡",
+      "choices": [
+        "85㎡",
+        "75㎡",
+        "95㎡",
+        "105㎡"
+      ],
+      "explanation": "1. 용어: 택으로서 공공택지에 사업계획승인을 받아 건설하여 임대하는 주택 (85㎡ 이하)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-113",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "자본금 5억 (개인인 경우에는 자산평가액 {{blank}}) 이상",
+      "answer": "10억원",
+      "choices": [
+        "10억원",
+        "8억원",
+        "12억원",
+        "15억원"
+      ],
+      "explanation": "2. 주택의 건설: 자본금 5억 (개인인 경우에는 자산평가액 10억원) 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-114",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 한국토지주택공사와 등록사업자(등록사업자는 자본금.자산평가액.기술인력 등 대통령령으로 정하",
+      "answer": "발행권자",
+      "choices": [
+        "발행권자",
+        "주택상환사채",
+        "운용상황의 보고",
+        "국토교통부장관"
+      ],
+      "explanation": "3. 주택자금: 발행권자 : 한국토지주택공사와 등록사업자(등록사업자는 자본금.자산평가액.기술인력 등 대통령령으로 정하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 주택자금",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-115",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공공택지에서 주거전용면적 {{blank}} 이하 1년",
+      "answer": "85㎡",
+      "choices": [
+        "85㎡",
+        "75㎡",
+        "95㎡",
+        "105㎡"
+      ],
+      "explanation": "4. 주택의 공급: 공공택지에서 주거전용면적 85㎡ 이하 1년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-116",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "과수.뽕나무.유실수 그 밖의 생육기간 {{blank}} 이상인 식용 또는 약용 식물",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "1. 농지 소유 상한: 과수.뽕나무.유실수 그 밖의 생육기간 2년 이상인 식용 또는 약용 식물",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-117",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "임대차 기간 : {{blank}} 이상(자경 농지를 이모작 하기 위해 8개월 이내로 임대/사용대 하는 경우 제외)",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "2. 농지의 이용: 임대차 기간 : 3년 이상(자경 농지를 이모작 하기 위해 8개월 이내로 임대/사용대 하는 경우 제외)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 농지의 이용",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-118",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "(무주택세대주가 설치하는 세대당 {{blank}} 이하)농어업인 주택, 농축산업용 시설, 농수산물유통가공시설",
+      "answer": "660㎡",
+      "choices": [
+        "660㎡",
+        "610㎡",
+        "710㎡",
+        "760㎡"
+      ],
+      "explanation": "3. 농지의 보전: (무주택세대주가 설치하는 세대당 660㎡ 이하)농어업인 주택, 농축산업용 시설, 농수산물유통가공시설",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-119",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "협의 장관은 관계 중앙행정기관의 장과 협의해야 함 ({{blank}} 이내 의견제시)",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "1. 광역도시계획: 협의 장관은 관계 중앙행정기관의 장과 협의해야 함 (30일 이내 의견제시)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-120",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "의견청취 특별시.광역시.특별자치시/도.시.군 의회, {{blank}} 이내에 의견제시",
+      "answer": "30일",
+      "choices": [
+        "30일",
+        "20일",
+        "40일",
+        "50일"
+      ],
+      "explanation": "2. 도시.군기본계획 (매년 출제): 의견청취 특별시.광역시.특별자치시/도.시.군 의회, 30일 이내에 의견제시",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시.군기본계획 (매년 출제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-121",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "의견청취 - 주민 의견청취 ({{blank}} 이상 공람 → 열람기간 종료후 60일 내 검토결과 통보)",
+      "answer": "14일",
+      "choices": [
+        "14일",
+        "12일",
+        "16일",
+        "19일"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 의견청취 - 주민 의견청취 (14일 이상 공람 → 열람기간 종료후 60일 내 검토결과 통보)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-122",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "전용주 제1종~ {{blank}} 이하",
+      "answer": "50~100%",
+      "choices": [
+        "50~100%",
+        "0~50%",
+        "100~150%",
+        "150~200%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 전용주 제1종~ 50~100% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-123",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시지역 외의 지역에서 지구단위계획구역 지정 → 건폐율 {{blank}}, 용적률 200% 이내 완화 가능",
+      "answer": "150%",
+      "choices": [
+        "150%",
+        "100%",
+        "200%",
+        "250%"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 도시지역 외의 지역에서 지구단위계획구역 지정 → 건폐율 150%, 용적률 200% 이내 완화 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-124",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "년 범위 내 납부기일 연기하거나 {{blank}} 범위 내에서 분할 납부 가능",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 년 범위 내 납부기일 연기하거나 2년 범위 내에서 분할 납부 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-125",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "채권 : 상환기간 10년 이내, 이율은 {{blank}}만기 정기예금금리 평균 이상(조례로 정함)",
+      "answer": "1년",
+      "choices": [
+        "1년",
+        "2년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 채권 : 상환기간 10년 이내, 이율은 1년만기 정기예금금리 평균 이상(조례로 정함)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-126",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시도지사, 대도시 시장 (예외; 국토교통부장관)",
+      "answer": "도시.군관리계획 - 원칙",
+      "choices": [
+        "도시.군관리계획 - 원칙",
+        "사업시행자 확정 - 원칙",
+        "공사완료공고 원칙",
+        "국토교통부장관"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 도시.군관리계획 - 원칙 : 시도지사, 대도시 시장 (예외; 국토교통부장관)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-127",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "포상금의 지급 : 토지거래허가 관련 신고.고발자에게 포상금 지급 가능(건당 {{blank}})",
+      "answer": "50만원",
+      "choices": [
+        "50만원",
+        "40만원",
+        "60만원",
+        "70만원"
+      ],
+      "explanation": "9. 토지거래허가: 포상금의 지급 : 토지거래허가 관련 신고.고발자에게 포상금 지급 가능(건당 50만원)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-128",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "위원장, 부위원장 각 1명을 포함한 {{blank}} 이상 30명 이내의 위원으로 구성",
+      "answer": "25명",
+      "choices": [
+        "25명",
+        "15명",
+        "35명",
+        "45명"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 위원장, 부위원장 각 1명을 포함한 25명 이상 30명 이내의 위원으로 구성",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-129",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": " 해당 개발구역에 포함되는 주거/상업/공업지역의 면적 합계가 전체 지정 면적의 {{blank}} 이하인 지역",
+      "answer": "30%",
+      "choices": [
+        "30%",
+        "20%",
+        "40%",
+        "50%"
+      ],
+      "explanation": "1. 도시개발구역의 지정:  해당 개발구역에 포함되는 주거/상업/공업지역의 면적 합계가 전체 지정 면적의 30% 이하인 지역",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-130",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "절차 : 공사완료 공고 > 의견 제출 > 준공검사 신청 > 환지처분의 시기({{blank}} 이내) > 공고",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 절차 : 공사완료 공고 > 의견 제출 > 준공검사 신청 > 환지처분의 시기(60일 이내) > 공고",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-131",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "수립 단위 및 재검토 : 10년 단위로 수립, {{blank}}마다 타당성 검토하여 결과를 기본계획에",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "1. 목적 및 용어: 수립 단위 및 재검토 : 10년 단위로 수립, 5년마다 타당성 검토하여 결과를 기본계획에",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-132",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·주거환경정비기본계획을 수립하거나 변경하는 대도시가 아닌 시의 시장이 원칙적으로 승인을 받아야 하는 기관은 {{blank}}이다.",
+      "answer": "도지사",
+      "choices": [
+        "도지사",
+        "국토교통부장관",
+        "구청장",
+        "정비사업조합"
+      ],
+      "explanation": "대도시가 아닌 시의 시장은 도시·주거환경정비기본계획을 수립하거나 변경할 때 원칙적으로 도지사의 승인을 받는다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "d460455aaafbe83dea83eea10da7ef27205e1f7f5271952f6a35fd36c01f2980",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    },
+    {
+      "id": "blank-04-133",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양신청기간 : 통지한 날로부터 30일 이상 {{blank}} 이내(20일 범위 내 연장 가능)",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "3. 정비사업의 시행: 분양신청기간 : 통지한 날로부터 30일 이상 60일 이내(20일 범위 내 연장 가능)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-134",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "승강기탑, 계단탑, 장식탑, 다락(층고 {{blank}} 이하), 굴뚝, 더스트슈트, 설비덕트, 물탱크, 정화조, 정압기 등",
+      "answer": "1.5m",
+      "choices": [
+        "1.5m",
+        "0.5m",
+        "2.5m",
+        "3.5m"
+      ],
+      "explanation": "1. 총칙: 승강기탑, 계단탑, 장식탑, 다락(층고 1.5m 이하), 굴뚝, 더스트슈트, 설비덕트, 물탱크, 정화조, 정압기 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-135",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "설계 - 바닥면적 {{blank}} 미만 증축.개축.재축",
+      "answer": "85㎡",
+      "choices": [
+        "85㎡",
+        "75㎡",
+        "95㎡",
+        "105㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 설계 - 바닥면적 85㎡ 미만 증축.개축.재축",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-136",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "m 이상 6m (도시지역이 아닌 읍.면지역에서는 {{blank}})",
+      "answer": "4m",
+      "choices": [
+        "4m",
+        "3m",
+        "5m",
+        "6m"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: m 이상 6m (도시지역이 아닌 읍.면지역에서는 4m)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-137",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "answer": "다음 건축물은 2개소 이상 설치",
+      "choices": [
+        "다음 건축물은 2개소 이상 설치",
+        "제2종근린생활시설 중 공연장",
+        "지구단위계획구역에서 무게 50톤 이하",
+        "부피 50㎥ 이하"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-138",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "높이 {{blank}} 초과하는 부분 : 인접 대지경계선으로부터 해당 건축물 각 부분 높이의 1/2 이상",
+      "answer": "9m",
+      "choices": [
+        "9m",
+        "7m",
+        "11m",
+        "14m"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 높이 9m 초과하는 부분 : 인접 대지경계선으로부터 해당 건축물 각 부분 높이의 1/2 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-139",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "기존 세대수의 15/100 이내에서 세대수를 증가하는 증축행위 (최대 {{blank}}층 이하)",
+      "answer": "3개",
+      "choices": [
+        "3개",
+        "2개",
+        "4개",
+        "5개"
+      ],
+      "explanation": "1. 용어: 기존 세대수의 15/100 이내에서 세대수를 증가하는 증축행위 (최대 3개층 이하)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-140",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "최근 {{blank}}간 주택건설실적 100호 또는 100세대 이상",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "2. 주택의 건설: 최근 5년간 주택건설실적 100호 또는 100세대 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-141",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 양도하거나 중도에 해약할 수 없으나 해외이주 등 부득이한 사유는 제외",
+      "answer": "주택상환사채",
+      "choices": [
+        "주택상환사채",
+        "발행권자",
+        "운용상황의 보고",
+        "국토교통부장관"
+      ],
+      "explanation": "3. 주택자금: 주택상환사채는 양도하거나 중도에 해약할 수 없으나 해외이주 등 부득이한 사유는 제외",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 주택자금",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-142",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공공택지에서 주거전용면적 85㎡ 이하 {{blank}}",
+      "answer": "1년",
+      "choices": [
+        "1년",
+        "2년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "4. 주택의 공급: 공공택지에서 주거전용면적 85㎡ 이하 1년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-143",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "농지의 개발사업지구에 있는 농지로 1,{{blank}} 미만의 농지나 농어촌정비법에 따른 농지를 취득하여 소유",
+      "answer": "500㎡",
+      "choices": [
+        "500㎡",
+        "450㎡",
+        "550㎡",
+        "600㎡"
+      ],
+      "explanation": "1. 농지 소유 상한: 농지의 개발사업지구에 있는 농지로 1,500㎡ 미만의 농지나 농어촌정비법에 따른 농지를 취득하여 소유",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-144",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "기간 만료 {{blank}} 전까지 임차인에게 갱신하지 않거나 조건 변경의 뜻을 통지하지 않으면 같은 조건으로 다",
+      "answer": "3개월",
+      "choices": [
+        "3개월",
+        "2개월",
+        "4개월",
+        "5개월"
+      ],
+      "explanation": "2. 농지의 이용: 기간 만료 3개월 전까지 임차인에게 갱신하지 않거나 조건 변경의 뜻을 통지하지 않으면 같은 조건으로 다",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 농지의 이용",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-145",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 권한 일부를 시도지사, 시.군.구청장에 위임 가능",
+      "answer": "농지전용허가권의 위임",
+      "choices": [
+        "농지전용허가권의 위임",
+        "농지조성사업 또",
+        "농촌및식품산업정책심의회 심의 없이",
+        "농지개량사업 또"
+      ],
+      "explanation": "3. 농지의 보전: 농지전용허가권의 위임 : 권한 일부를 시도지사, 시.군.구청장에 위임 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-146",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "둘 이상 시도에 걸친 경우 또는 광역계획권 지정 {{blank}} 경과시까지 시장군수의",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "1. 광역도시계획: 둘 이상 시도에 걸친 경우 또는 광역계획권 지정 3년 경과시까지 시장군수의",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-147",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 일부를 포함하여 도시.군기본계획을 수립할 수 있다. 이",
+      "answer": "자치도.시.군의 관할 구역 전부 또",
+      "choices": [
+        "자치도.시.군의 관할 구역 전부 또",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "2. 도시.군기본계획 (매년 출제): 자치도.시.군의 관할 구역 전부 또는 일부를 포함하여 도시.군기본계획을 수립할 수 있다. 이",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시.군기본계획 (매년 출제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-148",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "의견청취 - 주민 의견청취 (14일 이상 공람 → 열람기간 종료후 {{blank}} 내 검토결과 통보)",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 의견청취 - 주민 의견청취 (14일 이상 공람 → 열람기간 종료후 60일 내 검토결과 통보)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-149",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "거지역 제2종~ {{blank}} 이하",
+      "answer": "100~150%",
+      "choices": [
+        "100~150%",
+        "50~100%",
+        "150~200%",
+        "200~250%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 거지역 제2종~ 100~150% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-150",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시지역 외의 지역에서 지구단위계획구역 지정 → 건폐율 150%, 용적률 {{blank}} 이내 완화 가능",
+      "answer": "200%",
+      "choices": [
+        "200%",
+        "150%",
+        "250%",
+        "300%"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 도시지역 외의 지역에서 지구단위계획구역 지정 → 건폐율 150%, 용적률 200% 이내 완화 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-151",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "강화하기 위해 지정하는 구역 (당해 용도지역에 적용되는 용적률의 {{blank}} 범위)",
+      "answer": "50%",
+      "choices": [
+        "50%",
+        "40%",
+        "60%",
+        "70%"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 강화하기 위해 지정하는 구역 (당해 용도지역에 적용되는 용적률의 50% 범위)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-152",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공동구관리자가 5년마다 수립, 시행",
+      "answer": "유지관리계획",
+      "choices": [
+        "유지관리계획",
+        "토지이용계획",
+        "도시.군계획시설의 설치계획",
+        "국토교통부장관"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 유지관리계획 : 공동구관리자가 5년마다 수립, 시행",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-153",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — “시장.군수” (예외; 도지사, 국토교통부장관)",
+      "answer": "단계별 집행계획 - 수립권자",
+      "choices": [
+        "단계별 집행계획 - 수립권자",
+        "도시.군계획시설사업",
+        "작성 및 인가신청 - 인가신청",
+        "실시계획 작성 또"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 단계별 집행계획 - 수립권자 : “시장.군수” (예외; 도지사, 국토교통부장관)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-154",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "불허가처분을 받은 자는 {{blank}} 이내 시군구청장에게 해당 토지 매수를 청구할 수 있다.",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "9. 토지거래허가: 불허가처분을 받은 자는 1개월 이내 시군구청장에게 해당 토지 매수를 청구할 수 있다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-155",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "위원장, 부위원장 각 {{blank}}을 포함한 25명 이상 30명 이내의 위원으로 구성",
+      "answer": "1명",
+      "choices": [
+        "1명",
+        "2명",
+        "3명",
+        "4명"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 위원장, 부위원장 각 1명을 포함한 25명 이상 30명 이내의 위원으로 구성",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-156",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도시개발구역에서 주거,상업,산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "answer": "※ 도시개발사업",
+      "choices": [
+        "※ 도시개발사업",
+        "도시개발구역에서 주거",
+        "상업",
+        "산업"
+      ],
+      "explanation": "1. 도시개발구역의 지정: ※ 도시개발사업 : 도시개발구역에서 주거,상업,산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-157",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지소유자나 임차권자 등",
+      "answer": "의견서 제출",
+      "choices": [
+        "의견서 제출",
+        "동의철회 토지소유자",
+        "조합설립등기 조합설립인가를 받",
+        "총회 의결사항"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 의견서 제출 : 토지소유자나 임차권자 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-158",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시도지사, 대도시시장(장관X)",
+      "answer": "정비구역지정고시 지정권자",
+      "choices": [
+        "정비구역지정고시 지정권자",
+        "주택재건축사업 정비기반시설",
+        "정비기본계획수립 수립권자",
+        "수립 단위 및 재검토"
+      ],
+      "explanation": "1. 목적 및 용어: 정비구역지정고시 지정권자 : 시도지사, 대도시시장(장관X)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-159",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 명칭, 정비구역 및 면적, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "answer": "정비계획의 내용",
+      "choices": [
+        "정비계획의 내용",
+        "도지사의 승인 및 심의",
+        "지사",
+        "고시 및 보고"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 정비계획의 내용 : 명칭, 정비구역 및 면적, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-160",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "선정해야 함 (단, 조합원이 {{blank}} 이하인 경우 정관으로 정하는 바에 따라 선정 가능)",
+      "answer": "100명",
+      "choices": [
+        "100명",
+        "90명",
+        "110명",
+        "120명"
+      ],
+      "explanation": "3. 정비사업의 시행: 선정해야 함 (단, 조합원이 100명 이하인 경우 정관으로 정하는 바에 따라 선정 가능)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-161",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 국토계획법에 의해 지정된 도시지역 및 지구단위계획구역",
+      "answer": "전면적으로 적용",
+      "choices": [
+        "전면적으로 적용",
+        "신축",
+        "증축",
+        "개축"
+      ],
+      "explanation": "1. 총칙: 전면적으로 적용 : 국토계획법에 의해 지정된 도시지역 및 지구단위계획구역",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-162",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "연립주택 바닥면적 합계 {{blank}} 초과, 4층 이하",
+      "answer": "660㎡",
+      "choices": [
+        "660㎡",
+        "610㎡",
+        "710㎡",
+        "760㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 연립주택 바닥면적 합계 660㎡ 초과, 4층 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-163",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "원칙 : 건축물의 대지는 {{blank}} 이상이 도로에 접해야 함",
+      "answer": "2m",
+      "choices": [
+        "2m",
+        "1m",
+        "3m",
+        "4m"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 원칙 : 건축물의 대지는 2m 이상이 도로에 접해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-164",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 아래에 해당하는 경우 설계자로부터 구조안전 확인서류를 받아 착공신고 시 허가권자에게 제출해",
+      "answer": "건축주",
+      "choices": [
+        "건축주",
+        "집회시설",
+        "종교시설",
+        "다음 건축물"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 건축주는 아래에 해당하는 경우 설계자로부터 구조안전 확인서류를 받아 착공신고 시 허가권자에게 제출해",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-165",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "층 이하로서 높이가 {{blank}} 이하인 건축물에는 해당 지자체의 조례로 정하는 바에 따라 일조 등의 확보를 위",
+      "answer": "8m",
+      "choices": [
+        "8m",
+        "6m",
+        "10m",
+        "13m"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 층 이하로서 높이가 8m 이하인 건축물에는 해당 지자체의 조례로 정하는 바에 따라 일조 등의 확보를 위",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-166",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "국민주택 : 주택도시기금으로부터 자금을 지원받아 건설/개량되는 주택으로 1세대당 주거전용면적 {{blank}} 이하",
+      "answer": "85㎡",
+      "choices": [
+        "85㎡",
+        "75㎡",
+        "95㎡",
+        "105㎡"
+      ],
+      "explanation": "1. 용어: 국민주택 : 주택도시기금으로부터 자금을 지원받아 건설/개량되는 주택으로 1세대당 주거전용면적 85㎡ 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-167",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "국민주택규모의 주택을 {{blank}} 이상으로 건설하는 주택의 건설",
+      "answer": "50%",
+      "choices": [
+        "50%",
+        "40%",
+        "60%",
+        "70%"
+      ],
+      "explanation": "2. 주택의 건설: 국민주택규모의 주택을 50% 이상으로 건설하는 주택의 건설",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-168",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "민간택지에서 공급되는 주택 {{blank}} (충청권 3년)",
+      "answer": "1년",
+      "choices": [
+        "1년",
+        "2년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "4. 주택의 공급: 민간택지에서 공급되는 주택 1년 (충청권 3년)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-169",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "농업진흥지역 밖의 농지 중 최상단부부터 최하단부까지의 평균경사율이 {{blank}} 이상인 농지로 대통령령으로",
+      "answer": "15%",
+      "choices": [
+        "15%",
+        "13%",
+        "17%",
+        "20%"
+      ],
+      "explanation": "1. 농지 소유 상한: 농업진흥지역 밖의 농지 중 최상단부부터 최하단부까지의 평균경사율이 15% 이상인 농지로 대통령령으로",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-170",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "농업진흥지역은 농업진흥구역과 {{blank}}으로 구분한다.",
+      "answer": "농업보호구역",
+      "choices": [
+        "농업보호구역",
+        "개발제한구역",
+        "보전산지",
+        "수산자원보호구역"
+      ],
+      "explanation": "농업진흥지역은 농업진흥구역과 농업보호구역으로 구분한다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "2078f70d5a8b765d1c6dec2724b7cda81e66b14e43471175e006da6ac5cf0050",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    },
+    {
+      "id": "blank-04-171",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 광역계획권 지정 3년 경과시까지 시장군수의",
+      "answer": "둘 이상 시도에 걸친 경우 또",
+      "choices": [
+        "둘 이상 시도에 걸친 경우 또",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "1. 광역도시계획: 둘 이상 시도에 걸친 경우 또는 광역계획권 지정 3년 경과시까지 시장군수의",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-172",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지형도면을 고시한 날부터 발생",
+      "answer": "효력발생시기",
+      "choices": [
+        "효력발생시기",
+        "지구단위계획구역의 지정 또",
+        "입지규제최소구역의 지정 또",
+        "도지사 직접 또"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 효력발생시기 : 지형도면을 고시한 날부터 발생",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-173",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "제3종~ 50% 이하 {{blank}} 이하",
+      "answer": "200~300%",
+      "choices": [
+        "200~300%",
+        "100~200%",
+        "300~400%",
+        "400~500%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 제3종~ 50% 이하 200~300% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-174",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "지구단위계획에 관한 도시.군관리계획결정 고시일로부터 {{blank}} 이내에 사업이나 공사를 착수하지 않으면 그",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 지구단위계획에 관한 도시.군관리계획결정 고시일로부터 5년 이내에 사업이나 공사를 착수하지 않으면 그",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-175",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "납부기간 : 건축허가일 다음 날부터 {{blank}} 이내 부과, 사용승인 신청시까지 납부",
+      "answer": "2개월",
+      "choices": [
+        "2개월",
+        "1개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 납부기간 : 건축허가일 다음 날부터 2개월 이내 부과, 사용승인 신청시까지 납부",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-176",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 상환기간 10년 이내, 이율은 1년만기 정기예금금리 평균 이상(조례로 정함)",
+      "answer": "채권",
+      "choices": [
+        "채권",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 채권 : 상환기간 10년 이내, 이율은 1년만기 정기예금금리 평균 이상(조례로 정함)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-177",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "이의신청 : 처분 받은 날로부터 {{blank}} 이내 시군구청장에게 → 시군구정창은 시군구도시계획위원회의 심",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "9. 토지거래허가: 이의신청 : 처분 받은 날로부터 1개월 이내 시군구청장에게 → 시군구정창은 시군구도시계획위원회의 심",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-178",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "출입 절차 : 타인토지에 출입하려는 자는 “시장.군수”의 허가를 받아야 하며, {{blank}} 전까지 토지소유자/점유",
+      "answer": "7일",
+      "choices": [
+        "7일",
+        "5일",
+        "9일",
+        "12일"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 출입 절차 : 타인토지에 출입하려는 자는 “시장.군수”의 허가를 받아야 하며, 7일 전까지 토지소유자/점유",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-179",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 연립주택의 건설계획이 포함된 경우로서 다음",
+      "answer": "공동주택 중 아파트 또",
+      "choices": [
+        "공동주택 중 아파트 또",
+        "※ 도시개발사업",
+        "도시개발구역에서 주거",
+        "상업"
+      ],
+      "explanation": "1. 도시개발구역의 지정: 공동주택 중 아파트 또는 연립주택의 건설계획이 포함된 경우로서 다음",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-180",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 행정청 아닌 시행자가 인가 신청 시 의견서 첨부",
+      "answer": "의견서의 첨부",
+      "choices": [
+        "의견서의 첨부",
+        "동의철회 토지소유자",
+        "조합설립등기 조합설립인가를 받",
+        "총회 의결사항"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 의견서의 첨부 : 행정청 아닌 시행자가 인가 신청 시 의견서 첨부",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-181",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시장.군수가 수립, 정비구역 지정신청",
+      "answer": "정비계획수립 수립권자",
+      "choices": [
+        "정비계획수립 수립권자",
+        "주택재건축사업 정비기반시설",
+        "정비기본계획수립 수립권자",
+        "수립 단위 및 재검토"
+      ],
+      "explanation": "1. 목적 및 용어: 정비계획수립 수립권자 : 시장.군수가 수립, 정비구역 지정신청",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-182",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도지사에게 신청하지 않고 직접 정비구역을 지정함",
+      "answer": "대도시 시장",
+      "choices": [
+        "대도시 시장",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 대도시 시장은 도지사에게 신청하지 않고 직접 정비구역을 지정함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-183",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양신청 아니한 자에 대해서는 관리처분계획 인가일 다음 날부터 {{blank}} 이내 현금으로 청산",
+      "answer": "90일",
+      "choices": [
+        "90일",
+        "80일",
+        "100일",
+        "110일"
+      ],
+      "explanation": "3. 정비사업의 시행: 분양신청 아니한 자에 대해서는 관리처분계획 인가일 다음 날부터 90일 이내 현금으로 청산",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-184",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 기존 건축물 있는 대지에 건축면적 또는 층수 늘리는 것",
+      "answer": "증축",
+      "choices": [
+        "증축",
+        "신축",
+        "개축",
+        "재축"
+      ],
+      "explanation": "1. 총칙: 증축 : 기존 건축물 있는 대지에 건축면적 또는 층수 늘리는 것",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-185",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다세대주택 바닥면적 합계 {{blank}} 이하, 4층 이하",
+      "answer": "660㎡",
+      "choices": [
+        "660㎡",
+        "610㎡",
+        "710㎡",
+        "760㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 다세대주택 바닥면적 합계 660㎡ 이하, 4층 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-186",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "확보면적 : 대지면적의 {{blank}} 이하 범위에서 건축조례로 정함",
+      "answer": "10%",
+      "choices": [
+        "10%",
+        "8%",
+        "12%",
+        "15%"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 확보면적 : 대지면적의 10% 이하 범위에서 건축조례로 정함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-187",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "answer": "다음 건축물",
+      "choices": [
+        "다음 건축물",
+        "건축주",
+        "집회시설",
+        "종교시설"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-188",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "건축물 건축 시 건축선 및 인접 대지경계선으로부터 {{blank}} 이내의 범위에서 대통령령으로 정하는 바에 따라 지",
+      "answer": "6m",
+      "choices": [
+        "6m",
+        "4m",
+        "8m",
+        "11m"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 건축물 건축 시 건축선 및 인접 대지경계선으로부터 6m 이내의 범위에서 대통령령으로 정하는 바에 따라 지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-189",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공간으로 구성(단, 주거전용 {{blank}} 이상인 경우 두 개 공간으로 구성 가능) + 세대별 주거전용면적이 14",
+      "answer": "30㎡",
+      "choices": [
+        "30㎡",
+        "20㎡",
+        "40㎡",
+        "50㎡"
+      ],
+      "explanation": "1. 용어: 공간으로 구성(단, 주거전용 30㎡ 이상인 경우 두 개 공간으로 구성 가능) + 세대별 주거전용면적이 14",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-190",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "조합설립인가신청일 현재 동일한 지역에 {{blank}} 이상 거주하여 온 자일 것",
+      "answer": "6개월",
+      "choices": [
+        "6개월",
+        "4개월",
+        "8개월",
+        "11개월"
+      ],
+      "explanation": "2. 주택의 건설: 조합설립인가신청일 현재 동일한 지역에 6개월 이상 거주하여 온 자일 것",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-191",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "민간택지에서 공급되는 주택 1년 (충청권 {{blank}})",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "4. 주택의 공급: 민간택지에서 공급되는 주택 1년 (충청권 3년)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-192",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "농지에 {{blank}} 이상의 고정식온실.버섯재배사.비닐하우스, 그 밖의 농림축산식품부령으로 정하는 농업생산에",
+      "answer": "330㎡",
+      "choices": [
+        "330㎡",
+        "280㎡",
+        "380㎡",
+        "430㎡"
+      ],
+      "explanation": "1. 농지 소유 상한: 농지에 330㎡ 이상의 고정식온실.버섯재배사.비닐하우스, 그 밖의 농림축산식품부령으로 정하는 농업생산에",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-193",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 농업용수개발사업의 시행",
+      "answer": "농지개량사업 또",
+      "choices": [
+        "농지개량사업 또",
+        "농지조성사업 또",
+        "농촌및식품산업정책심의회 심의 없이",
+        "지하자원 개발을 위한 탐사 또"
+      ],
+      "explanation": "3. 농지의 보전: 농지개량사업 또는 농업용수개발사업의 시행",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-194",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시도지사는 공고하고 30일 이상 열람하게 해야 함",
+      "answer": "공고.열람 송부받",
+      "choices": [
+        "공고.열람 송부받",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "1. 광역도시계획: 공고.열람 송부받은 시도지사는 공고하고 30일 이상 열람하게 해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-195",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 관계 중앙행정기관의 장과 협의",
+      "answer": "국토교통부장관",
+      "choices": [
+        "국토교통부장관",
+        "지구단위계획구역의 지정 또",
+        "입지규제최소구역의 지정 또",
+        "도지사 직접 또"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 국토교통부장관은 관계 중앙행정기관의 장과 협의",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-196",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "% 이하 80% 이하 {{blank}} 이하",
+      "answer": "50~80%",
+      "choices": [
+        "50~80%",
+        "20~50%",
+        "80~110%",
+        "110~140%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): % 이하 80% 이하 50~80% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-197",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "지구단위계획구역의 지정에 관한 도시.군관리계획결정 고시일부터 {{blank}} 내 관련 계획이 결정.고시되지 않으",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 지구단위계획구역의 지정에 관한 도시.군관리계획결정 고시일부터 3년 내 관련 계획이 결정.고시되지 않으",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-198",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다. (③~⑤는 심의 없이 한 차례만 {{blank}} 이내 기간 동안 허가제한 연장 가능)",
+      "answer": "2년",
+      "choices": [
+        "2년",
+        "1년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 다. (③~⑤는 심의 없이 한 차례만 2년 이내 기간 동안 허가제한 연장 가능)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-199",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공동구를 점용하는 자 공동부담(비율은 공동구관리자가 점용면적을 고려하여 결정)",
+      "answer": "관리비용",
+      "choices": [
+        "관리비용",
+        "공동구 수용의무",
+        "설치비용",
+        "매수대금 지급"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 관리비용 : 공동구를 점용하는 자 공동부담(비율은 공동구관리자가 점용면적을 고려하여 결정)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-200",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도시.군계획시설을 설치, 정비 또는 개량하는 사업",
+      "answer": "도시.군계획시설사업",
+      "choices": [
+        "도시.군계획시설사업",
+        "단계별 집행계획 - 수립권자",
+        "작성 및 인가신청 - 인가신청",
+        "실시계획 작성 또"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 도시.군계획시설사업 : 도시.군계획시설을 설치, 정비 또는 개량하는 사업",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-201",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "선매협의 : 허가신청일부터 {{blank}} 이내 선매자 지정하여 토지소유자에 통지, 선매자는 통지 받은 날부터 1",
+      "answer": "1개월",
+      "choices": [
+        "1개월",
+        "2개월",
+        "3개월",
+        "4개월"
+      ],
+      "explanation": "9. 토지거래허가: 선매협의 : 허가신청일부터 1개월 이내 선매자 지정하여 토지소유자에 통지, 선매자는 통지 받은 날부터 1",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-202",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 3일 전까지 소유자/점유자/관리인에게 통지",
+      "answer": "사전통지",
+      "choices": [
+        "사전통지",
+        "체비지",
+        "사용.수익의 정지",
+        "저대지"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 사전통지 : 3일 전까지 소유자/점유자/관리인에게 통지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-203",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공  도시개발구역을 지정.요청하고자 하는 때",
+      "answer": "공람 또",
+      "choices": [
+        "공람 또",
+        "※ 도시개발사업",
+        "도시개발구역에서 주거",
+        "상업"
+      ],
+      "explanation": "1. 도시개발구역의 지정: 공람 또는 공  도시개발구역을 지정.요청하고자 하는 때",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-204",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시행자는 공람 기일 종료된 날부터 60일 이내 의견제출자에게 환지계획 반영여부 통보",
+      "answer": "결과 통보",
+      "choices": [
+        "결과 통보",
+        "동의철회 토지소유자",
+        "조합설립등기 조합설립인가를 받",
+        "총회 의결사항"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 결과 통보 : 시행자는 공람 기일 종료된 날부터 60일 이내 의견제출자에게 환지계획 반영여부 통보",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-205",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 도지사(대도시 시장이 아닌 시장이 수립하는 경우)",
+      "answer": "승인권자",
+      "choices": [
+        "승인권자",
+        "주택재건축사업 정비기반시설",
+        "정비기본계획수립 수립권자",
+        "수립 단위 및 재검토"
+      ],
+      "explanation": "1. 목적 및 용어: 승인권자 : 도지사(대도시 시장이 아닌 시장이 수립하는 경우)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-206",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 승인함에 있어 지방도시계획위원회의 심의를 거쳐야 함",
+      "answer": "지사",
+      "choices": [
+        "지사",
+        "도지사의 승인 및 심의",
+        "고시 및 보고",
+        "정비계획의 내용"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 지사는 승인함에 있어 지방도시계획위원회의 심의를 거쳐야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-207",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "사업시행인가 고시일로부터 {{blank}} 이내 개략적 부담금/분양신청기간 등을 토지등소유자에게 통지 및 일간신",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "3. 정비사업의 시행: 사업시행인가 고시일로부터 60일 이내 개략적 부담금/분양신청기간 등을 토지등소유자에게 통지 및 일간신",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-208",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 천재지변으로 멸실된 경우 그 대지에 종전 규모 내에서 다시 축조",
+      "answer": "재축",
+      "choices": [
+        "재축",
+        "신축",
+        "증축",
+        "개축"
+      ],
+      "explanation": "1. 총칙: 재축 : 천재지변으로 멸실된 경우 그 대지에 종전 규모 내에서 다시 축조",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-209",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "연면적이 {{blank}} 미만이고 3층 미만인 건축물의 대수선",
+      "answer": "200㎡",
+      "choices": [
+        "200㎡",
+        "150㎡",
+        "250㎡",
+        "300㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 연면적이 200㎡ 미만이고 3층 미만인 건축물의 대수선",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-210",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "법 제56조에 따른 용적률은 해당 지역 용적률의 {{blank}} 이하",
+      "answer": "1.2배",
+      "choices": [
+        "1.2배",
+        "0.2배",
+        "2.2배",
+        "3.2배"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 법 제56조에 따른 용적률은 해당 지역 용적률의 1.2배 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-211",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 건축물은 2개소 이상 설치 : {{blank}}, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "answer": "제2종근린생활시설 중 공연장",
+      "choices": [
+        "제2종근린생활시설 중 공연장",
+        "집회시설",
+        "종교시설",
+        "위락시설"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-212",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 인접 대지경계선으로부터 1.5m 이상",
+      "answer": "높이 9m 이하인 부분",
+      "choices": [
+        "높이 9m 이하인 부분",
+        "주거지역 60",
+        "상업지역/공업지역 150",
+        "녹지지역 200"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 높이 9m 이하인 부분 : 인접 대지경계선으로부터 1.5m 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-213",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "리모델링 : ① 대수선, ② 사용검사일 또는 사용승인일로부터 {{blank}} 경과된 공동주택을 각 세대의 주거전용면",
+      "answer": "15년",
+      "choices": [
+        "15년",
+        "13년",
+        "17년",
+        "20년"
+      ],
+      "explanation": "1. 용어: 리모델링 : ① 대수선, ② 사용검사일 또는 사용승인일로부터 15년 경과된 공동주택을 각 세대의 주거전용면",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-214",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "승인권자는 승인 신청 {{blank}} 이내 승인 여부를 사업주체에게 통보해야 함",
+      "answer": "60일",
+      "choices": [
+        "60일",
+        "50일",
+        "70일",
+        "80일"
+      ],
+      "explanation": "2. 주택의 건설: 승인권자는 승인 신청 60일 이내 승인 여부를 사업주체에게 통보해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-215",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양가격이 인근지역 주택가격의 {{blank}} 이상 3년 1년",
+      "answer": "100%",
+      "choices": [
+        "100%",
+        "90%",
+        "110%",
+        "120%"
+      ],
+      "explanation": "4. 주택의 공급: 분양가격이 인근지역 주택가격의 100% 이상 3년 1년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-216",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "업지구에 있는 {{blank}} 미만 농지의 경우, 한계농지의 평균경사율이 15% 이상인 경우, 공공토지비축 관련",
+      "answer": "1500㎡",
+      "choices": [
+        "1500㎡",
+        "1450㎡",
+        "1550㎡",
+        "1600㎡"
+      ],
+      "explanation": "1. 농지 소유 상한: 업지구에 있는 1500㎡ 미만 농지의 경우, 한계농지의 평균경사율이 15% 이상인 경우, 공공토지비축 관련",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-217",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 농지개량과 직접적으로 관련된 토지이용행위",
+      "answer": "농업생산 또",
+      "choices": [
+        "농업생산 또",
+        "농지조성사업 또",
+        "농촌및식품산업정책심의회 심의 없이",
+        "농지개량사업 또"
+      ],
+      "explanation": "3. 농지의 보전: 농업생산 또는 농지개량과 직접적으로 관련된 토지이용행위",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-218",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 광역계획권 지정 3년 경과시까지 시도지사의 광역도시계",
+      "answer": "국가계획관련 또",
+      "choices": [
+        "국가계획관련 또",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "1. 광역도시계획: 국가계획관련 또는 광역계획권 지정 3년 경과시까지 시도지사의 광역도시계",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-219",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 변경에 관한 계획과 지구단위계획",
+      "answer": "지구단위계획구역의 지정 또",
+      "choices": [
+        "지구단위계획구역의 지정 또",
+        "입지규제최소구역의 지정 또",
+        "도지사 직접 또",
+        "공업기능 또"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 지구단위계획구역의 지정 또는 변경에 관한 계획과 지구단위계획",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-220",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "준주거지역 70% 이하 {{blank}} 이하",
+      "answer": "200~500%",
+      "choices": [
+        "200~500%",
+        "0~200%",
+        "500~800%",
+        "800~1100%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 준주거지역 70% 이하 200~500% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-221",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 국토교통부장관, 시도지사, 시장군수",
+      "answer": "임의적 지정",
+      "choices": [
+        "임의적 지정",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 임의적 지정 : 국토교통부장관, 시도지사, 시장군수",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-222",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "환경보전지역/지구단위계획구역 외의 지역에서 {{blank}} 이하 토지에서 500㎥ 이하 토석 채취 등",
+      "answer": "250㎡",
+      "choices": [
+        "250㎡",
+        "200㎡",
+        "300㎡",
+        "350㎡"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 환경보전지역/지구단위계획구역 외의 지역에서 250㎡ 이하 토지에서 500㎥ 이하 토석 채취 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-223",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공동구 점용예정자와 사업시행자가 부담, “시장.군수”는 일부 보조 또는 융자 가능",
+      "answer": "설치비용",
+      "choices": [
+        "설치비용",
+        "공동구 수용의무",
+        "관리비용",
+        "매수대금 지급"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 설치비용 : 공동구 점용예정자와 사업시행자가 부담, “시장.군수”는 일부 보조 또는 융자 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-224",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시도지사 또는 대도시 시장에 신청 (예외; 국토교통부장관)",
+      "answer": "작성 및 인가신청 - 인가신청",
+      "choices": [
+        "작성 및 인가신청 - 인가신청",
+        "도시.군계획시설사업",
+        "단계별 집행계획 - 수립권자",
+        "실시계획 작성 또"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 작성 및 인가신청 - 인가신청 : 시도지사 또는 대도시 시장에 신청 (예외; 국토교통부장관)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-225",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 토지소유권 (지상권은 아님)",
+      "answer": "선매대상권리",
+      "choices": [
+        "선매대상권리",
+        "판례",
+        "허가의 법적성격-인가",
+        "허가를 전제한 계약-유동적 무효"
+      ],
+      "explanation": "9. 토지거래허가: 선매대상권리 : 토지소유권 (지상권은 아님)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-226",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 행위자가 속한 행정청이나 도시.군계획시설사업의 시행자가 보상해야 함",
+      "answer": "손실보상",
+      "choices": [
+        "손실보상",
+        "위원",
+        "공무원이 아닌 위원의 수",
+        "입하거나 재료 적치장 또"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 손실보상 : 행위자가 속한 행정청이나 도시.군계획시설사업의 시행자가 보상해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-227",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "※ 도시개발사업 : {{blank}},상업,산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "answer": "도시개발구역에서 주거",
+      "choices": [
+        "도시개발구역에서 주거",
+        "상업",
+        "산업",
+        "유통"
+      ],
+      "explanation": "1. 도시개발구역의 지정: ※ 도시개발사업 : 도시개발구역에서 주거,상업,산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-228",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 종전 토지에 대한 권리는 환지처분 공고된 날이 끝날 때 소멸, 다음날 환지는 종전 토지로",
+      "answer": "권리의 이전",
+      "choices": [
+        "권리의 이전",
+        "동의철회 토지소유자",
+        "조합설립등기 조합설립인가를 받",
+        "총회 의결사항"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 권리의 이전 : 종전 토지에 대한 권리는 환지처분 공고된 날이 끝날 때 소멸, 다음날 환지는 종전 토지로",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-229",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 특별시장/광역시장/특별자치시장/특별자치도지사, 시장",
+      "answer": "정비기본계획수립 수립권자",
+      "choices": [
+        "정비기본계획수립 수립권자",
+        "주택재건축사업 정비기반시설",
+        "수립 단위 및 재검토",
+        "승인권자"
+      ],
+      "explanation": "1. 목적 및 용어: 정비기본계획수립 수립권자 : 특별시장/광역시장/특별자치시장/특별자치도지사, 시장",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-230",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "정비계획의 내용 : 명칭, 정비구역 및 면적, {{blank}}, 공동이용시설 설치계획, 건축물 주",
+      "answer": "도시.군계획시설의 설치계획",
+      "choices": [
+        "도시.군계획시설의 설치계획",
+        "명칭",
+        "정비구역 및 면적",
+        "공동이용시설 설치계획"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 정비계획의 내용 : 명칭, 정비구역 및 면적, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-231",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "도시·군관리계획으로 정하는 용도지역 중 도시지역은 주거지역·상업지역·공업지역과 {{blank}}으로 구분한다.",
+      "answer": "녹지지역",
+      "choices": [
+        "녹지지역",
+        "관리지역",
+        "농림지역",
+        "자연환경보전지역"
+      ],
+      "explanation": "도시지역은 주거지역·상업지역·공업지역·녹지지역으로 구분한다. 관리지역·농림지역·자연환경보전지역은 도시지역과 같은 단계의 구분이다.",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "approved",
+        "legal": "pending",
+        "references": [],
+        "contentHash": "1f12287c342dabbfddd17da9db31892a40820b9597e1198e4883ec9850a3d807",
+        "note": "교정 후보. 현행 조문 본문·부칙과 예외 규정 대조 전이며 배포 승인 아님."
+      }
+    },
+    {
+      "id": "blank-04-232",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 허가권자는 건축위원회의 심의를 거쳐 결정하고 결과를 신청인에게 통지",
+      "answer": "적용완화의 결정",
+      "choices": [
+        "적용완화의 결정",
+        "신축",
+        "증축",
+        "개축"
+      ],
+      "explanation": "1. 총칙: 적용완화의 결정 : 허가권자는 건축위원회의 심의를 거쳐 결정하고 결과를 신청인에게 통지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-233",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "읍.면지역 연면적 {{blank}} 이하 창고.농막 연면적 400㎡ 이",
+      "answer": "200㎡",
+      "choices": [
+        "200㎡",
+        "150㎡",
+        "250㎡",
+        "300㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 읍.면지역 연면적 200㎡ 이하 창고.농막 연면적 400㎡ 이",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-234",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "원칙적 도로 : 보행과 자동차 통행이 가능한 너비 {{blank}} 이상의 도로",
+      "answer": "4m",
+      "choices": [
+        "4m",
+        "3m",
+        "5m",
+        "6m"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 원칙적 도로 : 보행과 자동차 통행이 가능한 너비 4m 이상의 도로",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-235",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, {{blank}}, 종교시설, 위락시설, 장례식장 등",
+      "answer": "집회시설",
+      "choices": [
+        "집회시설",
+        "제2종근린생활시설 중 공연장",
+        "종교시설",
+        "위락시설"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-236",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 인접 대지경계선으로부터 해당 건축물 각 부분 높이의 1/2 이상",
+      "answer": "높이 9m 초과하는 부분",
+      "choices": [
+        "높이 9m 초과하는 부분",
+        "주거지역 60",
+        "상업지역/공업지역 150",
+        "녹지지역 200"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 높이 9m 초과하는 부분 : 인접 대지경계선으로부터 해당 건축물 각 부분 높이의 1/2 이상",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-237",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 건축위원회 심의를 받은 경우 5층까지 가능",
+      "answer": "단지형 연립주택",
+      "choices": [
+        "단지형 연립주택",
+        "주택",
+        "공동주택",
+        "세대구분형 공동주택"
+      ],
+      "explanation": "1. 용어: . 단지형 연립주택 : 건축위원회 심의를 받은 경우 5층까지 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-238",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "공구를 분할하지 않고 승인을 받는 경우 : 승인 받은 날부터 {{blank}} 이내",
+      "answer": "5년",
+      "choices": [
+        "5년",
+        "4년",
+        "6년",
+        "7년"
+      ],
+      "explanation": "2. 주택의 건설: 공구를 분할하지 않고 승인을 받는 경우 : 승인 받은 날부터 5년 이내",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-239",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양가격이 인근지역 주택가격의 {{blank}} 미만 6년 3년",
+      "answer": "70%",
+      "choices": [
+        "70%",
+        "60%",
+        "80%",
+        "90%"
+      ],
+      "explanation": "4. 주택의 공급: 분양가격이 인근지역 주택가격의 70% 미만 6년 3년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-240",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": ",{{blank}} 이상의 농지에서 농작물 또는 다년생식물을 경작 또는 재배하거나 1년 중 90일 이상 농업에 종사",
+      "answer": "000㎡",
+      "choices": [
+        "000㎡",
+        "1㎡",
+        "2㎡",
+        "3㎡"
+      ],
+      "explanation": "1. 농지 소유 상한: ,000㎡ 이상의 농지에서 농작물 또는 다년생식물을 경작 또는 재배하거나 1년 중 90일 이상 농업에 종사",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-241",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 경우 부분에 대해서는 행위제한 적용하지 않음",
+      "answer": "에 걸치",
+      "choices": [
+        "에 걸치",
+        "농지조성사업 또",
+        "농촌및식품산업정책심의회 심의 없이",
+        "농지개량사업 또"
+      ],
+      "explanation": "3. 농지의 보전: 에 걸치는 경우 부분에 대해서는 행위제한 적용하지 않음",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-242",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 관계 중앙행정기관의 장과 협의해야 함 (30일 이내 의견제시)",
+      "answer": "협의 장관",
+      "choices": [
+        "협의 장관",
+        "국토교통부장관",
+        "시도지사",
+        "시장군수"
+      ],
+      "explanation": "1. 광역도시계획: 협의 장관은 관계 중앙행정기관의 장과 협의해야 함 (30일 이내 의견제시)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-243",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시도지사가 “시장.군수”에게 송부",
+      "answer": "송부 국토교통부장관 또",
+      "choices": [
+        "송부 국토교통부장관 또",
+        "지구단위계획구역의 지정 또",
+        "입지규제최소구역의 지정 또",
+        "도지사 직접 또"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 송부 국토교통부장관 또는 시도지사가 “시장.군수”에게 송부",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-244",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "역 근린상업지역 70% 이하 {{blank}} 이하",
+      "answer": "200~900%",
+      "choices": [
+        "200~900%",
+        "0~200%",
+        "900~1600%",
+        "1600~2300%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 역 근린상업지역 70% 이하 200~900% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-245",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 용적률·건축물의 높이의 최고한도 또는 최저한도",
+      "answer": "건축물의 용도제한·건축물의 건폐율 또",
+      "choices": [
+        "건축물의 용도제한·건축물의 건폐율 또",
+        "임의적 지정",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 건축물의 용도제한·건축물의 건폐율 또는 용적률·건축물의 높이의 최고한도 또는 최저한도",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-246",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "환경보전지역/지구단위계획구역 외의 지역에서 250㎡ 이하 토지에서 {{blank}} 이하 토석 채취 등",
+      "answer": "500㎥",
+      "choices": [
+        "500㎥",
+        "450㎥",
+        "550㎥",
+        "600㎥"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 환경보전지역/지구단위계획구역 외의 지역에서 250㎡ 이하 토지에서 500㎥ 이하 토석 채취 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-247",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 전선로/통신선로/수도관/열수송관/중수도관/쓰레기수송관(의무), 가스관/하수도관/그 밖의",
+      "answer": "공동구 수용의무",
+      "choices": [
+        "공동구 수용의무",
+        "설치비용",
+        "관리비용",
+        "매수대금 지급"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 공동구 수용의무 : 전선로/통신선로/수도관/열수송관/중수도관/쓰레기수송관(의무), 가스관/하수도관/그 밖의",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-248",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 분할시행, 무료로 열람.복사, 공시송달, 수용.사용권, 타인토",
+      "answer": "사업시행 - 사업시행자에 대한 지원",
+      "choices": [
+        "사업시행 - 사업시행자에 대한 지원",
+        "도시.군계획시설사업",
+        "단계별 집행계획 - 수립권자",
+        "작성 및 인가신청 - 인가신청"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 사업시행 - 사업시행자에 대한 지원 : 분할시행, 무료로 열람.복사, 공시송달, 수용.사용권, 타인토",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-249",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 5년 이내 허가 받은 목적대로 이용해야 함",
+      "answer": "토지이용의무",
+      "choices": [
+        "토지이용의무",
+        "판례",
+        "허가의 법적성격-인가",
+        "허가를 전제한 계약-유동적 무효"
+      ],
+      "explanation": "9. 토지거래허가: 토지이용의무 : 5년 이내 허가 받은 목적대로 이용해야 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-250",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 10명 이상, 임기는 2년",
+      "answer": "공무원이 아닌 위원의 수",
+      "choices": [
+        "공무원이 아닌 위원의 수",
+        "위원",
+        "입하거나 재료 적치장 또",
+        "손실보상"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 공무원이 아닌 위원의 수는 10명 이상, 임기는 2년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-251",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "※ 도시개발사업 : 도시개발구역에서 주거,{{blank}},산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "answer": "상업",
+      "choices": [
+        "상업",
+        "도시개발구역에서 주거",
+        "산업",
+        "유통"
+      ],
+      "explanation": "1. 도시개발구역의 지정: ※ 도시개발사업 : 도시개발구역에서 주거,상업,산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-252",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 정관 변경, 개발계획 및 실시계획 수립 및 변경, 자금의 차입과 방법, 조합 수지예산, 부과",
+      "answer": "총회 의결사항",
+      "choices": [
+        "총회 의결사항",
+        "동의철회 토지소유자",
+        "조합설립등기 조합설립인가를 받",
+        "정관 변경"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 총회 의결사항 : 정관 변경, 개발계획 및 실시계획 수립 및 변경, 자금의 차입과 방법, 조합 수지예산, 부과",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-253",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 10년 단위로 수립, 5년마다 타당성 검토하여 결과를 기본계획에",
+      "answer": "수립 단위 및 재검토",
+      "choices": [
+        "수립 단위 및 재검토",
+        "주택재건축사업 정비기반시설",
+        "정비기본계획수립 수립권자",
+        "승인권자"
+      ],
+      "explanation": "1. 목적 및 용어: 수립 단위 및 재검토 : 10년 단위로 수립, 5년마다 타당성 검토하여 결과를 기본계획에",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-254",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "정비계획의 내용 : 명칭, {{blank}}, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "answer": "정비구역 및 면적",
+      "choices": [
+        "정비구역 및 면적",
+        "명칭",
+        "도시.군계획시설의 설치계획",
+        "공동이용시설 설치계획"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 정비계획의 내용 : 명칭, 정비구역 및 면적, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-255",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 관리처분계획인가의 고시가 있은 때",
+      "answer": "사용.수익의 정지",
+      "choices": [
+        "사용.수익의 정지",
+        "사전통지",
+        "체비지",
+        "저대지"
+      ],
+      "explanation": "3. 정비사업의 시행: 사용.수익의 정지 : 관리처분계획인가의 고시가 있은 때",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-256",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — ① 외의 지역으로서 동이나 읍이 아닌 지역은 아래 규정을 적용 안 함",
+      "answer": "일부조항 적용배제",
+      "choices": [
+        "일부조항 적용배제",
+        "신축",
+        "증축",
+        "개축"
+      ],
+      "explanation": "1. 총칙: 일부조항 적용배제 : ① 외의 지역으로서 동이나 읍이 아닌 지역은 아래 규정을 적용 안 함",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-257",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "읍.면지역 연면적 200㎡ 이하 창고.농막 연면적 {{blank}} 이",
+      "answer": "400㎡",
+      "choices": [
+        "400㎡",
+        "350㎡",
+        "450㎡",
+        "500㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 읍.면지역 연면적 200㎡ 이하 창고.농막 연면적 400㎡ 이",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-258",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "법 제60조에 따른 높이제한은 해당 건축물에 적용하는 높이기준의 {{blank}} 이하",
+      "answer": "1.2배",
+      "choices": [
+        "1.2배",
+        "0.2배",
+        "2.2배",
+        "3.2배"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 법 제60조에 따른 높이제한은 해당 건축물에 적용하는 높이기준의 1.2배 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-259",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, {{blank}}, 위락시설, 장례식장 등",
+      "answer": "종교시설",
+      "choices": [
+        "종교시설",
+        "제2종근린생활시설 중 공연장",
+        "집회시설",
+        "위락시설"
+      ],
+      "explanation": "4. 건축물의 구조 및 재료: 다음 건축물은 2개소 이상 설치 : 제2종근린생활시설 중 공연장, 집회시설, 종교시설, 위락시설, 장례식장 등",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 건축물의 구조 및 재료",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-260",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 주거지역 60, 상업지역/공업지역 150, 녹지지역 200, 기타 60",
+      "answer": "분할제한 면적(㎡)",
+      "choices": [
+        "분할제한 면적(㎡)",
+        "건폐율 또",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: 분할제한 면적(㎡) : 주거지역 60, 상업지역/공업지역 150, 녹지지역 200, 기타 60",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-261",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "없이 시공자 및 사업주체에게 시정 통지하고 {{blank}} 이내에 사업계획승인권자에게 보고",
+      "answer": "7일",
+      "choices": [
+        "7일",
+        "5일",
+        "9일",
+        "12일"
+      ],
+      "explanation": "2. 주택의 건설: 없이 시공자 및 사업주체에게 시정 통지하고 7일 이내에 사업계획승인권자에게 보고",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-262",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양가격이 인근지역 주택가격의 70% 미만 {{blank}} 3년",
+      "answer": "6년",
+      "choices": [
+        "6년",
+        "4년",
+        "8년",
+        "11년"
+      ],
+      "explanation": "4. 주택의 공급: 분양가격이 인근지역 주택가격의 70% 미만 6년 3년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-263",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "업지구에 있는 1500㎡ 미만 농지의 경우, 한계농지의 평균경사율이 {{blank}} 이상인 경우, 공공토지비축 관련",
+      "answer": "15%",
+      "choices": [
+        "15%",
+        "13%",
+        "17%",
+        "20%"
+      ],
+      "explanation": "1. 농지 소유 상한: 업지구에 있는 1500㎡ 미만 농지의 경우, 한계농지의 평균경사율이 15% 이상인 경우, 공공토지비축 관련",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-264",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 지하광물 채광과 광석의 선별 및 적치를 위한 장소",
+      "answer": "지하자원 개발을 위한 탐사 또",
+      "choices": [
+        "지하자원 개발을 위한 탐사 또",
+        "농지조성사업 또",
+        "농촌및식품산업정책심의회 심의 없이",
+        "농지개량사업 또"
+      ],
+      "explanation": "3. 농지의 보전: 지하자원 개발을 위한 탐사 또는 지하광물 채광과 광석의 선별 및 적치를 위한 장소",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-265",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "원칙 : {{blank}}, 시도지사, 시장군수",
+      "answer": "국토교통부장관",
+      "choices": [
+        "국토교통부장관",
+        "시도지사",
+        "시장군수",
+        "국가계획관련 또"
+      ],
+      "explanation": "1. 광역도시계획: 원칙 : 국토교통부장관, 시도지사, 시장군수",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-266",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 변경에 관한 계획과 입지규제최소구역계획",
+      "answer": "입지규제최소구역의 지정 또",
+      "choices": [
+        "입지규제최소구역의 지정 또",
+        "지구단위계획구역의 지정 또",
+        "도지사 직접 또",
+        "공업기능 또"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 입지규제최소구역의 지정 또는 변경에 관한 계획과 입지규제최소구역계획",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-267",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "제3종~ {{blank}} 이하 200~300% 이하",
+      "answer": "50%",
+      "choices": [
+        "50%",
+        "40%",
+        "60%",
+        "70%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 제3종~ 50% 이하 200~300% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-268",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 용도지구를 대통령령이 정하는 범위에서 세분하거나 변경하는 사항",
+      "answer": "용도지역 또",
+      "choices": [
+        "용도지역 또",
+        "임의적 지정",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 용도지역 또는 용도지구를 대통령령이 정하는 범위에서 세분하거나 변경하는 사항",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-269",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "시/자연환경보전지역/지구단위계획구역 외의 지역에서 면적 {{blank}} 이하 토지의 지목변경 수반하지 않는 절",
+      "answer": "660㎡",
+      "choices": [
+        "660㎡",
+        "610㎡",
+        "710㎡",
+        "760㎡"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 시/자연환경보전지역/지구단위계획구역 외의 지역에서 면적 660㎡ 이하 토지의 지목변경 수반하지 않는 절",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-270",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 현금 지급 원칙, 도시.군계획시설채권 발행 가능(토지소유자가 원하는 경우, 부재부동산소유",
+      "answer": "매수대금 지급",
+      "choices": [
+        "매수대금 지급",
+        "공동구 수용의무",
+        "설치비용",
+        "관리비용"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 매수대금 지급 : 현금 지급 원칙, 도시.군계획시설채권 발행 가능(토지소유자가 원하는 경우, 부재부동산소유",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-271",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — “시장.군수” (예외; 국토교통부장관, 도지사, 비행정청(사인))",
+      "answer": "사업시행자 확정 - 원칙",
+      "choices": [
+        "사업시행자 확정 - 원칙",
+        "도시.군관리계획 - 원칙",
+        "공사완료공고 원칙",
+        "국토교통부장관"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 사업시행자 확정 - 원칙 : “시장.군수” (예외; 국토교통부장관, 도지사, 비행정청(사인))",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-272",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시군구청장은 허가받은 목적대로 이용하고 있는지 조사",
+      "answer": "토지이용에 대한 조사",
+      "choices": [
+        "토지이용에 대한 조사",
+        "판례",
+        "허가의 법적성격-인가",
+        "허가를 전제한 계약-유동적 무효"
+      ],
+      "explanation": "9. 토지거래허가: 토지이용에 대한 조사 : 시군구청장은 허가받은 목적대로 이용하고 있는지 조사",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-273",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 임시통로로 사용할 수 있으며, 특히 필요 시 나무,흙,돌 등의 장애물을 변경하",
+      "answer": "입하거나 재료 적치장 또",
+      "choices": [
+        "입하거나 재료 적치장 또",
+        "위원",
+        "공무원이 아닌 위원의 수",
+        "손실보상"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 입하거나 재료 적치장 또는 임시통로로 사용할 수 있으며, 특히 필요 시 나무,흙,돌 등의 장애물을 변경하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-274",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "※ 도시개발사업 : 도시개발구역에서 주거,상업,{{blank}},유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "answer": "산업",
+      "choices": [
+        "산업",
+        "도시개발구역에서 주거",
+        "상업",
+        "유통"
+      ],
+      "explanation": "1. 도시개발구역의 지정: ※ 도시개발사업 : 도시개발구역에서 주거,상업,산업,유통,정보통신,생태,문화,보건 및 복지 등의 기능이 있는 단지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 도시개발구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-275",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 시행자는 규약.정관.시행규정 또는 실시계획으로 정하는 목적을 위해 일정 토지를 환지로 정하지",
+      "answer": "체비지",
+      "choices": [
+        "체비지",
+        "사전통지",
+        "사용.수익의 정지",
+        "저대지"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 체비지 : 시행자는 규약.정관.시행규정 또는 실시계획으로 정하는 목적을 위해 일정 토지를 환지로 정하지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-276",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 양호하나 노후.불량건축물이 밀집한 지역에서 주거환경을 개선하기 위",
+      "answer": "주택재건축사업 정비기반시설",
+      "choices": [
+        "주택재건축사업 정비기반시설",
+        "정비기본계획수립 수립권자",
+        "수립 단위 및 재검토",
+        "승인권자"
+      ],
+      "explanation": "1. 목적 및 용어: 주택재건축사업 정비기반시설은 양호하나 노후.불량건축물이 밀집한 지역에서 주거환경을 개선하기 위",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 목적 및 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-277",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "정비계획의 내용 : {{blank}}, 정비구역 및 면적, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "answer": "명칭",
+      "choices": [
+        "명칭",
+        "정비구역 및 면적",
+        "도시.군계획시설의 설치계획",
+        "공동이용시설 설치계획"
+      ],
+      "explanation": "2. 기본계획의 수립 및 정비구역의 지정: 정비계획의 내용 : 명칭, 정비구역 및 면적, 도시.군계획시설의 설치계획, 공동이용시설 설치계획, 건축물 주",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 기본계획의 수립 및 정비구역의 지정",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-278",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 노후.불량건축물 대상으로 구조적 또는 기능적 결함 등을 평가",
+      "answer": "구조안정성 평가",
+      "choices": [
+        "구조안정성 평가",
+        "조합의 시공자 선정",
+        "토지등소유자의 시공자 선정",
+        "시장.군수 등의 시공자 선정"
+      ],
+      "explanation": "3. 정비사업의 시행: 구조안정성 평가 : 노후.불량건축물 대상으로 구조적 또는 기능적 결함 등을 평가",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-279",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 기존 건축물 일부/전부에를 철거하고 종전과 같은 규모 내에서 다시 축조",
+      "answer": "개축",
+      "choices": [
+        "개축",
+        "신축",
+        "증축",
+        "재축"
+      ],
+      "explanation": "1. 총칙: 개축 : 기존 건축물 일부/전부에를 철거하고 종전과 같은 규모 내에서 다시 축조",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-280",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다가구주택 바닥면적 합계 {{blank}} 이하, 3층 이하, 19세대 이하",
+      "answer": "660㎡",
+      "choices": [
+        "660㎡",
+        "610㎡",
+        "710㎡",
+        "760㎡"
+      ],
+      "explanation": "2. 건축물의 건축: 다가구주택 바닥면적 합계 660㎡ 이하, 3층 이하, 19세대 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-281",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "면적이 {{blank}} 이상인 대지에 건축하는 경우 용도지역 및 건축물 규모에 따라 조경이나 필요한 조치 해야",
+      "answer": "200㎡",
+      "choices": [
+        "200㎡",
+        "150㎡",
+        "250㎡",
+        "300㎡"
+      ],
+      "explanation": "3. 건축물의 대지와 도로: 면적이 200㎡ 이상인 대지에 건축하는 경우 용도지역 및 건축물 규모에 따라 조경이나 필요한 조치 해야",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 건축물의 대지와 도로",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-282",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 용적률에 미달되는 대지",
+      "answer": "건폐율 또",
+      "choices": [
+        "건폐율 또",
+        "분할제한 면적(㎡)",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "5. 지역 및 지구의 건축물: . 건폐율 또는 용적률에 미달되는 대지",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지역 및 지구의 건축물",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-283",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 실내공기 오염물질 최소화 기준에 따라 건설된 주택",
+      "answer": "건강친화형 주택",
+      "choices": [
+        "건강친화형 주택",
+        "주택",
+        "공동주택",
+        "세대구분형 공동주택"
+      ],
+      "explanation": "1. 용어: 건강친화형 주택 : 실내공기 오염물질 최소화 기준에 따라 건설된 주택",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 용어",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-284",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "주택을 소유하지 아니하거나 주거전용면적 {{blank}} 이하 주택 1채를 소유한 세대주인 자",
+      "answer": "85㎡",
+      "choices": [
+        "85㎡",
+        "75㎡",
+        "95㎡",
+        "105㎡"
+      ],
+      "explanation": "2. 주택의 건설: 주택을 소유하지 아니하거나 주거전용면적 85㎡ 이하 주택 1채를 소유한 세대주인 자",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 주택의 건설",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-285",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "분양가격이 인근지역 주택가격의 100% 이상 {{blank}} 1년",
+      "answer": "3년",
+      "choices": [
+        "3년",
+        "2년",
+        "4년",
+        "5년"
+      ],
+      "explanation": "4. 주택의 공급: 분양가격이 인근지역 주택가격의 100% 이상 3년 1년",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 주택의 공급",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-286",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": ",000㎡ 이상의 농지에서 농작물 또는 다년생식물을 경작 또는 재배하거나 {{blank}} 중 90일 이상 농업에 종사",
+      "answer": "1년",
+      "choices": [
+        "1년",
+        "2년",
+        "3년",
+        "4년"
+      ],
+      "explanation": "1. 농지 소유 상한: ,000㎡ 이상의 농지에서 농작물 또는 다년생식물을 경작 또는 재배하거나 1년 중 90일 이상 농업에 종사",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 농지 소유 상한",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-287",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 경우 분에 대해서는 농업보호구역에 관한 규정을 적용",
+      "answer": "호구역에 걸치",
+      "choices": [
+        "호구역에 걸치",
+        "농지조성사업 또",
+        "농촌및식품산업정책심의회 심의 없이",
+        "농지개량사업 또"
+      ],
+      "explanation": "3. 농지의 보전: 호구역에 걸치는 경우 분에 대해서는 농업보호구역에 관한 규정을 적용",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 농지의 보전",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-288",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "원칙 : 국토교통부장관, {{blank}}, 시장군수",
+      "answer": "시도지사",
+      "choices": [
+        "시도지사",
+        "국토교통부장관",
+        "시장군수",
+        "국가계획관련 또"
+      ],
+      "explanation": "1. 광역도시계획: 원칙 : 국토교통부장관, 시도지사, 시장군수",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 광역도시계획",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-289",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 개발이 끝나 나대지가 없는 경우 생략 가능",
+      "answer": "도심지역 또",
+      "choices": [
+        "도심지역 또",
+        "지구단위계획구역의 지정 또",
+        "입지규제최소구역의 지정 또",
+        "도지사 직접 또"
+      ],
+      "explanation": "3. 도시.군관리계획 (2문제): 도심지역 또는 개발이 끝나 나대지가 없는 경우 생략 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 도시.군관리계획 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-290",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "준주거지역 {{blank}} 이하 200~500% 이하",
+      "answer": "70%",
+      "choices": [
+        "70%",
+        "60%",
+        "80%",
+        "90%"
+      ],
+      "explanation": "4. 용도지역, 용도지구, 용도구역 (2문제): 준주거지역 70% 이하 200~500% 이하",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "4. 용도지역, 용도지구, 용도구역 (2문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-291",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 계획적인 개발·정비를 위해 구획된 일단의 토지의 규모와 조성계획",
+      "answer": "도로로 둘러싸인 일단의 지역 또",
+      "choices": [
+        "도로로 둘러싸인 일단의 지역 또",
+        "임의적 지정",
+        "국토교통부장관",
+        "시도지사"
+      ],
+      "explanation": "5. 지구단위계획 (1문제): 도로로 둘러싸인 일단의 지역 또는 계획적인 개발·정비를 위해 구획된 일단의 토지의 규모와 조성계획",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "5. 지구단위계획 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-292",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "기반시설설치비용의 부과대상 : 단독주택 및 숙박시설 등 {{blank}}(기존 건축물 연면적 포함)를 초과하는 건",
+      "answer": "200㎡",
+      "choices": [
+        "200㎡",
+        "150㎡",
+        "250㎡",
+        "300㎡"
+      ],
+      "explanation": "6. 개발행위의 허가 (1문제): 기반시설설치비용의 부과대상 : 단독주택 및 숙박시설 등 200㎡(기존 건축물 연면적 포함)를 초과하는 건",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "6. 개발행위의 허가 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-293",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 아래 “지역등”이 200만㎡를 초과하는 경우 해당 지역에서 개발사업을 진행하는 자는 공동구를",
+      "answer": "대상지역",
+      "choices": [
+        "대상지역",
+        "① 도시지역",
+        "녹지 등 기반시설의 설치가 필요한 지역",
+        "국토교통부장관"
+      ],
+      "explanation": "7. 도시.군계획시설 등 (1문제): 대상지역 : 아래 “지역등”이 200만㎡를 초과하는 경우 해당 지역에서 개발사업을 진행하는 자는 공동구를",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "7. 도시.군계획시설 등 (1문제)",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-294",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 공공시설관리자가 현저한 이익을 받은 경우 일부(소요비용 1/3 범위)",
+      "answer": "공공시설관리자의 부담",
+      "choices": [
+        "공공시설관리자의 부담",
+        "도시.군계획시설사업",
+        "단계별 집행계획 - 수립권자",
+        "작성 및 인가신청 - 인가신청"
+      ],
+      "explanation": "8. 도시.군계획시설사업: 공공시설관리자의 부담 : 공공시설관리자가 현저한 이익을 받은 경우 일부(소요비용 1/3 범위)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "8. 도시.군계획시설사업",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-295",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 농지의 거래허가를 받은 경우 농지취득자격증명을 받은 것으로 봄",
+      "answer": "농지취득자격증명의 의제",
+      "choices": [
+        "농지취득자격증명의 의제",
+        "판례",
+        "허가의 법적성격-인가",
+        "허가를 전제한 계약-유동적 무효"
+      ],
+      "explanation": "9. 토지거래허가: 농지취득자격증명의 의제 : 농지의 거래허가를 받은 경우 농지취득자격증명을 받은 것으로 봄",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "9. 토지거래허가",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-296",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 관계 중앙행정기관 공무원과 관련분야 전문가 중에서 국토교통부장관이 임명하거나 위촉",
+      "answer": "위원",
+      "choices": [
+        "위원",
+        "공무원이 아닌 위원의 수",
+        "입하거나 재료 적치장 또",
+        "손실보상"
+      ],
+      "explanation": "10. 도시계획위원회, 보칙, 벌칙 등: 위원은 관계 중앙행정기관 공무원과 관련분야 전문가 중에서 국토교통부장관이 임명하거나 위촉",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "10. 도시계획위원회, 보칙, 벌칙 등",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-297",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 사용방식에 의한 사업시행",
+      "answer": "수용 또",
+      "choices": [
+        "수용 또",
+        "동의철회 토지소유자",
+        "조합설립등기 조합설립인가를 받",
+        "총회 의결사항"
+      ],
+      "explanation": "2. 도시개발사업의 시행: 수용 또는 사용방식에 의한 사업시행",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 도시개발사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-298",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 사업시행자가 시장.군수에게 인가 (경미한 변경의 경우 신고)",
+      "answer": "인가신청",
+      "choices": [
+        "인가신청",
+        "조합의 시공자 선정",
+        "토지등소유자의 시공자 선정",
+        "시장.군수 등의 시공자 선정"
+      ],
+      "explanation": "3. 정비사업의 시행: 인가신청 : 사업시행자가 시장.군수에게 인가 (경미한 변경의 경우 신고)",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "3. 정비사업의 시행",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-299",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "다음 설명에 해당하는 것은 {{blank}}이다. — 건축주, 설계자, 공사시공자 또는 공사감리자(이하 “건축관계자”)가 허가권자에게",
+      "answer": "완화 요청",
+      "choices": [
+        "완화 요청",
+        "신축",
+        "증축",
+        "개축"
+      ],
+      "explanation": "1. 총칙: 완화 요청 : 건축주, 설계자, 공사시공자 또는 공사감리자(이하 “건축관계자”)가 허가권자에게",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "1. 총칙",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    },
+    {
+      "id": "blank-04-300",
+      "type": "blank",
+      "subject": "부동산공법",
+      "prompt": "리예치금 미관 개선과 안전관리에 필요한 비용을 건축공사비의 {{blank}} 범위 내에서 예치 가능",
+      "answer": "1%",
+      "choices": [
+        "1%",
+        "2%",
+        "3%",
+        "4%"
+      ],
+      "explanation": "2. 건축물의 건축: 리예치금 미관 개선과 안전관리에 필요한 비용을 건축공사비의 1% 범위 내에서 예치 가능",
+      "source": "5.공인중개사요약_공법.pdf",
+      "section": "2. 건축물의 건축",
+      "review": {
+        "wording": "pending",
+        "legal": "pending",
+        "references": []
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "reviewStatus": "pending",
+  "legalAsOf": null
+}

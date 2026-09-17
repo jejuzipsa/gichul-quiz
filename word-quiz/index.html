@@ -35,7 +35,8 @@
       tax_law:'tax_law.js'
     };
     const params=new URLSearchParams(location.search);
-    const key=params.get('subject')||'real_estate_intro';
+    const requestedKey=params.get('subject')||'real_estate_intro';
+    const key=Object.hasOwn(subjects,requestedKey)?requestedKey:'real_estate_intro';
     const mode=params.get('mode')==='blank'?'blank':'standard';
     const file=subjects[key]||subjects.real_estate_intro;
 
@@ -51,12 +52,11 @@
     };
 
     if(mode==='blank'){
-      load(`blank-data/${file}?v=20260916-blank-v2`,()=>{
-        load(`../summary/${file}?v=1.48`,()=>{
-          load('blank-bank-builder.js?v=1.48',()=>{
-            load('blank-quiz.js?v=1.2',null,()=>fail('괄호문제'));
-          },()=>fail('괄호문제'));
-        },()=>fail('핵심요약'));
+      load(`blank-data/${file}?v=20260917-review-1`,()=>{
+        load('blank-bank-validator.js?v=20260917-review-1',()=>{
+          if(!window.validateBlankBank(window.BLANK_QUIZ_BANK,key)) return fail('괄호문제');
+          load('blank-quiz.js?v=20260917-review-1',null,()=>fail('괄호문제'));
+        },()=>fail('괄호문제'));
       },()=>fail('괄호문제'));
     }else{
       load(`data/${file}?v=20260902-core-v1`,()=>{
