@@ -2,8 +2,8 @@
   "formatVersion": "blank-review-v2-seed-1",
   "sourceBranch": "main",
   "createdFromVersion": "1.52",
-  "status": "FULL_STRUCTURAL_AUDIT_PASSED",
-  "runtimeChanged": false,
+  "status": "RUNTIME_COMPILED_PENDING_CI",
+  "runtimeChanged": true,
   "subjects": {
     "real_estate_intro": {
       "label": "부동산학개론",
@@ -114,8 +114,8 @@
     "tax_law": {
       "label": "부동산세법",
       "seedCount": 60,
-      "sourceCoreVersion": "core-2026-10-06-audited-v2",
-      "sourceAuditDate": "2026-10-06",
+      "sourceCoreVersion": "core-2026-10-07-audited-v3",
+      "sourceAuditDate": "2026-10-07",
       "sourceAuditStatus": "approved",
       "review": {
         "status": "FINAL_REVIEW_COMPLETE",
@@ -136,10 +136,7 @@
           "review/blank-bank-v2/06_tax_law_expansion_part2.txt",
           "review/blank-bank-v2/06_tax_law_expansion_part3.txt"
         ],
-        "reportFile": "review/blank-bank-v2/06_tax_law_review_report.txt",
-        "pendingCoreFix": [
-          "TXK054"
-        ]
+        "reportFile": "review/blank-bank-v2/06_tax_law_review_report.txt"
       }
     }
   },
@@ -161,9 +158,18 @@
     "longChoicesOver55": 0,
     "longAnswersOver35": 0,
     "longPromptsOver150": 0,
-    "pendingCoreFix": [
-      "TXK054"
-    ],
     "reportFile": "review/blank-bank-v2/FINAL_AUDIT_REPORT.txt"
+  },
+  "runtimeIntegration": {
+    "version": "1.53",
+    "compiledAt": "2026-10-07",
+    "compiler": "tools/blank-bank/compile-v2.cjs",
+    "sourceOfTruth": "review/blank-bank-v2/*.txt",
+    "compiledReviewData": "review/blank-bank/*.json",
+    "compiledStaticData": "word-quiz/blank-data/*.js",
+    "multiBlankQuestions": 94,
+    "uiSupport": "single blank + named A/B/C multi blank",
+    "validatorSupport": "1-3 blanks with choice-to-blank mapping",
+    "status": "PENDING_CI"
   }
 }
