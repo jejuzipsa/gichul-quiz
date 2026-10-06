@@ -7,9 +7,9 @@ FORMAT: single_choice
 STYLE: 핵심개념·시험필수·기초포함
 LAW_BASIS_DATE: 2026-10-07
 SOURCE_NOTE: 2021~2022 기출에서 직접 확인되는 기본 용어·중개대상물·등록·사무소·확인설명·계약서·보증·교육·거래신고 중심. 5문형 반복을 제거하고 핵심 1문제씩만 유지.
-AUDIT_DATE: 2026-10-06
+AUDIT_DATE: 2026-10-07
 AUDIT_STATUS: approved
-AUDIT_NOTE: 정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인.
+AUDIT_NOTE: 정답·4개 선택지·해설·단일정답성 및 현행 공인중개사법령 수치·기한·의무주체를 2차 전수감사. BRK028·BRK030·BRK031·BRK060 교정 반영.
 
 # 이 TXT가 일반 핵심개념 문제은행의 Source of Truth이다.
 # word-quiz/data/*.js 는 tools/core-bank/compile.cjs 로 생성한다.
