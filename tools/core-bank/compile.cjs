@@ -98,7 +98,7 @@ function compileSubject(subject){
   const h=headerMeta(text);
   if(h.SUBJECT_KEY!==subject) throw new Error(subject+': SUBJECT_KEY mismatch');
   if(h.SUBJECT!==cfg.label) throw new Error(subject+': SUBJECT mismatch');
-  const rows=parseBlocks(text);
+  const rows=parseBlocks(text).map(parseBlock);
   if(rows.length<cfg.baselineCount) throw new Error(subject+': source count '+rows.length+' below baseline '+cfg.baselineCount);
   const ids=new Set(),questions=new Set();
   const compiled=rows.map(row=>{
