@@ -1,13 +1,13 @@
 # 부동산학개론 괄호문제 V2 추가 144문제 - 생성본
 SOURCE_CORE_VERSION: core-2026-10-06-audited-v2
 SOURCE_AUDIT_DATE: 2026-10-06
-STATUS: PENDING_REVIEW
+STATUS: REVIEW_COMPLETE
 NOTE: 사이트 런타임에는 아직 반영하지 않음
 
 ================================================================================
 ID: EXP-01-157
 ORIGIN: REK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 기본원리·토지용어
@@ -38,12 +38,11 @@ B = 지역적 세분
 토지의 지리적 위치가 고정되어 이동할 수 없는 성질
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-158
 ORIGIN: REK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 기본원리·토지용어
@@ -74,12 +73,11 @@ B = 임대차
 토지가 물리적으로 소모되거나 소멸하지 않는 성질
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-159
 ORIGIN: REK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 기본원리·토지용어
@@ -110,12 +108,11 @@ B = 고정
 토지의 물리적 수량을 인위적으로 늘릴 수 없는 성질
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-160
 ORIGIN: REK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 기본원리·토지용어
@@ -146,12 +143,11 @@ B = 일물일가
 각 토지가 서로 동일하지 않아 완전한 대체가 어려운 성질
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-161
 ORIGIN: REK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 기본원리·토지용어
@@ -182,12 +178,11 @@ B = 사회환수
 인접 토지의 이용이 서로 영향을 주는 성질
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-162
 ORIGIN: REK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -218,12 +213,11 @@ B = 사전적
 일정한 기간 동안 구매력을 갖춘 소비자가 재화나 서비스를 구매하고자 하는 욕구
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-163
 ORIGIN: REK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -254,12 +248,11 @@ B = 사전적
 일정한 기간 동안 판매능력을 갖춘 공급자가 재화나 서비스를 판매하고자 하는 욕구
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-164
 ORIGIN: REK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -290,12 +283,11 @@ B = 신규
 일정한 기간을 기준으로 측정하는 개념
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-165
 ORIGIN: REK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -326,12 +318,11 @@ B = 기존
 특정 시점을 기준으로 측정하는 개념
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-166
 ORIGIN: REK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -362,12 +353,11 @@ B = 위에서
 해당 재화의 가격 변화로 수요곡선 위에서 이동하는 현상
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-167
 ORIGIN: REK021
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -398,12 +388,11 @@ B = 자체
 소득·연관재 가격·기호·기대·인구 등으로 수요곡선 자체가 이동하는 현상
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-168
 ORIGIN: REK022
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -434,12 +423,11 @@ B = 위에서
 해당 재화의 가격 변화로 공급곡선 위에서 이동하는 현상
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-169
 ORIGIN: REK023
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -470,12 +458,11 @@ B = 자체
 기술·요소가격·공급자 수·보조금 등으로 공급곡선 자체가 이동하는 현상
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-170
 ORIGIN: REK024
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -506,12 +493,11 @@ B = 양(+)
 수요의 소득탄력성이 0보다 큰 재화
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-171
 ORIGIN: REK025
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -541,12 +527,11 @@ A = 음(-)
 수요의 소득탄력성이 0보다 작은 재화
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-172
 ORIGIN: REK026
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -576,12 +561,11 @@ A = 양(+)
 수요의 교차탄력성이 0보다 큰 두 재화의 관계
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-173
 ORIGIN: REK027
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -611,12 +595,11 @@ A = 음(-)
 수요의 교차탄력성이 0보다 작은 두 재화의 관계
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-174
 ORIGIN: REK028
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -646,12 +629,11 @@ A = 지체
 새로운 정보가 지체 없이 가치에 반영되는 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-175
 ORIGIN: REK029
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -682,12 +664,11 @@ B = 거래량
 과거의 정보가 이미 가격에 반영된 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-176
 ORIGIN: REK030
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -717,12 +698,11 @@ A = 공표
 공표된 과거·현재 정보가 이미 가격에 반영된 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-177
 ORIGIN: REK031
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -752,12 +732,11 @@ A = 비공개
 공표된 정보와 공표되지 않은 정보까지 가격에 반영된 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-178
 ORIGIN: REK032
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -787,12 +766,11 @@ A = 기회비용
 모든 투자자의 기회비용이 동일하여 자원이 효율적으로 배분되는 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-179
 ORIGIN: REK033
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -823,12 +801,11 @@ B = 수송비
 수송비 절약을 지대로 보고 시장과의 거리에 따라 농업입지를 설명하는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-180
 ORIGIN: REK034
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -858,12 +835,11 @@ A = 한계교통비용
 한계주거비용과 한계교통비용이 같아지는 지점
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-181
 ORIGIN: REK035
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -894,12 +870,11 @@ B = 반비례
 두 도시의 인구와 거리로 상권의 흡인력을 설명하는 법칙
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-182
 ORIGIN: REK036
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -929,12 +904,11 @@ A = 점포
 대도시의 쇼핑패턴을 점포 선택확률로 설명하는 모형
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-183
 ORIGIN: REK037
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -965,12 +939,11 @@ B = 정주체계
 규모의 경제와 운송비를 중심으로 도시의 분포와 정주체계를 설명하는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-184
 ORIGIN: REK038
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -1000,12 +973,11 @@ A = 운송비
 원료 운송비와 제품 운송비의 합이 최소인 공업입지를 찾는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-185
 ORIGIN: REK039
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -1035,12 +1007,11 @@ A = 특화
 어떤 지역 산업의 전국 동일산업에 대한 상대적 중요도를 측정하는 계수
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-186
 ORIGIN: REK040
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -1070,12 +1041,11 @@ A = 버제스
 도시가 중심지에서 동심원 모양으로 확대되어 여러 지구로 분화한다는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-187
 ORIGIN: REK041
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -1105,12 +1075,11 @@ A = 호이트
 토지이용이 도로망을 따라 부채꼴 모양으로 확장된다는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-188
 ORIGIN: REK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -1140,12 +1109,11 @@ A = 다핵심이론
 도시가 성장하면서 여러 개의 분리된 핵심으로 구성된다는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료. 2022년 제33회 기출의 해리스(C. Harris)·울만(E. Ullman) 표기를 우선 적용.
 ================================================================================
 ID: EXP-01-189
 ORIGIN: REK043
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1176,12 +1144,11 @@ B = 정보비대칭
 시장기구만으로 자원이 효율적으로 배분되지 못하는 상태
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-190
 ORIGIN: REK044
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1211,12 +1178,11 @@ A = 크고
 타인에게 의도하지 않은 혜택을 주고도 보상을 받지 못하는 효과
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-191
 ORIGIN: REK045
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1246,12 +1212,11 @@ A = 크고
 타인에게 의도하지 않은 손해를 주고도 그 대가를 지불하지 않는 효과
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-192
 ORIGIN: REK046
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1282,12 +1247,11 @@ B = 감소
 어울리지 않는 토지이용을 규제하여 부의 외부효과를 제거·감소시키는 제도
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-193
 ORIGIN: REK047
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1317,12 +1281,11 @@ PUD는 성과주의 지역지구제, TDR 등과 함께 지역지구제 보완제
 지역지구제를 보완하는 계획적 개발기법
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-194
 ORIGIN: REK048
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1353,12 +1316,11 @@ TDR은 지역지구제 보완 및 토지이용규제 수단으로 정리된다.
 개발권을 다른 토지로 이전할 수 있게 하는 지역지구제 보완제도
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-195
 ORIGIN: REK049
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1388,12 +1350,11 @@ A = 직접적
 공공이 토지를 미리 취득·비축하여 장래 공공수요에 활용하는 직접적 시장개입 수단
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-196
 ORIGIN: REK050
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1423,12 +1384,11 @@ A = 직접적
 정부가 토지의 취득·개발·공급 등에 직접 참여하는 시장개입 방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-197
 ORIGIN: REK051
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1458,12 +1418,11 @@ A = 간접적
 세금·보조금·정보체계 등 경제적 동기와 시장여건을 조정하는 개입 방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-198
 ORIGIN: REK052
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1493,12 +1452,11 @@ A = 보전
 토지 이용에서 사적 이익보다 공공복리를 중시하는 사고
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-199
 ORIGIN: REK053
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1528,12 +1486,11 @@ A = 초과수요
 주택소유자가 일정 수준 이상 임대료를 부과하지 못하게 하는 최고가격제
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-200
 ORIGIN: REK054
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1563,12 +1520,11 @@ A = 부담능력
 저소득층에게 임대료 일부를 보조하여 임대주택 수요를 높이는 정책
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-201
 ORIGIN: REK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1599,12 +1555,11 @@ B = 하위
 상위계층이 사용하던 기존주택이 하위계층의 사용으로 전환되는 과정
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-202
 ORIGIN: REK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -1635,12 +1590,11 @@ B = 상위
 하위계층이 사용하던 저급주택이 재개발되어 상위계층의 사용으로 전환되는 과정
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-203
 ORIGIN: REK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1671,12 +1625,11 @@ B = 확실한
 미래의 현금수입과 현재의 현금지출을 교환하는 행위
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-204
 ORIGIN: REK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1706,12 +1659,11 @@ A = 양도차익
 단기간의 양도차익을 목적으로 개발가능성을 전제로 자본을 투입하는 행위
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-205
 ORIGIN: REK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1741,12 +1693,11 @@ A = 예상
 투자에서 앞으로 기대되는 수익률
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-206
 ORIGIN: REK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1776,12 +1727,11 @@ A = 사후
 투자가 이루어진 후 실제로 달성된 수익률
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-207
 ORIGIN: REK061
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1811,12 +1761,11 @@ A = 높아진다
 투자자가 투자를 위해 최소한 충족되기를 요구하는 수익률
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-208
 ORIGIN: REK062
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1846,12 +1795,11 @@ A = 유동성
 투자안의 결과가 불확실하여 수익이 변동할 가능성
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-209
 ORIGIN: REK063
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1882,12 +1830,11 @@ B = 기대수익률
 기대수익률 한 단위당 위험을 나타내는 지표
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-210
 ORIGIN: REK064
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1919,12 +1866,11 @@ C = 환금성
 안전성·수익성·환금성을 고려하여 부동산·유가증권·예금 등에 분산투자하는 방법
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-211
 ORIGIN: REK065
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -1955,12 +1901,11 @@ B = 작은
 같은 위험이면 기대수익이 큰 투자안, 같은 기대수익이면 위험이 작은 투자안이 지배한다는 원리
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-212
 ORIGIN: REK069
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -1990,12 +1935,11 @@ A = 부채
 소유권을 보유한 채 부동산에 저당을 설정하고 직접 대출받는 부채금융
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-213
 ORIGIN: REK070
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2025,12 +1969,11 @@ A = 담보
 담보신탁을 이용하여 대출받는 부채금융
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-214
 ORIGIN: REK071
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2060,12 +2003,11 @@ A = 주택
 주택건설업자가 발행하고 일정기간 후 주택으로 상환하는 채권
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-215
 ORIGIN: REK072
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2095,12 +2037,11 @@ ABS는 자산유동화에 관한 법률에 근거한 자산유동화 수단으�
 자산을 담보로 발행하는 유동화증권
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-216
 ORIGIN: REK073
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2130,12 +2071,11 @@ PF는 프로젝트의 기대현금흐름과 사업자산을 중심으로 자금�
 기업 전체의 신용보다 사업 자체의 수익성과 자산을 바탕으로 자금을 조달하는 방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-217
 ORIGIN: REK074
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2165,12 +2105,11 @@ A = 지분
 여러 투자자가 부동산전문가의 경험을 활용하여 공동 프로젝트를 수행하는 지분금융
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-218
 ORIGIN: REK075
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2200,12 +2139,11 @@ A = 사업
 특정 목적의 벤처사업을 공동으로 수행하기 위한 자연인 또는 법인의 결합체
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-219
 ORIGIN: REK076
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2235,12 +2173,11 @@ REITs는 다수 투자자의 자금을 모아 부동산에 투자하는 지분�
 소액투자자에게 지분권을 판매해 모은 자금을 부동산에 투자하고 수익을 배분하는 기구
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-220
 ORIGIN: REK077
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2270,12 +2207,11 @@ A = 수요자
 가계의 주택구입능력을 높이기 위해 주택을 담보로 자금을 융자하는 금융
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-221
 ORIGIN: REK078
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -2305,12 +2241,11 @@ A = 공급자
 주택건설사업자의 건설활동에 필요한 자금을 지원하는 금융
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-222
 ORIGIN: REK079
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -2340,12 +2275,11 @@ A = 수요량 변화율
 |수요량 변화율 ÷ 가격 변화율|
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-223
 ORIGIN: REK080
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -2375,12 +2309,11 @@ A = 수송비
 매상고 - 생산비 - 수송비
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-224
 ORIGIN: REK081
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -2410,12 +2343,11 @@ A = 제곱
 A도시 인구 ÷ B도시 인구 × (B도시까지 거리 ÷ A도시까지 거리)²
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-225
 ORIGIN: REK082
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2446,12 +2378,11 @@ B = 예상 인플레이션 할증률
 무위험률 + 위험할증률 + 예상 인플레이션 할증률
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-226
 ORIGIN: REK083
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2481,12 +2412,11 @@ A = 예상 순수익
 예상 순수익 ÷ 투자자의 요구수익률
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료. 투자가치는 검수된 핵심개념 은행의 ‘투자자의 요구수익률’을 유지.
 ================================================================================
 ID: EXP-01-227
 ORIGIN: REK084
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2516,12 +2446,11 @@ A = 표준편차
 표준편차 ÷ 기대수익률
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-228
 ORIGIN: REK085
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2551,12 +2480,11 @@ A = (1+r)ⁿ
 (1+r)ⁿ
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-229
 ORIGIN: REK086
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2586,12 +2514,11 @@ A = 할인
 1 ÷ (1+r)ⁿ
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-230
 ORIGIN: REK087
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2621,12 +2548,11 @@ A = 누적금액
 ((1+r)ⁿ - 1) ÷ r
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-231
 ORIGIN: REK088
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2656,12 +2582,11 @@ A = 적립
 r ÷ ((1+r)ⁿ - 1)
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-232
 ORIGIN: REK089
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2691,12 +2616,11 @@ A = 현재가치
 (1 - (1+r)⁻ⁿ) ÷ r
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-233
 ORIGIN: REK090
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2726,12 +2650,11 @@ A = 원리금액
 r ÷ (1 - (1+r)⁻ⁿ)
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-234
 ORIGIN: REK091
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2761,12 +2684,11 @@ A = 연금현가계수(잔여기간)
 연금현가계수(잔여기간) ÷ 연금현가계수(전기간)
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-235
 ORIGIN: REK092
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2796,12 +2718,11 @@ A = 임대단위수
 단위당 예상임대료 × 임대단위수
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-236
 ORIGIN: REK093
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2832,12 +2753,11 @@ B = 기타소득
 가능조소득 - 공실·불량부채 + 기타소득
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-237
 ORIGIN: REK094
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2867,12 +2787,11 @@ A = 영업경비
 유효조소득 - 영업경비
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-238
 ORIGIN: REK095
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2902,12 +2821,11 @@ A = 현금유출의 현재가치
 현금유입의 현재가치 - 현금유출의 현재가치
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-239
 ORIGIN: REK096
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2937,12 +2855,11 @@ A = 현금유입의 현재가치
 현금유입의 현재가치 ÷ 현금유출의 현재가치
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-240
 ORIGIN: REK097
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -2972,12 +2889,11 @@ A = 순영업소득
 순영업소득 ÷ 총투자액
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-241
 ORIGIN: REK098
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3007,12 +2923,11 @@ A = 부채잔금
 부채잔금 ÷ 부동산가치
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-242
 ORIGIN: REK099
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -3042,12 +2957,11 @@ A = 순영업소득
 순영업소득 ÷ 부채서비스액
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-243
 ORIGIN: REK100
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -3078,12 +2992,11 @@ B = 부채서비스액
 (영업경비 + 부채서비스액) ÷ 유효조소득
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-244
 ORIGIN: REK101
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3113,12 +3026,11 @@ A = 저당상수
 대출금 × 저당상수
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-245
 ORIGIN: REK102
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3149,12 +3061,11 @@ B = 이자율
 미상환대출잔액 × 이자율
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-246
 ORIGIN: REK103
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -3184,12 +3095,11 @@ A = 노동이나 자본의 크기
 노동이나 자본의 크기 ÷ 토지 단위면적
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-247
 ORIGIN: REK104
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -3219,12 +3129,11 @@ A = 비탄력적
 공급에 장기간이 필요하고 부동산이 내구재이기 때문
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-248
 ORIGIN: REK105
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -3254,12 +3163,11 @@ A = 수렴형
 수요의 가격탄력성 > 공급의 가격탄력성
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-249
 ORIGIN: REK106
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -3289,12 +3197,11 @@ A = 발산형
 수요의 가격탄력성 < 공급의 가격탄력성
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-250
 ORIGIN: REK107
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 경제론
@@ -3324,12 +3231,11 @@ A = 순환형
 수요의 가격탄력성 = 공급의 가격탄력성
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-251
 ORIGIN: REK108
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -3359,12 +3265,11 @@ A = 크다
 외곽
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-252
 ORIGIN: REK109
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -3394,12 +3299,11 @@ A = 작다
 도심
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-253
 ORIGIN: REK110
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -3429,12 +3333,11 @@ A = 동심원
 중심업무지구
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-254
 ORIGIN: REK111
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -3465,12 +3368,11 @@ B = 이중가격
 임대주택의 초과수요
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-255
 ORIGIN: REK112
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -3500,12 +3402,11 @@ A = 크다
 과소생산·과소소비
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-256
 ORIGIN: REK113
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 정책론
@@ -3535,12 +3436,11 @@ A = 크다
 과다생산·과다소비
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-257
 ORIGIN: REK114
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -3570,12 +3470,11 @@ A = 순현재가치법(NPV)
 NPV ≥ 0
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-258
 ORIGIN: REK115
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -3605,12 +3504,11 @@ A = 수익성지수법(PI)
 PI > 1
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-259
 ORIGIN: REK116
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -3640,12 +3538,11 @@ A = 세전현금수지
 부채서비스액(DS)
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-260
 ORIGIN: REK117
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 투자론
@@ -3675,12 +3572,11 @@ A = 세전지분복귀액
 미상환저당잔금
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-261
 ORIGIN: REK118
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3710,12 +3606,11 @@ A = 원리금균등분할상환
 증가한다
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-262
 ORIGIN: REK119
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3745,12 +3640,11 @@ A = 원금균등분할상환
 감소한다
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-263
 ORIGIN: REK120
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3781,12 +3675,11 @@ B = 대출기관
 저당대부 수요자와 금융기관 사이에서 신규 저당대출이 이루어지는 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-264
 ORIGIN: REK121
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3817,12 +3710,11 @@ B = 투자자
 저당대출기관과 투자자 사이에서 기존 저당을 거래하는 시장
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-265
 ORIGIN: REK122
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -3853,12 +3745,11 @@ B = 무계획
 도시지역의 토지이용이 무질서·무계획적으로 평면 확산되는 현상
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-266
 ORIGIN: REK123
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: SEQUENCE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -3888,12 +3779,11 @@ A = 부지 모색·확보
 금융
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-267
 ORIGIN: REK124
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -3923,12 +3813,11 @@ A = 효용
 효용·상대적 희소성·유효수요·이전성
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-268
 ORIGIN: REK125
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -3960,12 +3849,11 @@ C = 수익성
 원가방식·비교방식·수익방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-269
 ORIGIN: REK126
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -3995,12 +3883,11 @@ A = 일정
 매기간 원리금지불액은 일정하고 원금상환액은 증가하며 이자액은 감소하는 상환방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-270
 ORIGIN: REK127
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 금융론
@@ -4030,12 +3917,11 @@ A = 일정
 매기간 원금상환액은 일정하고 이자액이 감소하여 원리금지불액도 감소하는 상환방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-271
 ORIGIN: REK128
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4066,12 +3952,11 @@ B = 허가수
 기존 공급과 장래 기대되는 공급을 조사하는 것
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-272
 ORIGIN: REK129
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: FORMULA
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4101,12 +3986,11 @@ A = 토지 단위면적
 단위면적당 노동이나 자본의 투입량이 큰 토지이용
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-273
 ORIGIN: REK130
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4136,12 +4020,11 @@ A = 입지조건
 같은 산업환경과 같은 집약도라도 입지조건이 좋아 발생하는 특별한 이익
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-274
 ORIGIN: REK131
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4171,12 +4054,11 @@ A = 하락
 100% 입지에서 멀어질수록 지가수준이 낮아지는 정도
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-275
 ORIGIN: REK132
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4206,12 +4088,11 @@ A = 요인
 새로운 이용주체의 침입으로 기존 이용주체가 다른 이용주체로 바뀌는 토지이용 변화
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-276
 ORIGIN: REK133
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4241,12 +4122,11 @@ A = 최원방권
 택지이용이 가능한 가장 먼 경계지역
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-277
 ORIGIN: REK134
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4278,12 +4158,11 @@ C = 법률적
 부동산의 취득·유지·보존과 운용에 관한 일체의 행위
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-278
 ORIGIN: REK135
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4313,12 +4192,11 @@ A = 지형
 지역지구제·접근성·크기와 모양·지형·편익시설 등 대상부지 자체를 분석하는 것
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-279
 ORIGIN: REK136
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 개발·관리론
@@ -4348,12 +4226,11 @@ A = 유효수요
 개발사업에 대한 유효수요를 추계하기 위해 시장을 평가하는 것
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-280
 ORIGIN: REK137
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4383,12 +4260,11 @@ A = 정상적
 통상적인 시장에서 충분한 기간 공개된 후 성립할 가능성이 가장 높은 대상물건의 가액
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-281
 ORIGIN: REK138
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4418,12 +4294,11 @@ A = 시장성
 시장성에 기초하여 거래사례나 임대사례를 비교·보정하는 감정평가 방식
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-282
 ORIGIN: REK139
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4453,12 +4328,11 @@ A = 기능적
 부동산 내부 구성요소 사이의 균형을 중시하는 가치원칙
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-283
 ORIGIN: REK140
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4489,12 +4363,11 @@ B = 수익분석법
 총수익이 생산요소에 어떻게 배분되는지를 설명하는 가치원칙
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-284
 ORIGIN: REK141
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4524,12 +4397,11 @@ A = 경제적
 부동산과 외부환경 사이의 균형을 중시하는 가치원칙
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-285
 ORIGIN: REK142
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4559,12 +4431,11 @@ A = 개별분석
 대상부동산이 속한 지역의 표준적 이용과 가격수준을 거시적으로 분석하는 것
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-286
 ORIGIN: REK143
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4594,12 +4465,11 @@ A = 최유효이용
 대상부동산의 최유효이용과 구체적 가격을 미시적으로 판정하는 것
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-287
 ORIGIN: REK144
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4629,12 +4499,11 @@ A = 비용성
 재조달원가에서 감가누계액을 차감하여 적산가치를 구하는 방법
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-288
 ORIGIN: REK145
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4664,12 +4533,11 @@ A = 시장성
 유사 거래사례를 보정·비교하여 비준가치를 구하는 방법
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-289
 ORIGIN: REK146
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4699,12 +4567,11 @@ A = 수익성
 순수익을 환원이율로 환원하여 수익가치를 구하는 방법
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-290
 ORIGIN: REK147
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4734,12 +4601,11 @@ A = 적산가치
 재조달원가 - 감가누계액
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-291
 ORIGIN: REK148
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4769,12 +4635,11 @@ A = 적산임료
 (기초가액 × 기대이율) + 필요제경비
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-292
 ORIGIN: REK149
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4804,12 +4669,11 @@ A = 비준가치
 사례가격 × 사정보정 × 시점수정 × 지역요인비교 × 개별요인비교 × 면적비교
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-293
 ORIGIN: REK150
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4839,12 +4703,11 @@ A = 비준임료
 사례임료 × 사정보정 × 시점수정 × 지역요인비교 × 개별요인비교 × 면적비교
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-294
 ORIGIN: REK151
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4874,12 +4737,11 @@ A = 수익가치
 순수익(순영업소득) ÷ 환원이율
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-295
 ORIGIN: REK152
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4909,12 +4771,11 @@ A = 수익임료
 순수익 + 필요제경비
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-296
 ORIGIN: REK153
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4944,12 +4805,11 @@ A = 경제적
 (재조달원가 - 잔존가액) ÷ 경제적 내용연수
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-297
 ORIGIN: REK154
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -4979,12 +4839,11 @@ A = 타인자본
 (자기자본비율 × 자기자본환원율) + (타인자본비율 × 저당상수)
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-298
 ORIGIN: REK155
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -5014,12 +4873,11 @@ A = 자본환원율
 부채감당률 × 저당비율 × 저당상수
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-299
 ORIGIN: REK156
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 감정평가·가격공시
@@ -5049,12 +4907,11 @@ A = 직선법 수익가격
 순수익(상각전) ÷ (환원이율 + 상각률)
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료.
 ================================================================================
 ID: EXP-01-300
 ORIGIN: REK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 TAG: SECONDARY_FACT
 CATEGORY: 시장론·입지론
@@ -5084,6 +4941,5 @@ A = 핵
 도시가 성장하면서 여러 개의 분리된 핵심으로 구성된다는 이론
 
 [검수 메모]
-
-
+2차 생성분 내용·정답·보기 검수 완료. 2022년 제33회 기출의 해리스(C. Harris)·울만(E. Ullman) 표기를 우선 적용.
 ================================================================================
