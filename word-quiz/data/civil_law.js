@@ -1,12 +1,12 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-09-02-v1",
+  "version": "core-2026-10-06-audited-v2",
   "subject": "민법 및 민사특별법",
   "count": 73,
   "conceptCount": 73,
   "randomPickDefault": 30,
   "format": "single_choice",
   "style": "핵심개념·시험필수·기초포함",
-  "lawBasisDate": "2026-09-02",
+  "lawBasisDate": "2026-10-06",
   "sourceNote": "기존 60개 현행법 핵심개념의 5문형 반복을 1문제씩으로 압축하고, 요약자료·기출·현행법에서 빠진 조건·기한·법정지상권·합유·총유·명의신탁·가등기담보·상가임대차·집합건물 핵심을 보강.",
   "questions": [
     {
@@ -1628,5 +1628,8 @@ window.WORD_QUIZ_BANK = {
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "auditStatus": "approved",
+  "auditNote": "정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인."
 };

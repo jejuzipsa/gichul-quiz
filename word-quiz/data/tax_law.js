@@ -1,12 +1,12 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-09-02-v1",
+  "version": "core-2026-10-06-audited-v2",
   "subject": "부동산세법",
   "count": 60,
   "conceptCount": 60,
   "randomPickDefault": 30,
   "format": "single_choice",
   "style": "핵심개념·시험필수·기초포함",
-  "lawBasisDate": "2026-09-02",
+  "lawBasisDate": "2026-10-06",
   "sourceNote": "조세총론·취득세·등록면허세·재산세·종합부동산세·양도소득세의 현행법 검증 핵심만 유지. 과거 요약자료의 오래된 종부세 금액·비율은 사용하지 않음.",
   "questions": [
     {
@@ -1329,5 +1329,8 @@ window.WORD_QUIZ_BANK = {
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "auditStatus": "approved",
+  "auditNote": "정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인."
 };

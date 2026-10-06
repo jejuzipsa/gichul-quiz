@@ -1,5 +1,5 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-09-02-v1",
+  "version": "core-2026-10-06-audited-v2",
   "subject": "부동산학개론",
   "count": 156,
   "conceptCount": 156,
@@ -3128,5 +3128,8 @@ window.WORD_QUIZ_BANK = {
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "auditStatus": "approved",
+  "auditNote": "정답 인덱스·선택지·해설·공식을 전수 점검하고 업로드 요약자료/공개 기출과 대조. REK042·REK083 교정 포함."
 };

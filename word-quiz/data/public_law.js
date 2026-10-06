@@ -1,12 +1,12 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-09-02-v1",
+  "version": "core-2026-10-06-audited-v2",
   "subject": "부동산공법",
   "count": 70,
   "conceptCount": 70,
   "randomPickDefault": 30,
   "format": "single_choice",
   "style": "핵심개념·시험필수·기초포함",
-  "lawBasisDate": "2026-09-02",
+  "lawBasisDate": "2026-10-06",
   "sourceNote": "현행 공법 6개 법률의 핵심 60개를 유지하고 국토계획법의 광역도시계획·도시군기본계획·용도지역/지구/구역·지구단위계획·건폐율·용적률 등 큰 줄기를 보강.",
   "questions": [
     {
@@ -1559,5 +1559,8 @@ window.WORD_QUIZ_BANK = {
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "auditStatus": "approved",
+  "auditNote": "정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인."
 };
