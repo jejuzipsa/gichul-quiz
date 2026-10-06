@@ -31,7 +31,22 @@
       "seedCount": 73,
       "sourceCoreVersion": "core-2026-10-06-audited-v2",
       "sourceAuditDate": "2026-10-06",
-      "sourceAuditStatus": "approved"
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 73,
+        "seedWordingEdited": 2,
+        "expansionGenerated": 227,
+        "expansionReviewed": 227,
+        "finalCount": 300,
+        "approved": 300,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 1,
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/02_civil_law_final.txt",
+        "reportFile": "review/blank-bank-v2/02_civil_law_review_report.txt"
+      }
     },
     "brokerage_law": {
       "label": "공인중개사법령 및 중개실무",
