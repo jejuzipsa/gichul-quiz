@@ -3,7 +3,7 @@
   "subject": "부동산학개론",
   "targetCount": 300,
   "generatedCount": 300,
-  "reviewStatus": "pending",
+  "reviewStatus": "approved",
   "sourceStrategy": "검수된 일반 핵심개념 문제은행에서 반복암기용 괄호문제로 파생",
   "questions": [
     {
@@ -23,7 +23,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK001",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -45,7 +45,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK002",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -67,7 +67,7 @@
       "source": "기출 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK003",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -89,7 +89,7 @@
       "source": "기출·일반교재 보완 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK004",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -111,7 +111,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK005",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -133,7 +133,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK006",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -155,7 +155,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK007",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -177,7 +177,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK008",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -199,7 +199,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK009",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -221,7 +221,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK010",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -243,7 +243,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK011",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -265,7 +265,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK012",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -287,7 +287,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK013",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -309,7 +309,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK014",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -331,7 +331,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK015",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -353,7 +353,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK016",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -375,7 +375,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK017",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -397,7 +397,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK018",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -419,7 +419,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK019",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -441,7 +441,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK020",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -463,7 +463,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK021",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -485,7 +485,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK022",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -507,7 +507,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK023",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -529,7 +529,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK024",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -551,7 +551,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK025",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -573,7 +573,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK026",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -595,7 +595,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK027",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -617,7 +617,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK028",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -639,7 +639,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK029",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -661,7 +661,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK030",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -683,7 +683,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK031",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -705,7 +705,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK032",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -727,7 +727,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK033",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -749,7 +749,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK034",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -771,7 +771,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK035",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -793,7 +793,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK036",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -815,7 +815,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK037",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -837,7 +837,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK038",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -859,7 +859,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK039",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -881,7 +881,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK040",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -903,7 +903,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK041",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -925,7 +925,7 @@
       "source": "기출·요약자료 교정 · 3. 부동산 시장론",
       "originQuestionId": "REK042",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -947,7 +947,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK043",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -969,7 +969,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK044",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -991,7 +991,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK045",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1013,7 +1013,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK046",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1035,7 +1035,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK047",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1057,7 +1057,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK048",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1079,7 +1079,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK049",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1101,7 +1101,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK050",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1123,7 +1123,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK051",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1145,7 +1145,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK052",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1167,7 +1167,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK053",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1189,7 +1189,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK054",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1211,7 +1211,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK055",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1233,7 +1233,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK056",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1255,7 +1255,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK057",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1277,7 +1277,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK058",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1299,7 +1299,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK059",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1321,7 +1321,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK060",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1343,7 +1343,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK061",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1365,7 +1365,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK062",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1387,7 +1387,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK063",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1409,7 +1409,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK064",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1431,7 +1431,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK065",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1453,7 +1453,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK066",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1475,7 +1475,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK067",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1497,7 +1497,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK068",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1519,7 +1519,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK069",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1541,7 +1541,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK070",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1563,7 +1563,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK071",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1585,7 +1585,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK072",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1607,7 +1607,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK073",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1629,7 +1629,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK074",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1651,7 +1651,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK075",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1673,7 +1673,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK076",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1695,7 +1695,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK077",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1717,7 +1717,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK078",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1739,7 +1739,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK079",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1761,7 +1761,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK080",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1783,7 +1783,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK081",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1805,7 +1805,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK082",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1827,7 +1827,7 @@
       "source": "요약자료·기출개념 교정 · 5. 부동산 투자론",
       "originQuestionId": "REK083",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1849,7 +1849,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK084",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1871,7 +1871,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK085",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1893,7 +1893,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK086",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1915,7 +1915,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK087",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1937,7 +1937,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK088",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1959,7 +1959,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK089",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -1981,7 +1981,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK090",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2003,7 +2003,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK091",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2025,7 +2025,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK092",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2047,7 +2047,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK093",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2069,7 +2069,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK094",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2091,7 +2091,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK095",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2113,7 +2113,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK096",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2135,7 +2135,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK097",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2157,7 +2157,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK098",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2179,7 +2179,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK099",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2201,7 +2201,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK100",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2223,7 +2223,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK101",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2245,7 +2245,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK102",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2267,7 +2267,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK103",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2289,7 +2289,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK104",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2311,7 +2311,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK105",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2333,7 +2333,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK106",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2355,7 +2355,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK107",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2377,7 +2377,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK108",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2399,7 +2399,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK109",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2421,7 +2421,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK110",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2443,7 +2443,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK111",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2465,7 +2465,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK112",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2487,7 +2487,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK113",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2509,7 +2509,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK114",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2531,7 +2531,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK115",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2553,7 +2553,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK116",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2575,7 +2575,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK117",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2597,7 +2597,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK118",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2619,7 +2619,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK119",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2641,7 +2641,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK120",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2663,7 +2663,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK121",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2685,7 +2685,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK122",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2707,7 +2707,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK123",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2729,7 +2729,7 @@
       "source": "요약자료 · 8. 부동산 가격이론",
       "originQuestionId": "REK124",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2751,7 +2751,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK125",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2773,7 +2773,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK126",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2795,7 +2795,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK127",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2817,7 +2817,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK128",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2839,7 +2839,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK129",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2861,7 +2861,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK130",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2883,7 +2883,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK131",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2905,7 +2905,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK132",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2927,7 +2927,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK133",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2949,7 +2949,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK134",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2971,7 +2971,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK135",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -2993,7 +2993,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK136",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3015,7 +3015,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK137",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3037,7 +3037,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK138",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3059,7 +3059,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK139",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3081,7 +3081,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK140",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3103,7 +3103,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK141",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3125,7 +3125,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK142",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3147,7 +3147,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK143",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3169,7 +3169,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK144",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3191,7 +3191,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK145",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3213,7 +3213,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK146",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3235,7 +3235,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK147",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3257,7 +3257,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK148",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3279,7 +3279,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK149",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3301,7 +3301,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK150",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3323,7 +3323,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK151",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3345,7 +3345,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK152",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3367,7 +3367,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK153",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3389,7 +3389,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK154",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3411,7 +3411,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK155",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3433,7 +3433,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK156",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3455,7 +3455,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK001",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3477,7 +3477,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK002",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3499,7 +3499,7 @@
       "source": "기출 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK003",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3521,7 +3521,7 @@
       "source": "기출·일반교재 보완 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK004",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3543,7 +3543,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK005",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3565,7 +3565,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK006",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3587,7 +3587,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK007",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3609,7 +3609,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK008",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3631,7 +3631,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK009",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3653,7 +3653,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK010",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3675,7 +3675,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK011",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3697,7 +3697,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK012",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3719,7 +3719,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK013",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3741,7 +3741,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK014",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3763,7 +3763,7 @@
       "source": "요약자료 · 1. 부동산학의 기본원리",
       "originQuestionId": "REK015",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3785,7 +3785,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK016",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3807,7 +3807,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK017",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3829,7 +3829,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK018",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3851,7 +3851,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK019",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3873,7 +3873,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK020",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3895,7 +3895,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK021",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3917,7 +3917,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK022",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3939,7 +3939,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK023",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3961,7 +3961,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK024",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -3983,7 +3983,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK025",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4005,7 +4005,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK026",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4027,7 +4027,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK027",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4049,7 +4049,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK028",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4071,7 +4071,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK029",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4093,7 +4093,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK030",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4115,7 +4115,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK031",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4137,7 +4137,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK032",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4159,7 +4159,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK033",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4181,7 +4181,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK034",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4203,7 +4203,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK035",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4225,7 +4225,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK036",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4247,7 +4247,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK037",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4269,7 +4269,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK038",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4291,7 +4291,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK039",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4313,7 +4313,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK040",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4335,7 +4335,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK041",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4357,7 +4357,7 @@
       "source": "기출·요약자료 교정 · 3. 부동산 시장론",
       "originQuestionId": "REK042",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4379,7 +4379,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK043",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4401,7 +4401,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK044",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4423,7 +4423,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK045",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4445,7 +4445,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK046",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4467,7 +4467,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK047",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4489,7 +4489,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK048",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4511,7 +4511,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK049",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4533,7 +4533,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK050",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4555,7 +4555,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK051",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4577,7 +4577,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK052",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4599,7 +4599,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK053",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4621,7 +4621,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK054",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4643,7 +4643,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK055",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4665,7 +4665,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK056",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4687,7 +4687,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK057",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4709,7 +4709,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK058",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4731,7 +4731,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK059",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4753,7 +4753,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK060",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4775,7 +4775,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK061",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4797,7 +4797,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK062",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4819,7 +4819,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK063",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4841,7 +4841,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK064",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4863,7 +4863,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK065",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4885,7 +4885,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK066",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4907,7 +4907,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK067",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4929,7 +4929,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK068",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4951,7 +4951,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK069",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4973,7 +4973,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK070",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -4995,7 +4995,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK071",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5017,7 +5017,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK072",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5039,7 +5039,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK073",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5061,7 +5061,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK074",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5083,7 +5083,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK075",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5105,7 +5105,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK076",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5127,7 +5127,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK077",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5149,7 +5149,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK078",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5171,7 +5171,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK079",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5193,7 +5193,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK080",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5215,7 +5215,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK081",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5237,7 +5237,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK082",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5259,7 +5259,7 @@
       "source": "요약자료·기출개념 교정 · 5. 부동산 투자론",
       "originQuestionId": "REK083",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5281,7 +5281,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK084",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5303,7 +5303,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK085",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5325,7 +5325,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK086",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5347,7 +5347,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK087",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5369,7 +5369,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK088",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5391,7 +5391,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK089",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5413,7 +5413,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK090",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5435,7 +5435,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK091",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5457,7 +5457,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK092",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5479,7 +5479,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK093",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5501,7 +5501,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK094",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5523,7 +5523,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK095",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5545,7 +5545,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK096",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5567,7 +5567,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK097",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5589,7 +5589,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK098",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5611,7 +5611,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK099",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5633,7 +5633,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK100",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5655,7 +5655,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK101",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5677,7 +5677,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK102",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5699,7 +5699,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK103",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5721,7 +5721,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK104",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5743,7 +5743,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK105",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5765,7 +5765,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK106",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5787,7 +5787,7 @@
       "source": "요약자료 · 2. 부동산 경제론",
       "originQuestionId": "REK107",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5809,7 +5809,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK108",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5831,7 +5831,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK109",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5853,7 +5853,7 @@
       "source": "요약자료 · 3. 부동산 시장론",
       "originQuestionId": "REK110",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5875,7 +5875,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK111",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5897,7 +5897,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK112",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5919,7 +5919,7 @@
       "source": "요약자료 · 4. 부동산 정책론",
       "originQuestionId": "REK113",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5941,7 +5941,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK114",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5963,7 +5963,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK115",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -5985,7 +5985,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK116",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6007,7 +6007,7 @@
       "source": "요약자료 · 5. 부동산 투자론",
       "originQuestionId": "REK117",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6029,7 +6029,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK118",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6051,7 +6051,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK119",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6073,7 +6073,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK120",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6095,7 +6095,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK121",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6117,7 +6117,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK122",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6139,7 +6139,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK123",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6161,7 +6161,7 @@
       "source": "요약자료 · 8. 부동산 가격이론",
       "originQuestionId": "REK124",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6183,7 +6183,7 @@
       "source": "요약자료 · 10. 감정평가의 방식",
       "originQuestionId": "REK125",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6205,7 +6205,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK126",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6227,7 +6227,7 @@
       "source": "요약자료 · 6. 부동산 금융론",
       "originQuestionId": "REK127",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6249,7 +6249,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK128",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6271,7 +6271,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK129",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6293,7 +6293,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK130",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6315,7 +6315,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK131",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6337,7 +6337,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK132",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6359,7 +6359,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK133",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6381,7 +6381,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK134",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6403,7 +6403,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK135",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6425,7 +6425,7 @@
       "source": "요약자료 · 7. 부동산 개발 및 관리론",
       "originQuestionId": "REK136",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6447,7 +6447,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK137",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6469,7 +6469,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK138",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6491,7 +6491,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK139",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6513,7 +6513,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK140",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6535,7 +6535,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK141",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6557,7 +6557,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK142",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6579,7 +6579,7 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK143",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
@@ -6601,10 +6601,13 @@
       "source": "요약자료 · 8~12. 가격이론·감정평가·가격공시",
       "originQuestionId": "REK144",
       "review": {
-        "wording": "pending",
+        "wording": "approved",
         "legal": "not-applicable",
         "references": []
       }
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "coreVersion": "core-2026-10-06-audited-v2",
+  "coreAuditDate": "2026-10-06"
 }

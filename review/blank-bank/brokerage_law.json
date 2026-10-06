@@ -3,7 +3,7 @@
   "subject": "공인중개사법령 및 중개실무",
   "targetCount": 300,
   "generatedCount": 300,
-  "reviewStatus": "pending",
+  "reviewStatus": "approved",
   "sourceStrategy": "검수된 일반 핵심개념 문제은행에서 반복암기용 괄호문제로 파생",
   "questions": [
     {
@@ -23,9 +23,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK001",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -45,9 +46,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK002",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -67,9 +69,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK003",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -89,9 +92,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK004",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -111,9 +115,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK005",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -133,9 +138,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK006",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -155,9 +161,10 @@
       "source": "공인중개사법 제3조",
       "originQuestionId": "BRK007",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -177,9 +184,10 @@
       "source": "공인중개사법 제4조",
       "originQuestionId": "BRK008",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -199,9 +207,10 @@
       "source": "공인중개사법 제5조",
       "originQuestionId": "BRK009",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -221,9 +230,10 @@
       "source": "공인중개사법 제7조",
       "originQuestionId": "BRK010",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -243,9 +253,10 @@
       "source": "공인중개사법 제9조",
       "originQuestionId": "BRK011",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -265,9 +276,10 @@
       "source": "공인중개사법 시행규칙 제4조",
       "originQuestionId": "BRK012",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -287,9 +299,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK013",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -309,9 +322,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK014",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -331,9 +345,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK015",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -353,9 +368,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK016",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -375,9 +391,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK017",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -397,9 +414,10 @@
       "source": "공인중개사법 시행규칙 고용관계 신고 규정",
       "originQuestionId": "BRK018",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -419,9 +437,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK019",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -441,9 +460,10 @@
       "source": "공인중개사법 제18조의4",
       "originQuestionId": "BRK020",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -463,9 +483,10 @@
       "source": "공인중개사법 제17조",
       "originQuestionId": "BRK021",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -485,9 +506,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK022",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -507,9 +529,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK023",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -529,9 +552,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK024",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -551,9 +575,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK025",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -573,9 +598,10 @@
       "source": "공인중개사법 제23조",
       "originQuestionId": "BRK026",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -595,9 +621,10 @@
       "source": "공인중개사법 제24조",
       "originQuestionId": "BRK027",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -617,9 +644,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK028",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -639,9 +667,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK029",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -661,9 +690,10 @@
       "source": "공인중개사법 제25조의2",
       "originQuestionId": "BRK030",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -683,9 +713,10 @@
       "source": "공인중개사법 제25조의3",
       "originQuestionId": "BRK031",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -705,9 +736,10 @@
       "source": "공인중개사법 시행령 제21조",
       "originQuestionId": "BRK032",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -727,9 +759,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK033",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -749,9 +782,10 @@
       "source": "공인중개사법 시행령 제22조",
       "originQuestionId": "BRK034",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -771,9 +805,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK035",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -793,9 +828,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK036",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -815,9 +851,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK037",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -837,9 +874,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK038",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -859,9 +897,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK039",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -881,9 +920,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK040",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -903,9 +943,10 @@
       "source": "공인중개사법 시행령 제27조의2",
       "originQuestionId": "BRK041",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -925,9 +966,10 @@
       "source": "공인중개사법 제30조",
       "originQuestionId": "BRK042",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -947,9 +989,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK043",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -969,9 +1012,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK044",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -991,9 +1035,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK045",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1013,9 +1058,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK046",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1035,9 +1081,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK047",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1057,9 +1104,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK048",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1079,9 +1127,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK049",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1101,9 +1150,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK050",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1123,9 +1173,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK051",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1145,9 +1196,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK052",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1167,9 +1219,10 @@
       "source": "공인중개사법 제41조의2",
       "originQuestionId": "BRK053",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1189,9 +1242,10 @@
       "source": "공인중개사법 제41조의3",
       "originQuestionId": "BRK054",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1211,9 +1265,10 @@
       "source": "공인중개사법 제41조의4",
       "originQuestionId": "BRK055",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1233,9 +1288,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK056",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1255,9 +1311,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK057",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1277,9 +1334,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행규칙 제2조",
       "originQuestionId": "BRK058",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1299,9 +1357,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 토지거래허가 관련 규정",
       "originQuestionId": "BRK059",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1321,9 +1380,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 제14조",
       "originQuestionId": "BRK060",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1343,9 +1403,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK001",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1365,9 +1426,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK002",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1387,9 +1449,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK003",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1409,9 +1472,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK004",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1431,9 +1495,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK005",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1453,9 +1518,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK006",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1475,9 +1541,10 @@
       "source": "공인중개사법 제3조",
       "originQuestionId": "BRK007",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1497,9 +1564,10 @@
       "source": "공인중개사법 제4조",
       "originQuestionId": "BRK008",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1519,9 +1587,10 @@
       "source": "공인중개사법 제5조",
       "originQuestionId": "BRK009",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1541,9 +1610,10 @@
       "source": "공인중개사법 제7조",
       "originQuestionId": "BRK010",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1563,9 +1633,10 @@
       "source": "공인중개사법 제9조",
       "originQuestionId": "BRK011",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1585,9 +1656,10 @@
       "source": "공인중개사법 시행규칙 제4조",
       "originQuestionId": "BRK012",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1607,9 +1679,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK013",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1629,9 +1702,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK014",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1651,9 +1725,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK015",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1673,9 +1748,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK016",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1695,9 +1771,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK017",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1717,9 +1794,10 @@
       "source": "공인중개사법 시행규칙 고용관계 신고 규정",
       "originQuestionId": "BRK018",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1739,9 +1817,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK019",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1761,9 +1840,10 @@
       "source": "공인중개사법 제18조의4",
       "originQuestionId": "BRK020",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1783,9 +1863,10 @@
       "source": "공인중개사법 제17조",
       "originQuestionId": "BRK021",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1805,9 +1886,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK022",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1827,9 +1909,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK023",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1849,9 +1932,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK024",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1871,9 +1955,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK025",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1893,9 +1978,10 @@
       "source": "공인중개사법 제23조",
       "originQuestionId": "BRK026",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1915,9 +2001,10 @@
       "source": "공인중개사법 제24조",
       "originQuestionId": "BRK027",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1937,9 +2024,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK028",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1959,9 +2047,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK029",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -1981,9 +2070,10 @@
       "source": "공인중개사법 제25조의2",
       "originQuestionId": "BRK030",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2003,9 +2093,10 @@
       "source": "공인중개사법 제25조의3",
       "originQuestionId": "BRK031",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2025,9 +2116,10 @@
       "source": "공인중개사법 시행령 제21조",
       "originQuestionId": "BRK032",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2047,9 +2139,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK033",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2069,9 +2162,10 @@
       "source": "공인중개사법 시행령 제22조",
       "originQuestionId": "BRK034",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2091,9 +2185,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK035",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2113,9 +2208,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK036",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2135,9 +2231,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK037",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2157,9 +2254,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK038",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2179,9 +2277,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK039",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2201,9 +2300,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK040",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2223,9 +2323,10 @@
       "source": "공인중개사법 시행령 제27조의2",
       "originQuestionId": "BRK041",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2245,9 +2346,10 @@
       "source": "공인중개사법 제30조",
       "originQuestionId": "BRK042",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2267,9 +2369,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK043",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2289,9 +2392,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK044",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2311,9 +2415,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK045",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2333,9 +2438,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK046",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2355,9 +2461,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK047",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2377,9 +2484,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK048",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2399,9 +2507,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK049",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2421,9 +2530,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK050",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2443,9 +2553,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK051",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2465,9 +2576,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK052",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2487,9 +2599,10 @@
       "source": "공인중개사법 제41조의2",
       "originQuestionId": "BRK053",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2509,9 +2622,10 @@
       "source": "공인중개사법 제41조의3",
       "originQuestionId": "BRK054",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2531,9 +2645,10 @@
       "source": "공인중개사법 제41조의4",
       "originQuestionId": "BRK055",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2553,9 +2668,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK056",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2575,9 +2691,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK057",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2597,9 +2714,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행규칙 제2조",
       "originQuestionId": "BRK058",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2619,9 +2737,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 토지거래허가 관련 규정",
       "originQuestionId": "BRK059",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2641,9 +2760,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 제14조",
       "originQuestionId": "BRK060",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2663,9 +2783,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK001",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2685,9 +2806,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK002",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2707,9 +2829,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK003",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2729,9 +2852,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK004",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2751,9 +2875,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK005",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2773,9 +2898,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK006",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2795,9 +2921,10 @@
       "source": "공인중개사법 제3조",
       "originQuestionId": "BRK007",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2817,9 +2944,10 @@
       "source": "공인중개사법 제4조",
       "originQuestionId": "BRK008",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2839,9 +2967,10 @@
       "source": "공인중개사법 제5조",
       "originQuestionId": "BRK009",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2861,9 +2990,10 @@
       "source": "공인중개사법 제7조",
       "originQuestionId": "BRK010",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2883,9 +3013,10 @@
       "source": "공인중개사법 제9조",
       "originQuestionId": "BRK011",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2905,9 +3036,10 @@
       "source": "공인중개사법 시행규칙 제4조",
       "originQuestionId": "BRK012",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2927,9 +3059,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK013",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2949,9 +3082,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK014",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2971,9 +3105,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK015",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -2993,9 +3128,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK016",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3015,9 +3151,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK017",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3037,9 +3174,10 @@
       "source": "공인중개사법 시행규칙 고용관계 신고 규정",
       "originQuestionId": "BRK018",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3059,9 +3197,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK019",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3081,9 +3220,10 @@
       "source": "공인중개사법 제18조의4",
       "originQuestionId": "BRK020",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3103,9 +3243,10 @@
       "source": "공인중개사법 제17조",
       "originQuestionId": "BRK021",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3125,9 +3266,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK022",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3147,9 +3289,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK023",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3169,9 +3312,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK024",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3191,9 +3335,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK025",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3213,9 +3358,10 @@
       "source": "공인중개사법 제23조",
       "originQuestionId": "BRK026",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3235,9 +3381,10 @@
       "source": "공인중개사법 제24조",
       "originQuestionId": "BRK027",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3257,9 +3404,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK028",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3279,9 +3427,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK029",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3301,9 +3450,10 @@
       "source": "공인중개사법 제25조의2",
       "originQuestionId": "BRK030",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3323,9 +3473,10 @@
       "source": "공인중개사법 제25조의3",
       "originQuestionId": "BRK031",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3345,9 +3496,10 @@
       "source": "공인중개사법 시행령 제21조",
       "originQuestionId": "BRK032",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3367,9 +3519,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK033",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3389,9 +3542,10 @@
       "source": "공인중개사법 시행령 제22조",
       "originQuestionId": "BRK034",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3411,9 +3565,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK035",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3433,9 +3588,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK036",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3455,9 +3611,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK037",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3477,9 +3634,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK038",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3499,9 +3657,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK039",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3521,9 +3680,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK040",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3543,9 +3703,10 @@
       "source": "공인중개사법 시행령 제27조의2",
       "originQuestionId": "BRK041",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3565,9 +3726,10 @@
       "source": "공인중개사법 제30조",
       "originQuestionId": "BRK042",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3587,9 +3749,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK043",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3609,9 +3772,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK044",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3631,9 +3795,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK045",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3653,9 +3818,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK046",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3675,9 +3841,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK047",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3697,9 +3864,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK048",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3719,9 +3887,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK049",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3741,9 +3910,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK050",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3763,9 +3933,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK051",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3785,9 +3956,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK052",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3807,9 +3979,10 @@
       "source": "공인중개사법 제41조의2",
       "originQuestionId": "BRK053",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3829,9 +4002,10 @@
       "source": "공인중개사법 제41조의3",
       "originQuestionId": "BRK054",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3851,9 +4025,10 @@
       "source": "공인중개사법 제41조의4",
       "originQuestionId": "BRK055",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3873,9 +4048,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK056",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3895,9 +4071,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK057",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3917,9 +4094,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행규칙 제2조",
       "originQuestionId": "BRK058",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3939,9 +4117,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 토지거래허가 관련 규정",
       "originQuestionId": "BRK059",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3961,9 +4140,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 제14조",
       "originQuestionId": "BRK060",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -3983,9 +4163,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK001",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4005,9 +4186,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK002",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4027,9 +4209,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK003",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4049,9 +4232,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK004",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4071,9 +4255,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK005",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4093,9 +4278,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK006",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4115,9 +4301,10 @@
       "source": "공인중개사법 제3조",
       "originQuestionId": "BRK007",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4137,9 +4324,10 @@
       "source": "공인중개사법 제4조",
       "originQuestionId": "BRK008",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4159,9 +4347,10 @@
       "source": "공인중개사법 제5조",
       "originQuestionId": "BRK009",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4181,9 +4370,10 @@
       "source": "공인중개사법 제7조",
       "originQuestionId": "BRK010",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4203,9 +4393,10 @@
       "source": "공인중개사법 제9조",
       "originQuestionId": "BRK011",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4225,9 +4416,10 @@
       "source": "공인중개사법 시행규칙 제4조",
       "originQuestionId": "BRK012",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4247,9 +4439,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK013",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4269,9 +4462,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK014",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4291,9 +4485,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK015",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4313,9 +4508,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK016",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4335,9 +4531,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK017",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4357,9 +4554,10 @@
       "source": "공인중개사법 시행규칙 고용관계 신고 규정",
       "originQuestionId": "BRK018",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4379,9 +4577,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK019",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4401,9 +4600,10 @@
       "source": "공인중개사법 제18조의4",
       "originQuestionId": "BRK020",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4423,9 +4623,10 @@
       "source": "공인중개사법 제17조",
       "originQuestionId": "BRK021",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4445,9 +4646,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK022",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4467,9 +4669,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK023",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4489,9 +4692,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK024",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4511,9 +4715,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK025",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4533,9 +4738,10 @@
       "source": "공인중개사법 제23조",
       "originQuestionId": "BRK026",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4555,9 +4761,10 @@
       "source": "공인중개사법 제24조",
       "originQuestionId": "BRK027",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4577,9 +4784,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK028",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4599,9 +4807,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK029",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4621,9 +4830,10 @@
       "source": "공인중개사법 제25조의2",
       "originQuestionId": "BRK030",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4643,9 +4853,10 @@
       "source": "공인중개사법 제25조의3",
       "originQuestionId": "BRK031",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4665,9 +4876,10 @@
       "source": "공인중개사법 시행령 제21조",
       "originQuestionId": "BRK032",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4687,9 +4899,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK033",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4709,9 +4922,10 @@
       "source": "공인중개사법 시행령 제22조",
       "originQuestionId": "BRK034",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4731,9 +4945,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK035",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4753,9 +4968,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK036",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4775,9 +4991,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK037",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4797,9 +5014,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK038",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4819,9 +5037,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK039",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4841,9 +5060,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK040",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4863,9 +5083,10 @@
       "source": "공인중개사법 시행령 제27조의2",
       "originQuestionId": "BRK041",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4885,9 +5106,10 @@
       "source": "공인중개사법 제30조",
       "originQuestionId": "BRK042",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4907,9 +5129,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK043",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4929,9 +5152,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK044",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4951,9 +5175,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK045",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4973,9 +5198,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK046",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -4995,9 +5221,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK047",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5017,9 +5244,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK048",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5039,9 +5267,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK049",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5061,9 +5290,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK050",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5083,9 +5313,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK051",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5105,9 +5336,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK052",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5127,9 +5359,10 @@
       "source": "공인중개사법 제41조의2",
       "originQuestionId": "BRK053",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5149,9 +5382,10 @@
       "source": "공인중개사법 제41조의3",
       "originQuestionId": "BRK054",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5171,9 +5405,10 @@
       "source": "공인중개사법 제41조의4",
       "originQuestionId": "BRK055",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5193,9 +5428,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK056",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5215,9 +5451,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK057",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5237,9 +5474,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행규칙 제2조",
       "originQuestionId": "BRK058",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5259,9 +5497,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 토지거래허가 관련 규정",
       "originQuestionId": "BRK059",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5281,9 +5520,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 제14조",
       "originQuestionId": "BRK060",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5303,9 +5543,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK001",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5325,9 +5566,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK002",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5347,9 +5589,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK003",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5369,9 +5612,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK004",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5391,9 +5635,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK005",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5413,9 +5658,10 @@
       "source": "공인중개사법 제2조",
       "originQuestionId": "BRK006",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5435,9 +5681,10 @@
       "source": "공인중개사법 제3조",
       "originQuestionId": "BRK007",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5457,9 +5704,10 @@
       "source": "공인중개사법 제4조",
       "originQuestionId": "BRK008",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5479,9 +5727,10 @@
       "source": "공인중개사법 제5조",
       "originQuestionId": "BRK009",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5501,9 +5750,10 @@
       "source": "공인중개사법 제7조",
       "originQuestionId": "BRK010",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5523,9 +5773,10 @@
       "source": "공인중개사법 제9조",
       "originQuestionId": "BRK011",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5545,9 +5796,10 @@
       "source": "공인중개사법 시행규칙 제4조",
       "originQuestionId": "BRK012",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5567,9 +5819,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK013",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5589,9 +5842,10 @@
       "source": "공인중개사법 시행령 제13조",
       "originQuestionId": "BRK014",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5611,9 +5865,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK015",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5633,9 +5888,10 @@
       "source": "공인중개사법 제13조",
       "originQuestionId": "BRK016",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5655,9 +5911,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK017",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5677,9 +5934,10 @@
       "source": "공인중개사법 시행규칙 고용관계 신고 규정",
       "originQuestionId": "BRK018",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5699,9 +5957,10 @@
       "source": "공인중개사법 제15조",
       "originQuestionId": "BRK019",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5721,9 +5980,10 @@
       "source": "공인중개사법 제18조의4",
       "originQuestionId": "BRK020",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5743,9 +6003,10 @@
       "source": "공인중개사법 제17조",
       "originQuestionId": "BRK021",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5765,9 +6026,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK022",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5787,9 +6049,10 @@
       "source": "공인중개사법 제18조",
       "originQuestionId": "BRK023",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5809,9 +6072,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK024",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5831,9 +6095,10 @@
       "source": "공인중개사법 제18조의2",
       "originQuestionId": "BRK025",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5853,9 +6118,10 @@
       "source": "공인중개사법 제23조",
       "originQuestionId": "BRK026",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5875,9 +6141,10 @@
       "source": "공인중개사법 제24조",
       "originQuestionId": "BRK027",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5897,9 +6164,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK028",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5919,9 +6187,10 @@
       "source": "공인중개사법 제25조",
       "originQuestionId": "BRK029",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5941,9 +6210,10 @@
       "source": "공인중개사법 제25조의2",
       "originQuestionId": "BRK030",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5963,9 +6233,10 @@
       "source": "공인중개사법 제25조의3",
       "originQuestionId": "BRK031",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -5985,9 +6256,10 @@
       "source": "공인중개사법 시행령 제21조",
       "originQuestionId": "BRK032",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6007,9 +6279,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK033",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6029,9 +6302,10 @@
       "source": "공인중개사법 시행령 제22조",
       "originQuestionId": "BRK034",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6051,9 +6325,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK035",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6073,9 +6348,10 @@
       "source": "공인중개사법 제26조",
       "originQuestionId": "BRK036",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6095,9 +6371,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK037",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6117,9 +6394,10 @@
       "source": "공인중개사법 제29조",
       "originQuestionId": "BRK038",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6139,9 +6417,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK039",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6161,9 +6440,10 @@
       "source": "공인중개사법 제33조",
       "originQuestionId": "BRK040",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6183,9 +6463,10 @@
       "source": "공인중개사법 시행령 제27조의2",
       "originQuestionId": "BRK041",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6205,9 +6486,10 @@
       "source": "공인중개사법 제30조",
       "originQuestionId": "BRK042",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6227,9 +6509,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK043",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6249,9 +6532,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK044",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6271,9 +6555,10 @@
       "source": "공인중개사법 시행령 제24조",
       "originQuestionId": "BRK045",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6293,9 +6578,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK046",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6315,9 +6601,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK047",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6337,9 +6624,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK048",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6359,9 +6647,10 @@
       "source": "공인중개사법 시행령 제28조",
       "originQuestionId": "BRK049",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6381,9 +6670,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK050",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6403,9 +6693,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK051",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6425,9 +6716,10 @@
       "source": "공인중개사법 제41조",
       "originQuestionId": "BRK052",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6447,9 +6739,10 @@
       "source": "공인중개사법 제41조의2",
       "originQuestionId": "BRK053",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6469,9 +6762,10 @@
       "source": "공인중개사법 제41조의3",
       "originQuestionId": "BRK054",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6491,9 +6785,10 @@
       "source": "공인중개사법 제41조의4",
       "originQuestionId": "BRK055",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6513,9 +6808,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK056",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6535,9 +6831,10 @@
       "source": "부동산 거래신고 등에 관한 법률 제3조",
       "originQuestionId": "BRK057",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6557,9 +6854,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행규칙 제2조",
       "originQuestionId": "BRK058",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6579,9 +6877,10 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 토지거래허가 관련 규정",
       "originQuestionId": "BRK059",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     },
     {
@@ -6601,10 +6900,14 @@
       "source": "부동산 거래신고 등에 관한 법률 시행령 제14조",
       "originQuestionId": "BRK060",
       "review": {
-        "wording": "pending",
-        "legal": "pending",
-        "references": []
+        "wording": "approved",
+        "legal": "approved",
+        "references": [],
+        "asOf": "2026-10-06"
       }
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "coreVersion": "core-2026-10-06-audited-v2",
+  "coreAuditDate": "2026-10-06"
 }
