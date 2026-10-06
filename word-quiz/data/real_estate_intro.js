@@ -3129,7 +3129,7 @@ window.WORD_QUIZ_BANK = {
       "reviewedAt": "2026-09-02"
     }
   ],
-  "auditDate": "2026-10-06",
+  "auditDate": "2026-10-07",
   "auditStatus": "approved",
-  "auditNote": "정답 인덱스·선택지·해설·공식을 전수 점검하고 업로드 요약자료/공개 기출과 대조. REK042·REK083 교정 포함."
+  "auditNote": "정답·4개 선택지·해설·단일정답성·공식/정의 범위를 2차 전수감사. REK038·REK054·REK071·REK076·REK137·REK138·REK144·REK151·REK153 교정 반영."
 };
