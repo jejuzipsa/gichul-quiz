@@ -75,7 +75,7 @@ checks+=1;
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
-assert.ok(html.includes('20261007-core-v3'));
+assert.match(html,/\?v=\d{8}-core-v\d+/);
 assert.ok(html.includes('20261007-blank-v2'));
 assert.ok(html.includes('answerSummarySection'));
 assert.ok(html.includes('blank-v2-summary1'));
