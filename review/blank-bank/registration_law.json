@@ -425,7 +425,7 @@
       "type": "blank",
       "subject": "부동산공시법",
       "category": "지적제도",
-      "prompt": "지번은 일반적으로 {{blank:A}에서 {{blank:B}으로 순차 부여한다.",
+      "prompt": "지번은 일반적으로 {{blank:A}}}에서 {{blank:B}}}으로 순차 부여한다.",
       "answer": "북서 / 남동",
       "choices": [
         "북서 / 남동",
@@ -2812,7 +2812,7 @@
       "type": "blank",
       "subject": "부동산공시법",
       "category": "지적제도",
-      "prompt": "지번은 일반적으로 {{blank:A}에서 {{blank:B}으로 순차적으로 부여한다.",
+      "prompt": "지번은 일반적으로 {{blank:A}}}에서 {{blank:B}}}으로 순차적으로 부여한다.",
       "answer": "북서 / 남동",
       "choices": [
         "남서 / 북동",
