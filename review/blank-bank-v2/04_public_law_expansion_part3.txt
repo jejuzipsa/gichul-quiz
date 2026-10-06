@@ -1,11 +1,11 @@
 # 부동산공법 V2 추가문제 Part 3 (PLK041~PLK060)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-06
 
 ================================================================================
 ID: EXP-04-211
 ORIGIN: PLK041
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -39,7 +39,7 @@ A = 독립
 ================================================================================
 ID: EXP-04-212
 ORIGIN: PLK041
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -73,7 +73,7 @@ A = 부속토지
 ================================================================================
 ID: EXP-04-213
 ORIGIN: PLK041
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -107,7 +107,7 @@ A = 주택
 ================================================================================
 ID: EXP-04-214
 ORIGIN: PLK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -141,7 +141,7 @@ A = 1세대
 ================================================================================
 ID: EXP-04-215
 ORIGIN: PLK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -175,7 +175,7 @@ A = 독립
 ================================================================================
 ID: EXP-04-216
 ORIGIN: PLK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -209,7 +209,7 @@ A = 단독주택
 ================================================================================
 ID: EXP-04-217
 ORIGIN: PLK043
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -243,7 +243,7 @@ A = 공동
 ================================================================================
 ID: EXP-04-218
 ORIGIN: PLK043
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -277,7 +277,7 @@ A = 독립
 ================================================================================
 ID: EXP-04-219
 ORIGIN: PLK043
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -311,7 +311,7 @@ A = 공동주택
 ================================================================================
 ID: EXP-04-220
 ORIGIN: PLK044
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -345,7 +345,7 @@ A = 주택
 ================================================================================
 ID: EXP-04-221
 ORIGIN: PLK044
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -379,7 +379,7 @@ A = 이용
 ================================================================================
 ID: EXP-04-222
 ORIGIN: PLK044
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -413,7 +413,7 @@ A = 준주택
 ================================================================================
 ID: EXP-04-223
 ORIGIN: PLK045
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -447,7 +447,7 @@ A = 지방공사
 ================================================================================
 ID: EXP-04-224
 ORIGIN: PLK045
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -481,7 +481,7 @@ A = 지원
 ================================================================================
 ID: EXP-04-225
 ORIGIN: PLK045
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -515,7 +515,7 @@ A = 국민주택
 ================================================================================
 ID: EXP-04-226
 ORIGIN: PLK046
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -549,7 +549,7 @@ A = 85㎡
 ================================================================================
 ID: EXP-04-227
 ORIGIN: PLK046
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -583,7 +583,7 @@ A = 100㎡
 ================================================================================
 ID: EXP-04-228
 ORIGIN: PLK046
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -617,7 +617,7 @@ A = 주거전용면적
 ================================================================================
 ID: EXP-04-229
 ORIGIN: PLK047
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -651,7 +651,7 @@ A = 관리사무소
 ================================================================================
 ID: EXP-04-230
 ORIGIN: PLK047
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -685,7 +685,7 @@ A = 건축설비
 ================================================================================
 ID: EXP-04-231
 ORIGIN: PLK047
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -719,7 +719,7 @@ A = 부대시설
 ================================================================================
 ID: EXP-04-232
 ORIGIN: PLK048
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -753,7 +753,7 @@ A = 경로당
 ================================================================================
 ID: EXP-04-233
 ORIGIN: PLK048
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -787,7 +787,7 @@ A = 복리
 ================================================================================
 ID: EXP-04-234
 ORIGIN: PLK048
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -821,7 +821,7 @@ A = 복리시설
 ================================================================================
 ID: EXP-04-235
 ORIGIN: PLK049
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -855,7 +855,7 @@ A = 억제
 ================================================================================
 ID: EXP-04-236
 ORIGIN: PLK049
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -889,7 +889,7 @@ A = 향상
 ================================================================================
 ID: EXP-04-237
 ORIGIN: PLK049
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -923,7 +923,7 @@ A = 리모델링
 ================================================================================
 ID: EXP-04-238
 ORIGIN: PLK050
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -957,7 +957,7 @@ A = 30%
 ================================================================================
 ID: EXP-04-239
 ORIGIN: PLK050
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -991,7 +991,7 @@ A = 85㎡
 ================================================================================
 ID: EXP-04-240
 ORIGIN: PLK050
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 주택법
 
@@ -1025,7 +1025,7 @@ A = 40%
 ================================================================================
 ID: EXP-04-241
 ORIGIN: PLK051
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1059,7 +1059,7 @@ A = 농작물
 ================================================================================
 ID: EXP-04-242
 ORIGIN: PLK051
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1093,7 +1093,7 @@ A = 다년생식물
 ================================================================================
 ID: EXP-04-243
 ORIGIN: PLK051
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1127,7 +1127,7 @@ A = 개량시설
 ================================================================================
 ID: EXP-04-244
 ORIGIN: PLK052
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1161,7 +1161,7 @@ A = 개인
 ================================================================================
 ID: EXP-04-245
 ORIGIN: PLK052
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1195,7 +1195,7 @@ A = 대통령령
 ================================================================================
 ID: EXP-04-246
 ORIGIN: PLK052
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1229,7 +1229,7 @@ A = 농업인
 ================================================================================
 ID: EXP-04-247
 ORIGIN: PLK053
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1263,7 +1263,7 @@ A = 자기
 ================================================================================
 ID: EXP-04-248
 ORIGIN: PLK053
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1297,7 +1297,7 @@ A = 상시
 ================================================================================
 ID: EXP-04-249
 ORIGIN: PLK053
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1331,7 +1331,7 @@ A = 노동력
 ================================================================================
 ID: EXP-04-250
 ORIGIN: PLK054
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1365,7 +1365,7 @@ A = 농업경영
 ================================================================================
 ID: EXP-04-251
 ORIGIN: PLK054
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1399,7 +1399,7 @@ A = 이용할
 ================================================================================
 ID: EXP-04-252
 ORIGIN: PLK054
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1433,7 +1433,7 @@ A = 농업경영
 ================================================================================
 ID: EXP-04-253
 ORIGIN: PLK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1467,7 +1467,7 @@ A = 소재지
 ================================================================================
 ID: EXP-04-254
 ORIGIN: PLK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1501,7 +1501,7 @@ A = 예외
 ================================================================================
 ID: EXP-04-255
 ORIGIN: PLK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1535,7 +1535,7 @@ A = 농지취득자격증명
 ================================================================================
 ID: EXP-04-256
 ORIGIN: PLK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1569,7 +1569,7 @@ A = 임대
 ================================================================================
 ID: EXP-04-257
 ORIGIN: PLK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1603,7 +1603,7 @@ A = 사용대
 ================================================================================
 ID: EXP-04-258
 ORIGIN: PLK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1637,7 +1637,7 @@ A = 예외
 ================================================================================
 ID: EXP-04-259
 ORIGIN: PLK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1671,7 +1671,7 @@ A = 농업생산
 ================================================================================
 ID: EXP-04-260
 ORIGIN: PLK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1705,7 +1705,7 @@ A = 다년생식물
 ================================================================================
 ID: EXP-04-261
 ORIGIN: PLK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1739,7 +1739,7 @@ A = 농지전용
 ================================================================================
 ID: EXP-04-262
 ORIGIN: PLK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1773,7 +1773,7 @@ A = 농림축산식품부장관
 ================================================================================
 ID: EXP-04-263
 ORIGIN: PLK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1807,7 +1807,7 @@ A = 예외
 ================================================================================
 ID: EXP-04-264
 ORIGIN: PLK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1841,7 +1841,7 @@ A = 농지전용허가
 ================================================================================
 ID: EXP-04-265
 ORIGIN: PLK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1875,7 +1875,7 @@ A = 시·도지사
 ================================================================================
 ID: EXP-04-266
 ORIGIN: PLK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1909,7 +1909,7 @@ A = 보전
 ================================================================================
 ID: EXP-04-267
 ORIGIN: PLK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1943,7 +1943,7 @@ A = 농업진흥지역
 ================================================================================
 ID: EXP-04-268
 ORIGIN: PLK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -1977,7 +1977,7 @@ A = 소유
 ================================================================================
 ID: EXP-04-269
 ORIGIN: PLK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
@@ -2011,7 +2011,7 @@ A = 알선
 ================================================================================
 ID: EXP-04-270
 ORIGIN: PLK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 농지법
 
