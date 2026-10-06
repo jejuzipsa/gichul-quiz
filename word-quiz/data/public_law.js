@@ -1560,7 +1560,7 @@ window.WORD_QUIZ_BANK = {
       "reviewedAt": "2026-09-02"
     }
   ],
-  "auditDate": "2026-10-06",
+  "auditDate": "2026-10-07",
   "auditStatus": "approved",
-  "auditNote": "정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인."
+  "auditNote": "정답·4개 선택지·해설·단일정답성 및 2026년 공법 개정사항을 2차 전수감사. PLK007·PLK009·PLK015·PLK016·PLK045·PLK050·PLK051·PLK055·PLK060 교정 반영."
 };
