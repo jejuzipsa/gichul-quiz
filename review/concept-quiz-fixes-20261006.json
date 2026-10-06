@@ -1,0 +1,89 @@
+{
+  "status": "audit-branch-only",
+  "asOf": "2026-10-06",
+  "standardQuizFixes": [
+    "REK042",
+    "REK083",
+    "CVK064"
+  ],
+  "blankFixes": {
+    "real_estate_intro": [
+      "blank-01-040"
+    ],
+    "civil_law": [
+      "blank-02-031"
+    ],
+    "brokerage_law": [
+      "blank-03-018",
+      "blank-03-019",
+      "blank-03-020",
+      "blank-03-100",
+      "blank-03-112",
+      "blank-03-124",
+      "blank-03-126",
+      "blank-03-190",
+      "blank-03-222",
+      "blank-03-240",
+      "blank-03-276",
+      "blank-03-279",
+      "blank-03-280"
+    ],
+    "public_law": [
+      "blank-04-036",
+      "blank-04-039",
+      "blank-04-049",
+      "blank-04-051",
+      "blank-04-054",
+      "blank-04-066",
+      "blank-04-069",
+      "blank-04-096",
+      "blank-04-107",
+      "blank-04-108",
+      "blank-04-136",
+      "blank-04-194",
+      "blank-04-196",
+      "blank-04-240",
+      "blank-04-242",
+      "blank-04-286"
+    ],
+    "registration_law": [
+      "blank-05-032",
+      "blank-05-043",
+      "blank-05-044",
+      "blank-05-076",
+      "blank-05-152"
+    ],
+    "tax_law": [
+      "blank-06-034",
+      "blank-06-035",
+      "blank-06-036",
+      "blank-06-037",
+      "blank-06-042",
+      "blank-06-043",
+      "blank-06-044",
+      "blank-06-051",
+      "blank-06-058",
+      "blank-06-063",
+      "blank-06-078",
+      "blank-06-086",
+      "blank-06-091",
+      "blank-06-098",
+      "blank-06-105",
+      "blank-06-119",
+      "blank-06-120",
+      "blank-06-128",
+      "blank-06-134",
+      "blank-06-143",
+      "blank-06-147",
+      "blank-06-148",
+      "blank-06-149",
+      "blank-06-158",
+      "blank-06-163",
+      "blank-06-164",
+      "blank-06-168",
+      "blank-06-173",
+      "blank-06-178"
+    ]
+  },
+  "note": "확정 오답·구법·잘린 PDF 추출 문항의 1차 교정. main 미반영. 전체 2,085문항 최종 검수는 계속 진행 중."
+}
