@@ -116,7 +116,31 @@
       "seedCount": 60,
       "sourceCoreVersion": "core-2026-10-06-audited-v2",
       "sourceAuditDate": "2026-10-06",
-      "sourceAuditStatus": "approved"
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 60,
+        "expansionGenerated": 120,
+        "expansionReviewed": 120,
+        "finalCount": 180,
+        "approved": 180,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 0,
+        "legalCheckpoint": "2026-10-07",
+        "runtimeChanged": false,
+        "finalIndex": "review/blank-bank-v2/06_tax_law_final_index.txt",
+        "finalFiles": [
+          "review/blank-bank-v2/06_tax_law.txt",
+          "review/blank-bank-v2/06_tax_law_expansion_part1.txt",
+          "review/blank-bank-v2/06_tax_law_expansion_part2.txt",
+          "review/blank-bank-v2/06_tax_law_expansion_part3.txt"
+        ],
+        "reportFile": "review/blank-bank-v2/06_tax_law_review_report.txt",
+        "pendingCoreFix": [
+          "TXK054"
+        ]
+      }
     }
   }
 }
