@@ -72,7 +72,22 @@
       "seedCount": 70,
       "sourceCoreVersion": "core-2026-10-06-audited-v2",
       "sourceAuditDate": "2026-10-06",
-      "sourceAuditStatus": "approved"
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 70,
+        "expansionGenerated": 230,
+        "expansionReviewed": 230,
+        "finalCount": 300,
+        "approved": 300,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 0,
+        "legalCheckpoint": "2026-10-06",
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/04_public_law_final.txt",
+        "reportFile": "review/blank-bank-v2/04_public_law_review_report.txt"
+      }
     },
     "registration_law": {
       "label": "부동산공시법",
