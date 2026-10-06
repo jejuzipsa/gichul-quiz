@@ -1,11 +1,11 @@
 # 부동산세법 V2 추가문제 Part 3 (TXK041~TXK060)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-07
 
 ================================================================================
 ID: EXP-06-141
 ORIGIN: TXK041
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 재산세
 
@@ -39,7 +39,7 @@ A = 구세
 ================================================================================
 ID: EXP-06-142
 ORIGIN: TXK041
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 재산세
 
@@ -73,7 +73,7 @@ A = 자치구
 ================================================================================
 ID: EXP-06-143
 ORIGIN: TXK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 재산세
 
@@ -107,7 +107,7 @@ A = 과세기준일
 ================================================================================
 ID: EXP-06-144
 ORIGIN: TXK042
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 재산세
 
@@ -141,7 +141,7 @@ A = 6월 1일
 ================================================================================
 ID: EXP-06-145
 ORIGIN: TXK043
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -175,7 +175,7 @@ A = 보유자
 ================================================================================
 ID: EXP-06-146
 ORIGIN: TXK043
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -209,7 +209,7 @@ A = 국세
 ================================================================================
 ID: EXP-06-147
 ORIGIN: TXK044
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -243,7 +243,7 @@ A = 6월 1일
 ================================================================================
 ID: EXP-06-148
 ORIGIN: TXK044
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -277,7 +277,7 @@ A = 같다
 ================================================================================
 ID: EXP-06-149
 ORIGIN: TXK045
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -311,7 +311,7 @@ A = 9억원
 ================================================================================
 ID: EXP-06-150
 ORIGIN: TXK045
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -345,7 +345,7 @@ A = 9억원
 ================================================================================
 ID: EXP-06-151
 ORIGIN: TXK046
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -379,7 +379,7 @@ A = 12억원
 ================================================================================
 ID: EXP-06-152
 ORIGIN: TXK046
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -413,7 +413,7 @@ A = 3억원
 ================================================================================
 ID: EXP-06-153
 ORIGIN: TXK047
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -447,7 +447,7 @@ A = 0원
 ================================================================================
 ID: EXP-06-154
 ORIGIN: TXK047
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -481,7 +481,7 @@ A = 없다
 ================================================================================
 ID: EXP-06-155
 ORIGIN: TXK048
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -515,7 +515,7 @@ A = 60%
 ================================================================================
 ID: EXP-06-156
 ORIGIN: TXK048
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -549,7 +549,7 @@ A = 60%
 ================================================================================
 ID: EXP-06-157
 ORIGIN: TXK049
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -583,7 +583,7 @@ A = 60%
 ================================================================================
 ID: EXP-06-158
 ORIGIN: TXK049
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -617,7 +617,7 @@ A = 100%
 ================================================================================
 ID: EXP-06-159
 ORIGIN: TXK050
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -651,7 +651,7 @@ A = 초과
 ================================================================================
 ID: EXP-06-160
 ORIGIN: TXK050
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 종합부동산세
 
@@ -685,7 +685,7 @@ A = 보유
 ================================================================================
 ID: EXP-06-161
 ORIGIN: TXK051
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -719,7 +719,7 @@ A = 양도
 ================================================================================
 ID: EXP-06-162
 ORIGIN: TXK051
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -753,7 +753,7 @@ A = 국세
 ================================================================================
 ID: EXP-06-163
 ORIGIN: TXK052
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -787,7 +787,7 @@ A = 유상
 ================================================================================
 ID: EXP-06-164
 ORIGIN: TXK052
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -821,7 +821,7 @@ A = 등기
 ================================================================================
 ID: EXP-06-165
 ORIGIN: TXK053
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -855,7 +855,7 @@ A = 실제 거래가액
 ================================================================================
 ID: EXP-06-166
 ORIGIN: TXK053
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -889,7 +889,7 @@ A = 양수자
 ================================================================================
 ID: EXP-06-167
 ORIGIN: TXK054
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -923,7 +923,7 @@ A = 필요경비
 ================================================================================
 ID: EXP-06-168
 ORIGIN: TXK054
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -957,7 +957,7 @@ A = 취득가액
 ================================================================================
 ID: EXP-06-169
 ORIGIN: TXK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -991,7 +991,7 @@ A = 장기보유특별공제액
 ================================================================================
 ID: EXP-06-170
 ORIGIN: TXK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1025,7 +1025,7 @@ A = 양도소득금액
 ================================================================================
 ID: EXP-06-171
 ORIGIN: TXK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1059,7 +1059,7 @@ A = 양도소득 기본공제
 ================================================================================
 ID: EXP-06-172
 ORIGIN: TXK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1093,7 +1093,7 @@ A = 양도소득 과세표준
 ================================================================================
 ID: EXP-06-173
 ORIGIN: TXK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1127,7 +1127,7 @@ A = 자본적
 ================================================================================
 ID: EXP-06-174
 ORIGIN: TXK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1161,7 +1161,7 @@ A = 비용
 ================================================================================
 ID: EXP-06-175
 ORIGIN: TXK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1195,7 +1195,7 @@ A = 거주
 ================================================================================
 ID: EXP-06-176
 ORIGIN: TXK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1229,7 +1229,7 @@ A = 비과세
 ================================================================================
 ID: EXP-06-177
 ORIGIN: TXK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1263,7 +1263,7 @@ A = 12억원
 ================================================================================
 ID: EXP-06-178
 ORIGIN: TXK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1297,7 +1297,7 @@ A = 비과세
 ================================================================================
 ID: EXP-06-179
 ORIGIN: TXK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
@@ -1331,7 +1331,7 @@ A = 건물
 ================================================================================
 ID: EXP-06-180
 ORIGIN: TXK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 양도소득세
 
