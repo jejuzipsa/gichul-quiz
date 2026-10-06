@@ -10,6 +10,7 @@ window.WORD_QUIZ_BANK = {
   "questions": [
     {
       "id": "REK001",
+      "conceptId": "REK001",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "복합개념의 부동산이란?",
@@ -24,12 +25,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE001",
-      "conceptId": "REK001",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK002",
+      "conceptId": "REK002",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "획지란?",
@@ -44,12 +45,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE002",
-      "conceptId": "REK002",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK003",
+      "conceptId": "REK003",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "맹지란?",
@@ -64,12 +65,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "기출",
       "legacyId": "RE003",
-      "conceptId": "REK003",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK004",
+      "conceptId": "REK004",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "나지란?",
@@ -84,12 +85,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "기출·일반교재 보완",
       "legacyId": "RE004",
-      "conceptId": "REK004",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK005",
+      "conceptId": "REK005",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "소지(素地)란?",
@@ -104,12 +105,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE005",
-      "conceptId": "REK005",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK006",
+      "conceptId": "REK006",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "공한지란?",
@@ -124,12 +125,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE006",
-      "conceptId": "REK006",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK007",
+      "conceptId": "REK007",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "후보지란?",
@@ -144,12 +145,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE007",
-      "conceptId": "REK007",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK008",
+      "conceptId": "REK008",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "이행지란?",
@@ -164,12 +165,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE008",
-      "conceptId": "REK008",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK009",
+      "conceptId": "REK009",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "빈지(濱地)란?",
@@ -184,12 +185,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE009",
-      "conceptId": "REK009",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK010",
+      "conceptId": "REK010",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "법지(法地)란?",
@@ -204,12 +205,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE010",
-      "conceptId": "REK010",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK011",
+      "conceptId": "REK011",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "부동성이란?",
@@ -224,12 +225,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE011",
-      "conceptId": "REK011",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK012",
+      "conceptId": "REK012",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "영속성이란?",
@@ -244,12 +245,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE012",
-      "conceptId": "REK012",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK013",
+      "conceptId": "REK013",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "부증성이란?",
@@ -264,12 +265,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE013",
-      "conceptId": "REK013",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK014",
+      "conceptId": "REK014",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "개별성이란?",
@@ -284,12 +285,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE014",
-      "conceptId": "REK014",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK015",
+      "conceptId": "REK015",
       "category": "기본원리·토지용어",
       "difficulty": "기초",
       "question": "인접성이란?",
@@ -304,12 +305,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "1. 부동산학의 기본원리",
       "sourceType": "요약자료",
       "legacyId": "RE015",
-      "conceptId": "REK015",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK016",
+      "conceptId": "REK016",
       "category": "경제론",
       "difficulty": "기초",
       "question": "수요란?",
@@ -324,12 +325,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE031",
-      "conceptId": "REK016",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK017",
+      "conceptId": "REK017",
       "category": "경제론",
       "difficulty": "기초",
       "question": "공급이란?",
@@ -344,12 +345,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE032",
-      "conceptId": "REK017",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK018",
+      "conceptId": "REK018",
       "category": "경제론",
       "difficulty": "기초",
       "question": "유량(Flow)이란?",
@@ -364,12 +365,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE033",
-      "conceptId": "REK018",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK019",
+      "conceptId": "REK019",
       "category": "경제론",
       "difficulty": "기초",
       "question": "저량(Stock)이란?",
@@ -384,12 +385,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE034",
-      "conceptId": "REK019",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK020",
+      "conceptId": "REK020",
       "category": "경제론",
       "difficulty": "기초",
       "question": "수요량의 변화란?",
@@ -404,12 +405,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE035",
-      "conceptId": "REK020",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK021",
+      "conceptId": "REK021",
       "category": "경제론",
       "difficulty": "기초",
       "question": "수요의 변화란?",
@@ -424,12 +425,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE036",
-      "conceptId": "REK021",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK022",
+      "conceptId": "REK022",
       "category": "경제론",
       "difficulty": "기초",
       "question": "공급량의 변화란?",
@@ -444,12 +445,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE037",
-      "conceptId": "REK022",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK023",
+      "conceptId": "REK023",
       "category": "경제론",
       "difficulty": "기초",
       "question": "공급의 변화란?",
@@ -464,12 +465,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE038",
-      "conceptId": "REK023",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK024",
+      "conceptId": "REK024",
       "category": "경제론",
       "difficulty": "기초",
       "question": "정상재란?",
@@ -484,12 +485,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE039",
-      "conceptId": "REK024",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK025",
+      "conceptId": "REK025",
       "category": "경제론",
       "difficulty": "기초",
       "question": "열등재란?",
@@ -504,12 +505,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE040",
-      "conceptId": "REK025",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK026",
+      "conceptId": "REK026",
       "category": "경제론",
       "difficulty": "기초",
       "question": "대체재란?",
@@ -524,12 +525,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE041",
-      "conceptId": "REK026",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK027",
+      "conceptId": "REK027",
       "category": "경제론",
       "difficulty": "기초",
       "question": "보완재란?",
@@ -544,12 +545,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE042",
-      "conceptId": "REK027",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK028",
+      "conceptId": "REK028",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "효율적 시장이란?",
@@ -564,12 +565,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE055",
-      "conceptId": "REK028",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK029",
+      "conceptId": "REK029",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "약성 효율적 시장이란?",
@@ -584,12 +585,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE056",
-      "conceptId": "REK029",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK030",
+      "conceptId": "REK030",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "준강성 효율적 시장이란?",
@@ -604,12 +605,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE057",
-      "conceptId": "REK030",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK031",
+      "conceptId": "REK031",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "강성 효율적 시장이란?",
@@ -624,12 +625,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE058",
-      "conceptId": "REK031",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK032",
+      "conceptId": "REK032",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "할당효율적 시장이란?",
@@ -644,12 +645,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE059",
-      "conceptId": "REK032",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK033",
+      "conceptId": "REK033",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "튀넨의 농업입지론이란?",
@@ -664,12 +665,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE060",
-      "conceptId": "REK033",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK034",
+      "conceptId": "REK034",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "최적주거입지란?",
@@ -684,12 +685,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE061",
-      "conceptId": "REK034",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK035",
+      "conceptId": "REK035",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "레일리의 소매인력법칙이란?",
@@ -704,12 +705,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE062",
-      "conceptId": "REK035",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK036",
+      "conceptId": "REK036",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "허프의 확률적 상권모형이란?",
@@ -724,12 +725,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE063",
-      "conceptId": "REK036",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK037",
+      "conceptId": "REK037",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "크리스탈러의 중심지이론이란?",
@@ -744,12 +745,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE064",
-      "conceptId": "REK037",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK038",
+      "conceptId": "REK038",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "베버의 최소비용이론이란?",
@@ -764,12 +765,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료·2021~2022 기출 교차검증",
       "legacyId": "RE065",
-      "conceptId": "REK038",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK039",
+      "conceptId": "REK039",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "입지계수란?",
@@ -784,12 +785,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE066",
-      "conceptId": "REK039",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK040",
+      "conceptId": "REK040",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "동심원이론이란?",
@@ -804,12 +805,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE067",
-      "conceptId": "REK040",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK041",
+      "conceptId": "REK041",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "선형이론이란?",
@@ -824,12 +825,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE068",
-      "conceptId": "REK041",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK042",
+      "conceptId": "REK042",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "다핵심이론이란?",
@@ -844,12 +845,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "기출·요약자료 교정",
       "legacyId": "RE069",
-      "conceptId": "REK042",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-06"
     },
     {
       "id": "REK043",
+      "conceptId": "REK043",
       "category": "정책론",
       "difficulty": "기초",
       "question": "시장실패란?",
@@ -864,12 +865,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE085",
-      "conceptId": "REK043",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK044",
+      "conceptId": "REK044",
       "category": "정책론",
       "difficulty": "기초",
       "question": "정(+)의 외부효과란?",
@@ -884,12 +885,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE086",
-      "conceptId": "REK044",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK045",
+      "conceptId": "REK045",
       "category": "정책론",
       "difficulty": "기초",
       "question": "부(-)의 외부효과란?",
@@ -904,12 +905,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE087",
-      "conceptId": "REK045",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK046",
+      "conceptId": "REK046",
       "category": "정책론",
       "difficulty": "기초",
       "question": "지역지구제란?",
@@ -924,12 +925,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE088",
-      "conceptId": "REK046",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK047",
+      "conceptId": "REK047",
       "category": "정책론",
       "difficulty": "기초",
       "question": "계획단위개발(PUD)이란?",
@@ -944,12 +945,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE089",
-      "conceptId": "REK047",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK048",
+      "conceptId": "REK048",
       "category": "정책론",
       "difficulty": "기초",
       "question": "개발권양도제(TDR)란?",
@@ -964,12 +965,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE090",
-      "conceptId": "REK048",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK049",
+      "conceptId": "REK049",
       "category": "정책론",
       "difficulty": "기초",
       "question": "토지은행제도란?",
@@ -984,12 +985,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE091",
-      "conceptId": "REK049",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK050",
+      "conceptId": "REK050",
       "category": "정책론",
       "difficulty": "기초",
       "question": "직접적 개입이란?",
@@ -1004,12 +1005,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE092",
-      "conceptId": "REK050",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK051",
+      "conceptId": "REK051",
       "category": "정책론",
       "difficulty": "기초",
       "question": "간접적 개입이란?",
@@ -1024,12 +1025,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE093",
-      "conceptId": "REK051",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK052",
+      "conceptId": "REK052",
       "category": "정책론",
       "difficulty": "기초",
       "question": "토지공개념이란?",
@@ -1044,12 +1045,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE094",
-      "conceptId": "REK052",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK053",
+      "conceptId": "REK053",
       "category": "정책론",
       "difficulty": "기초",
       "question": "임대료 규제정책이란?",
@@ -1064,12 +1065,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE095",
-      "conceptId": "REK053",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK054",
+      "conceptId": "REK054",
       "category": "정책론",
       "difficulty": "기초",
       "question": "임대료 보조정책의 일반적 의의는?",
@@ -1084,12 +1085,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료 재검증",
       "legacyId": "RE096",
-      "conceptId": "REK054",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK055",
+      "conceptId": "REK055",
       "category": "정책론",
       "difficulty": "기초",
       "question": "하향여과란?",
@@ -1104,12 +1105,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE097",
-      "conceptId": "REK055",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK056",
+      "conceptId": "REK056",
       "category": "정책론",
       "difficulty": "기초",
       "question": "상향여과란?",
@@ -1124,12 +1125,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE098",
-      "conceptId": "REK056",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK057",
+      "conceptId": "REK057",
       "category": "투자론",
       "difficulty": "기초",
       "question": "부동산 투자란?",
@@ -1144,12 +1145,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE113",
-      "conceptId": "REK057",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK058",
+      "conceptId": "REK058",
       "category": "투자론",
       "difficulty": "기초",
       "question": "부동산 투기란?",
@@ -1164,12 +1165,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE114",
-      "conceptId": "REK058",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK059",
+      "conceptId": "REK059",
       "category": "투자론",
       "difficulty": "기초",
       "question": "기대수익률이란?",
@@ -1184,12 +1185,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE115",
-      "conceptId": "REK059",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK060",
+      "conceptId": "REK060",
       "category": "투자론",
       "difficulty": "기초",
       "question": "실현수익률이란?",
@@ -1204,12 +1205,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE116",
-      "conceptId": "REK060",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK061",
+      "conceptId": "REK061",
       "category": "투자론",
       "difficulty": "기초",
       "question": "요구수익률이란?",
@@ -1224,12 +1225,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE117",
-      "conceptId": "REK061",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK062",
+      "conceptId": "REK062",
       "category": "투자론",
       "difficulty": "기초",
       "question": "투자위험이란?",
@@ -1244,12 +1245,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE118",
-      "conceptId": "REK062",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK063",
+      "conceptId": "REK063",
       "category": "투자론",
       "difficulty": "공식",
       "question": "변이계수란?",
@@ -1264,12 +1265,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE119",
-      "conceptId": "REK063",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK064",
+      "conceptId": "REK064",
       "category": "투자론",
       "difficulty": "기초",
       "question": "자산3분법이란?",
@@ -1284,12 +1285,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE120",
-      "conceptId": "REK064",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK065",
+      "conceptId": "REK065",
       "category": "투자론",
       "difficulty": "기초",
       "question": "평균-분산결정법이란?",
@@ -1304,12 +1305,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE121",
-      "conceptId": "REK065",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK066",
+      "conceptId": "REK066",
       "category": "투자론",
       "difficulty": "기초",
       "question": "가능조소득(PGI)이란?",
@@ -1324,12 +1325,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE122",
-      "conceptId": "REK066",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK067",
+      "conceptId": "REK067",
       "category": "투자론",
       "difficulty": "기초",
       "question": "유효조소득(EGI)이란?",
@@ -1344,12 +1345,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE123",
-      "conceptId": "REK067",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK068",
+      "conceptId": "REK068",
       "category": "투자론",
       "difficulty": "기초",
       "question": "순영업소득(NOI)이란?",
@@ -1364,12 +1365,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE124",
-      "conceptId": "REK068",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK069",
+      "conceptId": "REK069",
       "category": "금융론",
       "difficulty": "기초",
       "question": "저당금융이란?",
@@ -1384,12 +1385,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE137",
-      "conceptId": "REK069",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK070",
+      "conceptId": "REK070",
       "category": "금융론",
       "difficulty": "기초",
       "question": "신탁금융이란?",
@@ -1404,12 +1405,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE138",
-      "conceptId": "REK070",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK071",
+      "conceptId": "REK071",
       "category": "금융론",
       "difficulty": "기초",
       "question": "주택상환사채란?",
@@ -1424,12 +1425,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "현행 주택법 교차검증",
       "legacyId": "RE139",
-      "conceptId": "REK071",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK072",
+      "conceptId": "REK072",
       "category": "금융론",
       "difficulty": "기초",
       "question": "자산담보부증권(ABS)이란?",
@@ -1444,12 +1445,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE140",
-      "conceptId": "REK072",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK073",
+      "conceptId": "REK073",
       "category": "금융론",
       "difficulty": "기초",
       "question": "프로젝트 파이낸싱(PF)이란?",
@@ -1464,12 +1465,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE141",
-      "conceptId": "REK073",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK074",
+      "conceptId": "REK074",
       "category": "금융론",
       "difficulty": "기초",
       "question": "부동산 신디케이트란?",
@@ -1484,12 +1485,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE142",
-      "conceptId": "REK074",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK075",
+      "conceptId": "REK075",
       "category": "금융론",
       "difficulty": "기초",
       "question": "조인트벤처란?",
@@ -1504,12 +1505,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE143",
-      "conceptId": "REK075",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK076",
+      "conceptId": "REK076",
       "category": "금융론",
       "difficulty": "기초",
       "question": "부동산투자회사(REITs)란?",
@@ -1524,12 +1525,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "현행 부동산투자회사법 교차검증",
       "legacyId": "RE144",
-      "conceptId": "REK076",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK077",
+      "conceptId": "REK077",
       "category": "금융론",
       "difficulty": "기초",
       "question": "주택소비금융이란?",
@@ -1544,12 +1545,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE145",
-      "conceptId": "REK077",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK078",
+      "conceptId": "REK078",
       "category": "금융론",
       "difficulty": "기초",
       "question": "주택개발금융이란?",
@@ -1564,12 +1565,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE146",
-      "conceptId": "REK078",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK079",
+      "conceptId": "REK079",
       "category": "경제론",
       "difficulty": "공식",
       "question": "수요의 가격탄력성의 공식은?",
@@ -1584,12 +1585,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE157",
-      "conceptId": "REK079",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK080",
+      "conceptId": "REK080",
       "category": "시장론·입지론",
       "difficulty": "공식",
       "question": "튀넨의 지대의 공식은?",
@@ -1604,12 +1605,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE158",
-      "conceptId": "REK080",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK081",
+      "conceptId": "REK081",
       "category": "시장론·입지론",
       "difficulty": "공식",
       "question": "레일리의 구매지향비율의 공식은?",
@@ -1624,12 +1625,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE159",
-      "conceptId": "REK081",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK082",
+      "conceptId": "REK082",
       "category": "투자론",
       "difficulty": "공식",
       "question": "요구수익률의 공식은?",
@@ -1644,12 +1645,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE160",
-      "conceptId": "REK082",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK083",
+      "conceptId": "REK083",
       "category": "투자론",
       "difficulty": "공식",
       "question": "부동산 투자가치의 공식은?",
@@ -1664,12 +1665,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료·기출개념 교정",
       "legacyId": "RE161",
-      "conceptId": "REK083",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-06"
     },
     {
       "id": "REK084",
+      "conceptId": "REK084",
       "category": "투자론",
       "difficulty": "공식",
       "question": "변이계수의 공식은?",
@@ -1684,12 +1685,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE162",
-      "conceptId": "REK084",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK085",
+      "conceptId": "REK085",
       "category": "투자론",
       "difficulty": "공식",
       "question": "일시불의 미래가치계수의 공식은?",
@@ -1704,12 +1705,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE163",
-      "conceptId": "REK085",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK086",
+      "conceptId": "REK086",
       "category": "투자론",
       "difficulty": "공식",
       "question": "일시불의 현재가치계수의 공식은?",
@@ -1724,12 +1725,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE164",
-      "conceptId": "REK086",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK087",
+      "conceptId": "REK087",
       "category": "투자론",
       "difficulty": "공식",
       "question": "연금의 미래가치계수의 공식은?",
@@ -1744,12 +1745,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE165",
-      "conceptId": "REK087",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK088",
+      "conceptId": "REK088",
       "category": "투자론",
       "difficulty": "공식",
       "question": "감채기금계수의 공식은?",
@@ -1764,12 +1765,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE166",
-      "conceptId": "REK088",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK089",
+      "conceptId": "REK089",
       "category": "투자론",
       "difficulty": "공식",
       "question": "연금의 현재가치계수의 공식은?",
@@ -1784,12 +1785,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE167",
-      "conceptId": "REK089",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK090",
+      "conceptId": "REK090",
       "category": "투자론",
       "difficulty": "공식",
       "question": "저당상수의 공식은?",
@@ -1804,12 +1805,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE168",
-      "conceptId": "REK090",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK091",
+      "conceptId": "REK091",
       "category": "투자론",
       "difficulty": "공식",
       "question": "잔금비율의 공식은?",
@@ -1824,12 +1825,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE169",
-      "conceptId": "REK091",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK092",
+      "conceptId": "REK092",
       "category": "투자론",
       "difficulty": "공식",
       "question": "가능조소득(PGI)의 공식은?",
@@ -1844,12 +1845,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE170",
-      "conceptId": "REK092",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK093",
+      "conceptId": "REK093",
       "category": "투자론",
       "difficulty": "공식",
       "question": "유효조소득(EGI)의 공식은?",
@@ -1864,12 +1865,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE171",
-      "conceptId": "REK093",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK094",
+      "conceptId": "REK094",
       "category": "투자론",
       "difficulty": "공식",
       "question": "순영업소득(NOI)의 공식은?",
@@ -1884,12 +1885,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE172",
-      "conceptId": "REK094",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK095",
+      "conceptId": "REK095",
       "category": "투자론",
       "difficulty": "공식",
       "question": "순현재가치(NPV)의 공식은?",
@@ -1904,12 +1905,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE173",
-      "conceptId": "REK095",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK096",
+      "conceptId": "REK096",
       "category": "투자론",
       "difficulty": "공식",
       "question": "수익성지수(PI)의 공식은?",
@@ -1924,12 +1925,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE174",
-      "conceptId": "REK096",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK097",
+      "conceptId": "REK097",
       "category": "투자론",
       "difficulty": "공식",
       "question": "종합자본환원율의 공식은?",
@@ -1944,12 +1945,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE175",
-      "conceptId": "REK097",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK098",
+      "conceptId": "REK098",
       "category": "금융론",
       "difficulty": "공식",
       "question": "담보인정비율(LTV)의 공식은?",
@@ -1964,12 +1965,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE176",
-      "conceptId": "REK098",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK099",
+      "conceptId": "REK099",
       "category": "투자론",
       "difficulty": "공식",
       "question": "부채감당률(DCR)의 공식은?",
@@ -1984,12 +1985,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE177",
-      "conceptId": "REK099",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK100",
+      "conceptId": "REK100",
       "category": "투자론",
       "difficulty": "공식",
       "question": "채무불이행률의 공식은?",
@@ -2004,12 +2005,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE178",
-      "conceptId": "REK100",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK101",
+      "conceptId": "REK101",
       "category": "금융론",
       "difficulty": "공식",
       "question": "저당지불액의 공식은?",
@@ -2024,12 +2025,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE179",
-      "conceptId": "REK101",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK102",
+      "conceptId": "REK102",
       "category": "금융론",
       "difficulty": "공식",
       "question": "이자지급액의 공식은?",
@@ -2044,12 +2045,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE180",
-      "conceptId": "REK102",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK103",
+      "conceptId": "REK103",
       "category": "개발·관리론",
       "difficulty": "공식",
       "question": "토지이용의 집약도의 공식은?",
@@ -2064,12 +2065,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE181",
-      "conceptId": "REK103",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK104",
+      "conceptId": "REK104",
       "category": "경제론",
       "difficulty": "기초",
       "question": "부동산 공급의 탄력성이 수요보다 일반적으로 더 낮은 주된 이유는?",
@@ -2084,12 +2085,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE207",
-      "conceptId": "REK104",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK105",
+      "conceptId": "REK105",
       "category": "경제론",
       "difficulty": "기초",
       "question": "거미집이론에서 수렴형이 되는 조건은?",
@@ -2104,12 +2105,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE213",
-      "conceptId": "REK105",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK106",
+      "conceptId": "REK106",
       "category": "경제론",
       "difficulty": "기초",
       "question": "거미집이론에서 발산형이 되는 조건은?",
@@ -2124,12 +2125,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE214",
-      "conceptId": "REK106",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK107",
+      "conceptId": "REK107",
       "category": "경제론",
       "difficulty": "기초",
       "question": "거미집이론에서 순환형이 되는 조건은?",
@@ -2144,12 +2145,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "2. 부동산 경제론",
       "sourceType": "요약자료",
       "legacyId": "RE215",
-      "conceptId": "REK107",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK108",
+      "conceptId": "REK108",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "한계주거비용이 한계교통비용보다 크면 주거입지는 어느 방향으로 이동하는가?",
@@ -2164,12 +2165,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE216",
-      "conceptId": "REK108",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK109",
+      "conceptId": "REK109",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "한계주거비용이 한계교통비용보다 작으면 주거입지는 어느 방향으로 이동하는가?",
@@ -2184,12 +2185,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE217",
-      "conceptId": "REK109",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK110",
+      "conceptId": "REK110",
       "category": "시장론·입지론",
       "difficulty": "기초",
       "question": "버제스의 동심원이론에서 가장 중심에 위치하는 지구는?",
@@ -2204,12 +2205,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "3. 부동산 시장론",
       "sourceType": "요약자료",
       "legacyId": "RE218",
-      "conceptId": "REK110",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK111",
+      "conceptId": "REK111",
       "category": "정책론",
       "difficulty": "기초",
       "question": "균형임대료보다 낮은 수준에서 임대료를 규제할 때 나타날 가능성이 큰 것은?",
@@ -2224,12 +2225,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE219",
-      "conceptId": "REK111",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK112",
+      "conceptId": "REK112",
       "category": "정책론",
       "difficulty": "기초",
       "question": "정(+)의 외부효과에서 일반적으로 나타나는 생산·소비 수준은?",
@@ -2244,12 +2245,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE220",
-      "conceptId": "REK112",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK113",
+      "conceptId": "REK113",
       "category": "정책론",
       "difficulty": "기초",
       "question": "부(-)의 외부효과에서 일반적으로 나타나는 생산·소비 수준은?",
@@ -2264,12 +2265,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "4. 부동산 정책론",
       "sourceType": "요약자료",
       "legacyId": "RE221",
-      "conceptId": "REK113",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK114",
+      "conceptId": "REK114",
       "category": "투자론",
       "difficulty": "기초",
       "question": "순현재가치법(NPV)의 일반적인 투자안 채택 기준은?",
@@ -2284,12 +2285,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE224",
-      "conceptId": "REK114",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK115",
+      "conceptId": "REK115",
       "category": "투자론",
       "difficulty": "기초",
       "question": "수익성지수법(PI)의 일반적인 투자안 채택 기준은?",
@@ -2304,12 +2305,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE225",
-      "conceptId": "REK115",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK116",
+      "conceptId": "REK116",
       "category": "투자론",
       "difficulty": "기초",
       "question": "현금수지분석에서 순영업소득 다음에 차감하는 항목은?",
@@ -2324,12 +2325,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE226",
-      "conceptId": "REK116",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK117",
+      "conceptId": "REK117",
       "category": "투자론",
       "difficulty": "기초",
       "question": "지분복귀액 계산에서 순매도액 다음에 차감하는 항목은?",
@@ -2344,12 +2345,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE227",
-      "conceptId": "REK117",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK118",
+      "conceptId": "REK118",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원리금균등분할상환에서 시간이 지나면서 원금상환액은 어떻게 변하는가?",
@@ -2364,12 +2365,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE228",
-      "conceptId": "REK118",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK119",
+      "conceptId": "REK119",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원금균등분할상환에서 월 원리금지불액은 어떻게 변하는가?",
@@ -2384,12 +2385,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE229",
-      "conceptId": "REK119",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK120",
+      "conceptId": "REK120",
       "category": "금융론",
       "difficulty": "기초",
       "question": "1차 저당시장이란?",
@@ -2404,12 +2405,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE230",
-      "conceptId": "REK120",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK121",
+      "conceptId": "REK121",
       "category": "금융론",
       "difficulty": "기초",
       "question": "2차 저당시장이란?",
@@ -2424,12 +2425,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE231",
-      "conceptId": "REK121",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK122",
+      "conceptId": "REK122",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "도시스프롤(sprawl)이란?",
@@ -2444,12 +2445,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE232",
-      "conceptId": "REK122",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK123",
+      "conceptId": "REK123",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "부동산 개발과정에서 타당성 분석 다음 단계는?",
@@ -2464,12 +2465,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE233",
-      "conceptId": "REK123",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK124",
+      "conceptId": "REK124",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "시장가치의 발생요인에 해당하는 것은?",
@@ -2484,12 +2485,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8. 부동산 가격이론",
       "sourceType": "요약자료",
       "legacyId": "RE235",
-      "conceptId": "REK124",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK125",
+      "conceptId": "REK125",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "감정평가 3방식은?",
@@ -2504,12 +2505,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE236",
-      "conceptId": "REK125",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK126",
+      "conceptId": "REK126",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원리금균등분할상환(CPM)이란?",
@@ -2524,12 +2525,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE237",
-      "conceptId": "REK126",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK127",
+      "conceptId": "REK127",
       "category": "금융론",
       "difficulty": "기초",
       "question": "원금균등분할상환(CAM)이란?",
@@ -2544,12 +2545,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "6. 부동산 금융론",
       "sourceType": "요약자료",
       "legacyId": "RE238",
-      "conceptId": "REK127",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK128",
+      "conceptId": "REK128",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "공급분석이란?",
@@ -2564,12 +2565,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE241",
-      "conceptId": "REK128",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK129",
+      "conceptId": "REK129",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "집약적 토지이용이란?",
@@ -2584,12 +2585,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE242",
-      "conceptId": "REK129",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK130",
+      "conceptId": "REK130",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "입지잉여란?",
@@ -2604,12 +2605,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE243",
-      "conceptId": "REK130",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK131",
+      "conceptId": "REK131",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "지가구배란?",
@@ -2624,12 +2625,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE244",
-      "conceptId": "REK131",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK132",
+      "conceptId": "REK132",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "침입적 토지이용이란?",
@@ -2644,12 +2645,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE246",
-      "conceptId": "REK132",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK133",
+      "conceptId": "REK133",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "택지의 한계지란?",
@@ -2664,12 +2665,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE247",
-      "conceptId": "REK133",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK134",
+      "conceptId": "REK134",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "부동산 관리란?",
@@ -2684,12 +2685,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE248",
-      "conceptId": "REK134",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK135",
+      "conceptId": "REK135",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "부지분석이란?",
@@ -2704,12 +2705,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE249",
-      "conceptId": "REK135",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK136",
+      "conceptId": "REK136",
       "category": "개발·관리론",
       "difficulty": "기초",
       "question": "수요분석이란?",
@@ -2724,12 +2725,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "7. 부동산 개발 및 관리론",
       "sourceType": "요약자료",
       "legacyId": "RE250",
-      "conceptId": "REK136",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK137",
+      "conceptId": "REK137",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "시장가치란?",
@@ -2744,12 +2745,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "현행 감정평가에 관한 규칙 교차검증",
       "legacyId": "RE261",
-      "conceptId": "REK137",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK138",
+      "conceptId": "REK138",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "비교방식이란?",
@@ -2764,12 +2765,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "현행 감정평가에 관한 규칙·기출 교차검증",
       "legacyId": "RE262",
-      "conceptId": "REK138",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK139",
+      "conceptId": "REK139",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "균형의 원칙이란?",
@@ -2784,12 +2785,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE263",
-      "conceptId": "REK139",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK140",
+      "conceptId": "REK140",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "수익배분의 원칙이란?",
@@ -2804,12 +2805,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE264",
-      "conceptId": "REK140",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK141",
+      "conceptId": "REK141",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "적합의 원칙이란?",
@@ -2824,12 +2825,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE265",
-      "conceptId": "REK141",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK142",
+      "conceptId": "REK142",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "지역분석이란?",
@@ -2844,12 +2845,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE266",
-      "conceptId": "REK142",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK143",
+      "conceptId": "REK143",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "개별분석이란?",
@@ -2864,12 +2865,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE267",
-      "conceptId": "REK143",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK144",
+      "conceptId": "REK144",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "원가법이란?",
@@ -2884,12 +2885,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "현행 감정평가에 관한 규칙·2021 기출 교차검증",
       "legacyId": "RE268",
-      "conceptId": "REK144",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK145",
+      "conceptId": "REK145",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "거래사례비교법이란?",
@@ -2904,12 +2905,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE269",
-      "conceptId": "REK145",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK146",
+      "conceptId": "REK146",
       "category": "감정평가·가격공시",
       "difficulty": "기초",
       "question": "수익환원법이란?",
@@ -2924,12 +2925,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "8~12. 가격이론·감정평가·가격공시",
       "sourceType": "요약자료",
       "legacyId": "RE270",
-      "conceptId": "REK146",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK147",
+      "conceptId": "REK147",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "원가법의 산식은?",
@@ -2944,12 +2945,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE281",
-      "conceptId": "REK147",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK148",
+      "conceptId": "REK148",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "적산법의 산식은?",
@@ -2964,12 +2965,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE282",
-      "conceptId": "REK148",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK149",
+      "conceptId": "REK149",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "거래사례비교법의 산식은?",
@@ -2984,12 +2985,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE283",
-      "conceptId": "REK149",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK150",
+      "conceptId": "REK150",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "임대사례비교법의 산식은?",
@@ -3004,12 +3005,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE284",
-      "conceptId": "REK150",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK151",
+      "conceptId": "REK151",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "직접환원법의 대표 산식은?",
@@ -3024,12 +3025,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료 재검증",
       "legacyId": "RE285",
-      "conceptId": "REK151",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK152",
+      "conceptId": "REK152",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "수익분석법의 산식은?",
@@ -3044,12 +3045,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE286",
-      "conceptId": "REK152",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK153",
+      "conceptId": "REK153",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "정액법(직선법)의 매년감가액 산식은?",
@@ -3064,12 +3065,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료·기출 교차검증",
       "legacyId": "RE287",
-      "conceptId": "REK153",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-10-07"
     },
     {
       "id": "REK154",
+      "conceptId": "REK154",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "종합환원이율의 산식은?",
@@ -3084,12 +3085,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE288",
-      "conceptId": "REK154",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK155",
+      "conceptId": "REK155",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "자본환원율의 산식은?",
@@ -3104,12 +3105,12 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE289",
-      "conceptId": "REK155",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     },
     {
       "id": "REK156",
+      "conceptId": "REK156",
       "category": "감정평가·가격공시",
       "difficulty": "공식",
       "question": "직선법 수익가격의 산식은?",
@@ -3124,12 +3125,11 @@ window.WORD_QUIZ_BANK = {
       "sourceSection": "10. 감정평가의 방식",
       "sourceType": "요약자료",
       "legacyId": "RE290",
-      "conceptId": "REK156",
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
   ],
-  "auditDate": "2026-10-06",
+  "auditDate": "2026-10-07",
   "auditStatus": "approved",
-  "auditNote": "정답 인덱스·선택지·해설·공식을 전수 점검하고 업로드 요약자료/공개 기출과 대조. REK042·REK083 교정 포함."
+  "auditNote": "정답·4개 선택지·해설·단일정답성·공식/정의 범위를 2차 전수감사. REK038·REK054·REK071·REK076·REK137·REK138·REK144·REK151·REK153 교정 반영."
 };
