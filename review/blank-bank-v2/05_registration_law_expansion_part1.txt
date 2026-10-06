@@ -1,11 +1,11 @@
 # 부동산공시법 V2 추가문제 Part 1 (RGK001~RGK022)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-07
 
 ================================================================================
 ID: EXP-05-067
 ORIGIN: RGK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -39,7 +39,7 @@ A = 필지
 ================================================================================
 ID: EXP-05-068
 ORIGIN: RGK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -73,7 +73,7 @@ A = 지적공부
 ================================================================================
 ID: EXP-05-069
 ORIGIN: RGK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -107,7 +107,7 @@ A = 지적
 ================================================================================
 ID: EXP-05-070
 ORIGIN: RGK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -141,7 +141,7 @@ A = 등록
 ================================================================================
 ID: EXP-05-071
 ORIGIN: RGK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -175,7 +175,7 @@ A = 대통령령
 ================================================================================
 ID: EXP-05-072
 ORIGIN: RGK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -209,7 +209,7 @@ A = 필지
 ================================================================================
 ID: EXP-05-073
 ORIGIN: RGK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -243,7 +243,7 @@ A = 지적공부
 ================================================================================
 ID: EXP-05-074
 ORIGIN: RGK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -277,7 +277,7 @@ A = 구청장
 ================================================================================
 ID: EXP-05-075
 ORIGIN: RGK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -311,7 +311,7 @@ A = 지적소관청
 ================================================================================
 ID: EXP-05-076
 ORIGIN: RGK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -345,7 +345,7 @@ A = 좌표
 ================================================================================
 ID: EXP-05-077
 ORIGIN: RGK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -379,7 +379,7 @@ A = 경계점
 ================================================================================
 ID: EXP-05-078
 ORIGIN: RGK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -413,7 +413,7 @@ A = 지적측량
 ================================================================================
 ID: EXP-05-079
 ORIGIN: RGK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -447,7 +447,7 @@ A = 기초
 ================================================================================
 ID: EXP-05-080
 ORIGIN: RGK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -481,7 +481,7 @@ A = 국토교통부장관
 ================================================================================
 ID: EXP-05-081
 ORIGIN: RGK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -515,7 +515,7 @@ A = 기본측량
 ================================================================================
 ID: EXP-05-082
 ORIGIN: RGK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -549,7 +549,7 @@ A = 공공사업
 ================================================================================
 ID: EXP-05-083
 ORIGIN: RGK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -583,7 +583,7 @@ A = 기본측량
 ================================================================================
 ID: EXP-05-084
 ORIGIN: RGK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -617,7 +617,7 @@ A = 공공측량
 ================================================================================
 ID: EXP-05-085
 ORIGIN: RGK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -651,7 +651,7 @@ A = 면적
 ================================================================================
 ID: EXP-05-086
 ORIGIN: RGK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -685,7 +685,7 @@ A = 소유자
 ================================================================================
 ID: EXP-05-087
 ORIGIN: RGK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -719,7 +719,7 @@ A = 토지대장
 ================================================================================
 ID: EXP-05-088
 ORIGIN: RGK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -753,7 +753,7 @@ A = 임야
 ================================================================================
 ID: EXP-05-089
 ORIGIN: RGK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -787,7 +787,7 @@ A = 소유자
 ================================================================================
 ID: EXP-05-090
 ORIGIN: RGK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -821,7 +821,7 @@ A = 임야대장
 ================================================================================
 ID: EXP-05-091
 ORIGIN: RGK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -855,7 +855,7 @@ A = 지분
 ================================================================================
 ID: EXP-05-092
 ORIGIN: RGK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -889,7 +889,7 @@ A = 공유지연명부
 ================================================================================
 ID: EXP-05-093
 ORIGIN: RGK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -923,7 +923,7 @@ A = 공유
 ================================================================================
 ID: EXP-05-094
 ORIGIN: RGK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -957,7 +957,7 @@ A = 집합건물
 ================================================================================
 ID: EXP-05-095
 ORIGIN: RGK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -991,7 +991,7 @@ A = 비율
 ================================================================================
 ID: EXP-05-096
 ORIGIN: RGK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1025,7 +1025,7 @@ A = 대지권등록부
 ================================================================================
 ID: EXP-05-097
 ORIGIN: RGK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1059,7 +1059,7 @@ A = 경계
 ================================================================================
 ID: EXP-05-098
 ORIGIN: RGK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1093,7 +1093,7 @@ A = 토지대장
 ================================================================================
 ID: EXP-05-099
 ORIGIN: RGK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1127,7 +1127,7 @@ A = 지적도
 ================================================================================
 ID: EXP-05-100
 ORIGIN: RGK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1161,7 +1161,7 @@ A = 경계
 ================================================================================
 ID: EXP-05-101
 ORIGIN: RGK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1195,7 +1195,7 @@ A = 임야대장
 ================================================================================
 ID: EXP-05-102
 ORIGIN: RGK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1229,7 +1229,7 @@ A = 임야도
 ================================================================================
 ID: EXP-05-103
 ORIGIN: RGK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1263,7 +1263,7 @@ A = 위치
 ================================================================================
 ID: EXP-05-104
 ORIGIN: RGK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1297,7 +1297,7 @@ A = 좌표
 ================================================================================
 ID: EXP-05-105
 ORIGIN: RGK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1331,7 +1331,7 @@ A = 경계점좌표등록부
 ================================================================================
 ID: EXP-05-106
 ORIGIN: RGK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1365,7 +1365,7 @@ A = 대
 ================================================================================
 ID: EXP-05-107
 ORIGIN: RGK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1399,7 +1399,7 @@ A = 28개
 ================================================================================
 ID: EXP-05-108
 ORIGIN: RGK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1433,7 +1433,7 @@ A = 지목
 ================================================================================
 ID: EXP-05-109
 ORIGIN: RGK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1467,7 +1467,7 @@ A = 하나
 ================================================================================
 ID: EXP-05-110
 ORIGIN: RGK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1501,7 +1501,7 @@ A = 복수
 ================================================================================
 ID: EXP-05-111
 ORIGIN: RGK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1535,7 +1535,7 @@ A = 1필지 1지목 원칙
 ================================================================================
 ID: EXP-05-112
 ORIGIN: RGK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1569,7 +1569,7 @@ A = 주된
 ================================================================================
 ID: EXP-05-113
 ORIGIN: RGK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1603,7 +1603,7 @@ A = 주된 용도
 ================================================================================
 ID: EXP-05-114
 ORIGIN: RGK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1637,7 +1637,7 @@ A = 주된 용도
 ================================================================================
 ID: EXP-05-115
 ORIGIN: RGK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1671,7 +1671,7 @@ A = 변경하지 않는다
 ================================================================================
 ID: EXP-05-116
 ORIGIN: RGK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1705,7 +1705,7 @@ A = 기준
 ================================================================================
 ID: EXP-05-117
 ORIGIN: RGK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1739,7 +1739,7 @@ A = 지목
 ================================================================================
 ID: EXP-05-118
 ORIGIN: RGK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1773,7 +1773,7 @@ A = 필지
 ================================================================================
 ID: EXP-05-119
 ORIGIN: RGK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1807,7 +1807,7 @@ A = 지적공부
 ================================================================================
 ID: EXP-05-120
 ORIGIN: RGK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1841,7 +1841,7 @@ A = 지번
 ================================================================================
 ID: EXP-05-121
 ORIGIN: RGK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1875,7 +1875,7 @@ A = 남동
 ================================================================================
 ID: EXP-05-122
 ORIGIN: RGK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: MULTI_CLOZE
 CATEGORY: 지적제도
 
@@ -1910,7 +1910,7 @@ B = 남동
 ================================================================================
 ID: EXP-05-123
 ORIGIN: RGK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1944,7 +1944,7 @@ A = 지번
 ================================================================================
 ID: EXP-05-124
 ORIGIN: RGK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -1978,7 +1978,7 @@ A = 등록되지
 ================================================================================
 ID: EXP-05-125
 ORIGIN: RGK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2012,7 +2012,7 @@ A = 신규등록
 ================================================================================
 ID: EXP-05-126
 ORIGIN: RGK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2046,7 +2046,7 @@ A = 미등록
 ================================================================================
 ID: EXP-05-127
 ORIGIN: RGK021
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2080,7 +2080,7 @@ A = 토지대장
 ================================================================================
 ID: EXP-05-128
 ORIGIN: RGK021
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2114,7 +2114,7 @@ A = 임야도
 ================================================================================
 ID: EXP-05-129
 ORIGIN: RGK021
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2148,7 +2148,7 @@ A = 등록전환
 ================================================================================
 ID: EXP-05-130
 ORIGIN: RGK022
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2182,7 +2182,7 @@ A = 2필지
 ================================================================================
 ID: EXP-05-131
 ORIGIN: RGK022
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -2216,7 +2216,7 @@ A = 증가
 ================================================================================
 ID: EXP-05-132
 ORIGIN: RGK022
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
