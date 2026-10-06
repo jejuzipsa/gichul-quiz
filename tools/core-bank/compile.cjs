@@ -85,7 +85,7 @@ function compileQuestion(row){
   if(row.verifiedAt) q.verifiedAt=row.verifiedAt;
   if(row.sourceLaw) q.sourceLaw=row.sourceLaw;
   if(row.sourceArticle) q.sourceArticle=row.sourceArticle;
-  if(row.legacyId) q.legacyId=row.legacyId;
+  q.legacyId=row.legacyId||null;
   if(row.curation) q.curation=row.curation;
   q.reviewedAt=row.reviewedAt;
   return q;
