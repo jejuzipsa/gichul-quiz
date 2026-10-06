@@ -52,14 +52,14 @@
     };
 
     if(mode==='blank'){
-      load(`blank-data/${file}?v=20260917-review-1`,()=>{
-        load('blank-bank-validator.js?v=20260917-review-1',()=>{
+      load(`blank-data/${file}?v=20261006-audit-v1`,()=>{
+        load('blank-bank-validator.js?v=20261006-audit-v1',()=>{
           if(!window.validateBlankBank(window.BLANK_QUIZ_BANK,key)) return fail('괄호문제');
-          load('blank-quiz.js?v=20260917-review-1',null,()=>fail('괄호문제'));
+          load('blank-quiz.js?v=20261006-audit-v1',null,()=>fail('괄호문제'));
         },()=>fail('괄호문제'));
       },()=>fail('괄호문제'));
     }else{
-      load(`data/${file}?v=20260902-core-v1`,()=>{
+      load(`data/${file}?v=20261006-core-v2`,()=>{
         load('quiz.js?v=1.7',null,()=>fail('문제'));
       },()=>fail('문제'));
     }

@@ -1,12 +1,12 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-09-02-v1",
+  "version": "core-2026-10-06-audited-v2",
   "subject": "민법 및 민사특별법",
   "count": 73,
   "conceptCount": 73,
   "randomPickDefault": 30,
   "format": "single_choice",
   "style": "핵심개념·시험필수·기초포함",
-  "lawBasisDate": "2026-09-02",
+  "lawBasisDate": "2026-10-06",
   "sourceNote": "기존 60개 현행법 핵심개념의 5문형 반복을 1문제씩으로 압축하고, 요약자료·기출·현행법에서 빠진 조건·기한·법정지상권·합유·총유·명의신탁·가등기담보·상가임대차·집합건물 핵심을 보강.",
   "questions": [
     {
@@ -1404,22 +1404,22 @@ window.WORD_QUIZ_BANK = {
       "term": "법정지상권",
       "question": "민법상 법정지상권이 인정되는 대표적인 경우는?",
       "choices": [
-        "저당물의 경매로 토지와 그 지상건물이 서로 다른 소유자에게 귀속된 경우",
+        "저당권 설정 당시 토지와 건물이 동일인 소유였는데 저당물의 경매로 서로 다른 소유자에게 귀속된 경우",
         "임차인이 토지에 임의로 건물을 신축한 경우",
         "토지매매계약만 체결하고 등기를 하지 않은 경우",
         "공유자 1인이 다른 공유자 동의 없이 건물을 처분한 경우"
       ],
       "answer": 0,
-      "explanation": "저당물의 경매로 토지와 그 지상건물이 다른 소유자에게 속하게 되면 토지소유자는 건물소유자에게 지상권을 설정한 것으로 본다.",
+      "explanation": "민법 제366조의 법정지상권은 저당권 설정 당시 토지와 그 지상건물이 동일인 소유였고, 경매로 토지와 건물이 서로 다른 소유자에게 귀속되는 경우에 성립하는 것이 핵심이다.",
       "sourceType": "현행법령",
       "sourceLaw": "민법",
       "sourceArticle": "제366조",
-      "verifiedAt": "2026-09-02",
+      "verifiedAt": "2026-10-06",
       "legacyId": null,
       "id": "CVK064",
       "conceptId": "CVK064",
       "curation": "시험핵심선별",
-      "reviewedAt": "2026-09-02"
+      "reviewedAt": "2026-10-06"
     },
     {
       "category": "물권법",
@@ -1628,5 +1628,8 @@ window.WORD_QUIZ_BANK = {
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "auditStatus": "approved",
+  "auditNote": "정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인."
 };

@@ -1,5 +1,5 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-09-02-v1",
+  "version": "core-2026-10-06-audited-v2",
   "subject": "부동산학개론",
   "count": 156,
   "conceptCount": 156,
@@ -840,13 +840,13 @@ window.WORD_QUIZ_BANK = {
         "지대가 발생하지 않는 경계 토지 또는 택지이용의 가장 먼 경계"
       ],
       "answer": 0,
-      "explanation": "요약자료에서는 멕켄지의 이론으로 정리되어 있다.",
+      "explanation": "다핵심이론은 해리스(C. Harris)와 울만(E. Ullman)의 도시내부구조이론으로, 도시가 성장하면서 여러 개의 분리된 핵이 형성·발달한다고 본다.",
       "sourceSection": "3. 부동산 시장론",
-      "sourceType": "요약자료",
+      "sourceType": "기출·요약자료 교정",
       "legacyId": "RE069",
       "conceptId": "REK042",
       "curation": "시험핵심선별",
-      "reviewedAt": "2026-09-02"
+      "reviewedAt": "2026-10-06"
     },
     {
       "id": "REK043",
@@ -1654,19 +1654,19 @@ window.WORD_QUIZ_BANK = {
       "difficulty": "공식",
       "question": "부동산 투자가치의 공식은?",
       "choices": [
-        "예상 순수익 ÷ 시장의 요구수익률",
+        "예상 순수익 ÷ 투자자의 요구수익률",
         "표준편차 ÷ 기대수익률",
         "(1+r)ⁿ",
         "1 ÷ (1+r)ⁿ"
       ],
       "answer": 0,
-      "explanation": "부동산 투자가치의 공식은 예상 순수익 ÷ 시장의 요구수익률이다. 예상 순수익을 시장 요구수익률로 환원하여 투자가치를 설명한다.",
+      "explanation": "부동산의 투자가치는 해당 투자자가 기대하는 순수익을 그 투자자의 요구수익률로 환원하여 구한다.",
       "sourceSection": "5. 부동산 투자론",
-      "sourceType": "요약자료",
+      "sourceType": "요약자료·기출개념 교정",
       "legacyId": "RE161",
       "conceptId": "REK083",
       "curation": "시험핵심선별",
-      "reviewedAt": "2026-09-02"
+      "reviewedAt": "2026-10-06"
     },
     {
       "id": "REK084",
@@ -3128,5 +3128,8 @@ window.WORD_QUIZ_BANK = {
       "curation": "시험핵심선별",
       "reviewedAt": "2026-09-02"
     }
-  ]
+  ],
+  "auditDate": "2026-10-06",
+  "auditStatus": "approved",
+  "auditNote": "정답 인덱스·선택지·해설·공식을 전수 점검하고 업로드 요약자료/공개 기출과 대조. REK042·REK083 교정 포함."
 };

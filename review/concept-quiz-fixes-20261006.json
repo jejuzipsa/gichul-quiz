@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "asOf": "2026-10-06",
+  "standardQuiz": {
+    "total": 485,
+    "auditStatus": "approved",
+    "version": "core-2026-10-06-audited-v2",
+    "confirmedCorrections": [
+      "REK042",
+      "REK083",
+      "CVK064"
+    ]
+  },
+  "blankQuiz": {
+    "total": 1600,
+    "auditStatus": "approved",
+    "version": "blank-core-derived-2026-10-06-v1",
+    "strategy": "기존 1,420개 PDF 자동 추출 확장분을 폐기하고 감사된 일반 핵심개념 485문항에서 반복암기형으로 전면 재구축",
+    "counts": {
+      "real_estate_intro": 300,
+      "civil_law": 300,
+      "brokerage_law": 300,
+      "public_law": 300,
+      "registration_law": 220,
+      "tax_law": 180
+    }
+  },
+  "validation": {
+    "totalQuestions": 2085,
+    "structuralErrors": 0,
+    "duplicateIds": 0,
+    "duplicatePrompts": 0,
+    "missingAnswers": 0,
+    "blankMarkerErrors": 0,
+    "staticMirrorErrors": 0,
+    "missingOrigins": 0,
+    "knownLegacyPatternHits": 0
+  },
+  "note": "main 병합 전 감사 브랜치 최종 결과. 법령 과목은 2026-10-06 현재 시행 법령 기준."
+}

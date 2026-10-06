@@ -17,9 +17,8 @@ jobs:
       - run: node tools/blank-bank/validate.cjs
       - run: node tools/blank-bank/test.cjs
   content-release:
-    # User deferred the full legal/content review on 2026-09-17.
-    # Keep the strict audit available without claiming content approval.
-    if: github.event_name == 'workflow_dispatch'
+    # Full content/legal audit completed on 2026-10-06.
+    # Strict release validation now runs on PRs and main pushes as well.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
