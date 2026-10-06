@@ -1,0 +1,51 @@
+{
+  "formatVersion": "blank-review-v2-seed-1",
+  "sourceBranch": "main",
+  "createdFromVersion": "1.52",
+  "status": "PENDING_REVIEW",
+  "runtimeChanged": false,
+  "subjects": {
+    "real_estate_intro": {
+      "label": "부동산학개론",
+      "seedCount": 156,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved"
+    },
+    "civil_law": {
+      "label": "민법 및 민사특별법",
+      "seedCount": 73,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved"
+    },
+    "brokerage_law": {
+      "label": "공인중개사법령 및 중개실무",
+      "seedCount": 60,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved"
+    },
+    "public_law": {
+      "label": "부동산공법",
+      "seedCount": 70,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved"
+    },
+    "registration_law": {
+      "label": "부동산공시법",
+      "seedCount": 66,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved"
+    },
+    "tax_law": {
+      "label": "부동산세법",
+      "seedCount": 60,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved"
+    }
+  }
+}
