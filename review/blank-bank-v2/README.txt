@@ -63,3 +63,12 @@ STATUS와 EXPAND를 분리한 이유
 - 최종 파일: 01_real_estate_intro_final.txt
 - 검수 보고서: 01_real_estate_intro_review_report.txt
 - 아직 사이트 런타임에는 반영하지 않음
+
+민법 및 민사특별법 최종 완료
+- seed 73개 검수 완료
+- 추가 227개 생성·검수 완료
+- 최종 300개 통합검수 완료
+- 정확 중복 0, 구조 오류 0
+- 최종 파일: 02_civil_law_final.txt
+- 검수 보고서: 02_civil_law_review_report.txt
+- 아직 사이트 런타임에는 반영하지 않음
