@@ -92,3 +92,14 @@ STATUS와 EXPAND를 분리한 이유
 - 최종 파일: 04_public_law_final.txt
 - 검수 보고서: 04_public_law_review_report.txt
 - 아직 사이트 런타임에는 반영하지 않음
+
+부동산공시법 최종 완료
+- seed 66개 검수 완료
+- 추가 154개 생성·검수 완료
+- 최종 220개 통합검수 완료
+- 정확 중복 0, 구조 오류 0
+- 고유사 문항 3쌍은 토지대장/임야대장, 지적도/임야도 대비학습용으로 확인 후 유지
+- 2026-10-07 현행 법령 재확인
+- 최종 파일: 05_registration_law_final.txt
+- 검수 보고서: 05_registration_law_review_report.txt
+- 아직 사이트 런타임에는 반영하지 않음
