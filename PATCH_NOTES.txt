@@ -542,3 +542,55 @@
 - manifest 상태: FULL_STRUCTURAL_AUDIT_PASSED
 - 런타임 미반영.
 - 남은 작업: TXK054 core 표현 검토, 최신성 최종 스팟체크, TXT→blank-data 컴파일러, 다중 빈칸 UI/validator, 모바일·PC 검증 후 v1.53.
+
+------------------------------------------------------------
+26. v1.53 - 괄호문제 V2 런타임 통합
+------------------------------------------------------------
+
+- 6과목 V2 검수은행 1,600문제를 실제 사이트용 데이터로 컴파일.
+  · 학개론 300
+  · 민법 300
+  · 중개사법 300
+  · 공법 300
+  · 공시법 220
+  · 세법 180
+- TXT 검수은행을 최종 Source of Truth로 고정.
+- tools/blank-bank/compile-v2.cjs 추가.
+  · 승인된 review/blank-bank-v2 TXT를 파싱
+  · review/blank-bank/*.json 생성
+  · word-quiz/blank-data/*.js 정적 미러 생성
+  · --check로 TXT와 런타임 데이터 불일치 검출
+  · --write로 승인 데이터 재생성
+- tools/blank-bank/build.cjs를 V2 TXT 컴파일 → release validation 순서로 변경.
+- GitHub Actions에 compile-v2.cjs --check 추가.
+- 단일 빈칸 외에 A/B/C 다중 빈칸 지원.
+  · 런타임 데이터는 {{blank:A}}, {{blank:B}}, {{blank:C}} 명명 마커 사용
+  · 선택지별 blankValues 매핑 저장
+  · 정답 선택 시 각 빈칸에 해당 값 표시
+  · 오답 선택 시 선택한 빈칸 값은 빨간색, 정답 선택지는 파란색 유지
+- blank-bank-validator.js 및 tools/blank-bank/validate.cjs 확장.
+  · 빈칸 1~3개
+  · A/B/C 순서와 중복 검증
+  · 선택지-빈칸값 매핑 검증
+  · 문제 150자 / 보기 55자 / 빈칸값 35자 상한 검증
+- blank-quiz.css에 다중 빈칸 모바일 줄바꿈 보강.
+- v1.53 캐시 버전 반영.
+- 세법 일반 핵심개념 TXK054 교정:
+  · 기존 ‘양도가액 - 취득가액 - 필요경비’ 표현을
+    ‘양도가액 - 필요경비’ 구조로 수정
+  · 필요경비에는 취득가액·자본적 지출액·양도비 등이 포함되는 기존 설명과 통일
+  · tax core version을 core-2026-10-07-audited-v3로 갱신.
+- 런타임 구조검사 결과:
+  · 총 1,600문제
+  · 다중 빈칸 94문제
+  · 과목별 목표 수량 일치
+  · JSON/JS 미러 일치
+  · 정답/보기/빈칸 매핑 오류 0
+  · ID/문제문장 중복 오류 0
+  · 길이 제한 오류 0
+  · core version 불일치 0
+
+현재 상태
+- blank-bank-v2-review 작업 브랜치에 v1.53 통합 완료.
+- main은 아직 v1.52.
+- 다음 단계: PR에서 GitHub Actions CI 실행 → 실제 브라우저/모바일 동작 확인 → 이상 없으면 main 병합.
