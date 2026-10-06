@@ -1,11 +1,11 @@
 # 부동산공시법 V2 추가문제 Part 2 (RGK023~RGK038)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-07
 
 ================================================================================
 ID: EXP-05-133
 ORIGIN: RGK023
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -39,7 +39,7 @@ A = 2필지
 ================================================================================
 ID: EXP-05-134
 ORIGIN: RGK023
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -73,7 +73,7 @@ A = 토지합병
 ================================================================================
 ID: EXP-05-135
 ORIGIN: RGK024
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -107,7 +107,7 @@ A = 지목
 ================================================================================
 ID: EXP-05-136
 ORIGIN: RGK024
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -141,7 +141,7 @@ A = 지목변경
 ================================================================================
 ID: EXP-05-137
 ORIGIN: RGK025
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -175,7 +175,7 @@ A = 정밀도
 ================================================================================
 ID: EXP-05-138
 ORIGIN: RGK025
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -209,7 +209,7 @@ A = 축척변경
 ================================================================================
 ID: EXP-05-139
 ORIGIN: RGK026
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -243,7 +243,7 @@ A = 경계복원
 ================================================================================
 ID: EXP-05-140
 ORIGIN: RGK026
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -277,7 +277,7 @@ A = 지적측량
 ================================================================================
 ID: EXP-05-141
 ORIGIN: RGK027
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -311,7 +311,7 @@ A = 직권
 ================================================================================
 ID: EXP-05-142
 ORIGIN: RGK027
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -345,7 +345,7 @@ A = 등록사항 정정
 ================================================================================
 ID: EXP-05-143
 ORIGIN: RGK028
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -379,7 +379,7 @@ A = 토지이용규제
 ================================================================================
 ID: EXP-05-144
 ORIGIN: RGK028
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -413,7 +413,7 @@ A = 부동산종합공부
 ================================================================================
 ID: EXP-05-145
 ORIGIN: RGK029
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -447,7 +447,7 @@ A = 수수료
 ================================================================================
 ID: EXP-05-146
 ORIGIN: RGK029
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -481,7 +481,7 @@ A = 누구든지
 ================================================================================
 ID: EXP-05-147
 ORIGIN: RGK030
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -515,7 +515,7 @@ A = 지적소관청
 ================================================================================
 ID: EXP-05-148
 ORIGIN: RGK030
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -549,7 +549,7 @@ A = 등기소
 ================================================================================
 ID: EXP-05-149
 ORIGIN: RGK031
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -583,7 +583,7 @@ A = 임차권
 ================================================================================
 ID: EXP-05-150
 ORIGIN: RGK031
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -617,7 +617,7 @@ A = 임차권
 ================================================================================
 ID: EXP-05-151
 ORIGIN: RGK032
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -651,7 +651,7 @@ A = 순위번호
 ================================================================================
 ID: EXP-05-152
 ORIGIN: RGK032
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -685,7 +685,7 @@ A = 순위번호
 ================================================================================
 ID: EXP-05-153
 ORIGIN: RGK033
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -719,7 +719,7 @@ A = 접수번호
 ================================================================================
 ID: EXP-05-154
 ORIGIN: RGK033
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -753,7 +753,7 @@ A = 접수번호
 ================================================================================
 ID: EXP-05-155
 ORIGIN: RGK034
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -787,7 +787,7 @@ A = 주등기
 ================================================================================
 ID: EXP-05-156
 ORIGIN: RGK034
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -821,7 +821,7 @@ A = 등기 순서
 ================================================================================
 ID: EXP-05-157
 ORIGIN: RGK035
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -855,7 +855,7 @@ A = 전산정보처리조직
 ================================================================================
 ID: EXP-05-158
 ORIGIN: RGK035
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -889,7 +889,7 @@ A = 전산정보처리조직
 ================================================================================
 ID: EXP-05-159
 ORIGIN: RGK036
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -923,7 +923,7 @@ A = 등기의무자
 ================================================================================
 ID: EXP-05-160
 ORIGIN: RGK036
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -957,7 +957,7 @@ A = 공동
 ================================================================================
 ID: EXP-05-161
 ORIGIN: RGK037
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -991,7 +991,7 @@ A = 단독
 ================================================================================
 ID: EXP-05-162
 ORIGIN: RGK037
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -1025,7 +1025,7 @@ A = 상속
 ================================================================================
 ID: EXP-05-163
 ORIGIN: RGK038
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -1059,7 +1059,7 @@ A = 등기의무자
 ================================================================================
 ID: EXP-05-164
 ORIGIN: RGK038
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
