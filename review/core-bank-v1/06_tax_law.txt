@@ -9,7 +9,7 @@ LAW_BASIS_DATE: 2026-10-07
 SOURCE_NOTE: 조세총론·취득세·등록면허세·재산세·종합부동산세·양도소득세의 현행법 검증 핵심만 유지. 과거 요약자료의 오래된 종부세 금액·비율은 사용하지 않음.
 AUDIT_DATE: 2026-10-07
 AUDIT_STATUS: approved
-AUDIT_NOTE: 정답 인덱스·선택지·해설을 전수 점검하고 2026-10-07 현재 시행 법령을 기준으로 수치·기한·요건을 재확인. TXK054의 양도차익 표현을 필요경비 구조에 맞게 교정.
+AUDIT_NOTE: 정답·4개 선택지·해설·단일정답성 및 2026년 지방세·종부세·소득세 기준을 2차 전수감사. TXK001·TXK026 교정과 기존 TXK054 교정을 재확인.
 
 # 이 TXT가 일반 핵심개념 문제은행의 Source of Truth이다.
 # word-quiz/data/*.js 는 tools/core-bank/compile.cjs 로 생성한다.
