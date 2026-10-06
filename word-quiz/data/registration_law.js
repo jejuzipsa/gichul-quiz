@@ -1468,7 +1468,7 @@ window.WORD_QUIZ_BANK = {
       "reviewedAt": "2026-09-02"
     }
   ],
-  "auditDate": "2026-10-06",
+  "auditDate": "2026-10-07",
   "auditStatus": "approved",
-  "auditNote": "정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인."
+  "auditNote": "정답·4개 선택지·해설·단일정답성 및 현행 지적·부동산등기 규정을 2차 전수감사. RGK028·RGK030·RGK046·RGK052 교정 반영."
 };
