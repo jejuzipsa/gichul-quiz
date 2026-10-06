@@ -448,7 +448,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "취소권은 추인할 수 있는 날부터 {{blank:A}}} 내, 법률행위를 한 날부터 {{blank:B}}} 내에 행사하여야 한다.",
+      "prompt": "취소권은 추인할 수 있는 날부터 {{blank:A}} 내, 법률행위를 한 날부터 {{blank:B}} 내에 행사하여야 한다.",
       "answer": "3년 / 10년",
       "choices": [
         "20년 / 2년",
@@ -1593,7 +1593,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민사특별법",
-      "prompt": "상가건물 임차인은 건물의 {{blank:A}}}와 {{blank:B}}} 신청을 갖추면 그 다음 날부터 제3자에 대한 대항력이 생긴다.",
+      "prompt": "상가건물 임차인은 건물의 {{blank:A}}와 {{blank:B}} 신청을 갖추면 그 다음 날부터 제3자에 대한 대항력이 생긴다.",
       "answer": "인도 / 사업자등록",
       "choices": [
         "인도 / 사업자등록",
@@ -1634,7 +1634,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민사특별법",
-      "prompt": "상가건물 임차인의 우선변제권은 {{blank:A}}}과 {{blank:B}}}를 갖추어야 한다.",
+      "prompt": "상가건물 임차인의 우선변제권은 {{blank:A}}과 {{blank:B}}를 갖추어야 한다.",
       "answer": "대항요건 / 확정일자",
       "choices": [
         "대항요건 / 확정일자",
@@ -1790,7 +1790,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "반사회질서의 법률행위가 문제되는 기준은 {{blank:A}}}과 {{blank:B}}}이다.",
+      "prompt": "반사회질서의 법률행위가 문제되는 기준은 {{blank:A}}과 {{blank:B}}이다.",
       "answer": "선량한 풍속 / 사회질서",
       "choices": [
         "신의칙 / 거래안전",
@@ -1831,7 +1831,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "불공정한 법률행위의 주관적 요건은 {{blank:A}}}·{{blank:B}}} 또는 {{blank:C}}}이다.",
+      "prompt": "불공정한 법률행위의 주관적 요건은 {{blank:A}}·{{blank:B}} 또는 {{blank:C}}이다.",
       "answer": "궁박 / 경솔 / 무경험",
       "choices": [
         "궁박 / 경솔 / 무경험",
@@ -2152,7 +2152,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "하자 있는 의사표시의 대표적인 원인은 {{blank:A}}}와 {{blank:B}}}이다.",
+      "prompt": "하자 있는 의사표시의 대표적인 원인은 {{blank:A}}와 {{blank:B}}이다.",
       "answer": "사기 / 강박",
       "choices": [
         "착오 / 과실",
@@ -2515,7 +2515,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "권한이 정해지지 않은 대리인은 목적물의 성질을 바꾸지 않는 범위에서 {{blank:A}}}·{{blank:B}}}행위를 할 수 있다.",
+      "prompt": "권한이 정해지지 않은 대리인은 목적물의 성질을 바꾸지 않는 범위에서 {{blank:A}}·{{blank:B}}행위를 할 수 있다.",
       "answer": "이용 / 개량",
       "choices": [
         "처분 / 변경",
@@ -3177,7 +3177,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "취소권의 두 소멸기간은 추인할 수 있는 날부터 {{blank:A}}}, 법률행위를 한 날부터 {{blank:B}}}이다.",
+      "prompt": "취소권의 두 소멸기간은 추인할 수 있는 날부터 {{blank:A}}, 법률행위를 한 날부터 {{blank:B}}이다.",
       "answer": "3년 / 10년",
       "choices": [
         "10년 / 20년",
@@ -3218,7 +3218,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "물권법",
-      "prompt": "물권은 {{blank:A}}} 또는 {{blank:B}}}에 의하지 않고는 임의로 창설하지 못한다.",
+      "prompt": "물권은 {{blank:A}} 또는 {{blank:B}}에 의하지 않고는 임의로 창설하지 못한다.",
       "answer": "법률 / 관습법",
       "choices": [
         "법률 / 관습법",
@@ -3535,7 +3535,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "물권법",
-      "prompt": "점유자는 선의·{{blank:A}}}·{{blank:B}}}하게 점유한 것으로 추정된다.",
+      "prompt": "점유자는 선의·{{blank:A}}·{{blank:B}}하게 점유한 것으로 추정된다.",
       "answer": "평온 / 공연",
       "choices": [
         "평온 / 공연",
@@ -3622,7 +3622,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "물권법",
-      "prompt": "점유취득시효는 소유의 의사로 {{blank:A}}}·{{blank:B}}}하게 점유해야 한다.",
+      "prompt": "점유취득시효는 소유의 의사로 {{blank:A}}·{{blank:B}}하게 점유해야 한다.",
       "answer": "평온 / 공연",
       "choices": [
         "평온 / 공연",
@@ -4123,7 +4123,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "물권법",
-      "prompt": "전세권자는 목적부동산을 용도에 따라 {{blank:A}}}·{{blank:B}}}할 수 있다.",
+      "prompt": "전세권자는 목적부동산을 용도에 따라 {{blank:A}}·{{blank:B}}할 수 있다.",
       "answer": "사용 / 수익",
       "choices": [
         "추인 / 최고",
@@ -5222,7 +5222,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "계약법",
-      "prompt": "임대차에서 임대인은 상대방에게 목적물을 {{blank:A}}}·{{blank:B}}}하게 한다.",
+      "prompt": "임대차에서 임대인은 상대방에게 목적물을 {{blank:A}}·{{blank:B}}하게 한다.",
       "answer": "사용 / 수익",
       "choices": [
         "사용 / 수익",
@@ -5332,7 +5332,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "계약법",
-      "prompt": "임대인이 유지해야 하는 상태는 임차인의 {{blank:A}}}·{{blank:B}}}에 필요한 상태이다.",
+      "prompt": "임대인이 유지해야 하는 상태는 임차인의 {{blank:A}}·{{blank:B}}에 필요한 상태이다.",
       "answer": "사용 / 수익",
       "choices": [
         "처분 / 사용",
@@ -5534,7 +5534,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "주택임대차",
-      "prompt": "주택임차인의 대항요건은 주택의 {{blank:A}}}와 {{blank:B}}}이다.",
+      "prompt": "주택임차인의 대항요건은 주택의 {{blank:A}}와 {{blank:B}}이다.",
       "answer": "인도 / 주민등록",
       "choices": [
         "인도 / 확정일자",
@@ -5690,7 +5690,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "주택임대차",
-      "prompt": "주택임차인의 우선변제권 요건은 {{blank:A}}}과 {{blank:B}}}이다.",
+      "prompt": "주택임차인의 우선변제권 요건은 {{blank:A}}과 {{blank:B}}이다.",
       "answer": "대항요건 / 확정일자",
       "choices": [
         "대항요건 / 확정일자",
@@ -6375,7 +6375,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "물권법",
-      "prompt": "저당권 설정 당시 토지·건물은 {{blank:A}}}, 경매 후에는 {{blank:B}}} 소유자에게 귀속되는 경우 법정지상권이 문제된다.",
+      "prompt": "저당권 설정 당시 토지·건물은 {{blank:A}}, 경매 후에는 {{blank:B}} 소유자에게 귀속되는 경우 법정지상권이 문제된다.",
       "answer": "동일인 소유 / 서로 다른",
       "choices": [
         "서로 다른 소유 / 동일인",
@@ -6692,7 +6692,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민사특별법",
-      "prompt": "상가건물 임차인의 대항요건은 건물의 {{blank:A}}}와 {{blank:B}}} 신청이다.",
+      "prompt": "상가건물 임차인의 대항요건은 건물의 {{blank:A}}와 {{blank:B}} 신청이다.",
       "answer": "인도 / 사업자등록",
       "choices": [
         "등기 / 확정일자",
@@ -6779,7 +6779,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민사특별법",
-      "prompt": "상가건물 임차인의 우선변제권 요건은 {{blank:A}}}과 {{blank:B}}}이다.",
+      "prompt": "상가건물 임차인의 우선변제권 요건은 {{blank:A}}과 {{blank:B}}이다.",
       "answer": "대항요건 / 확정일자",
       "choices": [
         "등기 / 차임지급",
