@@ -72,3 +72,13 @@ STATUS와 EXPAND를 분리한 이유
 - 최종 파일: 02_civil_law_final.txt
 - 검수 보고서: 02_civil_law_review_report.txt
 - 아직 사이트 런타임에는 반영하지 않음
+
+공인중개사법령 및 중개실무 최종 완료
+- seed 60개 검수 완료
+- 추가 240개 생성·검수 완료
+- 최종 300개 통합검수 완료
+- 정확 중복 0, 구조 오류 0
+- 2026-10-06 현행 법령 재확인
+- 최종 파일: 03_brokerage_law_final.txt
+- 검수 보고서: 03_brokerage_law_review_report.txt
+- 아직 사이트 런타임에는 반영하지 않음
