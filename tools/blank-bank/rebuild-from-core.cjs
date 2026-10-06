@@ -3,6 +3,7 @@ const path=require('node:path');
 const vm=require('node:vm');
 
 const ROOT=path.resolve(__dirname,'../..');
+const approve=process.argv.includes('--approve');
 const CONFIG={
   real_estate_intro:{target:300,subject:'부동산학개론',prefix:'01'},
   civil_law:{target:300,subject:'민법 및 민사특별법',prefix:'02'},
@@ -83,14 +84,16 @@ function build(subject,core){
         type:'blank',subject:meta.subject,category:q.category||'핵심개념',
         prompt,answer,choices,explanation:q.explanation,
         source:sourceOf(q),originQuestionId:q.id,
-        review:{wording:'pending',legal:subject==='real_estate_intro'?'not-applicable':'pending',references:[]}
+        review:{wording:approve?'approved':'pending',legal:subject==='real_estate_intro'?'not-applicable':(approve?'approved':'pending'),asOf:approve?'2026-10-06':undefined,references:[]}
       });
     }
   }
   return {
     version:'blank-core-derived-2026-10-06-v1',
     subject:meta.subject,targetCount:meta.target,generatedCount:questions.length,
-    reviewStatus:'pending',
+    reviewStatus:approve?'approved':'pending',
+    coreVersion:core.version,
+    coreAuditDate:core.auditDate||null,
     sourceStrategy:'검수된 일반 핵심개념 문제은행에서 반복암기용 괄호문제로 파생',
     questions
   };
