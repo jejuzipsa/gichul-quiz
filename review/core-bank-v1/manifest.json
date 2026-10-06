@@ -1,0 +1,45 @@
+{
+  "version": "core-bank-v1",
+  "sourceOfTruth": "review/core-bank-v1/*.txt",
+  "generatedOutput": "word-quiz/data/*.js",
+  "subjects": {
+    "real_estate_intro": {
+      "file": "01_real_estate_intro.txt",
+      "idPrefix": "REK",
+      "label": "부동산학개론",
+      "baselineCount": 156
+    },
+    "civil_law": {
+      "file": "02_civil_law.txt",
+      "idPrefix": "CVK",
+      "label": "민법 및 민사특별법",
+      "baselineCount": 73
+    },
+    "brokerage_law": {
+      "file": "03_brokerage_law.txt",
+      "idPrefix": "BRK",
+      "label": "공인중개사법령 및 중개실무",
+      "baselineCount": 60
+    },
+    "public_law": {
+      "file": "04_public_law.txt",
+      "idPrefix": "PLK",
+      "label": "부동산공법",
+      "baselineCount": 70
+    },
+    "registration_law": {
+      "file": "05_registration_law.txt",
+      "idPrefix": "RGK",
+      "label": "부동산공시법",
+      "baselineCount": 66
+    },
+    "tax_law": {
+      "file": "06_tax_law.txt",
+      "idPrefix": "TXK",
+      "label": "부동산세법",
+      "baselineCount": 60
+    }
+  },
+  "baselineTotal": 485,
+  "rule": "문항 추가는 TXT 블록을 추가하고 tools/core-bank/build.cjs로 JS 미러를 재생성한다. 기존 baselineCount 미만으로 줄어드는 삭제는 manifest 수정 없이는 검증 실패한다."
+}
