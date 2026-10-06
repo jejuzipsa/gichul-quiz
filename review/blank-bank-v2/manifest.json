@@ -2,7 +2,7 @@
   "formatVersion": "blank-review-v2-seed-1",
   "sourceBranch": "main",
   "createdFromVersion": "1.52",
-  "status": "PENDING_REVIEW",
+  "status": "FULL_STRUCTURAL_AUDIT_PASSED",
   "runtimeChanged": false,
   "subjects": {
     "real_estate_intro": {
@@ -142,5 +142,28 @@
         ]
       }
     }
+  },
+  "totalFinalCount": 1600,
+  "finalAudit": {
+    "date": "2026-10-07",
+    "total": 1600,
+    "subjectCounts": {
+      "real_estate_intro": 300,
+      "civil_law": 300,
+      "brokerage_law": 300,
+      "public_law": 300,
+      "registration_law": 220,
+      "tax_law": 180
+    },
+    "structuralValidation": "passed",
+    "exactDuplicatePrompts": 0,
+    "crossSubjectHighSimilarityPairs": 0,
+    "longChoicesOver55": 0,
+    "longAnswersOver35": 0,
+    "longPromptsOver150": 0,
+    "pendingCoreFix": [
+      "TXK054"
+    ],
+    "reportFile": "review/blank-bank-v2/FINAL_AUDIT_REPORT.txt"
   }
 }
