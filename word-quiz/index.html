@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f5f7fb" />
   <title>핵심 개념 퀴즈</title>
   <link rel="stylesheet" href="quiz.css?v=1.7" />
-  <link rel="stylesheet" href="blank-quiz.css?v=1.1" />
+  <link rel="stylesheet" href="blank-quiz.css?v=1.2" />
 </head>
 <body>
   <main class="quiz-shell">
@@ -52,14 +52,14 @@
     };
 
     if(mode==='blank'){
-      load(`blank-data/${file}?v=20261006-audit-v1`,()=>{
-        load('blank-bank-validator.js?v=20261006-audit-v1',()=>{
+      load(`blank-data/${file}?v=20261007-blank-v2`,()=>{
+        load('blank-bank-validator.js?v=20261007-blank-v2',()=>{
           if(!window.validateBlankBank(window.BLANK_QUIZ_BANK,key)) return fail('괄호문제');
-          load('blank-quiz.js?v=20261006-audit-v1',null,()=>fail('괄호문제'));
+          load('blank-quiz.js?v=20261007-blank-v2',null,()=>fail('괄호문제'));
         },()=>fail('괄호문제'));
       },()=>fail('괄호문제'));
     }else{
-      load(`data/${file}?v=20261006-core-v2`,()=>{
+      load(`data/${file}?v=20261007-core-v3`,()=>{
         load('quiz.js?v=1.7',null,()=>fail('문제'));
       },()=>fail('문제'));
     }

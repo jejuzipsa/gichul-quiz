@@ -142,22 +142,37 @@
   function renderPrompt(q) {
     els.questionText.textContent = '';
     const raw = String(q.prompt || '');
-    const marker = '{{blank}}';
-    const markerIndex = raw.indexOf(marker);
-    if (markerIndex < 0) {
+    const markerRe = /\{\{blank(?::([A-Z]))?\}\}/g;
+    const matches = [...raw.matchAll(markerRe)];
+    if (!matches.length) {
       els.questionText.textContent = raw;
       return;
     }
-    els.questionText.appendChild(document.createTextNode(raw.slice(0, markerIndex)));
-    els.questionText.appendChild(document.createTextNode('('));
-    const slot = document.createElement('span');
-    slot.id = 'blankSlot';
-    slot.className = 'blank-slot';
-    slot.textContent = '빈칸';
-    slot.setAttribute('aria-label', '정답을 넣을 빈칸');
-    els.questionText.appendChild(slot);
-    els.questionText.appendChild(document.createTextNode(')'));
-    els.questionText.appendChild(document.createTextNode(raw.slice(markerIndex + marker.length)));
+
+    let cursor = 0;
+    matches.forEach((match, idx) => {
+      const key = match[1] || String.fromCharCode(65 + idx);
+      els.questionText.appendChild(document.createTextNode(raw.slice(cursor, match.index)));
+      els.questionText.appendChild(document.createTextNode('('));
+      const slot = document.createElement('span');
+      slot.className = 'blank-slot';
+      slot.dataset.blankKey = key;
+      slot.textContent = matches.length > 1 ? key : '빈칸';
+      slot.setAttribute('aria-label', matches.length > 1 ? `${key} 빈칸` : '정답을 넣을 빈칸');
+      els.questionText.appendChild(slot);
+      els.questionText.appendChild(document.createTextNode(')'));
+      cursor = match.index + match[0].length;
+    });
+    els.questionText.appendChild(document.createTextNode(raw.slice(cursor)));
+  }
+
+  function fillBlankSlots(q, selectedLabel, isCorrect) {
+    const mapped = q.blankValues?.[selectedLabel] || { A: selectedLabel };
+    els.questionText.querySelectorAll('.blank-slot[data-blank-key]').forEach(slot => {
+      const key = slot.dataset.blankKey;
+      slot.textContent = mapped[key] || selectedLabel;
+      slot.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
+    });
   }
 
   function renderQuestion() {
@@ -211,11 +226,7 @@
       else btn.classList.add('dimmed');
     });
 
-    const blankSlot = document.getElementById('blankSlot');
-    if (blankSlot) {
-      blankSlot.textContent = selected.label;
-      blankSlot.classList.add(selected.correct ? 'is-correct' : 'is-wrong');
-    }
+    fillBlankSlots(q, selected.label, selected.correct);
 
     if (state.phase === 'main') {
       state.firstAnswers.push({ question: q, selected: selected.label, correct: selected.correct, correctLabel: q.answer });

@@ -5,6 +5,40 @@ const vm = require('node:vm');
 const ROOT = path.resolve(__dirname, '../..');
 const TARGETS = {real_estate_intro:300,civil_law:300,brokerage_law:300,public_law:300,registration_law:220,tax_law:180};
 const norm = s => String(s ?? '').normalize('NFKC').replace(/\s/g, '');
+const markerRe = /\{\{blank(?::([A-Z]))?\}\}/g;
+function markerKeys(prompt) {
+  const matches=[...String(prompt??'').matchAll(markerRe)];
+  if(matches.length===1 && !matches[0][1]) return ['A'];
+  return matches.map(m=>m[1]||'');
+}
+function validateBlankShape(q, fail) {
+  const keys=markerKeys(q.prompt);
+  if(keys.length<1||keys.length>3) { fail(`${q.id}: blank count`); return; }
+  if(keys.length>1 && (keys.some(k=>!k)||new Set(keys).size!==keys.length||keys.join('')!=='ABC'.slice(0,keys.length))) {
+    fail(`${q.id}: invalid named blanks`); return;
+  }
+  if(String(q.prompt).length>150) fail(`${q.id}: prompt too long`);
+  if((q.choices||[]).some(x=>String(x).length>55)) fail(`${q.id}: choice too long`);
+  if(keys.length===1) {
+    if(q.blankValues!=null) fail(`${q.id}: unexpected blankValues`);
+    if(String(q.answer||'').length>35) fail(`${q.id}: blank answer too long`);
+    return;
+  }
+  if(!q.blankValues||typeof q.blankValues!=='object'||Array.isArray(q.blankValues)) { fail(`${q.id}: missing blankValues`); return; }
+  for(const choice of q.choices||[]) {
+    const values=q.blankValues[choice];
+    if(!values||typeof values!=='object') { fail(`${q.id}: blankValues missing choice`); continue; }
+    const parts=[];
+    for(const key of keys) {
+      const value=values[key];
+      if(typeof value!=='string'||!value.trim()) fail(`${q.id}: empty blankValues ${key}`);
+      if(String(value||'').length>35) fail(`${q.id}: blank value too long ${key}`);
+      parts.push(value);
+    }
+    if(Object.keys(values).sort().join('')!==keys.slice().sort().join('')) fail(`${q.id}: blankValues keys mismatch`);
+    if(parts.join(' / ')!==choice) fail(`${q.id}: blankValues do not match choice`);
+  }
+}
 
 function readBank(subject) {
   return JSON.parse(fs.readFileSync(path.join(ROOT,'review/blank-bank',subject+'.json'),'utf8'));
@@ -31,7 +65,7 @@ function validate(bank, subject, release=false) {
       if(typeof q[key]!=='string'||!q[key].trim()) fail(`${q.id}: empty ${key}`);
     }
     if(q.type!=='blank') fail(`${q.id}: invalid type`);
-    if((String(q.prompt).match(/\{\{blank\}\}/g)||[]).length!==1) fail(`${q.id}: blank count`);
+    validateBlankShape(q,fail);
     for(const [set,value,label] of [[ids,q.id,'ID'],[prompts,norm(q.prompt),'prompt']]) {
       if(set.has(value)) fail(`${q.id}: duplicate ${label}`);
       set.add(value);

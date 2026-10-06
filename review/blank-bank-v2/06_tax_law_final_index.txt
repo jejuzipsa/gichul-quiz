@@ -1,0 +1,22 @@
+부동산세법 괄호문제 V2 최종 인덱스
+
+STATUS: FINAL_REVIEW_COMPLETE
+TOTAL: 180
+RUNTIME_APPLIED: NO
+LEGAL_CHECKPOINT: 2026-10-07
+
+최종 문제은행 구성
+- review/blank-bank-v2/06_tax_law.txt : seed 60문제
+- review/blank-bank-v2/06_tax_law_expansion_part1.txt : 추가 40문제 (TXK001~TXK020)
+- review/blank-bank-v2/06_tax_law_expansion_part2.txt : 추가 40문제 (TXK021~TXK040)
+- review/blank-bank-v2/06_tax_law_expansion_part3.txt : 추가 40문제 (TXK041~TXK060)
+
+합계
+- seed 60 + expansion 120 = 180문제
+- ORIGIN 60개, 각 ORIGIN당 총 3문제
+- 모든 문항 STATUS: APPROVED
+- 사이트 런타임에는 아직 반영하지 않음
+
+비고
+- 단일 06_tax_law_final.txt 대신 위 4개 검수완료 파일을 논리적 최종은행으로 사용한다.
+- 사이트 반영 단계의 컴파일러는 위 4개 파일을 순서대로 읽어 180문제로 결합한다.

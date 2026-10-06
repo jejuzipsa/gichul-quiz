@@ -3,14 +3,20 @@ const fs=require('node:fs');
 const path=require('node:path');
 const vm=require('node:vm');
 const {TARGETS,ROOT,validate,readBank}=require('./validate.cjs');
+const {compileSubject}=require('./compile-v2.cjs');
 
 const ctx={window:{}};
 vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(ROOT,'word-quiz/blank-bank-validator.js'),'utf8'),ctx);
 
 let checks=0;
+let multiCount=0;
 for(const subject of Object.keys(TARGETS)) {
   const bank=readBank(subject);
+
+  // Checked-in runtime data must be exactly reproducible from the reviewed V2 TXT source.
+  assert.deepEqual(bank,compileSubject(subject));
+  checks+=1;
 
   // Current reviewed banks must pass both structure and release validation.
   assert.deepEqual(validate(bank,subject),[]);
@@ -46,16 +52,36 @@ for(const subject of Object.keys(TARGETS)) {
     const broken=structuredClone(bank);
     mutate(broken);
     assert.ok(validate(broken,subject).length);
-    if(!validate(broken,subject).length) throw new Error('Broken bank unexpectedly passed: '+subject);
     checks+=1;
   }
+
+  const multiIndex=bank.questions.findIndex(q=>q.blankValues);
+  if(multiIndex>=0){
+    multiCount++;
+    const broken=structuredClone(bank);
+    const q=broken.questions[multiIndex];
+    const firstChoice=q.choices[0];
+    const firstKey=Object.keys(q.blankValues[firstChoice])[0];
+    delete q.blankValues[firstChoice][firstKey];
+    assert.ok(validate(broken,subject).length);
+    assert.equal(ctx.window.validateBlankBank(broken,subject),false);
+    checks+=2;
+  }
 }
+
+assert.ok(multiCount>0,'At least one reviewed bank must exercise multi-blank rendering data');
+checks+=1;
 
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
-assert.ok(html.includes('20261006-core-v2'));
-assert.ok(html.includes('20261006-audit-v1'));
+assert.ok(html.includes('20261007-core-v3'));
+assert.ok(html.includes('20261007-blank-v2'));
 checks+=4;
 
-console.log(`${checks} checks passed (all six subjects; release approval, corruption, core drift, no runtime PDF generation).`);
+const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
+assert.ok(quizJs.includes('blankValues'));
+assert.ok(quizJs.includes('data-blank-key')||quizJs.includes('dataset.blankKey'));
+checks+=2;
+
+console.log(`${checks} checks passed (V2 TXT reproducibility, all six subjects, multi-blank data, release approval, corruption, core drift).`);

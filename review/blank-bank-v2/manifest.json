@@ -1,0 +1,184 @@
+{
+  "formatVersion": "blank-review-v2-seed-1",
+  "sourceBranch": "main",
+  "createdFromVersion": "1.52",
+  "status": "CI_PASSED_PENDING_BROWSER_TEST",
+  "runtimeChanged": true,
+  "subjects": {
+    "real_estate_intro": {
+      "label": "부동산학개론",
+      "seedCount": 156,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 156,
+        "expansionGenerated": 144,
+        "expansionReviewed": 144,
+        "finalCount": 300,
+        "approved": 300,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 14,
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/01_real_estate_intro_final.txt",
+        "reportFile": "review/blank-bank-v2/01_real_estate_intro_review_report.txt"
+      }
+    },
+    "civil_law": {
+      "label": "민법 및 민사특별법",
+      "seedCount": 73,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 73,
+        "seedWordingEdited": 2,
+        "expansionGenerated": 227,
+        "expansionReviewed": 227,
+        "finalCount": 300,
+        "approved": 300,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 1,
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/02_civil_law_final.txt",
+        "reportFile": "review/blank-bank-v2/02_civil_law_review_report.txt"
+      }
+    },
+    "brokerage_law": {
+      "label": "공인중개사법령 및 중개실무",
+      "seedCount": 60,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 60,
+        "expansionGenerated": 240,
+        "expansionReviewed": 240,
+        "finalCount": 300,
+        "approved": 300,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/03_brokerage_law_final.txt"
+      }
+    },
+    "public_law": {
+      "label": "부동산공법",
+      "seedCount": 70,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 70,
+        "expansionGenerated": 230,
+        "expansionReviewed": 230,
+        "finalCount": 300,
+        "approved": 300,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 0,
+        "legalCheckpoint": "2026-10-06",
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/04_public_law_final.txt",
+        "reportFile": "review/blank-bank-v2/04_public_law_review_report.txt"
+      }
+    },
+    "registration_law": {
+      "label": "부동산공시법",
+      "seedCount": 66,
+      "sourceCoreVersion": "core-2026-10-06-audited-v2",
+      "sourceAuditDate": "2026-10-06",
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 66,
+        "expansionGenerated": 154,
+        "expansionReviewed": 154,
+        "finalCount": 220,
+        "approved": 220,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "highSimilarityPairsRetained": 3,
+        "legalCheckpoint": "2026-10-07",
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/05_registration_law_final.txt",
+        "reportFile": "review/blank-bank-v2/05_registration_law_review_report.txt"
+      }
+    },
+    "tax_law": {
+      "label": "부동산세법",
+      "seedCount": 60,
+      "sourceCoreVersion": "core-2026-10-07-audited-v3",
+      "sourceAuditDate": "2026-10-07",
+      "sourceAuditStatus": "approved",
+      "review": {
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 60,
+        "expansionGenerated": 120,
+        "expansionReviewed": 120,
+        "finalCount": 180,
+        "approved": 180,
+        "structuralValidation": "passed",
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 0,
+        "legalCheckpoint": "2026-10-07",
+        "runtimeChanged": false,
+        "finalIndex": "review/blank-bank-v2/06_tax_law_final_index.txt",
+        "finalFiles": [
+          "review/blank-bank-v2/06_tax_law.txt",
+          "review/blank-bank-v2/06_tax_law_expansion_part1.txt",
+          "review/blank-bank-v2/06_tax_law_expansion_part2.txt",
+          "review/blank-bank-v2/06_tax_law_expansion_part3.txt"
+        ],
+        "reportFile": "review/blank-bank-v2/06_tax_law_review_report.txt"
+      }
+    }
+  },
+  "totalFinalCount": 1600,
+  "finalAudit": {
+    "date": "2026-10-07",
+    "total": 1600,
+    "subjectCounts": {
+      "real_estate_intro": 300,
+      "civil_law": 300,
+      "brokerage_law": 300,
+      "public_law": 300,
+      "registration_law": 220,
+      "tax_law": 180
+    },
+    "structuralValidation": "passed",
+    "exactDuplicatePrompts": 0,
+    "crossSubjectHighSimilarityPairs": 0,
+    "longChoicesOver55": 0,
+    "longAnswersOver35": 0,
+    "longPromptsOver150": 0,
+    "reportFile": "review/blank-bank-v2/FINAL_AUDIT_REPORT.txt"
+  },
+  "runtimeIntegration": {
+    "version": "1.53",
+    "compiledAt": "2026-10-07",
+    "compiler": "tools/blank-bank/compile-v2.cjs",
+    "sourceOfTruth": "review/blank-bank-v2/*.txt",
+    "compiledReviewData": "review/blank-bank/*.json",
+    "compiledStaticData": "word-quiz/blank-data/*.js",
+    "multiBlankQuestions": 94,
+    "uiSupport": "single blank + named A/B/C multi blank",
+    "validatorSupport": "1-3 blanks with choice-to-blank mapping",
+    "status": "CI_PASSED_PENDING_BROWSER_TEST",
+    "ci": {
+      "workflow": "Blank bank review",
+      "run": 21,
+      "result": "passed",
+      "compileCheck": "1600/1600 errors 0",
+      "structureValidation": "1600/1600 errors 0",
+      "releaseValidation": "1600/1600 errors 0",
+      "automatedChecks": 109
+    }
+  }
+}

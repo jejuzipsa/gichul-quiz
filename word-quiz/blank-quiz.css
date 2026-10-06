@@ -18,6 +18,9 @@
   font-weight:900;
   line-height:1.25;
   vertical-align:.08em;
+  max-width:100%;
+  white-space:normal;
+  overflow-wrap:anywhere;
   transition:.15s ease;
 }
 .blank-slot.is-correct{
