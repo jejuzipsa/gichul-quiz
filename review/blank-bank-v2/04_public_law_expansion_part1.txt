@@ -1,11 +1,11 @@
 # 부동산공법 V2 추가문제 Part 1 (PLK001~PLK020)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-06
 
 ================================================================================
 ID: EXP-04-071
 ORIGIN: PLK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -39,7 +39,7 @@ A = 산업
 ================================================================================
 ID: EXP-04-072
 ORIGIN: PLK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -73,7 +73,7 @@ A = 보전
 ================================================================================
 ID: EXP-04-073
 ORIGIN: PLK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -107,7 +107,7 @@ A = 도시지역
 ================================================================================
 ID: EXP-04-074
 ORIGIN: PLK001
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -141,7 +141,7 @@ A = 체계적
 ================================================================================
 ID: EXP-04-075
 ORIGIN: PLK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -175,7 +175,7 @@ A = 수용
 ================================================================================
 ID: EXP-04-076
 ORIGIN: PLK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -209,7 +209,7 @@ A = 자연환경
 ================================================================================
 ID: EXP-04-077
 ORIGIN: PLK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -243,7 +243,7 @@ A = 관리지역
 ================================================================================
 ID: EXP-04-078
 ORIGIN: PLK002
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -277,7 +277,7 @@ A = 관리
 ================================================================================
 ID: EXP-04-079
 ORIGIN: PLK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -311,7 +311,7 @@ A = 농업진흥지역
 ================================================================================
 ID: EXP-04-080
 ORIGIN: PLK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -345,7 +345,7 @@ A = 보전산지
 ================================================================================
 ID: EXP-04-081
 ORIGIN: PLK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -379,7 +379,7 @@ A = 산림
 ================================================================================
 ID: EXP-04-082
 ORIGIN: PLK003
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -413,7 +413,7 @@ A = 농림지역
 ================================================================================
 ID: EXP-04-083
 ORIGIN: PLK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -447,7 +447,7 @@ A = 상수원
 ================================================================================
 ID: EXP-04-084
 ORIGIN: PLK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -481,7 +481,7 @@ A = 수산자원
 ================================================================================
 ID: EXP-04-085
 ORIGIN: PLK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -515,7 +515,7 @@ A = 자연환경보전지역
 ================================================================================
 ID: EXP-04-086
 ORIGIN: PLK004
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -549,7 +549,7 @@ A = 보전
 ================================================================================
 ID: EXP-04-087
 ORIGIN: PLK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -583,7 +583,7 @@ A = 녹지지역
 ================================================================================
 ID: EXP-04-088
 ORIGIN: PLK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -617,7 +617,7 @@ A = 상업지역
 ================================================================================
 ID: EXP-04-089
 ORIGIN: PLK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -651,7 +651,7 @@ A = 녹지지역
 ================================================================================
 ID: EXP-04-090
 ORIGIN: PLK005
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -685,7 +685,7 @@ A = 도시지역
 ================================================================================
 ID: EXP-04-091
 ORIGIN: PLK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -719,7 +719,7 @@ A = 계획관리지역
 ================================================================================
 ID: EXP-04-092
 ORIGIN: PLK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -753,7 +753,7 @@ A = 보전관리지역
 ================================================================================
 ID: EXP-04-093
 ORIGIN: PLK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -787,7 +787,7 @@ A = 생산관리지역
 ================================================================================
 ID: EXP-04-094
 ORIGIN: PLK006
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -821,7 +821,7 @@ A = 관리지역
 ================================================================================
 ID: EXP-04-095
 ORIGIN: PLK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -855,7 +855,7 @@ A = 교통
 ================================================================================
 ID: EXP-04-096
 ORIGIN: PLK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -889,7 +889,7 @@ A = 산업
 ================================================================================
 ID: EXP-04-097
 ORIGIN: PLK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -923,7 +923,7 @@ A = 도시·군관리계획
 ================================================================================
 ID: EXP-04-098
 ORIGIN: PLK007
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -957,7 +957,7 @@ A = 관리
 ================================================================================
 ID: EXP-04-099
 ORIGIN: PLK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -991,7 +991,7 @@ A = 건축
 ================================================================================
 ID: EXP-04-100
 ORIGIN: PLK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1025,7 +1025,7 @@ A = 설치
 ================================================================================
 ID: EXP-04-101
 ORIGIN: PLK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1059,7 +1059,7 @@ A = 개발행위허가
 ================================================================================
 ID: EXP-04-102
 ORIGIN: PLK008
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1093,7 +1093,7 @@ A = 개발행위
 ================================================================================
 ID: EXP-04-103
 ORIGIN: PLK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1127,7 +1127,7 @@ A = 대도시 시장
 ================================================================================
 ID: EXP-04-104
 ORIGIN: PLK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1161,7 +1161,7 @@ A = 시·도지사
 ================================================================================
 ID: EXP-04-105
 ORIGIN: PLK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1195,7 +1195,7 @@ A = 대도시 시장
 ================================================================================
 ID: EXP-04-106
 ORIGIN: PLK009
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1229,7 +1229,7 @@ A = 지방자치단체
 ================================================================================
 ID: EXP-04-107
 ORIGIN: PLK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1263,7 +1263,7 @@ A = 국토교통부장관
 ================================================================================
 ID: EXP-04-108
 ORIGIN: PLK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1297,7 +1297,7 @@ A = 국토교통부장관
 ================================================================================
 ID: EXP-04-109
 ORIGIN: PLK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1331,7 +1331,7 @@ A = 개발제한구역
 ================================================================================
 ID: EXP-04-110
 ORIGIN: PLK010
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -1365,7 +1365,7 @@ A = 국가
 ================================================================================
 ID: EXP-04-111
 ORIGIN: PLK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1399,7 +1399,7 @@ A = 도시개발구역
 ================================================================================
 ID: EXP-04-112
 ORIGIN: PLK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1433,7 +1433,7 @@ A = 시가지
 ================================================================================
 ID: EXP-04-113
 ORIGIN: PLK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1467,7 +1467,7 @@ A = 도시개발사업
 ================================================================================
 ID: EXP-04-114
 ORIGIN: PLK011
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1501,7 +1501,7 @@ A = 개발
 ================================================================================
 ID: EXP-04-115
 ORIGIN: PLK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1535,7 +1535,7 @@ A = 시행
 ================================================================================
 ID: EXP-04-116
 ORIGIN: PLK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1569,7 +1569,7 @@ A = 고시
 ================================================================================
 ID: EXP-04-117
 ORIGIN: PLK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1603,7 +1603,7 @@ A = 도시개발구역
 ================================================================================
 ID: EXP-04-118
 ORIGIN: PLK012
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1637,7 +1637,7 @@ A = 고시
 ================================================================================
 ID: EXP-04-119
 ORIGIN: PLK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1671,7 +1671,7 @@ A = 수용·사용
 ================================================================================
 ID: EXP-04-120
 ORIGIN: PLK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1705,7 +1705,7 @@ A = 환지
 ================================================================================
 ID: EXP-04-121
 ORIGIN: PLK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1739,7 +1739,7 @@ A = 혼용
 ================================================================================
 ID: EXP-04-122
 ORIGIN: PLK013
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1773,7 +1773,7 @@ A = 시행방식
 ================================================================================
 ID: EXP-04-123
 ORIGIN: PLK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1807,7 +1807,7 @@ A = 조합
 ================================================================================
 ID: EXP-04-124
 ORIGIN: PLK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1841,7 +1841,7 @@ A = 조합
 ================================================================================
 ID: EXP-04-125
 ORIGIN: PLK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1875,7 +1875,7 @@ A = 토지소유자
 ================================================================================
 ID: EXP-04-126
 ORIGIN: PLK014
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1909,7 +1909,7 @@ A = 환지방식
 ================================================================================
 ID: EXP-04-127
 ORIGIN: PLK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1943,7 +1943,7 @@ A = 토지소유자
 ================================================================================
 ID: EXP-04-128
 ORIGIN: PLK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -1977,7 +1977,7 @@ A = 환지
 ================================================================================
 ID: EXP-04-129
 ORIGIN: PLK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2011,7 +2011,7 @@ A = 도시개발조합
 ================================================================================
 ID: EXP-04-130
 ORIGIN: PLK015
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2045,7 +2045,7 @@ A = 시행
 ================================================================================
 ID: EXP-04-131
 ORIGIN: PLK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2079,7 +2079,7 @@ A = 도시지역
 ================================================================================
 ID: EXP-04-132
 ORIGIN: PLK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2113,7 +2113,7 @@ A = 결정
 ================================================================================
 ID: EXP-04-133
 ORIGIN: PLK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2147,7 +2147,7 @@ A = 의제
 ================================================================================
 ID: EXP-04-134
 ORIGIN: PLK016
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2181,7 +2181,7 @@ A = 범위
 ================================================================================
 ID: EXP-04-135
 ORIGIN: PLK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2215,7 +2215,7 @@ A = 권리관계
 ================================================================================
 ID: EXP-04-136
 ORIGIN: PLK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2249,7 +2249,7 @@ A = 토지
 ================================================================================
 ID: EXP-04-137
 ORIGIN: PLK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2283,7 +2283,7 @@ A = 환지
 ================================================================================
 ID: EXP-04-138
 ORIGIN: PLK017
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2317,7 +2317,7 @@ A = 이전
 ================================================================================
 ID: EXP-04-139
 ORIGIN: PLK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2351,7 +2351,7 @@ A = 사업비
 ================================================================================
 ID: EXP-04-140
 ORIGIN: PLK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2385,7 +2385,7 @@ A = 처분
 ================================================================================
 ID: EXP-04-141
 ORIGIN: PLK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2419,7 +2419,7 @@ A = 체비지
 ================================================================================
 ID: EXP-04-142
 ORIGIN: PLK018
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2453,7 +2453,7 @@ A = 시행자
 ================================================================================
 ID: EXP-04-143
 ORIGIN: PLK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2487,7 +2487,7 @@ A = 환지
 ================================================================================
 ID: EXP-04-144
 ORIGIN: PLK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2521,7 +2521,7 @@ A = 공공시설용지
 ================================================================================
 ID: EXP-04-145
 ORIGIN: PLK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2555,7 +2555,7 @@ A = 보류지
 ================================================================================
 ID: EXP-04-146
 ORIGIN: PLK019
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2589,7 +2589,7 @@ A = 체비지
 ================================================================================
 ID: EXP-04-147
 ORIGIN: PLK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2623,7 +2623,7 @@ A = 국가
 ================================================================================
 ID: EXP-04-148
 ORIGIN: PLK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2657,7 +2657,7 @@ A = 공공기관
 ================================================================================
 ID: EXP-04-149
 ORIGIN: PLK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
@@ -2691,7 +2691,7 @@ A = 시행자
 ================================================================================
 ID: EXP-04-150
 ORIGIN: PLK020
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 도시개발법
 
