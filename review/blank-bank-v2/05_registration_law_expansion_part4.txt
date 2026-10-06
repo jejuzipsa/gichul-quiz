@@ -1,11 +1,11 @@
 # 부동산공시법 V2 추가문제 Part 4 (RGK055~RGK066)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-07
 
 ================================================================================
 ID: EXP-05-197
 ORIGIN: RGK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -39,7 +39,7 @@ A = 5개
 ================================================================================
 ID: EXP-05-198
 ORIGIN: RGK055
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -73,7 +73,7 @@ A = 개수
 ================================================================================
 ID: EXP-05-199
 ORIGIN: RGK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -107,7 +107,7 @@ A = 일부
 ================================================================================
 ID: EXP-05-200
 ORIGIN: RGK056
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -141,7 +141,7 @@ A = 일부
 ================================================================================
 ID: EXP-05-201
 ORIGIN: RGK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -175,7 +175,7 @@ A = 임차권
 ================================================================================
 ID: EXP-05-202
 ORIGIN: RGK057
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -209,7 +209,7 @@ A = 임차권
 ================================================================================
 ID: EXP-05-203
 ORIGIN: RGK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -243,7 +243,7 @@ A = 등기
 ================================================================================
 ID: EXP-05-204
 ORIGIN: RGK058
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -277,7 +277,7 @@ A = 전세권
 ================================================================================
 ID: EXP-05-205
 ORIGIN: RGK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -311,7 +311,7 @@ A = 직권
 ================================================================================
 ID: EXP-05-206
 ORIGIN: RGK059
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -345,7 +345,7 @@ A = 지역권
 ================================================================================
 ID: EXP-05-207
 ORIGIN: RGK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -379,7 +379,7 @@ A = 범위
 ================================================================================
 ID: EXP-05-208
 ORIGIN: RGK060
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 부동산등기
 
@@ -413,7 +413,7 @@ A = 지상권
 ================================================================================
 ID: EXP-05-209
 ORIGIN: RGK061
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -447,7 +447,7 @@ A = 국가
 ================================================================================
 ID: EXP-05-210
 ORIGIN: RGK061
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -481,7 +481,7 @@ A = 지적국정주의
 ================================================================================
 ID: EXP-05-211
 ORIGIN: RGK062
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -515,7 +515,7 @@ A = 지적공부
 ================================================================================
 ID: EXP-05-212
 ORIGIN: RGK062
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -549,7 +549,7 @@ A = 지적형식주의
 ================================================================================
 ID: EXP-05-213
 ORIGIN: RGK063
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -583,7 +583,7 @@ A = 일반 국민
 ================================================================================
 ID: EXP-05-214
 ORIGIN: RGK063
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -617,7 +617,7 @@ A = 지적공개주의
 ================================================================================
 ID: EXP-05-215
 ORIGIN: RGK064
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -651,7 +651,7 @@ A = 사실관계
 ================================================================================
 ID: EXP-05-216
 ORIGIN: RGK064
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -685,7 +685,7 @@ A = 실질적심사주의
 ================================================================================
 ID: EXP-05-217
 ORIGIN: RGK065
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -719,7 +719,7 @@ A = 필지
 ================================================================================
 ID: EXP-05-218
 ORIGIN: RGK065
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -753,7 +753,7 @@ A = 적극적등록주의
 ================================================================================
 ID: EXP-05-219
 ORIGIN: RGK066
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
@@ -787,7 +787,7 @@ A = 종된
 ================================================================================
 ID: EXP-05-220
 ORIGIN: RGK066
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 지적제도
 
