@@ -793,7 +793,7 @@
       "type": "blank",
       "subject": "부동산세법",
       "category": "재산세",
-      "prompt": "주택 재산세는 원칙적으로 {{blank:A}과 {{blank:B}에 각각 2분의 1씩 납부한다.",
+      "prompt": "주택 재산세는 원칙적으로 {{blank:A}}과 {{blank:B}}에 각각 2분의 1씩 납부한다.",
       "answer": "7월 16일~31일 / 9월 16일~30일",
       "choices": [
         "7월 16일~31일 / 9월 16일~30일",
@@ -1133,7 +1133,7 @@
       "type": "blank",
       "subject": "부동산세법",
       "category": "종합부동산세",
-      "prompt": "주택분 종합부동산세의 공정시장가액비율은 법률상 {{blank:A}부터 {{blank:B}까지 범위에서 대통령령으로 정한다.",
+      "prompt": "주택분 종합부동산세의 공정시장가액비율은 법률상 {{blank:A}}부터 {{blank:B}}까지 범위에서 대통령령으로 정한다.",
       "answer": "60% / 100%",
       "choices": [
         "40% / 60%",
@@ -3014,7 +3014,7 @@
       "type": "blank",
       "subject": "부동산세법",
       "category": "재산세",
-      "prompt": "주택 재산세의 일반 납부월은 {{blank:A}과 {{blank:B}이다.",
+      "prompt": "주택 재산세의 일반 납부월은 {{blank:A}}과 {{blank:B}}이다.",
       "answer": "7월 / 9월",
       "choices": [
         "7월 / 12월",
