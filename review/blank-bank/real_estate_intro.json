@@ -913,7 +913,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "시장론·입지론",
-      "prompt": "다핵심이론은 {{blank:A}(C. Harris)와 {{blank:B}(E. Ullman)의 도시내부구조이론으로, 도시가 성장하면서 여러 개의 분리된 핵이 형성·발달한다고 본다.",
+      "prompt": "다핵심이론은 {{blank:A}}}(C. Harris)와 {{blank:B}}}(E. Ullman)의 도시내부구조이론으로, 도시가 성장하면서 여러 개의 분리된 핵이 형성·발달한다고 본다.",
       "answer": "해리스 / 울만",
       "choices": [
         "버제스 / 호이트",
@@ -2295,7 +2295,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "부동산 공급은 개발·건설에 {{blank:A}이 필요하고 부동산이 {{blank:B}이므로 수요보다 비탄력적인 경향이 있다.",
+      "prompt": "부동산 공급은 개발·건설에 {{blank:A}}}이 필요하고 부동산이 {{blank:B}}}이므로 수요보다 비탄력적인 경향이 있다.",
       "answer": "장기간 / 내구재",
       "choices": [
         "단기간 / 소비재",
@@ -2489,7 +2489,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "정(+)의 외부효과에서는 시장에서 {{blank:A}·{{blank:B}가 발생한다.",
+      "prompt": "정(+)의 외부효과에서는 시장에서 {{blank:A}}}·{{blank:B}}}가 발생한다.",
       "answer": "과소생산 / 과소소비",
       "choices": [
         "과다생산 / 과다소비",
@@ -2529,7 +2529,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "부(-)의 외부효과에서는 시장에서 {{blank:A}·{{blank:B}가 발생한다.",
+      "prompt": "부(-)의 외부효과에서는 시장에서 {{blank:A}}}·{{blank:B}}}가 발생한다.",
       "answer": "과다생산 / 과다소비",
       "choices": [
         "과소생산 / 과소소비",
@@ -2657,7 +2657,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "금융론",
-      "prompt": "원리금균등분할상환은 시간이 지나면서 원금상환액은 {{blank:A}하고 이자액은 {{blank:B}한다.",
+      "prompt": "원리금균등분할상환은 시간이 지나면서 원금상환액은 {{blank:A}}}하고 이자액은 {{blank:B}}}한다.",
       "answer": "증가 / 감소",
       "choices": [
         "증가 / 감소",
@@ -2697,7 +2697,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "금융론",
-      "prompt": "원금균등분할상환은 원금상환액은 {{blank:A}하고, 이자액은 {{blank:B}하며, 월 원리금지불액도 {{blank:C}한다.",
+      "prompt": "원금균등분할상환은 원금상환액은 {{blank:A}}}하고, 이자액은 {{blank:B}}}하며, 월 원리금지불액도 {{blank:C}}}한다.",
       "answer": "일정 / 감소 / 감소",
       "choices": [
         "증가 / 감소 / 감소",
@@ -2829,7 +2829,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "시장가치의 발생요인은 효용, {{blank:A}, {{blank:B}, {{blank:C}이다.",
+      "prompt": "시장가치의 발생요인은 효용, {{blank:A}}}, {{blank:B}}}, {{blank:C}}}이다.",
       "answer": "상대적 희소성 / 유효수요 / 이전성",
       "choices": [
         "상대적 희소성 / 유효수요 / 이전성",
@@ -2873,7 +2873,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "감정평가의 3방식은 {{blank:A}·{{blank:B}·{{blank:C}이다.",
+      "prompt": "감정평가의 3방식은 {{blank:A}}}·{{blank:B}}}·{{blank:C}}}이다.",
       "answer": "원가방식 / 비교방식 / 수익방식",
       "choices": [
         "비교방식 / 수익방식 / 공시방식",
@@ -3401,7 +3401,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "적산법의 적산임료는 (기초가액 × {{blank:A}) + {{blank:B}로 산정한다.",
+      "prompt": "적산법의 적산임료는 (기초가액 × {{blank:A}}}) + {{blank:B}}}로 산정한다.",
       "answer": "기대이율 / 필요제경비",
       "choices": [
         "환원이율 / 감가누계액",
@@ -3441,7 +3441,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "거래사례비교법은 사례가격 × 사정보정 × 시점수정 × {{blank:A} × {{blank:B} × 면적비교로 산정한다.",
+      "prompt": "거래사례비교법은 사례가격 × 사정보정 × 시점수정 × {{blank:A}}} × {{blank:B}}} × 면적비교로 산정한다.",
       "answer": "지역요인비교 / 개별요인비교",
       "choices": [
         "지역요인비교 / 개별요인비교",
@@ -3481,7 +3481,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "임대사례비교법은 사례임료 × 사정보정 × 시점수정 × {{blank:A} × {{blank:B} × 면적비교로 산정한다.",
+      "prompt": "임대사례비교법은 사례임료 × 사정보정 × 시점수정 × {{blank:A}}} × {{blank:B}}} × 면적비교로 산정한다.",
       "answer": "지역요인비교 / 개별요인비교",
       "choices": [
         "기대이율 / 필요제경비",
@@ -3543,7 +3543,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "수익분석법의 수익임료는 {{blank:A} + {{blank:B}로 산정한다.",
+      "prompt": "수익분석법의 수익임료는 {{blank:A}}} + {{blank:B}}}로 산정한다.",
       "answer": "순수익 / 필요제경비",
       "choices": [
         "순수익 / 필요제경비",
@@ -3583,7 +3583,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "매년감가액은 (재조달원가 - {{blank:A}) ÷ {{blank:B}로 계산한다.",
+      "prompt": "매년감가액은 (재조달원가 - {{blank:A}}}) ÷ {{blank:B}}}로 계산한다.",
       "answer": "잔존가액 / 경제적 내용연수",
       "choices": [
         "감가누계액 / 잔존내용연수",
@@ -3623,7 +3623,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "종합환원이율은 (자기자본비율 × {{blank:A}) + (타인자본비율 × {{blank:B})로 산정한다.",
+      "prompt": "종합환원이율은 (자기자본비율 × {{blank:A}}}) + (타인자본비율 × {{blank:B}}})로 산정한다.",
       "answer": "자기자본환원율 / 저당상수",
       "choices": [
         "자기자본환원율 / 저당상수",
@@ -3663,7 +3663,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "자본환원율은 {{blank:A} × 저당비율 × {{blank:B}로 계산한다.",
+      "prompt": "자본환원율은 {{blank:A}}} × 저당비율 × {{blank:B}}}로 계산한다.",
       "answer": "부채감당률 / 저당상수",
       "choices": [
         "저당상수 / 부채감당률",
@@ -3703,7 +3703,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "직선법의 수익가격은 순수익(상각전) ÷ (환원이율 + {{blank:A})이며, 상각률은 1 ÷ {{blank:B}이다.",
+      "prompt": "직선법의 수익가격은 순수익(상각전) ÷ (환원이율 + {{blank:A}}})이며, 상각률은 1 ÷ {{blank:B}}}이다.",
       "answer": "상각률 / 잔존내용연수",
       "choices": [
         "상각률 / 잔존내용연수",
@@ -3743,7 +3743,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "기본원리·토지용어",
-      "prompt": "부동성은 시장의 {{blank:A}·{{blank:B}과 외부효과 발생의 근거가 된다.",
+      "prompt": "부동성은 시장의 {{blank:A}}}·{{blank:B}}}과 외부효과 발생의 근거가 된다.",
       "answer": "국지화 / 지역적 세분",
       "choices": [
         "대량생산 / 표준화",
@@ -3783,7 +3783,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "기본원리·토지용어",
-      "prompt": "영속성은 토지의 {{blank:A} 감가상각 배제와 {{blank:B}시장 발달의 근거가 된다.",
+      "prompt": "영속성은 토지의 {{blank:A}}} 감가상각 배제와 {{blank:B}}}시장 발달의 근거가 된다.",
       "answer": "물리적 / 임대차",
       "choices": [
         "물리적 / 임대차",
@@ -3823,7 +3823,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "기본원리·토지용어",
-      "prompt": "부증성은 토지의 면적이 {{blank:A}하고 물리적 수량이 {{blank:B}되어 있다는 성질이다.",
+      "prompt": "부증성은 토지의 면적이 {{blank:A}}}하고 물리적 수량이 {{blank:B}}}되어 있다는 성질이다.",
       "answer": "유한 / 고정",
       "choices": [
         "무한 / 증가",
@@ -3863,7 +3863,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "기본원리·토지용어",
-      "prompt": "개별성은 {{blank:A}의 필요성과 {{blank:B} 원칙 적용의 어려움을 설명한다.",
+      "prompt": "개별성은 {{blank:A}}}의 필요성과 {{blank:B}}} 원칙 적용의 어려움을 설명한다.",
       "answer": "개별분석 / 일물일가",
       "choices": [
         "지역분석 / 일물일가",
@@ -3903,7 +3903,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "기본원리·토지용어",
-      "prompt": "인접성은 협동적 이용과 {{blank:A} 문제, 개발이익의 {{blank:B} 논리와 관련된다.",
+      "prompt": "인접성은 협동적 이용과 {{blank:A}}} 문제, 개발이익의 {{blank:B}}} 논리와 관련된다.",
       "answer": "경계 / 사회환수",
       "choices": [
         "가격 / 사유화",
@@ -3943,7 +3943,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "수요는 {{blank:A}을 갖춘 유효수요를 전제로 하는 {{blank:B} 개념이다.",
+      "prompt": "수요는 {{blank:A}}}을 갖춘 유효수요를 전제로 하는 {{blank:B}}} 개념이다.",
       "answer": "구매력 / 사전적",
       "choices": [
         "판매능력 / 사후적",
@@ -3983,7 +3983,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "공급은 {{blank:A}을 갖춘 유효공급을 전제로 하는 {{blank:B} 개념이다.",
+      "prompt": "공급은 {{blank:A}}}을 갖춘 유효공급을 전제로 하는 {{blank:B}}} 개념이다.",
       "answer": "판매능력 / 사전적",
       "choices": [
         "구매력 / 사후적",
@@ -4023,7 +4023,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "유량(Flow)은 {{blank:A}을 기준으로 측정하며, {{blank:B}주택정책과 연결된다.",
+      "prompt": "유량(Flow)은 {{blank:A}}}을 기준으로 측정하며, {{blank:B}}}주택정책과 연결된다.",
       "answer": "기간 / 신규",
       "choices": [
         "시점 / 기존",
@@ -4063,7 +4063,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "저량(Stock)은 {{blank:A}을 기준으로 측정하며, {{blank:B}주택정책과 연결된다.",
+      "prompt": "저량(Stock)은 {{blank:A}}}을 기준으로 측정하며, {{blank:B}}}주택정책과 연결된다.",
       "answer": "시점 / 기존",
       "choices": [
         "기간 / 신규",
@@ -4103,7 +4103,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "해당 재화의 {{blank:A} 변화는 수요곡선 자체를 이동시키지 않고 수요곡선 {{blank:B} 이동을 일으킨다.",
+      "prompt": "해당 재화의 {{blank:A}}} 변화는 수요곡선 자체를 이동시키지 않고 수요곡선 {{blank:B}}} 이동을 일으킨다.",
       "answer": "가격 / 위에서",
       "choices": [
         "소득 / 자체의",
@@ -4143,7 +4143,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "수요의 변화는 {{blank:A} 이외 요인으로 수요곡선 {{blank:B}가 이동하는 현상이다.",
+      "prompt": "수요의 변화는 {{blank:A}}} 이외 요인으로 수요곡선 {{blank:B}}}가 이동하는 현상이다.",
       "answer": "가격 / 자체",
       "choices": [
         "가격 / 상",
@@ -4183,7 +4183,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "해당 재화의 {{blank:A} 변화는 공급곡선 자체를 이동시키지 않고 공급곡선 {{blank:B} 이동을 일으킨다.",
+      "prompt": "해당 재화의 {{blank:A}}} 변화는 공급곡선 자체를 이동시키지 않고 공급곡선 {{blank:B}}} 이동을 일으킨다.",
       "answer": "가격 / 위에서",
       "choices": [
         "가격 / 위에서",
@@ -4223,7 +4223,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "공급의 변화는 {{blank:A} 이외 요인으로 공급곡선 {{blank:B}가 이동하는 현상이다.",
+      "prompt": "공급의 변화는 {{blank:A}}} 이외 요인으로 공급곡선 {{blank:B}}}가 이동하는 현상이다.",
       "answer": "가격 / 자체",
       "choices": [
         "가격 / 상",
@@ -4263,7 +4263,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "경제론",
-      "prompt": "정상재는 소득이 증가할 때 수요가 {{blank:A}하며, 소득탄력성은 {{blank:B}이다.",
+      "prompt": "정상재는 소득이 증가할 때 수요가 {{blank:A}}}하며, 소득탄력성은 {{blank:B}}}이다.",
       "answer": "증가 / 양(+)",
       "choices": [
         "감소 / 음(-)",
@@ -4391,7 +4391,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "시장론·입지론",
-      "prompt": "약성 효율적 시장에는 과거의 {{blank:A}·{{blank:B} 등 과거정보가 이미 반영되어 있다.",
+      "prompt": "약성 효율적 시장에는 과거의 {{blank:A}}}·{{blank:B}}} 등 과거정보가 이미 반영되어 있다.",
       "answer": "가격 / 거래량",
       "choices": [
         "가격 / 거래량",
@@ -4497,7 +4497,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "시장론·입지론",
-      "prompt": "튀넨의 지대는 매상고에서 {{blank:A}와 {{blank:B}를 차감하여 설명한다.",
+      "prompt": "튀넨의 지대는 매상고에서 {{blank:A}}}와 {{blank:B}}}를 차감하여 설명한다.",
       "answer": "생산비 / 수송비",
       "choices": [
         "지가 / 임대료",
@@ -4559,7 +4559,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "시장론·입지론",
-      "prompt": "레일리의 소매인력법칙에서 상권 영향력은 인구에 {{blank:A}하고 거리의 제곱에 {{blank:B}한다.",
+      "prompt": "레일리의 소매인력법칙에서 상권 영향력은 인구에 {{blank:A}}}하고 거리의 제곱에 {{blank:B}}}한다.",
       "answer": "비례 / 반비례",
       "choices": [
         "반비례 / 비례",
@@ -4621,7 +4621,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "시장론·입지론",
-      "prompt": "크리스탈러의 중심지이론은 도시의 {{blank:A}와 {{blank:B}를 설명한다.",
+      "prompt": "크리스탈러의 중심지이론은 도시의 {{blank:A}}}와 {{blank:B}}}를 설명한다.",
       "answer": "분포 / 정주체계",
       "choices": [
         "가격 / 임대료",
@@ -4771,7 +4771,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "시장실패의 원인에는 규모의 경제, 독과점, 외부효과, {{blank:A}, {{blank:B} 등이 있다.",
+      "prompt": "시장실패의 원인에는 규모의 경제, 독과점, 외부효과, {{blank:A}}}, {{blank:B}}} 등이 있다.",
       "answer": "공공재 / 정보비대칭",
       "choices": [
         "완전경쟁 / 정보대칭",
@@ -4855,7 +4855,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "지역지구제의 주된 목적은 부(-)의 외부효과를 {{blank:A}·{{blank:B}하는 데 있다.",
+      "prompt": "지역지구제의 주된 목적은 부(-)의 외부효과를 {{blank:A}}}·{{blank:B}}}하는 데 있다.",
       "answer": "제거 / 감소",
       "choices": [
         "확대 / 증가",
@@ -4917,7 +4917,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "TDR은 지역지구제의 {{blank:A}제도이면서 토지이용 {{blank:B} 수단으로 정리된다.",
+      "prompt": "TDR은 지역지구제의 {{blank:A}}}제도이면서 토지이용 {{blank:B}}} 수단으로 정리된다.",
       "answer": "보완 / 규제",
       "choices": [
         "직접 / 개발",
@@ -5089,7 +5089,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "하향여과는 기존주택의 사용계층이 {{blank:A}계층에서 {{blank:B}계층으로 이동하는 과정이다.",
+      "prompt": "하향여과는 기존주택의 사용계층이 {{blank:A}}}계층에서 {{blank:B}}}계층으로 이동하는 과정이다.",
       "answer": "상위 / 하위",
       "choices": [
         "하위 / 상위",
@@ -5129,7 +5129,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "상향여과는 재개발 등을 통해 주택의 사용계층이 {{blank:A}계층에서 {{blank:B}계층으로 이동하는 과정이다.",
+      "prompt": "상향여과는 재개발 등을 통해 주택의 사용계층이 {{blank:A}}}계층에서 {{blank:B}}}계층으로 이동하는 과정이다.",
       "answer": "하위 / 상위",
       "choices": [
         "상위 / 하위",
@@ -5169,7 +5169,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "부동산 투자는 장래의 {{blank:A} 수익을 위해 현재의 {{blank:B} 소비를 희생하는 행위로 정리된다.",
+      "prompt": "부동산 투자는 장래의 {{blank:A}}} 수익을 위해 현재의 {{blank:B}}} 소비를 희생하는 행위로 정리된다.",
       "answer": "불확실한 / 확실한",
       "choices": [
         "확실한 / 불확실한",
@@ -5319,7 +5319,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "변이계수는 {{blank:A}를 {{blank:B}로 나누어 계산한다.",
+      "prompt": "변이계수는 {{blank:A}}}를 {{blank:B}}}로 나누어 계산한다.",
       "answer": "표준편차 / 기대수익률",
       "choices": [
         "표준편차 / 기대수익률",
@@ -5359,7 +5359,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "자산3분법은 투자의 {{blank:A}·{{blank:B}·{{blank:C}을 고려하여 분산투자한다.",
+      "prompt": "자산3분법은 투자의 {{blank:A}}}·{{blank:B}}}·{{blank:C}}}을 고려하여 분산투자한다.",
       "answer": "안전성 / 수익성 / 환금성",
       "choices": [
         "안전성 / 유동성 / 독점성",
@@ -5403,7 +5403,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "평균-분산결정법에서는 같은 위험이면 기대수익이 {{blank:A} 투자안, 같은 기대수익이면 위험이 {{blank:B} 투자안이 우월하다.",
+      "prompt": "평균-분산결정법에서는 같은 위험이면 기대수익이 {{blank:A}}} 투자안, 같은 기대수익이면 위험이 {{blank:B}}} 투자안이 우월하다.",
       "answer": "큰 / 작은",
       "choices": [
         "작은 / 큰",
@@ -5729,7 +5729,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "요구수익률은 무위험률 + {{blank:A} + {{blank:B}으로 구성된다.",
+      "prompt": "요구수익률은 무위험률 + {{blank:A}}} + {{blank:B}}}으로 구성된다.",
       "answer": "위험할증률 / 예상 인플레이션 할증률",
       "choices": [
         "기대수익률 / 실현수익률",
@@ -5989,7 +5989,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "유효조소득(EGI)은 가능조소득 - {{blank:A} + {{blank:B}로 계산한다.",
+      "prompt": "유효조소득(EGI)은 가능조소득 - {{blank:A}}} + {{blank:B}}}로 계산한다.",
       "answer": "공실·불량부채 / 기타소득",
       "choices": [
         "공실·불량부채 / 기타소득",
@@ -6161,7 +6161,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "투자론",
-      "prompt": "채무불이행률은 ({{blank:A} + {{blank:B}) ÷ 유효조소득으로 계산한다.",
+      "prompt": "채무불이행률은 ({{blank:A}}} + {{blank:B}}}) ÷ 유효조소득으로 계산한다.",
       "answer": "영업경비 / 부채서비스액",
       "choices": [
         "순영업소득 / 부채잔금",
@@ -6223,7 +6223,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "금융론",
-      "prompt": "이자지급액은 {{blank:A} × {{blank:B}로 계산한다.",
+      "prompt": "이자지급액은 {{blank:A}}} × {{blank:B}}}로 계산한다.",
       "answer": "미상환대출잔액 / 이자율",
       "choices": [
         "대출금 / 저당상수",
@@ -6439,7 +6439,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "정책론",
-      "prompt": "낮은 임대료 상한은 초과수요뿐 아니라 {{blank:A}·{{blank:B} 등을 유발할 수 있다.",
+      "prompt": "낮은 임대료 상한은 초과수요뿐 아니라 {{blank:A}}}·{{blank:B}}} 등을 유발할 수 있다.",
       "answer": "암시장 / 이중가격",
       "choices": [
         "초과공급 / 공급증가",
@@ -6655,7 +6655,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "금융론",
-      "prompt": "1차 저당시장은 {{blank:A}와 {{blank:B} 사이에서 신규 저당대출이 이루어지는 시장이다.",
+      "prompt": "1차 저당시장은 {{blank:A}}}와 {{blank:B}}} 사이에서 신규 저당대출이 이루어지는 시장이다.",
       "answer": "차입자 / 대출기관",
       "choices": [
         "대출기관 / 투자자",
@@ -6695,7 +6695,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "금융론",
-      "prompt": "2차 저당시장은 {{blank:A}과 {{blank:B} 사이에서 기존 저당대출채권을 거래한다.",
+      "prompt": "2차 저당시장은 {{blank:A}}}과 {{blank:B}}} 사이에서 기존 저당대출채권을 거래한다.",
       "answer": "저당대출기관 / 투자자",
       "choices": [
         "차입자 / 대출기관",
@@ -6735,7 +6735,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "개발·관리론",
-      "prompt": "도시스프롤은 도시지역의 토지이용이 {{blank:A}·{{blank:B}적으로 외곽에 확산되는 현상이다.",
+      "prompt": "도시스프롤은 도시지역의 토지이용이 {{blank:A}}}·{{blank:B}}}적으로 외곽에 확산되는 현상이다.",
       "answer": "무질서 / 무계획",
       "choices": [
         "질서 / 계획",
@@ -6819,7 +6819,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "감정평가 3방식의 기초는 원가방식-{{blank:A}, 비교방식-{{blank:B}, 수익방식-{{blank:C}이다.",
+      "prompt": "감정평가 3방식의 기초는 원가방식-{{blank:A}}}, 비교방식-{{blank:B}}}, 수익방식-{{blank:C}}}이다.",
       "answer": "비용성 / 시장성 / 수익성",
       "choices": [
         "비용성 / 시장성 / 수익성",
@@ -6885,7 +6885,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "감정평가 3방식 중 원가방식의 두 방법은 {{blank:A}과 {{blank:B}이다.",
+      "prompt": "감정평가 3방식 중 원가방식의 두 방법은 {{blank:A}}}과 {{blank:B}}}이다.",
       "answer": "원가법 / 적산법",
       "choices": [
         "원가법 / 적산법",
@@ -6925,7 +6925,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "개발·관리론",
-      "prompt": "공급분석은 공실률·임대료 추세, {{blank:A}·{{blank:B}, 건축비용과 금융의 유용성 등을 조사한다.",
+      "prompt": "공급분석은 공실률·임대료 추세, {{blank:A}}}·{{blank:B}}}, 건축비용과 금융의 유용성 등을 조사한다.",
       "answer": "건축착공량 / 허가수",
       "choices": [
         "건축착공량 / 허가수",
@@ -7075,7 +7075,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "개발·관리론",
-      "prompt": "부동산 관리는 부동산의 {{blank:A}·{{blank:B}·{{blank:C} 상태를 유지·운용하는 활동이다.",
+      "prompt": "부동산 관리는 부동산의 {{blank:A}}}·{{blank:B}}}·{{blank:C}}} 상태를 유지·운용하는 활동이다.",
       "answer": "물리적 / 경제적 / 법률적",
       "choices": [
         "물리적 / 사회적 / 정치적",
@@ -7229,7 +7229,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "수익배분의 원칙은 {{blank:A}과 {{blank:B}의 이론적 근거로 정리된다.",
+      "prompt": "수익배분의 원칙은 {{blank:A}}}과 {{blank:B}}}의 이론적 근거로 정리된다.",
       "answer": "잔여법 / 수익분석법",
       "choices": [
         "잔여법 / 수익분석법",
