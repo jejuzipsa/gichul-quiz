@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f5f7fb" />
   <title>핵심 개념 퀴즈</title>
   <link rel="stylesheet" href="quiz.css?v=1.7" />
-  <link rel="stylesheet" href="blank-quiz.css?v=1.2" />
+  <link rel="stylesheet" href="blank-quiz.css?v=1.3" />
 </head>
 <body>
   <main class="quiz-shell">
@@ -21,6 +21,7 @@
     </section>
     <section id="resultView" class="hidden">
       <article class="result-card"><p class="eyebrow">퀴즈 결과</p><h2 id="resultHeadline">문제 풀이 완료</h2><p id="resultScore" class="result-score"></p><div id="resultBar" class="result-bar"><span></span></div><div class="result-actions"><button id="retryWrongBtn" class="primary-btn" type="button">틀린 문제 다시 풀기</button><button id="newSetBtn" class="secondary-btn" type="button">새 문제</button><a class="secondary-btn link-btn" href="../index.html">홈으로</a></div></article>
+      <section id="answerSummarySection" class="answer-summary-section hidden"><div class="answer-summary-head"><h2>이번 10문제 정답 정리</h2><p class="answer-summary-legend">파랑: 처음부터 정답 · 빨강: 오답 복습한 문제</p></div><div id="answerSummaryList" class="answer-summary-list"></div></section>
       <section id="wrongSection" class="wrong-section"><div class="wrong-head"><h2>틀린 문제</h2><span id="wrongCount"></span></div><div id="wrongList" class="wrong-list"></div></section>
     </section>
   </main>
@@ -55,7 +56,7 @@
       load(`blank-data/${file}?v=20261007-blank-v2`,()=>{
         load('blank-bank-validator.js?v=20261007-blank-v2',()=>{
           if(!window.validateBlankBank(window.BLANK_QUIZ_BANK,key)) return fail('괄호문제');
-          load('blank-quiz.js?v=20261007-blank-v2',null,()=>fail('괄호문제'));
+          load('blank-quiz.js?v=20261007-blank-v2-summary1',null,()=>fail('괄호문제'));
         },()=>fail('괄호문제'));
       },()=>fail('괄호문제'));
     }else{

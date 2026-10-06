@@ -77,11 +77,17 @@ assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.ok(html.includes('20261007-core-v3'));
 assert.ok(html.includes('20261007-blank-v2'));
-checks+=4;
+assert.ok(html.includes('answerSummarySection'));
+assert.ok(html.includes('blank-v2-summary1'));
+checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
 assert.ok(quizJs.includes('blankValues'));
 assert.ok(quizJs.includes('data-blank-key')||quizJs.includes('dataset.blankKey'));
-checks+=2;
+assert.ok(quizJs.includes('correctSentence'));
+assert.ok(quizJs.includes('renderAnswerSummary'));
+assert.ok(quizJs.includes('is-first-correct'));
+assert.ok(quizJs.includes('is-first-wrong'));
+checks+=6;
 
 console.log(`${checks} checks passed (V2 TXT reproducibility, all six subjects, multi-blank data, release approval, corruption, core drift).`);

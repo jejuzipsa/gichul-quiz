@@ -55,3 +55,86 @@
     grid-template-columns:1fr;
   }
 }
+
+/* ===== 풀이 완료 정답 문장 요약 ===== */
+.answer-summary-section{
+  margin-top:16px;
+  padding:24px;
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:var(--surface);
+  box-shadow:var(--shadow);
+}
+.answer-summary-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:14px;
+}
+.answer-summary-head h2{
+  margin:0;
+  font-size:22px;
+}
+.answer-summary-legend{
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:750;
+}
+.answer-summary-list{
+  display:grid;
+  gap:10px;
+}
+.answer-summary-item{
+  display:grid;
+  grid-template-columns:32px minmax(0,1fr);
+  gap:10px;
+  align-items:start;
+  padding:14px 16px;
+  border:1px solid var(--line);
+  border-radius:14px;
+  line-height:1.65;
+}
+.answer-summary-number{
+  font-weight:900;
+  text-align:center;
+}
+.answer-summary-text{
+  margin:0;
+  font-size:15px;
+  font-weight:750;
+  line-height:1.65;
+  word-break:keep-all;
+  overflow-wrap:anywhere;
+}
+.answer-summary-item.is-first-correct{
+  border-color:#c7d8fb;
+  background:var(--blueSoft);
+  color:#174bb0;
+}
+.answer-summary-item.is-first-wrong{
+  border-color:#f0c5c5;
+  background:var(--badSoft);
+  color:#a52d2d;
+}
+@media(max-width:600px){
+  .answer-summary-section{
+    padding:18px 14px;
+    border-radius:18px;
+  }
+  .answer-summary-head{
+    display:block;
+  }
+  .answer-summary-legend{
+    margin-top:7px;
+  }
+  .answer-summary-item{
+    grid-template-columns:26px minmax(0,1fr);
+    gap:8px;
+    padding:12px 11px;
+  }
+  .answer-summary-text{
+    font-size:14px;
+  }
+}

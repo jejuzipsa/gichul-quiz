@@ -27,7 +27,8 @@
     feedback: $('feedback'), nextBtn: $('nextBtn'), resultHeadline: $('resultHeadline'),
     resultScore: $('resultScore'), resultBar: $('resultBar'), retryWrongBtn: $('retryWrongBtn'),
     newSetBtn: $('newSetBtn'), newSetTopBtn: $('newSetTopBtn'), wrongSection: $('wrongSection'),
-    wrongCount: $('wrongCount'), wrongList: $('wrongList')
+    wrongCount: $('wrongCount'), wrongList: $('wrongList'),
+    answerSummarySection: $('answerSummarySection'), answerSummaryList: $('answerSummaryList')
   };
 
   document.body.classList.add('blank-quiz-mode');
@@ -122,6 +123,8 @@
     state.firstAnswers = [];
     state.reviewQueue = [];
     state.initialWrongCount = 0;
+    if (els.answerSummaryList) els.answerSummaryList.innerHTML = '';
+    if (els.answerSummarySection) els.answerSummarySection.classList.add('hidden');
     showPlay();
   }
 
@@ -173,6 +176,40 @@
       slot.textContent = mapped[key] || selectedLabel;
       slot.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
     });
+  }
+
+  function correctSentence(q) {
+    const raw = String(q?.prompt || '');
+    const mapped = q?.blankValues?.[q.answer] || { A: q?.answer || '' };
+    let markerIndex = 0;
+    return raw.replace(/\{\{blank(?::([A-Z]))?\}\}/g, (_, namedKey) => {
+      const key = namedKey || String.fromCharCode(65 + markerIndex);
+      markerIndex += 1;
+      return `(${mapped[key] || q.answer || ''})`;
+    });
+  }
+
+  function renderAnswerSummary() {
+    if (!els.answerSummarySection || !els.answerSummaryList) return;
+    els.answerSummaryList.innerHTML = '';
+
+    state.firstAnswers.forEach((entry, idx) => {
+      const item = document.createElement('div');
+      item.className = `answer-summary-item ${entry.correct ? 'is-first-correct' : 'is-first-wrong'}`;
+
+      const number = document.createElement('span');
+      number.className = 'answer-summary-number';
+      number.textContent = String(idx + 1);
+
+      const sentence = document.createElement('p');
+      sentence.className = 'answer-summary-text';
+      sentence.textContent = correctSentence(entry.question);
+
+      item.append(number, sentence);
+      els.answerSummaryList.appendChild(item);
+    });
+
+    els.answerSummarySection.classList.toggle('hidden', state.firstAnswers.length === 0);
   }
 
   function renderQuestion() {
@@ -270,6 +307,7 @@
     els.resultBar.querySelector('span').style.width = `${rate}%`;
     els.retryWrongBtn.classList.add('hidden');
     els.wrongSection.classList.add('hidden');
+    renderAnswerSummary();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
