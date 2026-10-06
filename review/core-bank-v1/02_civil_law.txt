@@ -7,9 +7,9 @@ FORMAT: single_choice
 STYLE: 핵심개념·시험필수·기초포함
 LAW_BASIS_DATE: 2026-10-07
 SOURCE_NOTE: 기존 60개 현행법 핵심개념의 5문형 반복을 1문제씩으로 압축하고, 요약자료·기출·현행법에서 빠진 조건·기한·법정지상권·합유·총유·명의신탁·가등기담보·상가임대차·집합건물 핵심을 보강.
-AUDIT_DATE: 2026-10-06
+AUDIT_DATE: 2026-10-07
 AUDIT_STATUS: approved
-AUDIT_NOTE: 정답 인덱스·선택지·해설을 전수 점검하고 2026-10-06 현재 시행 법령을 기준으로 수치·기한·요건을 재확인.
+AUDIT_NOTE: 정답·4개 선택지·해설·단일정답성 및 현행 법률 핵심요건을 2차 전수감사. CVK038·CVK041·CVK070 교정 반영.
 
 # 이 TXT가 일반 핵심개념 문제은행의 Source of Truth이다.
 # word-quiz/data/*.js 는 tools/core-bank/compile.cjs 로 생성한다.
