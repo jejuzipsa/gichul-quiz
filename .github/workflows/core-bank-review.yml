@@ -1,0 +1,26 @@
+name: Core bank TXT review
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check TXT source mirrors
+        run: node tools/core-bank/compile.cjs --check
+      - name: Validate core release
+        run: node tools/core-bank/validate.cjs --release
+      - name: Check blank bank linkage
+        run: node tools/blank-bank/compile-v2.cjs --check
+      - name: Validate blank bank release
+        run: node tools/blank-bank/validate.cjs --release
+      - name: Run blank bank tests
+        run: node tools/blank-bank/test.cjs
