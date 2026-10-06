@@ -1,11 +1,11 @@
 # 부동산공법 V2 추가문제 Part 4 (PLK061~PLK070)
-STATUS: PENDING_REVIEW
+STATUS: CONTENT_REVIEW_COMPLETE
 LEGAL_CHECKPOINT: 2026-10-06
 
 ================================================================================
 ID: EXP-04-271
 ORIGIN: PLK061
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -39,7 +39,7 @@ A = 광역계획권
 ================================================================================
 ID: EXP-04-272
 ORIGIN: PLK061
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -73,7 +73,7 @@ A = 장기
 ================================================================================
 ID: EXP-04-273
 ORIGIN: PLK061
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -107,7 +107,7 @@ A = 광역도시계획
 ================================================================================
 ID: EXP-04-274
 ORIGIN: PLK062
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -141,7 +141,7 @@ A = 생활권
 ================================================================================
 ID: EXP-04-275
 ORIGIN: PLK062
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -175,7 +175,7 @@ A = 지침
 ================================================================================
 ID: EXP-04-276
 ORIGIN: PLK062
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -209,7 +209,7 @@ A = 도시·군기본계획
 ================================================================================
 ID: EXP-04-277
 ORIGIN: PLK063
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -243,7 +243,7 @@ A = 중복
 ================================================================================
 ID: EXP-04-278
 ORIGIN: PLK063
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -277,7 +277,7 @@ A = 높이
 ================================================================================
 ID: EXP-04-279
 ORIGIN: PLK063
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -311,7 +311,7 @@ A = 용도지역
 ================================================================================
 ID: EXP-04-280
 ORIGIN: PLK064
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -345,7 +345,7 @@ A = 완화
 ================================================================================
 ID: EXP-04-281
 ORIGIN: PLK064
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -379,7 +379,7 @@ A = 안전
 ================================================================================
 ID: EXP-04-282
 ORIGIN: PLK064
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -413,7 +413,7 @@ A = 용도지구
 ================================================================================
 ID: EXP-04-283
 ORIGIN: PLK065
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -447,7 +447,7 @@ A = 확산
 ================================================================================
 ID: EXP-04-284
 ORIGIN: PLK065
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -481,7 +481,7 @@ A = 완화
 ================================================================================
 ID: EXP-04-285
 ORIGIN: PLK065
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -515,7 +515,7 @@ A = 용도구역
 ================================================================================
 ID: EXP-04-286
 ORIGIN: PLK066
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -549,7 +549,7 @@ A = 합리화
 ================================================================================
 ID: EXP-04-287
 ORIGIN: PLK066
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -583,7 +583,7 @@ A = 환경
 ================================================================================
 ID: EXP-04-288
 ORIGIN: PLK066
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -617,7 +617,7 @@ A = 지구단위계획
 ================================================================================
 ID: EXP-04-289
 ORIGIN: PLK067
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -651,7 +651,7 @@ A = 기반시설
 ================================================================================
 ID: EXP-04-290
 ORIGIN: PLK067
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -685,7 +685,7 @@ A = 결정
 ================================================================================
 ID: EXP-04-291
 ORIGIN: PLK067
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -719,7 +719,7 @@ A = 도시·군계획시설
 ================================================================================
 ID: EXP-04-292
 ORIGIN: PLK068
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -753,7 +753,7 @@ A = 건축면적
 ================================================================================
 ID: EXP-04-293
 ORIGIN: PLK068
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -787,7 +787,7 @@ A = 대지면적
 ================================================================================
 ID: EXP-04-294
 ORIGIN: PLK068
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -821,7 +821,7 @@ A = 건폐율
 ================================================================================
 ID: EXP-04-295
 ORIGIN: PLK069
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -855,7 +855,7 @@ A = 연면적
 ================================================================================
 ID: EXP-04-296
 ORIGIN: PLK069
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -889,7 +889,7 @@ A = 대지면적
 ================================================================================
 ID: EXP-04-297
 ORIGIN: PLK069
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -923,7 +923,7 @@ A = 용적률
 ================================================================================
 ID: EXP-04-298
 ORIGIN: PLK070
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -957,7 +957,7 @@ A = 공업
 ================================================================================
 ID: EXP-04-299
 ORIGIN: PLK070
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
@@ -991,7 +991,7 @@ A = 수용
 ================================================================================
 ID: EXP-04-300
 ORIGIN: PLK070
-STATUS: PENDING
+STATUS: APPROVED
 TYPE: CLOZE
 CATEGORY: 국토계획법
 
