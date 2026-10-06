@@ -12,14 +12,18 @@
       "sourceAuditDate": "2026-10-06",
       "sourceAuditStatus": "approved",
       "review": {
-        "status": "FIRST_PASS_COMPLETE",
-        "reviewed": 156,
-        "approved": 156,
-        "editedDuringReview": 72,
-        "expandYes": 143,
-        "expandNo": 13,
+        "status": "FINAL_REVIEW_COMPLETE",
+        "seedReviewed": 156,
+        "expansionGenerated": 144,
+        "expansionReviewed": 144,
+        "finalCount": 300,
+        "approved": 300,
         "structuralValidation": "passed",
-        "runtimeChanged": false
+        "exactDuplicatePrompts": 0,
+        "crossOriginSimilarityPairsReviewed": 14,
+        "runtimeChanged": false,
+        "finalFile": "review/blank-bank-v2/01_real_estate_intro_final.txt",
+        "reportFile": "review/blank-bank-v2/01_real_estate_intro_review_report.txt"
       }
     },
     "civil_law": {
