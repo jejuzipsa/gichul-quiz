@@ -2,7 +2,7 @@
   "formatVersion": "blank-review-v2-seed-1",
   "sourceBranch": "main",
   "createdFromVersion": "1.52",
-  "status": "RUNTIME_COMPILED_PENDING_CI",
+  "status": "CI_PASSED_PENDING_BROWSER_TEST",
   "runtimeChanged": true,
   "subjects": {
     "real_estate_intro": {
@@ -170,6 +170,15 @@
     "multiBlankQuestions": 94,
     "uiSupport": "single blank + named A/B/C multi blank",
     "validatorSupport": "1-3 blanks with choice-to-blank mapping",
-    "status": "PENDING_CI"
+    "status": "CI_PASSED_PENDING_BROWSER_TEST",
+    "ci": {
+      "workflow": "Blank bank review",
+      "run": 21,
+      "result": "passed",
+      "compileCheck": "1600/1600 errors 0",
+      "structureValidation": "1600/1600 errors 0",
+      "releaseValidation": "1600/1600 errors 0",
+      "automatedChecks": 109
+    }
   }
 }
