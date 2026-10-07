@@ -14,10 +14,11 @@ const entryCss=read('word-quiz/entry.css');
 const blankCss=read('word-quiz/blank-quiz.css');
 const version=JSON.parse(read('version.json'));
 
-need(version.version==='1.54','version.json must be 1.54');
-need(index.includes('meta name="app-version" content="1.54"'),'index app version mismatch');
-need(index.includes('styles.css?v=1.54')&&index.includes('app.js?v=1.54'),'main cache keys must be 1.54');
-need(app.includes("SITE_BUILD_VERSION='1.54'"),'app build version mismatch');
+const v=String(version.version||'').trim();
+need(/^\d+\.\d+$/.test(v),'version.json must contain a numeric major.minor version');
+need(index.includes('meta name="app-version" content="'+v+'"'),'index app version mismatch');
+need(index.includes('styles.css?v='+v)&&index.includes('app.js?v='+v)&&index.includes('word-quiz/entry.css?v='+v),'main cache keys must match version.json');
+need(app.includes("SITE_BUILD_VERSION='"+v+"'"),'app build version mismatch');
 need(index.includes('id="themeToggleBtn"'),'main theme button missing');
 need(index.indexOf('id="themeToggleBtn"')<index.indexOf('class="reading-size-control"'),'theme button must be left of reading-size buttons');
 need(index.includes("prefers-color-scheme: dark"),'main early system theme bootstrap missing');

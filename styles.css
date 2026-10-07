@@ -1874,3 +1874,33 @@ body { transition: background-color .18s ease, color .18s ease; }
   .theme-icon { width: 20px; height: 20px; }
 }
 
+/* v1.55: 홈 섹션 정리 + 실전시험/핵심단어카드 2분할 */
+.past-exam-home-section{
+  padding:22px;
+  border:1px solid var(--line);
+  border-radius:20px;
+  background:var(--surface);
+  box-shadow:var(--shadow);
+}
+.past-exam-home-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:15px}
+.past-exam-home-head h2{margin:0;font-size:clamp(21px,2.3vw,28px)}
+.past-exam-home-head p{margin:5px 0 0;color:var(--muted);font-size:13px}
+.past-exam-eyebrow{margin:0 0 5px;color:var(--primary);font-size:12px;font-weight:850;letter-spacing:.08em}
+.past-exam-home-section .subject-grid{margin-top:0}
+.home-feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}
+.home-feature-grid .exam-entry-card{margin-top:0;min-width:0}
+.home-feature-card{min-height:118px}
+.core-card-entry-button{background:color-mix(in srgb,#8174ff 8%,var(--surface));border-color:color-mix(in srgb,#8174ff 26%,var(--line))}
+.core-card-entry-button:hover{background:color-mix(in srgb,#8174ff 13%,var(--surface));border-color:color-mix(in srgb,#8174ff 48%,var(--line));box-shadow:0 14px 34px rgba(129,116,255,.12)}
+.core-card-entry-icon{padding:3px}
+:root[data-theme="dark"] .past-exam-home-section{background:var(--surface)}
+:root[data-theme="dark"] .core-card-entry-button{background:#151d35;border-color:#393b6b}
+:root[data-theme="dark"] .core-card-entry-button:hover{background:#1b2340;border-color:#625ab4}
+@media(max-width:720px){
+  .past-exam-home-section{padding:16px;border-radius:17px}
+  .past-exam-home-head{align-items:flex-start;flex-direction:column;margin-bottom:12px}
+  .past-exam-home-head p{font-size:12px}
+  .home-feature-grid{grid-template-columns:1fr;gap:10px;margin-top:14px}
+  .home-feature-card{min-height:96px}
+}
+

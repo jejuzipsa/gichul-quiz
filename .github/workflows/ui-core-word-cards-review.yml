@@ -1,0 +1,23 @@
+name: Core word cards UI review
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check core-cards/data.js
+          node --check core-cards/cards.js
+      - name: Validate core word card UI
+        run: node tools/ui/validate-core-word-cards.cjs

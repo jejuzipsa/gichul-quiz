@@ -1,4 +1,4 @@
-﻿const SITE_BUILD_VERSION='1.54';
+﻿const SITE_BUILD_VERSION='1.55';
 (() => {
   const $ = (id) => document.getElementById(id);
   const THEME_KEY = 'gichulQuizTheme';
@@ -76,7 +76,7 @@
   };
 
   const els = {
-    headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), themeToggleBtn: $('themeToggleBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'),
+    headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), themeToggleBtn: $('themeToggleBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'), coreCardEntryBtn: $('coreCardEntryBtn'),
     summarySubjectGrid: $('summarySubjectGrid'), summaryTitle: $('summaryTitle'), summaryMeta: $('summaryMeta'), summarySearch: $('summarySearch'), summarySubjectTabs: $('summarySubjectTabs'), summaryToc: $('summaryToc'), summaryTocSelect: $('summaryTocSelect'), summaryContent: $('summaryContent'), summarySearchStatus: $('summarySearchStatus'), summaryFloatActions: $('summaryFloatActions'), summaryFloatHomeBtn: $('summaryFloatHomeBtn'), summaryFloatTopBtn: $('summaryFloatTopBtn'),
     bankBrowserSubject: $('bankBrowserSubject'), bankBrowserSummary: $('bankBrowserSummary'), bankQuestionList: $('bankQuestionList'), bankPagination: $('bankPagination'), bankStartQuizBtn: $('bankStartQuizBtn'), bankFloatActions: $('bankFloatActions'), bankFloatQuizBtn: $('bankFloatQuizBtn'), bankFloatHomeBtn: $('bankFloatHomeBtn'), bankFloatTopBtn: $('bankFloatTopBtn'),
     quizSubject: $('quizSubject'), quizProgress: $('quizProgress'), sourceMeta: $('sourceMeta'), progressFill: $('progressFill'), questionCard: $('questionCard'), questionNumber: $('questionNumber'), questionText: $('questionText'), answerForm: $('answerForm'), feedback: $('feedback'), nextBtn: $('nextBtn'), backToResultBtn: $('backToResultBtn'),
@@ -1147,7 +1147,7 @@
   els.summaryFloatHomeBtn?.addEventListener('click',resetToHome);
   els.summaryFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   window.addEventListener('scroll',updateSummaryFloatActions,{passive:true});
-  els.examEntryBtn.addEventListener('click',openExamSetup); els.examNextBtn.addEventListener('click',goExamNext); els.examFullReviewBtn.addEventListener('click',toggleExamFullReview); els.examWrongReviewBtn.addEventListener('click',startExamWrongReview); els.examAgainBtn.addEventListener('click',()=>startExam(state.exam.type,String(state.exam.year))); els.examStickyCloseBtn?.addEventListener('click',()=>setExamFullReview(false)); els.examHomeBtn.addEventListener('click',openExamSetup); els.examScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.clearExamHistoryBtn?.addEventListener('click',clearExamHistory);
+  els.examEntryBtn.addEventListener('click',openExamSetup); els.coreCardEntryBtn?.addEventListener('click',()=>{ location.href='core-cards/index.html'; }); els.examNextBtn.addEventListener('click',goExamNext); els.examFullReviewBtn.addEventListener('click',toggleExamFullReview); els.examWrongReviewBtn.addEventListener('click',startExamWrongReview); els.examAgainBtn.addEventListener('click',()=>startExam(state.exam.type,String(state.exam.year))); els.examStickyCloseBtn?.addEventListener('click',()=>setExamFullReview(false)); els.examHomeBtn.addEventListener('click',openExamSetup); els.examScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.clearExamHistoryBtn?.addEventListener('click',clearExamHistory);
 
   els.themeToggleBtn?.addEventListener('click', () => {
     const current = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
