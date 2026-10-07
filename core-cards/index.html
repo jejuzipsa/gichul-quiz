@@ -17,7 +17,7 @@
   })();
   </script>
   <title>핵심 단어 카드 | 공인중개사</title>
-  <link rel="stylesheet" href="cards.css?v=1.65" />
+  <link rel="stylesheet" href="cards.css?v=1.66" />
 </head>
 <body>
   <header class="card-appbar">
@@ -47,10 +47,26 @@
     <section class="card-controls" aria-label="핵심 단어 카드 필터">
       <div class="overview-row">
         <div class="scope-stack">
-          <label class="scope-box subject-field">
-            <span>과목</span>
-            <select id="subjectSelect"></select>
-          </label>
+          <div class="scope-box subject-field">
+            <span id="subjectLabel">과목</span>
+            <div id="subjectPicker" class="subject-picker">
+              <button
+                id="subjectButton"
+                class="subject-button"
+                type="button"
+                aria-haspopup="listbox"
+                aria-expanded="false"
+                aria-controls="subjectMenu"
+                aria-labelledby="subjectLabel subjectButtonText"
+              >
+                <span id="subjectButtonText">부동산학개론</span>
+                <svg class="subject-chevron" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m7 9.5 5 5 5-5"></path>
+                </svg>
+              </button>
+              <div id="subjectMenu" class="subject-menu" role="listbox" aria-labelledby="subjectLabel" hidden></div>
+            </div>
+          </div>
           <div class="scope-box progress-box" aria-live="polite">
             <span>현재 범위</span>
             <strong id="rangeText">1 / 170</strong>
@@ -126,7 +142,7 @@
       <p>부동산학개론 170장 · 민법 및 민사특별법 247장을 과목별 TXT 기준으로 정리했어.</p>
     </footer>
   </main>
-  <script src="data.js?v=1.65"></script>
-  <script src="cards.js?v=1.65"></script>
+  <script src="data.js?v=1.66"></script>
+  <script src="cards.js?v=1.66"></script>
 </body>
 </html>
