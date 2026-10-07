@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.62','version.json must be 1.62');
+need(version.version==='1.63','version.json must be 1.63');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -54,6 +54,16 @@ need(cardCss.includes('.search-panel-section[hidden]{display:none}')&&cardCss.in
 need(cardJs.includes('function renderSearchSuggestions()')&&cardJs.includes('function suggestionCards()'),'autocomplete suggestion logic missing');
 need(cardJs.includes("event.key==='ArrowDown'")&&cardJs.includes("event.key==='ArrowUp'")&&cardJs.includes("event.key==='Enter'")&&cardJs.includes("event.key==='Escape'"),'autocomplete keyboard controls missing');
 need(cardJs.includes("state.category='all';")&&cardJs.includes("state.query=card.title"),'suggestion selection must show selected keyword across category');
+need(cardIndex.includes('id="randomOrderBtn"')&&cardIndex.includes('id="easyOrderBtn"')&&cardIndex.includes('id="hardOrderBtn"'),'card order controls missing');
+need(cardIndex.indexOf('id="randomOrderBtn"')<cardIndex.indexOf('id="easyOrderBtn"')&&cardIndex.indexOf('id="easyOrderBtn"')<cardIndex.indexOf('id="hardOrderBtn"'),'card order button sequence must be random/easy/hard');
+need(cardIndex.includes('랜덤보기')&&cardIndex.includes('쉬운순')&&cardIndex.includes('어려운순'),'card order labels missing');
+need(cardJs.includes("orderMode:'easy'"),'default card order must be easy');
+need(cardJs.includes('function reshuffleRandom()')&&cardJs.includes("setOrderMode('random',{reshuffle:true})"),'random reshuffle behavior missing');
+need(cardJs.includes("if(state.orderMode==='hard') return list.sort((a,b)=>b.order-a.order)"),'hard descending order missing');
+need(cardJs.includes("return list.sort((a,b)=>a.order-b.order)"),'easy ascending order missing');
+need(cardJs.includes('state.randomRanks=new Map'),'stable random ranking missing');
+need(cardCss.includes('.order-controls')&&cardCss.includes('.order-btn.active'),'card order control styles missing');
+need(cardCss.includes('.order-controls{display:grid;grid-template-columns:repeat(3,1fr)'),'mobile 3-button order layout missing');
 need(cardJs.includes("if(w>=1280) return 3")&&cardJs.includes("if(w>=980) return 2")&&cardJs.includes("return 1"),'responsive visible-count logic missing');
 need(!cardIndex.includes('<small>핵심 단어 카드</small>'),'brand subtitle 핵심 단어 카드 must be removed');
 need(cardIndex.includes('class="appbar-page-title"')&&cardIndex.includes('<span>반복 암기</span>')&&cardIndex.includes('<strong>핵심 단어 카드</strong>'),'compact centered appbar title missing');

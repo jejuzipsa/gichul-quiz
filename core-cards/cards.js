@@ -14,12 +14,13 @@
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
     dots:$('mobileDots'), heroCount:$('heroCount'), importantCount:$('importantCount'), memorizedCount:$('memorizedCount'),
     importantStatBtn:$('importantStatBtn'), memorizedStatBtn:$('memorizedStatBtn'), registeredStatBtn:$('registeredStatBtn'),
+    randomOrderBtn:$('randomOrderBtn'), easyOrderBtn:$('easyOrderBtn'), hardOrderBtn:$('hardOrderBtn'),
     statusText:$('statusText'), theme:$('themeToggleBtn')
   };
 
   const state={
-    subject:'real_estate_intro', category:'all', query:'', status:'all', offset:0, suggestionIndex:-1,
-    important:new Set(), memorized:new Set()
+    subject:'real_estate_intro', category:'all', query:'', status:'all', orderMode:'easy', offset:0, suggestionIndex:-1,
+    important:new Set(), memorized:new Set(), randomRanks:new Map()
   };
 
   function loadSet(key){
@@ -66,6 +67,39 @@
     });
   }catch{}
 
+  function reshuffleRandom(){
+    const cards=bank.cards.filter(card=>card.subject===state.subject);
+    const shuffled=[...cards];
+    for(let i=shuffled.length-1;i>0;i--){
+      const j=Math.floor(Math.random()*(i+1));
+      [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
+    }
+    state.randomRanks=new Map(shuffled.map((card,index)=>[card.id,index]));
+  }
+
+  function setOrderMode(mode,{reshuffle=false}={}){
+    if(!['random','easy','hard'].includes(mode)) return;
+    state.orderMode=mode;
+    if(mode==='random'&&(reshuffle||state.randomRanks.size===0)) reshuffleRandom();
+    state.offset=0;
+    updateOrderButtons();
+    render();
+  }
+
+  function updateOrderButtons(){
+    const pairs=[
+      [els.randomOrderBtn,'random'],
+      [els.easyOrderBtn,'easy'],
+      [els.hardOrderBtn,'hard']
+    ];
+    pairs.forEach(([btn,mode])=>{
+      if(!btn) return;
+      const active=state.orderMode===mode;
+      btn.classList.toggle('active',active);
+      btn.setAttribute('aria-pressed',active?'true':'false');
+    });
+  }
+
   function visibleCount(){
     const w=window.innerWidth;
     if(w>=1280) return 3;
@@ -75,7 +109,7 @@
 
   function filtered(){
     const q=state.query.trim().toLocaleLowerCase('ko');
-    return bank.cards.filter(card=>{
+    const list=bank.cards.filter(card=>{
       if(card.subject!==state.subject) return false;
       if(state.category!=='all' && card.category!==state.category) return false;
       if(state.status==='important' && !state.important.has(card.id)) return false;
@@ -84,6 +118,13 @@
       const hay=[card.title,card.subtitle,card.category,card.formula].concat(card.bullets||[]).join(' ').toLocaleLowerCase('ko');
       return hay.includes(q);
     });
+
+    if(state.orderMode==='hard') return list.sort((a,b)=>b.order-a.order);
+    if(state.orderMode==='random'){
+      if(state.randomRanks.size===0) reshuffleRandom();
+      return list.sort((a,b)=>(state.randomRanks.get(a.id)??Number.MAX_SAFE_INTEGER)-(state.randomRanks.get(b.id)??Number.MAX_SAFE_INTEGER));
+    }
+    return list.sort((a,b)=>a.order-b.order);
   }
 
   function renderSubjects(){
@@ -514,6 +555,7 @@
     state.query='';
     state.offset=0;
     els.search.value='';
+    if(state.orderMode==='random') reshuffleRandom();
     renderSearchPicker();
     render();
   });
@@ -552,6 +594,10 @@
   els.importantStatBtn?.addEventListener('click',()=>setStatusFilter('important'));
   els.memorizedStatBtn?.addEventListener('click',()=>setStatusFilter('memorized'));
   els.registeredStatBtn?.addEventListener('click',()=>setStatusFilter('all'));
+  els.randomOrderBtn?.addEventListener('click',()=>setOrderMode('random',{reshuffle:true}));
+  els.easyOrderBtn?.addEventListener('click',()=>setOrderMode('easy'));
+  els.hardOrderBtn?.addEventListener('click',()=>setOrderMode('hard'));
+
   els.prev.addEventListener('click',()=>{
     state.offset=Math.max(0,state.offset-visibleCount());
     render();
@@ -564,5 +610,6 @@
 
   renderSubjects();
   renderSearchPicker();
+  updateOrderButtons();
   render();
 })();
