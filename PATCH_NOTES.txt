@@ -1083,6 +1083,8 @@
   · 2021-32-second1-078 “건축분쟁전문위원회”, “건설산업기본법” 표기 2곳
 - 정답·문항번호·보기 의미는 변경하지 않음.
 - JSON 수정에 맞춰 해당 data/*.js 로컬 미러도 동기화.
+- 새 validator 첫 실행에서 기존 data/tax_law.js가 Source of Truth인 data/tax_law.json과 어긋나 있음을 발견해
+  JSON 기준으로 재생성·동기화하고 재검증 대상으로 포함.
 
 - 공식 최종정답 고정 검증키 추가:
   review/past-exams-audit/official-answer-keys.json
