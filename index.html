@@ -3,6 +3,18 @@
 <head>
   <script>
   (() => {
+    const THEME_KEY = 'gichulQuizTheme';
+    try {
+      const saved = localStorage.getItem(THEME_KEY);
+      const theme = saved === 'dark' || saved === 'light'
+        ? saved
+        : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    } catch (_) {
+      document.documentElement.dataset.theme = 'light';
+    }
+
     const VERSION_CHECK_KEY = 'gichulLatestVersionCheck';
     const VERSION_CHECK_INTERVAL = 30 * 1000;
 
@@ -39,16 +51,21 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="app-version" content="1.53" />
+  <meta name="theme-color" content="#f5f7fb" />
+  <meta name="app-version" content="1.54" />
   <title>공인중개사 기출문제</title>
-  <link rel="stylesheet" href="styles.css?v=1.53" />
-  <link rel="stylesheet" href="word-quiz/entry.css?v=1.53" />
+  <link rel="stylesheet" href="styles.css?v=1.54" />
+  <link rel="stylesheet" href="word-quiz/entry.css?v=1.54" />
 </head>
 <body>
   <main class="app-shell" id="app">
     <header class="topbar">
       <div class="topbar-title-wrap"><h1 id="headerTitle">공인중개사 기출문제</h1></div>
       <div class="topbar-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="다크모드 켜기" title="다크모드 켜기" aria-pressed="false">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
         <div class="reading-size-control" role="group" aria-label="문제 글자 크기">
           <button class="reading-size-btn" type="button" data-reading-size="small" aria-label="글자 작게" title="글자 작게">A−</button>
           <button class="reading-size-btn" type="button" data-reading-size="normal" aria-label="글자 보통" title="글자 보통">A</button>
@@ -100,7 +117,7 @@
   </main>
 
   <script src="data/manifest.js"></script>
-  <script src="summary/manifest.js?v=1.53"></script>
-  <script src="app.js?v=1.53"></script>
+  <script src="summary/manifest.js?v=1.54"></script>
+  <script src="app.js?v=1.54"></script>
 </body>
 </html>
