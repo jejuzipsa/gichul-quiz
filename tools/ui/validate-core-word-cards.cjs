@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.61','version.json must be 1.61');
+need(version.version==='1.62','version.json must be 1.62');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -45,6 +45,12 @@ need(cardIndex.includes('role="combobox"')&&cardIndex.includes('aria-autocomplet
 need(cardCss.includes('.search-panel{position:absolute')&&cardCss.includes('.search-category-list{display:flex;flex-wrap:wrap'),'search category dropdown styles missing');
 need(cardCss.includes('.search-suggestion')&&cardCss.includes('.search-category-chip'),'search suggestion/category chip styles missing');
 need(cardJs.includes('function openSearchPanel()')&&cardJs.includes('function closeSearchPanel()'),'search panel open/close logic missing');
+need(cardIndex.includes('id="searchCategorySection"')&&cardIndex.includes('id="searchSuggestSection"'),'search panel section ids missing');
+need(cardJs.includes('const searching=!!state.query.trim()'),'searching state detection missing');
+need(cardJs.includes('els.searchCategorySection.hidden=searching'),'category section must hide while typing');
+need(cardJs.includes("classList.toggle('searching',searching)"),'autocomplete section search-state class missing');
+need(cardJs.includes('els.searchPanel.scrollTop=0'),'search panel must reset to autocomplete top while typing');
+need(cardCss.includes('.search-panel-section[hidden]{display:none}')&&cardCss.includes('.search-panel-section.searching{margin-top:0'),'search-only panel styles missing');
 need(cardJs.includes('function renderSearchSuggestions()')&&cardJs.includes('function suggestionCards()'),'autocomplete suggestion logic missing');
 need(cardJs.includes("event.key==='ArrowDown'")&&cardJs.includes("event.key==='ArrowUp'")&&cardJs.includes("event.key==='Enter'")&&cardJs.includes("event.key==='Escape'"),'autocomplete keyboard controls missing');
 need(cardJs.includes("state.category='all';")&&cardJs.includes("state.query=card.title"),'suggestion selection must show selected keyword across category');
