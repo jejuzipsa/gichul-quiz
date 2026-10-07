@@ -1099,3 +1099,76 @@
 - CI는 총 문항수/연도별·과목별 문항수/ID/시험슬롯/보기/정답/해설표시/
   공식 최종정답 1,000개/JSON-JS 미러 일치를 검증.
 - PATCH_NOTES 상단의 main 런타임 버전 표기도 실제 상태에 맞춰 v1.52 → v1.53으로 정정.
+
+
+------------------------------------------------------------
+43. v1.53 - 기출문제 1,000문항 TXT Source of Truth 전환
+------------------------------------------------------------
+
+- 작업 브랜치: past-exams-txt-source-v1
+- PR #14에서 전수감사 완료한 2021~2025 제32~36회 기출 1,000문항을
+  사람이 직접 검토·수정하기 쉬운 TXT 원본 구조로 전환.
+- 새 Source of Truth:
+  · review/past-exams-v1/01_real_estate_intro.txt (200)
+  · review/past-exams-v1/02_civil_law.txt (200)
+  · review/past-exams-v1/03_brokerage_law.txt (200)
+  · review/past-exams-v1/04_public_law.txt (200)
+  · review/past-exams-v1/05_registration_law.txt (120)
+  · review/past-exams-v1/06_tax_law.txt (80)
+  · 총 1,000문항
+- manifest:
+  · review/past-exams-v1/manifest.json
+- 편집 안내:
+  · review/past-exams-v1/README.txt
+
+- TXT 문항 블록:
+  · ID / STATUS / YEAR / EXAM / PAPER / QUESTION_NUMBER
+  · [문제]
+  · [보기] 1~5
+  · [정답]
+  · [해설]
+- 단일정답은 숫자 하나, 복수정답/전원정답은 쉼표 구분으로 기록.
+- 공식 복수정답 12문항의 배열 의미를 그대로 보존.
+
+- 생성 도구 추가:
+  · tools/past-exams/compile.cjs
+    TXT → data/*.json + data/*.js + data/manifest.js 생성
+    --check: TXT와 생성물의 완전 일치 검사
+    --write: 생성물 재작성
+  · tools/past-exams/build.cjs
+    TXT 컴파일 → release validator를 한 번에 실행
+- 기존 tools/rebuild_local_mirrors.py는 호환 래퍼로 변경.
+  · 더 이상 data/*.json을 원본으로 취급하지 않음.
+  · 내부적으로 tools/past-exams/build.cjs를 실행.
+
+- validator를 TXT 기준으로 전환:
+  · 총 1,000
+  · 연도별 200
+  · 과목별 200/200/200/200/120/80
+  · 각 연도 교시별 80/80/40
+  · ID/시험슬롯 중복
+  · 보기 5개/동일 보기
+  · 단일·복수 answer 범위
+  · exam/year 대응
+  · 해설 첫머리 정답표시
+  · 공식 최종정답 고정키 1,000개
+  · TXT ↔ JSON ↔ JS 의미 일치
+- 공식 최종정답 고정키는 기존
+  review/past-exams-audit/official-answer-keys.json 을 계속 사용.
+
+- GitHub Actions를 “Past exams TXT review”로 전환.
+  · PR/main push에서 compile --check
+  · release validation
+  두 단계를 모두 통과해야 함.
+
+- 전환 전 main 데이터와 TXT를 역컴파일하여 6과목 전체를 비교:
+  · 학개론 200/200 동일
+  · 민법 200/200 동일
+  · 중개사법 200/200 동일
+  · 공법 200/200 동일
+  · 공시법 120/120 동일
+  · 세법 80/80 동일
+  · 총 1,000/1,000 문항의 ID/연도/회차/교시/문항번호/문제/5개 보기/정답/해설 의미 변경 0
+- data/*.json 및 data/*.js의 기존 출력 포맷도 그대로 재현하도록 컴파일러를 고정.
+- TXT 전환 과정에서 기출 내용 자체는 추가 수정하지 않음.
+- 버전 번호는 v1.53 유지.
