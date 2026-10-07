@@ -124,7 +124,7 @@ function manifestText(compiledBySubject){
   return 'window.SUBJECT_DATA = window.SUBJECT_DATA || {};\n'
     +'window.SUBJECT_MANIFEST = '+JSON.stringify(items,null,2)+';\n'
     +'window.BANK_TOTAL = '+items.reduce((n,x)=>n+x.count,0)+';\n'
-    +"window.BANK_LABEL = '"+label.replace(/'/g,"\\'")+"';\\n";
+    +"window.BANK_LABEL = '"+label.replace(/'/g,"\\'")+"';\n";
 }
 
 function run(){
