@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.60','version.json must be 1.60');
+need(version.version==='1.61','version.json must be 1.61');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -39,6 +39,15 @@ need(cardCss.includes('.home-btn{display:inline-flex;width:38px'),'mobile home i
 need(cardIndex.includes('gichulQuizTheme'),'core card theme bootstrap missing');
 need(cardCss.includes('@media(min-width:1280px)')&&cardCss.includes('repeat(3,minmax(0,1fr))'),'wide PC 3-card rule missing');
 need(cardCss.includes('@media(max-width:979px)')&&cardCss.includes('.core-card-grid{grid-template-columns:1fr}'),'narrow screen 1-card rule missing');
+need(!cardIndex.includes('id="categoryTabs"'),'fixed category tab strip must be removed');
+need(cardIndex.includes('id="searchPanel"')&&cardIndex.includes('id="searchCategoryList"')&&cardIndex.includes('id="searchSuggestions"'),'search picker panel structure missing');
+need(cardIndex.includes('role="combobox"')&&cardIndex.includes('aria-autocomplete="list"'),'search autocomplete accessibility hooks missing');
+need(cardCss.includes('.search-panel{position:absolute')&&cardCss.includes('.search-category-list{display:flex;flex-wrap:wrap'),'search category dropdown styles missing');
+need(cardCss.includes('.search-suggestion')&&cardCss.includes('.search-category-chip'),'search suggestion/category chip styles missing');
+need(cardJs.includes('function openSearchPanel()')&&cardJs.includes('function closeSearchPanel()'),'search panel open/close logic missing');
+need(cardJs.includes('function renderSearchSuggestions()')&&cardJs.includes('function suggestionCards()'),'autocomplete suggestion logic missing');
+need(cardJs.includes("event.key==='ArrowDown'")&&cardJs.includes("event.key==='ArrowUp'")&&cardJs.includes("event.key==='Enter'")&&cardJs.includes("event.key==='Escape'"),'autocomplete keyboard controls missing');
+need(cardJs.includes("state.category='all';")&&cardJs.includes("state.query=card.title"),'suggestion selection must show selected keyword across category');
 need(cardJs.includes("if(w>=1280) return 3")&&cardJs.includes("if(w>=980) return 2")&&cardJs.includes("return 1"),'responsive visible-count logic missing');
 need(!cardIndex.includes('<small>핵심 단어 카드</small>'),'brand subtitle 핵심 단어 카드 must be removed');
 need(cardIndex.includes('class="appbar-page-title"')&&cardIndex.includes('<span>반복 암기</span>')&&cardIndex.includes('<strong>핵심 단어 카드</strong>'),'compact centered appbar title missing');
