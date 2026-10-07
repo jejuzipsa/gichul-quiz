@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.59','version.json must be 1.59');
+need(version.version==='1.60','version.json must be 1.60');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -58,6 +58,12 @@ need(cardCss.includes('.memorized-stat .hero-stat-icon{color:#ff6673'),'memorize
 need(cardJs.includes("setStatusFilter('important')")&&cardJs.includes("setStatusFilter('memorized')")&&cardJs.includes("setStatusFilter('all')"),'hero status buttons must filter important/memorized/all');
 need(cardJs.includes('gichulCoreWordImportant')&&cardJs.includes('gichulCoreWordMemorized'),'card state persistence missing');
 need(cardJs.includes('card.image'),'optional illustration support missing');
+need(cardJs.includes('visualLegend(type)')&&cardJs.includes('addVisualLegend(wrap,card.visual)'),'graph symbol legend renderer missing');
+need(cardJs.includes("['P','가격']")&&cardJs.includes("['Q','수량']"),'P/Q graph legend meanings missing');
+need(cardJs.includes("['D₁','이동 전 수요곡선']")&&cardJs.includes("['D₂','이동 후 수요곡선']"),'D1/D2 demand-shift legend missing');
+need(cardJs.includes("['S₁','이동 전 공급곡선']")&&cardJs.includes("['S₂','이동 후 공급곡선']"),'S1/S2 supply-shift legend missing');
+need(cardJs.includes("['PGI','가능조소득']")&&cardJs.includes("['ATCF','세후현금수지']"),'cashflow abbreviation legend missing');
+need(cardCss.includes('.visual-legend')&&cardCss.includes('.visual-legend-item'),'graph legend styles missing');
 need(cardJs.includes('card.formula')&&cardJs.includes('card.visual'),'formula/visual rendering support missing');
 need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formula/visual styles missing');
 need(Array.isArray(bank?.cards)&&bank.cards.length===100,'real-estate card count must be 100');
