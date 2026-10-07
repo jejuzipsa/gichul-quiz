@@ -9,6 +9,7 @@
 
   const els={
     subject:$('subjectSelect'), search:$('cardSearch'), searchField:$('searchField'), searchPanel:$('searchPanel'),
+    searchCategorySection:$('searchCategorySection'), searchSuggestSection:$('searchSuggestSection'),
     searchCategoryList:$('searchCategoryList'), searchSuggestions:$('searchSuggestions'),
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
     dots:$('mobileDots'), heroCount:$('heroCount'), importantCount:$('importantCount'), memorizedCount:$('memorizedCount'),
@@ -227,8 +228,12 @@
   }
 
   function renderSearchPicker(){
+    const searching=!!state.query.trim();
+    els.searchCategorySection.hidden=searching;
+    els.searchSuggestSection.classList.toggle('searching',searching);
     renderSearchCategories();
     renderSearchSuggestions();
+    if(searching) els.searchPanel.scrollTop=0;
   }
 
   function addBulletList(article,card){
