@@ -8,7 +8,8 @@
   const $=id=>document.getElementById(id);
 
   const els={
-    subject:$('subjectSelect'), search:$('cardSearch'), categories:$('categoryTabs'),
+    subject:$('subjectSelect'), search:$('cardSearch'), searchField:$('searchField'), searchPanel:$('searchPanel'),
+    searchCategoryList:$('searchCategoryList'), searchSuggestions:$('searchSuggestions'),
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
     dots:$('mobileDots'), heroCount:$('heroCount'), importantCount:$('importantCount'), memorizedCount:$('memorizedCount'),
     importantStatBtn:$('importantStatBtn'), memorizedStatBtn:$('memorizedStatBtn'), registeredStatBtn:$('registeredStatBtn'),
@@ -16,7 +17,7 @@
   };
 
   const state={
-    subject:'real_estate_intro', category:'all', query:'', status:'all', offset:0,
+    subject:'real_estate_intro', category:'all', query:'', status:'all', offset:0, suggestionIndex:-1,
     important:new Set(), memorized:new Set()
   };
 
@@ -96,22 +97,138 @@
     els.subject.value=state.subject;
   }
 
-  function renderCategories(){
-    const categories=['all'].concat([...new Set(bank.cards.filter(c=>c.subject===state.subject).map(c=>c.category))]);
-    els.categories.innerHTML='';
-    categories.forEach(category=>{
+  function subjectCards(){
+    return bank.cards.filter(card=>card.subject===state.subject);
+  }
+
+  function categoryNames(){
+    return ['all'].concat([...new Set(subjectCards().map(card=>card.category))]);
+  }
+
+  function openSearchPanel(){
+    els.searchPanel.hidden=false;
+    els.search.setAttribute('aria-expanded','true');
+    state.suggestionIndex=-1;
+    renderSearchPicker();
+  }
+
+  function closeSearchPanel(){
+    els.searchPanel.hidden=true;
+    els.search.setAttribute('aria-expanded','false');
+    state.suggestionIndex=-1;
+  }
+
+  function renderSearchCategories(){
+    els.searchCategoryList.innerHTML='';
+    categoryNames().forEach(category=>{
       const btn=document.createElement('button');
       btn.type='button';
-      btn.className='category-tab'+(category===state.category?' active':'');
+      btn.className='search-category-chip'+(category===state.category?' active':'');
       btn.textContent=category==='all'?'전체':category;
+      btn.setAttribute('aria-pressed',category===state.category?'true':'false');
       btn.addEventListener('click',()=>{
         state.category=category;
+        state.query='';
         state.offset=0;
-        renderCategories();
+        els.search.value='';
+        renderSearchCategories();
+        renderSearchSuggestions();
         render();
+        closeSearchPanel();
       });
-      els.categories.appendChild(btn);
+      els.searchCategoryList.appendChild(btn);
     });
+  }
+
+  function suggestionCards(){
+    const q=state.query.trim().toLocaleLowerCase('ko');
+    const cards=subjectCards();
+    if(!q) return cards.slice(0,12);
+    return cards
+      .map(card=>{
+        const title=card.title.toLocaleLowerCase('ko');
+        const category=card.category.toLocaleLowerCase('ko');
+        const subtitle=(card.subtitle||'').toLocaleLowerCase('ko');
+        const body=(card.bullets||[]).join(' ').toLocaleLowerCase('ko');
+        let score=99;
+        if(title===q) score=0;
+        else if(title.startsWith(q)) score=1;
+        else if(title.includes(q)) score=2;
+        else if(category.includes(q)) score=3;
+        else if(subtitle.includes(q)) score=4;
+        else if(body.includes(q)) score=5;
+        return {card,score};
+      })
+      .filter(item=>item.score<99)
+      .sort((a,b)=>a.score-b.score||a.card.order-b.card.order)
+      .slice(0,12)
+      .map(item=>item.card);
+  }
+
+  function activateSuggestion(index){
+    const buttons=[...els.searchSuggestions.querySelectorAll('.search-suggestion')];
+    if(!buttons.length){state.suggestionIndex=-1;return}
+    state.suggestionIndex=Math.max(0,Math.min(index,buttons.length-1));
+    buttons.forEach((btn,i)=>{
+      const active=i===state.suggestionIndex;
+      btn.classList.toggle('active',active);
+      btn.setAttribute('aria-selected',active?'true':'false');
+    });
+    buttons[state.suggestionIndex]?.scrollIntoView({block:'nearest'});
+  }
+
+  function chooseSuggestion(card){
+    state.category='all';
+    state.query=card.title;
+    state.offset=0;
+    els.search.value=card.title;
+    renderSearchCategories();
+    render();
+    closeSearchPanel();
+  }
+
+  function renderSearchSuggestions(){
+    const cards=suggestionCards();
+    els.searchSuggestions.innerHTML='';
+    state.suggestionIndex=-1;
+
+    if(!cards.length){
+      const empty=document.createElement('p');
+      empty.className='search-suggestion-empty';
+      empty.textContent='일치하는 카드가 없어.';
+      els.searchSuggestions.appendChild(empty);
+      return;
+    }
+
+    cards.forEach(card=>{
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.className='search-suggestion';
+      btn.setAttribute('role','option');
+      btn.setAttribute('aria-selected','false');
+
+      const icon=document.createElement('span');
+      icon.className='search-suggestion-icon';
+      icon.textContent='⌕';
+
+      const text=document.createElement('span');
+      text.className='search-suggestion-text';
+      const title=document.createElement('strong');
+      title.textContent=card.title;
+      const meta=document.createElement('small');
+      meta.textContent=card.category+' · '+(TYPE_LABELS[card.type]||'카드');
+      text.append(title,meta);
+
+      btn.append(icon,text);
+      btn.addEventListener('pointerdown',event=>event.preventDefault());
+      btn.addEventListener('click',()=>chooseSuggestion(card));
+      els.searchSuggestions.appendChild(btn);
+    });
+  }
+
+  function renderSearchPicker(){
+    renderSearchCategories();
+    renderSearchSuggestions();
   }
 
   function addBulletList(article,card){
@@ -389,14 +506,43 @@
   els.subject.addEventListener('change',()=>{
     state.subject=els.subject.value;
     state.category='all';
+    state.query='';
     state.offset=0;
-    renderCategories();
+    els.search.value='';
+    renderSearchPicker();
     render();
   });
+
+  els.search.addEventListener('focus',openSearchPanel);
+  els.search.addEventListener('click',openSearchPanel);
   els.search.addEventListener('input',()=>{
     state.query=els.search.value;
+    state.category='all';
     state.offset=0;
+    renderSearchPicker();
     render();
+  });
+  els.search.addEventListener('keydown',event=>{
+    const buttons=[...els.searchSuggestions.querySelectorAll('.search-suggestion')];
+    if(event.key==='ArrowDown'){
+      event.preventDefault();
+      if(els.searchPanel.hidden) openSearchPanel();
+      activateSuggestion(state.suggestionIndex<0?0:state.suggestionIndex+1);
+    }else if(event.key==='ArrowUp'){
+      event.preventDefault();
+      if(els.searchPanel.hidden) openSearchPanel();
+      activateSuggestion(state.suggestionIndex<0?buttons.length-1:state.suggestionIndex-1);
+    }else if(event.key==='Enter'&&state.suggestionIndex>=0&&buttons[state.suggestionIndex]){
+      event.preventDefault();
+      buttons[state.suggestionIndex].click();
+    }else if(event.key==='Escape'){
+      event.preventDefault();
+      closeSearchPanel();
+      els.search.blur();
+    }
+  });
+  document.addEventListener('pointerdown',event=>{
+    if(!els.searchField.contains(event.target)) closeSearchPanel();
   });
   els.importantStatBtn?.addEventListener('click',()=>setStatusFilter('important'));
   els.memorizedStatBtn?.addEventListener('click',()=>setStatusFilter('memorized'));
@@ -412,6 +558,6 @@
   window.addEventListener('resize',render,{passive:true});
 
   renderSubjects();
-  renderCategories();
+  renderSearchPicker();
   render();
 })();
