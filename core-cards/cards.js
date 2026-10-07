@@ -158,6 +158,58 @@
     return map[type]||'';
   }
 
+  function visualLegend(type){
+    const P=['P','가격'], Q=['Q','수량'], D=['D','수요곡선'], S=['S','공급곡선'];
+    const map={
+      demand_down:[P,Q,D],
+      supply_up:[P,Q,S],
+      demand_move:[P,Q,D,['●','가격·수요량 조합'],['→','곡선 위 이동']],
+      demand_shift:[P,Q,['D₁','이동 전 수요곡선'],['D₂','이동 후 수요곡선'],['→','수요곡선 이동']],
+      supply_move:[P,Q,S,['●','가격·공급량 조합'],['→','곡선 위 이동']],
+      supply_shift:[P,Q,['S₁','이동 전 공급곡선'],['S₂','이동 후 공급곡선'],['→','공급곡선 이동']],
+      elastic_demand:[P,Q,D,['E','수요의 가격탄력성']],
+      inelastic_demand:[P,Q,D,['E','수요의 가격탄력성']],
+      unit_elastic_demand:[P,Q,D,['E','수요의 가격탄력성']],
+      perfect_elastic_demand:[P,Q,D,['E','수요의 가격탄력성']],
+      perfect_inelastic_demand:[P,Q,D,['E','수요의 가격탄력성']],
+      elasticity_formula:[['Δ','변화량'],['P','가격'],['Q','수요량']],
+      concentric_city:[['CBD','중심업무지구']],
+      concentric_zones:[['1','중심업무지구'],['2','천이지대'],['3','근로자 주택지대'],['4','중산층 주택지대'],['5','통근자 지대']],
+      sector_city:[['CBD','중심업무지구']],
+      cobweb_overview:[P,Q,D,S,['노란선','가격·수량 조정경로']],
+      cobweb_converge:[P,Q,D,S,['노란선','균형으로 수렴하는 조정경로']],
+      cobweb_diverge:[P,Q,D,S,['노란선','균형에서 멀어지는 조정경로']],
+      cobweb_cycle:[P,Q,D,S,['노란선','같은 범위를 반복하는 조정경로']],
+      cashflow_sequence:[
+        ['PGI','가능조소득'],
+        ['EGI','유효조소득'],
+        ['NOI','순영업소득'],
+        ['BTCF','세전현금수지'],
+        ['ATCF','세후현금수지']
+      ]
+    };
+    return map[type]||[];
+  }
+
+  function addVisualLegend(wrap,type){
+    const items=visualLegend(type);
+    if(!items.length) return;
+    const legend=document.createElement('div');
+    legend.className='visual-legend';
+    legend.setAttribute('aria-label','그래프 기호 설명');
+    items.forEach(([symbol,meaning])=>{
+      const item=document.createElement('span');
+      item.className='visual-legend-item';
+      const key=document.createElement('b');
+      key.textContent=symbol;
+      const value=document.createElement('em');
+      value.textContent=meaning;
+      item.append(key,value);
+      legend.appendChild(item);
+    });
+    wrap.appendChild(legend);
+  }
+
   function addFormula(article,card){
     if(!card.formula) return;
     const box=document.createElement('div');
@@ -177,6 +229,7 @@
     const wrap=document.createElement('div');
     wrap.className='card-visual';
     wrap.innerHTML=markup;
+    addVisualLegend(wrap,card.visual);
     article.appendChild(wrap);
   }
 
