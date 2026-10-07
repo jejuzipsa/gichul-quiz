@@ -1,4 +1,4 @@
-name: Past exams audit validation
+name: Past exams TXT review
 on:
   pull_request:
   push:
@@ -14,5 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate 2021-2025 past exam bank
-        run: node tools/past-exams/validate.cjs
+      - name: Check TXT source mirrors
+        run: node tools/past-exams/compile.cjs --check
+      - name: Validate 2021-2025 past exam release
+        run: node tools/past-exams/validate.cjs --release
