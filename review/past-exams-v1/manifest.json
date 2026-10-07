@@ -1,0 +1,64 @@
+{
+  "version": "past-exams-v1",
+  "sourceOfTruth": "review/past-exams-v1/*.txt",
+  "generatedOutput": [
+    "data/*.json",
+    "data/*.js",
+    "data/manifest.js"
+  ],
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "papers": {
+    "1차 1교시": 80,
+    "2차 1교시": 80,
+    "2차 2교시": 40
+  },
+  "subjects": {
+    "real_estate_intro": {
+      "file": "01_real_estate_intro.txt",
+      "label": "부동산학개론",
+      "count": 200,
+      "perYear": 40
+    },
+    "civil_law": {
+      "file": "02_civil_law.txt",
+      "label": "민법 및 민사특별법",
+      "count": 200,
+      "perYear": 40
+    },
+    "brokerage_law": {
+      "file": "03_brokerage_law.txt",
+      "label": "공인중개사법령 및 중개실무",
+      "count": 200,
+      "perYear": 40
+    },
+    "public_law": {
+      "file": "04_public_law.txt",
+      "label": "부동산공법",
+      "count": 200,
+      "perYear": 40
+    },
+    "registration_law": {
+      "file": "05_registration_law.txt",
+      "label": "부동산공시법",
+      "count": 120,
+      "perYear": 24
+    },
+    "tax_law": {
+      "file": "06_tax_law.txt",
+      "label": "부동산세법",
+      "count": 80,
+      "perYear": 16
+    }
+  },
+  "total": 1000,
+  "auditDate": "2026-10-07",
+  "auditStatus": "approved",
+  "officialAnswerKey": "review/past-exams-audit/official-answer-keys.json",
+  "rule": "문항 수정은 TXT 블록에서만 수행하고 tools/past-exams/build.cjs로 JSON/JS/manifest 미러를 재생성한다. generated output 직접 수정은 CI에서 실패한다."
+}
