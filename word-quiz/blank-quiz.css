@@ -138,3 +138,9 @@
     font-size:14px;
   }
 }
+
+:root[data-theme="dark"] .blank-slot{border-color:#536a91;background:#121f35;color:#a8b7cc}
+:root[data-theme="dark"] .blank-slot.is-correct{border-color:#6f8cff;background:#1b2a4a;color:#b9d6ff}
+:root[data-theme="dark"] .blank-slot.is-wrong{border-color:#ff6673;background:#351923;color:#ffb0b7}
+:root[data-theme="dark"] .answer-summary-item.is-first-correct{border-color:#425e91;background:#172846;color:#a8ceff}
+:root[data-theme="dark"] .answer-summary-item.is-first-wrong{border-color:#703341;background:#351923;color:#ffabb2}
