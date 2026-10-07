@@ -1,0 +1,7368 @@
+CORE_WORD_CARDS_V1
+SUBJECT_KEY: brokerage_law
+SUBJECT: 공인중개사법령 및 중개실무
+COUNT: 204
+STATUS: reviewed
+SOURCE: 3.공인중개사요약_중개사법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 법령
+SOURCE_PAGES: 1-28
+ORDER_RULE: 기본용어 → 자격·등록 → 사무소운영 → 중개계약·의무 → 보수·교육·행정처분 → 거래신고 → 중개실무·개별법
+BASIS_RULE: exam > summary > essential
+IMPORTANCE_RULE: 기출 10회 이상=5, 5~9회=4, 1~4회=3, 요약집만=2, 필수용어만=1
+
+# 이 TXT가 공인중개사법령 및 중개실무 핵심 단어 카드의 Source of Truth이다.
+# 카드 선정 우선순위는 ① 2021~2025 공식 기출에서 등장한 단어·개념 ② 업로드한 28쪽 핵심요약의 단어·개념 ③ 과목 학습에 필요한 필수 기본어 순이다.
+# EXAM_HIT_COUNT는 review/past-exams-v1/03_brokerage_law.txt의 문제+보기에서 제목/검색별칭이 등장한 문제 수를 계산한 보수적 문자열 빈도다.
+# 2026-10-08 현행 공인중개사법·시행령·시행규칙 및 부동산거래신고법을 교차검토했다.
+# 요약집의 과거 규정 중 현행법과 달라진 사항(한국공인중개사협회 체계, 실무교육 45시간, 거래신고 30일, 집행유예 결격, 최신 확인·설명 항목 등)은 현행법을 우선했다.
+# 개정 가능성이 높은 보증금·과태료·보수율 등 숫자는 기출 핵심성이 높은 경우를 제외하고 카드 본문에서 최소화했다.
+
+================================================================================
+ID: brk-card-001
+STATUS: APPROVED
+ORDER: 1
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 170
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-001 | 2021-32-second1-002 | 2021-32-second1-003 | 2021-32-second1-004 | 2021-32-second1-005 | 2021-32-second1-006 | 2021-32-second1-007 | 2021-32-second1-008 | 2021-32-second1-009 | 2021-32-second1-010
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+중개
+
+[부제]
+중개대상물의 권리 득실변경을 알선하는 것
+
+[검색어]
+
+
+[핵심]
+- 거래당사자 사이의 매매·교환·임대차 등 권리의 득실변경에 관한 행위를 알선
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-002
+STATUS: APPROVED
+ORDER: 2
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 49
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-001 | 2021-32-second1-005 | 2021-32-second1-011 | 2021-32-second1-013 | 2021-32-second1-028 | 2021-32-second1-029 | 2021-32-second1-030 | 2021-32-second1-031 | 2021-32-second1-036 | 2022-33-second1-001
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법 시행령」 제2조
+
+[제목]
+중개대상물
+
+[부제]
+공인중개사법이 정한 중개의 객체
+
+[검색어]
+
+
+[핵심]
+- 토지·건축물과 그 밖의 토지 정착물, 법률이 정한 입목·공장재단·광업재단 등이 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-003
+STATUS: APPROVED
+ORDER: 3
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 169
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-001 | 2021-32-second1-002 | 2021-32-second1-003 | 2021-32-second1-004 | 2021-32-second1-005 | 2021-32-second1-006 | 2021-32-second1-007 | 2021-32-second1-008 | 2021-32-second1-009 | 2021-32-second1-010
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+공인중개사
+
+[부제]
+공인중개사 자격을 취득한 사람
+
+[검색어]
+
+
+[핵심]
+- 자격 취득과 중개사무소 개설등록은 서로 다른 개념
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-004
+STATUS: APPROVED
+ORDER: 4
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 30
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-015 | 2021-32-second1-017 | 2021-32-second1-021 | 2021-32-second1-023 | 2021-32-second1-028 | 2021-32-second1-031 | 2021-32-second1-033 | 2022-33-second1-001 | 2022-33-second1-003 | 2022-33-second1-006
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+중개업
+
+[부제]
+보수를 받고 다른 사람의 의뢰로 중개를 업으로 하는 것
+
+[검색어]
+
+
+[핵심]
+- 등록 여부와 별개로 반복·계속적인 중개 영업행위의 성격을 판단
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-005
+STATUS: APPROVED
+ORDER: 5
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 135
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-003 | 2021-32-second1-004 | 2021-32-second1-005 | 2021-32-second1-006 | 2021-32-second1-007 | 2021-32-second1-008 | 2021-32-second1-010 | 2021-32-second1-012 | 2021-32-second1-013 | 2021-32-second1-015
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+개업공인중개사
+
+[부제]
+중개사무소 개설등록을 한 사람 또는 법인
+
+[검색어]
+
+
+[핵심]
+- 공인중개사 자격만 가진 사람과 구별
+- 중개업무의 법정 의무 주체가 됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-006
+STATUS: APPROVED
+ORDER: 6
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 24
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-005 | 2021-32-second1-007 | 2021-32-second1-008 | 2021-32-second1-013 | 2021-32-second1-019 | 2021-32-second1-030 | 2022-33-second1-001 | 2022-33-second1-006 | 2022-33-second1-012 | 2023-34-second1-007
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+소속공인중개사
+
+[부제]
+개업공인중개사에 소속되어 중개업무를 수행·보조하는 공인중개사
+
+[검색어]
+
+
+[핵심]
+- 법인인 개업공인중개사의 사원·임원인 공인중개사도 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-007
+STATUS: APPROVED
+ORDER: 7
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 12
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-005 | 2021-32-second1-007 | 2022-33-second1-001 | 2022-33-second1-006 | 2023-34-second1-003 | 2023-34-second1-007 | 2023-34-second1-017 | 2024-35-2-1-005 | 2024-35-2-1-006 | 2025-36-second1-003
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+중개보조원
+
+[부제]
+현장안내·일반서무 등 단순 업무를 보조하는 비공인중개사
+
+[검색어]
+
+
+[핵심]
+- 중개행위 자체를 할 수 없고 단순 보조업무만 수행
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-008
+STATUS: APPROVED
+ORDER: 8
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|essential
+EXAM_HIT_COUNT: 27
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-007 | 2021-32-second1-016 | 2021-32-second1-017 | 2021-32-second1-018 | 2021-32-second1-021 | 2021-32-second1-024 | 2021-32-second1-026 | 2021-32-second1-030 | 2021-32-second1-031 | 2021-32-second1-033
+IMPORTANCE: 5
+SOURCE_KIND: official
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제9조
+
+[제목]
+등록관청
+
+[부제]
+중개사무소 개설등록을 담당하는 관할 시장·군수·구청장
+
+[검색어]
+
+
+[핵심]
+- 중개사무소를 두려는 지역의 관할 행정청이 등록관청이 됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-009
+STATUS: APPROVED
+ORDER: 9
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-002 | 2022-33-second1-003 | 2023-34-second1-002 | 2024-35-2-1-001
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p2 + 국가법령정보센터 「공인중개사법 시행령」 제1조의2
+
+[제목]
+공인중개사 정책심의위원회
+
+[부제]
+자격취득·중개업 육성·보수·손해배상 보장 등을 심의
+
+[검색어]
+정책심의위원회 | 심의위원회
+
+[핵심]
+- 국토교통부에 설치
+- 현행 위원장은 국토교통부 제1차관
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-010
+STATUS: APPROVED
+ORDER: 10
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 15
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-008 | 2021-32-second1-010 | 2021-32-second1-015 | 2021-32-second1-033 | 2022-33-second1-006 | 2023-34-second1-001 | 2023-34-second1-016 | 2023-34-second1-024 | 2024-35-2-1-002 | 2024-35-2-1-003
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 
+
+[제목]
+법인인 개업공인중개사
+
+[부제]
+법인 형태로 개설등록한 개업공인중개사
+
+[검색어]
+
+
+[핵심]
+- 법인 등록기준과 겸업범위, 분사무소 규정이 별도로 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-011
+STATUS: APPROVED
+ORDER: 11
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 
+
+[제목]
+지역농업협동조합의 중개
+
+[부제]
+법률상 특례에 따라 농지 거래 등을 중개하는 경우
+
+[검색어]
+지역농협 중개
+
+[핵심]
+- 일반 개업공인중개사와 등록기준·중개범위가 동일하지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-012
+STATUS: APPROVED
+ORDER: 12
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조
+
+[제목]
+중개보조원 업무범위
+
+[부제]
+현장안내·일반서무 등 단순 보조에 한정
+
+[검색어]
+
+
+[핵심]
+- 확인·설명, 거래조건 조율, 계약서 작성 같은 중개행위는 할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-013
+STATUS: APPROVED
+ORDER: 13
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-033
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제18조의4
+
+[제목]
+중개보조원 고지의무
+
+[부제]
+현장안내 등 보조 시 신분을 미리 알리는 의무
+
+[검색어]
+신분 고지
+
+[핵심]
+- 중개보조원은 업무를 보조할 때 중개의뢰인에게 자신이 중개보조원임을 미리 알려야 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-014
+STATUS: APPROVED
+ORDER: 14
+TYPE: term
+CATEGORY: 공인중개사법·총칙
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·총칙
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제15조 제3항
+
+[제목]
+중개보조원 수 제한
+
+[부제]
+고용 가능한 중개보조원 수의 법정 상한
+
+[검색어]
+5배 제한
+
+[핵심]
+- 개업공인중개사와 소속공인중개사를 합한 수의 5배를 초과할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-015
+STATUS: APPROVED
+ORDER: 15
+TYPE: term
+CATEGORY: 공인중개사법·자격
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·자격
+SOURCE_REF: 
+
+[제목]
+시험시행기관장
+
+[부제]
+공인중개사 자격시험을 시행하는 법정 기관장
+
+[검색어]
+
+
+[핵심]
+- 시·도지사 또는 법정 요건에서 국토교통부장관이 시험을 시행
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-016
+STATUS: APPROVED
+ORDER: 16
+TYPE: term
+CATEGORY: 공인중개사법·자격
+BASIS: exam|summary
+EXAM_HIT_COUNT: 16
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-007 | 2021-32-second1-008 | 2021-32-second1-023 | 2021-32-second1-028 | 2022-33-second1-004 | 2022-33-second1-020 | 2022-33-second1-021 | 2023-34-second1-001 | 2023-34-second1-008 | 2023-34-second1-016
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·자격
+SOURCE_REF: 
+
+[제목]
+공인중개사자격증
+
+[부제]
+공인중개사 자격 취득을 증명하는 자격증
+
+[검색어]
+
+
+[핵심]
+- 자격증 자체의 양도·대여·부정사용이 금지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-017
+STATUS: APPROVED
+ORDER: 17
+TYPE: term
+CATEGORY: 공인중개사법·자격
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·자격
+SOURCE_REF: 
+
+[제목]
+자격증 양도·대여 금지
+
+[부제]
+자기 자격증을 남에게 넘기거나 빌려주는 행위 금지
+
+[검색어]
+자격증 대여
+
+[핵심]
+- 양도·대여뿐 아니라 다른 사람의 자격증을 양수·대여받아 사용하는 행위도 금지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-018
+STATUS: APPROVED
+ORDER: 18
+TYPE: term
+CATEGORY: 공인중개사법·자격
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-021 | 2023-34-second1-024 | 2025-36-second1-027
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·자격
+SOURCE_REF: 
+
+[제목]
+자격취소
+
+[부제]
+공인중개사 자격 자체를 박탈하는 행정처분
+
+[검색어]
+
+
+[핵심]
+- 부정취득·자격증 양도대여·정지기간 중 업무 등 법정 사유에서 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-019
+STATUS: APPROVED
+ORDER: 19
+TYPE: term
+CATEGORY: 공인중개사법·자격
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-023 | 2021-32-second1-030 | 2023-34-second1-022 | 2023-34-second1-024 | 2025-36-second1-016 | 2025-36-second1-027
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·자격
+SOURCE_REF: 
+
+[제목]
+자격정지
+
+[부제]
+소속공인중개사의 자격 효력을 일정 기간 정지하는 처분
+
+[검색어]
+
+
+[핵심]
+- 자격은 유지되지만 정지기간 중 중개업무 종사가 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-020
+STATUS: APPROVED
+ORDER: 20
+TYPE: term
+CATEGORY: 공인중개사법·자격
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 공인중개사법·자격
+SOURCE_REF: 
+
+[제목]
+자격취소 청문
+
+[부제]
+자격취소 전에 거치는 의견청취 절차
+
+[검색어]
+
+
+[핵심]
+- 자격취소는 법정 청문 대상
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-021
+STATUS: APPROVED
+ORDER: 21
+TYPE: term
+CATEGORY: 공인중개사법·개설등록
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-009 | 2021-32-second1-019 | 2021-32-second1-025 | 2022-33-second1-005 | 2022-33-second1-035 | 2023-34-second1-005 | 2023-34-second1-009 | 2025-36-second1-004
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·개설등록
+SOURCE_REF: 
+
+[제목]
+중개사무소 개설등록
+
+[부제]
+중개업을 영위하기 위한 등록관청의 등록
+
+[검색어]
+
+
+[핵심]
+- 공인중개사 또는 법인이 법정 요건을 갖춰 등록관청에 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-022
+STATUS: APPROVED
+ORDER: 22
+TYPE: term
+CATEGORY: 공인중개사법·개설등록
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second1-019
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·개설등록
+SOURCE_REF: 
+
+[제목]
+개설등록 기준
+
+[부제]
+개설등록을 위해 갖춰야 하는 인적·교육·사무소 등 요건
+
+[검색어]
+
+
+[핵심]
+- 공인중개사 또는 법인, 결격사유 없음, 교육이수, 사무소 확보 등이 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-023
+STATUS: APPROVED
+ORDER: 23
+TYPE: term
+CATEGORY: 공인중개사법·개설등록
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·개설등록
+SOURCE_REF: 
+
+[제목]
+법인 등록기준
+
+[부제]
+법인인 개업공인중개사의 추가 개설등록 요건
+
+[검색어]
+
+
+[핵심]
+- 자본금·대표자·임원 또는 사원의 자격 등 시행령상 별도 기준을 충족
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-024
+STATUS: APPROVED
+ORDER: 24
+TYPE: term
+CATEGORY: 공인중개사법·개설등록
+BASIS: exam|summary
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-008 | 2021-32-second1-016 | 2021-32-second1-017 | 2023-34-second1-001 | 2023-34-second1-011 | 2023-34-second1-019 | 2024-35-2-1-003 | 2025-36-second1-009 | 2025-36-second1-018 | 2025-36-second1-020
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·개설등록
+SOURCE_REF: 
+
+[제목]
+중개사무소등록증
+
+[부제]
+개설등록 사실을 증명하는 등록증
+
+[검색어]
+
+
+[핵심]
+- 등록증 대여·양수·사용 금지 및 게시·반납 의무가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-025
+STATUS: APPROVED
+ORDER: 25
+TYPE: term
+CATEGORY: 공인중개사법·개설등록
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-005 | 2025-36-second1-003
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·개설등록
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p3 + 국가법령정보센터 「공인중개사법」 제10조
+
+[제목]
+등록의 결격사유
+
+[부제]
+중개사무소 개설등록을 할 수 없게 하는 법정 사유
+
+[검색어]
+결격사유
+
+[핵심]
+- 미성년자, 피성년후견인·피한정후견인, 일정 형사처분·행정처분 이력 등이 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-026
+STATUS: APPROVED
+ORDER: 26
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+이중 개설등록
+
+[부제]
+한 사람이 둘 이상의 중개사무소 개설등록을 하는 금지행위
+
+[검색어]
+
+
+[핵심]
+- 이중 개설등록은 등록취소 사유가 될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-027
+STATUS: APPROVED
+ORDER: 27
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 16
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-008 | 2021-32-second1-015 | 2021-32-second1-033 | 2022-33-second1-006 | 2023-34-second1-004 | 2023-34-second1-005 | 2023-34-second1-009 | 2023-34-second1-010 | 2023-34-second1-011 | 2023-34-second1-016
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+분사무소
+
+[부제]
+법인인 개업공인중개사가 설치할 수 있는 종된 사무소
+
+[검색어]
+
+
+[핵심]
+- 법정 요건과 설치신고를 거쳐야 하며 책임자를 둠
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-028
+STATUS: APPROVED
+ORDER: 28
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-second1-004
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+분사무소 설치신고
+
+[부제]
+법인인 개업공인중개사의 분사무소 설치에 필요한 신고
+
+[검색어]
+
+
+[핵심]
+- 주된 사무소 관할 등록관청을 통한 법정 신고절차가 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-029
+STATUS: APPROVED
+ORDER: 29
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+중개사무소 공동사용
+
+[부제]
+둘 이상의 개업공인중개사가 같은 사무소를 함께 사용하는 것
+
+[검색어]
+
+
+[핵심]
+- 다른 개업공인중개사의 승낙서가 필요한 경우와 업무정지 중 제한을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-030
+STATUS: APPROVED
+ORDER: 30
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-006 | 2022-33-second1-013 | 2023-34-second1-004 | 2024-35-2-1-014 | 2025-36-second1-006
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+임시 중개시설물
+
+[부제]
+천막 등 이동이 쉬운 일시적 중개시설
+
+[검색어]
+
+
+[핵심]
+- 개업공인중개사는 임시 중개시설물을 설치할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-031
+STATUS: APPROVED
+ORDER: 31
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+중개사무소 명칭
+
+[부제]
+법이 요구하거나 제한하는 중개사무소 명칭 표시
+
+[검색어]
+
+
+[핵심]
+- 개업공인중개사인지 여부에 따라 사용 가능한 명칭이 달라짐
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-032
+STATUS: APPROVED
+ORDER: 32
+TYPE: term
+CATEGORY: 공인중개사법·표시광고
+BASIS: exam|essential
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-005 | 2021-32-second1-031 | 2021-32-second1-036 | 2022-33-second1-006 | 2023-34-second1-021 | 2024-35-2-1-021 | 2025-36-second1-005 | 2025-36-second1-007 | 2025-36-second1-023
+IMPORTANCE: 4
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·표시광고
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제18조의2 + 국가법령정보센터 「공인중개사법 시행령」 제17조의2
+
+[제목]
+중개대상물 표시·광고
+
+[부제]
+의뢰받은 중개대상물을 표시·광고할 때의 법정 의무
+
+[검색어]
+표시ㆍ광고 | 표시·광고 | 표시광고
+
+[핵심]
+- 중개사무소 명칭·소재지·연락처·등록번호와 개업공인중개사 성명 등 법정사항을 명시
+- 중개보조원에 관한 사항은 명시할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-033
+STATUS: APPROVED
+ORDER: 33
+TYPE: term
+CATEGORY: 공인중개사법·표시광고
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·표시광고
+SOURCE_REF: 국가법령정보센터 「공인중개사법 시행령」 제17조의2
+
+[제목]
+인터넷 중개대상물 표시·광고
+
+[부제]
+인터넷 광고에 추가로 요구되는 중개대상물 정보
+
+[검색어]
+인터넷 표시광고
+
+[핵심]
+- 소재지·면적·가격·종류·거래형태 등 시행령상 사항을 추가로 명시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-034
+STATUS: APPROVED
+ORDER: 34
+TYPE: term
+CATEGORY: 공인중개사법·표시광고
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second1-005
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·표시광고
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제18조의2
+
+[제목]
+부당한 표시·광고
+
+[부제]
+허위매물·거짓·과장 등 법이 금지하는 광고
+
+[검색어]
+부당광고 | 허위매물 | 부당한 표시
+
+[핵심]
+- 존재하지 않아 거래할 수 없는 매물 광고, 거짓·과장 광고 등이 금지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-035
+STATUS: APPROVED
+ORDER: 35
+TYPE: term
+CATEGORY: 공인중개사법·표시광고
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-005
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·표시광고
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제18조의3
+
+[제목]
+표시·광고 모니터링
+
+[부제]
+인터넷 중개대상물 광고의 법 위반 여부를 점검하는 제도
+
+[검색어]
+인터넷 표시·광고 모니터링 | 인터넷 표시광고 모니터링
+
+[핵심]
+- 국토교통부장관은 법정 기관에 모니터링 업무를 위탁할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-036
+STATUS: APPROVED
+ORDER: 36
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+등록증 대여 금지
+
+[부제]
+중개사무소등록증을 양도·대여하거나 타인 명의로 영업하는 행위 금지
+
+[검색어]
+중개사무소등록증 대여
+
+[핵심]
+- 성명·상호를 사용하게 하거나 등록증을 양도·대여하는 행위를 금지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-037
+STATUS: APPROVED
+ORDER: 37
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-second1-011
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+중개사무소 이전신고
+
+[부제]
+중개사무소를 옮긴 뒤 등록관청에 하는 신고
+
+[검색어]
+
+
+[핵심]
+- 관할 변경 여부에 따라 등록증 재교부 절차를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-038
+STATUS: APPROVED
+ORDER: 38
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2023|2024|2025
+EXAM_SAMPLE_REFS: 2023-34-second1-010 | 2024-35-2-1-016 | 2025-36-second1-004
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+인장등록
+
+[부제]
+개업공인중개사·소속공인중개사의 업무용 인장 등록
+
+[검색어]
+인장의 등록
+
+[핵심]
+- 업무 개시 전 등록하고 확인·설명서와 거래계약서에 등록인장을 사용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-039
+STATUS: APPROVED
+ORDER: 39
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+등록인장 사용의무
+
+[부제]
+법정 서류에는 등록된 인장을 사용해야 하는 의무
+
+[검색어]
+
+
+[핵심]
+- 미등록 인장 사용은 행정처분 사유가 될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-040
+STATUS: APPROVED
+ORDER: 40
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-018 | 2021-32-second1-031 | 2024-35-2-1-003
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+휴업신고
+
+[부제]
+법정 기간을 초과해 중개업을 쉬는 경우의 신고
+
+[검색어]
+
+
+[핵심]
+- 장기 휴업 시 미리 등록관청에 신고해야 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-041
+STATUS: APPROVED
+ORDER: 41
+TYPE: term
+CATEGORY: 공인중개사법·사무소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 11
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-018 | 2021-32-second1-021 | 2021-32-second1-024 | 2022-33-second1-018 | 2022-33-second1-035 | 2023-34-second1-009 | 2023-34-second1-017 | 2023-34-second1-023 | 2025-36-second1-009 | 2025-36-second1-035
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 공인중개사법·사무소
+SOURCE_REF: 
+
+[제목]
+폐업신고
+
+[부제]
+중개업을 그만둘 때 등록관청에 하는 신고
+
+[검색어]
+폐업
+
+[핵심]
+- 폐업은 이후 행정처분 승계와 재등록 문제에도 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-042
+STATUS: APPROVED
+ORDER: 42
+TYPE: term
+CATEGORY: 공인중개사법·고용
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-007 | 2021-32-second1-013 | 2024-35-2-1-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 공인중개사법·고용
+SOURCE_REF: 
+
+[제목]
+고용신고
+
+[부제]
+소속공인중개사·중개보조원을 고용할 때 등록관청에 하는 신고
+
+[검색어]
+
+
+[핵심]
+- 업무 개시 전 신고와 교육이수 여부가 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-043
+STATUS: APPROVED
+ORDER: 43
+TYPE: term
+CATEGORY: 공인중개사법·고용
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 공인중개사법·고용
+SOURCE_REF: 
+
+[제목]
+고용관계 종료신고
+
+[부제]
+소속공인중개사·중개보조원의 고용 종료를 알리는 신고
+
+[검색어]
+
+
+[핵심]
+- 고용 종료 후 법정 기한 내 등록관청에 신고
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-044
+STATUS: APPROVED
+ORDER: 44
+TYPE: term
+CATEGORY: 공인중개사법·고용
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 5
+SOURCE_SECTION: 공인중개사법·고용
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p5 + 국가법령정보센터 「공인중개사법」 제15조
+
+[제목]
+고용인 업무행위 귀속
+
+[부제]
+고용인의 업무상 행위를 개업공인중개사의 행위로 보는 원칙
+
+[검색어]
+
+
+[핵심]
+- 소속공인중개사·중개보조원의 업무상 행위는 고용한 개업공인중개사의 행위로 봄
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-045
+STATUS: APPROVED
+ORDER: 45
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+법인 겸업범위
+
+[부제]
+법인인 개업공인중개사가 함께 할 수 있는 법정 업무
+
+[검색어]
+
+
+[핵심]
+- 부동산 관리대행·이용개발 상담·분양대행 등 법정 범위 안에서 겸업
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-046
+STATUS: APPROVED
+ORDER: 46
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+부동산 관리대행
+
+[부제]
+법인인 개업공인중개사의 허용 겸업 중 하나
+
+[검색어]
+
+
+[핵심]
+- 상업용 건축물·주택 등의 관리대행이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-047
+STATUS: APPROVED
+ORDER: 47
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+부동산 이용·개발 상담
+
+[부제]
+부동산 이용·개발 및 거래에 관한 상담업무
+
+[검색어]
+
+
+[핵심]
+- 법인인 개업공인중개사의 법정 겸업범위에 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-048
+STATUS: APPROVED
+ORDER: 48
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-010 | 2023-34-second1-001 | 2024-35-2-1-002 | 2025-36-second1-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+분양대행
+
+[부제]
+상업용 건축물·주택 등의 분양을 대신 수행하는 업무
+
+[검색어]
+
+
+[핵심]
+- 법인인 개업공인중개사의 법정 겸업범위와 대상물 범위를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-049
+STATUS: APPROVED
+ORDER: 49
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+경매·공매 권리분석
+
+[부제]
+경매·공매 부동산의 권리관계를 분석하는 업무
+
+[검색어]
+
+
+[핵심]
+- 법정 겸업범위에 포함되며 매수신청대리와는 별도 요건
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-050
+STATUS: APPROVED
+ORDER: 50
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-012 | 2022-33-second1-030 | 2022-33-second1-035 | 2023-34-second1-027 | 2023-34-second1-032 | 2024-35-2-1-031 | 2025-36-second1-035 | 2025-36-second1-036
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p6 + 국가법령정보센터 「공인중개사법」 제14조
+
+[제목]
+매수신청·입찰신청 대리
+
+[부제]
+경매대상 부동산의 매수신청 또는 입찰신청을 대리하는 업무
+
+[검색어]
+입찰신청 대리 | 매수신청대리
+
+[핵심]
+- 대법원규칙상 요건을 갖춰 법원에 등록하고 감독을 받아야 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-051
+STATUS: APPROVED
+ORDER: 51
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+업무지역
+
+[부제]
+개업공인중개사가 중개업무를 수행할 수 있는 지역 범위
+
+[검색어]
+
+
+[핵심]
+- 공인중개사·법인인 개업공인중개사는 원칙적으로 지역 제한이 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-052
+STATUS: APPROVED
+ORDER: 52
+TYPE: term
+CATEGORY: 공인중개사법·업무범위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 공인중개사법·업무범위
+SOURCE_REF: 
+
+[제목]
+부칙상 개업공인중개사
+
+[부제]
+종전 법령에 따라 개설등록한 것으로 보는 사람
+
+[검색어]
+
+
+[핵심]
+- 일부 업무지역·겸업범위 등에 특례가 남아 있어 기출에서 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-053
+STATUS: APPROVED
+ORDER: 53
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: exam|summary
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-011 | 2021-32-second1-021 | 2022-33-second1-008 | 2022-33-second1-034 | 2022-33-second1-037 | 2023-34-second1-012 | 2024-35-2-1-010 | 2024-35-2-1-016 | 2025-36-second1-012 | 2025-36-second1-018
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+중개계약
+
+[부제]
+중개의뢰인과 개업공인중개사 사이의 중개 의뢰 계약
+
+[검색어]
+
+
+[핵심]
+- 낙성·불요식·쌍무·유상·비전형 계약으로 설명
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-054
+STATUS: APPROVED
+ORDER: 54
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-008 | 2022-33-second1-037 | 2023-34-second1-012 | 2024-35-2-1-010 | 2025-36-second1-012
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+일반중개계약
+
+[부제]
+여러 개업공인중개사에게 동시에 중개를 의뢰할 수 있는 형태
+
+[검색어]
+
+
+[핵심]
+- 먼저 거래를 성사시킨 개업공인중개사가 보수를 받는 일반적 형태
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-055
+STATUS: APPROVED
+ORDER: 55
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: exam|summary
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-011 | 2021-32-second1-021 | 2022-33-second1-008 | 2022-33-second1-034 | 2023-34-second1-012 | 2024-35-2-1-010 | 2024-35-2-1-016 | 2025-36-second1-012 | 2025-36-second1-018
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+전속중개계약
+
+[부제]
+특정 개업공인중개사에게 전속으로 중개를 의뢰하는 계약
+
+[검색어]
+
+
+[핵심]
+- 표준서식·정보공개·업무처리상황 통지 등 법정 의무가 따름
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-056
+STATUS: APPROVED
+ORDER: 56
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-021 | 2022-33-second1-008 | 2022-33-second1-034 | 2024-35-2-1-016 | 2025-36-second1-018
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+전속중개계약서
+
+[부제]
+전속중개계약에 사용하는 국토교통부령상 서식
+
+[검색어]
+
+
+[핵심]
+- 법정 서식을 사용하고 원본을 법정 기간 보존
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-057
+STATUS: APPROVED
+ORDER: 57
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+전속계약 정보공개
+
+[부제]
+전속중개계약 대상물 정보를 법정 매체에 공개하는 의무
+
+[검색어]
+
+
+[핵심]
+- 의뢰인이 비공개를 요청한 경우에는 공개하지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-058
+STATUS: APPROVED
+ORDER: 58
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+업무처리상황 통지
+
+[부제]
+전속중개계약에서 처리상황을 의뢰인에게 알리는 의무
+
+[검색어]
+
+
+[핵심]
+- 정기적으로 문서 통지해야 하는 전속계약 특유의 의무
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-059
+STATUS: APPROVED
+ORDER: 59
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+독점중개계약
+
+[부제]
+특정 중개업자에게 중개권을 독점적으로 부여하는 실무상 계약
+
+[검색어]
+
+
+[핵심]
+- 누가 거래를 성립시켰는지와 무관하게 독점권을 인정하는 형태
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-060
+STATUS: APPROVED
+ORDER: 60
+TYPE: term
+CATEGORY: 중개실무·중개계약
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 중개실무·중개계약
+SOURCE_REF: 
+
+[제목]
+순가중개계약
+
+[부제]
+의뢰인이 정한 순가 이상 초과분을 보수로 정하는 형태
+
+[검색어]
+
+
+[핵심]
+- 법정 중개보수를 초과하는 약정 부분의 효력은 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-061
+STATUS: APPROVED
+ORDER: 61
+TYPE: term
+CATEGORY: 공인중개사법·정보망
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-011 | 2021-32-second1-029 | 2021-32-second1-036 | 2022-33-second1-008 | 2022-33-second1-014 | 2024-35-2-1-011 | 2024-35-2-1-016 | 2025-36-second1-014
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 공인중개사법·정보망
+SOURCE_REF: 
+
+[제목]
+부동산거래정보망
+
+[부제]
+개업공인중개사 사이에 중개대상물 정보를 공개·공유하는 정보망
+
+[검색어]
+
+
+[핵심]
+- 국토교통부장관이 법정 요건을 갖춘 자를 거래정보사업자로 지정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-062
+STATUS: APPROVED
+ORDER: 62
+TYPE: term
+CATEGORY: 공인중개사법·정보망
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-014 | 2021-32-second1-036 | 2022-33-second1-014 | 2024-35-2-1-011 | 2024-35-2-1-016 | 2025-36-second1-014
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 공인중개사법·정보망
+SOURCE_REF: 
+
+[제목]
+거래정보사업자
+
+[부제]
+부동산거래정보망을 설치·운영하도록 지정받은 자
+
+[검색어]
+
+
+[핵심]
+- 지정요건·운영규정·정보공개 의무와 지정취소가 기출 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-063
+STATUS: APPROVED
+ORDER: 63
+TYPE: term
+CATEGORY: 공인중개사법·정보망
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 공인중개사법·정보망
+SOURCE_REF: 
+
+[제목]
+거래정보사업자 지정요건
+
+[부제]
+부동산거래정보망 사업자로 지정받기 위한 인적·설비 요건
+
+[검색어]
+
+
+[핵심]
+- 가입·이용 신청자 수, 전문인력, 정보처리설비 등 법정 요건을 충족
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-064
+STATUS: APPROVED
+ORDER: 64
+TYPE: term
+CATEGORY: 공인중개사법·정보망
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 공인중개사법·정보망
+SOURCE_REF: 
+
+[제목]
+정보망 운영규정
+
+[부제]
+거래정보사업자가 제정·승인받아야 하는 운영규정
+
+[검색어]
+
+
+[핵심]
+- 국토교통부장관의 승인 및 변경승인 대상
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-065
+STATUS: APPROVED
+ORDER: 65
+TYPE: term
+CATEGORY: 공인중개사법·정보망
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 공인중개사법·정보망
+SOURCE_REF: 
+
+[제목]
+거짓정보 공개금지
+
+[부제]
+개업공인중개사가 거래정보망에 거짓 정보를 올리지 않을 의무
+
+[검색어]
+
+
+[핵심]
+- 거짓 공개는 업무정지 등 제재와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-066
+STATUS: APPROVED
+ORDER: 66
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: exam|summary
+EXAM_HIT_COUNT: 21
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-011 | 2021-32-second1-013 | 2021-32-second1-029 | 2021-32-second1-030 | 2022-33-second1-009 | 2022-33-second1-012 | 2022-33-second1-033 | 2022-33-second1-034 | 2023-34-second1-014 | 2023-34-second1-022
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 8
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p8 + 국가법령정보센터 「공인중개사법」 제25조 + 국가법령정보센터 「공인중개사법 시행령」 제21조
+
+[제목]
+중개대상물 확인·설명
+
+[부제]
+개업공인중개사가 계약 전 권리·물적 상태 등을 확인해 설명하는 의무
+
+[검색어]
+확인ㆍ설명 | 확인·설명 | 확인설명
+
+[핵심]
+- 중개가 완성되기 전까지 권리를 취득하려는 의뢰인에게 성실·정확하게 설명
+- 근거자료를 제시해야 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-067
+STATUS: APPROVED
+ORDER: 67
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-013 | 2021-32-second1-029 | 2022-33-second1-009 | 2022-33-second1-012 | 2022-33-second1-033 | 2023-34-second1-014 | 2024-35-2-1-004 | 2024-35-2-1-016 | 2024-35-2-1-017 | 2024-35-2-1-019
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 8
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p8 + 국가법령정보센터 「공인중개사법 시행령」 제21조
+
+[제목]
+중개대상물 확인·설명서
+
+[부제]
+확인·설명 내용을 적어 거래당사자에게 발급하는 법정 서식
+
+[검색어]
+확인ㆍ설명서 | 확인·설명서 | 확인설명서
+
+[핵심]
+- 중개가 완성된 때 작성·발급하고 사본을 3년 보존
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-068
+STATUS: APPROVED
+ORDER: 68
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 
+
+[제목]
+대상물 기본사항
+
+[부제]
+종류·소재지·지번·지목·면적·용도·구조·건축연도 등
+
+[검색어]
+
+
+[핵심]
+- 확인·설명의 기본 확인사항
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-069
+STATUS: APPROVED
+ORDER: 69
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 
+
+[제목]
+권리관계 확인
+
+[부제]
+소유권·전세권·저당권·지상권·임차권 등 권리상태 조사
+
+[검색어]
+
+
+[핵심]
+- 등기사항증명서와 실제 권리관계를 함께 점검
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-070
+STATUS: APPROVED
+ORDER: 70
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: exam|essential
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-1-020 | 2025-36-second1-010
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제3호의2
+
+[제목]
+관리비 확인·설명
+
+[부제]
+주택 임대차 중개의 관리비 금액과 산출내역 설명
+
+[검색어]
+관리비 | 관리비 산출내역
+
+[핵심]
+- 2024년 시행령 개정으로 주택 임대차 확인·설명 항목에 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-071
+STATUS: APPROVED
+ORDER: 71
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 
+
+[제목]
+토지이용계획 확인
+
+[부제]
+공법상 거래규제·이용제한을 확인하는 사항
+
+[검색어]
+
+
+[핵심]
+- 용도지역·지구·구역 등 토지이용계획과 행위제한을 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-072
+STATUS: APPROVED
+ORDER: 72
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-033
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제10호
+
+[제목]
+임대인의 정보 제시 의무 안내
+
+[부제]
+주택 임대차 중 임대인의 법정 정보제시 의무를 설명
+
+[검색어]
+임대차 확인사항
+
+[핵심]
+- 주택임대차보호법상 정보제시 의무와 보증금 보호 사항을 설명
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-073
+STATUS: APPROVED
+ORDER: 73
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제11호
+
+[제목]
+전입세대확인서 안내
+
+[부제]
+주택 임대차 중 전입세대확인서 열람·교부에 관한 설명
+
+[검색어]
+전입세대확인서
+
+[핵심]
+- 주택 임대차 확인·설명에서 전입세대 확인 절차를 안내
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-074
+STATUS: APPROVED
+ORDER: 74
+TYPE: term
+CATEGORY: 공인중개사법·확인설명
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·확인설명
+SOURCE_REF: 국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제12호
+
+[제목]
+임대보증금 보증 안내
+
+[부제]
+민간임대주택의 임대보증금 보증 여부에 관한 설명
+
+[검색어]
+임대보증금 보증
+
+[핵심]
+- 민간임대주택인 경우 임대보증금 보증에 관한 사항을 확인·설명
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-075
+STATUS: APPROVED
+ORDER: 75
+TYPE: term
+CATEGORY: 공인중개사법·거래계약서
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-013 | 2021-32-second1-019 | 2021-32-second1-029 | 2022-33-second1-012 | 2023-34-second1-014 | 2023-34-second1-022 | 2023-34-second1-031 | 2024-35-2-1-006 | 2024-35-2-1-019 | 2025-36-second1-010
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 공인중개사법·거래계약서
+SOURCE_REF: 
+
+[제목]
+거래계약서
+
+[부제]
+중개가 완성된 때 거래내용을 작성해 당사자에게 교부하는 서류
+
+[검색어]
+
+
+[핵심]
+- 거래당사자 인적사항·물건표시·계약일·거래금액·인도일·권리이전 등 법정사항 기재
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-076
+STATUS: APPROVED
+ORDER: 76
+TYPE: term
+CATEGORY: 공인중개사법·거래계약서
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 9
+SOURCE_SECTION: 공인중개사법·거래계약서
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p9 + 국가법령정보센터 「공인중개사법 시행령」 제22조
+
+[제목]
+거래계약서 5년 보존
+
+[부제]
+거래계약서 사본·전자문서의 법정 보존기간
+
+[검색어]
+5년 보존
+
+[핵심]
+- 현행 시행령상 5년 보존
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-077
+STATUS: APPROVED
+ORDER: 77
+TYPE: term
+CATEGORY: 공인중개사법·거래계약서
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 공인중개사법·거래계약서
+SOURCE_REF: 
+
+[제목]
+거래계약서 필수기재사항
+
+[부제]
+거래계약서에 반드시 적어야 하는 법정 정보
+
+[검색어]
+
+
+[핵심]
+- 당사자·물건·계약일·금액·지급·인도·권리이전·조건기한·확인설명서 교부일 등을 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-078
+STATUS: APPROVED
+ORDER: 78
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+중개대상물 매매업 금지
+
+[부제]
+법정 중개대상물의 매매를 업으로 하는 금지행위
+
+[검색어]
+
+
+[핵심]
+- 개업공인중개사등의 법정 금지행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-079
+STATUS: APPROVED
+ORDER: 79
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+무등록 중개업자 이용 금지
+
+[부제]
+무등록 중개업자인 사실을 알면서 중개를 의뢰받거나 명의를 빌려주는 행위 금지
+
+[검색어]
+
+
+[핵심]
+- 무등록 영업과 결합한 중개행위를 차단
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-080
+STATUS: APPROVED
+ORDER: 80
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+중개보수 초과수수 금지
+
+[부제]
+법정 중개보수·실비를 초과해 금품을 받는 행위 금지
+
+[검색어]
+
+
+[핵심]
+- 사례·증여 등 명칭과 관계없이 초과수수 여부를 판단
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-081
+STATUS: APPROVED
+ORDER: 81
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+중요사항 거짓언행 금지
+
+[부제]
+거래상 중요사항에 거짓말 등으로 의뢰인의 판단을 흐리는 행위 금지
+
+[검색어]
+
+
+[핵심]
+- 거짓·기망적 중개행위를 규제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-082
+STATUS: APPROVED
+ORDER: 82
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+금지 증서 중개
+
+[부제]
+양도·알선이 금지된 분양·임대 관련 증서 등을 중개하는 행위 금지
+
+[검색어]
+
+
+[핵심]
+- 전매제한 등 관계법령상 금지된 권리·증서 거래와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-083
+STATUS: APPROVED
+ORDER: 83
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-028 | 2022-33-second1-015 | 2024-35-2-1-013 | 2025-36-second1-017
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+직접거래 금지
+
+[부제]
+개업공인중개사등이 중개의뢰인과 직접 거래하는 행위 금지
+
+[검색어]
+직접 거래
+
+[핵심]
+- 중립적 중개인의 지위를 해치는 대표 금지행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-084
+STATUS: APPROVED
+ORDER: 84
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+쌍방대리 금지
+
+[부제]
+거래당사자 양쪽을 동시에 대리하는 행위 금지
+
+[검색어]
+쌍방대리
+
+[핵심]
+- 일방 대리와 구별되는 법정 금지행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-085
+STATUS: APPROVED
+ORDER: 85
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 
+
+[제목]
+부동산투기 조장 금지
+
+[부제]
+탈세·전매제한 회피 등 투기를 조장하는 중개행위 금지
+
+[검색어]
+
+
+[핵심]
+- 미등기전매·권리변동 제한 부동산 등과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-086
+STATUS: APPROVED
+ORDER: 86
+TYPE: term
+CATEGORY: 공인중개사법·금지행위
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·금지행위
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제33조
+
+[제목]
+시세조작 금지
+
+[부제]
+거짓으로 거래가 완료된 것처럼 꾸며 시세에 부당한 영향을 주는 행위 금지
+
+[검색어]
+거래완료 가장행위
+
+[핵심]
+- 제3자에게 부당한 이익을 주거나 시세를 조작하는 행위를 규제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-087
+STATUS: APPROVED
+ORDER: 87
+TYPE: term
+CATEGORY: 공인중개사법·손해배상
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-013 | 2021-32-second1-015 | 2021-32-second1-024 | 2021-32-second1-026 | 2022-33-second1-003 | 2022-33-second1-011 | 2023-34-second1-015 | 2023-34-second1-019 | 2024-35-2-1-001 | 2024-35-2-1-006
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·손해배상
+SOURCE_REF: 
+
+[제목]
+개업공인중개사 손해배상책임
+
+[부제]
+중개행위로 거래당사자에게 재산상 손해를 입힌 경우의 책임
+
+[검색어]
+손해배상
+
+[핵심]
+- 고의·과실 있는 중개행위와 재산상 손해 사이 인과관계가 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-088
+STATUS: APPROVED
+ORDER: 88
+TYPE: term
+CATEGORY: 공인중개사법·손해배상
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·손해배상
+SOURCE_REF: 
+
+[제목]
+고용인 행위 책임
+
+[부제]
+소속공인중개사·중개보조원의 업무상 행위에 대한 사용자 책임
+
+[검색어]
+
+
+[핵심]
+- 고용인의 업무상 행위는 개업공인중개사의 행위로 봄
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-089
+STATUS: APPROVED
+ORDER: 89
+TYPE: term
+CATEGORY: 공인중개사법·업무보증
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·업무보증
+SOURCE_REF: 
+
+[제목]
+업무보증
+
+[부제]
+중개사고 손해배상을 보장하기 위한 보증조치
+
+[검색어]
+
+
+[핵심]
+- 보증보험·공제·공탁의 방식으로 업무 개시 전 설정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-090
+STATUS: APPROVED
+ORDER: 90
+TYPE: term
+CATEGORY: 공인중개사법·업무보증
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-026 | 2023-34-second1-015 | 2024-35-2-1-006 | 2024-35-2-1-007
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·업무보증
+SOURCE_REF: 
+
+[제목]
+보증보험
+
+[부제]
+업무보증을 설정하는 방법 중 보험회사 보증 방식
+
+[검색어]
+
+
+[핵심]
+- 손해배상책임 보장을 위한 법정 수단
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-091
+STATUS: APPROVED
+ORDER: 91
+TYPE: term
+CATEGORY: 공인중개사법·업무보증
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·업무보증
+SOURCE_REF: 
+
+[제목]
+공제 가입
+
+[부제]
+한국공인중개사협회 등의 공제에 가입해 업무보증을 설정하는 방식
+
+[검색어]
+
+
+[핵심]
+- 공제가입도 업무보증의 법정 방법
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-092
+STATUS: APPROVED
+ORDER: 92
+TYPE: term
+CATEGORY: 공인중개사법·업무보증
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2023
+EXAM_SAMPLE_REFS: 2021-32-second1-024 | 2023-34-second1-015
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·업무보증
+SOURCE_REF: 
+
+[제목]
+공탁
+
+[부제]
+금전을 공탁해 업무보증을 설정하는 방식
+
+[검색어]
+
+
+[핵심]
+- 폐업·사망 후 공탁금 회수 제한과 함께 출제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-093
+STATUS: APPROVED
+ORDER: 93
+TYPE: term
+CATEGORY: 공인중개사법·업무보증
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·업무보증
+SOURCE_REF: 
+
+[제목]
+업무보증 재설정
+
+[부제]
+보증기간 만료나 배상으로 보증액이 줄었을 때 다시 보장조치를 하는 것
+
+[검색어]
+
+
+[핵심]
+- 보증 공백이 없도록 법정 시기에 재설정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-094
+STATUS: APPROVED
+ORDER: 94
+TYPE: term
+CATEGORY: 공인중개사법·업무보증
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 공인중개사법·업무보증
+SOURCE_REF: 
+
+[제목]
+업무보증 설명의무
+
+[부제]
+거래당사자에게 보증내용을 설명하고 증서 사본 등을 제공하는 의무
+
+[검색어]
+
+
+[핵심]
+- 보증기관·보장금액 등 손해배상 보장 관계를 설명
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-095
+STATUS: APPROVED
+ORDER: 95
+TYPE: term
+CATEGORY: 공인중개사법·예치
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·예치
+SOURCE_REF: 
+
+[제목]
+계약금등 반환채무 이행보장
+
+[부제]
+거래대금 일부를 안전하게 예치하도록 권고하는 제도
+
+[검색어]
+
+
+[핵심]
+- 계약금·중도금·잔금의 안전한 반환·지급을 위해 예치제도를 활용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-096
+STATUS: APPROVED
+ORDER: 96
+TYPE: term
+CATEGORY: 공인중개사법·예치
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2024
+EXAM_SAMPLE_REFS: 2023-34-second1-018 | 2024-35-2-1-012
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·예치
+SOURCE_REF: 
+
+[제목]
+계약금등 예치
+
+[부제]
+계약이행 완료 전까지 금융기관·공제사업자·신탁업자 등에 금전을 맡기는 것
+
+[검색어]
+예치
+
+[핵심]
+- 개업공인중개사는 거래당사자에게 예치를 권고할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-097
+STATUS: APPROVED
+ORDER: 97
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: exam|summary
+EXAM_HIT_COUNT: 15
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-002 | 2022-33-second1-003 | 2022-33-second1-008 | 2022-33-second1-010 | 2022-33-second1-015 | 2022-33-second1-017 | 2022-33-second1-034 | 2022-33-second1-038 | 2023-34-second1-002 | 2023-34-second1-012
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+중개보수청구권
+
+[부제]
+중개완성을 전제로 개업공인중개사가 보수를 청구할 권리
+
+[검색어]
+중개보수
+
+[핵심]
+- 중개계약에서 발생하지만 보수청구는 거래 성립과 연결되는 정지조건부 성격
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-098
+STATUS: APPROVED
+ORDER: 98
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p12 + 국가법령정보센터 「공인중개사법 시행규칙」 제20조
+
+[제목]
+중개보수 한도
+
+[부제]
+법령·조례가 정한 상한 안에서 협의해 정하는 보수
+
+[검색어]
+
+
+[핵심]
+- 주택·오피스텔·그 밖의 부동산에 따라 상한 규율이 다름
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-099
+STATUS: APPROVED
+ORDER: 99
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+주택 중개보수
+
+[부제]
+주택 매매·교환·임대차 등에 적용되는 보수 체계
+
+[검색어]
+
+
+[핵심]
+- 국토교통부령의 범위 안에서 시·도 조례로 상한요율을 정함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-100
+STATUS: APPROVED
+ORDER: 100
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+주택 외 부동산 중개보수
+
+[부제]
+주택·특정 오피스텔 외 부동산의 보수
+
+[검색어]
+
+
+[핵심]
+- 법정 상한요율 이내에서 의뢰인과 개업공인중개사가 협의
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-101
+STATUS: APPROVED
+ORDER: 101
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+오피스텔 중개보수
+
+[부제]
+법정 요건을 갖춘 오피스텔에 적용되는 별도 보수 상한
+
+[검색어]
+
+
+[핵심]
+- 전용면적·시설 요건을 충족하는 오피스텔은 별도 상한요율 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-102
+STATUS: APPROVED
+ORDER: 102
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+중개보수 거래금액
+
+[부제]
+보수 산정의 기준이 되는 거래금액
+
+[검색어]
+
+
+[핵심]
+- 매매대금·임대차 보증금 및 월차임 환산액 등 거래유형별 기준
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-103
+STATUS: APPROVED
+ORDER: 103
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+월세 환산거래금액
+
+[부제]
+월차임이 있는 임대차의 중개보수 기준금액 산정
+
+[검색어]
+
+
+[핵심]
+- 보증금과 월차임을 법정 방식으로 환산해 거래금액을 계산
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-104
+STATUS: APPROVED
+ORDER: 104
+TYPE: term
+CATEGORY: 공인중개사법·보수
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024
+EXAM_SAMPLE_REFS: 2022-33-second1-017 | 2022-33-second1-038 | 2024-35-2-1-015
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 공인중개사법·보수
+SOURCE_REF: 
+
+[제목]
+실비
+
+[부제]
+권리관계 확인·계약금 반환채무 이행보장 등에 실제 든 비용
+
+[검색어]
+
+
+[핵심]
+- 중개보수와 별도로 법정 범위에서 청구할 수 있는 비용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-105
+STATUS: APPROVED
+ORDER: 105
+TYPE: term
+CATEGORY: 공인중개사법·교육
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-027 | 2023-34-second1-005 | 2023-34-second1-007 | 2023-34-second1-008 | 2023-34-second1-017 | 2024-35-2-1-004 | 2024-35-2-1-008
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·교육
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p13 + 국가법령정보센터 「공인중개사법 시행령」 제28조
+
+[제목]
+실무교육
+
+[부제]
+개설등록 신청자·소속공인중개사 등에게 요구되는 실무 중심 교육
+
+[검색어]
+
+
+[핵심]
+- 현행 시행령상 실무교육 시간은 45시간
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-106
+STATUS: APPROVED
+ORDER: 106
+TYPE: term
+CATEGORY: 공인중개사법·교육
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second1-007
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·교육
+SOURCE_REF: 
+
+[제목]
+직무교육
+
+[부제]
+중개보조원이 고용 신고 전에 받아야 하는 교육
+
+[검색어]
+
+
+[핵심]
+- 중개보조원 직업윤리·기본 직무를 위한 법정 교육
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-107
+STATUS: APPROVED
+ORDER: 107
+TYPE: term
+CATEGORY: 공인중개사법·교육
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-031 | 2023-34-second1-017 | 2023-34-second1-019 | 2024-35-2-1-004
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·교육
+SOURCE_REF: 
+
+[제목]
+연수교육
+
+[부제]
+실무교육을 받은 개업공인중개사·소속공인중개사의 정기교육
+
+[검색어]
+
+
+[핵심]
+- 실무교육 후 2년마다 받는 정기교육
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-108
+STATUS: APPROVED
+ORDER: 108
+TYPE: term
+CATEGORY: 공인중개사법·교육
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·교육
+SOURCE_REF: 
+
+[제목]
+부동산 거래사고 예방교육
+
+[부제]
+거래사고 예방을 위해 실시할 수 있는 별도 교육
+
+[검색어]
+
+
+[핵심]
+- 국토교통부장관·시도지사·등록관청이 법정 대상자에게 실시 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-109
+STATUS: APPROVED
+ORDER: 109
+TYPE: term
+CATEGORY: 공인중개사법·보칙
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-028 | 2021-32-second1-032 | 2022-33-second1-020 | 2023-34-second1-035 | 2025-36-second1-021
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·보칙
+SOURCE_REF: 
+
+[제목]
+포상금
+
+[부제]
+불법 중개행위를 신고·고발한 사람에게 지급하는 금전
+
+[검색어]
+
+
+[핵심]
+- 무등록 중개업·부정등록·자격증 또는 등록증 대여 등 법정 신고대상이 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-110
+STATUS: APPROVED
+ORDER: 110
+TYPE: term
+CATEGORY: 공인중개사법·보칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·보칙
+SOURCE_REF: 
+
+[제목]
+포상금 지급요건
+
+[부제]
+신고·고발 시점과 수사처분 등 포상금 수령 요건
+
+[검색어]
+
+
+[핵심]
+- 행정기관 적발 전 신고·고발 및 검사의 공소제기·기소유예 등 법정 요건을 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-111
+STATUS: APPROVED
+ORDER: 111
+TYPE: term
+CATEGORY: 공인중개사법·보칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 공인중개사법·보칙
+SOURCE_REF: 
+
+[제목]
+행정수수료
+
+[부제]
+자격시험·자격증 재교부·개설등록 등 행정절차에 부과되는 수수료
+
+[검색어]
+
+
+[핵심]
+- 조례·국토교통부장관 공고·위탁기관 결정 등 부과주체를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-112
+STATUS: APPROVED
+ORDER: 112
+TYPE: term
+CATEGORY: 행정법 기본어
+BASIS: exam|summary
+EXAM_HIT_COUNT: 27
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-012 | 2021-32-second1-020 | 2021-32-second1-032 | 2021-32-second1-037 | 2021-32-second1-038 | 2021-32-second1-039 | 2021-32-second1-040 | 2022-33-second1-006 | 2022-33-second1-007 | 2022-33-second1-022
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 행정법 기본어
+SOURCE_REF: 
+
+[제목]
+허가
+
+[부제]
+일반적 금지를 특정 요건 아래 해제하는 행정행위
+
+[검색어]
+
+
+[핵심]
+- 토지거래허가 등 중개실무에서 반복되는 기본 개념
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-113
+STATUS: APPROVED
+ORDER: 113
+TYPE: term
+CATEGORY: 행정법 기본어
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2024
+EXAM_SAMPLE_REFS: 2022-33-second1-028 | 2024-35-2-1-028
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 행정법 기본어
+SOURCE_REF: 
+
+[제목]
+인가
+
+[부제]
+사인의 법률행위를 보충해 효력을 완성시키는 행정행위
+
+[검색어]
+
+
+[핵심]
+- 정관 인가 등에서 허가와 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-114
+STATUS: APPROVED
+ORDER: 114
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: exam|essential
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-007 | 2021-32-second1-027 | 2022-33-second1-016 | 2023-34-second1-025 | 2024-35-2-1-005 | 2024-35-2-1-009 | 2024-35-2-1-012 | 2024-35-2-1-018 | 2024-35-2-1-021 | 2025-36-second1-019
+IMPORTANCE: 5
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제41조
+
+[제목]
+한국공인중개사협회
+
+[부제]
+2026년 개정법에 따라 법률로 설립되는 공인중개사 협회
+
+[검색어]
+공인중개사협회 | 협회
+
+[핵심]
+- 개업공인중개사의 자질향상·품위유지·제도개선 업무를 위해 설립
+- 2026년 8월 28일부터 현행 명칭·체계 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-115
+STATUS: APPROVED
+ORDER: 115
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제41조 제2항
+
+[제목]
+협회 정관 인가
+
+[부제]
+한국공인중개사협회 정관 제정·변경에 필요한 국토교통부장관 인가
+
+[검색어]
+
+
+[핵심]
+- 2026년 현행법 기준 정관 제정·변경 모두 인가 대상
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-116
+STATUS: APPROVED
+ORDER: 116
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제41조 제4항
+
+[제목]
+협회 중앙회·시도회·지회
+
+[부제]
+한국공인중개사협회의 지역 조직 체계
+
+[검색어]
+
+
+[핵심]
+- 중앙회, 시·도회, 시·군·구 지회 구조를 둘 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-117
+STATUS: APPROVED
+ORDER: 117
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 제41조의2
+
+[제목]
+협회 총회
+
+[부제]
+한국공인중개사협회의 의사결정기관
+
+[검색어]
+
+
+[핵심]
+- 현행법은 협회에 총회를 두고 구성 등은 정관에 위임
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-118
+STATUS: APPROVED
+ORDER: 118
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-027 | 2022-33-second1-016 | 2023-34-second1-025 | 2024-35-2-1-012 | 2024-35-2-1-018 | 2025-36-second1-019
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 
+
+[제목]
+공제사업
+
+[부제]
+개업공인중개사의 손해배상책임을 보장하는 협회의 사업
+
+[검색어]
+
+
+[핵심]
+- 공제기금 조성·공제금 지급 등 손해배상 보장 기능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-119
+STATUS: APPROVED
+ORDER: 119
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-016 | 2023-34-second1-025 | 2025-36-second1-019
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 
+
+[제목]
+공제규정
+
+[부제]
+공제사업 운영을 위한 협회의 규정
+
+[검색어]
+
+
+[핵심]
+- 제정·변경 시 국토교통부장관 승인 등 법정 절차를 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-120
+STATUS: APPROVED
+ORDER: 120
+TYPE: term
+CATEGORY: 공인중개사법·협회
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-027 | 2022-33-second1-016 | 2023-34-second1-025 | 2025-36-second1-019
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 공인중개사법·협회
+SOURCE_REF: 
+
+[제목]
+책임준비금
+
+[부제]
+공제금 지급 능력을 확보하기 위해 적립하는 준비금
+
+[검색어]
+
+
+[핵심]
+- 공제사업 건전성 확보를 위한 적립금
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-121
+STATUS: APPROVED
+ORDER: 121
+TYPE: term
+CATEGORY: 공인중개사법·행정처분
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-018 | 2025-36-second1-027
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·행정처분
+SOURCE_REF: 
+
+[제목]
+등록취소
+
+[부제]
+개업공인중개사의 개설등록을 없애는 행정처분
+
+[검색어]
+
+
+[핵심]
+- 반드시 취소해야 하는 사유와 취소할 수 있는 사유를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-122
+STATUS: APPROVED
+ORDER: 122
+TYPE: concept
+CATEGORY: 공인중개사법·행정처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·행정처분
+SOURCE_REF: 
+
+[제목]
+절대적 등록취소
+
+[부제]
+등록관청이 반드시 등록을 취소해야 하는 사유
+
+[검색어]
+
+
+[핵심]
+- 사망·해산, 부정등록, 이중등록, 등록증 대여 등 법정 사유가 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-123
+STATUS: APPROVED
+ORDER: 123
+TYPE: concept
+CATEGORY: 공인중개사법·행정처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·행정처분
+SOURCE_REF: 
+
+[제목]
+임의적 등록취소
+
+[부제]
+등록관청이 재량으로 등록을 취소할 수 있는 사유
+
+[검색어]
+
+
+[핵심]
+- 등록기준 미달·겸업위반·금지행위 등 법정 사유에서 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-124
+STATUS: APPROVED
+ORDER: 124
+TYPE: term
+CATEGORY: 공인중개사법·행정처분
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-021 | 2021-32-second1-024 | 2021-32-second1-029 | 2022-33-second1-008 | 2022-33-second1-013 | 2022-33-second1-018 | 2023-34-second1-009 | 2023-34-second1-011 | 2023-34-second1-015 | 2023-34-second1-023
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·행정처분
+SOURCE_REF: 
+
+[제목]
+업무정지
+
+[부제]
+개업공인중개사의 영업을 일정 기간 정지시키는 행정처분
+
+[검색어]
+
+
+[핵심]
+- 인장·서류·정보망 등 법정 의무 위반 시 업무정지 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-125
+STATUS: APPROVED
+ORDER: 125
+TYPE: term
+CATEGORY: 공인중개사법·행정처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·행정처분
+SOURCE_REF: 
+
+[제목]
+폐업 후 행정처분 승계
+
+[부제]
+폐업 전 위반행위가 재등록 후 일정 범위에서 이어지는 제도
+
+[검색어]
+
+
+[핵심]
+- 폐업으로 종전 위반행위의 행정책임을 무조건 피할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-126
+STATUS: APPROVED
+ORDER: 126
+TYPE: term
+CATEGORY: 공인중개사법·벌칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·벌칙
+SOURCE_REF: 
+
+[제목]
+행정형벌
+
+[부제]
+징역·벌금처럼 법원이 부과하는 형사제재
+
+[검색어]
+
+
+[핵심]
+- 무등록중개업·직접거래·쌍방대리 등 중대한 위반행위와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-127
+STATUS: APPROVED
+ORDER: 127
+TYPE: term
+CATEGORY: 공인중개사법·벌칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 공인중개사법·벌칙
+SOURCE_REF: 
+
+[제목]
+행정질서벌
+
+[부제]
+과태료처럼 행정법상 의무 위반에 부과되는 제재
+
+[검색어]
+
+
+[핵심]
+- 형사벌과 달리 과태료 부과주체와 대상행위를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-128
+STATUS: APPROVED
+ORDER: 128
+TYPE: term
+CATEGORY: 공인중개사법·벌칙
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-022
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 공인중개사법·벌칙
+SOURCE_REF: 국가법령정보센터 「공인중개사법」 부동산거래질서교란행위 신고센터 관련 조문
+
+[제목]
+부동산거래질서교란행위 신고센터
+
+[부제]
+거래질서를 해치는 행위를 신고받는 제도
+
+[검색어]
+신고센터
+
+[핵심]
+- 누구든지 법정 거래질서교란행위를 발견하면 신고센터에 신고 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-129
+STATUS: APPROVED
+ORDER: 129
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: exam|summary
+EXAM_HIT_COUNT: 40
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-020 | 2021-32-second1-032 | 2021-32-second1-034 | 2021-32-second1-035 | 2021-32-second1-037 | 2021-32-second1-038 | 2021-32-second1-039 | 2021-32-second1-040 | 2022-33-second1-007 | 2022-33-second1-022
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p16 + 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제3조
+
+[제목]
+부동산 거래신고
+
+[부제]
+부동산 매매 등 법정 계약의 실제 거래정보를 신고관청에 신고하는 제도
+
+[검색어]
+부동산거래신고 | 거래신고
+
+[핵심]
+- 거래가격 투명성 확보를 위한 실거래 신고제도
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-130
+STATUS: APPROVED
+ORDER: 130
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 대상
+
+[부제]
+토지·건축물 및 법정 분양권·입주권 등의 매매계약
+
+[검색어]
+
+
+[핵심]
+- 법에서 정한 부동산등의 매매계약이 신고대상
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-131
+STATUS: APPROVED
+ORDER: 131
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 의무자
+
+[부제]
+부동산 거래신고를 해야 하는 법정 주체
+
+[검색어]
+
+
+[핵심]
+- 직거래는 원칙적으로 거래당사자가 공동신고
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-132
+STATUS: APPROVED
+ORDER: 132
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+중개거래 신고의무자
+
+[부제]
+개업공인중개사가 중개한 거래의 신고주체
+
+[검색어]
+
+
+[핵심]
+- 개업공인중개사가 중개한 경우에는 개업공인중개사가 신고
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-133
+STATUS: APPROVED
+ORDER: 133
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: exam|essential
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-1-005 | 2024-35-2-1-025 | 2025-36-second1-037 | 2025-36-second1-039
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제3조
+
+[제목]
+거래신고 30일
+
+[부제]
+부동산 거래계약 체결일부터 적용되는 현행 신고기한
+
+[검색어]
+신고기한 | 30일 이내
+
+[핵심]
+- 현행 신고기한은 거래계약 체결일부터 30일 이내
+- 요약집의 과거 신고기한 대신 현행 법정기한을 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-134
+STATUS: APPROVED
+ORDER: 134
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 관청
+
+[부제]
+부동산 소재지를 관할하는 시장·군수·구청장
+
+[검색어]
+
+
+[핵심]
+- 중개사무소 소재지가 아니라 거래 부동산 소재지가 기준
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-135
+STATUS: APPROVED
+ORDER: 135
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 내용
+
+[부제]
+거래당사자·부동산·계약일·가격·지급일 등 신고사항
+
+[검색어]
+
+
+[핵심]
+- 중개거래이면 개업공인중개사 정보도 신고사항에 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-136
+STATUS: APPROVED
+ORDER: 136
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 단독신고
+
+[부제]
+상대방이 신고를 거부하는 경우 일방이 하는 신고
+
+[검색어]
+
+
+[핵심]
+- 법정 사유와 절차를 갖춰 공동신고의 예외로 단독신고 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-137
+STATUS: APPROVED
+ORDER: 137
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 대행
+
+[부제]
+신고의무자의 위임을 받은 자가 신고절차를 대신하는 것
+
+[검색어]
+
+
+[핵심]
+- 전자신고와 소속공인중개사의 대행 등 절차를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-138
+STATUS: APPROVED
+ORDER: 138
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 정정신청
+
+[부제]
+이미 신고한 내용이 잘못된 경우 바로잡는 절차
+
+[검색어]
+
+
+[핵심]
+- 정정 대상과 변경신고를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-139
+STATUS: APPROVED
+ORDER: 139
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 변경신고
+
+[부제]
+신고 후 계약내용이 법정 범위에서 변경된 경우 하는 신고
+
+[검색어]
+
+
+[핵심]
+- 잘못 기재한 정정과 사후 내용변경을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-140
+STATUS: APPROVED
+ORDER: 140
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래계약 해제등 신고
+
+[부제]
+거래가 무효·취소·해제된 경우 그 사실을 신고하는 절차
+
+[검색어]
+
+
+[핵심]
+- 원계약 신고 이후 계약소멸 사실을 신고
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-141
+STATUS: APPROVED
+ORDER: 141
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래가격검증체계
+
+[부제]
+신고된 부동산 거래가격의 적정성을 검증하는 시스템
+
+[검색어]
+
+
+[핵심]
+- 공시가격·가격정보 등을 활용해 신고가격을 검증
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-142
+STATUS: APPROVED
+ORDER: 142
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 
+
+[제목]
+거래신고 조사
+
+[부제]
+신고내용의 사실 여부를 확인하기 위한 자료제출 요구·조사
+
+[검색어]
+
+
+[핵심]
+- 신고관청의 조사권과 거래대금 지급증명자료 제출의무가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-143
+STATUS: APPROVED
+ORDER: 143
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 국가법령정보센터 「부동산 거래신고 등에 관한 법률 시행규칙」 제2조
+
+[제목]
+자금조달·입주계획서
+
+[부제]
+법정 주택거래 등에서 추가로 제출하는 자금조달·입주 계획자료
+
+[검색어]
+자금조달계획서 | 입주계획서
+
+[핵심]
+- 법정 대상 거래에서 거래신고와 함께 또는 법정 기한 내 별도 제출
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-144
+STATUS: APPROVED
+ORDER: 144
+TYPE: term
+CATEGORY: 부동산거래신고법·신고
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 부동산거래신고법·신고
+SOURCE_REF: 국가법령정보센터 「부동산 거래신고 등에 관한 법률 시행규칙」 제2조
+
+[제목]
+법인 주택거래 추가신고
+
+[부제]
+법인이 주택을 거래할 때 요구되는 추가 신고사항
+
+[검색어]
+법인신고서
+
+[핵심]
+- 법인 정보·거래목적 등 시행규칙상 추가 신고내용을 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-145
+STATUS: APPROVED
+ORDER: 145
+TYPE: term
+CATEGORY: 부동산거래신고법·임대차신고
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 부동산거래신고법·임대차신고
+SOURCE_REF: 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 주택 임대차 계약 신고 조문
+
+[제목]
+주택 임대차 계약 신고
+
+[부제]
+법정 대상 주택 임대차 계약의 신고제도
+
+[검색어]
+전월세 신고 | 임대차 신고
+
+[핵심]
+- 보증금·차임 등 법정 기준에 해당하는 임대차 계약을 신고
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-146
+STATUS: APPROVED
+ORDER: 146
+TYPE: term
+CATEGORY: 부동산거래신고법·외국인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 11
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-020 | 2021-32-second1-037 | 2022-33-second1-007 | 2022-33-second1-024 | 2022-33-second1-027 | 2022-33-second1-039 | 2023-34-second1-007 | 2023-34-second1-033 | 2024-35-2-1-026 | 2024-35-2-1-027
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 부동산거래신고법·외국인
+SOURCE_REF: 
+
+[제목]
+외국인등 부동산 취득신고
+
+[부제]
+외국인등이 국내 부동산등을 취득한 경우의 신고
+
+[검색어]
+외국인
+
+[핵심]
+- 계약에 의한 취득과 계약 외 취득의 신고기준을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-147
+STATUS: APPROVED
+ORDER: 147
+TYPE: term
+CATEGORY: 부동산거래신고법·토지허가
+BASIS: exam|summary
+EXAM_HIT_COUNT: 12
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-020 | 2021-32-second1-039 | 2021-32-second1-040 | 2022-33-second1-007 | 2022-33-second1-024 | 2022-33-second1-026 | 2022-33-second1-028 | 2023-34-second1-034 | 2023-34-second1-039 | 2024-35-2-1-022
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 부동산거래신고법·토지허가
+SOURCE_REF: 
+
+[제목]
+토지거래허가구역
+
+[부제]
+투기적 토지거래를 억제하기 위해 지정하는 구역
+
+[검색어]
+토지거래허가
+
+[핵심]
+- 법정 지정권자가 일정 기간 구역을 지정하고 허가제를 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-148
+STATUS: APPROVED
+ORDER: 148
+TYPE: term
+CATEGORY: 부동산거래신고법·토지허가
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-020 | 2021-32-second1-038 | 2021-32-second1-039 | 2021-32-second1-040 | 2022-33-second1-007 | 2022-33-second1-024 | 2022-33-second1-026 | 2022-33-second1-028 | 2023-34-second1-034 | 2023-34-second1-039
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 부동산거래신고법·토지허가
+SOURCE_REF: 
+
+[제목]
+토지거래계약 허가
+
+[부제]
+허가구역 안 일정 토지의 소유권·지상권 거래 등에 필요한 사전허가
+
+[검색어]
+토지거래허가
+
+[핵심]
+- 허가대상 계약과 증여·상속·경매 등 비허가 유형을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-149
+STATUS: APPROVED
+ORDER: 149
+TYPE: term
+CATEGORY: 부동산거래신고법·토지허가
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 부동산거래신고법·토지허가
+SOURCE_REF: 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제17조
+
+[제목]
+토지 이용의무
+
+[부제]
+허가받은 목적대로 토지를 일정 기간 이용해야 하는 의무
+
+[검색어]
+
+
+[핵심]
+- 허가받은 자는 법정 기간 동안 허가 목적에 맞게 토지를 이용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-150
+STATUS: APPROVED
+ORDER: 150
+TYPE: term
+CATEGORY: 부동산거래신고법·토지허가
+BASIS: exam|essential
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-038 | 2021-32-second1-039 | 2022-33-second1-025 | 2022-33-second1-028 | 2025-36-second1-028 | 2025-36-second1-037
+IMPORTANCE: 4
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 부동산거래신고법·토지허가
+SOURCE_REF: 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제18조
+
+[제목]
+토지이용 의무 이행강제금
+
+[부제]
+허가 목적대로 이용하지 않을 때 부과할 수 있는 금전 제재
+
+[검색어]
+이행강제금
+
+[핵심]
+- 이행명령 불이행 시 취득가액의 법정 범위에서 반복 부과 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-151
+STATUS: APPROVED
+ORDER: 151
+TYPE: term
+CATEGORY: 중개실무·총설
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 중개실무·총설
+SOURCE_REF: 
+
+[제목]
+중개실무 과정
+
+[부제]
+의뢰접수부터 계약이행까지 이어지는 중개업무 흐름
+
+[검색어]
+
+
+[핵심]
+- 의뢰접수 → 활동계획 → 조사확인 → 판매활동 → 중개완성 → 이행업무
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-152
+STATUS: APPROVED
+ORDER: 152
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-004 | 2024-35-2-1-031
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+등기사항증명서
+
+[부제]
+부동산의 표시와 등기된 권리관계를 확인하는 공부
+
+[검색어]
+
+
+[핵심]
+- 갑구·을구 권리와 순위관계 확인에 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-153
+STATUS: APPROVED
+ORDER: 153
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+토지대장·임야대장
+
+[부제]
+토지의 소재·지번·지목·면적 등을 확인하는 공부
+
+[검색어]
+토지대장 | 임야대장
+
+[핵심]
+- 토지의 물적 현황과 공시지가 등 기본정보 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-154
+STATUS: APPROVED
+ORDER: 154
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2023
+EXAM_SAMPLE_REFS: 2021-32-second1-016 | 2022-33-second1-019 | 2023-34-second1-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+건축물대장
+
+[부제]
+건축물의 구조·용도·면적·사용승인 등 현황을 확인하는 공부
+
+[검색어]
+
+
+[핵심]
+- 위반건축물 여부와 실제 현황 일치 여부 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-155
+STATUS: APPROVED
+ORDER: 155
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+지적도·임야도
+
+[부제]
+토지의 위치·경계·지형 등을 확인하는 도면
+
+[검색어]
+지적도 | 임야도
+
+[핵심]
+- 토지 경계와 지적형태를 공부상 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-156
+STATUS: APPROVED
+ORDER: 156
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+공유지연명부
+
+[부제]
+공유자의 지분과 변동사항을 확인하는 공부
+
+[검색어]
+
+
+[핵심]
+- 공유 토지의 공유자별 지분 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-157
+STATUS: APPROVED
+ORDER: 157
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+대지권등록부
+
+[부제]
+집합건물의 대지권 비율 등을 확인하는 공부
+
+[검색어]
+
+
+[핵심]
+- 전유부분과 대지권 관계를 조사할 때 사용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-158
+STATUS: APPROVED
+ORDER: 158
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+토지이용계획확인서
+
+[부제]
+용도지역·지구·구역과 행위제한·토지거래허가구역 등을 확인하는 서류
+
+[검색어]
+
+
+[핵심]
+- 공법상 이용제한과 거래규제를 확인하는 핵심 공부
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-159
+STATUS: APPROVED
+ORDER: 159
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+부동산종합증명서
+
+[부제]
+지적·건축·가격·등기 등 부동산 정보를 종합한 증명서
+
+[검색어]
+
+
+[핵심]
+- 다른 공부와의 내용 일치 여부 점검에 활용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-160
+STATUS: APPROVED
+ORDER: 160
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+후견등기사항증명서
+
+[부제]
+성년후견·한정후견 등 후견관계를 확인하는 서류
+
+[검색어]
+
+
+[핵심]
+- 거래당사자의 행위능력·대리권 확인에 활용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-161
+STATUS: APPROVED
+ORDER: 161
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+임장활동
+
+[부제]
+현장에 직접 나가 공부로 확인하기 어려운 사실을 조사하는 활동
+
+[검색어]
+
+
+[핵심]
+- 시설 상태·경계·환경·점유·법정지상권 징후 등을 현장에서 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-162
+STATUS: APPROVED
+ORDER: 162
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+공부와 실제의 일치 확인
+
+[부제]
+공적장부와 현실 현황이 같은지 대조하는 조사
+
+[검색어]
+
+
+[핵심]
+- 공부만 확인하는 것으로 끝나지 않고 현장상태를 대조
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-163
+STATUS: APPROVED
+ORDER: 163
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-second1-026
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+법정지상권 조사
+
+[부제]
+등기부만으로 확인되지 않을 수 있는 법정지상권 성립 가능성 조사
+
+[검색어]
+법정지상권
+
+[핵심]
+- 토지·건물 소유관계와 경매·처분 경위를 현장·자료로 종합 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-164
+STATUS: APPROVED
+ORDER: 164
+TYPE: term
+CATEGORY: 중개실무·조사확인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-004 | 2022-33-second1-040 | 2023-34-second1-038 | 2024-35-2-1-039 | 2025-36-second1-032
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 중개실무·조사확인
+SOURCE_REF: 
+
+[제목]
+분묘기지권
+
+[부제]
+타인 토지의 분묘기지를 사용할 수 있는 관습법상 권리
+
+[검색어]
+
+
+[핵심]
+- 등기 없이 성립할 수 있어 현장조사와 판례법리가 중요
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-165
+STATUS: APPROVED
+ORDER: 165
+TYPE: term
+CATEGORY: 중개실무·거래규제
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 중개실무·거래규제
+SOURCE_REF: 
+
+[제목]
+농지취득자격증명
+
+[부제]
+농지 소유권 취득등기에서 요구되는 법정 증명
+
+[검색어]
+
+
+[핵심]
+- 농지 취득 원인과 용도에 따라 필요 여부를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-166
+STATUS: APPROVED
+ORDER: 166
+TYPE: term
+CATEGORY: 중개실무·거래규제
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-034 | 2024-35-2-1-025
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 중개실무·거래규제
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p20
+
+[제목]
+투기과열지구
+
+[부제]
+주택가격 안정 등을 위해 지정되는 주택시장 규제지역
+
+[검색어]
+
+
+[핵심]
+- 분양권·입주권 전매제한 등 관련 규제를 중개 시 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-167
+STATUS: APPROVED
+ORDER: 167
+TYPE: term
+CATEGORY: 중개실무·거래규제
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-040 | 2023-34-second1-030 | 2023-34-second1-038 | 2024-35-2-1-040 | 2025-36-second1-039
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 중개실무·거래규제
+SOURCE_REF: 3.공인중개사요약_중개사법.pdf p19
+
+[제목]
+장사 등에 관한 법률
+
+[부제]
+묘지·분묘의 설치·관리 등에 관한 중개실무 관련 법률
+
+[검색어]
+장사 등에 관한 법령
+
+[핵심]
+- 묘지 설치·면적·신고·허가와 분묘기지권 관련 현장 확인에 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-168
+STATUS: APPROVED
+ORDER: 168
+TYPE: term
+CATEGORY: 중개실무·판매활동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 중개실무·판매활동
+SOURCE_REF: 
+
+[제목]
+AIDA 원리
+
+[부제]
+주목→흥미→욕망→행동의 판매활동 단계
+
+[검색어]
+AIDA
+
+[핵심]
+- Attention → Interest → Desire → Action
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-169
+STATUS: APPROVED
+ORDER: 169
+TYPE: term
+CATEGORY: 중개실무·판매활동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 중개실무·판매활동
+SOURCE_REF: 
+
+[제목]
+셀링 포인트
+
+[부제]
+중개대상물의 구매동기를 자극하는 핵심 장점
+
+[검색어]
+
+
+[핵심]
+- 법률적·경제적·기술적·사회환경적·정책적 측면에서 분석
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-170
+STATUS: APPROVED
+ORDER: 170
+TYPE: term
+CATEGORY: 중개실무·판매활동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 중개실무·판매활동
+SOURCE_REF: 
+
+[제목]
+클로우징
+
+[부제]
+고객의 의사결정을 이끌어 계약체결로 마무리하는 활동
+
+[검색어]
+
+
+[핵심]
+- 점진적 확인법·계약전제법 등 다양한 마무리 기법 사용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-171
+STATUS: APPROVED
+ORDER: 171
+TYPE: term
+CATEGORY: 개별법·등기실무
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-023 | 2024-35-2-1-025 | 2025-36-second1-024
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 개별법·등기실무
+SOURCE_REF: 
+
+[제목]
+부동산등기 특별조치법
+
+[부제]
+부동산 소유권등기 신청의무·검인 등을 규율하는 특별법
+
+[검색어]
+
+
+[핵심]
+- 소유권이전등기 신청기한과 미등기전매·검인제도가 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-172
+STATUS: APPROVED
+ORDER: 172
+TYPE: term
+CATEGORY: 개별법·등기실무
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 개별법·등기실무
+SOURCE_REF: 
+
+[제목]
+소유권이전등기 신청의무
+
+[부제]
+계약 이행 후 법정 기간 안에 이전등기를 신청하는 의무
+
+[검색어]
+
+
+[핵심]
+- 매매·교환 등 계약유형에 따라 기산점을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-173
+STATUS: APPROVED
+ORDER: 173
+TYPE: term
+CATEGORY: 개별법·등기실무
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 개별법·등기실무
+SOURCE_REF: 
+
+[제목]
+미등기전매
+
+[부제]
+자기 앞으로 이전등기하지 않고 다시 양도하는 거래
+
+[검색어]
+
+
+[핵심]
+- 법정 의무와 조세·규제 회피 목적 여부에 따라 제재가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-174
+STATUS: APPROVED
+ORDER: 174
+TYPE: term
+CATEGORY: 개별법·등기실무
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-023 | 2024-35-2-1-025 | 2025-36-second1-024
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 개별법·등기실무
+SOURCE_REF: 
+
+[제목]
+검인제도
+
+[부제]
+소유권이전등기 원인서면의 형식적 요건을 확인받는 제도
+
+[검색어]
+검인
+
+[핵심]
+- 검인 대상 계약서와 부동산거래신고·토지거래허가로 갈음되는 경우를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-175
+STATUS: APPROVED
+ORDER: 175
+TYPE: term
+CATEGORY: 개별법·실명법
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second1-029
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 개별법·실명법
+SOURCE_REF: 
+
+[제목]
+부동산실명법
+
+[부제]
+부동산 물권을 실권리자 명의로 등기하도록 하는 특별법
+
+[검색어]
+부동산 실권리자명의 등기에 관한 법률
+
+[핵심]
+- 명의신탁 금지와 실명등기의무·과징금·이행강제금 등을 규율
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-176
+STATUS: APPROVED
+ORDER: 176
+TYPE: term
+CATEGORY: 개별법·실명법
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-003 | 2022-33-second1-029 | 2023-34-second1-040 | 2025-36-second1-037
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 개별법·실명법
+SOURCE_REF: 
+
+[제목]
+명의신탁약정
+
+[부제]
+실권리자와 등기명의자를 다르게 하기로 하는 약정
+
+[검색어]
+명의신탁
+
+[핵심]
+- 부동산실명법상 원칙적으로 무효이며 제3자 보호규정이 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-177
+STATUS: APPROVED
+ORDER: 177
+TYPE: term
+CATEGORY: 개별법·실명법
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 개별법·실명법
+SOURCE_REF: 
+
+[제목]
+실명등기의무
+
+[부제]
+부동산 물권을 실제 권리자 명의로 등기할 의무
+
+[검색어]
+
+
+[핵심]
+- 명의신탁·장기미등기 규제의 중심 원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-178
+STATUS: APPROVED
+ORDER: 178
+TYPE: term
+CATEGORY: 개별법·실명법
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 개별법·실명법
+SOURCE_REF: 
+
+[제목]
+명의신탁 과징금
+
+[부제]
+실명법 위반 명의신탁자에게 부과되는 행정상 금전제재
+
+[검색어]
+
+
+[핵심]
+- 명의수탁자와 명의신탁자의 제재 구조를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-179
+STATUS: APPROVED
+ORDER: 179
+TYPE: term
+CATEGORY: 개별법·실명법
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 개별법·실명법
+SOURCE_REF: 
+
+[제목]
+실명등기 이행강제금
+
+[부제]
+과징금 후에도 실명등기를 하지 않을 때 추가 부과되는 제재
+
+[검색어]
+
+
+[핵심]
+- 실명등기 이행을 강제하기 위한 반복적 금전제재
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-180
+STATUS: APPROVED
+ORDER: 180
+TYPE: term
+CATEGORY: 개별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-022 | 2021-32-second1-035 | 2022-33-second1-032 | 2023-34-second1-029 | 2023-34-second1-037 | 2024-35-2-1-029 | 2024-35-2-1-034 | 2024-35-2-1-037 | 2025-36-second1-030 | 2025-36-second1-040
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 개별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+주택임대차보호법
+
+[부제]
+주거용 건물 임차인을 보호하는 특별법
+
+[검색어]
+
+
+[핵심]
+- 대항력·우선변제·계약갱신·임차권등기명령 등이 중개실무 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-181
+STATUS: APPROVED
+ORDER: 181
+TYPE: term
+CATEGORY: 개별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-032 | 2024-35-2-1-029 | 2024-35-2-1-034 | 2024-35-2-1-038 | 2025-36-second1-040
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 개별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+주택 임대차 대항력
+
+[부제]
+주택 인도와 주민등록을 갖춘 임차인이 제3자에게 임차권을 주장하는 효력
+
+[검색어]
+대항력
+
+[핵심]
+- 요건을 갖춘 다음 날부터 대항력이 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-182
+STATUS: APPROVED
+ORDER: 182
+TYPE: term
+CATEGORY: 개별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2023|2024
+EXAM_SAMPLE_REFS: 2022-33-second1-032 | 2023-34-second1-029 | 2024-35-2-1-029 | 2024-35-2-1-034 | 2024-35-2-1-038
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 개별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+주택 우선변제권
+
+[부제]
+대항요건과 확정일자를 갖춘 임차인의 우선배당 권리
+
+[검색어]
+우선변제권 | 확정일자
+
+[핵심]
+- 경매·공매 환가대금에서 후순위권리자보다 우선해 보증금 변제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-183
+STATUS: APPROVED
+ORDER: 183
+TYPE: term
+CATEGORY: 개별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-1-029 | 2024-35-2-1-034
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 개별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+주택 최우선변제권
+
+[부제]
+소액임차인의 보증금 중 일정액을 다른 담보권자보다 먼저 받는 권리
+
+[검색어]
+최우선변제권
+
+[핵심]
+- 금액기준은 개정될 수 있어 카드에는 구조만 유지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-184
+STATUS: APPROVED
+ORDER: 184
+TYPE: term
+CATEGORY: 개별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2024
+EXAM_SAMPLE_REFS: 2022-33-second1-032 | 2024-35-2-1-034
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 개별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+주택 임차권등기명령
+
+[부제]
+임대차 종료 후 보증금 미반환 시 임차권등기를 신청하는 제도
+
+[검색어]
+임차권등기명령
+
+[핵심]
+- 이사 후에도 기존 대항력·우선변제권을 보전하는 기능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-185
+STATUS: APPROVED
+ORDER: 185
+TYPE: term
+CATEGORY: 개별법·주택임대차
+BASIS: exam|essential
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-022 | 2022-33-second1-031 | 2022-33-second1-032 | 2024-35-2-1-037 | 2025-36-second1-033 | 2025-36-second1-038 | 2025-36-second1-040
+IMPORTANCE: 4
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 개별법·주택임대차
+SOURCE_REF: 국가법령정보센터 「주택임대차보호법」 제6조의3
+
+[제목]
+주택 계약갱신요구권
+
+[부제]
+주택임차인이 법정 요건에서 계약갱신을 요구할 수 있는 권리
+
+[검색어]
+계약갱신요구권
+
+[핵심]
+- 현행 주택임대차보호법의 계약갱신요구권 제도를 기준으로 학습
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-186
+STATUS: APPROVED
+ORDER: 186
+TYPE: term
+CATEGORY: 개별법·상가임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-038
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 개별법·상가임대차
+SOURCE_REF: 
+
+[제목]
+상가건물 임대차보호법
+
+[부제]
+상가건물 임차인을 보호하는 특별법
+
+[검색어]
+
+
+[핵심]
+- 대항력·우선변제·계약갱신·권리금 회수기회 보호가 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-187
+STATUS: APPROVED
+ORDER: 187
+TYPE: term
+CATEGORY: 개별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 개별법·상가임대차
+SOURCE_REF: 
+
+[제목]
+상가 임대차 대항력
+
+[부제]
+건물 인도와 사업자등록 신청으로 제3자에게 임차권을 주장하는 효력
+
+[검색어]
+상가 대항력
+
+[핵심]
+- 법정 요건을 갖춘 다음 날부터 대항력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-188
+STATUS: APPROVED
+ORDER: 188
+TYPE: term
+CATEGORY: 개별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 개별법·상가임대차
+SOURCE_REF: 
+
+[제목]
+상가 우선변제권
+
+[부제]
+대항요건과 확정일자를 갖춘 상가임차인의 우선배당 권리
+
+[검색어]
+상가임대차 우선변제권
+
+[핵심]
+- 법 적용범위와 우선변제요건을 함께 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-189
+STATUS: APPROVED
+ORDER: 189
+TYPE: term
+CATEGORY: 개별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 개별법·상가임대차
+SOURCE_REF: 
+
+[제목]
+상가 계약갱신요구권
+
+[부제]
+상가임차인이 법정 범위에서 갱신을 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 갱신 거절사유와 행사 가능 범위를 현행법 기준으로 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-190
+STATUS: APPROVED
+ORDER: 190
+TYPE: term
+CATEGORY: 개별법·상가임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second1-031 | 2022-33-second1-037
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 개별법·상가임대차
+SOURCE_REF: 
+
+[제목]
+상가 권리금 회수기회 보호
+
+[부제]
+임차인의 권리금 회수기회를 임대인이 부당하게 방해하지 못하게 하는 제도
+
+[검색어]
+권리금
+
+[핵심]
+- 신규임차인 주선과 임대인의 방해행위 여부가 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-191
+STATUS: APPROVED
+ORDER: 191
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 11
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second1-007 | 2022-33-second1-030 | 2022-33-second1-032 | 2023-34-second1-032 | 2024-35-2-1-007 | 2024-35-2-1-029 | 2024-35-2-1-030 | 2024-35-2-1-038 | 2025-36-second1-036 | 2025-36-second1-038
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+경매
+
+[부제]
+법원이 채무자의 재산을 강제로 매각해 채권을 만족시키는 절차
+
+[검색어]
+
+
+[핵심]
+- 강제경매와 담보권 실행을 위한 임의경매를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-192
+STATUS: APPROVED
+ORDER: 192
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-second1-010 | 2022-33-second1-010 | 2024-35-2-1-007
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+공매
+
+[부제]
+세금 체납·공공자산 처분 등에서 행정기관·공공기관이 재산을 매각하는 절차
+
+[검색어]
+
+
+[핵심]
+- 법원 경매와 주체·절차를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-193
+STATUS: APPROVED
+ORDER: 193
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-1-030
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+강제경매
+
+[부제]
+집행권원에 기초해 일반채권자가 신청하는 경매
+
+[검색어]
+
+
+[핵심]
+- 담보권 실행 경매인 임의경매와 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-194
+STATUS: APPROVED
+ORDER: 194
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+임의경매
+
+[부제]
+저당권 등 담보권을 실행하기 위한 경매
+
+[검색어]
+
+
+[핵심]
+- 담보권자가 별도 집행권원 없이 담보권을 실행
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-195
+STATUS: APPROVED
+ORDER: 195
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2022|2023|2024
+EXAM_SAMPLE_REFS: 2022-33-second1-030 | 2023-34-second1-032 | 2023-34-second1-037 | 2024-35-2-1-030
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+배당요구
+
+[부제]
+경매절차에서 배당받기 위해 법정 종기까지 채권을 신고·요구하는 절차
+
+[검색어]
+
+
+[핵심]
+- 임차인 등 배당요구가 필요한 권리자와 필요 없는 권리자를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-196
+STATUS: APPROVED
+ORDER: 196
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+말소기준권리
+
+[부제]
+경매에서 후순위 권리의 소멸 여부를 가르는 기준이 되는 권리
+
+[검색어]
+
+
+[핵심]
+- 기준권리보다 뒤의 권리는 원칙적으로 매각으로 소멸
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-197
+STATUS: APPROVED
+ORDER: 197
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2023
+EXAM_SAMPLE_REFS: 2021-32-second1-012 | 2023-34-second1-032
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+매각기일
+
+[부제]
+경매에서 입찰을 실시하고 최고가매수신고인을 정하는 날
+
+[검색어]
+
+
+[핵심]
+- 매각결정기일과 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-198
+STATUS: APPROVED
+ORDER: 198
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+매각결정기일
+
+[부제]
+법원이 매각허가·불허가를 결정하는 날
+
+[검색어]
+
+
+[핵심]
+- 매각기일 후 법정 절차로 허가 여부를 심사
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-199
+STATUS: APPROVED
+ORDER: 199
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-036
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+인도명령
+
+[부제]
+매수인이 점유자에게 부동산 인도를 명하도록 법원에 신청하는 절차
+
+[검색어]
+
+
+[핵심]
+- 대금 완납 후 법정 기간 안에 신청하는 간이 인도절차
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-200
+STATUS: APPROVED
+ORDER: 200
+TYPE: term
+CATEGORY: 중개실무·경매공매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second1-036
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·경매공매
+SOURCE_REF: 
+
+[제목]
+권리분석
+
+[부제]
+경매 부동산의 인수·소멸 권리를 판별하는 작업
+
+[검색어]
+
+
+[핵심]
+- 말소기준권리와 선후관계·대항력·유치권 등을 종합 검토
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-201
+STATUS: APPROVED
+ORDER: 201
+TYPE: term
+CATEGORY: 중개실무·매수신청대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second1-012 | 2022-33-second1-030 | 2022-33-second1-035 | 2023-34-second1-027 | 2023-34-second1-032 | 2024-35-2-1-031 | 2025-36-second1-035 | 2025-36-second1-036
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·매수신청대리
+SOURCE_REF: 
+
+[제목]
+매수신청대리인 등록
+
+[부제]
+개업공인중개사가 경매 매수신청대리를 하기 위해 법원에 등록하는 제도
+
+[검색어]
+매수신청대리인 | 매수신청대리
+
+[핵심]
+- 법정 자격·교육·업무보증을 갖춰 중개사무소 관할 지방법원장에게 등록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-202
+STATUS: APPROVED
+ORDER: 202
+TYPE: term
+CATEGORY: 중개실무·매수신청대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·매수신청대리
+SOURCE_REF: 
+
+[제목]
+매수신청대리 업무
+
+[부제]
+등록한 개업공인중개사가 할 수 있는 경매 입찰 관련 대리행위
+
+[검색어]
+
+
+[핵심]
+- 매수신청 보증 제공, 입찰표 제출, 차순위 신고 등 법정 범위의 대리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-203
+STATUS: APPROVED
+ORDER: 203
+TYPE: term
+CATEGORY: 중개실무·매수신청대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·매수신청대리
+SOURCE_REF: 
+
+[제목]
+매수신청대리 금지업무
+
+[부제]
+매수신청대리인이 대신할 수 없는 소송·집행 행위
+
+[검색어]
+
+
+[핵심]
+- 항고·대금납부·인도명령·명도소송 등은 대리범위에서 제외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: brk-card-204
+STATUS: APPROVED
+ORDER: 204
+TYPE: term
+CATEGORY: 중개실무·매수신청대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 중개실무·매수신청대리
+SOURCE_REF: 
+
+[제목]
+차순위 매수신고
+
+[부제]
+최고가매수신고인이 대금을 내지 않는 경우를 대비한 차순위 신청
+
+[검색어]
+
+
+[핵심]
+- 법정 가격요건을 갖춘 입찰자가 차순위매수신고 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+

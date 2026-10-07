@@ -24,6 +24,18 @@
       "status": "complete",
       "orderRule": "기초 용어 → 민법총칙 → 물권법 → 계약법 → 민사특별법 → 비교·판례",
       "reindexExam": true
+    },
+    {
+      "subject": "brokerage_law",
+      "label": "공인중개사법령 및 중개실무",
+      "sourceFile": "review/core-cards-v1/03_brokerage_law.txt",
+      "sourcePdf": "3.공인중개사요약_중개사법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 법령",
+      "examSourceFile": "review/past-exams-v1/03_brokerage_law.txt",
+      "pageCount": 28,
+      "total": 204,
+      "status": "complete",
+      "orderRule": "기본용어 → 자격·등록 → 사무소운영 → 중개계약·의무 → 보수·교육·행정처분 → 거래신고 → 중개실무·개별법",
+      "reindexExam": true
     }
   ],
   "generatedOutput": "core-cards/data.js",
