@@ -24,4 +24,5 @@ jobs:
         run: |
           node --check core-cards/data.js
           node --check core-cards/data-public.js
+          node --check core-cards/data-registration.js
           node --check core-cards/cards.js
