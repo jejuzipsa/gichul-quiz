@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.58','version.json must be 1.58');
+need(version.version==='1.59','version.json must be 1.59');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -58,11 +58,17 @@ need(cardCss.includes('.memorized-stat .hero-stat-icon{color:#ff6673'),'memorize
 need(cardJs.includes("setStatusFilter('important')")&&cardJs.includes("setStatusFilter('memorized')")&&cardJs.includes("setStatusFilter('all')"),'hero status buttons must filter important/memorized/all');
 need(cardJs.includes('gichulCoreWordImportant')&&cardJs.includes('gichulCoreWordMemorized'),'card state persistence missing');
 need(cardJs.includes('card.image'),'optional illustration support missing');
-need(Array.isArray(bank?.cards)&&bank.cards.length===5,'starter card count must be 5');
-need(bank?.cards?.every(c=>c.subject==='real_estate_intro'),'starter cards must be real_estate_intro');
-for(const title of ['부동성','영속성','부증성','개별성','인접성']) need(bank.cards.some(c=>c.title===title),'starter card missing: '+title);
-need(new Set(bank.cards.map(c=>c.id)).size===bank.cards.length,'duplicate starter card id');
-need(bank.cards.every(c=>Array.isArray(c.bullets)&&c.bullets.length>=2),'every starter card needs bullets');
+need(cardJs.includes('card.formula')&&cardJs.includes('card.visual'),'formula/visual rendering support missing');
+need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formula/visual styles missing');
+need(Array.isArray(bank?.cards)&&bank.cards.length===100,'real-estate card count must be 100');
+need(bank?.cards?.every(c=>c.subject==='real_estate_intro'),'all current cards must be real_estate_intro');
+for(const title of ['획지','부동성','동심원이론','다핵심이론','수요의 가격탄력성','순현가법(NPV)','직접법(영구환원법)']) need(bank.cards.some(c=>c.title===title),'required reviewed card missing: '+title);
+need(new Set(bank.cards.map(c=>c.id)).size===bank.cards.length,'duplicate card id');
+need(new Set(bank.cards.map(c=>c.order)).size===bank.cards.length,'duplicate card order');
+need(bank.cards.every(c=>Array.isArray(c.bullets)&&c.bullets.length>=1),'every card needs bullets');
+need(bank.cards[0]?.title==='획지'&&bank.cards[99]?.title==='직접법(영구환원법)','simple-to-complex order endpoints changed');
+need(bank.cards.some(c=>c.visual&&c.visual!=='none'),'visual cards missing');
+need(bank.cards.some(c=>c.formula),'formula cards missing');
 
 console.log('Core word card UI validation');
 console.log('Cards: '+(bank?.cards?.length||0));
