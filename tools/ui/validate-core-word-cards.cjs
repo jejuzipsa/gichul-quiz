@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.63','version.json must be 1.63');
+need(version.version==='1.64','version.json must be 1.64');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -91,13 +91,17 @@ need(cardJs.includes("['PGI','가능조소득']")&&cardJs.includes("['ATCF','세
 need(cardCss.includes('.visual-legend')&&cardCss.includes('.visual-legend-item'),'graph legend styles missing');
 need(cardJs.includes('card.formula')&&cardJs.includes('card.visual'),'formula/visual rendering support missing');
 need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formula/visual styles missing');
-need(Array.isArray(bank?.cards)&&bank.cards.length===100,'real-estate card count must be 100');
+need(Array.isArray(bank?.cards)&&bank.cards.length===170,'real-estate card count must be 170');
 need(bank?.cards?.every(c=>c.subject==='real_estate_intro'),'all current cards must be real_estate_intro');
-for(const title of ['획지','부동성','동심원이론','다핵심이론','수요의 가격탄력성','순현가법(NPV)','직접법(영구환원법)']) need(bank.cards.some(c=>c.title===title),'required reviewed card missing: '+title);
+for(const title of ['택지','나지','건부지','맹지','필지','획지','부동성','동심원이론','다핵심이론','수요의 가격탄력성','순현가법(NPV)','직접법(영구환원법)']) need(bank.cards.some(c=>c.title===title),'required reviewed card missing: '+title);
+need(bank.cards.find(c=>c.title==='택지지역')?.aliases?.includes('택지구역'),'택지구역 alias missing from generated bank');
+need(bank.cards.find(c=>c.title==='나지')?.sourceKind==='official','generated 나지 source must be official');
+need(bank.cards.some(c=>c.sourceKind!=='summary'),'supplemental-source cards missing');
+need(cardJs.includes('card.aliases||[]'),'alias search support missing');
 need(new Set(bank.cards.map(c=>c.id)).size===bank.cards.length,'duplicate card id');
 need(new Set(bank.cards.map(c=>c.order)).size===bank.cards.length,'duplicate card order');
 need(bank.cards.every(c=>Array.isArray(c.bullets)&&c.bullets.length>=1),'every card needs bullets');
-need(bank.cards[0]?.title==='획지'&&bank.cards[99]?.title==='직접법(영구환원법)','simple-to-complex order endpoints changed');
+need(bank.cards[0]?.title==='택지'&&bank.cards[169]?.title==='직접법(영구환원법)','simple-to-complex order endpoints changed');
 need(bank.cards.some(c=>c.visual&&c.visual!=='none'),'visual cards missing');
 need(bank.cards.some(c=>c.formula),'formula cards missing');
 
