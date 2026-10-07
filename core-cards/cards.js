@@ -8,7 +8,8 @@
   const $=id=>document.getElementById(id);
 
   const els={
-    subject:$('subjectSelect'), search:$('cardSearch'), searchField:$('searchField'), searchPanel:$('searchPanel'),
+    subjectPicker:$('subjectPicker'), subjectButton:$('subjectButton'), subjectText:$('subjectButtonText'), subjectMenu:$('subjectMenu'),
+    search:$('cardSearch'), searchField:$('searchField'), searchPanel:$('searchPanel'),
     searchCategorySection:$('searchCategorySection'), searchSuggestSection:$('searchSuggestSection'),
     searchCategoryList:$('searchCategoryList'), searchSuggestions:$('searchSuggestions'),
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
@@ -127,16 +128,79 @@
     return list.sort((a,b)=>a.order-b.order);
   }
 
+  function currentSubject(){
+    return bank.subjects.find(item=>item.code===state.subject)||bank.subjects.find(item=>!item.disabled)||bank.subjects[0];
+  }
+
+  function closeSubjectMenu({restoreFocus=false}={}){
+    if(!els.subjectMenu || !els.subjectButton) return;
+    els.subjectMenu.hidden=true;
+    els.subjectButton.setAttribute('aria-expanded','false');
+    els.subjectPicker?.classList.remove('open');
+    if(restoreFocus) els.subjectButton.focus();
+  }
+
+  function openSubjectMenu({focusSelected=false}={}){
+    if(!els.subjectMenu || !els.subjectButton) return;
+    els.subjectMenu.hidden=false;
+    els.subjectButton.setAttribute('aria-expanded','true');
+    els.subjectPicker?.classList.add('open');
+    if(focusSelected){
+      const enabled=[...els.subjectMenu.querySelectorAll('.subject-option:not(.disabled)')];
+      const selected=Math.max(0,enabled.findIndex(btn=>btn.dataset.code===state.subject));
+      enabled[selected]?.focus();
+    }
+  }
+
+  function setSubject(code){
+    const item=bank.subjects.find(subject=>subject.code===code);
+    if(!item || item.disabled || code===state.subject){
+      closeSubjectMenu({restoreFocus:true});
+      return;
+    }
+    state.subject=code;
+    state.category='all';
+    state.query='';
+    state.offset=0;
+    els.search.value='';
+    if(state.orderMode==='random') reshuffleRandom();
+    renderSubjects();
+    renderSearchPicker();
+    render();
+    closeSubjectMenu({restoreFocus:true});
+  }
+
   function renderSubjects(){
-    els.subject.innerHTML='';
+    els.subjectMenu.innerHTML='';
     bank.subjects.forEach(item=>{
-      const opt=document.createElement('option');
-      opt.value=item.code;
-      opt.textContent=item.disabled ? item.name+' · 준비 중' : item.name;
-      opt.disabled=!!item.disabled;
-      els.subject.appendChild(opt);
+      const btn=document.createElement('button');
+      btn.type='button';
+      btn.className='subject-option'+(item.code===state.subject?' active':'')+(item.disabled?' disabled':'');
+      btn.dataset.code=item.code;
+      btn.setAttribute('role','option');
+      btn.setAttribute('aria-selected',item.code===state.subject?'true':'false');
+      btn.setAttribute('aria-disabled',item.disabled?'true':'false');
+
+      const name=document.createElement('span');
+      name.className='subject-option-name';
+      name.textContent=item.name;
+      btn.appendChild(name);
+
+      if(item.disabled){
+        const status=document.createElement('span');
+        status.className='subject-option-status';
+        status.textContent='준비 중';
+        btn.appendChild(status);
+      }
+
+      btn.addEventListener('click',()=>{
+        if(item.disabled) return;
+        setSubject(item.code);
+      });
+      els.subjectMenu.appendChild(btn);
     });
-    els.subject.value=state.subject;
+    const item=currentSubject();
+    els.subjectText.textContent=item?.name||'과목 선택';
   }
 
   function subjectCards(){
@@ -551,15 +615,37 @@
     renderDots(list.length);
   }
 
-  els.subject.addEventListener('change',()=>{
-    state.subject=els.subject.value;
-    state.category='all';
-    state.query='';
-    state.offset=0;
-    els.search.value='';
-    if(state.orderMode==='random') reshuffleRandom();
-    renderSearchPicker();
-    render();
+  els.subjectButton?.addEventListener('click',()=>{
+    els.subjectMenu.hidden ? openSubjectMenu() : closeSubjectMenu();
+  });
+  els.subjectButton?.addEventListener('keydown',event=>{
+    if(event.key==='ArrowDown'||event.key==='ArrowUp'){
+      event.preventDefault();
+      openSubjectMenu({focusSelected:true});
+    }else if(event.key==='Escape'){
+      closeSubjectMenu();
+    }
+  });
+  els.subjectMenu?.addEventListener('keydown',event=>{
+    const enabled=[...els.subjectMenu.querySelectorAll('.subject-option:not(.disabled)')];
+    if(!enabled.length) return;
+    const current=enabled.indexOf(document.activeElement);
+    if(event.key==='ArrowDown'){
+      event.preventDefault();
+      enabled[(current+1+enabled.length)%enabled.length].focus();
+    }else if(event.key==='ArrowUp'){
+      event.preventDefault();
+      enabled[(current-1+enabled.length)%enabled.length].focus();
+    }else if(event.key==='Home'){
+      event.preventDefault();
+      enabled[0].focus();
+    }else if(event.key==='End'){
+      event.preventDefault();
+      enabled[enabled.length-1].focus();
+    }else if(event.key==='Escape'){
+      event.preventDefault();
+      closeSubjectMenu({restoreFocus:true});
+    }
   });
 
   els.search.addEventListener('focus',openSearchPanel);
@@ -592,6 +678,7 @@
   });
   document.addEventListener('pointerdown',event=>{
     if(!els.searchField.contains(event.target)) closeSearchPanel();
+    if(els.subjectPicker && !els.subjectPicker.contains(event.target)) closeSubjectMenu();
   });
   els.importantStatBtn?.addEventListener('click',()=>setStatusFilter('important'));
   els.memorizedStatBtn?.addEventListener('click',()=>setStatusFilter('memorized'));
