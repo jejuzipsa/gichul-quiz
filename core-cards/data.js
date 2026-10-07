@@ -1698,7 +1698,7 @@ window.CORE_WORD_CARD_BANK = {
         "NOI - 부채서비스액 = BTCF",
         "BTCF - 영업소득세 = ATCF"
       ],
-      "formula": "",
+      "formula": "PGI → EGI → NOI → BTCF → ATCF",
       "visual": "cashflow_sequence",
       "sourcePage": 12,
       "sourceSection": "5. 부동산 투자론 > 현금수지분석",
