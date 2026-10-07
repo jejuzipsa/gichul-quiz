@@ -8,7 +8,7 @@
   const $=id=>document.getElementById(id);
 
   const els={
-    subject:$('subjectSelect'), search:$('cardSearch'), status:$('statusFilter'), categories:$('categoryTabs'),
+    subject:$('subjectSelect'), search:$('cardSearch'), categories:$('categoryTabs'),
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
     dots:$('mobileDots'), heroCount:$('heroCount'), importantCount:$('importantCount'), memorizedCount:$('memorizedCount'),
     importantStatBtn:$('importantStatBtn'), memorizedStatBtn:$('memorizedStatBtn'), registeredStatBtn:$('registeredStatBtn'),
@@ -214,7 +214,6 @@
   function setStatusFilter(status){
     state.status=status;
     state.offset=0;
-    els.status.value=status;
     render();
   }
 
@@ -291,7 +290,6 @@
     state.offset=0;
     render();
   });
-  els.status.addEventListener('change',()=>setStatusFilter(els.status.value));
   els.importantStatBtn?.addEventListener('click',()=>setStatusFilter('important'));
   els.memorizedStatBtn?.addEventListener('click',()=>setStatusFilter('memorized'));
   els.registeredStatBtn?.addEventListener('click',()=>setStatusFilter('all'));
