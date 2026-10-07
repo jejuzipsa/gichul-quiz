@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.57','version.json must be 1.57');
+need(version.version==='1.58','version.json must be 1.58');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -32,6 +32,10 @@ need(app.includes("location.href='core-cards/index.html'"),'core card navigation
 need(fs.existsSync(path.join(ROOT,'assets/core-card-icon.png')),'core card icon asset missing');
 for(const p of ['core-cards/index.html','core-cards/cards.css','core-cards/cards.js','core-cards/data.js']) need(fs.existsSync(path.join(ROOT,p)),p+' missing');
 need(cardIndex.includes('id="cardGrid"')&&cardIndex.includes('id="prevBtn"')&&cardIndex.includes('id="nextBtn"'),'core card stage controls missing');
+need(cardIndex.includes('class="home-btn"')&&cardIndex.includes('aria-label="홈으로"')&&cardIndex.includes('class="home-icon"'),'icon-only home control missing');
+need(!cardIndex.includes('class="home-btn" href="../index.html">홈</a>'),'home control must not use text label');
+need(!cardCss.includes('.home-btn{display:none}'),'home button must remain visible on mobile');
+need(cardCss.includes('.home-btn{display:inline-flex;width:38px'),'mobile home icon sizing missing');
 need(cardIndex.includes('gichulQuizTheme'),'core card theme bootstrap missing');
 need(cardCss.includes('@media(min-width:1280px)')&&cardCss.includes('repeat(3,minmax(0,1fr))'),'wide PC 3-card rule missing');
 need(cardCss.includes('@media(max-width:979px)')&&cardCss.includes('.core-card-grid{grid-template-columns:1fr}'),'narrow screen 1-card rule missing');
