@@ -14,14 +14,14 @@ const visualWhitelist=new Set([
 ]);
 
 need(MANIFEST.subject==='real_estate_intro','manifest subject mismatch');
-need(MANIFEST.total===100,'manifest total must be 100');
-need(cards.length===100,'approved card count must be 100');
+need(MANIFEST.total===170,'manifest total must be 170');
+need(cards.length===170,'approved card count must be 170');
 
 const ids=new Set(),orders=new Set();
 for(const c of cards){
   need(/^rei-card-\d{3}$/.test(c.id),c.id+': invalid id');
   need(!ids.has(c.id),c.id+': duplicate id'); ids.add(c.id);
-  need(Number.isInteger(c.order)&&c.order>=1&&c.order<=100,c.id+': invalid order');
+  need(Number.isInteger(c.order)&&c.order>=1&&c.order<=170,c.id+': invalid order');
   need(!orders.has(c.order),c.id+': duplicate order'); orders.add(c.order);
   need(validTypes.has(c.type),c.id+': invalid type '+c.type);
   need(!!c.category,c.id+': missing category');
@@ -32,15 +32,27 @@ for(const c of cards){
   need(c.bullets.every(x=>x.length<=110),c.id+': bullet too long');
   need(c.formula.length<=160,c.id+': formula too long');
   need(visualWhitelist.has(c.visual),c.id+': unknown visual '+c.visual);
-  need(Number.isInteger(c.sourcePage)&&c.sourcePage>=1&&c.sourcePage<=25,c.id+': invalid source page');
+  need(['summary','official','summary+official','reference'].includes(c.sourceKind),c.id+': invalid source kind '+c.sourceKind);
+  if(c.sourceKind==='summary'){
+    need(Number.isInteger(c.sourcePage)&&c.sourcePage>=1&&c.sourcePage<=25,c.id+': invalid summary source page');
+  }else{
+    need(Number.isInteger(c.sourcePage)&&c.sourcePage>=0&&c.sourcePage<=25,c.id+': invalid external source page');
+    need(!!c.sourceRef,c.id+': external/mixed card missing source ref');
+  }
   need(!!c.sourceSection,c.id+': missing source section');
+  need(Array.isArray(c.aliases),c.id+': aliases must be array');
+  need(c.aliases.every(x=>x.length<=60),c.id+': alias too long');
 }
-for(let i=1;i<=100;i++) need(orders.has(i),'missing order '+i);
+for(let i=1;i<=170;i++) need(orders.has(i),'missing order '+i);
 
 const titles=cards.map(c=>c.title);
 need(new Set(titles).size===titles.length,'duplicate title');
-need(!titles.includes('나지'),'나지는 원문 독립 정의 부재로 보류해야 함');
-need(!titles.includes('맹지'),'맹지는 원문 독립 정의 부재로 보류해야 함');
+for(const title of ['택지','부지','대지','필지','나지','건부지','맹지','공지','휴한지','선하지','포락지','환지','체비지','일단지']) need(titles.includes(title),'basic land card missing: '+title);
+need(cards.find(c=>c.title==='택지지역')?.aliases.includes('택지구역'),'택지구역 search alias missing');
+need(cards.find(c=>c.title==='임지지역')?.aliases.includes('산지지역'),'산지지역 search alias missing');
+need(cards.find(c=>c.title==='나지')?.sourceKind==='official','나지 must use official source');
+need(cards.find(c=>c.title==='필지')?.sourceKind==='official','필지 must use official source');
+need(cards.find(c=>c.title==='포락지')?.sourceKind==='official','포락지 must use official source');
 need(!titles.some(x=>x.includes('원리금체증식')),'GPM은 원문 오류 의심으로 제외해야 함');
 const multi=cards.find(c=>c.title==='다핵심이론');
 need(!!multi,'다핵심이론 card missing');
@@ -49,7 +61,7 @@ need(!multi?.title.includes('멕켄지')&&!multi?.subtitle.includes('멕켄지')
 
 const graphStart=cards.findIndex(c=>c.type==='graph');
 const formulaStart=cards.findIndex(c=>c.type==='formula');
-need(graphStart>40,'graph cards should be behind simple cards');
+need(graphStart>100,'graph cards should be behind expanded simple cards');
 need(formulaStart>graphStart,'formula cards should follow graph/theory cards');
 
 console.log('Core word card TXT validation');
