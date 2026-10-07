@@ -1,0 +1,8942 @@
+CORE_WORD_CARDS_V1
+SUBJECT_KEY: civil_law
+SUBJECT: 민법 및 민사특별법
+COUNT: 247
+STATUS: reviewed
+SOURCE: 2.공인중개사요약_민법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 현행 법령
+SOURCE_PAGES: 1-39
+ORDER_RULE: 기초 용어 → 민법총칙 → 물권법 → 계약법 → 민사특별법 → 비교·판례
+BASIS_RULE: exam > summary > essential
+IMPORTANCE_RULE: 기출 10회 이상=5, 5~9회=4, 1~4회=3, 요약집만=2, 필수용어만=1
+
+# 이 TXT가 민법 및 민사특별법 핵심 단어 카드의 Source of Truth이다.
+# 카드 선정 우선순위는 ① 2021~2025 공식 기출에서 등장한 단어·개념 ② 업로드한 39쪽 핵심요약의 단어·개념 ③ 과목 학습에 필요한 필수 기본어 순이다.
+# EXAM_HIT_COUNT는 review/past-exams-v1/02_civil_law.txt의 문제+보기에서 제목/검색별칭이 등장한 문제 수를 계산한 보수적 문자열 빈도다.
+# 새 기출 추가 후 node tools/core-cards/reindex.cjs --write 로 BASIS/기출횟수/연도/샘플문항/중요도를 갱신한다.
+# 주택·상가 임대차처럼 개정이 잦은 숫자는 카드에서 제외하고 현행 국가법령정보센터의 개념 규정을 우선한다.
+# 특히 요약집 p34의 과거 계약갱신 관련 수치·표현은 그대로 카드화하지 않고 현행법으로 교차검증했다.
+
+================================================================================
+ID: civ-card-001
+STATUS: APPROVED
+ORDER: 1
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+법률사실
+
+[부제]
+법률요건을 구성하는 개개의 사실
+
+[검색어]
+
+
+[핵심]
+- 법률관계 변동의 원인이 되는 법률요건을 이루는 하나하나의 사실
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-002
+STATUS: APPROVED
+ORDER: 2
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+법률요건
+
+[부제]
+일정한 법률효과를 발생시키는 사실의 묶음
+
+[검색어]
+
+
+[핵심]
+- 법률효과를 발생시키는 원인이 되는 요건
+- 하나 또는 여러 법률사실로 구성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-003
+STATUS: APPROVED
+ORDER: 3
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-1-1-050 | 2025-36-first-049
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+법률효과
+
+[부제]
+법률요건이 충족되어 생기는 법률관계의 결과
+
+[검색어]
+
+
+[핵심]
+- 권리의 발생·변경·소멸처럼 법이 인정하는 결과
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-004
+STATUS: APPROVED
+ORDER: 4
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+원시취득
+
+[부제]
+타인의 권리를 승계하지 않고 새로 취득
+
+[검색어]
+原始取得
+
+[핵심]
+- 시효취득·무주물선점처럼 종전 권리와 무관하게 새 권리를 취득
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-005
+STATUS: APPROVED
+ORDER: 5
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-079
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+승계취득
+
+[부제]
+종전 권리자의 권리를 이어받는 취득
+
+[검색어]
+承繼取得
+
+[핵심]
+- 매매·증여·상속처럼 기존 권리를 승계하여 취득
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-006
+STATUS: APPROVED
+ORDER: 6
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-064
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+이전적 승계
+
+[부제]
+기존 권리가 그대로 이전되는 승계취득
+
+[검색어]
+
+
+[핵심]
+- 매매·증여에 따른 소유권 이전처럼 권리 자체가 옮겨감
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-007
+STATUS: APPROVED
+ORDER: 7
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+설정적 승계
+
+[부제]
+기존 권리 위에 제한물권을 새로 취득
+
+[검색어]
+
+
+[핵심]
+- 타인의 토지에 지상권·전세권·저당권 등을 설정받는 경우
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-008
+STATUS: APPROVED
+ORDER: 8
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+포괄승계
+
+[부제]
+권리·의무를 일괄적으로 승계
+
+[검색어]
+
+
+[핵심]
+- 상속·포괄유증·회사합병처럼 재산관계를 포괄적으로 이어받음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-009
+STATUS: APPROVED
+ORDER: 9
+TYPE: term
+CATEGORY: 민법총칙·권리변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2023
+EXAM_SAMPLE_REFS: 2021-32-first-055 | 2023-34-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·권리변동
+SOURCE_REF: 
+
+[제목]
+특정승계
+
+[부제]
+개별 권리를 특정하여 승계
+
+[검색어]
+
+
+[핵심]
+- 매매·교환·증여처럼 특정한 권리를 개별적으로 이어받음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-010
+STATUS: APPROVED
+ORDER: 10
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 24
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-046 | 2021-32-first-047 | 2021-32-first-049 | 2021-32-first-050 | 2022-33-first-041 | 2022-33-first-042 | 2022-33-first-045 | 2022-33-first-046 | 2023-34-first-043 | 2023-34-first-044
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+법률행위
+
+[부제]
+의사표시를 필수 요소로 하는 법률요건
+
+[검색어]
+
+
+[핵심]
+- 의사표시 내용에 따라 법률효과를 발생시키는 행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-011
+STATUS: APPROVED
+ORDER: 11
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 21
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2021-32-first-044 | 2021-32-first-047 | 2021-32-first-066 | 2022-33-first-047 | 2022-33-first-050 | 2023-34-first-066 | 2023-34-first-069 | 2023-34-first-074 | 2024-35-1-1-043
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+의사표시
+
+[부제]
+법률효과를 원하는 의사를 외부에 나타내는 행위
+
+[검색어]
+
+
+[핵심]
+- 법률행위의 필요적 요소가 되는 법률사실
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-012
+STATUS: APPROVED
+ORDER: 12
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+의사의 통지
+
+[부제]
+일정한 의사를 알리는 준법률행위
+
+[검색어]
+
+
+[핵심]
+- 최고·거절처럼 의사를 상대방에게 알리는 행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-013
+STATUS: APPROVED
+ORDER: 13
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+관념의 통지
+
+[부제]
+사실이나 관념을 알리는 준법률행위
+
+[검색어]
+
+
+[핵심]
+- 채권양도 통지·승낙처럼 사실 또는 관념을 알리는 행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-014
+STATUS: APPROVED
+ORDER: 14
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+감정의 통지
+
+[부제]
+감정을 외부에 나타내 법률효과가 붙는 행위
+
+[검색어]
+
+
+[핵심]
+- 용서·용인처럼 감정을 표시하는 준법률행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-015
+STATUS: APPROVED
+ORDER: 15
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+사실행위
+
+[부제]
+사실상 결과에 법률효과가 결부되는 행위
+
+[검색어]
+
+
+[핵심]
+- 매장물 발견·가공·물건의 인도 등이 대표적인 예
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-016
+STATUS: APPROVED
+ORDER: 16
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2023
+EXAM_SAMPLE_REFS: 2022-33-first-042 | 2023-34-first-047
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+사건
+
+[부제]
+사람의 의사와 관계없이 법률효과의 원인이 되는 사실
+
+[검색어]
+
+
+[핵심]
+- 시간의 경과·출생·사망·물건의 멸실 등이 해당
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-017
+STATUS: APPROVED
+ORDER: 17
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2022
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2022-33-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+단독행위
+
+[부제]
+한 사람의 의사표시만으로 성립하는 법률행위
+
+[검색어]
+
+
+[핵심]
+- 상대방 있는 단독행위와 상대방 없는 단독행위로 구분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-018
+STATUS: APPROVED
+ORDER: 18
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+상대방 있는 단독행위
+
+[부제]
+특정 상대방에게 의사표시해야 하는 단독행위
+
+[검색어]
+
+
+[핵심]
+- 상계·취소·해제·채무면제 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-019
+STATUS: APPROVED
+ORDER: 19
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+상대방 없는 단독행위
+
+[부제]
+상대방 없이도 성립하는 단독행위
+
+[검색어]
+
+
+[핵심]
+- 유언·재단법인 설립행위·권리 포기 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-020
+STATUS: APPROVED
+ORDER: 20
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 94
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-043 | 2021-32-first-044 | 2021-32-first-046 | 2021-32-first-063 | 2021-32-first-065 | 2021-32-first-066 | 2021-32-first-067 | 2021-32-first-068 | 2021-32-first-069
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+계약
+
+[부제]
+대립하는 둘 이상의 의사표시가 합치한 법률행위
+
+[검색어]
+
+
+[핵심]
+- 매매·임대차처럼 당사자 의사합치로 성립
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-021
+STATUS: APPROVED
+ORDER: 21
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+합동행위
+
+[부제]
+같은 방향의 여러 의사표시가 결합하는 법률행위
+
+[검색어]
+
+
+[핵심]
+- 사단법인 설립행위가 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-022
+STATUS: APPROVED
+ORDER: 22
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+채권행위
+
+[부제]
+채권·채무를 발생시키는 법률행위
+
+[검색어]
+
+
+[핵심]
+- 매매·증여·임대차처럼 이행을 거쳐 목적을 실현
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-023
+STATUS: APPROVED
+ORDER: 23
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+물권행위
+
+[부제]
+물권변동을 직접 일으키는 법률행위
+
+[검색어]
+
+
+[핵심]
+- 소유권이전·지상권설정·저당권설정 등이 해당
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-024
+STATUS: APPROVED
+ORDER: 24
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+준물권행위
+
+[부제]
+물권 외 권리의 변동을 직접 일으키는 처분행위
+
+[검색어]
+
+
+[핵심]
+- 채권양도·채무면제·시효이익 포기 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-025
+STATUS: APPROVED
+ORDER: 25
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+요식행위
+
+[부제]
+법이 정한 방식을 갖춰야 하는 법률행위
+
+[검색어]
+
+
+[핵심]
+- 유언·혼인처럼 정해진 형식을 따라야 효력이 인정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-026
+STATUS: APPROVED
+ORDER: 26
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+보조행위
+
+[부제]
+다른 법률행위의 효력을 보충하는 행위
+
+[검색어]
+
+
+[핵심]
+- 동의·추인·대리권 수여 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-027
+STATUS: APPROVED
+ORDER: 27
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+종된행위
+
+[부제]
+주된 법률행위에 의존하는 법률행위
+
+[검색어]
+
+
+[핵심]
+- 저당권설정계약이 피담보채권에 종속되는 관계가 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-028
+STATUS: APPROVED
+ORDER: 28
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+법률행위의 목적
+
+[부제]
+법률행위로 발생시키려는 법률효과
+
+[검색어]
+
+
+[핵심]
+- 목적은 확정 가능하고 적법하며 사회적 타당성이 있어야 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-029
+STATUS: APPROVED
+ORDER: 29
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-049
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 민법 법률행위 일반원칙 + 요약집 p3
+
+[제목]
+강행규정
+
+[부제]
+당사자 합의로 배제할 수 없는 규정
+
+[검색어]
+
+
+[핵심]
+- 강행규정에 반하는 법률행위는 원칙적으로 허용되지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-030
+STATUS: APPROVED
+ORDER: 30
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+임의규정
+
+[부제]
+당사자 합의로 달리 정할 수 있는 규정
+
+[검색어]
+
+
+[핵심]
+- 당사자의 의사가 법률 규정보다 우선할 수 있는 영역
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-031
+STATUS: APPROVED
+ORDER: 31
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-first-045
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리
+
+[제목]
+효력규정
+
+[부제]
+위반하면 사법상 행위의 효력까지 부정되는 규정
+
+[검색어]
+
+
+[핵심]
+- 법 위반에 행정·형사 제재뿐 아니라 사법상 무효까지 연결되는 규정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-032
+STATUS: APPROVED
+ORDER: 32
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: reference
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리
+
+[제목]
+단속규정
+
+[부제]
+위반 제재와 사법상 효력을 별개로 보는 규정
+
+[검색어]
+
+
+[핵심]
+- 위반 시 제재가 있어도 사법상 법률행위가 당연히 무효가 되는 것은 아님
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-033
+STATUS: APPROVED
+ORDER: 33
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2025
+EXAM_SAMPLE_REFS: 2023-34-first-043 | 2025-36-first-047
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 2.공인중개사요약_민법.pdf p3 + 국가법령정보센터 「민법」 제104조
+
+[제목]
+불공정한 법률행위
+
+[부제]
+궁박·경솔·무경험을 이용한 현저히 불공정한 행위
+
+[검색어]
+
+
+[핵심]
+- 민법 제104조 요건을 충족하면 무효
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-034
+STATUS: APPROVED
+ORDER: 34
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+자연적 해석
+
+[부제]
+표의자의 실제 의사를 중심으로 하는 해석
+
+[검색어]
+
+
+[핵심]
+- 상대방 없는 단독행위처럼 표의자의 실제 의사를 중시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-035
+STATUS: APPROVED
+ORDER: 35
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+규범적 해석
+
+[부제]
+표시의 객관적 의미를 중심으로 하는 해석
+
+[검색어]
+
+
+[핵심]
+- 상대방 관점에서 표시의 의미와 신뢰를 기준으로 해석
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-036
+STATUS: APPROVED
+ORDER: 36
+TYPE: term
+CATEGORY: 민법총칙·법률행위
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 민법총칙·법률행위
+SOURCE_REF: 
+
+[제목]
+보충적 해석
+
+[부제]
+정하지 않은 부분을 합리적으로 보충하는 해석
+
+[검색어]
+
+
+[핵심]
+- 계약 목적·신의칙 등을 고려해 빈 부분을 메움
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-037
+STATUS: APPROVED
+ORDER: 37
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-first-045
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 4
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제107조
+
+[제목]
+비진의표시
+
+[부제]
+진의와 다른 줄 알면서 한 의사표시
+
+[검색어]
+진의 아닌 의사표시
+
+[핵심]
+- 원칙적으로 표시한 대로 효력이 있음
+- 상대방이 진의 아님을 알았거나 알 수 있었다면 무효
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-038
+STATUS: APPROVED
+ORDER: 38
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2022-33-first-043 | 2023-34-first-045 | 2024-35-1-1-042 | 2025-36-first-042 | 2025-36-first-045
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 4
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제108조
+
+[제목]
+통정허위표시
+
+[부제]
+상대방과 짜고 한 거짓 의사표시
+
+[검색어]
+허위표시 | 통정한 허위의 의사표시
+
+[핵심]
+- 당사자 사이에서는 무효
+- 그 무효는 선의의 제3자에게 대항하지 못함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-039
+STATUS: APPROVED
+ORDER: 39
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2021-32-first-056 | 2022-33-first-041 | 2023-34-first-057 | 2024-35-1-1-043 | 2024-35-1-1-072 | 2025-36-first-045 | 2025-36-first-046 | 2025-36-first-050
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 4
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제109조
+
+[제목]
+착오
+
+[부제]
+법률행위 내용의 중요부분을 잘못 안 의사표시
+
+[검색어]
+착오로 인한 의사표시
+
+[핵심]
+- 중요부분의 착오이면 취소할 수 있음
+- 표의자에게 중대한 과실이 있으면 원칙적으로 취소 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-040
+STATUS: APPROVED
+ORDER: 40
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-058 | 2022-33-first-070 | 2023-34-first-069 | 2024-35-1-1-044 | 2024-35-1-1-053 | 2024-35-1-1-070 | 2025-36-first-041 | 2025-36-first-069
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 4
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제110조
+
+[제목]
+사기
+
+[부제]
+기망 때문에 하게 된 의사표시
+
+[검색어]
+기망
+
+[핵심]
+- 사기에 의한 의사표시는 취소할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-041
+STATUS: APPROVED
+ORDER: 41
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-1-1-044 | 2024-35-1-1-045 | 2025-36-first-041
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 4
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제110조
+
+[제목]
+강박
+
+[부제]
+위협 때문에 자유롭지 못하게 한 의사표시
+
+[검색어]
+
+
+[핵심]
+- 강박에 의한 의사표시는 취소할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-042
+STATUS: APPROVED
+ORDER: 42
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 
+
+[제목]
+도달주의
+
+[부제]
+의사표시가 상대방에게 도달할 때 효력이 생기는 원칙
+
+[검색어]
+
+
+[핵심]
+- 상대방 있는 의사표시는 원칙적으로 도달한 때 효력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-043
+STATUS: APPROVED
+ORDER: 43
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 
+
+[제목]
+발신주의
+
+[부제]
+의사표시를 발송한 때 효력이 생기는 예외 원칙
+
+[검색어]
+
+
+[핵심]
+- 법이 특별히 정한 경우 발송 시점에 효력을 인정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-044
+STATUS: APPROVED
+ORDER: 44
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 
+
+[제목]
+공시송달
+
+[부제]
+상대방을 알 수 없을 때 공시로 의사표시를 도달시키는 제도
+
+[검색어]
+
+
+[핵심]
+- 표의자가 과실 없이 상대방이나 소재를 모르면 민사소송법상 공시송달을 이용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-045
+STATUS: APPROVED
+ORDER: 45
+TYPE: term
+CATEGORY: 민법총칙·의사표시
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 민법총칙·의사표시
+SOURCE_REF: 
+
+[제목]
+수령능력
+
+[부제]
+의사표시를 유효하게 받아 상대방이 될 수 있는 능력
+
+[검색어]
+
+
+[핵심]
+- 제한능력자에 대한 의사표시에는 별도 보호규율이 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-046
+STATUS: APPROVED
+ORDER: 46
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 19
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-043 | 2021-32-first-044 | 2021-32-first-046 | 2021-32-first-058 | 2021-32-first-070 | 2022-33-first-042 | 2022-33-first-043 | 2022-33-first-050 | 2022-33-first-052 | 2022-33-first-054
+IMPORTANCE: 5
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·기출 공통 기본용어
+
+[제목]
+선의
+
+[부제]
+어떤 사실을 알지 못하는 상태
+
+[검색어]
+
+
+[핵심]
+- 법률상 선의는 보통 특정 사실을 모르는 상태를 뜻함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-047
+STATUS: APPROVED
+ORDER: 47
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-058 | 2021-32-first-070 | 2022-33-first-052 | 2022-33-first-054 | 2022-33-first-071 | 2023-34-first-043 | 2023-34-first-051 | 2024-35-1-1-042 | 2025-36-first-050
+IMPORTANCE: 4
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·기출 공통 기본용어
+
+[제목]
+악의
+
+[부제]
+어떤 사실을 알고 있는 상태
+
+[검색어]
+
+
+[핵심]
+- 법률상 악의는 보통 특정 사실을 알고 있는 상태를 뜻함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-048
+STATUS: APPROVED
+ORDER: 48
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 20
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-043 | 2021-32-first-048 | 2021-32-first-058 | 2021-32-first-077 | 2022-33-first-050 | 2022-33-first-052 | 2022-33-first-054 | 2022-33-first-061 | 2022-33-first-072 | 2023-34-first-051
+IMPORTANCE: 5
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·기출 공통 기본용어
+
+[제목]
+과실
+
+[부제]
+주의의무를 다하지 못한 잘못
+
+[검색어]
+
+
+[핵심]
+- 알았어야 할 사실을 주의 부족으로 알지 못한 경우 등에 사용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-049
+STATUS: APPROVED
+ORDER: 49
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2025
+EXAM_SAMPLE_REFS: 2021-32-first-043 | 2022-33-first-050 | 2025-36-first-043
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·기출 공통 기본용어
+
+[제목]
+무과실
+
+[부제]
+필요한 주의를 다해 잘못이 없는 상태
+
+[검색어]
+
+
+[핵심]
+- 선의취득·표현대리 등에서 상대방 보호요건으로 자주 등장
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-050
+STATUS: APPROVED
+ORDER: 50
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 42
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2021-32-first-046 | 2021-32-first-054 | 2021-32-first-055 | 2021-32-first-061 | 2021-32-first-063 | 2021-32-first-066 | 2021-32-first-067 | 2021-32-first-073 | 2021-32-first-080
+IMPORTANCE: 5
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·기출 공통 기본용어
+
+[제목]
+제3자
+
+[부제]
+당사자 외에 법률관계의 영향을 받는 사람
+
+[검색어]
+
+
+[핵심]
+- 선의의 제3자 보호처럼 민법 전반에서 반복되는 기본 용어
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-051
+STATUS: APPROVED
+ORDER: 51
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2025
+EXAM_SAMPLE_REFS: 2021-32-first-043 | 2021-32-first-069 | 2025-36-first-043
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법 제2조 및 기출 공통 기본법리
+
+[제목]
+신의칙
+
+[부제]
+권리행사와 의무이행을 신의성실에 맞게 하라는 원칙
+
+[검색어]
+신의성실의 원칙
+
+[핵심]
+- 당사자의 신뢰와 형평을 고려해 권리행사를 제한하거나 보충하는 원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-052
+STATUS: APPROVED
+ORDER: 52
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-047 | 2022-33-first-070 | 2023-34-first-041 | 2025-36-first-059
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·요약집에 반복 사용되는 기본 법률용어
+
+[제목]
+형성권
+
+[부제]
+일방 의사표시로 법률관계를 변동시키는 권리
+
+[검색어]
+
+
+[핵심]
+- 취소권·해제권·매수청구권처럼 행사만으로 법률관계가 변동
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-053
+STATUS: APPROVED
+ORDER: 53
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-1-1-068
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·요약집에 반복 사용되는 기본 법률용어
+
+[제목]
+항변권
+
+[부제]
+상대방 청구의 효력을 저지할 수 있는 권리
+
+[검색어]
+
+
+[핵심]
+- 동시이행항변권처럼 상대방 청구에 맞서 이행을 거절하는 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-054
+STATUS: APPROVED
+ORDER: 54
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 23
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2021-32-first-042 | 2021-32-first-043 | 2021-32-first-048 | 2022-33-first-041 | 2022-33-first-043 | 2022-33-first-045 | 2022-33-first-047 | 2022-33-first-048 | 2022-33-first-049
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 5
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p5 + 국가법령정보센터 「민법」 제114조
+
+[제목]
+대리
+
+[부제]
+대리인의 행위 효과가 직접 본인에게 귀속되는 제도
+
+[검색어]
+
+
+[핵심]
+- 대리인이 권한 내에서 본인을 위한 행위를 하면 효과가 본인에게 직접 귀속
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-055
+STATUS: APPROVED
+ORDER: 55
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-first-048 | 2025-36-first-044
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+임의대리
+
+[부제]
+본인의 수권행위로 대리권이 생기는 대리
+
+[검색어]
+
+
+[핵심]
+- 대리권 범위는 수권행위의 내용과 해석으로 정함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-056
+STATUS: APPROVED
+ORDER: 56
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-first-041 | 2022-33-first-045 | 2022-33-first-048 | 2022-33-first-049 | 2023-34-first-044 | 2025-36-first-044
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+법정대리
+
+[부제]
+법률 규정이나 법원의 선임 등으로 생기는 대리
+
+[검색어]
+
+
+[핵심]
+- 본인의 수권행위 없이 법률상 대리권이 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-057
+STATUS: APPROVED
+ORDER: 57
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-043 | 2021-32-first-048 | 2022-33-first-043 | 2022-33-first-047 | 2022-33-first-048 | 2022-33-first-049 | 2022-33-first-050 | 2023-34-first-042 | 2023-34-first-044
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+대리권
+
+[부제]
+본인에게 법률효과를 귀속시키는 대리인의 법률상 권한
+
+[검색어]
+
+
+[핵심]
+- 대리권은 독립된 권리라기보다 법률상 지위로 설명
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-058
+STATUS: APPROVED
+ORDER: 58
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-047
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+수권행위
+
+[부제]
+임의대리인에게 대리권을 주는 본인의 행위
+
+[검색어]
+
+
+[핵심]
+- 임의대리권 발생의 기초가 되는 본인의 법률행위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-059
+STATUS: APPROVED
+ORDER: 59
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+현명
+
+[부제]
+대리인이 본인을 위한 행위임을 표시하는 것
+
+[검색어]
+현명주의
+
+[핵심]
+- 원칙적으로 본인을 위한 행위임을 상대방에게 표시해야 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-060
+STATUS: APPROVED
+ORDER: 60
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p6 + 국가법령정보센터 「민법」 제124조
+
+[제목]
+자기계약
+
+[부제]
+대리인이 본인과 자기 사이의 법률행위를 대리하는 것
+
+[검색어]
+
+
+[핵심]
+- 본인의 허락이 없으면 원칙적으로 금지
+- 채무 이행 등 예외가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-061
+STATUS: APPROVED
+ORDER: 61
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 6
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p6 + 국가법령정보센터 「민법」 제124조
+
+[제목]
+쌍방대리
+
+[부제]
+한 대리인이 동일 법률행위의 양쪽 당사자를 모두 대리
+
+[검색어]
+
+
+[핵심]
+- 본인의 허락이 없으면 원칙적으로 금지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-062
+STATUS: APPROVED
+ORDER: 62
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+대리권 남용
+
+[부제]
+권한 범위 안에서 자기·제3자 이익을 위해 대리하는 행위
+
+[검색어]
+배임대리행위
+
+[핵심]
+- 형식상 권한 내 행위라도 상대방이 남용을 알았거나 알 수 있었다면 본인에게 효력이 부정될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-063
+STATUS: APPROVED
+ORDER: 63
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2022-33-first-048 | 2022-33-first-049 | 2023-34-first-044 | 2024-35-1-1-048 | 2025-36-first-044
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+복대리
+
+[부제]
+대리인이 자기 이름으로 다시 선임한 본인의 대리인
+
+[검색어]
+
+
+[핵심]
+- 복대리인은 원대리인의 대리인이 아니라 본인의 대리인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-064
+STATUS: APPROVED
+ORDER: 64
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2021-32-first-043 | 2022-33-first-041 | 2022-33-first-050 | 2023-34-first-041 | 2023-34-first-046 | 2024-35-1-1-047 | 2025-36-first-043
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제130조
+
+[제목]
+무권대리
+
+[부제]
+대리권 없이 타인의 대리인으로 한 행위
+
+[검색어]
+
+
+[핵심]
+- 본인이 추인하지 않으면 원칙적으로 본인에게 효력이 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-065
+STATUS: APPROVED
+ORDER: 65
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-043 | 2021-32-first-048 | 2022-33-first-049 | 2023-34-first-044 | 2025-36-first-043
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+표현대리
+
+[부제]
+대리권 외관을 신뢰한 상대방을 보호하는 제도
+
+[검색어]
+
+
+[핵심]
+- 법정요건을 충족하면 실제 권한이 없어도 본인에게 책임이 귀속
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-066
+STATUS: APPROVED
+ORDER: 66
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제125조
+
+[제목]
+대리권수여표시 표현대리
+
+[부제]
+대리권을 준 것처럼 표시한 외관에 기초한 표현대리
+
+[검색어]
+125조 표현대리
+
+[핵심]
+- 민법 제125조 유형
+- 상대방이 대리권 없음을 알았거나 알 수 있었다면 보호되지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-067
+STATUS: APPROVED
+ORDER: 67
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-049
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제126조
+
+[제목]
+권한을 넘은 표현대리
+
+[부제]
+대리인이 권한 범위를 넘은 경우의 표현대리
+
+[검색어]
+월권대리 | 126조 표현대리
+
+[핵심]
+- 민법 제126조 유형
+- 상대방에게 권한이 있다고 믿을 정당한 이유가 필요
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-068
+STATUS: APPROVED
+ORDER: 68
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제129조
+
+[제목]
+대리권소멸 후 표현대리
+
+[부제]
+소멸한 대리권의 외관을 믿은 경우의 표현대리
+
+[검색어]
+129조 표현대리
+
+[핵심]
+- 민법 제129조 유형
+- 선의의 제3자를 보호하되 과실이 있으면 보호 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-069
+STATUS: APPROVED
+ORDER: 69
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 17
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2021-32-first-043 | 2021-32-first-047 | 2021-32-first-050 | 2022-33-first-041 | 2022-33-first-045 | 2022-33-first-050 | 2023-34-first-041 | 2023-34-first-046 | 2023-34-first-050
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+추인
+
+[부제]
+이미 한 행위를 사후에 유효한 것으로 확정하는 의사표시
+
+[검색어]
+
+
+[핵심]
+- 무권대리행위를 본인이 추인하면 원칙적으로 행위 시점으로 소급해 효력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-070
+STATUS: APPROVED
+ORDER: 70
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+최고권
+
+[부제]
+일정 기간 안에 추인 여부 등 확답을 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 무권대리 상대방은 본인에게 추인 여부의 확답을 요구할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-071
+STATUS: APPROVED
+ORDER: 71
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 
+
+[제목]
+철회권
+
+[부제]
+무권대리 상대방이 행위를 거둬들이는 권리
+
+[검색어]
+
+
+[핵심]
+- 본인의 추인 전 선의의 상대방은 원칙적으로 철회 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-072
+STATUS: APPROVED
+ORDER: 72
+TYPE: term
+CATEGORY: 민법총칙·대리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 민법총칙·대리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제135조
+
+[제목]
+무권대리인 책임
+
+[부제]
+본인 추인이 없을 때 무권대리인이 상대방에게 지는 책임
+
+[검색어]
+민법 135조
+
+[핵심]
+- 상대방은 법정요건 아래 이행 또는 손해배상을 청구할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-073
+STATUS: APPROVED
+ORDER: 73
+TYPE: term
+CATEGORY: 민법총칙·무효·취소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 39
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-043 | 2021-32-first-044 | 2021-32-first-047 | 2021-32-first-048 | 2021-32-first-049 | 2021-32-first-050 | 2021-32-first-069 | 2021-32-first-079 | 2022-33-first-042 | 2022-33-first-043
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·무효·취소
+SOURCE_REF: 
+
+[제목]
+무효
+
+[부제]
+처음부터 법률효과가 발생하지 않는 상태
+
+[검색어]
+
+
+[핵심]
+- 별도의 취소 의사표시 없이 처음부터 효력이 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-074
+STATUS: APPROVED
+ORDER: 74
+TYPE: term
+CATEGORY: 민법총칙·무효·취소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 16
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2021-32-first-047 | 2022-33-first-041 | 2022-33-first-045 | 2022-33-first-048 | 2022-33-first-072 | 2023-34-first-068 | 2024-35-1-1-042 | 2024-35-1-1-043 | 2024-35-1-1-045
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·무효·취소
+SOURCE_REF: 
+
+[제목]
+취소
+
+[부제]
+취소권 행사로 행위의 효력을 소급해 없애는 것
+
+[검색어]
+
+
+[핵심]
+- 취소 전에는 일단 유효하게 취급
+- 취소하면 원칙적으로 처음부터 무효로 봄
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-075
+STATUS: APPROVED
+ORDER: 75
+TYPE: term
+CATEGORY: 민법총칙·무효·취소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-047 | 2022-33-first-045 | 2024-35-1-1-049 | 2025-36-first-050
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·무효·취소
+SOURCE_REF: 
+
+[제목]
+취소권자
+
+[부제]
+취소할 수 있는 법률행위를 취소할 수 있는 사람
+
+[검색어]
+
+
+[핵심]
+- 제한능력자, 착오·사기·강박의 표의자와 그 대리인·승계인 등이 해당
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-076
+STATUS: APPROVED
+ORDER: 76
+TYPE: term
+CATEGORY: 민법총칙·무효·취소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-047 | 2024-35-1-1-049 | 2025-36-first-050
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·무효·취소
+SOURCE_REF: 
+
+[제목]
+법정추인
+
+[부제]
+특정 사실이 생기면 추인한 것으로 보는 제도
+
+[검색어]
+
+
+[핵심]
+- 전부·일부 이행, 이행청구, 담보제공 등 법정사유가 있으면 추인으로 봄
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-077
+STATUS: APPROVED
+ORDER: 77
+TYPE: term
+CATEGORY: 민법총칙·무효·취소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-first-049
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·무효·취소
+SOURCE_REF: 
+
+[제목]
+무효행위의 추인
+
+[부제]
+무효임을 알고 추인하면 새 법률행위로 보는 제도
+
+[검색어]
+
+
+[핵심]
+- 무효인 행위가 그대로 살아나는 것은 아니고 새로운 법률행위로 봄
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-078
+STATUS: APPROVED
+ORDER: 78
+TYPE: term
+CATEGORY: 민법총칙·무효·취소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2025
+EXAM_SAMPLE_REFS: 2023-34-first-043 | 2025-36-first-047
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·무효·취소
+SOURCE_REF: 
+
+[제목]
+무효행위의 전환
+
+[부제]
+무효행위가 다른 법률행위의 요건을 갖추면 그 행위로 인정
+
+[검색어]
+
+
+[핵심]
+- 당사자가 무효를 알았더라면 다른 행위를 했을 의사가 인정되는 경우 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-079
+STATUS: APPROVED
+ORDER: 79
+TYPE: term
+CATEGORY: 민법총칙·조건·기한
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-049 | 2021-32-first-054 | 2021-32-first-074 | 2021-32-first-076 | 2022-33-first-046 | 2022-33-first-064 | 2022-33-first-065 | 2023-34-first-049 | 2024-35-1-1-050 | 2024-35-1-1-061
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·조건·기한
+SOURCE_REF: 
+
+[제목]
+조건
+
+[부제]
+장래 불확실한 사실에 법률효과를 의존시키는 부관
+
+[검색어]
+
+
+[핵심]
+- 성취 여부가 불확실한 장래 사실과 효력 발생·소멸을 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-080
+STATUS: APPROVED
+ORDER: 80
+TYPE: term
+CATEGORY: 민법총칙·조건·기한
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-first-049 | 2021-32-first-054 | 2022-33-first-046 | 2024-35-1-1-050
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·조건·기한
+SOURCE_REF: 
+
+[제목]
+정지조건
+
+[부제]
+조건 성취 때부터 법률효과가 발생하는 조건
+
+[검색어]
+
+
+[핵심]
+- 조건이 성취되면 법률효과가 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-081
+STATUS: APPROVED
+ORDER: 81
+TYPE: term
+CATEGORY: 민법총칙·조건·기한
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2023
+EXAM_SAMPLE_REFS: 2022-33-first-046 | 2023-34-first-049
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 민법총칙·조건·기한
+SOURCE_REF: 
+
+[제목]
+해제조건
+
+[부제]
+조건 성취 때 법률효과가 소멸하는 조건
+
+[검색어]
+
+
+[핵심]
+- 조건이 성취되면 이미 발생한 효력이 장래를 향해 소멸
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-082
+STATUS: APPROVED
+ORDER: 82
+TYPE: term
+CATEGORY: 민법총칙·조건·기한
+BASIS: exam|summary
+EXAM_HIT_COUNT: 24
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-046 | 2021-32-first-049 | 2021-32-first-051 | 2021-32-first-052 | 2021-32-first-054 | 2021-32-first-055 | 2021-32-first-060 | 2022-33-first-044 | 2022-33-first-046 | 2022-33-first-052
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 민법총칙·조건·기한
+SOURCE_REF: 
+
+[제목]
+기한
+
+[부제]
+장래 확실한 사실에 효력이나 이행을 의존시키는 부관
+
+[검색어]
+
+
+[핵심]
+- 도래 여부가 확실하다는 점에서 조건과 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-083
+STATUS: APPROVED
+ORDER: 83
+TYPE: term
+CATEGORY: 민법총칙·조건·기한
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-first-048
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 민법총칙·조건·기한
+SOURCE_REF: 
+
+[제목]
+기한의 이익
+
+[부제]
+기한이 아직 도래하지 않아 얻는 시간적 이익
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 채무자의 이익을 위한 것으로 추정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-084
+STATUS: APPROVED
+ORDER: 84
+TYPE: term
+CATEGORY: 민법총칙·기본법리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-first-052 | 2024-35-1-1-061 | 2024-35-1-1-063
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 민법총칙·기본법리
+SOURCE_REF: 
+
+[제목]
+소멸시효
+
+[부제]
+권리를 행사하지 않은 상태가 계속되면 권리가 소멸하는 제도
+
+[검색어]
+
+
+[핵심]
+- 권리 불행사 상태의 계속과 법정기간 경과를 기초로 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-085
+STATUS: APPROVED
+ORDER: 85
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-069
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: Q-Net 기출·민법 판례에서 반복되는 기본 용어
+
+[제목]
+제척기간
+
+[부제]
+권리를 행사할 수 있는 법정 존속기간
+
+[검색어]
+
+
+[핵심]
+- 기간이 지나면 권리 자체가 소멸하는 기간으로 취소권·예약완결권 등에서 등장
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-086
+STATUS: APPROVED
+ORDER: 86
+TYPE: term
+CATEGORY: 법률 기본어
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-first-067
+IMPORTANCE: 3
+SOURCE_KIND: reference
+SOURCE_PAGE: 0
+SOURCE_SECTION: 법률 기본어
+SOURCE_REF: 민법·기출 공통 기본용어
+
+[제목]
+소급효
+
+[부제]
+법률효과를 과거 시점까지 거슬러 미치게 하는 효력
+
+[검색어]
+
+
+[핵심]
+- 취소·추인·해제 등에서 효과가 어느 시점까지 미치는지 판단할 때 쓰임
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-087
+STATUS: APPROVED
+ORDER: 87
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 20
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-051 | 2021-32-first-052 | 2021-32-first-054 | 2022-33-first-051 | 2022-33-first-053 | 2022-33-first-057 | 2023-34-first-041 | 2023-34-first-053 | 2023-34-first-054 | 2023-34-first-056
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+물권
+
+[부제]
+특정 물건을 직접 지배하여 배타적 이익을 얻는 권리
+
+[검색어]
+
+
+[핵심]
+- 특정 물건에 대한 직접적·배타적 지배권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-088
+STATUS: APPROVED
+ORDER: 88
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 41
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2021-32-first-059 | 2021-32-first-061 | 2021-32-first-062 | 2021-32-first-063 | 2021-32-first-071 | 2021-32-first-078 | 2022-33-first-043 | 2022-33-first-046 | 2022-33-first-059
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+채권
+
+[부제]
+특정인에게 일정한 급부를 청구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 특정 채무자에게 이행을 요구하는 상대적 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-089
+STATUS: APPROVED
+ORDER: 89
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-first-052
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+물권법정주의
+
+[부제]
+법률 또는 관습법 외에는 물권을 임의로 만들 수 없다는 원칙
+
+[검색어]
+
+
+[핵심]
+- 물권의 종류와 내용을 당사자가 마음대로 창설하지 못함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-090
+STATUS: APPROVED
+ORDER: 90
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+일물일권주의
+
+[부제]
+하나의 물건에 동일 내용의 물권 하나가 성립한다는 원칙
+
+[검색어]
+
+
+[핵심]
+- 물건의 일부·구성부분에는 원칙적으로 독립 물권을 인정하지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-091
+STATUS: APPROVED
+ORDER: 91
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-058 | 2022-33-first-052 | 2022-33-first-058 | 2024-35-1-1-053 | 2025-36-first-055
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+점유권
+
+[부제]
+물건의 사실상 지배를 보호하는 물권
+
+[검색어]
+
+
+[핵심]
+- 본권의 유무와 별개로 현실의 점유상태를 보호
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-092
+STATUS: APPROVED
+ORDER: 92
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 65
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-046 | 2021-32-first-051 | 2021-32-first-052 | 2021-32-first-053 | 2021-32-first-054 | 2021-32-first-056 | 2021-32-first-057 | 2021-32-first-059 | 2021-32-first-061 | 2021-32-first-062
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+소유권
+
+[부제]
+법률 범위에서 물건을 사용·수익·처분할 수 있는 권리
+
+[검색어]
+
+
+[핵심]
+- 물건에 대한 가장 포괄적인 물권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-093
+STATUS: APPROVED
+ORDER: 93
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+제한물권
+
+[부제]
+소유권의 일부 권능만을 제한적으로 지배하는 물권
+
+[검색어]
+
+
+[핵심]
+- 용익물권과 담보물권으로 구분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-094
+STATUS: APPROVED
+ORDER: 94
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+용익물권
+
+[부제]
+타인의 물건을 사용·수익하는 제한물권
+
+[검색어]
+
+
+[핵심]
+- 지상권·지역권·전세권이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-095
+STATUS: APPROVED
+ORDER: 95
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+담보물권
+
+[부제]
+채권의 만족을 확보하기 위한 물권
+
+[검색어]
+
+
+[핵심]
+- 유치권·질권·저당권 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-096
+STATUS: APPROVED
+ORDER: 96
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+우선적 효력
+
+[부제]
+물권이 채권에 우선하고 선순위 물권이 우선하는 효력
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 먼저 성립한 물권이 뒤의 물권보다 우선
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-097
+STATUS: APPROVED
+ORDER: 97
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-052 | 2021-32-first-054 | 2022-33-first-053 | 2023-34-first-053 | 2023-34-first-054 | 2025-36-first-051
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+물권적 청구권
+
+[부제]
+물권 침해의 제거·예방 등을 청구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 반환청구·방해제거청구·방해예방청구로 구분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-098
+STATUS: APPROVED
+ORDER: 98
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-058 | 2021-32-first-060 | 2021-32-first-064 | 2024-35-1-1-053 | 2024-35-1-1-055 | 2024-35-1-1-057 | 2024-35-1-1-061 | 2025-36-first-079
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+반환청구권
+
+[부제]
+물권자가 점유를 빼앗겼을 때 반환을 요구하는 청구권
+
+[검색어]
+
+
+[핵심]
+- 소유권·지상권·전세권 등 본권에 기한 반환청구가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-099
+STATUS: APPROVED
+ORDER: 99
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+방해제거청구권
+
+[부제]
+현재 계속되는 물권 방해를 없애라고 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 점유를 빼앗긴 경우가 아닌 현재의 방해 제거를 청구
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-100
+STATUS: APPROVED
+ORDER: 100
+TYPE: term
+CATEGORY: 물권법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·총론
+SOURCE_REF: 
+
+[제목]
+방해예방청구권
+
+[부제]
+장래의 물권 방해를 미리 막아 달라고 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 방해의 염려가 있을 때 예방 또는 담보를 청구
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-101
+STATUS: APPROVED
+ORDER: 101
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-057 | 2024-35-1-1-051 | 2024-35-1-1-056 | 2025-36-first-054 | 2025-36-first-057
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+물권변동
+
+[부제]
+물권의 발생·변경·소멸
+
+[검색어]
+
+
+[핵심]
+- 법률행위 또는 법률 규정에 의해 물권관계가 바뀌는 것
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-102
+STATUS: APPROVED
+ORDER: 102
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 64
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-045 | 2021-32-first-046 | 2021-32-first-053 | 2021-32-first-054 | 2021-32-first-057 | 2021-32-first-061 | 2021-32-first-065 | 2021-32-first-071 | 2021-32-first-073 | 2021-32-first-075
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 2.공인중개사요약_민법.pdf p11 + 국가법령정보센터 「민법」 제186조
+
+[제목]
+등기
+
+[부제]
+부동산 물권변동의 대표적 공시방법
+
+[검색어]
+
+
+[핵심]
+- 법률행위에 의한 부동산 물권변동은 원칙적으로 등기가 있어야 효력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-103
+STATUS: APPROVED
+ORDER: 103
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-053 | 2022-33-first-072 | 2023-34-first-053 | 2023-34-first-054 | 2024-35-1-1-071 | 2025-36-first-051
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+등기청구권
+
+[부제]
+등기의무자에게 등기절차 이행을 청구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 채권적 청구권인지 물권적 청구권인지 발생원인에 따라 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-104
+STATUS: APPROVED
+ORDER: 104
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-054 | 2021-32-first-078 | 2022-33-first-078 | 2023-34-first-076 | 2024-35-1-1-071 | 2024-35-1-1-077 | 2025-36-first-077
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+가등기
+
+[부제]
+장래 본등기 순위를 보전하기 위한 예비등기
+
+[검색어]
+
+
+[핵심]
+- 청구권 보전을 위해 하고 그 자체로 완전한 물권변동 효력은 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-105
+STATUS: APPROVED
+ORDER: 105
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-054 | 2024-35-1-1-077 | 2025-36-first-077
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+본등기
+
+[부제]
+등기 본래의 물권변동 효력을 발생시키는 종국등기
+
+[검색어]
+
+
+[핵심]
+- 가등기에 대응하는 완전한 종국등기
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-106
+STATUS: APPROVED
+ORDER: 106
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-first-045 | 2024-35-1-1-054
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+중간생략등기
+
+[부제]
+중간 취득자 등기를 생략하고 최종취득자에게 바로 하는 등기
+
+[검색어]
+
+
+[핵심]
+- 실체관계와 등기절차가 일치하는지 및 청구 가능성이 기출에서 반복
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-107
+STATUS: APPROVED
+ORDER: 107
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 25
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-053 | 2021-32-first-055 | 2021-32-first-058 | 2021-32-first-075 | 2021-32-first-077 | 2022-33-first-044 | 2022-33-first-052 | 2022-33-first-076 | 2022-33-first-077 | 2023-34-first-053
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+인도
+
+[부제]
+동산의 점유를 넘겨주는 공시방법
+
+[검색어]
+
+
+[핵심]
+- 동산 물권 양도는 원칙적으로 인도가 있어야 효력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-108
+STATUS: APPROVED
+ORDER: 108
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+간이인도
+
+[부제]
+양수인이 이미 점유 중일 때 의사표시만으로 하는 인도
+
+[검색어]
+
+
+[핵심]
+- 현실로 다시 넘겨주지 않고 합의만으로 인도 효과 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-109
+STATUS: APPROVED
+ORDER: 109
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+점유개정
+
+[부제]
+양도인이 계속 점유하되 양수인이 인도받은 것으로 하는 방식
+
+[검색어]
+
+
+[핵심]
+- 양도인이 직접점유를 계속하면서 점유를 양수인에게 이전한 것으로 봄
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-110
+STATUS: APPROVED
+ORDER: 110
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+목적물반환청구권 양도
+
+[부제]
+제3자 점유 동산의 반환청구권을 넘겨 인도하는 방식
+
+[검색어]
+
+
+[핵심]
+- 양도인이 제3자에 대한 반환청구권을 양수인에게 양도해 인도에 갈음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-111
+STATUS: APPROVED
+ORDER: 111
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+선의취득
+
+[부제]
+무권리자로부터 동산을 취득해도 일정 요건 아래 소유권을 얻는 제도
+
+[검색어]
+
+
+[핵심]
+- 평온·공연한 양수와 선의·무과실 등 법정요건을 충족하면 보호
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-112
+STATUS: APPROVED
+ORDER: 112
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-060
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+입목
+
+[부제]
+입목법에 따라 독립 부동산으로 취급되는 수목집단
+
+[검색어]
+
+
+[핵심]
+- 토지에 부착된 수목집단 중 소유권보존등기를 받은 것
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-113
+STATUS: APPROVED
+ORDER: 113
+TYPE: term
+CATEGORY: 물권법·물권변동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·물권변동
+SOURCE_REF: 
+
+[제목]
+명인방법
+
+[부제]
+수목 등 독립 소유권을 외부에 표시하는 공시방법
+
+[검색어]
+
+
+[핵심]
+- 수목 등의 소유권 이전을 공시하는 관습법상 방법
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-114
+STATUS: APPROVED
+ORDER: 114
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 38
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-052 | 2021-32-first-055 | 2021-32-first-057 | 2021-32-first-058 | 2021-32-first-075 | 2022-33-first-051 | 2022-33-first-052 | 2022-33-first-053 | 2022-33-first-054 | 2022-33-first-056
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+점유
+
+[부제]
+물건을 사실상 지배하는 상태
+
+[검색어]
+
+
+[핵심]
+- 사실상 지배가 있고 외부에서 인식 가능한 상태
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-115
+STATUS: APPROVED
+ORDER: 115
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+점유보조자
+
+[부제]
+타인의 지시를 받아 사실상 지배하는 사람
+
+[검색어]
+
+
+[핵심]
+- 가사·영업상 관계 등으로 지시를 받아 지배하면 지시한 사람만 점유자
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-116
+STATUS: APPROVED
+ORDER: 116
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022
+EXAM_SAMPLE_REFS: 2021-32-first-075 | 2022-33-first-052 | 2022-33-first-061
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+간접점유
+
+[부제]
+다른 사람을 매개로 물건을 점유하는 것
+
+[검색어]
+
+
+[핵심]
+- 임대차·사용대차 등 점유매개관계를 통해 간접으로 점유
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-117
+STATUS: APPROVED
+ORDER: 117
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022
+EXAM_SAMPLE_REFS: 2021-32-first-057 | 2022-33-first-052 | 2022-33-first-054
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+자주점유
+
+[부제]
+소유의 의사로 하는 점유
+
+[검색어]
+
+
+[핵심]
+- 자기 물건처럼 소유할 의사로 점유
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-118
+STATUS: APPROVED
+ORDER: 118
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2023
+EXAM_SAMPLE_REFS: 2022-33-first-056 | 2023-34-first-051
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+타주점유
+
+[부제]
+소유의 의사 없이 하는 점유
+
+[검색어]
+
+
+[핵심]
+- 임차인처럼 타인의 소유임을 전제로 하는 점유
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-119
+STATUS: APPROVED
+ORDER: 119
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+선의점유
+
+[부제]
+점유할 권리가 있다고 믿고 하는 점유
+
+[검색어]
+
+
+[핵심]
+- 본권이 없음에도 있다고 오신한 점유
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-120
+STATUS: APPROVED
+ORDER: 120
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+악의점유
+
+[부제]
+점유할 권리가 없음을 알면서 하는 점유
+
+[검색어]
+
+
+[핵심]
+- 본권이 없음을 알고도 하는 점유
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-121
+STATUS: APPROVED
+ORDER: 121
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-first-058 | 2024-35-1-1-053
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+점유물반환청구권
+
+[부제]
+점유를 빼앗긴 자가 반환을 청구하는 권리
+
+[검색어]
+점유회수청구권
+
+[핵심]
+- 점유 침탈이 있는 경우 점유 자체의 보호를 위해 행사
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-122
+STATUS: APPROVED
+ORDER: 122
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+점유물방해제거청구권
+
+[부제]
+점유 방해의 제거와 손해배상을 청구하는 권리
+
+[검색어]
+점유보유청구권
+
+[핵심]
+- 현재 점유가 방해받고 있을 때 행사
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-123
+STATUS: APPROVED
+ORDER: 123
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+점유보전청구권
+
+[부제]
+점유 방해의 예방이나 담보를 청구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 점유 방해의 염려가 있을 때 예방적으로 행사
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-124
+STATUS: APPROVED
+ORDER: 124
+TYPE: term
+CATEGORY: 물권법·점유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 물권법·점유권
+SOURCE_REF: 
+
+[제목]
+자력구제
+
+[부제]
+법원의 절차 전 긴급하게 스스로 점유침해를 막는 제도
+
+[검색어]
+
+
+[핵심]
+- 법정요건 아래 즉시 침탈자를 배제하거나 점유물을 회수하는 예외적 구제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-125
+STATUS: APPROVED
+ORDER: 125
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-055
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+상린관계
+
+[부제]
+인접 부동산 소유자 사이의 이용을 법이 조절하는 관계
+
+[검색어]
+
+
+[핵심]
+- 서로 인접한 부동산 이용의 충돌을 조정하는 법정 관계
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-126
+STATUS: APPROVED
+ORDER: 126
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-first-056
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+주위토지통행권
+
+[부제]
+공로로 나갈 통로가 없는 토지의 통행을 위한 권리
+
+[검색어]
+
+
+[핵심]
+- 필요한 범위에서 주위 토지를 통행할 수 있게 하는 상린관계
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-127
+STATUS: APPROVED
+ORDER: 127
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2021-32-first-053 | 2021-32-first-057 | 2022-33-first-052 | 2022-33-first-056 | 2023-34-first-041 | 2023-34-first-053 | 2023-34-first-055 | 2023-34-first-075 | 2024-35-1-1-055
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+취득시효
+
+[부제]
+장기간 일정한 상태를 계속한 자에게 권리를 취득시키는 제도
+
+[검색어]
+
+
+[핵심]
+- 부동산 취득시효는 점유취득시효와 등기부취득시효로 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-128
+STATUS: APPROVED
+ORDER: 128
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-057 | 2022-33-first-056 | 2023-34-first-041 | 2023-34-first-053 | 2023-34-first-055 | 2025-36-first-051 | 2025-36-first-078
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 2.공인중개사요약_민법.pdf p15 + 국가법령정보센터 「민법」 제245조 제1항
+
+[제목]
+점유취득시효
+
+[부제]
+장기간 자주·평온·공연 점유 후 등기로 소유권을 취득
+
+[검색어]
+
+
+[핵심]
+- 민법 제245조 제1항 유형
+- 법정기간 점유 후 등기를 해야 소유권을 취득
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-129
+STATUS: APPROVED
+ORDER: 129
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 2.공인중개사요약_민법.pdf p15 + 국가법령정보센터 「민법」 제245조 제2항
+
+[제목]
+등기부취득시효
+
+[부제]
+소유자로 등기한 선의·무과실 점유자의 취득시효
+
+[검색어]
+
+
+[핵심]
+- 민법 제245조 제2항 유형
+- 등기와 선의·무과실 등의 법정요건이 필요
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-130
+STATUS: APPROVED
+ORDER: 130
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+첨부
+
+[부제]
+부합·혼화·가공으로 물건 소유권 귀속을 정하는 제도
+
+[검색어]
+
+
+[핵심]
+- 서로 다른 물건이 결합되거나 가공된 경우 소유권 귀속을 정함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-131
+STATUS: APPROVED
+ORDER: 131
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2025
+EXAM_SAMPLE_REFS: 2021-32-first-056 | 2025-36-first-062
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+부합
+
+[부제]
+물건이 다른 물건과 결합해 분리하기 어렵게 되는 첨부
+
+[검색어]
+
+
+[핵심]
+- 부동산·동산의 결합 정도에 따라 소유권 귀속 문제 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-132
+STATUS: APPROVED
+ORDER: 132
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+혼화
+
+[부제]
+서로 다른 소유자의 물건이 섞여 구별할 수 없게 되는 첨부
+
+[검색어]
+
+
+[핵심]
+- 동산이 섞여 원상분리가 곤란한 경우
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-133
+STATUS: APPROVED
+ORDER: 133
+TYPE: term
+CATEGORY: 물권법·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 물권법·소유권
+SOURCE_REF: 
+
+[제목]
+가공
+
+[부제]
+타인의 재료에 노력을 가해 새로운 물건을 만드는 첨부
+
+[검색어]
+
+
+[핵심]
+- 재료가치와 가공가치를 비교해 소유권 귀속이 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-134
+STATUS: APPROVED
+ORDER: 134
+TYPE: term
+CATEGORY: 물권법·공동소유
+BASIS: exam|summary
+EXAM_HIT_COUNT: 16
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2021-32-first-055 | 2021-32-first-060 | 2022-33-first-057 | 2022-33-first-062 | 2022-33-first-063 | 2022-33-first-066 | 2023-34-first-060 | 2023-34-first-075 | 2024-35-1-1-052
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 물권법·공동소유
+SOURCE_REF: 
+
+[제목]
+공유
+
+[부제]
+지분을 가진 여러 사람이 하나의 물건을 공동소유
+
+[검색어]
+
+
+[핵심]
+- 각 공유자가 지분을 가지고 공동으로 소유
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-135
+STATUS: APPROVED
+ORDER: 135
+TYPE: term
+CATEGORY: 물권법·공동소유
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-first-041 | 2022-33-first-057 | 2022-33-first-066 | 2024-35-1-1-068
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 물권법·공동소유
+SOURCE_REF: 
+
+[제목]
+공유지분
+
+[부제]
+공유물 전체에 대해 각 공유자가 가지는 비율적 권리
+
+[검색어]
+
+
+[핵심]
+- 특정 부분이 아니라 공유물 전체에 대한 비율적 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-136
+STATUS: APPROVED
+ORDER: 136
+TYPE: term
+CATEGORY: 물권법·공동소유
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 물권법·공동소유
+SOURCE_REF: 
+
+[제목]
+공유물분할청구권
+
+[부제]
+공유관계를 끝내기 위해 공유물 분할을 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 각 공유자는 원칙적으로 언제든지 분할을 청구할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-137
+STATUS: APPROVED
+ORDER: 137
+TYPE: term
+CATEGORY: 물권법·공동소유
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-first-057 | 2023-34-first-052 | 2025-36-first-054
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 물권법·공동소유
+SOURCE_REF: 
+
+[제목]
+합유
+
+[부제]
+조합체 구성원이 단체관계에 따라 공동소유하는 형태
+
+[검색어]
+
+
+[핵심]
+- 합유지분 처분과 분할이 공유보다 강하게 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-138
+STATUS: APPROVED
+ORDER: 138
+TYPE: term
+CATEGORY: 물권법·공동소유
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-057
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 물권법·공동소유
+SOURCE_REF: 
+
+[제목]
+총유
+
+[부제]
+법인 아닌 사단 구성원이 지분 없이 공동소유하는 형태
+
+[검색어]
+
+
+[핵심]
+- 관리·처분은 사원총회 결의 등 단체의 의사에 따름
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-139
+STATUS: APPROVED
+ORDER: 139
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 17
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-059 | 2021-32-first-062 | 2022-33-first-051 | 2022-33-first-053 | 2022-33-first-058 | 2022-33-first-062 | 2022-33-first-071 | 2023-34-first-057 | 2023-34-first-058 | 2023-34-first-059
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+지상권
+
+[부제]
+타인의 토지에서 건물·공작물·수목을 소유하기 위한 물권
+
+[검색어]
+
+
+[핵심]
+- 타인의 토지를 사용하는 대표적 용익물권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-140
+STATUS: APPROVED
+ORDER: 140
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-062 | 2023-34-first-064 | 2024-35-1-1-062 | 2025-36-first-061
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+법정지상권
+
+[부제]
+법이 정한 요건에서 등기 없이 성립하는 지상권
+
+[검색어]
+
+
+[핵심]
+- 토지와 건물의 소유자가 달라지는 일정한 경우 건물 이용을 위해 성립
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-141
+STATUS: APPROVED
+ORDER: 141
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-first-062 | 2025-36-first-061
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+관습법상 법정지상권
+
+[부제]
+관습법상 요건을 갖춘 토지·건물 관계에서 인정되는 지상권
+
+[검색어]
+
+
+[핵심]
+- 동일인 소유 토지·건물이 매매 등으로 소유자를 달리하게 되는 일정한 경우 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-142
+STATUS: APPROVED
+ORDER: 142
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-first-059 | 2024-35-1-1-058
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+분묘기지권
+
+[부제]
+타인 토지의 분묘기지를 사용할 수 있는 관습법상 권리
+
+[검색어]
+
+
+[핵심]
+- 분묘의 설치·존속과 관련해 판례상 인정되는 관습법상 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-143
+STATUS: APPROVED
+ORDER: 143
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-060 | 2022-33-first-063 | 2023-34-first-060 | 2024-35-1-1-059 | 2025-36-first-060
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+지역권
+
+[부제]
+자기 토지 편익을 위해 타인의 토지를 이용하는 물권
+
+[검색어]
+
+
+[핵심]
+- 요역지의 편익을 위해 승역지를 이용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-144
+STATUS: APPROVED
+ORDER: 144
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-060 | 2022-33-first-063 | 2023-34-first-060 | 2024-35-1-1-059 | 2025-36-first-060
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+요역지
+
+[부제]
+지역권으로 편익을 받는 토지
+
+[검색어]
+
+
+[핵심]
+- 지역권의 이익을 받는 쪽 토지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-145
+STATUS: APPROVED
+ORDER: 145
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2025
+EXAM_SAMPLE_REFS: 2021-32-first-060 | 2022-33-first-063 | 2025-36-first-060
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+승역지
+
+[부제]
+지역권의 부담을 지는 토지
+
+[검색어]
+
+
+[핵심]
+- 요역지의 편익을 위해 이용되는 쪽 토지
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-146
+STATUS: APPROVED
+ORDER: 146
+TYPE: term
+CATEGORY: 물권법·용익물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-061 | 2021-32-first-062 | 2021-32-first-075 | 2022-33-first-051 | 2022-33-first-058 | 2022-33-first-060 | 2022-33-first-064 | 2023-34-first-058 | 2023-34-first-064 | 2024-35-1-1-060
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 물권법·용익물권
+SOURCE_REF: 
+
+[제목]
+전세권
+
+[부제]
+전세금을 지급하고 부동산을 사용·수익하며 우선변제받는 물권
+
+[검색어]
+
+
+[핵심]
+- 등기로 성립하는 용익물권이면서 담보적 기능도 가짐
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-147
+STATUS: APPROVED
+ORDER: 147
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+부종성
+
+[부제]
+피담보채권에 따라 담보물권이 존속하는 성질
+
+[검색어]
+
+
+[핵심]
+- 피담보채권이 소멸하면 담보물권도 원칙적으로 소멸
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-148
+STATUS: APPROVED
+ORDER: 148
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+수반성
+
+[부제]
+피담보채권 이전에 담보권도 따라가는 성질
+
+[검색어]
+
+
+[핵심]
+- 채권이 이전되면 담보물권도 함께 이전되는 성질
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-149
+STATUS: APPROVED
+ORDER: 149
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-063 | 2023-34-first-061 | 2025-36-first-063
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+물상대위성
+
+[부제]
+목적물의 가치변형물에도 담보권 효력이 미치는 성질
+
+[검색어]
+물상대위
+
+[핵심]
+- 목적물이 금전 등으로 바뀌어도 일정 요건 아래 그 가치에 담보권 행사
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-150
+STATUS: APPROVED
+ORDER: 150
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+불가분성
+
+[부제]
+채권 전부 변제 전까지 목적물 전부에 담보권을 행사하는 성질
+
+[검색어]
+
+
+[핵심]
+- 채권 일부가 남으면 담보물 전체에 권리가 미침
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-151
+STATUS: APPROVED
+ORDER: 151
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-064 | 2022-33-first-061 | 2022-33-first-079 | 2023-34-first-063 | 2024-35-1-1-061 | 2024-35-1-1-080 | 2025-36-first-052 | 2025-36-first-064
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+유치권
+
+[부제]
+채권 변제 때까지 관련 물건의 반환을 거절하는 법정담보물권
+
+[검색어]
+
+
+[핵심]
+- 타인의 물건을 점유하고 그 물건에 관해 생긴 채권이 변제기에 있으면 성립 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-152
+STATUS: APPROVED
+ORDER: 152
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 30
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-062 | 2021-32-first-063 | 2021-32-first-071 | 2022-33-first-051 | 2022-33-first-056 | 2022-33-first-058 | 2022-33-first-059 | 2022-33-first-060 | 2022-33-first-062 | 2022-33-first-071
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+저당권
+
+[부제]
+점유를 넘기지 않고 부동산 가치에서 우선변제받는 담보물권
+
+[검색어]
+
+
+[핵심]
+- 목적물 점유는 설정자에게 두고 교환가치를 지배
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-153
+STATUS: APPROVED
+ORDER: 153
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+법정저당권
+
+[부제]
+법률 규정에 의해 당연히 성립하는 저당권적 권리
+
+[검색어]
+
+
+[핵심]
+- 요약집은 토지임대인의 특정 차임채권 사례를 대표적으로 제시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-154
+STATUS: APPROVED
+ORDER: 154
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-059 | 2021-32-first-062 | 2021-32-first-078 | 2022-33-first-059 | 2022-33-first-061 | 2022-33-first-078 | 2023-34-first-061 | 2023-34-first-063 | 2024-35-1-1-061 | 2024-35-1-1-077
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+피담보채권
+
+[부제]
+담보물권으로 담보되는 채권
+
+[검색어]
+
+
+[핵심]
+- 담보권이 확보하려는 원본채권과 법이 정한 부수채권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-155
+STATUS: APPROVED
+ORDER: 155
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-062
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+물상보증인
+
+[부제]
+자기 재산으로 타인의 채무를 담보한 사람
+
+[검색어]
+
+
+[핵심]
+- 채무자는 아니지만 자기 물건에 저당권 등 담보권을 설정한 자
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-156
+STATUS: APPROVED
+ORDER: 156
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-064
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 21
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+일괄경매청구권
+
+[부제]
+저당토지와 그 위 건물을 함께 경매해 달라고 청구하는 권리
+
+[검색어]
+일괄경매
+
+[핵심]
+- 법정요건 아래 토지저당권자가 토지와 건물을 일괄경매할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-157
+STATUS: APPROVED
+ORDER: 157
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 21
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+공동저당
+
+[부제]
+하나의 채권을 여러 부동산이 함께 담보하는 저당
+
+[검색어]
+
+
+[핵심]
+- 여러 부동산의 배당과 후순위자의 대위 관계가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-158
+STATUS: APPROVED
+ORDER: 158
+TYPE: term
+CATEGORY: 물권법·담보물권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2022|2023|2024
+EXAM_SAMPLE_REFS: 2022-33-first-059 | 2023-34-first-062 | 2024-35-1-1-041 | 2024-35-1-1-064
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 21
+SOURCE_SECTION: 물권법·담보물권
+SOURCE_REF: 
+
+[제목]
+근저당권
+
+[부제]
+계속적 거래의 불특정 채권을 최고액 범위에서 담보하는 저당권
+
+[검색어]
+근저당
+
+[핵심]
+- 채무 최고액을 정하고 채무 확정을 장래에 보류하는 저당권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-159
+STATUS: APPROVED
+ORDER: 159
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+전형계약
+
+[부제]
+민법에 이름과 규율이 정해진 계약
+
+[검색어]
+유명계약
+
+[핵심]
+- 매매·임대차·증여 등 민법 채권각론에 규정된 계약
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-160
+STATUS: APPROVED
+ORDER: 160
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-first-072 | 2022-33-first-067 | 2024-35-1-1-068
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+쌍무계약
+
+[부제]
+당사자 쌍방이 서로 대가적 채무를 부담하는 계약
+
+[검색어]
+
+
+[핵심]
+- 매매처럼 서로의 채무가 대가관계에 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-161
+STATUS: APPROVED
+ORDER: 161
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-069 | 2024-35-1-1-065 | 2025-36-first-074
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+편무계약
+
+[부제]
+쌍방의 채무가 대가관계에 있지 않은 계약
+
+[검색어]
+
+
+[핵심]
+- 한쪽만 채무를 부담하거나 양쪽 급부가 대가관계가 아닌 계약
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-162
+STATUS: APPROVED
+ORDER: 162
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-1-1-065
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+유상계약
+
+[부제]
+당사자 쌍방이 경제적 대가를 주고받는 계약
+
+[검색어]
+
+
+[핵심]
+- 급부에 대응하는 경제적 반대급부가 존재
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-163
+STATUS: APPROVED
+ORDER: 163
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-069 | 2024-35-1-1-065 | 2025-36-first-074
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+무상계약
+
+[부제]
+경제적 대가 없이 이익을 주는 계약
+
+[검색어]
+
+
+[핵심]
+- 증여·사용대차 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-164
+STATUS: APPROVED
+ORDER: 164
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-first-069 | 2025-36-first-074
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+낙성계약
+
+[부제]
+당사자의 합의만으로 성립하는 계약
+
+[검색어]
+
+
+[핵심]
+- 특별한 방식이나 목적물 인도 없이 의사합치로 성립
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-165
+STATUS: APPROVED
+ORDER: 165
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-069 | 2024-35-1-1-065 | 2025-36-first-074
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+요물계약
+
+[부제]
+합의 외에 목적물 인도 등이 있어야 성립하는 계약
+
+[검색어]
+
+
+[핵심]
+- 합의만으로는 부족하고 법이 요구하는 현실적 요소가 필요
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-166
+STATUS: APPROVED
+ORDER: 166
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-068 | 2022-33-first-065 | 2024-35-1-1-046 | 2024-35-1-1-066 | 2025-36-first-066 | 2025-36-first-071
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+청약
+
+[부제]
+계약을 성립시키려는 확정적 의사표시
+
+[검색어]
+
+
+[핵심]
+- 상대방의 승낙만 있으면 계약이 성립할 정도로 구체적인 제안
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-167
+STATUS: APPROVED
+ORDER: 167
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-056 | 2022-33-first-061 | 2022-33-first-062 | 2022-33-first-065 | 2022-33-first-070 | 2023-34-first-044 | 2023-34-first-050 | 2024-35-1-1-058 | 2024-35-1-1-066
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+승낙
+
+[부제]
+청약에 동의하여 계약을 성립시키는 의사표시
+
+[검색어]
+
+
+[핵심]
+- 청약 내용과 합치하는 의사표시가 원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-168
+STATUS: APPROVED
+ORDER: 168
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+교차청약
+
+[부제]
+서로 같은 내용의 청약이 교차하는 경우
+
+[검색어]
+
+
+[핵심]
+- 두 청약이 상대방에게 도달한 때 계약 성립을 판단
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-169
+STATUS: APPROVED
+ORDER: 169
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 
+
+[제목]
+의사실현
+
+[부제]
+승낙 통지 없이 행동으로 승낙 의사가 실현되는 경우
+
+[검색어]
+
+
+[핵심]
+- 관습 또는 청약자의 의사에 의해 승낙 통지가 필요 없을 때 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-170
+STATUS: APPROVED
+ORDER: 170
+TYPE: term
+CATEGORY: 계약법·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·총론
+SOURCE_REF: 2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법」 제535조
+
+[제목]
+계약체결상 과실
+
+[부제]
+계약 성립 과정에서 상대방 신뢰를 침해한 책임
+
+[검색어]
+
+
+[핵심]
+- 목적 불능 등을 알았거나 알 수 있었던 경우 일정한 신뢰이익 배상책임이 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-171
+STATUS: APPROVED
+ORDER: 171
+TYPE: term
+CATEGORY: 계약법·효력
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-1-1-068
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 22
+SOURCE_SECTION: 계약법·효력
+SOURCE_REF: 2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법」 제536조
+
+[제목]
+동시이행항변권
+
+[부제]
+상대방 이행제공 전까지 자기 이행을 거절하는 권리
+
+[검색어]
+동시이행의 항변권
+
+[핵심]
+- 쌍무계약에서 대가적 채무가 서로 견련될 때 인정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-172
+STATUS: APPROVED
+ORDER: 172
+TYPE: term
+CATEGORY: 계약법·효력
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 23
+SOURCE_SECTION: 계약법·효력
+SOURCE_REF: 2.공인중개사요약_민법.pdf p23 + 국가법령정보센터 「민법」 제537조
+
+[제목]
+위험부담
+
+[부제]
+쌍무계약의 이행불능 위험을 누가 부담하는지의 문제
+
+[검색어]
+
+
+[핵심]
+- 쌍방 책임 없는 이행불능이면 채무자는 상대방 이행을 청구하지 못함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-173
+STATUS: APPROVED
+ORDER: 173
+TYPE: term
+CATEGORY: 계약법·효력
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-first-066 | 2022-33-first-067 | 2023-34-first-066 | 2024-35-1-1-070
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 23
+SOURCE_SECTION: 계약법·효력
+SOURCE_REF: 
+
+[제목]
+제3자를 위한 계약
+
+[부제]
+계약 당사자가 제3자에게 급부하도록 약정하는 계약
+
+[검색어]
+
+
+[핵심]
+- 요약자와 낙약자의 계약으로 제3자가 급부를 받을 수 있게 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-174
+STATUS: APPROVED
+ORDER: 174
+TYPE: term
+CATEGORY: 계약법·해제·해지
+BASIS: exam|essential
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2021-32-first-066 | 2021-32-first-067 | 2023-34-first-042 | 2023-34-first-066 | 2024-35-1-1-070 | 2024-35-1-1-072 | 2024-35-1-1-080 | 2025-36-first-046 | 2025-36-first-068
+IMPORTANCE: 5
+SOURCE_KIND: reference
+SOURCE_PAGE: 24
+SOURCE_SECTION: 계약법·해제·해지
+SOURCE_REF: 요약집 계약 해제 파트 + Q-Net 반복개념
+
+[제목]
+채무불이행
+
+[부제]
+채무자가 채무 내용대로 이행하지 않는 것
+
+[검색어]
+
+
+[핵심]
+- 이행지체·이행불능·불완전이행 등이 문제되며 해제·손해배상과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-175
+STATUS: APPROVED
+ORDER: 175
+TYPE: term
+CATEGORY: 계약법·해제·해지
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2023
+EXAM_SAMPLE_REFS: 2022-33-first-046 | 2023-34-first-051
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 계약법·해제·해지
+SOURCE_REF: 
+
+[제목]
+이행지체
+
+[부제]
+이행이 가능하지만 이행기까지 채무를 이행하지 않은 상태
+
+[검색어]
+
+
+[핵심]
+- 상당한 기간을 정한 최고 후 해제 등과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-176
+STATUS: APPROVED
+ORDER: 176
+TYPE: term
+CATEGORY: 계약법·해제·해지
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-first-041 | 2022-33-first-044 | 2022-33-first-067 | 2023-34-first-069 | 2025-36-first-055 | 2025-36-first-065
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 계약법·해제·해지
+SOURCE_REF: 
+
+[제목]
+이행불능
+
+[부제]
+채무의 이행이 불가능하게 된 상태
+
+[검색어]
+
+
+[핵심]
+- 귀책사유 유무에 따라 손해배상·위험부담 등의 효과가 달라짐
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-177
+STATUS: APPROVED
+ORDER: 177
+TYPE: term
+CATEGORY: 계약법·해제·해지
+BASIS: exam|summary
+EXAM_HIT_COUNT: 27
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-044 | 2021-32-first-066 | 2021-32-first-067 | 2021-32-first-070 | 2022-33-first-041 | 2022-33-first-044 | 2022-33-first-046 | 2022-33-first-067 | 2022-33-first-068 | 2022-33-first-071
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 계약법·해제·해지
+SOURCE_REF: 
+
+[제목]
+해제
+
+[부제]
+유효한 계약을 소급적으로 없애는 일방적 의사표시
+
+[검색어]
+
+
+[핵심]
+- 법정 또는 약정 해제권을 행사하면 계약관계를 소급적으로 청산
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-178
+STATUS: APPROVED
+ORDER: 178
+TYPE: term
+CATEGORY: 계약법·해제·해지
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-073 | 2021-32-first-074 | 2022-33-first-076 | 2023-34-first-073 | 2023-34-first-080 | 2024-35-1-1-046 | 2024-35-1-1-073 | 2024-35-1-1-075 | 2024-35-1-1-078 | 2025-36-first-072
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 계약법·해제·해지
+SOURCE_REF: 
+
+[제목]
+해지
+
+[부제]
+계속적 계약관계를 장래를 향해 끝내는 의사표시
+
+[검색어]
+
+
+[핵심]
+- 임대차 같은 계속적 계약을 장래에 향해 종료
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-179
+STATUS: APPROVED
+ORDER: 179
+TYPE: term
+CATEGORY: 계약법·해제·해지
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-042 | 2023-34-first-072 | 2023-34-first-074
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 계약법·해제·해지
+SOURCE_REF: 
+
+[제목]
+원상회복
+
+[부제]
+해제 후 서로 받은 급부를 되돌려 계약 전 상태로 돌리는 것
+
+[검색어]
+
+
+[핵심]
+- 계약 해제의 대표적 효과
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-180
+STATUS: APPROVED
+ORDER: 180
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 56
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-046 | 2021-32-first-065 | 2021-32-first-067 | 2021-32-first-070 | 2021-32-first-071 | 2021-32-first-072 | 2021-32-first-077 | 2021-32-first-078 | 2021-32-first-079
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 25
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 2.공인중개사요약_민법.pdf p25 + 국가법령정보센터 「민법」 제563조
+
+[제목]
+매매
+
+[부제]
+재산권 이전과 대금 지급을 서로 약정하는 계약
+
+[검색어]
+
+
+[핵심]
+- 재산권 이전 약정과 금전 대금 지급 약정의 합치로 성립
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-181
+STATUS: APPROVED
+ORDER: 181
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-first-078 | 2023-34-first-069 | 2024-35-1-1-071
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 
+
+[제목]
+매매예약
+
+[부제]
+장래 매매를 완결할 수 있도록 미리 약정하는 계약
+
+[검색어]
+
+
+[핵심]
+- 일방예약은 예약완결권 행사가 있으면 매매 효력이 생김
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-182
+STATUS: APPROVED
+ORDER: 182
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-first-070 | 2023-34-first-069 | 2025-36-first-069
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 
+
+[제목]
+예약완결권
+
+[부제]
+매매예약에서 본계약을 성립시키는 형성권
+
+[검색어]
+
+
+[핵심]
+- 일방예약의 권리자가 완결 의사를 표시하면 본계약 성립
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-183
+STATUS: APPROVED
+ORDER: 183
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-first-043 | 2022-33-first-044 | 2023-34-first-048 | 2023-34-first-071 | 2024-35-1-1-069 | 2024-35-1-1-072
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 
+
+[제목]
+계약금
+
+[부제]
+계약 체결 때 당사자 사이에 주고받는 금전 또는 물건
+
+[검색어]
+
+
+[핵심]
+- 특약이 없으면 해약금 성질이 문제될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-184
+STATUS: APPROVED
+ORDER: 184
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-044
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 26
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 2.공인중개사요약_민법.pdf p26 + 국가법령정보센터 「민법」 제565조
+
+[제목]
+해약금
+
+[부제]
+이행 착수 전 계약금 포기·배액상환으로 해제할 수 있게 하는 금전
+
+[검색어]
+계약금 해제
+
+[핵심]
+- 특약이 없으면 계약금은 해약금으로 기능할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-185
+STATUS: APPROVED
+ORDER: 185
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-070 | 2021-32-first-072 | 2022-33-first-071 | 2023-34-first-070 | 2024-35-1-1-056 | 2025-36-first-070 | 2025-36-first-076
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 
+
+[제목]
+매도인의 담보책임
+
+[부제]
+매매목적 권리·물건의 불완전성에 대해 매도인이 지는 책임
+
+[검색어]
+담보책임
+
+[핵심]
+- 권리의 결함이나 목적물 하자 등에 대해 법정 책임이 발생할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-186
+STATUS: APPROVED
+ORDER: 186
+TYPE: term
+CATEGORY: 계약법·매매
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2023
+EXAM_SAMPLE_REFS: 2021-32-first-071 | 2022-33-first-072 | 2023-34-first-065
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 계약법·매매
+SOURCE_REF: 
+
+[제목]
+환매
+
+[부제]
+매도인이 일정 요건에 따라 매매목적물을 다시 사오는 제도
+
+[검색어]
+
+
+[핵심]
+- 매매와 동시에 환매특약을 두어 장래 목적물을 되찾는 구조
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-187
+STATUS: APPROVED
+ORDER: 187
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 30
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-046 | 2021-32-first-064 | 2021-32-first-065 | 2021-32-first-073 | 2021-32-first-074 | 2021-32-first-075 | 2021-32-first-076 | 2021-32-first-077 | 2022-33-first-042 | 2022-33-first-066
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 28
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p28 + 국가법령정보센터 「민법」 제618조
+
+[제목]
+임대차
+
+[부제]
+목적물 사용·수익과 차임 지급을 서로 약정하는 계약
+
+[검색어]
+
+
+[핵심]
+- 임대인은 사용·수익하게 하고 임차인은 차임을 지급
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-188
+STATUS: APPROVED
+ORDER: 188
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-063 | 2021-32-first-075 | 2022-33-first-051 | 2022-33-first-058 | 2022-33-first-066 | 2022-33-first-076 | 2024-35-1-1-073 | 2025-36-first-080
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+임차권
+
+[부제]
+임차인이 목적물을 사용·수익할 수 있는 채권
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 채권이지만 법률에 따라 대항력 등이 강화될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-189
+STATUS: APPROVED
+ORDER: 189
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 17
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-063 | 2021-32-first-073 | 2021-32-first-074 | 2021-32-first-077 | 2022-33-first-060 | 2022-33-first-073 | 2022-33-first-074 | 2022-33-first-076 | 2023-34-first-072 | 2023-34-first-073
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+차임
+
+[부제]
+임차인이 사용·수익의 대가로 지급하는 금전 등
+
+[검색어]
+
+
+[핵심]
+- 임대차에서 임차인이 부담하는 대표적 급부
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-190
+STATUS: APPROVED
+ORDER: 190
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-064 | 2021-32-first-065 | 2021-32-first-077 | 2022-33-first-066 | 2022-33-first-074 | 2022-33-first-075 | 2022-33-first-076 | 2023-34-first-078 | 2023-34-first-079 | 2024-35-1-1-074
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 30
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+보증금
+
+[부제]
+임차인의 채무를 담보하기 위해 임대인에게 맡기는 금전 등
+
+[검색어]
+
+
+[핵심]
+- 임대차 종료 시 미지급 차임 등을 정산하고 반환하는 담보 성격
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-191
+STATUS: APPROVED
+ORDER: 191
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-064 | 2022-33-first-066 | 2024-35-1-1-061 | 2025-36-first-067
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 30
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+권리금
+
+[부제]
+영업시설·거래처·신용·입지 등 영업가치의 양도·이용 대가
+
+[검색어]
+
+
+[핵심]
+- 상가 임대차에서 영업상 가치와 관련해 주고받는 대가
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-192
+STATUS: APPROVED
+ORDER: 192
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023
+EXAM_SAMPLE_REFS: 2021-32-first-058 | 2022-33-first-054 | 2022-33-first-061 | 2022-33-first-073 | 2023-34-first-041 | 2023-34-first-051 | 2023-34-first-064 | 2023-34-first-072
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+필요비
+
+[부제]
+목적물을 보존·유지하기 위해 지출한 비용
+
+[검색어]
+
+
+[핵심]
+- 임차인이 지출한 보존비 등은 비용상환청구 대상이 될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-193
+STATUS: APPROVED
+ORDER: 193
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-054 | 2022-33-first-073
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+유익비
+
+[부제]
+목적물 가치를 증가시키기 위해 지출한 비용
+
+[검색어]
+
+
+[핵심]
+- 가치 증가가 현존하는 범위에서 임대차 종료 시 상환 문제가 생김
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-194
+STATUS: APPROVED
+ORDER: 194
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-073 | 2023-34-first-073 | 2024-35-1-1-073 | 2025-36-first-064 | 2025-36-first-073
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+지상물매수청구권
+
+[부제]
+토지임차인이 일정 요건에서 지상물 매수를 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 건물 등 지상물을 보호하기 위해 인정되는 형성권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-195
+STATUS: APPROVED
+ORDER: 195
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-073
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+부속물매수청구권
+
+[부제]
+건물임차인이 일정 요건에서 부속물 매수를 요구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 임대인 동의로 부속한 물건 등 일정한 경우 인정되는 형성권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-196
+STATUS: APPROVED
+ORDER: 196
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+임차권 양도
+
+[부제]
+임차인이 임차권을 제3자에게 이전하는 것
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 임대인 동의 없이 양도할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-197
+STATUS: APPROVED
+ORDER: 197
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2025
+EXAM_SAMPLE_REFS: 2021-32-first-074 | 2021-32-first-076 | 2025-36-first-072
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+전대
+
+[부제]
+임차인이 임차물을 다시 제3자에게 임대하는 것
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 임대인의 동의 없이 전대할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-198
+STATUS: APPROVED
+ORDER: 198
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+전차인
+
+[부제]
+임차인으로부터 다시 임차한 사람
+
+[검색어]
+
+
+[핵심]
+- 적법한 전대에서는 임대인과도 일정한 직접 관계가 생김
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-199
+STATUS: APPROVED
+ORDER: 199
+TYPE: term
+CATEGORY: 계약법·임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2025
+EXAM_SAMPLE_REFS: 2023-34-first-078 | 2025-36-first-075
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 계약법·임대차
+SOURCE_REF: 
+
+[제목]
+묵시적 갱신
+
+[부제]
+기간 만료 후 이의 없이 관계가 계속되어 갱신되는 것
+
+[검색어]
+
+
+[핵심]
+- 법률이 정한 요건에서 종전 임대차가 묵시적으로 갱신
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-200
+STATUS: APPROVED
+ORDER: 200
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-075 | 2021-32-first-076 | 2022-33-first-066 | 2022-33-first-075 | 2023-34-first-078 | 2024-35-1-1-071 | 2024-35-1-1-075 | 2025-36-first-075
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 32
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」
+
+[제목]
+주택임대차보호법
+
+[부제]
+주거용 건물 임대차에 민법 특례를 두는 법률
+
+[검색어]
+
+
+[핵심]
+- 주택 임차인의 대항력·보증금 회수·갱신 등을 보호
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-201
+STATUS: APPROVED
+ORDER: 201
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 32
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」 제3조
+
+[제목]
+주택임대차 대항력
+
+[부제]
+주택 임차권을 양수인 등 제3자에게 주장할 수 있는 효력
+
+[검색어]
+주택 대항력
+
+[핵심]
+- 주택 인도와 주민등록을 갖추면 법정 시점부터 대항력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-202
+STATUS: APPROVED
+ORDER: 202
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-077 | 2022-33-first-076 | 2023-34-first-078 | 2025-36-first-080
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 33
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+확정일자
+
+[부제]
+임대차계약서가 특정 날짜에 존재했음을 공적으로 확인받은 날짜
+
+[검색어]
+
+
+[핵심]
+- 대항요건과 함께 갖추면 우선변제권 취득에 중요한 요건
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-203
+STATUS: APPROVED
+ORDER: 203
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 33
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p33 + 국가법령정보센터 「주택임대차보호법」 제3조의2
+
+[제목]
+주택 우선변제권
+
+[부제]
+후순위권리자보다 먼저 주택보증금을 배당받는 권리
+
+[검색어]
+주택임대차 우선변제권
+
+[핵심]
+- 대항요건과 확정일자를 갖춘 임차인이 경매·공매 환가대금에서 우선변제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-204
+STATUS: APPROVED
+ORDER: 204
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 33
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p33 + 국가법령정보센터 「주택임대차보호법」
+
+[제목]
+주택 최우선변제권
+
+[부제]
+소액임차인의 보증금 중 일정액을 먼저 변제받는 권리
+
+[검색어]
+소액보증금 최우선변제
+
+[핵심]
+- 법정 요건을 갖춘 소액임차인의 보증금 일부를 우선 보호
+- 지역별 금액기준은 변동 가능해 카드에서 숫자를 제외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-205
+STATUS: APPROVED
+ORDER: 205
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-first-066 | 2025-36-first-080
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 32
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」 제3조의3
+
+[제목]
+주택 임차권등기명령
+
+[부제]
+보증금 미반환 시 임차권등기를 법원에 신청하는 제도
+
+[검색어]
+임차권등기명령
+
+[핵심]
+- 임대차 종료 후 보증금이 반환되지 않으면 신청 가능
+- 등기 후 이사해도 기존 대항력·우선변제권을 유지할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-206
+STATUS: APPROVED
+ORDER: 206
+TYPE: term
+CATEGORY: 민사특별법·주택임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 33
+SOURCE_SECTION: 민사특별법·주택임대차
+SOURCE_REF: 
+
+[제목]
+주택임차권 승계
+
+[부제]
+임차인 사망 등에서 주택임차권을 일정 범위에서 승계하는 제도
+
+[검색어]
+
+
+[핵심]
+- 법정요건에 따라 사실혼 배우자 등에게 임차권·권리의무 승계가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-207
+STATUS: APPROVED
+ORDER: 207
+TYPE: term
+CATEGORY: 민사특별법·상가임대차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-079
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 34
+SOURCE_SECTION: 민사특별법·상가임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」
+
+[제목]
+상가건물 임대차보호법
+
+[부제]
+상가건물 임차인을 보호하기 위한 민법 특례법
+
+[검색어]
+상가임대차법
+
+[핵심]
+- 상가 임차인의 대항력·보증금 회수·계약갱신·권리금 등을 보호
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-208
+STATUS: APPROVED
+ORDER: 208
+TYPE: term
+CATEGORY: 민사특별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 34
+SOURCE_SECTION: 민사특별법·상가임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제3조
+
+[제목]
+상가임대차 대항력
+
+[부제]
+상가 임차권을 양수인 등 제3자에게 주장할 수 있는 효력
+
+[검색어]
+상가 대항력
+
+[핵심]
+- 건물 인도와 사업자등록 신청을 갖추면 법정 시점부터 대항력 발생
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-209
+STATUS: APPROVED
+ORDER: 209
+TYPE: term
+CATEGORY: 민사특별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 34
+SOURCE_SECTION: 민사특별법·상가임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제5조
+
+[제목]
+상가 우선변제권
+
+[부제]
+후순위권리자보다 먼저 상가보증금을 배당받는 권리
+
+[검색어]
+상가임대차 우선변제권
+
+[핵심]
+- 대항요건과 확정일자를 갖춘 임차인이 경매·공매 환가대금에서 우선변제
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-210
+STATUS: APPROVED
+ORDER: 210
+TYPE: term
+CATEGORY: 민사특별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 34
+SOURCE_SECTION: 민사특별법·상가임대차
+SOURCE_REF: 
+
+[제목]
+상가 최우선변제권
+
+[부제]
+소액 상가임차인의 보증금 중 일정액을 우선변제받는 권리
+
+[검색어]
+
+
+[핵심]
+- 법정 범위의 소액임차인을 보호하며 금액기준은 변동 가능해 카드에서 제외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-211
+STATUS: APPROVED
+ORDER: 211
+TYPE: term
+CATEGORY: 민사특별법·상가임대차
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 34
+SOURCE_SECTION: 민사특별법·상가임대차
+SOURCE_REF: 2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제6조
+
+[제목]
+상가 임차권등기명령
+
+[부제]
+보증금 미반환 시 상가 임차권등기를 법원에 신청하는 제도
+
+[검색어]
+
+
+[핵심]
+- 등기를 마치면 대항력·우선변제권을 취득하거나 기존 권리를 유지할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-212
+STATUS: APPROVED
+ORDER: 212
+TYPE: term
+CATEGORY: 민사특별법·임대차보호
+BASIS: exam|essential
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2023
+EXAM_SAMPLE_REFS: 2021-32-first-076 | 2023-34-first-079
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 34
+SOURCE_SECTION: 민사특별법·임대차보호
+SOURCE_REF: 국가법령정보센터 「주택임대차보호법」 제6조의3 + 「상가건물 임대차보호법」 제10조
+
+[제목]
+계약갱신요구권
+
+[부제]
+임차인이 법정 범위에서 임대차 갱신을 요구할 수 있는 권리
+
+[검색어]
+갱신요구권
+
+[핵심]
+- 주택·상가 모두 현행법상 법정 갱신요구 제도가 있음
+- 행사기간·연체횟수 등 시점 민감 숫자는 카드에서 제외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-213
+STATUS: APPROVED
+ORDER: 213
+TYPE: term
+CATEGORY: 민사특별법·가등기담보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-078 | 2022-33-first-078 | 2023-34-first-076 | 2024-35-1-1-077 | 2025-36-first-077
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 35
+SOURCE_SECTION: 민사특별법·가등기담보
+SOURCE_REF: 2.공인중개사요약_민법.pdf p35 + 국가법령정보센터 「가등기담보 등에 관한 법률」
+
+[제목]
+가등기담보
+
+[부제]
+채권담보를 위해 소유권이전청구권 가등기를 이용하는 담보방법
+
+[검색어]
+담보가등기
+
+[핵심]
+- 채무불이행 때 소유권을 이전받기로 약정하고 가등기로 담보하는 방식
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-214
+STATUS: APPROVED
+ORDER: 214
+TYPE: term
+CATEGORY: 민사특별법·가등기담보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-076
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 35
+SOURCE_SECTION: 민사특별법·가등기담보
+SOURCE_REF: 
+
+[제목]
+양도담보
+
+[부제]
+담보 목적으로 재산권을 채권자에게 이전하는 비전형담보
+
+[검색어]
+
+
+[핵심]
+- 형식상 권리를 이전하지만 실질은 채권 담보를 위한 구조
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-215
+STATUS: APPROVED
+ORDER: 215
+TYPE: term
+CATEGORY: 민사특별법·가등기담보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-078 | 2022-33-first-078 | 2024-35-1-1-077 | 2025-36-first-077
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 36
+SOURCE_SECTION: 민사특별법·가등기담보
+SOURCE_REF: 2.공인중개사요약_민법.pdf p36 + 국가법령정보센터 「가등기담보 등에 관한 법률」 제3조·제4조
+
+[제목]
+청산금
+
+[부제]
+담보목적물 가치가 채권액을 넘을 때 채무자등에게 지급할 차액
+
+[검색어]
+
+
+[핵심]
+- 목적부동산 평가액에서 피담보채권 등 법정 공제액을 뺀 금액
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-216
+STATUS: APPROVED
+ORDER: 216
+TYPE: term
+CATEGORY: 민사특별법·가등기담보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-first-078 | 2024-35-1-1-077
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 36
+SOURCE_SECTION: 민사특별법·가등기담보
+SOURCE_REF: 
+
+[제목]
+청산기간
+
+[부제]
+가등기담보 실행통지 후 청산을 위해 보장되는 기간
+
+[검색어]
+
+
+[핵심]
+- 채무자에게 변제 기회를 주고 후순위권리자가 대응할 수 있게 하는 법정 기간
+- 기간 숫자는 법령 변경 가능성을 고려해 카드에서 제외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-217
+STATUS: APPROVED
+ORDER: 217
+TYPE: term
+CATEGORY: 민사특별법·가등기담보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2022
+EXAM_SAMPLE_REFS: 2021-32-first-078 | 2022-33-first-076
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 36
+SOURCE_SECTION: 민사특별법·가등기담보
+SOURCE_REF: 
+
+[제목]
+후순위권리자
+
+[부제]
+담보가등기보다 뒤 순위의 권리를 가진 사람
+
+[검색어]
+
+
+[핵심]
+- 실행통지·청산 절차에서 통지와 경매청구 등 법정 지위가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-218
+STATUS: APPROVED
+ORDER: 218
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-first-080
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 37
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+구분소유권
+
+[부제]
+1동 건물의 독립 사용 가능한 부분을 목적으로 하는 소유권
+
+[검색어]
+
+
+[핵심]
+- 구조상·이용상 독립성이 있는 전유부분을 대상으로 하는 소유권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-219
+STATUS: APPROVED
+ORDER: 219
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-first-080 | 2023-34-first-057 | 2023-34-first-075 | 2025-36-first-076
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 37
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+전유부분
+
+[부제]
+구분소유권의 목적이 되는 건물부분
+
+[검색어]
+
+
+[핵심]
+- 구조상·이용상 독립해 구분소유할 수 있는 부분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-220
+STATUS: APPROVED
+ORDER: 220
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-080 | 2022-33-first-077 | 2022-33-first-080 | 2023-34-first-075 | 2024-35-1-1-076 | 2025-36-first-076
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 37
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+공용부분
+
+[부제]
+구분소유자 전원 또는 일부의 공동사용에 제공되는 건물부분
+
+[검색어]
+
+
+[핵심]
+- 복도·계단 같은 구조상 공용부분과 규약상 공용부분이 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-221
+STATUS: APPROVED
+ORDER: 221
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2025
+EXAM_SAMPLE_REFS: 2023-34-first-075 | 2025-36-first-076
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 37
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+대지사용권
+
+[부제]
+구분소유자가 전유부분 소유를 위해 대지에 가지는 권리
+
+[검색어]
+대지권
+
+[핵심]
+- 소유권·지상권·임차권 등 전유부분 소유를 위한 대지 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-222
+STATUS: APPROVED
+ORDER: 222
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2025
+EXAM_SAMPLE_REFS: 2022-33-first-077 | 2022-33-first-080 | 2025-36-first-076
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 38
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+관리단
+
+[부제]
+구분소유자 전원으로 당연히 구성되는 집합건물 관리단체
+
+[검색어]
+
+
+[핵심]
+- 별도 가입행위 없이 구분소유관계가 성립하면 관리단이 구성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-223
+STATUS: APPROVED
+ORDER: 223
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-first-080 | 2024-35-1-1-076 | 2025-36-first-076
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 38
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+관리인
+
+[부제]
+관리단 사무를 집행하는 사람
+
+[검색어]
+
+
+[핵심]
+- 공용부분 관리와 비용 청구·수령 등 관리단 사무를 담당
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-224
+STATUS: APPROVED
+ORDER: 224
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-080 | 2022-33-first-077 | 2022-33-first-080 | 2023-34-first-075 | 2024-35-1-1-076 | 2025-36-first-076
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 38
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+규약
+
+[부제]
+집합건물 관리와 사용에 관한 자치규범
+
+[검색어]
+
+
+[핵심]
+- 관리단집회 결의로 설정·변경·폐지하며 법정 특별정족수가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-225
+STATUS: APPROVED
+ORDER: 225
+TYPE: term
+CATEGORY: 민사특별법·집합건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-first-077
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 38
+SOURCE_SECTION: 민사특별법·집합건물
+SOURCE_REF: 
+
+[제목]
+관리단집회
+
+[부제]
+구분소유자들이 집합건물 관리사항을 결의하는 회의
+
+[검색어]
+집회
+
+[핵심]
+- 정기·임시집회와 의결정족수 등이 규율됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-226
+STATUS: APPROVED
+ORDER: 226
+TYPE: term
+CATEGORY: 민사특별법·부동산실명법
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-first-079 | 2022-33-first-079 | 2023-34-first-077 | 2023-34-first-080 | 2024-35-1-1-078 | 2025-36-first-078 | 2025-36-first-079
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 39
+SOURCE_SECTION: 민사특별법·부동산실명법
+SOURCE_REF: 2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제2조·제4조
+
+[제목]
+명의신탁
+
+[부제]
+실권리자는 따로 두고 부동산 물권등기를 타인 명의로 하는 약정
+
+[검색어]
+명의신탁약정
+
+[핵심]
+- 부동산실명법상 명의신탁약정은 원칙적으로 무효
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-227
+STATUS: APPROVED
+ORDER: 227
+TYPE: term
+CATEGORY: 민사특별법·부동산실명법
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 39
+SOURCE_SECTION: 민사특별법·부동산실명법
+SOURCE_REF: 
+
+[제목]
+등기명의신탁
+
+[부제]
+매매당사자는 실권리자이고 등기만 수탁자 명의로 하는 명의신탁
+
+[검색어]
+
+
+[핵심]
+- 2자간형과 중간생략등기형 등 구조를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-228
+STATUS: APPROVED
+ORDER: 228
+TYPE: term
+CATEGORY: 민사특별법·부동산실명법
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 39
+SOURCE_SECTION: 민사특별법·부동산실명법
+SOURCE_REF: 
+
+[제목]
+계약명의신탁
+
+[부제]
+수탁자가 매매계약 당사자가 되어 자기 명의로 등기하는 명의신탁
+
+[검색어]
+
+
+[핵심]
+- 매도인의 명의신탁 인식 여부가 물권변동 효력 판단에 중요
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-229
+STATUS: APPROVED
+ORDER: 229
+TYPE: term
+CATEGORY: 민사특별법·부동산실명법
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-first-055 | 2022-33-first-066 | 2024-35-1-1-068
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 39
+SOURCE_SECTION: 민사특별법·부동산실명법
+SOURCE_REF: 
+
+[제목]
+구분소유적 공유
+
+[부제]
+내부적으로 위치를 나눠 소유하면서 외부적으로 공유등기하는 형태
+
+[검색어]
+상호명의신탁
+
+[핵심]
+- 상호명의신탁이라고도 하며 명의신탁약정 정의에서 제외되는 유형
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-230
+STATUS: APPROVED
+ORDER: 230
+TYPE: term
+CATEGORY: 민사특별법·부동산실명법
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-first-077
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 39
+SOURCE_SECTION: 민사특별법·부동산실명법
+SOURCE_REF: 
+
+[제목]
+실권리자명의 등기
+
+[부제]
+부동산 물권을 실제 권리자 명의로 등기하는 원칙
+
+[검색어]
+부동산실명제
+
+[핵심]
+- 명의신탁을 금지하고 실질권리자 명의 등기를 요구하는 부동산실명제의 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-231
+STATUS: APPROVED
+ORDER: 231
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 4
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제107조~제110조
+
+[제목]
+의사표시 4유형 비교
+
+[부제]
+비진의·통정허위·착오·사기강박의 효과 구분
+
+[검색어]
+107조 108조 109조 110조
+
+[핵심]
+- 비진의: 원칙 유효 / 통정허위: 무효
+- 착오·사기·강박: 취소 가능, 선의 제3자 보호 규정 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-232
+STATUS: APPROVED
+ORDER: 232
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2023
+EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-048 | 2023-34-first-044
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제125조·제126조·제129조
+
+[제목]
+표현대리 125·126·129
+
+[부제]
+대리권 외관이 생긴 원인에 따라 구별
+
+[검색어]
+125조 | 126조 | 129조
+
+[핵심]
+- 125조: 대리권수여 표시
+- 126조: 권한 초과 / 129조: 대리권 소멸 후
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-233
+STATUS: APPROVED
+ORDER: 233
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+무권대리 당사자 지위
+
+[부제]
+본인의 추인과 상대방의 최고·철회를 함께 구분
+
+[검색어]
+
+
+[핵심]
+- 본인은 추인 또는 추인거절 가능
+- 상대방은 최고할 수 있고 선의라면 추인 전 철회 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-234
+STATUS: APPROVED
+ORDER: 234
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+무효와 취소 비교
+
+[부제]
+처음부터 무효인지 취소 전까지 유효한지 구별
+
+[검색어]
+
+
+[핵심]
+- 무효: 처음부터 효력 없음
+- 취소: 취소권 행사 전 유효, 취소하면 소급하여 무효
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-235
+STATUS: APPROVED
+ORDER: 235
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+조건과 기한 비교
+
+[부제]
+장래 사실의 불확실성과 확실성으로 구별
+
+[검색어]
+
+
+[핵심]
+- 조건: 성취 여부가 불확실
+- 기한: 도래할 사실이라는 점이 확실
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-236
+STATUS: APPROVED
+ORDER: 236
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+물권과 채권 비교
+
+[부제]
+직접지배권과 상대적 청구권의 차이
+
+[검색어]
+
+
+[핵심]
+- 물권: 특정 물건에 대한 직접·배타적 지배권, 공시 필요
+- 채권: 특정 채무자에게 급부를 청구하는 상대적 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-237
+STATUS: APPROVED
+ORDER: 237
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+공유·합유·총유 비교
+
+[부제]
+지분과 처분·관리 방식으로 공동소유를 구별
+
+[검색어]
+
+
+[핵심]
+- 공유: 각자 지분 있음 / 합유: 단체성 강하고 처분 제한
+- 총유: 구성원 개별 지분이 없고 단체 규율에 따름
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-238
+STATUS: APPROVED
+ORDER: 238
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+전세권과 임차권 비교
+
+[부제]
+물권인 전세권과 채권인 임차권을 구별
+
+[검색어]
+
+
+[핵심]
+- 전세권은 등기로 성립하는 물권
+- 임차권은 계약으로 생기는 채권이며 특별법으로 대항력 등이 보강될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-239
+STATUS: APPROVED
+ORDER: 239
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+담보물권 4성질
+
+[부제]
+부종성·수반성·물상대위성·불가분성
+
+[검색어]
+
+
+[핵심]
+- 피담보채권과의 결합관계: 부종성·수반성
+- 목적물 가치와 범위의 관계: 물상대위성·불가분성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-240
+STATUS: APPROVED
+ORDER: 240
+TYPE: theory
+CATEGORY: 비교·판례
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 19
+SOURCE_SECTION: 비교·판례
+SOURCE_REF: 
+
+[제목]
+유치권 성립요건과 판례
+
+[부제]
+견련성·점유·변제기를 함께 확인
+
+[검색어]
+
+
+[핵심]
+- 타인의 물건 점유, 그 물건에 관해 생긴 채권, 변제기 도래 등이 핵심
+- 임차보증금 반환채권처럼 견련성이 없으면 유치권이 부정될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-241
+STATUS: APPROVED
+ORDER: 241
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+해제 효과와 제3자
+
+[부제]
+소급효·원상회복과 제3자 보호를 함께 봄
+
+[검색어]
+
+
+[핵심]
+- 해제하면 당사자 사이 계약효과는 소급적으로 소멸하고 원상회복의무 발생
+- 해제 전에 독립한 권리를 취득한 제3자는 법정요건 아래 보호될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-242
+STATUS: APPROVED
+ORDER: 242
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 26
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p26 + 국가법령정보센터 「민법」 제565조
+
+[제목]
+계약금 해제
+
+[부제]
+이행 착수 전 계약금을 이용한 해제 구조
+
+[검색어]
+
+
+[핵심]
+- 특약이 없으면 교부자는 계약금을 포기하고 수령자는 배액을 상환해 해제 가능
+- 상대방이 이행에 착수한 뒤에는 해약금 해제가 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-243
+STATUS: APPROVED
+ORDER: 243
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+임차권 양도·전대 비교
+
+[부제]
+임대인 동의와 당사자 관계를 구별
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 임대인의 동의 없이 임차권 양도·전대 불가
+- 적법한 전대에서는 전차인이 임대인에게 일정한 직접 의무를 부담
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-244
+STATUS: APPROVED
+ORDER: 244
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 34
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 국가법령정보센터 「주택임대차보호법」 제3조 + 「상가건물 임대차보호법」 제3조
+
+[제목]
+주택·상가 대항력 비교
+
+[부제]
+주택은 주민등록, 상가는 사업자등록 신청이 핵심
+
+[검색어]
+대항요건 비교
+
+[핵심]
+- 주택: 인도 + 주민등록
+- 상가: 인도 + 사업자등록 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-245
+STATUS: APPROVED
+ORDER: 245
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 36
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p36 + 국가법령정보센터 「가등기담보 등에 관한 법률」 제3조·제4조
+
+[제목]
+가등기담보 실행순서
+
+[부제]
+통지 → 청산기간 → 청산금 → 소유권취득 순으로 이해
+
+[검색어]
+
+
+[핵심]
+- 채권자가 소유권을 취득하려면 법정 통지와 청산절차를 거쳐야 함
+- 청산금 지급 후 본등기 등 법정절차로 소유권 취득
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-246
+STATUS: APPROVED
+ORDER: 246
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 37
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 
+
+[제목]
+전유부분·공용부분·대지사용권
+
+[부제]
+집합건물의 세 핵심 대상을 한 번에 구별
+
+[검색어]
+
+
+[핵심]
+- 전유부분: 구분소유권의 목적 / 공용부분: 공동사용 부분
+- 대지사용권: 전유부분 소유를 위해 건물 대지에 가지는 권리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: civ-card-247
+STATUS: APPROVED
+ORDER: 247
+TYPE: concept
+CATEGORY: 비교·법리
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 39
+SOURCE_SECTION: 비교·법리
+SOURCE_REF: 2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제4조
+
+[제목]
+명의신탁 유형과 효력
+
+[부제]
+등기명의신탁·계약명의신탁의 구조를 구별
+
+[검색어]
+
+
+[핵심]
+- 명의신탁약정은 원칙적으로 무효이고 그 무효는 제3자에게 대항하지 못함
+- 계약명의신탁은 매도인의 선의 여부가 물권변동 판단에 중요
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
