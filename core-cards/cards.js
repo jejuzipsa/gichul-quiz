@@ -8,9 +8,11 @@
   const $=id=>document.getElementById(id);
 
   const els={
-    subject:$('subjectSelect'), search:$('cardSearch'), status:$('statusFilter'), categories:$('categoryTabs'),
+    subject:$('subjectSelect'), search:$('cardSearch'), categories:$('categoryTabs'),
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
-    dots:$('mobileDots'), heroCount:$('heroCount'), statusText:$('statusText'), theme:$('themeToggleBtn')
+    dots:$('mobileDots'), heroCount:$('heroCount'), importantCount:$('importantCount'), memorizedCount:$('memorizedCount'),
+    importantStatBtn:$('importantStatBtn'), memorizedStatBtn:$('memorizedStatBtn'), registeredStatBtn:$('registeredStatBtn'),
+    statusText:$('statusText'), theme:$('themeToggleBtn')
   };
 
   const state={
@@ -209,6 +211,33 @@
     }
   }
 
+  function setStatusFilter(status){
+    state.status=status;
+    state.offset=0;
+    render();
+  }
+
+  function updateHeroStats(allSubjectCards){
+    const importantCount=allSubjectCards.filter(card=>state.important.has(card.id)).length;
+    const memorizedCount=allSubjectCards.filter(card=>state.memorized.has(card.id)).length;
+
+    els.heroCount.textContent=allSubjectCards.length;
+    els.importantCount.textContent=importantCount;
+    els.memorizedCount.textContent=memorizedCount;
+
+    const map=[
+      [els.importantStatBtn,'important'],
+      [els.memorizedStatBtn,'memorized'],
+      [els.registeredStatBtn,'all']
+    ];
+    map.forEach(([btn,status])=>{
+      if(!btn) return;
+      const active=state.status===status;
+      btn.classList.toggle('active',active);
+      btn.setAttribute('aria-pressed',active?'true':'false');
+    });
+  }
+
   function render(){
     const list=filtered();
     const count=visibleCount();
@@ -243,7 +272,7 @@
     els.fill.style.width=list.length ? Math.min(100,to/list.length*100)+'%' : '0%';
 
     const allSubjectCards=bank.cards.filter(c=>c.subject===state.subject);
-    els.heroCount.textContent=allSubjectCards.length;
+    updateHeroStats(allSubjectCards);
     const subject=bank.subjects.find(s=>s.code===state.subject)?.name||'과목';
     els.statusText.textContent=subject+' · '+(state.category==='all'?'전체 단원':state.category);
     renderDots(list.length);
@@ -261,11 +290,9 @@
     state.offset=0;
     render();
   });
-  els.status.addEventListener('change',()=>{
-    state.status=els.status.value;
-    state.offset=0;
-    render();
-  });
+  els.importantStatBtn?.addEventListener('click',()=>setStatusFilter('important'));
+  els.memorizedStatBtn?.addEventListener('click',()=>setStatusFilter('memorized'));
+  els.registeredStatBtn?.addEventListener('click',()=>setStatusFilter('all'));
   els.prev.addEventListener('click',()=>{
     state.offset=Math.max(0,state.offset-visibleCount());
     render();
