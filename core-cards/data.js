@@ -5777,7 +5777,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -5806,7 +5806,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -5834,7 +5834,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -5871,7 +5871,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -5906,7 +5906,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -5939,7 +5939,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -5972,7 +5972,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6000,7 +6000,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6028,7 +6028,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6063,7 +6063,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6109,7 +6109,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6155,7 +6155,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6188,7 +6188,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6216,7 +6216,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6244,7 +6244,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6272,7 +6272,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6307,7 +6307,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6342,7 +6342,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6375,7 +6375,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6408,7 +6408,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6454,7 +6454,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6482,7 +6482,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6510,7 +6510,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6543,7 +6543,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -6576,7 +6576,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6604,7 +6604,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6632,7 +6632,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6660,7 +6660,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6721,7 +6721,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6845,7 +6845,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6873,7 +6873,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -6901,7 +6901,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7141,7 +7141,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7169,7 +7169,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7197,7 +7197,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7225,7 +7225,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7629,7 +7629,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -7664,7 +7664,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -7704,7 +7704,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -7750,7 +7750,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -7785,7 +7785,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7872,7 +7872,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -7900,7 +7900,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -7986,7 +7986,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8126,7 +8126,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8172,7 +8172,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -8200,7 +8200,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -8258,7 +8258,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8305,7 +8305,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8351,7 +8351,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8390,7 +8390,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8427,7 +8427,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8460,7 +8460,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8495,7 +8495,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8541,7 +8541,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8579,7 +8579,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8614,7 +8614,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 9,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8660,7 +8660,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 9,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8693,7 +8693,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "민법총칙·기본법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8795,7 +8795,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8841,7 +8841,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8887,7 +8887,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8920,7 +8920,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -8948,7 +8948,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -8988,7 +8988,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9034,7 +9034,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9062,7 +9062,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9090,7 +9090,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9118,7 +9118,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9146,7 +9146,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9187,7 +9187,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9229,7 +9229,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9257,7 +9257,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9285,7 +9285,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9370,7 +9370,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9412,7 +9412,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9455,7 +9455,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9492,7 +9492,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9527,7 +9527,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9573,7 +9573,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9601,7 +9601,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9629,7 +9629,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9657,7 +9657,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9685,7 +9685,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9718,7 +9718,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9746,7 +9746,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9792,7 +9792,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9820,7 +9820,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9856,7 +9856,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9892,7 +9892,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -9927,7 +9927,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9955,7 +9955,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -9985,7 +9985,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10022,7 +10022,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10050,7 +10050,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10078,7 +10078,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10106,7 +10106,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 14,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10139,7 +10139,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 14,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10172,7 +10172,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10290,7 +10290,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10318,7 +10318,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10353,7 +10353,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10381,7 +10381,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10409,7 +10409,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10455,7 +10455,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10493,7 +10493,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10521,7 +10521,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10558,7 +10558,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10591,7 +10591,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10637,7 +10637,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 20,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10676,7 +10676,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10711,7 +10711,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10746,7 +10746,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10787,7 +10787,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10828,7 +10828,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10865,7 +10865,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 18,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -10911,7 +10911,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10939,7 +10939,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -10969,7 +10969,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11006,7 +11006,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -11034,7 +11034,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11078,7 +11078,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 20,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11124,7 +11124,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 20,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -11152,7 +11152,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 20,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11198,7 +11198,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 20,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11233,7 +11233,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 21,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11266,7 +11266,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 21,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -11296,7 +11296,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 21,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11336,7 +11336,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -11364,7 +11364,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11401,7 +11401,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11438,7 +11438,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11471,7 +11471,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11508,7 +11508,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11543,7 +11543,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11580,7 +11580,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11621,7 +11621,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11667,7 +11667,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -11695,7 +11695,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -11814,7 +11814,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 23,
       "sourceSection": "계약법·효력",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11898,7 +11898,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11933,7 +11933,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -11973,7 +11973,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12019,7 +12019,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12065,7 +12065,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12146,7 +12146,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12183,7 +12183,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12220,7 +12220,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12298,7 +12298,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12341,7 +12341,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 27,
       "sourceSection": "계약법·매매",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12424,7 +12424,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 28,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12467,7 +12467,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12513,7 +12513,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 30,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12559,7 +12559,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 30,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12598,7 +12598,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12640,7 +12640,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12674,7 +12674,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12714,7 +12714,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12747,7 +12747,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -12775,7 +12775,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12811,7 +12811,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -12839,7 +12839,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 28,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -12948,7 +12948,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 33,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13086,7 +13086,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 33,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -13209,7 +13209,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 34,
       "sourceSection": "민사특별법·상가임대차",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -13346,7 +13346,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 35,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13419,7 +13419,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 36,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13454,7 +13454,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 36,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13489,7 +13489,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13522,7 +13522,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13560,7 +13560,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13604,7 +13604,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13639,7 +13639,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13675,7 +13675,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13712,7 +13712,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13756,7 +13756,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13834,7 +13834,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -13862,7 +13862,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -13892,7 +13892,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -13931,7 +13931,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "exam",
@@ -14037,7 +14037,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 7,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14066,7 +14066,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14095,7 +14095,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 8,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14124,7 +14124,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 10,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14153,7 +14153,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 16,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14182,7 +14182,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 18,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14211,7 +14211,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14240,7 +14240,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 19,
       "sourceSection": "비교·판례",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14269,7 +14269,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 24,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14327,7 +14327,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 29,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
@@ -14416,7 +14416,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary",
       "sourcePage": 37,
       "sourceSection": "비교·법리",
-      "sourceRef": "[제목]",
+      "sourceRef": "",
       "sourceNote": "",
       "basis": [
         "summary"
