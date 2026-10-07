@@ -1,7 +1,7 @@
 ﻿공인중개사 기출문제 사이트
 
 현재 버전
-- v1.46
+- v1.53
 - 기출문제 총 1000문항
 - 2021년 제32회 ~ 2025년 제36회
 - PC / 모바일 반응형
@@ -15,25 +15,24 @@
    - 2차 2교시 40문제 / 50분
 4. 풀이 결과 / 오답 다시 풀기
 5. 핵심 개념 퀴즈
-   - 현재 부동산학개론 100문제
-   - 100문제 중 랜덤 30문제
-   - 나머지 5과목은 준비 중
+   - 6과목 총 485문항
+   - 과목별 랜덤 풀이
+   - 별도 괄호문제 1,600문항
 6. 핵심요약
    - 현재 슬라이드형 뷰어 사용
    - 디자인 개편은 보류 상태
 
 기출문제 데이터
-- data/real_estate_intro.json
-- data/civil_law.json
-- data/brokerage_law.json
-- data/public_law.json
-- data/registration_law.json
-- data/tax_law.json
+- 원본(Source of Truth): review/past-exams-v1/*.txt
+- 생성물: data/*.json, data/*.js, data/manifest.js
+- 공식 최종정답 고정키: review/past-exams-audit/official-answer-keys.json
 
 중요
-- data/*.json 이 원본(Source of Truth)
-- data/*.js 는 index.html을 file://로 직접 실행할 때를 위한 로컬 미러
-- JSON 수정 뒤 로컬 미러 갱신:
+- 기출문제는 review/past-exams-v1/*.txt 만 직접 수정
+- data/*.json / data/*.js / data/manifest.js 는 직접 수정하지 않음
+- TXT 수정 뒤 전체 생성/검증:
+  node tools/past-exams/build.cjs
+- 기존 명령 호환:
   python tools/rebuild_local_mirrors.py
 
 핵심 개념 퀴즈
