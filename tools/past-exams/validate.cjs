@@ -1,22 +1,13 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const vm=require('node:vm');
+const {ROOT,REVIEW_DIR,DATA_DIR,MANIFEST,headerMeta,compileSubject}=require('./compile.cjs');
 
-const ROOT=path.resolve(__dirname,'../..');
-const DATA=path.join(ROOT,'data');
-const KEY_PATH=path.join(ROOT,'review/past-exams-audit/official-answer-keys.json');
-
-const SUBJECTS={
-  real_estate_intro:{name:'부동산학개론',count:200,perYear:40},
-  civil_law:{name:'민법 및 민사특별법',count:200,perYear:40},
-  brokerage_law:{name:'공인중개사법령 및 중개실무',count:200,perYear:40},
-  public_law:{name:'부동산공법',count:200,perYear:40},
-  registration_law:{name:'부동산공시법',count:120,perYear:24},
-  tax_law:{name:'부동산세법',count:80,perYear:16}
-};
-const YEARS=[2021,2022,2023,2024,2025];
-const PAPERS={'1차 1교시':80,'2차 1교시':80,'2차 2교시':40};
+const KEY_PATH=path.join(ROOT,MANIFEST.officialAnswerKey);
+const YEARS=MANIFEST.years.map(Number);
+const PAPERS=MANIFEST.papers;
 const CIRCLED={'①':1,'②':2,'③':3,'④':4,'⑤':5};
+const DATE_RE=/^\d{4}-\d{2}-\d{2}$/;
 
 function stable(x){
   if(Array.isArray(x)) return x.map(stable);
@@ -30,33 +21,57 @@ function explanationAnswers(text){
   if(!m) return null;
   return m[1].split(',').map(x=>CIRCLED[x.trim()]).sort((a,b)=>a-b);
 }
+function readJson(code){
+  return JSON.parse(fs.readFileSync(path.join(DATA_DIR,code+'.json'),'utf8'));
+}
 function readMirror(code,name){
   const ctx={window:{}};
   vm.createContext(ctx);
-  vm.runInContext(fs.readFileSync(path.join(DATA,code+'.js'),'utf8'),ctx);
+  vm.runInContext(fs.readFileSync(path.join(DATA_DIR,code+'.js'),'utf8'),ctx);
   return JSON.parse(JSON.stringify(ctx.window.SUBJECT_DATA?.[name]));
+}
+function readHeader(code){
+  const cfg=MANIFEST.subjects[code];
+  return headerMeta(fs.readFileSync(path.join(REVIEW_DIR,cfg.file),'utf8'));
 }
 
 const key=JSON.parse(fs.readFileSync(KEY_PATH,'utf8'));
+const release=process.argv.includes('--release');
 let errors=[],all=[],markerChecked=0;
 
-for(const [code,cfg] of Object.entries(SUBJECTS)){
-  const json=JSON.parse(fs.readFileSync(path.join(DATA,code+'.json'),'utf8'));
-  if(!Array.isArray(json)) errors.push(code+': JSON root must be array');
-  if(json.length!==cfg.count) errors.push(code+': count '+json.length+' != '+cfg.count);
-  const mirror=readMirror(code,cfg.name);
-  if(!eq(json,mirror)) errors.push(code+': JS mirror differs from JSON Source of Truth');
+if(!DATE_RE.test(MANIFEST.auditDate||'')) errors.push('manifest: invalid auditDate');
+if(release&&MANIFEST.auditStatus!=='approved') errors.push('manifest: auditStatus must be approved');
+if(Number(MANIFEST.total)!==1000) errors.push('manifest: total must be 1000');
+
+for(const [code,cfg] of Object.entries(MANIFEST.subjects)){
+  let txt;
+  try{ txt=compileSubject(code); }
+  catch(err){ errors.push(code+': '+err.message); continue; }
+
+  const h=readHeader(code);
+  if(!DATE_RE.test(h.AUDIT_DATE||'')) errors.push(code+': invalid AUDIT_DATE');
+  if(release&&h.AUDIT_STATUS!=='approved') errors.push(code+': AUDIT_STATUS must be approved');
+  if(Number(h.COUNT)!==cfg.count) errors.push(code+': header count mismatch');
+
+  const json=readJson(code);
+  const mirror=readMirror(code,cfg.label);
+  if(!eq(txt,json)) errors.push(code+': JSON semantic mismatch with TXT Source of Truth');
+  if(!eq(txt,mirror)) errors.push(code+': JS semantic mismatch with TXT Source of Truth');
+  if(txt.length!==cfg.count) errors.push(code+': count '+txt.length+' != '+cfg.count);
+
   for(const y of YEARS){
-    const n=json.filter(q=>q.year===y).length;
+    const n=txt.filter(q=>q.year===y).length;
     if(n!==cfg.perYear) errors.push(code+': '+y+' count '+n+' != '+cfg.perYear);
   }
-  for(const q of json){
+
+  for(const q of txt){
     all.push(q);
     for(const field of ['id','subject','year','exam','paper','question_number','question','choices','answer','explanation']){
       if(q[field]===undefined||q[field]===null||q[field]==='') errors.push((q.id||code)+': missing '+field);
     }
-    if(q.subject!==cfg.name) errors.push(q.id+': subject mismatch');
+    if(q.subject!==cfg.label) errors.push(q.id+': subject mismatch');
     if(!YEARS.includes(Number(q.year))) errors.push(q.id+': invalid year');
+    if(q.exam!==q.year-1989) errors.push(q.id+': exam/year mismatch');
     if(!Object.hasOwn(PAPERS,q.paper)) errors.push(q.id+': invalid paper');
     if(!Number.isInteger(q.question_number)||q.question_number<1||q.question_number>PAPERS[q.paper]) errors.push(q.id+': invalid question_number');
     if(!Array.isArray(q.choices)||q.choices.length!==5||q.choices.some(x=>typeof x!=='string'||!x.trim())) errors.push(q.id+': choices must contain 5 nonempty strings');
@@ -73,12 +88,19 @@ for(const [code,cfg] of Object.entries(SUBJECTS)){
   }
 }
 
-if(all.length!==1000) errors.push('total count '+all.length+' != 1000');
+if(all.length!==MANIFEST.total) errors.push('total count '+all.length+' != '+MANIFEST.total);
 for(const y of YEARS){
   const n=all.filter(q=>q.year===y).length;
   if(n!==200) errors.push(y+': year total '+n+' != 200');
 }
-const ids=new Set(), slots=new Set(), full=new Set();
+for(const [paper,count] of Object.entries(PAPERS)){
+  for(const y of YEARS){
+    const n=all.filter(q=>q.year===y&&q.paper===paper).length;
+    if(n!==count) errors.push(y+' '+paper+': session total '+n+' != '+count);
+  }
+}
+
+const ids=new Set(),slots=new Set(),full=new Set();
 for(const q of all){
   if(ids.has(q.id)) errors.push(q.id+': duplicate ID'); ids.add(q.id);
   const slot=q.year+'|'+q.paper+'|'+q.question_number;
@@ -94,17 +116,16 @@ for(const [session,meta] of Object.entries(key.sessions||{})){
   if(qs.length!==meta.count||expected.length!==meta.count) errors.push(session+': official key count mismatch');
   for(let i=0;i<Math.min(qs.length,expected.length);i++){
     officialChecked++;
-    if(!eq(answerArray(qs[i].answer),answerArray(expected[i]))) {
-      errors.push(qs[i].id+': answer differs from frozen official final answer');
-    }
+    if(!eq(answerArray(qs[i].answer),answerArray(expected[i]))) errors.push(qs[i].id+': answer differs from frozen official final answer');
   }
 }
 if(officialChecked!==1000) errors.push('official answer comparison count '+officialChecked+' != 1000');
 
-console.log('Past-exam validation');
+console.log('Past-exam TXT validation');
 console.log('Questions: '+all.length);
 console.log('Official answers checked: '+officialChecked);
 console.log('Explanation markers checked: '+markerChecked);
+console.log('Mode: '+(release?'release':'structure'));
 console.log('Errors: '+errors.length);
 if(errors.length){
   console.error(errors.join('\n'));
