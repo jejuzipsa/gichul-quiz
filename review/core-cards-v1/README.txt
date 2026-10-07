@@ -6,13 +6,15 @@
 - 민법 및 민사특별법: 247장
 - 공인중개사법령 및 중개실무: 204장
 - 부동산공법: 234장
-- 총 855장
+- 부동산공시법: 199장
+- 총 1,054장
 
 원본
 - review/core-cards-v1/01_real_estate_intro.txt
 - review/core-cards-v1/02_civil_law.txt
 - review/core-cards-v1/03_brokerage_law.txt
 - review/core-cards-v1/04_public_law.txt
+- review/core-cards-v1/05_registration_law.txt
 
 카드 선정 우선순위
 1. 기출문제에 실제 등장한 단어·개념
@@ -20,7 +22,7 @@
 3. 과목 공부에 필요한 필수 기본어
 
 기출 중요도
-- EXAM_HIT_COUNT: 2021~2025 공식 기출 200문제의 문제+보기에서 제목/검색별칭이 나온 문제 수
+- EXAM_HIT_COUNT: 해당 과목의 2021~2025 공식 기출 문제+보기에서 제목/검색별칭/EXAM_KEYWORDS가 나온 문제 수
 - IMPORTANCE 5: 기출 10회 이상
 - IMPORTANCE 4: 기출 5~9회
 - IMPORTANCE 3: 기출 1~4회
@@ -38,6 +40,7 @@
 런타임 생성물
 - core-cards/data.js: 부동산학개론·민법·중개사법 기본 묶음
 - core-cards/data-public.js: 부동산공법 234장 런타임 샤드
+- core-cards/data-registration.js: 부동산공시법 199장 런타임 샤드
 
 빌드/검증
 - node tools/core-cards/build.cjs
