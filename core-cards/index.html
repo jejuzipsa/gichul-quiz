@@ -17,7 +17,7 @@
   })();
   </script>
   <title>핵심 단어 카드 | 공인중개사</title>
-  <link rel="stylesheet" href="cards.css?v=1.55" />
+  <link rel="stylesheet" href="cards.css?v=1.56" />
 </head>
 <body>
   <header class="card-appbar">
@@ -36,7 +36,19 @@
   <main class="card-shell">
     <section class="hero">
       <div><p class="eyebrow">반복 암기</p><h1>핵심 단어 카드</h1><p>핵심 단어와 개념을 한 장씩 빠르게 훑어보는 암기 카드야.</p></div>
-      <div class="hero-badge"><strong id="heroCount">5</strong><span>등록 카드</span></div>
+      <div class="hero-stats" aria-label="카드 상태 요약">
+        <button id="importantStatBtn" class="hero-badge hero-stat-btn important-stat" type="button" aria-pressed="false">
+          <span class="hero-stat-icon" aria-hidden="true">★</span>
+          <strong id="importantCount">0</strong><span>중요 카드</span>
+        </button>
+        <button id="memorizedStatBtn" class="hero-badge hero-stat-btn memorized-stat" type="button" aria-pressed="false">
+          <span class="hero-stat-icon" aria-hidden="true">✓</span>
+          <strong id="memorizedCount">0</strong><span>외움 카드</span>
+        </button>
+        <button id="registeredStatBtn" class="hero-badge hero-stat-btn registered-stat" type="button" aria-pressed="true">
+          <strong id="heroCount">5</strong><span>등록 카드</span>
+        </button>
+      </div>
     </section>
     <section class="card-controls" aria-label="핵심 단어 카드 필터">
       <label class="control-field subject-field"><span>과목</span><select id="subjectSelect"></select></label>
@@ -56,7 +68,7 @@
       <p>현재 화면은 레이아웃 확인용 5장으로 시작했어. 이후 스캔한 핵심요약집을 기준으로 확장하면 돼.</p>
     </footer>
   </main>
-  <script src="data.js?v=1.55"></script>
-  <script src="cards.js?v=1.55"></script>
+  <script src="data.js?v=1.56"></script>
+  <script src="cards.js?v=1.56"></script>
 </body>
 </html>
