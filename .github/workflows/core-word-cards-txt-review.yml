@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check exam frequency metadata
+        run: node tools/core-cards/reindex.cjs --check
       - name: Check TXT source mirror
         run: node tools/core-cards/compile.cjs --check
       - name: Validate reviewed card bank

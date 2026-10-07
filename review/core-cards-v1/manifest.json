@@ -1,20 +1,36 @@
 {
   "version": "core-word-cards-v1",
-  "subject": "real_estate_intro",
-  "label": "부동산학개론",
-  "sourceFile": "review/core-cards-v1/01_real_estate_intro.txt",
-  "sourcePdf": "1.공인중개사요약_부동산학개론.pdf + official supplemental references",
-  "total": 170,
-  "status": "complete",
-  "orderRule": "짧은 일반 용어 → 핵심 개념 → 이론/학자 → 그래프 → 수식/응용",
+  "subjects": [
+    {
+      "subject": "real_estate_intro",
+      "label": "부동산학개론",
+      "sourceFile": "review/core-cards-v1/01_real_estate_intro.txt",
+      "sourcePdf": "1.공인중개사요약_부동산학개론.pdf + official supplemental references",
+      "examSourceFile": "review/past-exams-v1/01_real_estate_intro.txt",
+      "pageCount": 25,
+      "total": 170,
+      "status": "complete",
+      "orderRule": "짧은 일반 용어 → 핵심 개념 → 이론/학자 → 그래프 → 수식/응용",
+      "reindexExam": false
+    },
+    {
+      "subject": "civil_law",
+      "label": "민법 및 민사특별법",
+      "sourceFile": "review/core-cards-v1/02_civil_law.txt",
+      "sourcePdf": "2.공인중개사요약_민법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 현행 법령",
+      "examSourceFile": "review/past-exams-v1/02_civil_law.txt",
+      "pageCount": 39,
+      "total": 247,
+      "status": "complete",
+      "orderRule": "기초 용어 → 민법총칙 → 물권법 → 계약법 → 민사특별법 → 비교·판례",
+      "reindexExam": true
+    }
+  ],
   "generatedOutput": "core-cards/data.js",
+  "importanceRule": "기출 10회 이상=5, 5~9회=4, 1~4회=3, 요약집만=2, 필수용어만=1",
   "auditNotes": [
-    "요약집 25쪽 기반 + 요약집에 없는 기본 용어 70장을 Q-Net·국가법령정보센터·국토교통부 자료 등으로 보완",
-    "나지·택지·대지·필지·포락지는 공식 법령/행정규칙 정의를 우선 사용",
-    "맹지·선하지·환지·일단지는 Q-Net 공개 기출의 옳은 정의와 교차검증",
-    "택지구역은 비표준 검색어로 보고 택지지역 카드의 검색 별칭으로 등록",
-    "GPM 문장은 원문 오류 의심으로 제외 유지",
-    "다핵심이론 학자는 공식 2021 제32회 문제지 기준 해리스·울만으로 교정 유지",
-    "시점 민감 법령·제도 숫자는 카드에서 제외"
+    "카드 선정 우선순위: 기출 등장 > 핵심요약 등장 > 과목 필수 기본어",
+    "기출 빈도는 해당 과목 past-exams TXT의 문제+보기에서 제목/검색별칭이 등장한 문제 수",
+    "개정 가능 숫자는 카드에서 배제하고 현행 법령 개념을 우선"
   ]
 }
