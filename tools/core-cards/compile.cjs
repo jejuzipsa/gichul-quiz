@@ -5,6 +5,8 @@ const ROOT=path.resolve(__dirname,'../..');
 const REVIEW_DIR=path.join(ROOT,'review/core-cards-v1');
 const MANIFEST=JSON.parse(fs.readFileSync(path.join(REVIEW_DIR,'manifest.json'),'utf8'));
 const OUT_PATH=path.join(ROOT,MANIFEST.generatedOutput||'core-cards/data.js');
+const BASE_SUBJECTS=new Set(Array.isArray(MANIFEST.runtimeBaseSubjects)?MANIFEST.runtimeBaseSubjects:['real_estate_intro','civil_law','brokerage_law']);
+const RUNTIME_SHARDS=Array.isArray(MANIFEST.runtimeShards)?MANIFEST.runtimeShards:[];
 const SEP='================================================================================';
 
 function meta(block,name){
@@ -141,18 +143,59 @@ function parse(){
 function output(bank){
   return 'window.CORE_WORD_CARD_BANK = '+JSON.stringify(bank,null,2)+';\n';
 }
+function baseBank(bank){
+  return {
+    version:bank.version,
+    sources:subjectConfigs().filter(x=>BASE_SUBJECTS.has(x.subject)).map(x=>x.sourcePdf),
+    subjects:bank.subjects.map(s=>({...s,disabled:!BASE_SUBJECTS.has(s.code)})),
+    cards:bank.cards.filter(c=>BASE_SUBJECTS.has(c.subject))
+  };
+}
+function outputShard(bank,shard){
+  const config=subjectConfigs().find(x=>x.subject===shard.subject);
+  if(!config) throw new Error('runtime shard subject missing from manifest: '+shard.subject);
+  const cards=bank.cards.filter(c=>c.subject===shard.subject);
+  const source=JSON.stringify(config.sourcePdf);
+  const subjectCode=JSON.stringify(shard.subject);
+  return `(() => {
+  const bank=window.CORE_WORD_CARD_BANK;
+  if(!bank) throw new Error('CORE_WORD_CARD_BANK base data missing');
+  if(!bank.sources.includes(${source})) bank.sources.push(${source});
+  const subject=bank.subjects.find(item=>item.code===${subjectCode});
+  if(subject) subject.disabled=false;
+  const ids=new Set(bank.cards.map(card=>card.id));
+  const cards=${JSON.stringify(cards,null,2)};
+  cards.forEach(card=>{ if(!ids.has(card.id)){ bank.cards.push(card); ids.add(card.id); } });
+})();
+`;
+}
+function runtimeOutputs(bank){
+  const files=[{path:OUT_PATH,text:output(baseBank(bank))}];
+  for(const shard of RUNTIME_SHARDS){
+    files.push({path:path.join(ROOT,shard.output),text:outputShard(bank,shard)});
+  }
+  return files;
+}
 function run(){
   const bank=parse();
-  const text=output(bank);
-  if(process.argv.includes('--write')) fs.writeFileSync(OUT_PATH,text);
-  if(process.argv.includes('--check')||!process.argv.includes('--write')){
-    if(!fs.existsSync(OUT_PATH)||fs.readFileSync(OUT_PATH,'utf8')!==text){
-      console.error('core-cards/data.js differs from TXT Source of Truth');
-      process.exitCode=1;
-      return;
+  const files=runtimeOutputs(bank);
+  if(process.argv.includes('--write')){
+    for(const file of files){
+      fs.mkdirSync(path.dirname(file.path),{recursive:true});
+      fs.writeFileSync(file.path,file.text);
     }
   }
-  console.log('Core word cards compiled: '+bank.cards.length);
+  if(process.argv.includes('--check')||!process.argv.includes('--write')){
+    let mismatch=false;
+    for(const file of files){
+      if(!fs.existsSync(file.path)||fs.readFileSync(file.path,'utf8')!==file.text){
+        console.error(path.relative(ROOT,file.path)+' differs from TXT Source of Truth');
+        mismatch=true;
+      }
+    }
+    if(mismatch){process.exitCode=1;return;}
+  }
+  console.log('Core word cards compiled: '+bank.cards.length+' across '+files.length+' runtime file(s)');
 }
 if(require.main===module) run();
-module.exports={ROOT,REVIEW_DIR,OUT_PATH,MANIFEST,SEP,meta,section,parseList,subjectConfigs,parseExamQuestions,fallbackBasis,computeImportance,computeExamStats,parseSource,parse,output};
+module.exports={ROOT,REVIEW_DIR,OUT_PATH,MANIFEST,SEP,meta,section,parseList,subjectConfigs,parseExamQuestions,fallbackBasis,computeImportance,computeExamStats,parseSource,parse,output,baseBank,outputShard,runtimeOutputs};
