@@ -7,7 +7,7 @@ function setMeta(block,name,value){
   const line=name+': '+value;
   if(re.test(block)) return block.replace(re,line);
   const anchor=/^CATEGORY:.*$/m;
-  return anchor.test(block)?block.replace(anchor,m=>m+'\\n'+line):line+'\\n'+block;
+  return anchor.test(block)?block.replace(anchor,m=>m+'\n'+line):line+'\n'+block;
 }
 function parseBlock(block,config){
   const card={
@@ -25,7 +25,7 @@ function refreshed(config){
   const parts=text.split(SEP);
   const questions=parseExamQuestions(config);
   for(let i=1;i<parts.length;i++){
-    if(!/^\\s*ID:/m.test(parts[i])) continue;
+    if(!/^\s*ID:/m.test(parts[i])) continue;
     let block=parts[i];
     const card=parseBlock(block,config);
     const stats=computeExamStats(card,questions);

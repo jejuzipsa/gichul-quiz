@@ -86,4 +86,4 @@ for(const config of configs){
   console.log(config.label+': '+list.length+' / exam-backed '+list.filter(c=>c.examHitCount>0).length);
 }
 console.log('Errors: '+errors.length);
-if(errors.length){console.error(errors.join('\\n'));process.exitCode=1;}
+if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}

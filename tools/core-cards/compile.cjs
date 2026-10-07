@@ -23,7 +23,7 @@ function section(block,label,nextLabels=[]){
   return block.slice(from,end).trim();
 }
 function parseBullets(raw){
-  return raw.split(/\\r?\\n/).map(x=>x.trim()).filter(Boolean).map(line=>{
+  return raw.split(/\r?\n/).map(x=>x.trim()).filter(Boolean).map(line=>{
     if(!line.startsWith('- ')) throw new Error('malformed bullet: '+line);
     return line.slice(2).trim();
   });
@@ -40,10 +40,10 @@ function parseExamQuestions(config){
   const p=path.join(ROOT,config.examSourceFile);
   if(!fs.existsSync(p)) return [];
   const text=fs.readFileSync(p,'utf8');
-  return text.split(SEP).filter(b=>/^ID:\\s*/m.test(b)).map(b=>({
+  return text.split(SEP).filter(b=>/^ID:\s*/m.test(b)).map(b=>({
     id:meta(b,'ID'),
     year:Number(meta(b,'YEAR')),
-    text:(section(b,'[문제]',['[보기]'])+'\\n'+section(b,'[보기]',['[정답]'])).replace(/\\s+/g,' ')
+    text:(section(b,'[문제]',['[보기]'])+'\n'+section(b,'[보기]',['[정답]'])).replace(/\s+/g,' ')
   }));
 }
 function fallbackBasis(card){
@@ -73,9 +73,9 @@ function computeExamStats(card,questions){
 function parseSource(config){
   const sourcePath=path.join(ROOT,config.sourceFile);
   const text=fs.readFileSync(sourcePath,'utf8');
-  if(!/^CORE_WORD_CARDS_V1\\s*$/m.test(text.split(SEP,1)[0])) throw new Error('missing CORE_WORD_CARDS_V1 header: '+config.sourceFile);
+  if(!/^CORE_WORD_CARDS_V1\s*$/m.test(text.split(SEP,1)[0])) throw new Error('missing CORE_WORD_CARDS_V1 header: '+config.sourceFile);
   const questions=parseExamQuestions(config);
-  const blocks=text.split(SEP).map(x=>x.trim()).filter(x=>/^ID:\\s*/m.test(x));
+  const blocks=text.split(SEP).map(x=>x.trim()).filter(x=>/^ID:\s*/m.test(x));
   return blocks.map(block=>{
     const card={
       id:meta(block,'ID'),
@@ -139,7 +139,7 @@ function parse(){
   };
 }
 function output(bank){
-  return 'window.CORE_WORD_CARD_BANK = '+JSON.stringify(bank,null,2)+';\\n';
+  return 'window.CORE_WORD_CARD_BANK = '+JSON.stringify(bank,null,2)+';\n';
 }
 function run(){
   const bank=parse();
