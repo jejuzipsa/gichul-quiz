@@ -21,7 +21,7 @@ for(const config of configs){
   need(list.length===config.total,config.subject+': count must be '+config.total);
   const orders=new Set(),titles=new Set();
   for(const c of list){
-    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk',public_law:'pub'}[config.subject];
+    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk',public_law:'pub',registration_law:'reg'}[config.subject];
     need(!!prefix,config.subject+': missing id prefix mapping');
     need(new RegExp('^'+prefix+'-card-\\d{3}$').test(c.id),c.id+': invalid id');
     need(!ids.has(c.id),c.id+': duplicate id'); ids.add(c.id);
@@ -90,6 +90,17 @@ need(publicLaw.some(c=>c.importance===5),'public-law importance 5 cards missing'
 need(publicLaw.some(c=>c.importance===1),'public-law essential-only cards missing');
 for(const title of ['공간재구조화계획','도시혁신구역','복합용도구역','성장관리계획','사업시행계획 통합심의','사전방문','공동주택 품질점검단','농지개량행위 신고']) need(publicLaw.find(c=>c.title===title)?.sourceKind==='official','current public-law card must use official source: '+title);
 need(!publicLaw.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').match(/입지규제최소구역|미관지구|주거환경관리사업/)),'outdated public-law concept leaked into card body');
+
+const registration=cards.filter(c=>c.subject==='registration_law');
+for(const title of ['부동산 공시제도','지적제도','지적국정주의','필지','지번','지목','경계','지상경계점등록부','면적','지적공부','토지대장','임야대장','공유지연명부','대지권등록부','경계점좌표등록부','지적도','임야도','부동산종합공부','토지이동','신규등록','등록전환','분할','합병','축척변경','지적측량','경계복원측량','지적현황측량','지적측량 적부심사','등기부','등기기록','등기필정보','등기관','관련 사건 관할 특례','상속·유증 관할 특례','표제부','갑구','을구','공동신청주의','전자신청','등기신청 각하','소유권보존등기','소유권이전등기','지상권등기','지역권등기','전세권등기','임차권등기','저당권등기','근저당권등기','공동저당등기','가등기','신탁등기','관공서 촉탁등기','등기관 처분 이의신청']) need(registration.some(c=>c.title===title),'registration required card missing: '+title);
+need(registration[0]?.title==='부동산 공시제도','registration first card must be 부동산 공시제도');
+need(registration[registration.length-1]?.title==='기록명령','registration last card must be 기록명령');
+need(registration.filter(c=>c.examHitCount>0).length>=95,'registration exam-backed cards should be at least 95');
+need(registration.some(c=>c.importance===5),'registration importance 5 cards missing');
+need(registration.some(c=>c.importance===1),'registration essential-only cards missing');
+for(const title of ['관련 사건 관할 특례','상속·유증 관할 특례','전자신청','등기정보자료']) need(registration.find(c=>c.title===title)?.sourceKind==='official','current registration-law card must use official source: '+title);
+need(registration.find(c=>c.title==='전자신청')?.bullets.some(x=>x.includes('이동통신단말장치')),'registration electronic application must include current mobile-app rule');
+need(!registration.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').includes('등기전산정보자료')),'outdated registration-law term leaked into card body');
 
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);

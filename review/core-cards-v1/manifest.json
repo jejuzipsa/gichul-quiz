@@ -48,6 +48,18 @@
       "status": "complete",
       "orderRule": "국토계획법 → 도시개발법 → 도시정비법 → 건축법 → 주택법 → 농지법",
       "reindexExam": true
+    },
+    {
+      "subject": "registration_law",
+      "label": "부동산공시법",
+      "sourceFile": "review/core-cards-v1/05_registration_law.txt",
+      "sourcePdf": "4.공인중개사요약_공시법.pdf 33쪽 + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 법령",
+      "examSourceFile": "review/past-exams-v1/05_registration_law.txt",
+      "pageCount": 33,
+      "total": 199,
+      "status": "complete",
+      "orderRule": "지적 총론·등록사항 → 지적공부 → 토지이동·지적측량 → 등기 총론 → 표시등기 → 신청절차 → 소유권 → 용익·담보 → 가등기·신탁·촉탁·이의",
+      "reindexExam": true
     }
   ],
   "generatedOutput": "core-cards/data.js",
@@ -66,6 +78,10 @@
     {
       "subject": "public_law",
       "output": "core-cards/data-public.js"
+    },
+    {
+      "subject": "registration_law",
+      "output": "core-cards/data-registration.js"
     }
   ]
 }
