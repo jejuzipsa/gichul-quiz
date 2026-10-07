@@ -83,6 +83,10 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
 .search-suggestion-text strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px}
 .search-suggestion-text small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:9px}
 .search-suggestion-empty{margin:0;padding:15px 8px;color:var(--muted);font-size:11px;text-align:center}
+.order-controls{display:flex;justify-content:flex-end;gap:6px;padding-top:1px}
+.order-btn{min-height:34px;padding:0 13px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);color:var(--muted);font-size:11px;font-weight:850}
+.order-btn:hover{border-color:var(--accent);color:var(--accent)}
+.order-btn.active,.order-btn[aria-pressed="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 15%,var(--surface2));color:var(--text);box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 8%,transparent)}
 .card-stage{position:relative;display:grid;grid-template-columns:52px minmax(0,1fr) 52px;align-items:stretch;gap:10px;margin-top:8px}.core-card-grid{display:grid;grid-template-columns:1fr;gap:14px;min-width:0}.stage-nav{align-self:center;width:46px;height:72px;border:1px solid var(--line);border-radius:18px;background:var(--surface);color:var(--muted);box-shadow:var(--shadow);font-size:34px;line-height:1}.stage-nav:hover:not(:disabled){border-color:var(--accent);color:var(--accent);background:var(--surface2)}
 .core-card{min-height:520px;display:flex;flex-direction:column;overflow:hidden;padding:24px;border:1px solid color-mix(in srgb,var(--accent) 44%,var(--line));border-radius:22px;background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 8%,var(--surface)) 0%,var(--surface) 38%,var(--surface) 100%);box-shadow:var(--shadow)}
 .card-topline{display:flex;align-items:center;justify-content:space-between;gap:10px}.card-tag{display:inline-flex;align-items:center;min-height:28px;padding:0 10px;border-radius:999px;background:color-mix(in srgb,var(--accent) 18%,var(--surface2));color:var(--accent);font-size:11px;font-weight:900}.card-index{color:var(--muted);font-size:12px;font-weight:800;font-variant-numeric:tabular-nums}
@@ -138,6 +142,7 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
   .search-field input{height:40px;font-size:12px}
   .search-panel{top:calc(100% + 5px);max-height:58vh;padding:10px;border-radius:13px}
   .search-category-list{gap:5px}.search-category-chip{min-height:31px;padding:0 9px;font-size:10px}
+  .order-controls{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.order-btn{min-height:32px;padding:0 5px;font-size:10px}
   .search-suggestion{min-height:44px;padding:5px 7px}.search-suggestion-text strong{font-size:11px}.search-suggestion-text small{font-size:8px}
   .card-stage{grid-template-columns:1fr;margin-top:6px}
   .stage-nav{position:fixed;z-index:40;bottom:16px;width:52px;height:52px;border-radius:16px}
