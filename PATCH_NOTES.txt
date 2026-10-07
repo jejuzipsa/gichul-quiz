@@ -1404,3 +1404,73 @@
   · 모바일 홈 버튼 숨김 금지
   · 모바일 홈 아이콘 크기.
 
+------------------------------------------------------------
+49. v1.59 - 부동산학개론 핵심 단어 카드 100장 + TXT Source of Truth
+------------------------------------------------------------
+
+- 프로젝트 원본 “1.공인중개사요약_부동산학개론.pdf” 25쪽을 기준으로
+  카드화하기 좋은 내용만 선별해 부동산학개론 핵심 단어 카드 100장을 구성.
+- 너무 긴 표, 예외가 많은 제도, 시점에 따라 바뀌는 숫자·법령 세부값은 제외.
+- 배열 순서는 사용자 요청대로:
+  짧은 용어 → 핵심 개념 → 이론/학자 → 그래프 → 수식/응용.
+
+- 새 Source of Truth:
+  · review/core-cards-v1/01_real_estate_intro.txt
+  · review/core-cards-v1/manifest.json
+  · review/core-cards-v1/README.txt
+- 검수 보고서:
+  · review/core-cards-v1/01_real_estate_intro_audit.txt
+- 카드마다 다음 필드를 기록:
+  · ID / STATUS / ORDER / TYPE / CATEGORY
+  · SOURCE_PAGE / SOURCE_SECTION
+  · [제목] / [부제] / [핵심] / [수식] / [시각화] / [검수메모]
+
+- 카드 구성:
+  · term 37
+  · concept 10
+  · theory 20
+  · graph 11
+  · formula 22
+  · 총 100
+- ID: rei-card-001 ~ rei-card-100.
+
+- 검수 중 원문 문제도 분리 처리:
+  · 나지: 원문에 독립 정의 없음 → 보류
+  · 맹지: 원문에 독립 정의 없음 → 보류
+  · GPM: 요약집 p15 설명이 CAM과 동일해 오류 의심 → 제외
+  · 다핵심이론: 요약집 p6의 ‘멕켄지’ 표기를 그대로 사용하지 않음.
+    2021 제32회 공식 문제지에서 해리스·울만의 다핵심이론으로 확인하여 교정하고 검수메모에 근거 기록.
+  · 주택연금/REITs/공시일자 등 시점 민감 숫자는 제외.
+
+- 탄력성은 사용자가 요청한 카드 구조를 반영:
+  · 가격탄력성 공식
+  · 탄력적
+  · 비탄력적
+  · 단위탄력적
+  · 완전탄력적
+  · 완전비탄력적
+- 그래프/도식 키를 TXT에 저장하고 UI가 SVG 도식으로 렌더링하도록 확장.
+- 도시내부구조이론:
+  · 동심원이론
+  · 동심원이론 5지구
+  · 선형이론
+  · 다핵심이론
+  도식 지원.
+- 수요/공급 곡선 이동, 거미집이론, 탄력성, 현금수지 흐름 도식 지원.
+- formula 타입은 카드 안에 별도 수식 박스로 표시.
+
+- 생성/검증 도구:
+  · tools/core-cards/compile.cjs
+  · tools/core-cards/validate.cjs
+  · tools/core-cards/build.cjs
+- 생성물:
+  · core-cards/data.js
+- CI:
+  · .github/workflows/core-word-cards-txt-review.yml
+  · TXT ↔ data.js 일치
+  · 카드 100개/ID/ORDER/TYPE/원본페이지/길이/시각화 키 검증
+  · 나지·맹지·GPM 보류 규칙
+  · 다핵심이론 학자 교정 검증.
+
+- 사이트 버전 v1.59.
+
