@@ -1,0 +1,7187 @@
+CORE_WORD_CARDS_V1
+SUBJECT_KEY: registration_law
+SUBJECT: 부동산공시법
+COUNT: 199
+STATUS: reviewed
+SOURCE: 4.공인중개사요약_공시법.pdf 33쪽 + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 법령
+SOURCE_PAGES: 1-33
+ORDER_RULE: 지적 총론·등록사항 → 지적공부 → 토지이동·지적측량 → 등기 총론 → 표시등기 → 신청절차 → 소유권 → 용익·담보 → 가등기·신탁·촉탁·이의
+BASIS_RULE: exam > summary > essential
+IMPORTANCE_RULE: 기출 10회 이상=5, 5~9회=4, 1~4회=3, 요약집만=2, 필수용어만=1
+
+# 이 TXT가 부동산공시법 핵심 단어 카드의 Source of Truth이다.
+# 카드 선정 우선순위는 ① 2021~2025 공식 기출 120문제의 등장 단어·개념 ② 업로드한 33쪽 핵심요약 ③ 현행 과목 학습 필수어 순이다.
+# EXAM_HIT_COUNT는 문제+보기에서 제목/검색별칭/EXAM_KEYWORDS가 등장한 문제 수를 문제당 최대 1회로 계산한다.
+# 요약집의 용어·구조를 기본으로 유지하되, 2025-01-31 시행 부동산등기법 개정과 2026-07-01 시행 공간정보관리법을 현행 기준으로 교차검증했다.
+# 2025년 신설된 관련 사건 관할 특례·상속유증 관할 특례와 모바일 앱을 포함한 전자신청 등은 official 필수어로 보강했다.
+# 개정 가능성이 큰 세부 수치·기간은 독립 개념 자체가 아닌 경우 카드 본문에서 최소화했다.
+
+================================================================================
+ID: reg-card-001
+STATUS: APPROVED
+ORDER: 1
+TYPE: term
+CATEGORY: 지적제도·공시제도
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·공시제도
+SOURCE_REF: 
+
+[제목]
+부동산 공시제도
+
+[부제]
+부동산의 사실관계와 권리관계를 외부에 알리는 제도
+
+[검색어]
+
+
+[핵심]
+- 토지의 사실관계는 지적제도, 권리관계는 등기제도가 중심
+- 지적·등기 모두 등재 내용의 진실성을 국가가 보증하는 공신력은 인정되지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-002
+STATUS: APPROVED
+ORDER: 2
+TYPE: term
+CATEGORY: 지적제도·공시제도
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·공시제도
+SOURCE_REF: 
+
+[제목]
+지적제도
+
+[부제]
+토지의 표시와 소유자 등을 지적공부에 등록·공시하는 제도
+
+[검색어]
+
+
+[핵심]
+- 공간정보관리법을 근거로 토지를 필지 단위로 공시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-003
+STATUS: APPROVED
+ORDER: 3
+TYPE: term
+CATEGORY: 지적제도·공시제도
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·공시제도
+SOURCE_REF: 
+
+[제목]
+등기제도
+
+[부제]
+토지·건물의 권리관계를 등기부에 공시하는 제도
+
+[검색어]
+
+
+[핵심]
+- 부동산등기법을 근거로 법원이 등기사무를 담당
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-004
+STATUS: APPROVED
+ORDER: 4
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+세지적
+
+[부제]
+과세를 목적으로 면적 중심으로 운영되는 지적
+
+[검색어]
+과세지적
+
+[핵심]
+- 과세지적이라고도 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-005
+STATUS: APPROVED
+ORDER: 5
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+법지적
+
+[부제]
+소유권 보호를 목적으로 위치·경계를 중시하는 지적
+
+[검색어]
+소유지적
+
+[핵심]
+- 소유지적이라고도 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-006
+STATUS: APPROVED
+ORDER: 6
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+다목적지적
+
+[부제]
+토지 관련 정보를 종합 등록·관리하는 지적
+
+[검색어]
+경제지적 | 종합지적
+
+[핵심]
+- 경제지적·종합지적이라고도 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-007
+STATUS: APPROVED
+ORDER: 7
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+도해지적
+
+[부제]
+경계점을 도면에 표시하는 지적 방식
+
+[검색어]
+
+
+[핵심]
+- 지적도·임야도가 대표적인 도해지적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-008
+STATUS: APPROVED
+ORDER: 8
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+수치지적
+
+[부제]
+경계점을 좌표로 표시하는 지적 방식
+
+[검색어]
+
+
+[핵심]
+- 경계점좌표등록부가 대표적인 수치지적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-009
+STATUS: APPROVED
+ORDER: 9
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+2차원지적
+
+[부제]
+토지 경계를 수평면에 투영하여 등록하는 방식
+
+[검색어]
+평면지적 | 수평지적
+
+[핵심]
+- 평면지적·수평지적이라고도 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-010
+STATUS: APPROVED
+ORDER: 10
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-2-007 | 2025-36-second2-006
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p1 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 연속지적도 관련 조문
+
+[제목]
+연속지적도
+
+[부제]
+전산화된 지적도·임야도를 연결한 도면
+
+[검색어]
+
+
+[핵심]
+- 토지이용 관련 행정에 활용되지만 지적측량에는 직접 사용할 수 없음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-011
+STATUS: APPROVED
+ORDER: 11
+TYPE: term
+CATEGORY: 지적제도·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-005 | 2022-33-second2-008 | 2022-33-second2-009 | 2023-34-second2-010 | 2024-35-2-2-010
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 1
+SOURCE_SECTION: 지적제도·총론
+SOURCE_REF: 
+
+[제목]
+지적기준점
+
+[부제]
+지적측량의 기준이 되는 점
+
+[검색어]
+
+
+[핵심]
+- 지적삼각점·지적삼각보조점·지적도근점으로 구분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-012
+STATUS: APPROVED
+ORDER: 12
+TYPE: term
+CATEGORY: 지적제도·기본원칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·기본원칙
+SOURCE_REF: 
+
+[제목]
+지적국정주의
+
+[부제]
+토지의 표시사항을 국가가 결정하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 지적등록의 통일성과 획일성을 확보
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-013
+STATUS: APPROVED
+ORDER: 13
+TYPE: term
+CATEGORY: 지적제도·기본원칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·기본원칙
+SOURCE_REF: 
+
+[제목]
+지적형식주의
+
+[부제]
+토지표시 변동은 지적공부 등록형식을 갖춰야 공시효과가 생기는 원칙
+
+[검색어]
+지적등록주의
+
+[핵심]
+- 등록주의라고도 함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-014
+STATUS: APPROVED
+ORDER: 14
+TYPE: term
+CATEGORY: 지적제도·기본원칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·기본원칙
+SOURCE_REF: 
+
+[제목]
+지적공개주의
+
+[부제]
+지적공부를 일반 국민이 열람·이용할 수 있도록 하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 지적공부 열람·등본 발급과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-015
+STATUS: APPROVED
+ORDER: 15
+TYPE: term
+CATEGORY: 지적제도·기본원칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·기본원칙
+SOURCE_REF: 
+
+[제목]
+실질적심사주의
+
+[부제]
+지적소관청이 토지이동의 사실과 적법성을 실질적으로 심사하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 등기제도의 형식적 심사와 대비
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-016
+STATUS: APPROVED
+ORDER: 16
+TYPE: term
+CATEGORY: 지적제도·기본원칙
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·기본원칙
+SOURCE_REF: 
+
+[제목]
+적극적등록주의
+
+[부제]
+전 국토를 필지 단위로 국가가 적극 등록·공시하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 신청이 없어도 필요한 경우 직권등록 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-017
+STATUS: APPROVED
+ORDER: 17
+TYPE: term
+CATEGORY: 지적제도·토지표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2022|2023|2024
+EXAM_SAMPLE_REFS: 2022-33-second2-005 | 2022-33-second2-013 | 2023-34-second2-006 | 2024-35-2-2-001
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·토지표시
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p2 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제2조
+
+[제목]
+토지의 표시
+
+[부제]
+지적공부에 등록하는 소재·지번·지목·면적·경계 또는 좌표
+
+[검색어]
+
+
+[핵심]
+- 토지의 물리적 현황을 나타내는 핵심 등록사항
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-018
+STATUS: APPROVED
+ORDER: 18
+TYPE: term
+CATEGORY: 지적제도·토지표시
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2023|2024|2025
+EXAM_SAMPLE_REFS: 2023-34-second2-004 | 2024-35-2-2-002 | 2024-35-2-2-004 | 2024-35-2-2-005 | 2024-35-2-2-007 | 2025-36-second2-004 | 2025-36-second2-011
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·토지표시
+SOURCE_REF: 
+
+[제목]
+필지
+
+[부제]
+대통령령 기준에 따라 구획되는 토지의 등록단위
+
+[검색어]
+
+
+[핵심]
+- 지적공부상 토지를 구분하는 기본 단위
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-019
+STATUS: APPROVED
+ORDER: 19
+TYPE: term
+CATEGORY: 지적제도·토지표시
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·토지표시
+SOURCE_REF: 
+
+[제목]
+양입지
+
+[부제]
+주된 토지에 편입되어 하나의 필지로 정리되는 종된 토지
+
+[검색어]
+
+
+[핵심]
+- 소유자·지반이 같고 주된 용도를 보조하는 좁은 토지가 대상
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-020
+STATUS: APPROVED
+ORDER: 20
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: exam|summary
+EXAM_HIT_COUNT: 16
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-007 | 2021-32-second2-008 | 2021-32-second2-020 | 2022-33-second2-001 | 2022-33-second2-003 | 2023-34-second2-005 | 2023-34-second2-008 | 2023-34-second2-011 | 2024-35-2-2-001 | 2024-35-2-2-003
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+지번
+
+[부제]
+필지에 부여해 지적공부에 등록하는 번호
+
+[검색어]
+
+
+[핵심]
+- 본번과 부번으로 구성할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-021
+STATUS: APPROVED
+ORDER: 21
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-004
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+본번
+
+[부제]
+지번의 기본이 되는 번호
+
+[검색어]
+
+
+[핵심]
+- 부번과 함께 지번을 구성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-022
+STATUS: APPROVED
+ORDER: 22
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-004
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+부번
+
+[부제]
+본번 뒤에 붙는 세부 지번
+
+[검색어]
+
+
+[핵심]
+- 본번과 부번 사이를 하이픈으로 표시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-023
+STATUS: APPROVED
+ORDER: 23
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-004 | 2024-35-2-2-006
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 2
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+지번부여지역
+
+[부제]
+지번을 부여하는 단위지역
+
+[검색어]
+
+
+[핵심]
+- 법정 행정구역 등을 기준으로 지번을 체계적으로 부여
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-024
+STATUS: APPROVED
+ORDER: 24
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+토지이동별 지번부여
+
+[부제]
+신규등록·등록전환·분할·합병 등에 따라 지번을 정하는 방식
+
+[검색어]
+
+
+[핵심]
+- 신규등록·등록전환은 인접 본번의 부번이 원칙
+- 분할은 종전 지번 유지 필지와 새 부번, 합병은 선순위 지번이 원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-025
+STATUS: APPROVED
+ORDER: 25
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-001
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+지번변경
+
+[부제]
+지번이 불합리한 경우 일정 지역의 지번을 새로 정리하는 절차
+
+[검색어]
+
+
+[핵심]
+- 법정 승인절차를 거쳐 지번을 변경
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-026
+STATUS: APPROVED
+ORDER: 26
+TYPE: term
+CATEGORY: 지적제도·지번
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지번
+SOURCE_REF: 
+
+[제목]
+결번
+
+[부제]
+지번 변경·합병 등으로 사용하지 않게 된 지번
+
+[검색어]
+
+
+[핵심]
+- 결번대장에 기록해 관리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-027
+STATUS: APPROVED
+ORDER: 27
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: exam|summary
+EXAM_HIT_COUNT: 14
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-004 | 2021-32-second2-007 | 2022-33-second2-001 | 2022-33-second2-003 | 2022-33-second2-004 | 2023-34-second2-003 | 2023-34-second2-012 | 2024-35-2-2-001 | 2024-35-2-2-002 | 2024-35-2-2-003
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+지목
+
+[부제]
+토지의 주된 용도에 따라 종류를 구분해 지적공부에 등록한 것
+
+[검색어]
+
+
+[핵심]
+- 전·답·대·도로·잡종지 등 28개 지목으로 구분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-028
+STATUS: APPROVED
+ORDER: 28
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+1필1목 원칙
+
+[부제]
+한 필지에는 하나의 지목만 설정하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 주지목추종 원칙과 함께 지목 설정의 기본
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-029
+STATUS: APPROVED
+ORDER: 29
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+주지목추종 원칙
+
+[부제]
+여러 용도로 쓰는 토지는 주된 용도에 따라 지목을 정하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 부속 토지는 주된 토지의 지목을 따를 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-030
+STATUS: APPROVED
+ORDER: 30
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+지목 28종
+
+[부제]
+공간정보관리법상 토지의 용도를 28종으로 구분
+
+[검색어]
+
+
+[핵심]
+- 전·답·과수원·목장용지·임야·대·도로·잡종지 등이 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-031
+STATUS: APPROVED
+ORDER: 31
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+EXAM_KEYWORDS: 지목은 ‘대’ | 지목을 ‘대’ | 지목이 ‘대’ | 지목은 "대"
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p3
+
+[제목]
+지목 '대'
+
+[부제]
+영구적 건축물과 그 부속시설 부지에 설정하는 지목
+
+[검색어]
+대지목
+
+[핵심]
+- 주거·사무실·점포·문화시설 등의 부지가 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-032
+STATUS: APPROVED
+ORDER: 32
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+지목 도로
+
+[부제]
+일반 공중의 교통운수를 위해 이용되는 토지의 지목
+
+[검색어]
+도로 지목
+
+[핵심]
+- 고속도로 휴게소 부지 등 법정 범위를 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-033
+STATUS: APPROVED
+ORDER: 33
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2023|2025
+EXAM_SAMPLE_REFS: 2022-33-second2-004 | 2023-34-second2-003 | 2025-36-second2-002
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+지목 사적지
+
+[부제]
+문화재로 지정된 역사적 유적·고적 등을 보존하기 위한 토지의 지목
+
+[검색어]
+사적지
+
+[핵심]
+- 다른 지목 토지 안의 문화재 보호구역과 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-034
+STATUS: APPROVED
+ORDER: 34
+TYPE: term
+CATEGORY: 지적제도·지목
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·지목
+SOURCE_REF: 
+
+[제목]
+지목 잡종지
+
+[부제]
+다른 지목에 속하지 않는 용도의 토지에 설정하는 지목
+
+[검색어]
+잡종지
+
+[핵심]
+- 갈대밭·야외시장·돌을 캐는 곳 등 법정 예시를 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-035
+STATUS: APPROVED
+ORDER: 35
+TYPE: term
+CATEGORY: 지적제도·경계
+BASIS: exam|summary
+EXAM_HIT_COUNT: 15
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-001 | 2021-32-second2-002 | 2021-32-second2-005 | 2021-32-second2-006 | 2021-32-second2-007 | 2022-33-second2-003 | 2022-33-second2-009 | 2023-34-second2-005 | 2023-34-second2-012 | 2024-35-2-2-003
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·경계
+SOURCE_REF: 
+
+[제목]
+경계
+
+[부제]
+필지의 경계점을 직선으로 연결해 지적도면에 등록한 선
+
+[검색어]
+
+
+[핵심]
+- 경계점좌표등록부에는 좌표를 등록하고 선 자체를 등록하지 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-036
+STATUS: APPROVED
+ORDER: 36
+TYPE: term
+CATEGORY: 지적제도·경계
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-005 | 2022-33-second2-009 | 2023-34-second2-005 | 2023-34-second2-012 | 2024-35-2-2-003 | 2024-35-2-2-005 | 2024-35-2-2-010 | 2025-36-second2-008
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 3
+SOURCE_SECTION: 지적제도·경계
+SOURCE_REF: 
+
+[제목]
+경계점
+
+[부제]
+필지 경계의 굴곡점 등 경계를 결정하는 점
+
+[검색어]
+
+
+[핵심]
+- 지적측량과 경계복원의 기준
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-037
+STATUS: APPROVED
+ORDER: 37
+TYPE: term
+CATEGORY: 지적제도·경계
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-001 | 2024-35-2-2-003 | 2025-36-second2-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·경계
+SOURCE_REF: 
+
+[제목]
+지상경계
+
+[부제]
+지표상 구조물·지형 등에 의해 확인되는 토지경계
+
+[검색어]
+
+
+[핵심]
+- 연접 토지 사이 구조물의 소유관계에 따라 결정기준이 달라질 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-038
+STATUS: APPROVED
+ORDER: 38
+TYPE: term
+CATEGORY: 지적제도·경계
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·경계
+SOURCE_REF: 
+
+[제목]
+지상경계 결정기준
+
+[부제]
+담장·축대·구거 등 구조물에 따라 지상경계를 정하는 기준
+
+[검색어]
+
+
+[핵심]
+- 구조물 소유자가 같은지 다른지에 따라 경계 위치를 판단
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-039
+STATUS: APPROVED
+ORDER: 39
+TYPE: term
+CATEGORY: 지적제도·경계
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-2-003 | 2025-36-second2-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·경계
+SOURCE_REF: 
+
+[제목]
+지상경계점등록부
+
+[부제]
+새로 정한 지상경계점의 위치와 사진 등을 등록하는 장부
+
+[검색어]
+
+
+[핵심]
+- 토지이동으로 지상경계를 새로 정한 경우 지적소관청이 작성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-040
+STATUS: APPROVED
+ORDER: 40
+TYPE: term
+CATEGORY: 지적제도·경계
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·경계
+SOURCE_REF: 
+
+[제목]
+경계 결정 원칙
+
+[부제]
+지적도면 경계를 정할 때 적용하는 일반원칙
+
+[검색어]
+
+
+[핵심]
+- 축척종대·경계불가분·경계직선·경계국정주의가 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-041
+STATUS: APPROVED
+ORDER: 41
+TYPE: term
+CATEGORY: 지적제도·면적
+BASIS: exam|summary
+EXAM_HIT_COUNT: 12
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-007 | 2022-33-second2-003 | 2022-33-second2-007 | 2022-33-second2-013 | 2023-34-second2-004 | 2024-35-2-2-005 | 2024-35-2-2-007 | 2024-35-2-2-010 | 2024-35-2-2-012 | 2025-36-second2-004
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·면적
+SOURCE_REF: 
+
+[제목]
+면적
+
+[부제]
+지적공부에 등록하는 필지의 수평면상 넓이
+
+[검색어]
+
+
+[핵심]
+- 축척과 지역에 따라 등록 단위·끝수처리가 달라짐
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-042
+STATUS: APPROVED
+ORDER: 42
+TYPE: term
+CATEGORY: 지적제도·면적
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·면적
+SOURCE_REF: 
+
+[제목]
+면적측정
+
+[부제]
+지적측량 성과를 바탕으로 필지 면적을 계산·결정하는 절차
+
+[검색어]
+
+
+[핵심]
+- 신규등록·등록전환·분할·축척변경 등에서 실시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-043
+STATUS: APPROVED
+ORDER: 43
+TYPE: term
+CATEGORY: 지적제도·면적
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 4
+SOURCE_SECTION: 지적제도·면적
+SOURCE_REF: 
+
+[제목]
+좌표면적계산법
+
+[부제]
+경계점 좌표를 이용해 필지 면적을 계산하는 방법
+
+[검색어]
+
+
+[핵심]
+- 경계점좌표등록부 지역의 세부측량과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-044
+STATUS: APPROVED
+ORDER: 44
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 15
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-012 | 2022-33-second2-005 | 2022-33-second2-007 | 2022-33-second2-009 | 2022-33-second2-010 | 2022-33-second2-012 | 2023-34-second2-006 | 2023-34-second2-011 | 2024-35-2-2-003 | 2024-35-2-2-007
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+지적공부
+
+[부제]
+토지의 표시와 소유자 등을 등록하는 공적 장부
+
+[검색어]
+
+
+[핵심]
+- 토지대장·임야대장·공유지연명부·대지권등록부·지적도·임야도·경계점좌표등록부
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-045
+STATUS: APPROVED
+ORDER: 45
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-012 | 2023-34-second2-004 | 2023-34-second2-011 | 2023-34-second2-016 | 2024-35-2-2-010 | 2025-36-second2-004 | 2025-36-second2-010
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p5 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제71조
+
+[제목]
+토지대장
+
+[부제]
+토지의 소재·지번·지목·면적·소유자 등을 등록하는 대장
+
+[검색어]
+
+
+[핵심]
+- 임야대장 대상이 아닌 토지를 중심으로 등록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-046
+STATUS: APPROVED
+ORDER: 46
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second2-012
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+임야대장
+
+[부제]
+임야 등 법정 대상 토지의 표시·소유자 등을 등록하는 대장
+
+[검색어]
+
+
+[핵심]
+- 등록사항 체계는 토지대장과 유사
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-047
+STATUS: APPROVED
+ORDER: 47
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-2-010 | 2025-36-second2-010
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p5 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제71조 제2항
+
+[제목]
+공유지연명부
+
+[부제]
+한 필지를 둘 이상이 공동소유할 때 지분·소유자 정보를 등록하는 장부
+
+[검색어]
+
+
+[핵심]
+- 토지의 소재·지번·지분·소유자 등이 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-048
+STATUS: APPROVED
+ORDER: 48
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-008 | 2022-33-second2-001 | 2024-35-2-2-010
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p5 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제71조 제3항
+
+[제목]
+대지권등록부
+
+[부제]
+집합건물 대지권에 관한 토지·비율·소유자 등을 등록하는 장부
+
+[검색어]
+
+
+[핵심]
+- 대지권 등기된 토지에 대해 작성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-049
+STATUS: APPROVED
+ORDER: 49
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-005 | 2023-34-second2-005 | 2024-35-2-2-003 | 2024-35-2-2-005 | 2024-35-2-2-010 | 2025-36-second2-008
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+경계점좌표등록부
+
+[부제]
+경계점 위치를 좌표로 등록하는 지적공부
+
+[검색어]
+
+
+[핵심]
+- 지적확정측량·축척변경 지역 등 수치지역에서 작성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-050
+STATUS: APPROVED
+ORDER: 50
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 15
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-002 | 2021-32-second2-005 | 2022-33-second2-008 | 2023-34-second2-004 | 2023-34-second2-005 | 2023-34-second2-008 | 2023-34-second2-012 | 2024-35-2-2-006 | 2024-35-2-2-007 | 2024-35-2-2-009
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+지적도
+
+[부제]
+토지의 지번·지목·경계 등을 도면으로 등록하는 지적공부
+
+[검색어]
+
+
+[핵심]
+- 여러 축척을 사용하며 도해지적의 대표 장부
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-051
+STATUS: APPROVED
+ORDER: 51
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-002 | 2021-32-second2-003 | 2021-32-second2-005 | 2024-35-2-2-007 | 2024-35-2-2-009 | 2025-36-second2-006 | 2025-36-second2-011
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+임야도
+
+[부제]
+임야 등의 지번·지목·경계를 도면으로 등록하는 지적공부
+
+[검색어]
+
+
+[핵심]
+- 법정 축척은 1/3000과 1/6000
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-052
+STATUS: APPROVED
+ORDER: 52
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-011 | 2025-36-second2-003
+IMPORTANCE: 3
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p5 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제76조의2~제76조의5
+
+[제목]
+부동산종합공부
+
+[부제]
+토지·건축물·이용규제·가격·권리정보를 종합한 공부
+
+[검색어]
+
+
+[핵심]
+- 지적소관청이 관리·운영하고 종합증명서를 발급
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-053
+STATUS: APPROVED
+ORDER: 53
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 5
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+일람도
+
+[부제]
+지적도·임야도의 배치와 접속관계를 보여주는 보조도면
+
+[검색어]
+
+
+[핵심]
+- 개별 필지의 면적·소유자를 등록하는 지적공부는 아님
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-054
+STATUS: APPROVED
+ORDER: 54
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 6
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p6 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제74조
+
+[제목]
+지적공부 복구
+
+[부제]
+멸실·훼손된 지적공부를 관계 자료에 따라 복구하는 절차
+
+[검색어]
+
+
+[핵심]
+- 지적소관청은 전부 또는 일부가 멸실·훼손되면 지체 없이 복구
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-055
+STATUS: APPROVED
+ORDER: 55
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 6
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p6 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제75조
+
+[제목]
+지적공부 열람·등본
+
+[부제]
+지적공부를 열람하거나 등본을 발급받는 제도
+
+[검색어]
+지적공부 열람
+
+[핵심]
+- 원칙적으로 지적소관청에 신청하고 전산공부는 법정 기관에서도 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-056
+STATUS: APPROVED
+ORDER: 56
+TYPE: term
+CATEGORY: 지적제도·지적공부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second2-006
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 지적제도·지적공부
+SOURCE_REF: 
+
+[제목]
+지적전산자료
+
+[부제]
+지적공부에 관한 전산정보를 이용·활용하는 자료
+
+[검색어]
+
+
+[핵심]
+- 이용 범위에 따라 관계 기관의 심사·승인 절차가 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-057
+STATUS: APPROVED
+ORDER: 57
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-006 | 2021-32-second2-007 | 2022-33-second2-003 | 2022-33-second2-007 | 2022-33-second2-012 | 2023-34-second2-001 | 2023-34-second2-011 | 2024-35-2-2-007 | 2025-36-second2-011
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 
+
+[제목]
+토지이동
+
+[부제]
+토지의 표시가 새로 정해지거나 변경·말소되는 것
+
+[검색어]
+
+
+[핵심]
+- 신규등록·등록전환·분할·합병·지목변경·축척변경 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-058
+STATUS: APPROVED
+ORDER: 58
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-002 | 2022-33-second2-010 | 2023-34-second2-004 | 2024-35-2-2-001 | 2025-36-second2-001 | 2025-36-second2-004
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 6
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 
+
+[제목]
+신규등록
+
+[부제]
+새로 생긴 토지 등 미등록 토지를 지적공부에 처음 등록하는 것
+
+[검색어]
+
+
+[핵심]
+- 새로운 필지의 지번·지목·면적·경계 등을 등록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-059
+STATUS: APPROVED
+ORDER: 59
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-002 | 2021-32-second2-009 | 2022-33-second2-010 | 2024-35-2-2-004 | 2025-36-second2-001
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 
+
+[제목]
+등록전환
+
+[부제]
+임야대장·임야도 토지를 토지대장·지적도로 옮겨 등록하는 것
+
+[검색어]
+
+
+[핵심]
+- 보통 지목변경·형질변경 등과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-060
+STATUS: APPROVED
+ORDER: 60
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-002 | 2021-32-second2-016 | 2021-32-second2-017 | 2022-33-second2-019 | 2023-34-second2-016 | 2024-35-2-2-005 | 2024-35-2-2-018 | 2025-36-second2-008 | 2025-36-second2-017 | 2025-36-second2-018
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 
+
+[제목]
+분할
+
+[부제]
+1필지를 둘 이상의 필지로 나누어 등록하는 것
+
+[검색어]
+
+
+[핵심]
+- 분할 후 새 지번·면적·경계를 정리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-061
+STATUS: APPROVED
+ORDER: 61
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-2-001 | 2024-35-2-2-006 | 2024-35-2-2-014 | 2025-36-second2-001 | 2025-36-second2-014 | 2025-36-second2-022
+IMPORTANCE: 4
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p7 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제80조
+
+[제목]
+합병
+
+[부제]
+둘 이상의 필지를 하나의 필지로 합하여 등록하는 것
+
+[검색어]
+
+
+[핵심]
+- 지번부여지역·지목·소유자·축척 등 합병제한을 확인
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-062
+STATUS: APPROVED
+ORDER: 62
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 7
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p7 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제80조 제3항
+
+[제목]
+합병 제한
+
+[부제]
+법정 사유가 있으면 토지 합병을 신청할 수 없는 제한
+
+[검색어]
+합병 신청 제한
+
+[핵심]
+- 지번부여지역·지목·소유자·축척이 다르거나 일정 권리등기가 있으면 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-063
+STATUS: APPROVED
+ORDER: 63
+TYPE: term
+CATEGORY: 지적제도·토지이동
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-001
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 지적제도·토지이동
+SOURCE_REF: 
+
+[제목]
+지목변경
+
+[부제]
+토지의 주된 용도가 바뀐 때 지목을 변경해 등록하는 것
+
+[검색어]
+
+
+[핵심]
+- 관계 법령상 공사완료·용도변경 사실과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-064
+STATUS: APPROVED
+ORDER: 64
+TYPE: term
+CATEGORY: 지적제도·축척변경
+BASIS: exam|summary
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-010 | 2022-33-second2-002 | 2022-33-second2-007 | 2022-33-second2-010 | 2022-33-second2-011 | 2023-34-second2-008 | 2023-34-second2-011 | 2024-35-2-2-001 | 2024-35-2-2-012 | 2025-36-second2-007
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 7
+SOURCE_SECTION: 지적제도·축척변경
+SOURCE_REF: 
+
+[제목]
+축척변경
+
+[부제]
+지적도 경계의 정밀도를 높이기 위해 더 큰 축척으로 바꾸는 것
+
+[검색어]
+
+
+[핵심]
+- 축척변경위원회·청산금·확정공고 절차와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-065
+STATUS: APPROVED
+ORDER: 65
+TYPE: term
+CATEGORY: 지적제도·축척변경
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-010 | 2022-33-second2-002 | 2022-33-second2-007 | 2024-35-2-2-012 | 2025-36-second2-007
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 지적제도·축척변경
+SOURCE_REF: 
+
+[제목]
+축척변경위원회
+
+[부제]
+축척변경의 청산·이의 등을 심의·의결하는 위원회
+
+[검색어]
+
+
+[핵심]
+- 토지소유자 대표와 전문가 등으로 구성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-066
+STATUS: APPROVED
+ORDER: 66
+TYPE: term
+CATEGORY: 지적제도·축척변경
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 지적제도·축척변경
+SOURCE_REF: 
+
+[제목]
+축척변경 청산금
+
+[부제]
+축척변경으로 생긴 면적 증감의 가액을 정산하는 금액
+
+[검색어]
+
+
+[핵심]
+- 면적 증감에 따라 징수 또는 지급
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-067
+STATUS: APPROVED
+ORDER: 67
+TYPE: term
+CATEGORY: 지적제도·정정
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 지적제도·정정
+SOURCE_REF: 
+
+[제목]
+등록사항정정
+
+[부제]
+지적공부 등록사항의 오류를 바로잡는 절차
+
+[검색어]
+
+
+[핵심]
+- 토지소유자 신청 또는 지적소관청 직권으로 정정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-068
+STATUS: APPROVED
+ORDER: 68
+TYPE: term
+CATEGORY: 지적제도·정정
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 8
+SOURCE_SECTION: 지적제도·정정
+SOURCE_REF: 
+
+[제목]
+직권정정
+
+[부제]
+지적소관청이 법정 오류를 직접 조사·측량해 바로잡는 것
+
+[검색어]
+
+
+[핵심]
+- 토지이동정리 결의서와 다르게 정리된 경우 등이 대상
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-069
+STATUS: APPROVED
+ORDER: 69
+TYPE: term
+CATEGORY: 지적제도·개발사업
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·개발사업
+SOURCE_REF: 
+
+[제목]
+토지개발사업 신고
+
+[부제]
+개발사업 시행자가 착수·변경·완료 사실을 지적소관청에 신고하는 절차
+
+[검색어]
+
+
+[핵심]
+- 도시개발·농어촌정비 등 지적확정측량 대상 사업과 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-070
+STATUS: APPROVED
+ORDER: 70
+TYPE: term
+CATEGORY: 지적제도·개발사업
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·개발사업
+SOURCE_REF: 
+
+[제목]
+지적확정측량
+
+[부제]
+개발사업 완료 후 새 필지의 경계·좌표·면적을 확정하는 측량
+
+[검색어]
+
+
+[핵심]
+- 사업 완료에 따른 토지이동 정리의 기초
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-071
+STATUS: APPROVED
+ORDER: 71
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-002 | 2021-32-second2-006 | 2021-32-second2-009 | 2022-33-second2-008 | 2022-33-second2-009 | 2022-33-second2-012 | 2023-34-second2-001 | 2023-34-second2-010 | 2025-36-second2-001 | 2025-36-second2-008
+IMPORTANCE: 5
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p9 + 국가법령정보센터 「공간정보의 구축 및 관리 등에 관한 법률」 제2조 제4호
+
+[제목]
+지적측량
+
+[부제]
+필지 경계·좌표·면적을 정해 등록하거나 경계를 지상에 복원하는 측량
+
+[검색어]
+
+
+[핵심]
+- 지적확정측량·지적재조사측량을 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-072
+STATUS: APPROVED
+ORDER: 72
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 6
+EXAM_YEARS: 2021|2022|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-009 | 2022-33-second2-008 | 2023-34-second2-010 | 2025-36-second2-001 | 2025-36-second2-008 | 2025-36-second2-012
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적측량수행자
+
+[부제]
+지적측량을 수행하는 법정 자격·기관
+
+[검색어]
+
+
+[핵심]
+- 한국국토정보공사와 등록된 지적측량업자 등이 수행
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-073
+STATUS: APPROVED
+ORDER: 73
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second2-002
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+경계복원측량
+
+[부제]
+지적공부에 등록된 경계점을 지상에 복원하는 측량
+
+[검색어]
+
+
+[핵심]
+- 토지경계 확인을 위해 실시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-074
+STATUS: APPROVED
+ORDER: 74
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second2-002
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적현황측량
+
+[부제]
+지상 건축물·구조물 현황을 지적도 경계와 대비해 표시하는 측량
+
+[검색어]
+
+
+[핵심]
+- 건축물 위치 등 현황 파악에 이용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-075
+STATUS: APPROVED
+ORDER: 75
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second2-002
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+분할측량
+
+[부제]
+토지를 분할하기 위해 새 경계점과 면적을 정하는 측량
+
+[검색어]
+
+
+[핵심]
+- 분할 토지이동 신청의 기초
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-076
+STATUS: APPROVED
+ORDER: 76
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second2-002
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 9
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+등록전환측량
+
+[부제]
+임야대장 토지를 토지대장으로 옮기기 위해 실시하는 측량
+
+[검색어]
+
+
+[핵심]
+- 등록전환 토지의 경계·면적을 결정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-077
+STATUS: APPROVED
+ORDER: 77
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적기준점측량
+
+[부제]
+지적삼각점·보조점·도근점 등 기준점을 설치·측정하는 측량
+
+[검색어]
+
+
+[핵심]
+- 세부측량의 기준이 되는 점을 정함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-078
+STATUS: APPROVED
+ORDER: 78
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적삼각점
+
+[부제]
+광범위한 지적측량의 기준이 되는 상위 기준점
+
+[검색어]
+
+
+[핵심]
+- 시·도지사가 성과를 관리하는 기준점
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-079
+STATUS: APPROVED
+ORDER: 79
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second2-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적삼각보조점
+
+[부제]
+지적삼각점을 보완하는 지적기준점
+
+[검색어]
+
+
+[핵심]
+- 지적소관청이 성과를 관리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-080
+STATUS: APPROVED
+ORDER: 80
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second2-008
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적도근점
+
+[부제]
+세부 지적측량에 가까이 사용하는 기준점
+
+[검색어]
+
+
+[핵심]
+- 지적소관청이 성과를 관리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-081
+STATUS: APPROVED
+ORDER: 81
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-009 | 2025-36-second2-001 | 2025-36-second2-011 | 2025-36-second2-012
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적측량성과
+
+[부제]
+지적측량으로 결정된 경계·좌표·면적 등의 결과
+
+[검색어]
+
+
+[핵심]
+- 검사 대상 측량은 지적소관청의 성과검사를 거침
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-082
+STATUS: APPROVED
+ORDER: 82
+TYPE: term
+CATEGORY: 지적제도·지적측량
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-006 | 2025-36-second2-009 | 2025-36-second2-012
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적측량
+SOURCE_REF: 
+
+[제목]
+지적측량 적부심사
+
+[부제]
+지적측량성과에 다툼이 있을 때 적정성을 심사하는 절차
+
+[검색어]
+
+
+[핵심]
+- 지방지적위원회 심의·의결과 재심사 절차로 이어질 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-083
+STATUS: APPROVED
+ORDER: 83
+TYPE: term
+CATEGORY: 지적제도·지적위원회
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-006 | 2024-35-2-2-007 | 2025-36-second2-009
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적위원회
+SOURCE_REF: 
+
+[제목]
+지방지적위원회
+
+[부제]
+지적측량 적부심사 등을 심의·의결하는 시도 단위 위원회
+
+[검색어]
+
+
+[핵심]
+- 적부심사 청구의 1차 심의기관
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-084
+STATUS: APPROVED
+ORDER: 84
+TYPE: term
+CATEGORY: 지적제도·지적위원회
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-006 | 2023-34-second2-009 | 2024-35-2-2-007 | 2025-36-second2-012
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 10
+SOURCE_SECTION: 지적제도·지적위원회
+SOURCE_REF: 
+
+[제목]
+중앙지적위원회
+
+[부제]
+지적제도·측량 관련 중요사항과 재심사 등을 담당하는 중앙 위원회
+
+[검색어]
+
+
+[핵심]
+- 국토교통부에 두는 지적위원회
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-085
+STATUS: APPROVED
+ORDER: 85
+TYPE: term
+CATEGORY: 등기제도·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second2-015
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 
+
+[제목]
+등기부
+
+[부제]
+전산정보처리조직에 입력·처리된 등기정보자료를 편성한 공적 장부
+
+[검색어]
+
+
+[핵심]
+- 토지등기부와 건물등기부로 구분
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-086
+STATUS: APPROVED
+ORDER: 86
+TYPE: term
+CATEGORY: 등기제도·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 11
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-013 | 2021-32-second2-020 | 2021-32-second2-023 | 2022-33-second2-015 | 2022-33-second2-017 | 2023-34-second2-017 | 2023-34-second2-018 | 2023-34-second2-022 | 2024-35-2-2-013 | 2024-35-2-2-021
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 
+
+[제목]
+등기기록
+
+[부제]
+1필의 토지 또는 1개의 건물에 관한 등기정보자료
+
+[검색어]
+
+
+[핵심]
+- 부동산별로 하나의 등기기록을 구성
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-087
+STATUS: APPROVED
+ORDER: 87
+TYPE: term
+CATEGORY: 등기제도·총론
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second2-013 | 2023-34-second2-024 | 2024-35-2-2-015 | 2025-36-second2-015
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 
+
+[제목]
+등기필정보
+
+[부제]
+새로운 권리자를 확인하기 위해 등기관이 작성하는 정보
+
+[검색어]
+
+
+[핵심]
+- 등기의무자의 본인확인과 다음 등기신청에 활용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-088
+STATUS: APPROVED
+ORDER: 88
+TYPE: concept
+CATEGORY: 등기제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary+official
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 4.공인중개사요약_공시법.pdf p11 + 국가법령정보센터 「부동산등기법」 제3조
+
+[제목]
+등기할 수 있는 권리
+
+[부제]
+부동산등기법상 등기대상이 되는 권리
+
+[검색어]
+
+
+[핵심]
+- 소유권·지상권·지역권·전세권·저당권·권리질권·채권담보권·임차권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-089
+STATUS: APPROVED
+ORDER: 89
+TYPE: term
+CATEGORY: 등기제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 
+
+[제목]
+등기 순위
+
+[부제]
+같은 부동산에 등기된 권리의 우선순위를 정하는 기준
+
+[검색어]
+
+
+[핵심]
+- 같은 구는 순위번호, 다른 구는 접수번호
+- 부기등기는 원칙적으로 주등기의 순위를 따름
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-090
+STATUS: APPROVED
+ORDER: 90
+TYPE: term
+CATEGORY: 등기제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 
+
+[제목]
+등기 효력발생시기
+
+[부제]
+등기관이 등기를 마치면 접수한 때부터 효력이 발생
+
+[검색어]
+
+
+[핵심]
+- 등기완료시점과 효력발생시점을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-091
+STATUS: APPROVED
+ORDER: 91
+TYPE: term
+CATEGORY: 등기제도·총론
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·총론
+SOURCE_REF: 
+
+[제목]
+등기의 기능
+
+[부제]
+등기가 부동산권리변동에서 수행하는 법적 기능
+
+[검색어]
+
+
+[핵심]
+- 법률행위에 의한 물권변동은 성립요건
+- 임차권 등은 대항요건, 상속·수용 취득권리는 처분 전 등기가 필요한 경우가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-092
+STATUS: APPROVED
+ORDER: 92
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+기입등기
+
+[부제]
+새로운 등기원인으로 등기기록에 새 권리를 기재하는 등기
+
+[검색어]
+
+
+[핵심]
+- 소유권보존·이전·전세권설정 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-093
+STATUS: APPROVED
+ORDER: 93
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 19
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-014 | 2021-32-second2-017 | 2021-32-second2-018 | 2021-32-second2-020 | 2021-32-second2-022 | 2021-32-second2-024 | 2022-33-second2-019 | 2022-33-second2-024 | 2023-34-second2-006 | 2023-34-second2-016
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+변경등기
+
+[부제]
+등기 후 생긴 사유로 등기사항 일부가 실체관계와 달라져 고치는 등기
+
+[검색어]
+
+
+[핵심]
+- 후발적 불일치를 바로잡음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-094
+STATUS: APPROVED
+ORDER: 94
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-014
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 11
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+경정등기
+
+[부제]
+등기 당시부터 존재한 착오·누락을 바로잡는 등기
+
+[검색어]
+
+
+[핵심]
+- 원시적 일부 불일치를 고침
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-095
+STATUS: APPROVED
+ORDER: 95
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-014 | 2022-33-second2-014 | 2022-33-second2-022 | 2022-33-second2-024 | 2024-35-2-2-014 | 2024-35-2-2-017 | 2025-36-second2-013 | 2025-36-second2-024
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+말소등기
+
+[부제]
+등기사항 전부가 실체관계와 불일치할 때 그 등기를 소멸시키는 등기
+
+[검색어]
+
+
+[핵심]
+- 원시적·후발적 사유 모두 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-096
+STATUS: APPROVED
+ORDER: 96
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2022|2024
+EXAM_SAMPLE_REFS: 2022-33-second2-016 | 2022-33-second2-019 | 2024-35-2-2-016
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+멸실등기
+
+[부제]
+등기된 부동산 자체가 물리적으로 없어졌을 때 하는 표시등기
+
+[검색어]
+
+
+[핵심]
+- 등기기록을 폐쇄하는 사실의 등기
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-097
+STATUS: APPROVED
+ORDER: 97
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+말소회복등기
+
+[부제]
+부적법하게 말소된 등기를 말소 전 상태로 회복하는 등기
+
+[검색어]
+
+
+[핵심]
+- 전부 회복은 주등기, 일부 회복은 부기등기
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-098
+STATUS: APPROVED
+ORDER: 98
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2023|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-020 | 2021-32-second2-024 | 2023-34-second2-019 | 2025-36-second2-017
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+주등기
+
+[부제]
+독립된 순위번호·표시번호로 행하는 등기
+
+[검색어]
+
+
+[핵심]
+- 보존·이전·설정·말소 등 독립된 권리를 표시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-099
+STATUS: APPROVED
+ORDER: 99
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2021|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-020 | 2023-34-second2-015 | 2024-35-2-2-018 | 2024-35-2-2-020 | 2024-35-2-2-024
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+부기등기
+
+[부제]
+기존 주등기의 순위·효력을 유지하며 덧붙이는 등기
+
+[검색어]
+
+
+[핵심]
+- 소유권 외 권리의 이전·등기명의인표시변경 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-100
+STATUS: APPROVED
+ORDER: 100
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 10
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-022 | 2021-32-second2-023 | 2022-33-second2-016 | 2022-33-second2-021 | 2022-33-second2-023 | 2023-34-second2-015 | 2023-34-second2-019 | 2024-35-2-2-022 | 2024-35-2-2-024 | 2025-36-second2-023
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+종국등기
+
+[부제]
+권리변동을 최종적으로 공시하는 본등기
+
+[검색어]
+본등기
+
+[핵심]
+- 가등기와 대비
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-101
+STATUS: APPROVED
+ORDER: 101
+TYPE: term
+CATEGORY: 등기제도·등기종류
+BASIS: exam|summary
+EXAM_HIT_COUNT: 13
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-014 | 2021-32-second2-022 | 2021-32-second2-023 | 2022-33-second2-016 | 2022-33-second2-021 | 2022-33-second2-023 | 2022-33-second2-024 | 2023-34-second2-015 | 2023-34-second2-019 | 2024-35-2-2-022
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·등기종류
+SOURCE_REF: 
+
+[제목]
+가등기
+
+[부제]
+장래 본등기의 순위를 보전하기 위한 예비등기
+
+[검색어]
+
+
+[핵심]
+- 물권·임차권 변동을 목적으로 하는 청구권을 보전
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-102
+STATUS: APPROVED
+ORDER: 102
+TYPE: term
+CATEGORY: 등기제도·기관
+BASIS: exam|summary
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-018 | 2022-33-second2-013 | 2022-33-second2-017 | 2023-34-second2-024 | 2024-35-2-2-015 | 2024-35-2-2-021 | 2024-35-2-2-023 | 2025-36-second2-015 | 2025-36-second2-024
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 등기제도·기관
+SOURCE_REF: 
+
+[제목]
+등기소
+
+[부제]
+부동산 소재지에 따라 등기사무를 관할하는 법원기관
+
+[검색어]
+
+
+[핵심]
+- 원칙적으로 부동산 소재지 관할 등기소가 처리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-103
+STATUS: APPROVED
+ORDER: 103
+TYPE: term
+CATEGORY: 등기제도·기관
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 등기제도·기관
+SOURCE_REF: 
+
+[제목]
+등기소 관할
+
+[부제]
+부동산 소재지에 따라 등기사무를 담당할 등기소를 정하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 현행법에는 관련 사건과 상속·유증의 관할 특례가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-104
+STATUS: APPROVED
+ORDER: 104
+TYPE: term
+CATEGORY: 등기제도·기관
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 등기제도·기관
+SOURCE_REF: 국가법령정보센터 「부동산등기법」 제7조의2
+
+[제목]
+관련 사건 관할 특례
+
+[부제]
+관할이 다른 여러 부동산의 관련 등기를 한 등기소에서 처리할 수 있는 특례
+
+[검색어]
+관련 사건의 관할
+
+[핵심]
+- 등기목적·원인이 같거나 규칙이 정하는 관련 신청에 적용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-105
+STATUS: APPROVED
+ORDER: 105
+TYPE: term
+CATEGORY: 등기제도·기관
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 등기제도·기관
+SOURCE_REF: 국가법령정보센터 「부동산등기법」 제7조의3
+
+[제목]
+상속·유증 관할 특례
+
+[부제]
+상속·유증 관련 여러 부동산의 등기를 한 등기소에 신청할 수 있는 현행 특례
+
+[검색어]
+상속 유증 관할
+
+[핵심]
+- 2025년 시행 개정으로 여러 관할 부동산의 신청 편의를 확대
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-106
+STATUS: APPROVED
+ORDER: 106
+TYPE: term
+CATEGORY: 등기제도·기관
+BASIS: exam|summary
+EXAM_HIT_COUNT: 27
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-018 | 2021-32-second2-019 | 2021-32-second2-020 | 2021-32-second2-022 | 2021-32-second2-023 | 2021-32-second2-024 | 2022-33-second2-010 | 2022-33-second2-015 | 2022-33-second2-017 | 2022-33-second2-018
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 13
+SOURCE_SECTION: 등기제도·기관
+SOURCE_REF: 
+
+[제목]
+등기관
+
+[부제]
+지방법원장이 지정하여 등기사무를 처리하는 법원공무원
+
+[검색어]
+
+
+[핵심]
+- 등기신청의 접수·심사·실행을 담당
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-107
+STATUS: APPROVED
+ORDER: 107
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2022|2023
+EXAM_SAMPLE_REFS: 2022-33-second2-019 | 2023-34-second2-022
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 
+
+[제목]
+표제부
+
+[부제]
+부동산의 표시를 기록하는 등기기록 부분
+
+[검색어]
+
+
+[핵심]
+- 토지는 소재·지번·지목·면적, 건물은 소재·구조·면적 등을 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-108
+STATUS: APPROVED
+ORDER: 108
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second2-017
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 
+
+[제목]
+갑구
+
+[부제]
+소유권에 관한 사항을 기록하는 등기기록 부분
+
+[검색어]
+
+
+[핵심]
+- 소유권보존·이전·압류·가처분 등 소유권 관련 등기
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-109
+STATUS: APPROVED
+ORDER: 109
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 
+
+[제목]
+을구
+
+[부제]
+소유권 외 권리에 관한 사항을 기록하는 등기기록 부분
+
+[검색어]
+
+
+[핵심]
+- 지상권·전세권·저당권·임차권 등을 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-110
+STATUS: APPROVED
+ORDER: 110
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 
+
+[제목]
+폐쇄등기부
+
+[부제]
+효력이 끝난 등기기록을 별도로 보존하는 장부
+
+[검색어]
+
+
+[핵심]
+- 멸실·합병 등으로 폐쇄된 등기기록을 보존
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-111
+STATUS: APPROVED
+ORDER: 111
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 
+
+[제목]
+중복등기기록
+
+[부제]
+동일 부동산에 둘 이상의 등기기록이 존재하는 상태
+
+[검색어]
+
+
+[핵심]
+- 법정 절차에 따라 하나의 기록을 폐쇄하거나 정리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-112
+STATUS: APPROVED
+ORDER: 112
+TYPE: term
+CATEGORY: 등기제도·보조장부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-019 | 2024-35-2-2-021
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·보조장부
+SOURCE_REF: 
+
+[제목]
+공동담보목록
+
+[부제]
+여러 부동산이 하나의 채권을 공동으로 담보할 때 작성하는 목록
+
+[검색어]
+
+
+[핵심]
+- 공동저당 등기와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-113
+STATUS: APPROVED
+ORDER: 113
+TYPE: term
+CATEGORY: 등기제도·보조장부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-024 | 2022-33-second2-024 | 2024-35-2-2-023 | 2025-36-second2-022
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·보조장부
+SOURCE_REF: 
+
+[제목]
+신탁원부
+
+[부제]
+신탁 목적·수익자 등 신탁사항을 기록하는 전자적 원부
+
+[검색어]
+
+
+[핵심]
+- 신탁등기의 일부로 보아 등기기록과 함께 공시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-114
+STATUS: APPROVED
+ORDER: 114
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2022|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-020 | 2022-33-second2-010 | 2024-35-2-2-011
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 14
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 
+
+[제목]
+등기사항증명서
+
+[부제]
+등기기록의 전부 또는 일부를 증명하는 문서
+
+[검색어]
+
+
+[핵심]
+- 법정 절차에 따라 발급·열람 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-115
+STATUS: APPROVED
+ORDER: 115
+TYPE: term
+CATEGORY: 등기제도·등기부
+BASIS: essential
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 1
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 등기제도·등기부
+SOURCE_REF: 국가법령정보센터 「부동산등기법」 제109조의2
+
+[제목]
+등기정보자료
+
+[부제]
+등기부 등에서 추출·가공한 전산 등기정보자료
+
+[검색어]
+
+
+[핵심]
+- 현행법은 등기전산정보자료 체계를 등기정보자료로 정비
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-116
+STATUS: APPROVED
+ORDER: 116
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+토지 표시등기
+
+[부제]
+토지의 소재·지번·지목·면적 등 사실사항에 관한 등기
+
+[검색어]
+
+
+[핵심]
+- 표제부에 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-117
+STATUS: APPROVED
+ORDER: 117
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+토지 표시변경등기
+
+[부제]
+분할·합병·지목·면적 등 토지 표시가 바뀐 경우 하는 변경등기
+
+[검색어]
+
+
+[핵심]
+- 소유권 등기명의인이 법정 기간 내 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-118
+STATUS: APPROVED
+ORDER: 118
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+직권 표시변경등기
+
+[부제]
+지적소관청 통지 후 신청이 없을 때 등기관이 직권으로 하는 표시변경
+
+[검색어]
+
+
+[핵심]
+- 대장과 등기기록의 표시 일치를 위한 절차
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-119
+STATUS: APPROVED
+ORDER: 119
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+합필등기
+
+[부제]
+토지합병 후 여러 등기기록을 하나로 합치는 등기
+
+[검색어]
+
+
+[핵심]
+- 일정 권리등기가 있으면 합필 제한
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-120
+STATUS: APPROVED
+ORDER: 120
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+합필 제한
+
+[부제]
+일정 권리등기가 있는 토지는 합필등기를 할 수 없는 제한
+
+[검색어]
+
+
+[핵심]
+- 소유권·지상권·전세권·임차권 등 허용되는 등기와 금지되는 등기를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-121
+STATUS: APPROVED
+ORDER: 121
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+합필 특례
+
+[부제]
+토지합병 후 합필 전 권리변동이 생긴 경우 승낙으로 합필하는 특례
+
+[검색어]
+
+
+[핵심]
+- 이해관계인의 승낙이 핵심
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-122
+STATUS: APPROVED
+ORDER: 122
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+토지 멸실등기
+
+[부제]
+토지가 멸실된 경우 등기기록을 폐쇄하는 등기
+
+[검색어]
+
+
+[핵심]
+- 소유권 등기명의인이 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-123
+STATUS: APPROVED
+ORDER: 123
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 15
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+건물 표시등기
+
+[부제]
+건물 소재·지번·건물번호·종류·구조·면적 등을 기록하는 등기
+
+[검색어]
+
+
+[핵심]
+- 표제부에 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-124
+STATUS: APPROVED
+ORDER: 124
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+건물 표시변경등기
+
+[부제]
+건물 분할·구분·합병·구조·면적 등이 변경된 때 하는 등기
+
+[검색어]
+
+
+[핵심]
+- 소유권 등기명의인의 단독신청이 원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-125
+STATUS: APPROVED
+ORDER: 125
+TYPE: term
+CATEGORY: 등기제도·표시등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 등기제도·표시등기
+SOURCE_REF: 
+
+[제목]
+건물 멸실등기
+
+[부제]
+건물 전부가 멸실된 경우 하는 표시등기
+
+[검색어]
+
+
+[핵심]
+- 소유권 외 권리자가 있으면 통지·이의절차가 문제됨
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-126
+STATUS: APPROVED
+ORDER: 126
+TYPE: term
+CATEGORY: 등기제도·구분건물
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 등기제도·구분건물
+SOURCE_REF: 
+
+[제목]
+구분건물 표시등기
+
+[부제]
+집합건물의 전유부분과 1동 건물을 구분해 표시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 일부 전유부분 보존등기 시 나머지 구분건물 표시도 함께 정리
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-127
+STATUS: APPROVED
+ORDER: 127
+TYPE: term
+CATEGORY: 등기제도·구분건물
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 등기제도·구분건물
+SOURCE_REF: 
+
+[제목]
+규약상 공용부분 등기
+
+[부제]
+규약으로 공용부분이 된 건물에 공용부분이라는 뜻을 하는 등기
+
+[검색어]
+
+
+[핵심]
+- 소유권 등기명의인이 신청하며 이해관계인 승낙이 필요한 경우가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-128
+STATUS: APPROVED
+ORDER: 128
+TYPE: term
+CATEGORY: 등기제도·구분건물
+BASIS: exam|summary
+EXAM_HIT_COUNT: 7
+EXAM_YEARS: 2021|2022|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-008 | 2022-33-second2-001 | 2022-33-second2-022 | 2023-34-second2-005 | 2023-34-second2-015 | 2023-34-second2-022 | 2024-35-2-2-010
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 등기제도·구분건물
+SOURCE_REF: 
+
+[제목]
+대지권
+
+[부제]
+구분건물과 분리처분할 수 없는 대지사용권
+
+[검색어]
+
+
+[핵심]
+- 전유부분 표제부와 토지등기기록의 대지권 표시가 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-129
+STATUS: APPROVED
+ORDER: 129
+TYPE: term
+CATEGORY: 등기제도·구분건물
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 16
+SOURCE_SECTION: 등기제도·구분건물
+SOURCE_REF: 
+
+[제목]
+대지권 등기
+
+[부제]
+구분건물의 대지사용권을 대지권으로 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 건물과 토지의 분리처분 제한을 공시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-130
+STATUS: APPROVED
+ORDER: 130
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+등기신청능력
+
+[부제]
+자연인·법인 등 등기명의인이 될 수 있는 능력
+
+[검색어]
+등기능력
+
+[핵심]
+- 법인 아닌 사단·재단도 일정 요건에서 등기능력 인정
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-131
+STATUS: APPROVED
+ORDER: 131
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 12
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-013 | 2021-32-second2-019 | 2021-32-second2-022 | 2021-32-second2-023 | 2022-33-second2-013 | 2022-33-second2-021 | 2023-34-second2-019 | 2023-34-second2-024 | 2024-35-2-2-014 | 2025-36-second2-013
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+등기권리자
+
+[부제]
+등기로 권리 또는 이익을 취득하는 자
+
+[검색어]
+
+
+[핵심]
+- 공동신청에서 등기의무자와 함께 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-132
+STATUS: APPROVED
+ORDER: 132
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 11
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-013 | 2021-32-second2-019 | 2022-33-second2-016 | 2022-33-second2-021 | 2023-34-second2-016 | 2023-34-second2-019 | 2023-34-second2-024 | 2024-35-2-2-014 | 2024-35-2-2-015 | 2025-36-second2-013
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+등기의무자
+
+[부제]
+등기로 권리를 잃거나 불이익을 받는 자
+
+[검색어]
+
+
+[핵심]
+- 공동신청의 상대방
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-133
+STATUS: APPROVED
+ORDER: 133
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+공동신청주의
+
+[부제]
+권리등기는 등기권리자와 등기의무자가 공동신청하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 진정성 확보를 위한 등기신청의 기본원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-134
+STATUS: APPROVED
+ORDER: 134
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-015
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+단독신청
+
+[부제]
+법률이 정한 경우 한쪽 당사자만으로 등기를 신청하는 방식
+
+[검색어]
+
+
+[핵심]
+- 보존·상속·판결·멸실 등 법정 예외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-135
+STATUS: APPROVED
+ORDER: 135
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-013
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+판결에 의한 등기
+
+[부제]
+이행판결 등 집행권원으로 승소자가 단독 신청하는 등기
+
+[검색어]
+
+
+[핵심]
+- 공동신청 원칙의 대표적 예외
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-136
+STATUS: APPROVED
+ORDER: 136
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: exam|summary
+EXAM_HIT_COUNT: 5
+EXAM_YEARS: 2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2022-33-second2-016 | 2023-34-second2-016 | 2024-35-2-2-016 | 2024-35-2-2-018 | 2025-36-second2-016
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+상속등기
+
+[부제]
+상속으로 취득한 부동산 소유권을 상속인 명의로 하는 등기
+
+[검색어]
+
+
+[핵심]
+- 상속인이 단독으로 신청 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-137
+STATUS: APPROVED
+ORDER: 137
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+포괄승계인에 의한 등기
+
+[부제]
+등기원인 발생 후 당사자가 사망한 경우 상속인 등이 이어서 신청하는 등기
+
+[검색어]
+
+
+[핵심]
+- 피상속인 명의 상속등기를 생략하고 상대방에게 직접 등기할 수 있는 경우가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-138
+STATUS: APPROVED
+ORDER: 138
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+채권자대위등기
+
+[부제]
+채권자가 채무자를 대위하여 채무자 명의 등기를 신청하는 제도
+
+[검색어]
+
+
+[핵심]
+- 채권보전을 위해 법정 요건에서 대위신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-139
+STATUS: APPROVED
+ORDER: 139
+TYPE: term
+CATEGORY: 등기제도·신청인
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청인
+SOURCE_REF: 
+
+[제목]
+등기인수청구권
+
+[부제]
+등기권리자가 신청하지 않을 때 등기의무자가 등기인수를 청구하는 권리
+
+[검색어]
+
+
+[핵심]
+- 공동신청 구조에서 의무자의 부담을 해소
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-140
+STATUS: APPROVED
+ORDER: 140
+TYPE: term
+CATEGORY: 등기제도·신청방법
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-021
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 등기제도·신청방법
+SOURCE_REF: 국가법령정보센터 「부동산등기법」 제24조
+
+[제목]
+방문신청
+
+[부제]
+신청인 또는 대리인이 등기소에 서면을 제출하는 신청방법
+
+[검색어]
+
+
+[핵심]
+- 현행법상 방문신청과 전자신청이 기본 신청방법
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-141
+STATUS: APPROVED
+ORDER: 141
+TYPE: term
+CATEGORY: 등기제도·신청방법
+BASIS: exam|essential
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-021
+IMPORTANCE: 3
+SOURCE_KIND: official
+SOURCE_PAGE: 0
+SOURCE_SECTION: 등기제도·신청방법
+SOURCE_REF: 국가법령정보센터 「부동산등기법」 제24조
+
+[제목]
+전자신청
+
+[부제]
+전산정보처리조직으로 신청정보·첨부정보를 보내는 신청방법
+
+[검색어]
+온라인 등기신청 | 모바일 등기신청
+
+[핵심]
+- 현행법은 이동통신단말장치의 애플리케이션을 통한 전자신청도 포함
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-142
+STATUS: APPROVED
+ORDER: 142
+TYPE: term
+CATEGORY: 등기제도·신청방법
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청방법
+SOURCE_REF: 
+
+[제목]
+1건 1신청정보 원칙
+
+[부제]
+원칙적으로 1건당 1개 부동산의 신청정보를 제공하는 원칙
+
+[검색어]
+1건 1신청
+
+[핵심]
+- 관련 사건·상속유증 관할 특례 등 현행 법정 예외가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-143
+STATUS: APPROVED
+ORDER: 143
+TYPE: term
+CATEGORY: 등기제도·신청정보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-017 | 2021-32-second2-019 | 2022-33-second2-013 | 2022-33-second2-017 | 2023-34-second2-018 | 2024-35-2-2-015 | 2024-35-2-2-017 | 2024-35-2-2-021 | 2025-36-second2-015
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청정보
+SOURCE_REF: 
+
+[제목]
+신청정보
+
+[부제]
+등기신청인이 제공하는 등기목적·원인·당사자·부동산 정보
+
+[검색어]
+
+
+[핵심]
+- 필요적 신청정보와 법정 약정사항을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-144
+STATUS: APPROVED
+ORDER: 144
+TYPE: term
+CATEGORY: 등기제도·신청정보
+BASIS: exam|summary
+EXAM_HIT_COUNT: 8
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-017 | 2021-32-second2-018 | 2022-33-second2-017 | 2022-33-second2-024 | 2023-34-second2-016 | 2024-35-2-2-015 | 2025-36-second2-015 | 2025-36-second2-024
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청정보
+SOURCE_REF: 
+
+[제목]
+첨부정보
+
+[부제]
+등기원인·본인확인·허가 등 신청을 뒷받침해 함께 제공하는 정보
+
+[검색어]
+
+
+[핵심]
+- 등기원인정보·등기필정보·인감증명정보 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-145
+STATUS: APPROVED
+ORDER: 145
+TYPE: term
+CATEGORY: 등기제도·신청정보
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 17
+SOURCE_SECTION: 등기제도·신청정보
+SOURCE_REF: 
+
+[제목]
+등기원인정보
+
+[부제]
+등기원인이 된 법률행위·사실을 증명하는 정보
+
+[검색어]
+
+
+[핵심]
+- 매매계약서·판결 등 등기원인을 증명
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-146
+STATUS: APPROVED
+ORDER: 146
+TYPE: term
+CATEGORY: 등기제도·신청정보
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·신청정보
+SOURCE_REF: 
+
+[제목]
+인감증명정보
+
+[부제]
+등기의무자의 진정한 의사를 확인하기 위해 제공하는 첨부정보
+
+[검색어]
+
+
+[핵심]
+- 법정 경우에 인감증명 또는 이에 준하는 정보를 제공
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-147
+STATUS: APPROVED
+ORDER: 147
+TYPE: term
+CATEGORY: 등기제도·신청정보
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·신청정보
+SOURCE_REF: 
+
+[제목]
+농지취득자격증명정보
+
+[부제]
+농지 소유권이전등기에서 법정 경우 제공하는 자격정보
+
+[검색어]
+
+
+[핵심]
+- 농지법상 취득자격 확인과 등기절차를 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-148
+STATUS: APPROVED
+ORDER: 148
+TYPE: term
+CATEGORY: 등기제도·등기관처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·등기관처분
+SOURCE_REF: 
+
+[제목]
+등기신청 접수
+
+[부제]
+신청정보가 접수되면 접수번호·연월일을 부여하는 절차
+
+[검색어]
+
+
+[핵심]
+- 등기신청 접수와 등기실행은 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-149
+STATUS: APPROVED
+ORDER: 149
+TYPE: term
+CATEGORY: 등기제도·등기관처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·등기관처분
+SOURCE_REF: 
+
+[제목]
+형식적 심사
+
+[부제]
+등기관이 신청의 형식적·절차적 적법성을 심사하는 원칙
+
+[검색어]
+
+
+[핵심]
+- 지적의 실질적 심사와 대비
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-150
+STATUS: APPROVED
+ORDER: 150
+TYPE: term
+CATEGORY: 등기제도·등기관처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·등기관처분
+SOURCE_REF: 
+
+[제목]
+보정
+
+[부제]
+등기신청의 보완 가능한 흠을 고치도록 하는 절차
+
+[검색어]
+
+
+[핵심]
+- 각하 전에 흠을 바로잡을 기회를 줄 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-151
+STATUS: APPROVED
+ORDER: 151
+TYPE: term
+CATEGORY: 등기제도·등기관처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·등기관처분
+SOURCE_REF: 
+
+[제목]
+등기신청 취하
+
+[부제]
+등기완료 또는 각하결정 전에 신청인이 신청을 철회하는 것
+
+[검색어]
+
+
+[핵심]
+- 공동신청은 원칙적으로 공동으로 취하
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-152
+STATUS: APPROVED
+ORDER: 152
+TYPE: term
+CATEGORY: 등기제도·등기관처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·등기관처분
+SOURCE_REF: 
+
+[제목]
+등기신청 각하
+
+[부제]
+법정 각하사유가 있는 신청의 등기실행을 거부하는 처분
+
+[검색어]
+
+
+[핵심]
+- 관할 위반·등기할 수 없는 사건·첨부정보 누락 등이 대표적
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-153
+STATUS: APPROVED
+ORDER: 153
+TYPE: term
+CATEGORY: 등기제도·등기관처분
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2024
+EXAM_SAMPLE_REFS: 2023-34-second2-021 | 2024-35-2-2-016
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 18
+SOURCE_SECTION: 등기제도·등기관처분
+SOURCE_REF: 
+
+[제목]
+사건이 등기할 것이 아닌 경우
+
+[부제]
+부동산등기법상 대표적인 등기신청 각하사유
+
+[검색어]
+
+
+[핵심]
+- 법률상 허용되지 않는 등기신청은 보정 없이 각하될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-154
+STATUS: APPROVED
+ORDER: 154
+TYPE: term
+CATEGORY: 등기제도·경정등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 20
+SOURCE_SECTION: 등기제도·경정등기
+SOURCE_REF: 
+
+[제목]
+직권경정등기
+
+[부제]
+등기관의 착오·누락을 등기관이 직권으로 바로잡는 등기
+
+[검색어]
+
+
+[핵심]
+- 등기상 이해관계인이 있으면 승낙이 필요한 경우가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-155
+STATUS: APPROVED
+ORDER: 155
+TYPE: term
+CATEGORY: 등기제도·말소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-022 | 2022-33-second2-023 | 2024-35-2-2-022 | 2025-36-second2-023
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 등기제도·말소
+SOURCE_REF: 
+
+[제목]
+직권말소
+
+[부제]
+관할 위반·등기할 수 없는 사건 등을 등기관이 직권으로 말소하는 절차
+
+[검색어]
+
+
+[핵심]
+- 권리자·의무자·이해관계인에게 이의기회를 부여
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-156
+STATUS: APPROVED
+ORDER: 156
+TYPE: term
+CATEGORY: 등기제도·말소
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-020 | 2024-35-2-2-015 | 2024-35-2-2-018
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 22
+SOURCE_SECTION: 등기제도·말소
+SOURCE_REF: 
+
+[제목]
+이해관계 있는 제3자
+
+[부제]
+변경·말소·회복 등으로 등기상 손해를 입을 수 있는 제3자
+
+[검색어]
+
+
+[핵심]
+- 승낙이 등기실행 요건이 되는 경우가 많음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-157
+STATUS: APPROVED
+ORDER: 157
+TYPE: term
+CATEGORY: 등기제도·말소회복
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 등기제도·말소회복
+SOURCE_REF: 
+
+[제목]
+말소회복의 제3자승낙
+
+[부제]
+말소회복으로 손해를 입을 등기상 이해관계인의 승낙
+
+[검색어]
+
+
+[핵심]
+- 승낙이 없으면 그 제3자에게 회복등기를 대항하지 못하는 문제가 생김
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-158
+STATUS: APPROVED
+ORDER: 158
+TYPE: term
+CATEGORY: 등기제도·일반절차
+BASIS: exam|summary
+EXAM_HIT_COUNT: 11
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-014 | 2021-32-second2-015 | 2022-33-second2-014 | 2022-33-second2-016 | 2022-33-second2-021 | 2023-34-second2-021 | 2023-34-second2-022 | 2023-34-second2-024 | 2024-35-2-2-014 | 2024-35-2-2-017
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 21
+SOURCE_SECTION: 등기제도·일반절차
+SOURCE_REF: 
+
+[제목]
+등기명의인
+
+[부제]
+등기기록에 권리자로 기록된 자
+
+[검색어]
+
+
+[핵심]
+- 성명·주소 등 표시변경등기와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-159
+STATUS: APPROVED
+ORDER: 159
+TYPE: term
+CATEGORY: 등기제도·변경등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 등기제도·변경등기
+SOURCE_REF: 
+
+[제목]
+등기명의인표시변경등기
+
+[부제]
+성명·주소 등 등기명의인 표시가 변경된 때 하는 등기
+
+[검색어]
+
+
+[핵심]
+- 권리 자체가 아니라 명의인의 표시를 고침
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-160
+STATUS: APPROVED
+ORDER: 160
+TYPE: term
+CATEGORY: 등기제도·변경등기
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-022
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 등기제도·변경등기
+SOURCE_REF: 
+
+[제목]
+권리변경등기
+
+[부제]
+등기 후 권리 내용이 바뀐 경우 그 내용을 변경하는 등기
+
+[검색어]
+
+
+[핵심]
+- 존속기간·지료·채권액 등 변경이 예시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-161
+STATUS: APPROVED
+ORDER: 161
+TYPE: term
+CATEGORY: 등기제도·변경등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 등기제도·변경등기
+SOURCE_REF: 
+
+[제목]
+부동산표시변경등기
+
+[부제]
+소재·지번·건물번호 등 부동산 표시를 변경하는 등기
+
+[검색어]
+
+
+[핵심]
+- 표제부에 주등기로 실행
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-162
+STATUS: APPROVED
+ORDER: 162
+TYPE: term
+CATEGORY: 등기제도·변경등기
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-second2-022
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 27
+SOURCE_SECTION: 등기제도·변경등기
+SOURCE_REF: 
+
+[제목]
+대지권변경등기
+
+[부제]
+대지권의 발생·변경·경정·소멸을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 전유부분 표제부에 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-163
+STATUS: APPROVED
+ORDER: 163
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 9
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-023 | 2022-33-second2-016 | 2023-34-second2-021 | 2023-34-second2-022 | 2023-34-second2-023 | 2024-35-2-2-014 | 2024-35-2-2-020 | 2025-36-second2-013 | 2025-36-second2-018
+IMPORTANCE: 4
+SOURCE_KIND: summary
+SOURCE_PAGE: 23
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+소유권보존등기
+
+[부제]
+미등기 부동산에 최초로 소유권을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 대장상 최초소유자·판결·수용 등 법정 신청인이 단독 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-164
+STATUS: APPROVED
+ORDER: 164
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 23
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+직권 소유권보존등기
+
+[부제]
+미등기 부동산 처분제한등기 촉탁 때 등기관이 먼저 하는 보존등기
+
+[검색어]
+
+
+[핵심]
+- 법원의 촉탁 등 법정 사유에서 등기관이 직권 실행
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-165
+STATUS: APPROVED
+ORDER: 165
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 29
+EXAM_YEARS: 2021|2022|2023|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-013 | 2021-32-second2-014 | 2021-32-second2-016 | 2021-32-second2-017 | 2021-32-second2-022 | 2021-32-second2-023 | 2022-33-second2-013 | 2022-33-second2-016 | 2022-33-second2-017 | 2022-33-second2-019
+IMPORTANCE: 5
+SOURCE_KIND: summary
+SOURCE_PAGE: 23
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+소유권이전등기
+
+[부제]
+매매·증여·상속 등으로 소유권이 이전된 사실을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 원인에 따라 공동신청 또는 단독신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-166
+STATUS: APPROVED
+ORDER: 166
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+소유권 일부이전등기
+
+[부제]
+공유지분 등 소유권 일부를 이전하는 등기
+
+[검색어]
+
+
+[핵심]
+- 이전되는 지분을 등기기록에 명확히 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-167
+STATUS: APPROVED
+ORDER: 167
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+거래가액 등기
+
+[부제]
+법정 거래계약을 원인으로 한 소유권이전에 거래가액을 기록하는 등기
+
+[검색어]
+
+
+[핵심]
+- 부동산 거래신고와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-168
+STATUS: APPROVED
+ORDER: 168
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-018
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+공유물분할금지 약정
+
+[부제]
+공유물을 일정 기간 분할하지 않기로 한 약정의 등기
+
+[검색어]
+
+
+[핵심]
+- 변경등기는 공유자 전원이 공동신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-169
+STATUS: APPROVED
+ORDER: 169
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+유증등기
+
+[부제]
+유언에 따라 부동산 권리를 수증자에게 이전하는 등기
+
+[검색어]
+
+
+[핵심]
+- 특정유증과 포괄유증의 등기절차를 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-170
+STATUS: APPROVED
+ORDER: 170
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2024
+EXAM_SAMPLE_REFS: 2023-34-second2-023 | 2024-35-2-2-017
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+진정명의회복등기
+
+[부제]
+무권리자 명의 등기를 진정한 권리자 명의로 회복하는 소유권이전등기
+
+[검색어]
+진정명의회복
+
+[핵심]
+- 등기원인일자는 기록하지 않으며 공동신청 또는 판결로 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-171
+STATUS: APPROVED
+ORDER: 171
+TYPE: term
+CATEGORY: 등기제도·소유권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2024|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-021 | 2022-33-second2-020 | 2024-35-2-2-019 | 2025-36-second2-017
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 12
+SOURCE_SECTION: 등기제도·소유권
+SOURCE_REF: 
+
+[제목]
+환매특약등기
+
+[부제]
+매도인이 일정 조건에서 다시 매수할 환매특약을 공시하는 등기
+
+[검색어]
+환매특약
+
+[핵심]
+- 소유권이전등기의 부기등기로 하며 환매대금·기간을 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-172
+STATUS: APPROVED
+ORDER: 172
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+지상권등기
+
+[부제]
+타인 토지를 건물·공작물 소유 목적으로 사용하는 지상권을 공시
+
+[검색어]
+
+
+[핵심]
+- 설정목적·범위 등을 기록하고 을구에 주등기
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-173
+STATUS: APPROVED
+ORDER: 173
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+지역권등기
+
+[부제]
+자기 토지 편익을 위해 타인 토지를 이용하는 지역권을 공시
+
+[검색어]
+
+
+[핵심]
+- 요역지·승역지와 설정목적·범위를 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-174
+STATUS: APPROVED
+ORDER: 174
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023|2025
+EXAM_SAMPLE_REFS: 2023-34-second2-017 | 2025-36-second2-019
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+요역지
+
+[부제]
+지역권으로 편익을 받는 토지
+
+[검색어]
+
+
+[핵심]
+- 승역지와 짝을 이루는 개념
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-175
+STATUS: APPROVED
+ORDER: 175
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2023|2025
+EXAM_SAMPLE_REFS: 2023-34-second2-017 | 2025-36-second2-014 | 2025-36-second2-019
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+승역지
+
+[부제]
+지역권의 부담을 지는 토지
+
+[검색어]
+
+
+[핵심]
+- 지역권설정등기는 승역지 을구에 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-176
+STATUS: APPROVED
+ORDER: 176
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2022
+EXAM_SAMPLE_REFS: 2022-33-second2-022
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+전세권등기
+
+[부제]
+전세금을 지급하고 부동산을 사용·수익하는 전세권을 공시
+
+[검색어]
+
+
+[핵심]
+- 전세금·범위 등을 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-177
+STATUS: APPROVED
+ORDER: 177
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-2-020 | 2025-36-second2-020
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+임차권등기
+
+[부제]
+임대차 권리를 등기해 제3자 대항력을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 차임·범위 등을 기록하며 전대등기와 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-178
+STATUS: APPROVED
+ORDER: 178
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2024
+EXAM_SAMPLE_REFS: 2024-35-2-2-020
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+임차권이전등기
+
+[부제]
+등기된 임차권을 양도해 이전하는 등기
+
+[검색어]
+
+
+[핵심]
+- 임대인의 동의 여부 등 첨부정보가 문제될 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-179
+STATUS: APPROVED
+ORDER: 179
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+임차물 전대등기
+
+[부제]
+임차인이 임차물을 제3자에게 전대하는 내용을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 임대인 동의 정보가 필요한 경우가 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-180
+STATUS: APPROVED
+ORDER: 180
+TYPE: term
+CATEGORY: 등기제도·용익권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2024|2025
+EXAM_SAMPLE_REFS: 2024-35-2-2-020 | 2025-36-second2-020
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 25
+SOURCE_SECTION: 등기제도·용익권
+SOURCE_REF: 
+
+[제목]
+임차권등기명령
+
+[부제]
+임대차 종료 후 보증금 미반환 등에서 법원이 임차권등기를 명하는 제도
+
+[검색어]
+
+
+[핵심]
+- 미등기 주택은 직권보존 후 임차권등기를 할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-181
+STATUS: APPROVED
+ORDER: 181
+TYPE: term
+CATEGORY: 등기제도·담보권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-second2-015 | 2023-34-second2-018
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 등기제도·담보권
+SOURCE_REF: 
+
+[제목]
+저당권등기
+
+[부제]
+채권담보를 위해 부동산에 설정한 저당권을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 채권액·채무자 등 필요적 사항을 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-182
+STATUS: APPROVED
+ORDER: 182
+TYPE: term
+CATEGORY: 등기제도·담보권
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2023
+EXAM_SAMPLE_REFS: 2023-34-second2-015 | 2023-34-second2-018
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 등기제도·담보권
+SOURCE_REF: 
+
+[제목]
+근저당권등기
+
+[부제]
+계속적 거래에서 최고액 범위의 불특정채권을 담보하는 근저당권 등기
+
+[검색어]
+
+
+[핵심]
+- 채권최고액·채무자 등을 기록
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-183
+STATUS: APPROVED
+ORDER: 183
+TYPE: term
+CATEGORY: 등기제도·담보권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 등기제도·담보권
+SOURCE_REF: 
+
+[제목]
+저당권이전등기
+
+[부제]
+피담보채권 이전에 따라 저당권을 이전하는 등기
+
+[검색어]
+
+
+[핵심]
+- 저당권이 채권과 함께 이전한다는 뜻을 신청정보에 표시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-184
+STATUS: APPROVED
+ORDER: 184
+TYPE: term
+CATEGORY: 등기제도·담보권
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 26
+SOURCE_SECTION: 등기제도·담보권
+SOURCE_REF: 
+
+[제목]
+공동저당등기
+
+[부제]
+여러 부동산으로 하나의 채권을 공동 담보하는 저당권등기
+
+[검색어]
+
+
+[핵심]
+- 각 부동산의 권리표시와 공동담보 관계를 공시
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-185
+STATUS: APPROVED
+ORDER: 185
+TYPE: term
+CATEGORY: 등기제도·가등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 28
+SOURCE_SECTION: 등기제도·가등기
+SOURCE_REF: 
+
+[제목]
+가등기청구권
+
+[부제]
+장래 본등기를 청구할 수 있는 권리를 보전하는 청구권
+
+[검색어]
+
+
+[핵심]
+- 권리의 설정·이전·변경·소멸을 목적으로 하는 청구권
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-186
+STATUS: APPROVED
+ORDER: 186
+TYPE: term
+CATEGORY: 등기제도·가등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 등기제도·가등기
+SOURCE_REF: 
+
+[제목]
+가등기가처분명령
+
+[부제]
+가등기의무자 협력 없이 법원의 명령으로 가등기하게 하는 절차
+
+[검색어]
+
+
+[핵심]
+- 가등기 원인사실을 소명하여 관할 지방법원에 신청
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-187
+STATUS: APPROVED
+ORDER: 187
+TYPE: term
+CATEGORY: 등기제도·가등기
+BASIS: exam|summary
+EXAM_HIT_COUNT: 2
+EXAM_YEARS: 2021|2022
+EXAM_SAMPLE_REFS: 2021-32-second2-022 | 2022-33-second2-021
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 등기제도·가등기
+SOURCE_REF: 
+
+[제목]
+가등기에 의한 본등기
+
+[부제]
+가등기에 기초하여 최종 권리변동을 공시하는 본등기
+
+[검색어]
+
+
+[핵심]
+- 본등기 순위는 가등기 순위에 따름
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-188
+STATUS: APPROVED
+ORDER: 188
+TYPE: term
+CATEGORY: 등기제도·가등기
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 등기제도·가등기
+SOURCE_REF: 
+
+[제목]
+가등기 후 직권말소
+
+[부제]
+본등기 시 가등기로 보전된 권리를 침해하는 후순위등기를 직권말소
+
+[검색어]
+
+
+[핵심]
+- 가등기 후 등기라도 본등기 권리를 침해하지 않으면 존속
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-189
+STATUS: APPROVED
+ORDER: 189
+TYPE: term
+CATEGORY: 등기제도·가등기
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2021
+EXAM_SAMPLE_REFS: 2021-32-second2-014
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 등기제도·가등기
+SOURCE_REF: 
+
+[제목]
+가등기말소
+
+[부제]
+가등기를 소멸시키는 말소등기
+
+[검색어]
+
+
+[핵심]
+- 가등기명의인은 단독 신청 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-190
+STATUS: APPROVED
+ORDER: 190
+TYPE: term
+CATEGORY: 등기제도·가처분
+BASIS: exam|summary
+EXAM_HIT_COUNT: 3
+EXAM_YEARS: 2021|2023|2024
+EXAM_SAMPLE_REFS: 2021-32-second2-022 | 2023-34-second2-019 | 2024-35-2-2-024
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 등기제도·가처분
+SOURCE_REF: 
+
+[제목]
+가처분등기
+
+[부제]
+권리이전·말소·설정청구권을 보전하기 위한 처분금지가처분의 등기
+
+[검색어]
+
+
+[핵심]
+- 가처분채권자의 본등기와 후순위등기 말소가 연결
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-191
+STATUS: APPROVED
+ORDER: 191
+TYPE: term
+CATEGORY: 등기제도·가처분
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 29
+SOURCE_SECTION: 등기제도·가처분
+SOURCE_REF: 
+
+[제목]
+가처분 후 등기말소
+
+[부제]
+가처분채권자의 본등기 때 가처분에 저촉되는 후순위등기를 말소하는 절차
+
+[검색어]
+
+
+[핵심]
+- 법정 요건에서 가처분채권자가 단독으로 말소 신청 가능
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-192
+STATUS: APPROVED
+ORDER: 192
+TYPE: term
+CATEGORY: 등기제도·신탁
+BASIS: exam|summary
+EXAM_HIT_COUNT: 4
+EXAM_YEARS: 2021|2022|2025
+EXAM_SAMPLE_REFS: 2021-32-second2-024 | 2022-33-second2-024 | 2025-36-second2-013 | 2025-36-second2-022
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 24
+SOURCE_SECTION: 등기제도·신탁
+SOURCE_REF: 
+
+[제목]
+신탁등기
+
+[부제]
+신탁재산인 부동산 권리와 신탁사항을 공시하는 등기
+
+[검색어]
+
+
+[핵심]
+- 권리이전등기와 신탁등기를 함께 신청하는 것이 원칙
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-193
+STATUS: APPROVED
+ORDER: 193
+TYPE: term
+CATEGORY: 등기제도·신탁
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 32
+SOURCE_SECTION: 등기제도·신탁
+SOURCE_REF: 
+
+[제목]
+신탁변경등기
+
+[부제]
+수탁자·신탁내용 등 신탁원부 사항이 변경된 때 하는 등기
+
+[검색어]
+
+
+[핵심]
+- 법정 경우 등기관 직권 또는 수탁자 신청으로 변경
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-194
+STATUS: APPROVED
+ORDER: 194
+TYPE: term
+CATEGORY: 등기제도·신탁
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 32
+SOURCE_SECTION: 등기제도·신탁
+SOURCE_REF: 
+
+[제목]
+신탁말소등기
+
+[부제]
+권리가 신탁재산에서 벗어나거나 신탁이 종료된 때 신탁등기를 말소
+
+[검색어]
+
+
+[핵심]
+- 수탁자가 단독으로 신청할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-195
+STATUS: APPROVED
+ORDER: 195
+TYPE: term
+CATEGORY: 등기제도·신탁
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 32
+SOURCE_SECTION: 등기제도·신탁
+SOURCE_REF: 
+
+[제목]
+담보권신탁
+
+[부제]
+저당권 등 담보권을 수탁자에게 신탁하고 채권자를 수익자로 하는 신탁
+
+[검색어]
+
+
+[핵심]
+- 피담보채권별 등기사항을 구분해 기록할 수 있음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-196
+STATUS: APPROVED
+ORDER: 196
+TYPE: term
+CATEGORY: 등기제도·촉탁
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 33
+SOURCE_SECTION: 등기제도·촉탁
+SOURCE_REF: 
+
+[제목]
+관공서 촉탁등기
+
+[부제]
+국가·지자체 등이 등기권리자·의무자인 경우 관공서가 촉탁하는 등기
+
+[검색어]
+
+
+[핵심]
+- 관공서 촉탁에는 신청절차 규정을 준용
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-197
+STATUS: APPROVED
+ORDER: 197
+TYPE: term
+CATEGORY: 등기제도·촉탁
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 33
+SOURCE_SECTION: 등기제도·촉탁
+SOURCE_REF: 
+
+[제목]
+지적소관청 등기촉탁
+
+[부제]
+토지표시 변경 등 지적정리 결과를 지적소관청이 등기소에 촉탁하는 절차
+
+[검색어]
+
+
+[핵심]
+- 대장과 등기기록의 표시를 일치시키는 연결절차
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-198
+STATUS: APPROVED
+ORDER: 198
+TYPE: term
+CATEGORY: 등기제도·이의신청
+BASIS: summary
+EXAM_HIT_COUNT: 0
+EXAM_YEARS: 
+EXAM_SAMPLE_REFS: 
+IMPORTANCE: 2
+SOURCE_KIND: summary
+SOURCE_PAGE: 30
+SOURCE_SECTION: 등기제도·이의신청
+SOURCE_REF: 
+
+[제목]
+등기관 처분 이의신청
+
+[부제]
+등기관의 결정·처분에 불복해 관할 지방법원에 이의를 신청하는 절차
+
+[검색어]
+
+
+[핵심]
+- 이의신청만으로 등기관 처분의 집행이 자동 정지되지는 않음
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
+================================================================================
+ID: reg-card-199
+STATUS: APPROVED
+ORDER: 199
+TYPE: term
+CATEGORY: 등기제도·이의신청
+BASIS: exam|summary
+EXAM_HIT_COUNT: 1
+EXAM_YEARS: 2025
+EXAM_SAMPLE_REFS: 2025-36-second2-024
+IMPORTANCE: 3
+SOURCE_KIND: summary
+SOURCE_PAGE: 30
+SOURCE_SECTION: 등기제도·이의신청
+SOURCE_REF: 
+
+[제목]
+기록명령
+
+[부제]
+이의신청이 이유 있을 때 관할 법원이 등기관에게 등기기록을 명하는 결정
+
+[검색어]
+
+
+[핵심]
+- 명령 후 새로운 등기로 실행이 불가능해진 경우 등을 구별
+
+[수식]
+
+
+[시각화]
+none
+
+[검수메모]
+
