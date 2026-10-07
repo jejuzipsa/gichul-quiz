@@ -119,3 +119,9 @@
 .word-quiz-subject-grid .word-quiz-subject-card:nth-child(4) .word-quiz-blank-action::after{content:" · 300"}
 .word-quiz-subject-grid .word-quiz-subject-card:nth-child(5) .word-quiz-blank-action::after{content:" · 220"}
 .word-quiz-subject-grid .word-quiz-subject-card:nth-child(6) .word-quiz-blank-action::after{content:" · 180"}
+
+:root[data-theme="dark"] .word-quiz-subject-btn:not(:disabled):hover{border-color:#526583;background:#1b2a4a}
+:root[data-theme="dark"] .word-quiz-wait{background:#202b3d;color:#98a7bd}
+:root[data-theme="dark"] .word-quiz-blank-action{border-color:#425e91;background:#14213a;color:#a8ceff}
+:root[data-theme="dark"] .word-quiz-count-actions a:hover,
+:root[data-theme="dark"] .word-quiz-blank-action:hover{border-color:#6f8cff;background:#1b2a4a;color:#b9d6ff}
