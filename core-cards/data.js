@@ -166,12 +166,12 @@ window.CORE_WORD_CARD_BANK = {
       "aliases": [
         "建付地"
       ],
-      "sourceKind": "summary+official",
+      "sourceKind": "reference",
       "sourcePage": 2,
       "sourceSection": "부동산의 분류",
-      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p2 건부감가 + Q-Net 2021년 제32회 공인중개사 1차 1교시 1번",
-      "sourceNote": "",
-      "sourceLabel": "1.공인중개사요약_부동산학개론.pdf p2 건부감가 + Q-Net 2021년 제32회 공인중개사 1차 1교시 1번"
+      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p2 건부감가 문맥 + 공인중개사 일반 토지용어 정의",
+      "sourceNote": "요약집에는 건부감가 관계만 있고 건부지 독립 정의는 없어 일반 토지용어 정의로 보완.",
+      "sourceLabel": "1.공인중개사요약_부동산학개론.pdf p2 건부감가 문맥 + 공인중개사 일반 토지용어 정의"
     },
     {
       "id": "rei-card-107",
@@ -1640,12 +1640,12 @@ window.CORE_WORD_CARD_BANK = {
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "reference",
       "sourcePage": 3,
       "sourceSection": "수요와 공급",
-      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p3, 1.공인중개사요약_부동산학개론.pdf p19",
-      "sourceNote": "",
-      "sourceLabel": "부동산학개론 요약집 p3 · 수요와 공급"
+      "sourceRef": "요약집 p3·p19의 용어 사용 + 부동산학 일반 수요 정의",
+      "sourceNote": "요약집은 유효수요가 필요함과 가치발생요인임을 제시하지만 독립 정의는 없어 일반 부동산학 정의로 보완.",
+      "sourceLabel": "요약집 p3·p19의 용어 사용 + 부동산학 일반 수요 정의"
     },
     {
       "id": "rei-card-128",
@@ -1662,12 +1662,12 @@ window.CORE_WORD_CARD_BANK = {
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "reference",
       "sourcePage": 3,
       "sourceSection": "수요와 공급",
-      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p3",
-      "sourceNote": "",
-      "sourceLabel": "부동산학개론 요약집 p3 · 수요와 공급"
+      "sourceRef": "요약집 p3의 용어 사용 + 부동산학 일반 공급 정의",
+      "sourceNote": "요약집은 유효공급이 필요함을 제시하지만 독립 정의는 없어 일반 부동산학 정의로 보완.",
+      "sourceLabel": "요약집 p3의 용어 사용 + 부동산학 일반 공급 정의"
     },
     {
       "id": "rei-card-129",
@@ -1996,12 +1996,12 @@ window.CORE_WORD_CARD_BANK = {
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "reference",
       "sourcePage": 10,
       "sourceSection": "주택정책",
-      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p10",
-      "sourceNote": "",
-      "sourceLabel": "부동산학개론 요약집 p10 · 주택정책"
+      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p10 + 주택분양제도 일반정의",
+      "sourceNote": "요약집에는 선·후분양 제도 항목만 있어 정의는 일반 주택분양제도 기준으로 보완.",
+      "sourceLabel": "1.공인중개사요약_부동산학개론.pdf p10 + 주택분양제도 일반정의"
     },
     {
       "id": "rei-card-144",
@@ -2018,12 +2018,12 @@ window.CORE_WORD_CARD_BANK = {
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "reference",
       "sourcePage": 10,
       "sourceSection": "주택정책",
-      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p10",
-      "sourceNote": "",
-      "sourceLabel": "부동산학개론 요약집 p10 · 주택정책"
+      "sourceRef": "1.공인중개사요약_부동산학개론.pdf p10 + 주택분양제도 일반정의",
+      "sourceNote": "요약집에는 선·후분양 제도 항목만 있어 정의는 일반 주택분양제도 기준으로 보완.",
+      "sourceLabel": "1.공인중개사요약_부동산학개론.pdf p10 + 주택분양제도 일반정의"
     },
     {
       "id": "rei-card-145",
