@@ -1,9 +1,10 @@
 :root{
   --bg:#f5f7fb;--surface:#fff;--surface2:#f0f3f8;--text:#161b22;--muted:#697386;--line:#dfe4ec;
   --primary:#6f72e8;--primary2:#5559cf;--accent:#8174ff;--blueSoft:#edf0ff;--bad:#d94141;--badSoft:#fff0f0;
+  --menuBg:#fff;--menuHover:#f0f3f8;--menuSelected:#e7eaff;--menuDisabled:#5b6575;
   --shadow:0 18px 46px rgba(27,39,65,.10);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif
 }
-:root[data-theme="dark"]{color-scheme:dark;--bg:#080d18;--surface:#111a2b;--surface2:#18243a;--text:#eef2ff;--muted:#98a7bd;--line:#2a3852;--primary:#6f8cff;--primary2:#5574e8;--accent:#8174ff;--blueSoft:#1b2a4a;--bad:#ff6673;--badSoft:#351923;--shadow:0 18px 46px rgba(0,0,0,.34)}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#080d18;--surface:#111a2b;--surface2:#18243a;--text:#eef2ff;--muted:#98a7bd;--line:#2a3852;--primary:#6f8cff;--primary2:#5574e8;--accent:#8174ff;--blueSoft:#1b2a4a;--bad:#ff6673;--badSoft:#351923;--menuBg:#111a2b;--menuHover:#1c2940;--menuSelected:#25345c;--menuDisabled:#a7b4c7;--shadow:0 18px 46px rgba(0,0,0,.34)}
 *{box-sizing:border-box} html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text)} body{transition:background-color .18s ease,color .18s ease}
 button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{cursor:default;opacity:.38} a{color:inherit}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -35,10 +36,23 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
 .overview-row{display:flex;align-items:stretch;justify-content:space-between;gap:clamp(10px,6vw,96px)}
 .scope-stack{flex:1 1 480px;max-width:560px;min-width:0;display:grid;gap:6px}
 .scope-box{min-height:42px;border:1px solid var(--line);border-radius:12px;background:var(--surface2)}
-.subject-field{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:10px;padding:0 10px 0 12px}
+.subject-field{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:10px;padding:0 8px 0 12px;overflow:visible}
 .subject-field>span,.progress-box>span{color:var(--muted);font-size:10px;font-weight:900;white-space:nowrap}
-.subject-field select{width:100%;height:34px;min-width:0;padding:0 28px 0 8px;border:0;background:transparent;color:var(--text);font-weight:800;outline:none}
 .subject-field:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
+.subject-picker{position:relative;min-width:0}
+.subject-button{width:100%;height:34px;display:grid;grid-template-columns:minmax(0,1fr) 20px;align-items:center;gap:8px;padding:0 4px 0 8px;border:0;background:transparent;color:var(--text);font-weight:800;text-align:left;outline:none}
+.subject-button>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.subject-chevron{width:18px;height:18px;fill:none;stroke:var(--muted);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .15s ease,stroke .15s ease}
+.subject-picker.open .subject-chevron{transform:rotate(180deg);stroke:var(--accent)}
+.subject-menu{position:absolute;left:-8px;right:-6px;top:calc(100% + 7px);z-index:95;display:grid;gap:3px;max-height:min(420px,58vh);overflow:auto;padding:7px;border:1px solid color-mix(in srgb,var(--accent) 28%,var(--line));border-radius:12px;background:var(--menuBg);box-shadow:0 20px 46px rgba(0,0,0,.24);color:var(--text);overscroll-behavior:contain}
+.subject-menu[hidden]{display:none}
+.subject-option{width:100%;min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;border:1px solid transparent;border-radius:9px;background:transparent;color:var(--text);text-align:left;font-weight:750;line-height:1.3}
+.subject-option:hover,.subject-option:focus-visible{background:var(--menuHover);border-color:color-mix(in srgb,var(--accent) 24%,var(--line));outline:none}
+.subject-option.active{background:var(--menuSelected);border-color:color-mix(in srgb,var(--accent) 48%,var(--line));color:var(--text)}
+.subject-option.disabled{cursor:not-allowed;color:var(--menuDisabled);background:transparent}
+.subject-option.disabled:hover{border-color:transparent;background:transparent}
+.subject-option-name{min-width:0}
+.subject-option-status{flex:0 0 auto;padding:2px 6px;border-radius:999px;border:1px solid color-mix(in srgb,var(--menuDisabled) 42%,var(--line));color:var(--menuDisabled);font-size:9px;font-weight:850;white-space:nowrap}
 .progress-box{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:8px 10px;padding:7px 10px 6px 12px}
 .progress-box strong{justify-self:end;font-size:12px;font-variant-numeric:tabular-nums}
 .progress-track{grid-column:2/4;height:5px;overflow:hidden;border-radius:999px;background:color-mix(in srgb,var(--line) 75%,transparent)}
@@ -131,7 +145,7 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
   .scope-box{min-height:40px;border-radius:11px}
   .subject-field{gap:6px;padding:0 7px 0 9px}
   .subject-field>span,.progress-box>span{font-size:9px}
-  .subject-field select{height:31px;padding-left:4px;font-size:11px}
+  .subject-button{height:31px;padding-left:4px;font-size:11px}.subject-menu{left:-7px;right:-5px}.subject-option{min-height:38px;font-size:11px}
   .progress-box{grid-template-columns:auto 1fr auto;gap:5px 7px;padding:6px 7px 5px 9px}
   .progress-box strong{font-size:11px}
   .hero-stats{grid-template-columns:repeat(3,54px);gap:4px}
@@ -162,7 +176,7 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
   .hero-stats{grid-template-columns:repeat(3,50px);gap:3px}
   .hero-badge{min-height:82px;padding:7px 2px 4px;border-radius:11px}
   .hero-badge strong{font-size:18px}.hero-badge>span:not(.hero-stat-icon){font-size:7.5px}
-  .scope-box{min-height:38px}.subject-field{padding-left:7px}.subject-field select{font-size:10px}
+  .scope-box{min-height:38px}.subject-field{padding-left:7px}.subject-button{font-size:10px}.subject-option{font-size:10px}
   .progress-box{padding-left:7px}.progress-box strong{font-size:10px}
   .search-field input{height:38px}
   .core-card{min-height:520px}
