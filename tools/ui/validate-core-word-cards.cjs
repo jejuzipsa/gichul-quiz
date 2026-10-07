@@ -13,13 +13,15 @@ const cardIndex=read('core-cards/index.html');
 const cardCss=read('core-cards/cards.css');
 const cardJs=read('core-cards/cards.js');
 const dataJs=read('core-cards/data.js');
+const publicDataJs=read('core-cards/data-public.js');
 const version=JSON.parse(read('version.json'));
 const ctx={window:{}};
 vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
+vm.runInContext(publicDataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.67','version.json must be 1.67');
+need(version.version==='1.68','version.json must be 1.68');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -30,7 +32,7 @@ need(css.includes('@media(max-width:720px)')&&css.includes('.home-feature-grid{g
 need(app.includes("location.href='core-cards/index.html'"),'core card navigation handler missing');
 
 need(fs.existsSync(path.join(ROOT,'assets/core-card-icon.png')),'core card icon asset missing');
-for(const p of ['core-cards/index.html','core-cards/cards.css','core-cards/cards.js','core-cards/data.js']) need(fs.existsSync(path.join(ROOT,p)),p+' missing');
+for(const p of ['core-cards/index.html','core-cards/cards.css','core-cards/cards.js','core-cards/data.js','core-cards/data-public.js']) need(fs.existsSync(path.join(ROOT,p)),p+' missing');
 need(cardIndex.includes('id="cardGrid"')&&cardIndex.includes('id="prevBtn"')&&cardIndex.includes('id="nextBtn"'),'core card stage controls missing');
 need(cardIndex.includes('class="home-btn"')&&cardIndex.includes('aria-label="홈으로"')&&cardIndex.includes('class="home-icon"'),'icon-only home control missing');
 need(!cardIndex.includes('class="home-btn" href="../index.html">홈</a>'),'home control must not use text label');
@@ -99,16 +101,19 @@ need(cardJs.includes("['PGI','가능조소득']")&&cardJs.includes("['ATCF','세
 need(cardCss.includes('.visual-legend')&&cardCss.includes('.visual-legend-item'),'graph legend styles missing');
 need(cardJs.includes('card.formula')&&cardJs.includes('card.visual'),'formula/visual rendering support missing');
 need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formula/visual styles missing');
-need(Array.isArray(bank?.cards)&&bank.cards.length===621,'core card total must be 621');
+need(Array.isArray(bank?.cards)&&bank.cards.length===855,'core card total must be 855');
 const realCards=bank.cards.filter(c=>c.subject==='real_estate_intro');
 const civilCards=bank.cards.filter(c=>c.subject==='civil_law');
 const brokerageCards=bank.cards.filter(c=>c.subject==='brokerage_law');
+const publicCards=bank.cards.filter(c=>c.subject==='public_law');
 need(realCards.length===170,'real-estate card count must be 170');
 need(civilCards.length===247,'civil-law card count must be 247');
 need(brokerageCards.length===204,'brokerage-law card count must be 204');
+need(publicCards.length===234,'public-law card count must be 234');
 need(bank.subjects.find(s=>s.code==='real_estate_intro')?.disabled===false,'real-estate subject must be enabled');
 need(bank.subjects.find(s=>s.code==='civil_law')?.disabled===false,'civil-law subject must be enabled');
 need(bank.subjects.find(s=>s.code==='brokerage_law')?.disabled===false,'brokerage-law subject must be enabled');
+need(bank.subjects.find(s=>s.code==='public_law')?.disabled===false,'public-law subject must be enabled');
 for(const title of ['택지','나지','건부지','맹지','필지','획지','부동성','동심원이론','다핵심이론','수요의 가격탄력성','순현가법(NPV)','직접법(영구환원법)']) need(realCards.some(c=>c.title===title),'required real-estate card missing: '+title);
 need(realCards.find(c=>c.title==='택지지역')?.aliases?.includes('택지구역'),'택지구역 alias missing from generated bank');
 need(realCards.find(c=>c.title==='나지')?.sourceKind==='official','generated 나지 source must be official');
@@ -127,6 +132,13 @@ need(brokerageCards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.
 need(brokerageCards.find(c=>c.title==='한국공인중개사협회')?.sourceKind==='official','brokerage association must use current official source');
 need(brokerageCards.find(c=>c.title==='실무교육')?.bullets.some(x=>x.includes('45시간')),'brokerage practical training must use 45 hours');
 need(brokerageCards.find(c=>c.title==='거래신고 30일')?.bullets.some(x=>x.includes('30일')),'brokerage report deadline must use 30 days');
+for(const title of ['광역도시계획','도시·군기본계획','도시·군관리계획','용도지역','지구단위계획','도시·군계획시설','개발행위허가','성장관리계획','도시혁신구역','토지거래허가구역','도시개발구역','환지방식','환지예정지','정비사업','재개발사업','재건축사업','관리처분계획','건축','대수선','건축허가','사용승인','특별건축구역','주택','주택조합','사업계획승인','분양가상한제','사전방문','공동주택 품질점검단','농지','농지취득자격증명','농지 위탁경영','농지전용','농지개량행위 신고']) need(publicCards.some(c=>c.title===title),'required public-law card missing: '+title);
+need(publicCards[0]?.title==='국토 이용·관리 기본원칙'&&publicCards[233]?.title==='농지개량행위 신고','public-law order endpoints changed');
+need(publicCards.filter(c=>c.examHitCount>0).length>=170,'public-law exam-backed card count too low');
+need(publicCards.every(c=>Array.isArray(c.basis)&&c.basis.length>=1),'public-law basis metadata missing');
+need(publicCards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.importance<=5),'public-law importance metadata invalid');
+for(const title of ['공간재구조화계획','도시혁신구역','복합용도구역','성장관리계획','사업시행계획 통합심의','사전방문','공동주택 품질점검단','농지개량행위 신고']) need(publicCards.find(c=>c.title===title)?.sourceKind==='official','current public-law source must be official: '+title);
+need(cardIndex.includes('data-public.js?v=1.68'),'public-law runtime shard must load before cards.js');
 need(!brokerageCards.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').match(/60일|28시간|32시간|300명|600명|금치산자|한정치산자/)),'outdated brokerage rule leaked into runtime cards');
 need(bank.cards.some(c=>c.sourceKind!=='summary'),'supplemental-source cards missing');
 need(cardJs.includes('card.aliases||[]'),'alias search support missing');
@@ -134,6 +146,7 @@ need(new Set(bank.cards.map(c=>c.id)).size===bank.cards.length,'duplicate card i
 need(new Set(realCards.map(c=>c.order)).size===realCards.length,'duplicate real-estate card order');
 need(new Set(civilCards.map(c=>c.order)).size===civilCards.length,'duplicate civil-law card order');
 need(new Set(brokerageCards.map(c=>c.order)).size===brokerageCards.length,'duplicate brokerage-law card order');
+need(new Set(publicCards.map(c=>c.order)).size===publicCards.length,'duplicate public-law card order');
 need(bank.cards.every(c=>Array.isArray(c.bullets)&&c.bullets.length>=1),'every card needs bullets');
 need(realCards[0]?.title==='택지'&&realCards[169]?.title==='직접법(영구환원법)','real-estate order endpoints changed');
 need(realCards.some(c=>c.visual&&c.visual!=='none'),'visual cards missing');

@@ -5,12 +5,14 @@
 - 부동산학개론: 170장
 - 민법 및 민사특별법: 247장
 - 공인중개사법령 및 중개실무: 204장
-- 총 621장
+- 부동산공법: 234장
+- 총 855장
 
 원본
 - review/core-cards-v1/01_real_estate_intro.txt
 - review/core-cards-v1/02_civil_law.txt
 - review/core-cards-v1/03_brokerage_law.txt
+- review/core-cards-v1/04_public_law.txt
 
 카드 선정 우선순위
 1. 기출문제에 실제 등장한 단어·개념
@@ -32,6 +34,10 @@
 - EXAM_HIT_COUNT / EXAM_YEARS / EXAM_SAMPLE_REFS / IMPORTANCE
 - SOURCE_KIND / SOURCE_PAGE / SOURCE_SECTION / SOURCE_REF
 - [제목] / [부제] / [검색어] / [핵심] / [수식] / [시각화] / [검수메모]
+
+런타임 생성물
+- core-cards/data.js: 부동산학개론·민법·중개사법 기본 묶음
+- core-cards/data-public.js: 부동산공법 234장 런타임 샤드
 
 빌드/검증
 - node tools/core-cards/build.cjs
