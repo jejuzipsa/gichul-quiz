@@ -8,7 +8,7 @@ const OUT_PATH=path.join(ROOT,MANIFEST.generatedOutput||'core-cards/data.js');
 const SEP='================================================================================';
 
 function meta(block,name){
-  const m=block.match(new RegExp('^'+name+':[ \\t]*(.*)
+  const m=block.match(new RegExp('^'+name+':[ \t]*(.*)$','m'));
   return m?m[1].trim():'';
 }
 function section(block,label,nextLabels=[]){
