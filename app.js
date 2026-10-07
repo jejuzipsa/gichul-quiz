@@ -1,6 +1,7 @@
-﻿const SITE_BUILD_VERSION='1.46';
+﻿const SITE_BUILD_VERSION='1.54';
 (() => {
   const $ = (id) => document.getElementById(id);
+  const THEME_KEY = 'gichulQuizTheme';
   const READING_SIZE_KEY = 'gichulQuizReadingSize';
   const READING_SIZES = new Set(['small','normal','large']);
 
@@ -75,7 +76,7 @@
   };
 
   const els = {
-    headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'),
+    headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), themeToggleBtn: $('themeToggleBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'),
     summarySubjectGrid: $('summarySubjectGrid'), summaryTitle: $('summaryTitle'), summaryMeta: $('summaryMeta'), summarySearch: $('summarySearch'), summarySubjectTabs: $('summarySubjectTabs'), summaryToc: $('summaryToc'), summaryTocSelect: $('summaryTocSelect'), summaryContent: $('summaryContent'), summarySearchStatus: $('summarySearchStatus'), summaryFloatActions: $('summaryFloatActions'), summaryFloatHomeBtn: $('summaryFloatHomeBtn'), summaryFloatTopBtn: $('summaryFloatTopBtn'),
     bankBrowserSubject: $('bankBrowserSubject'), bankBrowserSummary: $('bankBrowserSummary'), bankQuestionList: $('bankQuestionList'), bankPagination: $('bankPagination'), bankStartQuizBtn: $('bankStartQuizBtn'), bankFloatActions: $('bankFloatActions'), bankFloatQuizBtn: $('bankFloatQuizBtn'), bankFloatHomeBtn: $('bankFloatHomeBtn'), bankFloatTopBtn: $('bankFloatTopBtn'),
     quizSubject: $('quizSubject'), quizProgress: $('quizProgress'), sourceMeta: $('sourceMeta'), progressFill: $('progressFill'), questionCard: $('questionCard'), questionNumber: $('questionNumber'), questionText: $('questionText'), answerForm: $('answerForm'), feedback: $('feedback'), nextBtn: $('nextBtn'), backToResultBtn: $('backToResultBtn'),
@@ -85,6 +86,36 @@
   };
 
   const readingSizeButtons = [...document.querySelectorAll('.reading-size-btn')];
+
+  function systemTheme(){
+    return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function loadTheme(){
+    try {
+      const saved = localStorage.getItem(THEME_KEY);
+      return saved === 'dark' || saved === 'light' ? saved : systemTheme();
+    } catch {
+      return systemTheme();
+    }
+  }
+
+  function applyTheme(theme, persist=true){
+    const next = theme === 'dark' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next;
+    document.documentElement.style.colorScheme = next;
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if(meta) meta.setAttribute('content', next === 'dark' ? '#080d18' : '#f5f7fb');
+    if(els.themeToggleBtn){
+      const dark = next === 'dark';
+      els.themeToggleBtn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+      els.themeToggleBtn.setAttribute('aria-label', dark ? '라이트모드 켜기' : '다크모드 켜기');
+      els.themeToggleBtn.title = dark ? '라이트모드 켜기' : '다크모드 켜기';
+    }
+    if(persist){
+      try { localStorage.setItem(THEME_KEY, next); } catch {}
+    }
+  }
 
   function loadReadingSize(){
     try {
@@ -1117,6 +1148,18 @@
   els.summaryFloatTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
   window.addEventListener('scroll',updateSummaryFloatActions,{passive:true});
   els.examEntryBtn.addEventListener('click',openExamSetup); els.examNextBtn.addEventListener('click',goExamNext); els.examFullReviewBtn.addEventListener('click',toggleExamFullReview); els.examWrongReviewBtn.addEventListener('click',startExamWrongReview); els.examAgainBtn.addEventListener('click',()=>startExam(state.exam.type,String(state.exam.year))); els.examStickyCloseBtn?.addEventListener('click',()=>setExamFullReview(false)); els.examHomeBtn.addEventListener('click',openExamSetup); els.examScrollTopBtn?.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); els.clearExamHistoryBtn?.addEventListener('click',clearExamHistory);
+
+  els.themeToggleBtn?.addEventListener('click', () => {
+    const current = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  });
+  applyTheme(loadTheme(), false);
+  try {
+    const media = window.matchMedia?.('(prefers-color-scheme: dark)');
+    media?.addEventListener?.('change', event => {
+      if(!localStorage.getItem(THEME_KEY)) applyTheme(event.matches ? 'dark' : 'light', false);
+    });
+  } catch {}
 
   readingSizeButtons.forEach(btn => {
     btn.addEventListener('click', () => applyReadingSize(btn.dataset.readingSize));
