@@ -25,6 +25,10 @@
 - [시각화]
 - [검수메모]
 
+빌드/검증
+- node tools/core-cards/build.cjs
+- TXT를 core-cards/data.js로 재생성한 뒤 validator를 실행한다.
+
 편집 규칙
 1. 카드 내용은 TXT만 직접 수정한다.
 2. 너무 긴 표나 예외가 많은 내용은 카드로 억지로 만들지 않는다.
