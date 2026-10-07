@@ -21,7 +21,8 @@ for(const config of configs){
   need(list.length===config.total,config.subject+': count must be '+config.total);
   const orders=new Set(),titles=new Set();
   for(const c of list){
-    const prefix=config.subject==='real_estate_intro'?'rei':'civ';
+    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk'}[config.subject];
+    need(!!prefix,config.subject+': missing id prefix mapping');
     need(new RegExp('^'+prefix+'-card-\\d{3}$').test(c.id),c.id+': invalid id');
     need(!ids.has(c.id),c.id+': duplicate id'); ids.add(c.id);
     need(Number.isInteger(c.order)&&c.order>=1&&c.order<=config.total,c.id+': invalid order');
@@ -69,14 +70,26 @@ need(civil.some(c=>c.importance===5),'civil importance 5 cards missing');
 need(civil.some(c=>c.importance===1),'civil essential-only cards missing');
 need(civil.find(c=>c.title==='계약갱신요구권')?.sourceKind==='official','contract renewal card must use current official source');
 need(!civil.find(c=>c.title==='계약갱신요구권')?.bullets.some(x=>/5년|없다/.test(x)),'outdated renewal rule leaked into card');
-const civConfig=configs.find(x=>x.subject==='civil_law');
-const rawCivil=parseSource(civConfig);
-for(const c of rawCivil){
-  need(c.basisStored.join('|')===c.basis.join('|'),c.id+': BASIS metadata stale');
-  need(c.examHitCountStored===c.examHitCount,c.id+': EXAM_HIT_COUNT stale');
-  need(c.examYearsStored.join('|')===c.examYears.join('|'),c.id+': EXAM_YEARS stale');
-  need(c.examSampleRefsStored.join('|')===c.examSampleRefs.join('|'),c.id+': EXAM_SAMPLE_REFS stale');
-  need(c.importanceStored===c.importance,c.id+': IMPORTANCE stale');
+const brokerage=cards.filter(c=>c.subject==='brokerage_law');
+for(const title of ['중개','중개대상물','개업공인중개사','소속공인중개사','중개보조원','중개사무소 개설등록','분사무소','전속중개계약','부동산거래정보망','중개대상물 확인·설명','거래계약서','직접거래 금지','업무보증','중개보수청구권','실무교육','한국공인중개사협회','등록취소','업무정지','부동산 거래신고','거래신고 30일','토지거래허가구역','등기사항증명서','분묘기지권','주택임대차보호법','상가건물 임대차보호법','경매','매수신청대리인 등록']) need(brokerage.some(c=>c.title===title),'brokerage required card missing: '+title);
+need(brokerage[0]?.title==='중개','brokerage first card must be 중개');
+need(brokerage[brokerage.length-1]?.title==='차순위 매수신고','brokerage last card must be 차순위 매수신고');
+need(brokerage.filter(c=>c.examHitCount>0).length>=90,'brokerage exam-backed cards should be at least 90');
+need(brokerage.find(c=>c.title==='한국공인중개사협회')?.sourceKind==='official','brokerage association card must use current official source');
+need(brokerage.find(c=>c.title==='실무교육')?.bullets.some(x=>x.includes('45시간')),'brokerage practical training must use current 45-hour rule');
+need(brokerage.find(c=>c.title==='거래신고 30일')?.bullets.some(x=>x.includes('30일')),'brokerage transaction report deadline must be current 30 days');
+need(!brokerage.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').match(/60일|28시간|32시간|300명|600명|금치산자|한정치산자/)),'outdated brokerage rule leaked into card body');
+need(!brokerage.find(c=>c.title==='주택 계약갱신요구권')?.bullets.some(x=>/없다/.test(x)),'outdated housing renewal rule leaked into brokerage card');
+
+for(const config of configs.filter(x=>x.reindexExam)){
+  const raw=parseSource(config);
+  for(const c of raw){
+    need(c.basisStored.join('|')===c.basis.join('|'),c.id+': BASIS metadata stale');
+    need(c.examHitCountStored===c.examHitCount,c.id+': EXAM_HIT_COUNT stale');
+    need(c.examYearsStored.join('|')===c.examYears.join('|'),c.id+': EXAM_YEARS stale');
+    need(c.examSampleRefsStored.join('|')===c.examSampleRefs.join('|'),c.id+': EXAM_SAMPLE_REFS stale');
+    need(c.importanceStored===c.importance,c.id+': IMPORTANCE stale');
+  }
 }
 
 console.log('Core word card TXT validation');
