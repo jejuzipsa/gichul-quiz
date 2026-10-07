@@ -19,7 +19,7 @@ vm.createContext(ctx);
 vm.runInContext(dataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='1.65','version.json must be 1.65');
+need(version.version==='1.66','version.json must be 1.66');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -55,6 +55,14 @@ need(cardJs.includes('function renderSearchSuggestions()')&&cardJs.includes('fun
 need(cardJs.includes("event.key==='ArrowDown'")&&cardJs.includes("event.key==='ArrowUp'")&&cardJs.includes("event.key==='Enter'")&&cardJs.includes("event.key==='Escape'"),'autocomplete keyboard controls missing');
 need(cardJs.includes("state.category='all';")&&cardJs.includes("state.query=card.title"),'suggestion selection must show selected keyword across category');
 need(cardIndex.includes('id="randomOrderBtn"')&&cardIndex.includes('id="easyOrderBtn"')&&cardIndex.includes('id="hardOrderBtn"'),'card order controls missing');
+need(!cardIndex.includes('id="subjectSelect"'),'native subject select must be removed to avoid OS/theme popup contrast issues');
+need(cardIndex.includes('id="subjectButton"')&&cardIndex.includes('id="subjectMenu"')&&cardIndex.includes('role="listbox"'),'custom subject listbox structure missing');
+need(cardJs.includes('function openSubjectMenu(')&&cardJs.includes('function closeSubjectMenu(')&&cardJs.includes('function setSubject('),'custom subject picker logic missing');
+need(cardJs.includes("aria-disabled")&&cardJs.includes("subject-option")&&cardJs.includes("disabled"),'disabled subject semantics missing');
+need(cardCss.includes('--menuBg:#fff')&&cardCss.includes('--menuDisabled:#5b6575'),'light subject menu contrast tokens missing');
+need(cardCss.includes('--menuBg:#111a2b')&&cardCss.includes('--menuDisabled:#a7b4c7'),'dark subject menu contrast tokens missing');
+need(cardCss.includes('.subject-menu{position:absolute')&&cardCss.includes('background:var(--menuBg)'),'subject menu themed surface missing');
+need(cardCss.includes('.subject-option.disabled{')&&cardCss.includes('color:var(--menuDisabled)'),'readable disabled subject styling missing');
 need(cardIndex.indexOf('id="randomOrderBtn"')<cardIndex.indexOf('id="easyOrderBtn"')&&cardIndex.indexOf('id="easyOrderBtn"')<cardIndex.indexOf('id="hardOrderBtn"'),'card order button sequence must be random/easy/hard');
 need(cardIndex.includes('랜덤보기')&&cardIndex.includes('쉬운순')&&cardIndex.includes('어려운순'),'card order labels missing');
 need(cardJs.includes("orderMode:'easy'"),'default card order must be easy');
