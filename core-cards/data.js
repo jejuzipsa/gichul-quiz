@@ -2,7 +2,8 @@ window.CORE_WORD_CARD_BANK = {
   "version": "core-word-cards-v1",
   "sources": [
     "1.공인중개사요약_부동산학개론.pdf + official supplemental references",
-    "2.공인중개사요약_민법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 현행 법령"
+    "2.공인중개사요약_민법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 현행 법령",
+    "3.공인중개사요약_중개사법.pdf + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 법령"
   ],
   "subjects": [
     {
@@ -18,7 +19,7 @@ window.CORE_WORD_CARD_BANK = {
     {
       "code": "brokerage_law",
       "name": "공인중개사법령 및 중개실무",
-      "disabled": true
+      "disabled": false
     },
     {
       "code": "public_law",
@@ -14455,6 +14456,6963 @@ window.CORE_WORD_CARD_BANK = {
       "examSampleRefs": [],
       "importance": 2,
       "sourceLabel": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제4조"
+    },
+    {
+      "id": "brk-card-001",
+      "subject": "brokerage_law",
+      "order": 1,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개",
+      "subtitle": "중개대상물의 권리 득실변경을 알선하는 것",
+      "bullets": [
+        "거래당사자 사이의 매매·교환·임대차 등 권리의 득실변경에 관한 행위를 알선"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 170,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-001",
+        "2021-32-second1-002",
+        "2021-32-second1-003",
+        "2021-32-second1-004",
+        "2021-32-second1-005",
+        "2021-32-second1-006",
+        "2021-32-second1-007",
+        "2021-32-second1-008",
+        "2021-32-second1-009",
+        "2021-32-second1-010"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-002",
+      "subject": "brokerage_law",
+      "order": 2,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개대상물",
+      "subtitle": "공인중개사법이 정한 중개의 객체",
+      "bullets": [
+        "토지·건축물과 그 밖의 토지 정착물, 법률이 정한 입목·공장재단·광업재단 등이 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법 시행령」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 49,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-001",
+        "2021-32-second1-005",
+        "2021-32-second1-011",
+        "2021-32-second1-013",
+        "2021-32-second1-028",
+        "2021-32-second1-029",
+        "2021-32-second1-030",
+        "2021-32-second1-031",
+        "2021-32-second1-036",
+        "2022-33-second1-001"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법 시행령」 제2조"
+    },
+    {
+      "id": "brk-card-003",
+      "subject": "brokerage_law",
+      "order": 3,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "공인중개사",
+      "subtitle": "공인중개사 자격을 취득한 사람",
+      "bullets": [
+        "자격 취득과 중개사무소 개설등록은 서로 다른 개념"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 169,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-001",
+        "2021-32-second1-002",
+        "2021-32-second1-003",
+        "2021-32-second1-004",
+        "2021-32-second1-005",
+        "2021-32-second1-006",
+        "2021-32-second1-007",
+        "2021-32-second1-008",
+        "2021-32-second1-009",
+        "2021-32-second1-010"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-004",
+      "subject": "brokerage_law",
+      "order": 4,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개업",
+      "subtitle": "보수를 받고 다른 사람의 의뢰로 중개를 업으로 하는 것",
+      "bullets": [
+        "등록 여부와 별개로 반복·계속적인 중개 영업행위의 성격을 판단"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 30,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-015",
+        "2021-32-second1-017",
+        "2021-32-second1-021",
+        "2021-32-second1-023",
+        "2021-32-second1-028",
+        "2021-32-second1-031",
+        "2021-32-second1-033",
+        "2022-33-second1-001",
+        "2022-33-second1-003",
+        "2022-33-second1-006"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-005",
+      "subject": "brokerage_law",
+      "order": 5,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "개업공인중개사",
+      "subtitle": "중개사무소 개설등록을 한 사람 또는 법인",
+      "bullets": [
+        "공인중개사 자격만 가진 사람과 구별",
+        "중개업무의 법정 의무 주체가 됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 135,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-003",
+        "2021-32-second1-004",
+        "2021-32-second1-005",
+        "2021-32-second1-006",
+        "2021-32-second1-007",
+        "2021-32-second1-008",
+        "2021-32-second1-010",
+        "2021-32-second1-012",
+        "2021-32-second1-013",
+        "2021-32-second1-015"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-006",
+      "subject": "brokerage_law",
+      "order": 6,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "소속공인중개사",
+      "subtitle": "개업공인중개사에 소속되어 중개업무를 수행·보조하는 공인중개사",
+      "bullets": [
+        "법인인 개업공인중개사의 사원·임원인 공인중개사도 포함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 24,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-005",
+        "2021-32-second1-007",
+        "2021-32-second1-008",
+        "2021-32-second1-013",
+        "2021-32-second1-019",
+        "2021-32-second1-030",
+        "2022-33-second1-001",
+        "2022-33-second1-006",
+        "2022-33-second1-012",
+        "2023-34-second1-007"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-007",
+      "subject": "brokerage_law",
+      "order": 7,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개보조원",
+      "subtitle": "현장안내·일반서무 등 단순 업무를 보조하는 비공인중개사",
+      "bullets": [
+        "중개행위 자체를 할 수 없고 단순 보조업무만 수행"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 12,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-005",
+        "2021-32-second1-007",
+        "2022-33-second1-001",
+        "2022-33-second1-006",
+        "2023-34-second1-003",
+        "2023-34-second1-007",
+        "2023-34-second1-017",
+        "2024-35-2-1-005",
+        "2024-35-2-1-006",
+        "2025-36-second1-003"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-008",
+      "subject": "brokerage_law",
+      "order": 8,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "등록관청",
+      "subtitle": "중개사무소 개설등록을 담당하는 관할 시장·군수·구청장",
+      "bullets": [
+        "중개사무소를 두려는 지역의 관할 행정청이 등록관청이 됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "official",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제9조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 27,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-007",
+        "2021-32-second1-016",
+        "2021-32-second1-017",
+        "2021-32-second1-018",
+        "2021-32-second1-021",
+        "2021-32-second1-024",
+        "2021-32-second1-026",
+        "2021-32-second1-030",
+        "2021-32-second1-031",
+        "2021-32-second1-033"
+      ],
+      "importance": 5,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제9조"
+    },
+    {
+      "id": "brk-card-009",
+      "subject": "brokerage_law",
+      "order": 9,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "공인중개사 정책심의위원회",
+      "subtitle": "자격취득·중개업 육성·보수·손해배상 보장 등을 심의",
+      "bullets": [
+        "국토교통부에 설치",
+        "현행 위원장은 국토교통부 제1차관"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "정책심의위원회",
+        "심의위원회"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p2 + 국가법령정보센터 「공인중개사법 시행령」 제1조의2",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-002",
+        "2022-33-second1-003",
+        "2023-34-second1-002",
+        "2024-35-2-1-001"
+      ],
+      "importance": 3,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p2 + 국가법령정보센터 「공인중개사법 시행령」 제1조의2"
+    },
+    {
+      "id": "brk-card-010",
+      "subject": "brokerage_law",
+      "order": 10,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "법인인 개업공인중개사",
+      "subtitle": "법인 형태로 개설등록한 개업공인중개사",
+      "bullets": [
+        "법인 등록기준과 겸업범위, 분사무소 규정이 별도로 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 15,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-008",
+        "2021-32-second1-010",
+        "2021-32-second1-015",
+        "2021-32-second1-033",
+        "2022-33-second1-006",
+        "2023-34-second1-001",
+        "2023-34-second1-016",
+        "2023-34-second1-024",
+        "2024-35-2-1-002",
+        "2024-35-2-1-003"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·총칙"
+    },
+    {
+      "id": "brk-card-011",
+      "subject": "brokerage_law",
+      "order": 11,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "지역농업협동조합의 중개",
+      "subtitle": "법률상 특례에 따라 농지 거래 등을 중개하는 경우",
+      "bullets": [
+        "일반 개업공인중개사와 등록기준·중개범위가 동일하지 않음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "지역농협 중개"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·총칙"
+    },
+    {
+      "id": "brk-card-012",
+      "subject": "brokerage_law",
+      "order": 12,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개보조원 업무범위",
+      "subtitle": "현장안내·일반서무 등 단순 보조에 한정",
+      "bullets": [
+        "확인·설명, 거래조건 조율, 계약서 작성 같은 중개행위는 할 수 없음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 1,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p1 + 국가법령정보센터 「공인중개사법」 제2조"
+    },
+    {
+      "id": "brk-card-013",
+      "subject": "brokerage_law",
+      "order": 13,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개보조원 고지의무",
+      "subtitle": "현장안내 등 보조 시 신분을 미리 알리는 의무",
+      "bullets": [
+        "중개보조원은 업무를 보조할 때 중개의뢰인에게 자신이 중개보조원임을 미리 알려야 함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "신분 고지"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제18조의4",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-033"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제18조의4"
+    },
+    {
+      "id": "brk-card-014",
+      "subject": "brokerage_law",
+      "order": 14,
+      "type": "term",
+      "category": "공인중개사법·총칙",
+      "title": "중개보조원 수 제한",
+      "subtitle": "고용 가능한 중개보조원 수의 법정 상한",
+      "bullets": [
+        "개업공인중개사와 소속공인중개사를 합한 수의 5배를 초과할 수 없음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "5배 제한"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·총칙",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제15조 제3항",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제15조 제3항"
+    },
+    {
+      "id": "brk-card-015",
+      "subject": "brokerage_law",
+      "order": 15,
+      "type": "term",
+      "category": "공인중개사법·자격",
+      "title": "시험시행기관장",
+      "subtitle": "공인중개사 자격시험을 시행하는 법정 기관장",
+      "bullets": [
+        "시·도지사 또는 법정 요건에서 국토교통부장관이 시험을 시행"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·자격",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·자격"
+    },
+    {
+      "id": "brk-card-016",
+      "subject": "brokerage_law",
+      "order": 16,
+      "type": "term",
+      "category": "공인중개사법·자격",
+      "title": "공인중개사자격증",
+      "subtitle": "공인중개사 자격 취득을 증명하는 자격증",
+      "bullets": [
+        "자격증 자체의 양도·대여·부정사용이 금지"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·자격",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 16,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-007",
+        "2021-32-second1-008",
+        "2021-32-second1-023",
+        "2021-32-second1-028",
+        "2022-33-second1-004",
+        "2022-33-second1-020",
+        "2022-33-second1-021",
+        "2023-34-second1-001",
+        "2023-34-second1-008",
+        "2023-34-second1-016"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·자격"
+    },
+    {
+      "id": "brk-card-017",
+      "subject": "brokerage_law",
+      "order": 17,
+      "type": "term",
+      "category": "공인중개사법·자격",
+      "title": "자격증 양도·대여 금지",
+      "subtitle": "자기 자격증을 남에게 넘기거나 빌려주는 행위 금지",
+      "bullets": [
+        "양도·대여뿐 아니라 다른 사람의 자격증을 양수·대여받아 사용하는 행위도 금지"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "자격증 대여"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·자격",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·자격"
+    },
+    {
+      "id": "brk-card-018",
+      "subject": "brokerage_law",
+      "order": 18,
+      "type": "term",
+      "category": "공인중개사법·자격",
+      "title": "자격취소",
+      "subtitle": "공인중개사 자격 자체를 박탈하는 행정처분",
+      "bullets": [
+        "부정취득·자격증 양도대여·정지기간 중 업무 등 법정 사유에서 문제됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·자격",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-021",
+        "2023-34-second1-024",
+        "2025-36-second1-027"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·자격"
+    },
+    {
+      "id": "brk-card-019",
+      "subject": "brokerage_law",
+      "order": 19,
+      "type": "term",
+      "category": "공인중개사법·자격",
+      "title": "자격정지",
+      "subtitle": "소속공인중개사의 자격 효력을 일정 기간 정지하는 처분",
+      "bullets": [
+        "자격은 유지되지만 정지기간 중 중개업무 종사가 제한"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·자격",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 6,
+      "examYears": [
+        2021,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-023",
+        "2021-32-second1-030",
+        "2023-34-second1-022",
+        "2023-34-second1-024",
+        "2025-36-second1-016",
+        "2025-36-second1-027"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·자격"
+    },
+    {
+      "id": "brk-card-020",
+      "subject": "brokerage_law",
+      "order": 20,
+      "type": "term",
+      "category": "공인중개사법·자격",
+      "title": "자격취소 청문",
+      "subtitle": "자격취소 전에 거치는 의견청취 절차",
+      "bullets": [
+        "자격취소는 법정 청문 대상"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 2,
+      "sourceSection": "공인중개사법·자격",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p2 · 공인중개사법·자격"
+    },
+    {
+      "id": "brk-card-021",
+      "subject": "brokerage_law",
+      "order": 21,
+      "type": "term",
+      "category": "공인중개사법·개설등록",
+      "title": "중개사무소 개설등록",
+      "subtitle": "중개업을 영위하기 위한 등록관청의 등록",
+      "bullets": [
+        "공인중개사 또는 법인이 법정 요건을 갖춰 등록관청에 신청"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·개설등록",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 8,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-009",
+        "2021-32-second1-019",
+        "2021-32-second1-025",
+        "2022-33-second1-005",
+        "2022-33-second1-035",
+        "2023-34-second1-005",
+        "2023-34-second1-009",
+        "2025-36-second1-004"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·개설등록"
+    },
+    {
+      "id": "brk-card-022",
+      "subject": "brokerage_law",
+      "order": 22,
+      "type": "term",
+      "category": "공인중개사법·개설등록",
+      "title": "개설등록 기준",
+      "subtitle": "개설등록을 위해 갖춰야 하는 인적·교육·사무소 등 요건",
+      "bullets": [
+        "공인중개사 또는 법인, 결격사유 없음, 교육이수, 사무소 확보 등이 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·개설등록",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2022
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-019"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·개설등록"
+    },
+    {
+      "id": "brk-card-023",
+      "subject": "brokerage_law",
+      "order": 23,
+      "type": "term",
+      "category": "공인중개사법·개설등록",
+      "title": "법인 등록기준",
+      "subtitle": "법인인 개업공인중개사의 추가 개설등록 요건",
+      "bullets": [
+        "자본금·대표자·임원 또는 사원의 자격 등 시행령상 별도 기준을 충족"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·개설등록",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·개설등록"
+    },
+    {
+      "id": "brk-card-024",
+      "subject": "brokerage_law",
+      "order": 24,
+      "type": "term",
+      "category": "공인중개사법·개설등록",
+      "title": "중개사무소등록증",
+      "subtitle": "개설등록 사실을 증명하는 등록증",
+      "bullets": [
+        "등록증 대여·양수·사용 금지 및 게시·반납 의무가 문제됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·개설등록",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 10,
+      "examYears": [
+        2021,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-008",
+        "2021-32-second1-016",
+        "2021-32-second1-017",
+        "2023-34-second1-001",
+        "2023-34-second1-011",
+        "2023-34-second1-019",
+        "2024-35-2-1-003",
+        "2025-36-second1-009",
+        "2025-36-second1-018",
+        "2025-36-second1-020"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·개설등록"
+    },
+    {
+      "id": "brk-card-025",
+      "subject": "brokerage_law",
+      "order": 25,
+      "type": "term",
+      "category": "공인중개사법·개설등록",
+      "title": "등록의 결격사유",
+      "subtitle": "중개사무소 개설등록을 할 수 없게 하는 법정 사유",
+      "bullets": [
+        "미성년자, 피성년후견인·피한정후견인, 일정 형사처분·행정처분 이력 등이 포함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "결격사유"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·개설등록",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p3 + 국가법령정보센터 「공인중개사법」 제10조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2022,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-005",
+        "2025-36-second1-003"
+      ],
+      "importance": 3,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p3 + 국가법령정보센터 「공인중개사법」 제10조"
+    },
+    {
+      "id": "brk-card-026",
+      "subject": "brokerage_law",
+      "order": 26,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "이중 개설등록",
+      "subtitle": "한 사람이 둘 이상의 중개사무소 개설등록을 하는 금지행위",
+      "bullets": [
+        "이중 개설등록은 등록취소 사유가 될 수 있음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-027",
+      "subject": "brokerage_law",
+      "order": 27,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "분사무소",
+      "subtitle": "법인인 개업공인중개사가 설치할 수 있는 종된 사무소",
+      "bullets": [
+        "법정 요건과 설치신고를 거쳐야 하며 책임자를 둠"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 16,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-008",
+        "2021-32-second1-015",
+        "2021-32-second1-033",
+        "2022-33-second1-006",
+        "2023-34-second1-004",
+        "2023-34-second1-005",
+        "2023-34-second1-009",
+        "2023-34-second1-010",
+        "2023-34-second1-011",
+        "2023-34-second1-016"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-028",
+      "subject": "brokerage_law",
+      "order": 28,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "분사무소 설치신고",
+      "subtitle": "법인인 개업공인중개사의 분사무소 설치에 필요한 신고",
+      "bullets": [
+        "주된 사무소 관할 등록관청을 통한 법정 신고절차가 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 3,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2023
+      ],
+      "examSampleRefs": [
+        "2023-34-second1-004"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p3 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-029",
+      "subject": "brokerage_law",
+      "order": 29,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "중개사무소 공동사용",
+      "subtitle": "둘 이상의 개업공인중개사가 같은 사무소를 함께 사용하는 것",
+      "bullets": [
+        "다른 개업공인중개사의 승낙서가 필요한 경우와 업무정지 중 제한을 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-030",
+      "subject": "brokerage_law",
+      "order": 30,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "임시 중개시설물",
+      "subtitle": "천막 등 이동이 쉬운 일시적 중개시설",
+      "bullets": [
+        "개업공인중개사는 임시 중개시설물을 설치할 수 없음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-006",
+        "2022-33-second1-013",
+        "2023-34-second1-004",
+        "2024-35-2-1-014",
+        "2025-36-second1-006"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-031",
+      "subject": "brokerage_law",
+      "order": 31,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "중개사무소 명칭",
+      "subtitle": "법이 요구하거나 제한하는 중개사무소 명칭 표시",
+      "bullets": [
+        "개업공인중개사인지 여부에 따라 사용 가능한 명칭이 달라짐"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-032",
+      "subject": "brokerage_law",
+      "order": 32,
+      "type": "term",
+      "category": "공인중개사법·표시광고",
+      "title": "중개대상물 표시·광고",
+      "subtitle": "의뢰받은 중개대상물을 표시·광고할 때의 법정 의무",
+      "bullets": [
+        "중개사무소 명칭·소재지·연락처·등록번호와 개업공인중개사 성명 등 법정사항을 명시",
+        "중개보조원에 관한 사항은 명시할 수 없음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "표시ㆍ광고",
+        "표시·광고",
+        "표시광고"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·표시광고",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제18조의2 + 국가법령정보센터 「공인중개사법 시행령」 제17조의2",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 9,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-005",
+        "2021-32-second1-031",
+        "2021-32-second1-036",
+        "2022-33-second1-006",
+        "2023-34-second1-021",
+        "2024-35-2-1-021",
+        "2025-36-second1-005",
+        "2025-36-second1-007",
+        "2025-36-second1-023"
+      ],
+      "importance": 4,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제18조의2 + 국가법령정보센터 「공인중개사법 시행령」 제17조의2"
+    },
+    {
+      "id": "brk-card-033",
+      "subject": "brokerage_law",
+      "order": 33,
+      "type": "term",
+      "category": "공인중개사법·표시광고",
+      "title": "인터넷 중개대상물 표시·광고",
+      "subtitle": "인터넷 광고에 추가로 요구되는 중개대상물 정보",
+      "bullets": [
+        "소재지·면적·가격·종류·거래형태 등 시행령상 사항을 추가로 명시"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "인터넷 표시광고"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·표시광고",
+      "sourceRef": "국가법령정보센터 「공인중개사법 시행령」 제17조의2",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법 시행령」 제17조의2"
+    },
+    {
+      "id": "brk-card-034",
+      "subject": "brokerage_law",
+      "order": 34,
+      "type": "term",
+      "category": "공인중개사법·표시광고",
+      "title": "부당한 표시·광고",
+      "subtitle": "허위매물·거짓·과장 등 법이 금지하는 광고",
+      "bullets": [
+        "존재하지 않아 거래할 수 없는 매물 광고, 거짓·과장 광고 등이 금지"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "부당광고",
+        "허위매물",
+        "부당한 표시"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·표시광고",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제18조의2",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2021
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-005"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제18조의2"
+    },
+    {
+      "id": "brk-card-035",
+      "subject": "brokerage_law",
+      "order": 35,
+      "type": "term",
+      "category": "공인중개사법·표시광고",
+      "title": "표시·광고 모니터링",
+      "subtitle": "인터넷 중개대상물 광고의 법 위반 여부를 점검하는 제도",
+      "bullets": [
+        "국토교통부장관은 법정 기관에 모니터링 업무를 위탁할 수 있음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "인터넷 표시·광고 모니터링",
+        "인터넷 표시광고 모니터링"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·표시광고",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제18조의3",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-005"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제18조의3"
+    },
+    {
+      "id": "brk-card-036",
+      "subject": "brokerage_law",
+      "order": 36,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "등록증 대여 금지",
+      "subtitle": "중개사무소등록증을 양도·대여하거나 타인 명의로 영업하는 행위 금지",
+      "bullets": [
+        "성명·상호를 사용하게 하거나 등록증을 양도·대여하는 행위를 금지"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "중개사무소등록증 대여"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-037",
+      "subject": "brokerage_law",
+      "order": 37,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "중개사무소 이전신고",
+      "subtitle": "중개사무소를 옮긴 뒤 등록관청에 하는 신고",
+      "bullets": [
+        "관할 변경 여부에 따라 등록증 재교부 절차를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2023
+      ],
+      "examSampleRefs": [
+        "2023-34-second1-011"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-038",
+      "subject": "brokerage_law",
+      "order": 38,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "인장등록",
+      "subtitle": "개업공인중개사·소속공인중개사의 업무용 인장 등록",
+      "bullets": [
+        "업무 개시 전 등록하고 확인·설명서와 거래계약서에 등록인장을 사용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "인장의 등록"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2023-34-second1-010",
+        "2024-35-2-1-016",
+        "2025-36-second1-004"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-039",
+      "subject": "brokerage_law",
+      "order": 39,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "등록인장 사용의무",
+      "subtitle": "법정 서류에는 등록된 인장을 사용해야 하는 의무",
+      "bullets": [
+        "미등록 인장 사용은 행정처분 사유가 될 수 있음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 4,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p4 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-040",
+      "subject": "brokerage_law",
+      "order": 40,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "휴업신고",
+      "subtitle": "법정 기간을 초과해 중개업을 쉬는 경우의 신고",
+      "bullets": [
+        "장기 휴업 시 미리 등록관청에 신고해야 함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 5,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2021,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-018",
+        "2021-32-second1-031",
+        "2024-35-2-1-003"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p5 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-041",
+      "subject": "brokerage_law",
+      "order": 41,
+      "type": "term",
+      "category": "공인중개사법·사무소",
+      "title": "폐업신고",
+      "subtitle": "중개업을 그만둘 때 등록관청에 하는 신고",
+      "bullets": [
+        "폐업은 이후 행정처분 승계와 재등록 문제에도 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "폐업"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 5,
+      "sourceSection": "공인중개사법·사무소",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 11,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-018",
+        "2021-32-second1-021",
+        "2021-32-second1-024",
+        "2022-33-second1-018",
+        "2022-33-second1-035",
+        "2023-34-second1-009",
+        "2023-34-second1-017",
+        "2023-34-second1-023",
+        "2025-36-second1-009",
+        "2025-36-second1-035"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p5 · 공인중개사법·사무소"
+    },
+    {
+      "id": "brk-card-042",
+      "subject": "brokerage_law",
+      "order": 42,
+      "type": "term",
+      "category": "공인중개사법·고용",
+      "title": "고용신고",
+      "subtitle": "소속공인중개사·중개보조원을 고용할 때 등록관청에 하는 신고",
+      "bullets": [
+        "업무 개시 전 신고와 교육이수 여부가 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 5,
+      "sourceSection": "공인중개사법·고용",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2021,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-007",
+        "2021-32-second1-013",
+        "2024-35-2-1-008"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p5 · 공인중개사법·고용"
+    },
+    {
+      "id": "brk-card-043",
+      "subject": "brokerage_law",
+      "order": 43,
+      "type": "term",
+      "category": "공인중개사법·고용",
+      "title": "고용관계 종료신고",
+      "subtitle": "소속공인중개사·중개보조원의 고용 종료를 알리는 신고",
+      "bullets": [
+        "고용 종료 후 법정 기한 내 등록관청에 신고"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 5,
+      "sourceSection": "공인중개사법·고용",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p5 · 공인중개사법·고용"
+    },
+    {
+      "id": "brk-card-044",
+      "subject": "brokerage_law",
+      "order": 44,
+      "type": "term",
+      "category": "공인중개사법·고용",
+      "title": "고용인 업무행위 귀속",
+      "subtitle": "고용인의 업무상 행위를 개업공인중개사의 행위로 보는 원칙",
+      "bullets": [
+        "소속공인중개사·중개보조원의 업무상 행위는 고용한 개업공인중개사의 행위로 봄"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 5,
+      "sourceSection": "공인중개사법·고용",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p5 + 국가법령정보센터 「공인중개사법」 제15조",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p5 + 국가법령정보센터 「공인중개사법」 제15조"
+    },
+    {
+      "id": "brk-card-045",
+      "subject": "brokerage_law",
+      "order": 45,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "법인 겸업범위",
+      "subtitle": "법인인 개업공인중개사가 함께 할 수 있는 법정 업무",
+      "bullets": [
+        "부동산 관리대행·이용개발 상담·분양대행 등 법정 범위 안에서 겸업"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-046",
+      "subject": "brokerage_law",
+      "order": 46,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "부동산 관리대행",
+      "subtitle": "법인인 개업공인중개사의 허용 겸업 중 하나",
+      "bullets": [
+        "상업용 건축물·주택 등의 관리대행이 대표적"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-047",
+      "subject": "brokerage_law",
+      "order": 47,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "부동산 이용·개발 상담",
+      "subtitle": "부동산 이용·개발 및 거래에 관한 상담업무",
+      "bullets": [
+        "법인인 개업공인중개사의 법정 겸업범위에 포함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-048",
+      "subject": "brokerage_law",
+      "order": 48,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "분양대행",
+      "subtitle": "상업용 건축물·주택 등의 분양을 대신 수행하는 업무",
+      "bullets": [
+        "법인인 개업공인중개사의 법정 겸업범위와 대상물 범위를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-010",
+        "2023-34-second1-001",
+        "2024-35-2-1-002",
+        "2025-36-second1-008"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-049",
+      "subject": "brokerage_law",
+      "order": 49,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "경매·공매 권리분석",
+      "subtitle": "경매·공매 부동산의 권리관계를 분석하는 업무",
+      "bullets": [
+        "법정 겸업범위에 포함되며 매수신청대리와는 별도 요건"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-050",
+      "subject": "brokerage_law",
+      "order": 50,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "매수신청·입찰신청 대리",
+      "subtitle": "경매대상 부동산의 매수신청 또는 입찰신청을 대리하는 업무",
+      "bullets": [
+        "대법원규칙상 요건을 갖춰 법원에 등록하고 감독을 받아야 함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "입찰신청 대리",
+        "매수신청대리"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p6 + 국가법령정보센터 「공인중개사법」 제14조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 8,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-012",
+        "2022-33-second1-030",
+        "2022-33-second1-035",
+        "2023-34-second1-027",
+        "2023-34-second1-032",
+        "2024-35-2-1-031",
+        "2025-36-second1-035",
+        "2025-36-second1-036"
+      ],
+      "importance": 4,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p6 + 국가법령정보센터 「공인중개사법」 제14조"
+    },
+    {
+      "id": "brk-card-051",
+      "subject": "brokerage_law",
+      "order": 51,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "업무지역",
+      "subtitle": "개업공인중개사가 중개업무를 수행할 수 있는 지역 범위",
+      "bullets": [
+        "공인중개사·법인인 개업공인중개사는 원칙적으로 지역 제한이 없음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-052",
+      "subject": "brokerage_law",
+      "order": 52,
+      "type": "term",
+      "category": "공인중개사법·업무범위",
+      "title": "부칙상 개업공인중개사",
+      "subtitle": "종전 법령에 따라 개설등록한 것으로 보는 사람",
+      "bullets": [
+        "일부 업무지역·겸업범위 등에 특례가 남아 있어 기출에서 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 6,
+      "sourceSection": "공인중개사법·업무범위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p6 · 공인중개사법·업무범위"
+    },
+    {
+      "id": "brk-card-053",
+      "subject": "brokerage_law",
+      "order": 53,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "중개계약",
+      "subtitle": "중개의뢰인과 개업공인중개사 사이의 중개 의뢰 계약",
+      "bullets": [
+        "낙성·불요식·쌍무·유상·비전형 계약으로 설명"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 17,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 10,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-011",
+        "2021-32-second1-021",
+        "2022-33-second1-008",
+        "2022-33-second1-034",
+        "2022-33-second1-037",
+        "2023-34-second1-012",
+        "2024-35-2-1-010",
+        "2024-35-2-1-016",
+        "2025-36-second1-012",
+        "2025-36-second1-018"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p17 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-054",
+      "subject": "brokerage_law",
+      "order": 54,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "일반중개계약",
+      "subtitle": "여러 개업공인중개사에게 동시에 중개를 의뢰할 수 있는 형태",
+      "bullets": [
+        "먼저 거래를 성사시킨 개업공인중개사가 보수를 받는 일반적 형태"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-008",
+        "2022-33-second1-037",
+        "2023-34-second1-012",
+        "2024-35-2-1-010",
+        "2025-36-second1-012"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-055",
+      "subject": "brokerage_law",
+      "order": 55,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "전속중개계약",
+      "subtitle": "특정 개업공인중개사에게 전속으로 중개를 의뢰하는 계약",
+      "bullets": [
+        "표준서식·정보공개·업무처리상황 통지 등 법정 의무가 따름"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 9,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-011",
+        "2021-32-second1-021",
+        "2022-33-second1-008",
+        "2022-33-second1-034",
+        "2023-34-second1-012",
+        "2024-35-2-1-010",
+        "2024-35-2-1-016",
+        "2025-36-second1-012",
+        "2025-36-second1-018"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-056",
+      "subject": "brokerage_law",
+      "order": 56,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "전속중개계약서",
+      "subtitle": "전속중개계약에 사용하는 국토교통부령상 서식",
+      "bullets": [
+        "법정 서식을 사용하고 원본을 법정 기간 보존"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-021",
+        "2022-33-second1-008",
+        "2022-33-second1-034",
+        "2024-35-2-1-016",
+        "2025-36-second1-018"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-057",
+      "subject": "brokerage_law",
+      "order": 57,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "전속계약 정보공개",
+      "subtitle": "전속중개계약 대상물 정보를 법정 매체에 공개하는 의무",
+      "bullets": [
+        "의뢰인이 비공개를 요청한 경우에는 공개하지 않음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-058",
+      "subject": "brokerage_law",
+      "order": 58,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "업무처리상황 통지",
+      "subtitle": "전속중개계약에서 처리상황을 의뢰인에게 알리는 의무",
+      "bullets": [
+        "정기적으로 문서 통지해야 하는 전속계약 특유의 의무"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-059",
+      "subject": "brokerage_law",
+      "order": 59,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "독점중개계약",
+      "subtitle": "특정 중개업자에게 중개권을 독점적으로 부여하는 실무상 계약",
+      "bullets": [
+        "누가 거래를 성립시켰는지와 무관하게 독점권을 인정하는 형태"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 17,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p17 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-060",
+      "subject": "brokerage_law",
+      "order": 60,
+      "type": "term",
+      "category": "중개실무·중개계약",
+      "title": "순가중개계약",
+      "subtitle": "의뢰인이 정한 순가 이상 초과분을 보수로 정하는 형태",
+      "bullets": [
+        "법정 중개보수를 초과하는 약정 부분의 효력은 제한"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 17,
+      "sourceSection": "중개실무·중개계약",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p17 · 중개실무·중개계약"
+    },
+    {
+      "id": "brk-card-061",
+      "subject": "brokerage_law",
+      "order": 61,
+      "type": "term",
+      "category": "공인중개사법·정보망",
+      "title": "부동산거래정보망",
+      "subtitle": "개업공인중개사 사이에 중개대상물 정보를 공개·공유하는 정보망",
+      "bullets": [
+        "국토교통부장관이 법정 요건을 갖춘 자를 거래정보사업자로 지정"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "공인중개사법·정보망",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 8,
+      "examYears": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-011",
+        "2021-32-second1-029",
+        "2021-32-second1-036",
+        "2022-33-second1-008",
+        "2022-33-second1-014",
+        "2024-35-2-1-011",
+        "2024-35-2-1-016",
+        "2025-36-second1-014"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 공인중개사법·정보망"
+    },
+    {
+      "id": "brk-card-062",
+      "subject": "brokerage_law",
+      "order": 62,
+      "type": "term",
+      "category": "공인중개사법·정보망",
+      "title": "거래정보사업자",
+      "subtitle": "부동산거래정보망을 설치·운영하도록 지정받은 자",
+      "bullets": [
+        "지정요건·운영규정·정보공개 의무와 지정취소가 기출 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "공인중개사법·정보망",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 6,
+      "examYears": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-014",
+        "2021-32-second1-036",
+        "2022-33-second1-014",
+        "2024-35-2-1-011",
+        "2024-35-2-1-016",
+        "2025-36-second1-014"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 공인중개사법·정보망"
+    },
+    {
+      "id": "brk-card-063",
+      "subject": "brokerage_law",
+      "order": 63,
+      "type": "term",
+      "category": "공인중개사법·정보망",
+      "title": "거래정보사업자 지정요건",
+      "subtitle": "부동산거래정보망 사업자로 지정받기 위한 인적·설비 요건",
+      "bullets": [
+        "가입·이용 신청자 수, 전문인력, 정보처리설비 등 법정 요건을 충족"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "공인중개사법·정보망",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 공인중개사법·정보망"
+    },
+    {
+      "id": "brk-card-064",
+      "subject": "brokerage_law",
+      "order": 64,
+      "type": "term",
+      "category": "공인중개사법·정보망",
+      "title": "정보망 운영규정",
+      "subtitle": "거래정보사업자가 제정·승인받아야 하는 운영규정",
+      "bullets": [
+        "국토교통부장관의 승인 및 변경승인 대상"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "공인중개사법·정보망",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 공인중개사법·정보망"
+    },
+    {
+      "id": "brk-card-065",
+      "subject": "brokerage_law",
+      "order": 65,
+      "type": "term",
+      "category": "공인중개사법·정보망",
+      "title": "거짓정보 공개금지",
+      "subtitle": "개업공인중개사가 거래정보망에 거짓 정보를 올리지 않을 의무",
+      "bullets": [
+        "거짓 공개는 업무정지 등 제재와 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 7,
+      "sourceSection": "공인중개사법·정보망",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p7 · 공인중개사법·정보망"
+    },
+    {
+      "id": "brk-card-066",
+      "subject": "brokerage_law",
+      "order": 66,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "중개대상물 확인·설명",
+      "subtitle": "개업공인중개사가 계약 전 권리·물적 상태 등을 확인해 설명하는 의무",
+      "bullets": [
+        "중개가 완성되기 전까지 권리를 취득하려는 의뢰인에게 성실·정확하게 설명",
+        "근거자료를 제시해야 함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "확인ㆍ설명",
+        "확인·설명",
+        "확인설명"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 8,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p8 + 국가법령정보센터 「공인중개사법」 제25조 + 국가법령정보센터 「공인중개사법 시행령」 제21조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 21,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-011",
+        "2021-32-second1-013",
+        "2021-32-second1-029",
+        "2021-32-second1-030",
+        "2022-33-second1-009",
+        "2022-33-second1-012",
+        "2022-33-second1-033",
+        "2022-33-second1-034",
+        "2023-34-second1-014",
+        "2023-34-second1-022"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p8 + 국가법령정보센터 「공인중개사법」 제25조 + 국가법령정보센터 「공인중개사법 시행령」 제21조"
+    },
+    {
+      "id": "brk-card-067",
+      "subject": "brokerage_law",
+      "order": 67,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "중개대상물 확인·설명서",
+      "subtitle": "확인·설명 내용을 적어 거래당사자에게 발급하는 법정 서식",
+      "bullets": [
+        "중개가 완성된 때 작성·발급하고 사본을 3년 보존"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "확인ㆍ설명서",
+        "확인·설명서",
+        "확인설명서"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 8,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p8 + 국가법령정보센터 「공인중개사법 시행령」 제21조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 14,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-013",
+        "2021-32-second1-029",
+        "2022-33-second1-009",
+        "2022-33-second1-012",
+        "2022-33-second1-033",
+        "2023-34-second1-014",
+        "2024-35-2-1-004",
+        "2024-35-2-1-016",
+        "2024-35-2-1-017",
+        "2024-35-2-1-019"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p8 + 국가법령정보센터 「공인중개사법 시행령」 제21조"
+    },
+    {
+      "id": "brk-card-068",
+      "subject": "brokerage_law",
+      "order": 68,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "대상물 기본사항",
+      "subtitle": "종류·소재지·지번·지목·면적·용도·구조·건축연도 등",
+      "bullets": [
+        "확인·설명의 기본 확인사항"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 8,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p8 · 공인중개사법·확인설명"
+    },
+    {
+      "id": "brk-card-069",
+      "subject": "brokerage_law",
+      "order": 69,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "권리관계 확인",
+      "subtitle": "소유권·전세권·저당권·지상권·임차권 등 권리상태 조사",
+      "bullets": [
+        "등기사항증명서와 실제 권리관계를 함께 점검"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 8,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p8 · 공인중개사법·확인설명"
+    },
+    {
+      "id": "brk-card-070",
+      "subject": "brokerage_law",
+      "order": 70,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "관리비 확인·설명",
+      "subtitle": "주택 임대차 중개의 관리비 금액과 산출내역 설명",
+      "bullets": [
+        "2024년 시행령 개정으로 주택 임대차 확인·설명 항목에 포함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "관리비",
+        "관리비 산출내역"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제3호의2",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2024-35-2-1-020",
+        "2025-36-second1-010"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제3호의2"
+    },
+    {
+      "id": "brk-card-071",
+      "subject": "brokerage_law",
+      "order": 71,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "토지이용계획 확인",
+      "subtitle": "공법상 거래규제·이용제한을 확인하는 사항",
+      "bullets": [
+        "용도지역·지구·구역 등 토지이용계획과 행위제한을 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 8,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p8 · 공인중개사법·확인설명"
+    },
+    {
+      "id": "brk-card-072",
+      "subject": "brokerage_law",
+      "order": 72,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "임대인의 정보 제시 의무 안내",
+      "subtitle": "주택 임대차 중 임대인의 법정 정보제시 의무를 설명",
+      "bullets": [
+        "주택임대차보호법상 정보제시 의무와 보증금 보호 사항을 설명"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "임대차 확인사항"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제10호",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-033"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제10호"
+    },
+    {
+      "id": "brk-card-073",
+      "subject": "brokerage_law",
+      "order": 73,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "전입세대확인서 안내",
+      "subtitle": "주택 임대차 중 전입세대확인서 열람·교부에 관한 설명",
+      "bullets": [
+        "주택 임대차 확인·설명에서 전입세대 확인 절차를 안내"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "전입세대확인서"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제11호",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제11호"
+    },
+    {
+      "id": "brk-card-074",
+      "subject": "brokerage_law",
+      "order": 74,
+      "type": "term",
+      "category": "공인중개사법·확인설명",
+      "title": "임대보증금 보증 안내",
+      "subtitle": "민간임대주택의 임대보증금 보증 여부에 관한 설명",
+      "bullets": [
+        "민간임대주택인 경우 임대보증금 보증에 관한 사항을 확인·설명"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "임대보증금 보증"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·확인설명",
+      "sourceRef": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제12호",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법 시행령」 제21조 제1항 제12호"
+    },
+    {
+      "id": "brk-card-075",
+      "subject": "brokerage_law",
+      "order": 75,
+      "type": "term",
+      "category": "공인중개사법·거래계약서",
+      "title": "거래계약서",
+      "subtitle": "중개가 완성된 때 거래내용을 작성해 당사자에게 교부하는 서류",
+      "bullets": [
+        "거래당사자 인적사항·물건표시·계약일·거래금액·인도일·권리이전 등 법정사항 기재"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 9,
+      "sourceSection": "공인중개사법·거래계약서",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 13,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-013",
+        "2021-32-second1-019",
+        "2021-32-second1-029",
+        "2022-33-second1-012",
+        "2023-34-second1-014",
+        "2023-34-second1-022",
+        "2023-34-second1-031",
+        "2024-35-2-1-006",
+        "2024-35-2-1-019",
+        "2025-36-second1-010"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p9 · 공인중개사법·거래계약서"
+    },
+    {
+      "id": "brk-card-076",
+      "subject": "brokerage_law",
+      "order": 76,
+      "type": "term",
+      "category": "공인중개사법·거래계약서",
+      "title": "거래계약서 5년 보존",
+      "subtitle": "거래계약서 사본·전자문서의 법정 보존기간",
+      "bullets": [
+        "현행 시행령상 5년 보존"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "5년 보존"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 9,
+      "sourceSection": "공인중개사법·거래계약서",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p9 + 국가법령정보센터 「공인중개사법 시행령」 제22조",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p9 + 국가법령정보센터 「공인중개사법 시행령」 제22조"
+    },
+    {
+      "id": "brk-card-077",
+      "subject": "brokerage_law",
+      "order": 77,
+      "type": "term",
+      "category": "공인중개사법·거래계약서",
+      "title": "거래계약서 필수기재사항",
+      "subtitle": "거래계약서에 반드시 적어야 하는 법정 정보",
+      "bullets": [
+        "당사자·물건·계약일·금액·지급·인도·권리이전·조건기한·확인설명서 교부일 등을 포함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 9,
+      "sourceSection": "공인중개사법·거래계약서",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p9 · 공인중개사법·거래계약서"
+    },
+    {
+      "id": "brk-card-078",
+      "subject": "brokerage_law",
+      "order": 78,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "중개대상물 매매업 금지",
+      "subtitle": "법정 중개대상물의 매매를 업으로 하는 금지행위",
+      "bullets": [
+        "개업공인중개사등의 법정 금지행위"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-079",
+      "subject": "brokerage_law",
+      "order": 79,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "무등록 중개업자 이용 금지",
+      "subtitle": "무등록 중개업자인 사실을 알면서 중개를 의뢰받거나 명의를 빌려주는 행위 금지",
+      "bullets": [
+        "무등록 영업과 결합한 중개행위를 차단"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-080",
+      "subject": "brokerage_law",
+      "order": 80,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "중개보수 초과수수 금지",
+      "subtitle": "법정 중개보수·실비를 초과해 금품을 받는 행위 금지",
+      "bullets": [
+        "사례·증여 등 명칭과 관계없이 초과수수 여부를 판단"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-081",
+      "subject": "brokerage_law",
+      "order": 81,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "중요사항 거짓언행 금지",
+      "subtitle": "거래상 중요사항에 거짓말 등으로 의뢰인의 판단을 흐리는 행위 금지",
+      "bullets": [
+        "거짓·기망적 중개행위를 규제"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-082",
+      "subject": "brokerage_law",
+      "order": 82,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "금지 증서 중개",
+      "subtitle": "양도·알선이 금지된 분양·임대 관련 증서 등을 중개하는 행위 금지",
+      "bullets": [
+        "전매제한 등 관계법령상 금지된 권리·증서 거래와 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-083",
+      "subject": "brokerage_law",
+      "order": 83,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "직접거래 금지",
+      "subtitle": "개업공인중개사등이 중개의뢰인과 직접 거래하는 행위 금지",
+      "bullets": [
+        "중립적 중개인의 지위를 해치는 대표 금지행위"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "직접 거래"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-028",
+        "2022-33-second1-015",
+        "2024-35-2-1-013",
+        "2025-36-second1-017"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-084",
+      "subject": "brokerage_law",
+      "order": 84,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "쌍방대리 금지",
+      "subtitle": "거래당사자 양쪽을 동시에 대리하는 행위 금지",
+      "bullets": [
+        "일방 대리와 구별되는 법정 금지행위"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "쌍방대리"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-085",
+      "subject": "brokerage_law",
+      "order": 85,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "부동산투기 조장 금지",
+      "subtitle": "탈세·전매제한 회피 등 투기를 조장하는 중개행위 금지",
+      "bullets": [
+        "미등기전매·권리변동 제한 부동산 등과 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 10,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p10 · 공인중개사법·금지행위"
+    },
+    {
+      "id": "brk-card-086",
+      "subject": "brokerage_law",
+      "order": 86,
+      "type": "term",
+      "category": "공인중개사법·금지행위",
+      "title": "시세조작 금지",
+      "subtitle": "거짓으로 거래가 완료된 것처럼 꾸며 시세에 부당한 영향을 주는 행위 금지",
+      "bullets": [
+        "제3자에게 부당한 이익을 주거나 시세를 조작하는 행위를 규제"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "거래완료 가장행위"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·금지행위",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제33조",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제33조"
+    },
+    {
+      "id": "brk-card-087",
+      "subject": "brokerage_law",
+      "order": 87,
+      "type": "term",
+      "category": "공인중개사법·손해배상",
+      "title": "개업공인중개사 손해배상책임",
+      "subtitle": "중개행위로 거래당사자에게 재산상 손해를 입힌 경우의 책임",
+      "bullets": [
+        "고의·과실 있는 중개행위와 재산상 손해 사이 인과관계가 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "손해배상"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·손해배상",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 14,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-013",
+        "2021-32-second1-015",
+        "2021-32-second1-024",
+        "2021-32-second1-026",
+        "2022-33-second1-003",
+        "2022-33-second1-011",
+        "2023-34-second1-015",
+        "2023-34-second1-019",
+        "2024-35-2-1-001",
+        "2024-35-2-1-006"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·손해배상"
+    },
+    {
+      "id": "brk-card-088",
+      "subject": "brokerage_law",
+      "order": 88,
+      "type": "term",
+      "category": "공인중개사법·손해배상",
+      "title": "고용인 행위 책임",
+      "subtitle": "소속공인중개사·중개보조원의 업무상 행위에 대한 사용자 책임",
+      "bullets": [
+        "고용인의 업무상 행위는 개업공인중개사의 행위로 봄"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·손해배상",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·손해배상"
+    },
+    {
+      "id": "brk-card-089",
+      "subject": "brokerage_law",
+      "order": 89,
+      "type": "term",
+      "category": "공인중개사법·업무보증",
+      "title": "업무보증",
+      "subtitle": "중개사고 손해배상을 보장하기 위한 보증조치",
+      "bullets": [
+        "보증보험·공제·공탁의 방식으로 업무 개시 전 설정"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·업무보증",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·업무보증"
+    },
+    {
+      "id": "brk-card-090",
+      "subject": "brokerage_law",
+      "order": 90,
+      "type": "term",
+      "category": "공인중개사법·업무보증",
+      "title": "보증보험",
+      "subtitle": "업무보증을 설정하는 방법 중 보험회사 보증 방식",
+      "bullets": [
+        "손해배상책임 보장을 위한 법정 수단"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·업무보증",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-026",
+        "2023-34-second1-015",
+        "2024-35-2-1-006",
+        "2024-35-2-1-007"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·업무보증"
+    },
+    {
+      "id": "brk-card-091",
+      "subject": "brokerage_law",
+      "order": 91,
+      "type": "term",
+      "category": "공인중개사법·업무보증",
+      "title": "공제 가입",
+      "subtitle": "한국공인중개사협회 등의 공제에 가입해 업무보증을 설정하는 방식",
+      "bullets": [
+        "공제가입도 업무보증의 법정 방법"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·업무보증",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·업무보증"
+    },
+    {
+      "id": "brk-card-092",
+      "subject": "brokerage_law",
+      "order": 92,
+      "type": "term",
+      "category": "공인중개사법·업무보증",
+      "title": "공탁",
+      "subtitle": "금전을 공탁해 업무보증을 설정하는 방식",
+      "bullets": [
+        "폐업·사망 후 공탁금 회수 제한과 함께 출제"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·업무보증",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2021,
+        2023
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-024",
+        "2023-34-second1-015"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·업무보증"
+    },
+    {
+      "id": "brk-card-093",
+      "subject": "brokerage_law",
+      "order": 93,
+      "type": "term",
+      "category": "공인중개사법·업무보증",
+      "title": "업무보증 재설정",
+      "subtitle": "보증기간 만료나 배상으로 보증액이 줄었을 때 다시 보장조치를 하는 것",
+      "bullets": [
+        "보증 공백이 없도록 법정 시기에 재설정"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·업무보증",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·업무보증"
+    },
+    {
+      "id": "brk-card-094",
+      "subject": "brokerage_law",
+      "order": 94,
+      "type": "term",
+      "category": "공인중개사법·업무보증",
+      "title": "업무보증 설명의무",
+      "subtitle": "거래당사자에게 보증내용을 설명하고 증서 사본 등을 제공하는 의무",
+      "bullets": [
+        "보증기관·보장금액 등 손해배상 보장 관계를 설명"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 11,
+      "sourceSection": "공인중개사법·업무보증",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p11 · 공인중개사법·업무보증"
+    },
+    {
+      "id": "brk-card-095",
+      "subject": "brokerage_law",
+      "order": 95,
+      "type": "term",
+      "category": "공인중개사법·예치",
+      "title": "계약금등 반환채무 이행보장",
+      "subtitle": "거래대금 일부를 안전하게 예치하도록 권고하는 제도",
+      "bullets": [
+        "계약금·중도금·잔금의 안전한 반환·지급을 위해 예치제도를 활용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·예치",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·예치"
+    },
+    {
+      "id": "brk-card-096",
+      "subject": "brokerage_law",
+      "order": 96,
+      "type": "term",
+      "category": "공인중개사법·예치",
+      "title": "계약금등 예치",
+      "subtitle": "계약이행 완료 전까지 금융기관·공제사업자·신탁업자 등에 금전을 맡기는 것",
+      "bullets": [
+        "개업공인중개사는 거래당사자에게 예치를 권고할 수 있음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "예치"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·예치",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2023-34-second1-018",
+        "2024-35-2-1-012"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·예치"
+    },
+    {
+      "id": "brk-card-097",
+      "subject": "brokerage_law",
+      "order": 97,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "중개보수청구권",
+      "subtitle": "중개완성을 전제로 개업공인중개사가 보수를 청구할 권리",
+      "bullets": [
+        "중개계약에서 발생하지만 보수청구는 거래 성립과 연결되는 정지조건부 성격"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "중개보수"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 15,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-002",
+        "2022-33-second1-003",
+        "2022-33-second1-008",
+        "2022-33-second1-010",
+        "2022-33-second1-015",
+        "2022-33-second1-017",
+        "2022-33-second1-034",
+        "2022-33-second1-038",
+        "2023-34-second1-002",
+        "2023-34-second1-012"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-098",
+      "subject": "brokerage_law",
+      "order": 98,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "중개보수 한도",
+      "subtitle": "법령·조례가 정한 상한 안에서 협의해 정하는 보수",
+      "bullets": [
+        "주택·오피스텔·그 밖의 부동산에 따라 상한 규율이 다름"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p12 + 국가법령정보센터 「공인중개사법 시행규칙」 제20조",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p12 + 국가법령정보센터 「공인중개사법 시행규칙」 제20조"
+    },
+    {
+      "id": "brk-card-099",
+      "subject": "brokerage_law",
+      "order": 99,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "주택 중개보수",
+      "subtitle": "주택 매매·교환·임대차 등에 적용되는 보수 체계",
+      "bullets": [
+        "국토교통부령의 범위 안에서 시·도 조례로 상한요율을 정함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-100",
+      "subject": "brokerage_law",
+      "order": 100,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "주택 외 부동산 중개보수",
+      "subtitle": "주택·특정 오피스텔 외 부동산의 보수",
+      "bullets": [
+        "법정 상한요율 이내에서 의뢰인과 개업공인중개사가 협의"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-101",
+      "subject": "brokerage_law",
+      "order": 101,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "오피스텔 중개보수",
+      "subtitle": "법정 요건을 갖춘 오피스텔에 적용되는 별도 보수 상한",
+      "bullets": [
+        "전용면적·시설 요건을 충족하는 오피스텔은 별도 상한요율 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-102",
+      "subject": "brokerage_law",
+      "order": 102,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "중개보수 거래금액",
+      "subtitle": "보수 산정의 기준이 되는 거래금액",
+      "bullets": [
+        "매매대금·임대차 보증금 및 월차임 환산액 등 거래유형별 기준"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-103",
+      "subject": "brokerage_law",
+      "order": 103,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "월세 환산거래금액",
+      "subtitle": "월차임이 있는 임대차의 중개보수 기준금액 산정",
+      "bullets": [
+        "보증금과 월차임을 법정 방식으로 환산해 거래금액을 계산"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-104",
+      "subject": "brokerage_law",
+      "order": 104,
+      "type": "term",
+      "category": "공인중개사법·보수",
+      "title": "실비",
+      "subtitle": "권리관계 확인·계약금 반환채무 이행보장 등에 실제 든 비용",
+      "bullets": [
+        "중개보수와 별도로 법정 범위에서 청구할 수 있는 비용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 12,
+      "sourceSection": "공인중개사법·보수",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2022,
+        2024
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-017",
+        "2022-33-second1-038",
+        "2024-35-2-1-015"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p12 · 공인중개사법·보수"
+    },
+    {
+      "id": "brk-card-105",
+      "subject": "brokerage_law",
+      "order": 105,
+      "type": "term",
+      "category": "공인중개사법·교육",
+      "title": "실무교육",
+      "subtitle": "개설등록 신청자·소속공인중개사 등에게 요구되는 실무 중심 교육",
+      "bullets": [
+        "현행 시행령상 실무교육 시간은 45시간"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary+official",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·교육",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p13 + 국가법령정보센터 「공인중개사법 시행령」 제28조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 7,
+      "examYears": [
+        2021,
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-027",
+        "2023-34-second1-005",
+        "2023-34-second1-007",
+        "2023-34-second1-008",
+        "2023-34-second1-017",
+        "2024-35-2-1-004",
+        "2024-35-2-1-008"
+      ],
+      "importance": 4,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p13 + 국가법령정보센터 「공인중개사법 시행령」 제28조"
+    },
+    {
+      "id": "brk-card-106",
+      "subject": "brokerage_law",
+      "order": 106,
+      "type": "term",
+      "category": "공인중개사법·교육",
+      "title": "직무교육",
+      "subtitle": "중개보조원이 고용 신고 전에 받아야 하는 교육",
+      "bullets": [
+        "중개보조원 직업윤리·기본 직무를 위한 법정 교육"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·교육",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2021
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-007"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 공인중개사법·교육"
+    },
+    {
+      "id": "brk-card-107",
+      "subject": "brokerage_law",
+      "order": 107,
+      "type": "term",
+      "category": "공인중개사법·교육",
+      "title": "연수교육",
+      "subtitle": "실무교육을 받은 개업공인중개사·소속공인중개사의 정기교육",
+      "bullets": [
+        "실무교육 후 2년마다 받는 정기교육"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·교육",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-031",
+        "2023-34-second1-017",
+        "2023-34-second1-019",
+        "2024-35-2-1-004"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 공인중개사법·교육"
+    },
+    {
+      "id": "brk-card-108",
+      "subject": "brokerage_law",
+      "order": 108,
+      "type": "term",
+      "category": "공인중개사법·교육",
+      "title": "부동산 거래사고 예방교육",
+      "subtitle": "거래사고 예방을 위해 실시할 수 있는 별도 교육",
+      "bullets": [
+        "국토교통부장관·시도지사·등록관청이 법정 대상자에게 실시 가능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·교육",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 공인중개사법·교육"
+    },
+    {
+      "id": "brk-card-109",
+      "subject": "brokerage_law",
+      "order": 109,
+      "type": "term",
+      "category": "공인중개사법·보칙",
+      "title": "포상금",
+      "subtitle": "불법 중개행위를 신고·고발한 사람에게 지급하는 금전",
+      "bullets": [
+        "무등록 중개업·부정등록·자격증 또는 등록증 대여 등 법정 신고대상이 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·보칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-028",
+        "2021-32-second1-032",
+        "2022-33-second1-020",
+        "2023-34-second1-035",
+        "2025-36-second1-021"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 공인중개사법·보칙"
+    },
+    {
+      "id": "brk-card-110",
+      "subject": "brokerage_law",
+      "order": 110,
+      "type": "term",
+      "category": "공인중개사법·보칙",
+      "title": "포상금 지급요건",
+      "subtitle": "신고·고발 시점과 수사처분 등 포상금 수령 요건",
+      "bullets": [
+        "행정기관 적발 전 신고·고발 및 검사의 공소제기·기소유예 등 법정 요건을 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·보칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 공인중개사법·보칙"
+    },
+    {
+      "id": "brk-card-111",
+      "subject": "brokerage_law",
+      "order": 111,
+      "type": "term",
+      "category": "공인중개사법·보칙",
+      "title": "행정수수료",
+      "subtitle": "자격시험·자격증 재교부·개설등록 등 행정절차에 부과되는 수수료",
+      "bullets": [
+        "조례·국토교통부장관 공고·위탁기관 결정 등 부과주체를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "공인중개사법·보칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 공인중개사법·보칙"
+    },
+    {
+      "id": "brk-card-112",
+      "subject": "brokerage_law",
+      "order": 112,
+      "type": "term",
+      "category": "행정법 기본어",
+      "title": "허가",
+      "subtitle": "일반적 금지를 특정 요건 아래 해제하는 행정행위",
+      "bullets": [
+        "토지거래허가 등 중개실무에서 반복되는 기본 개념"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "행정법 기본어",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 27,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-012",
+        "2021-32-second1-020",
+        "2021-32-second1-032",
+        "2021-32-second1-037",
+        "2021-32-second1-038",
+        "2021-32-second1-039",
+        "2021-32-second1-040",
+        "2022-33-second1-006",
+        "2022-33-second1-007",
+        "2022-33-second1-022"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 행정법 기본어"
+    },
+    {
+      "id": "brk-card-113",
+      "subject": "brokerage_law",
+      "order": 113,
+      "type": "term",
+      "category": "행정법 기본어",
+      "title": "인가",
+      "subtitle": "사인의 법률행위를 보충해 효력을 완성시키는 행정행위",
+      "bullets": [
+        "정관 인가 등에서 허가와 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 13,
+      "sourceSection": "행정법 기본어",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2022,
+        2024
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-028",
+        "2024-35-2-1-028"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p13 · 행정법 기본어"
+    },
+    {
+      "id": "brk-card-114",
+      "subject": "brokerage_law",
+      "order": 114,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "한국공인중개사협회",
+      "subtitle": "2026년 개정법에 따라 법률로 설립되는 공인중개사 협회",
+      "bullets": [
+        "개업공인중개사의 자질향상·품위유지·제도개선 업무를 위해 설립",
+        "2026년 8월 28일부터 현행 명칭·체계 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "공인중개사협회",
+        "협회"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제41조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 10,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-007",
+        "2021-32-second1-027",
+        "2022-33-second1-016",
+        "2023-34-second1-025",
+        "2024-35-2-1-005",
+        "2024-35-2-1-009",
+        "2024-35-2-1-012",
+        "2024-35-2-1-018",
+        "2024-35-2-1-021",
+        "2025-36-second1-019"
+      ],
+      "importance": 5,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제41조"
+    },
+    {
+      "id": "brk-card-115",
+      "subject": "brokerage_law",
+      "order": 115,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "협회 정관 인가",
+      "subtitle": "한국공인중개사협회 정관 제정·변경에 필요한 국토교통부장관 인가",
+      "bullets": [
+        "2026년 현행법 기준 정관 제정·변경 모두 인가 대상"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제41조 제2항",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제41조 제2항"
+    },
+    {
+      "id": "brk-card-116",
+      "subject": "brokerage_law",
+      "order": 116,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "협회 중앙회·시도회·지회",
+      "subtitle": "한국공인중개사협회의 지역 조직 체계",
+      "bullets": [
+        "중앙회, 시·도회, 시·군·구 지회 구조를 둘 수 있음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제41조 제4항",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제41조 제4항"
+    },
+    {
+      "id": "brk-card-117",
+      "subject": "brokerage_law",
+      "order": 117,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "협회 총회",
+      "subtitle": "한국공인중개사협회의 의사결정기관",
+      "bullets": [
+        "현행법은 협회에 총회를 두고 구성 등은 정관에 위임"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 제41조의2",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 제41조의2"
+    },
+    {
+      "id": "brk-card-118",
+      "subject": "brokerage_law",
+      "order": 118,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "공제사업",
+      "subtitle": "개업공인중개사의 손해배상책임을 보장하는 협회의 사업",
+      "bullets": [
+        "공제기금 조성·공제금 지급 등 손해배상 보장 기능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 14,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 6,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-027",
+        "2022-33-second1-016",
+        "2023-34-second1-025",
+        "2024-35-2-1-012",
+        "2024-35-2-1-018",
+        "2025-36-second1-019"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p14 · 공인중개사법·협회"
+    },
+    {
+      "id": "brk-card-119",
+      "subject": "brokerage_law",
+      "order": 119,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "공제규정",
+      "subtitle": "공제사업 운영을 위한 협회의 규정",
+      "bullets": [
+        "제정·변경 시 국토교통부장관 승인 등 법정 절차를 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 14,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-016",
+        "2023-34-second1-025",
+        "2025-36-second1-019"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p14 · 공인중개사법·협회"
+    },
+    {
+      "id": "brk-card-120",
+      "subject": "brokerage_law",
+      "order": 120,
+      "type": "term",
+      "category": "공인중개사법·협회",
+      "title": "책임준비금",
+      "subtitle": "공제금 지급 능력을 확보하기 위해 적립하는 준비금",
+      "bullets": [
+        "공제사업 건전성 확보를 위한 적립금"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 14,
+      "sourceSection": "공인중개사법·협회",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-027",
+        "2022-33-second1-016",
+        "2023-34-second1-025",
+        "2025-36-second1-019"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p14 · 공인중개사법·협회"
+    },
+    {
+      "id": "brk-card-121",
+      "subject": "brokerage_law",
+      "order": 121,
+      "type": "term",
+      "category": "공인중개사법·행정처분",
+      "title": "등록취소",
+      "subtitle": "개업공인중개사의 개설등록을 없애는 행정처분",
+      "bullets": [
+        "반드시 취소해야 하는 사유와 취소할 수 있는 사유를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·행정처분",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2022,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-018",
+        "2025-36-second1-027"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·행정처분"
+    },
+    {
+      "id": "brk-card-122",
+      "subject": "brokerage_law",
+      "order": 122,
+      "type": "concept",
+      "category": "공인중개사법·행정처분",
+      "title": "절대적 등록취소",
+      "subtitle": "등록관청이 반드시 등록을 취소해야 하는 사유",
+      "bullets": [
+        "사망·해산, 부정등록, 이중등록, 등록증 대여 등 법정 사유가 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·행정처분",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·행정처분"
+    },
+    {
+      "id": "brk-card-123",
+      "subject": "brokerage_law",
+      "order": 123,
+      "type": "concept",
+      "category": "공인중개사법·행정처분",
+      "title": "임의적 등록취소",
+      "subtitle": "등록관청이 재량으로 등록을 취소할 수 있는 사유",
+      "bullets": [
+        "등록기준 미달·겸업위반·금지행위 등 법정 사유에서 문제됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·행정처분",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·행정처분"
+    },
+    {
+      "id": "brk-card-124",
+      "subject": "brokerage_law",
+      "order": 124,
+      "type": "term",
+      "category": "공인중개사법·행정처분",
+      "title": "업무정지",
+      "subtitle": "개업공인중개사의 영업을 일정 기간 정지시키는 행정처분",
+      "bullets": [
+        "인장·서류·정보망 등 법정 의무 위반 시 업무정지 가능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·행정처분",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 14,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-021",
+        "2021-32-second1-024",
+        "2021-32-second1-029",
+        "2022-33-second1-008",
+        "2022-33-second1-013",
+        "2022-33-second1-018",
+        "2023-34-second1-009",
+        "2023-34-second1-011",
+        "2023-34-second1-015",
+        "2023-34-second1-023"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·행정처분"
+    },
+    {
+      "id": "brk-card-125",
+      "subject": "brokerage_law",
+      "order": 125,
+      "type": "term",
+      "category": "공인중개사법·행정처분",
+      "title": "폐업 후 행정처분 승계",
+      "subtitle": "폐업 전 위반행위가 재등록 후 일정 범위에서 이어지는 제도",
+      "bullets": [
+        "폐업으로 종전 위반행위의 행정책임을 무조건 피할 수 없음"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·행정처분",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·행정처분"
+    },
+    {
+      "id": "brk-card-126",
+      "subject": "brokerage_law",
+      "order": 126,
+      "type": "term",
+      "category": "공인중개사법·벌칙",
+      "title": "행정형벌",
+      "subtitle": "징역·벌금처럼 법원이 부과하는 형사제재",
+      "bullets": [
+        "무등록중개업·직접거래·쌍방대리 등 중대한 위반행위와 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·벌칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·벌칙"
+    },
+    {
+      "id": "brk-card-127",
+      "subject": "brokerage_law",
+      "order": 127,
+      "type": "term",
+      "category": "공인중개사법·벌칙",
+      "title": "행정질서벌",
+      "subtitle": "과태료처럼 행정법상 의무 위반에 부과되는 제재",
+      "bullets": [
+        "형사벌과 달리 과태료 부과주체와 대상행위를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 15,
+      "sourceSection": "공인중개사법·벌칙",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p15 · 공인중개사법·벌칙"
+    },
+    {
+      "id": "brk-card-128",
+      "subject": "brokerage_law",
+      "order": 128,
+      "type": "term",
+      "category": "공인중개사법·벌칙",
+      "title": "부동산거래질서교란행위 신고센터",
+      "subtitle": "거래질서를 해치는 행위를 신고받는 제도",
+      "bullets": [
+        "누구든지 법정 거래질서교란행위를 발견하면 신고센터에 신고 가능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "신고센터"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "공인중개사법·벌칙",
+      "sourceRef": "국가법령정보센터 「공인중개사법」 부동산거래질서교란행위 신고센터 관련 조문",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-022"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「공인중개사법」 부동산거래질서교란행위 신고센터 관련 조문"
+    },
+    {
+      "id": "brk-card-129",
+      "subject": "brokerage_law",
+      "order": 129,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "부동산 거래신고",
+      "subtitle": "부동산 매매 등 법정 계약의 실제 거래정보를 신고관청에 신고하는 제도",
+      "bullets": [
+        "거래가격 투명성 확보를 위한 실거래 신고제도"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "부동산거래신고",
+        "거래신고"
+      ],
+      "sourceKind": "summary+official",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p16 + 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제3조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 40,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-020",
+        "2021-32-second1-032",
+        "2021-32-second1-034",
+        "2021-32-second1-035",
+        "2021-32-second1-037",
+        "2021-32-second1-038",
+        "2021-32-second1-039",
+        "2021-32-second1-040",
+        "2022-33-second1-007",
+        "2022-33-second1-022"
+      ],
+      "importance": 5,
+      "sourceLabel": "3.공인중개사요약_중개사법.pdf p16 + 국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제3조"
+    },
+    {
+      "id": "brk-card-130",
+      "subject": "brokerage_law",
+      "order": 130,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 대상",
+      "subtitle": "토지·건축물 및 법정 분양권·입주권 등의 매매계약",
+      "bullets": [
+        "법에서 정한 부동산등의 매매계약이 신고대상"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-131",
+      "subject": "brokerage_law",
+      "order": 131,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 의무자",
+      "subtitle": "부동산 거래신고를 해야 하는 법정 주체",
+      "bullets": [
+        "직거래는 원칙적으로 거래당사자가 공동신고"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-132",
+      "subject": "brokerage_law",
+      "order": 132,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "중개거래 신고의무자",
+      "subtitle": "개업공인중개사가 중개한 거래의 신고주체",
+      "bullets": [
+        "개업공인중개사가 중개한 경우에는 개업공인중개사가 신고"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-133",
+      "subject": "brokerage_law",
+      "order": 133,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 30일",
+      "subtitle": "부동산 거래계약 체결일부터 적용되는 현행 신고기한",
+      "bullets": [
+        "현행 신고기한은 거래계약 체결일부터 30일 이내",
+        "요약집의 과거 신고기한 대신 현행 법정기한을 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "신고기한",
+        "30일 이내"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제3조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2024-35-2-1-005",
+        "2024-35-2-1-025",
+        "2025-36-second1-037",
+        "2025-36-second1-039"
+      ],
+      "importance": 3,
+      "sourceLabel": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제3조"
+    },
+    {
+      "id": "brk-card-134",
+      "subject": "brokerage_law",
+      "order": 134,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 관청",
+      "subtitle": "부동산 소재지를 관할하는 시장·군수·구청장",
+      "bullets": [
+        "중개사무소 소재지가 아니라 거래 부동산 소재지가 기준"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-135",
+      "subject": "brokerage_law",
+      "order": 135,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 내용",
+      "subtitle": "거래당사자·부동산·계약일·가격·지급일 등 신고사항",
+      "bullets": [
+        "중개거래이면 개업공인중개사 정보도 신고사항에 포함"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-136",
+      "subject": "brokerage_law",
+      "order": 136,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 단독신고",
+      "subtitle": "상대방이 신고를 거부하는 경우 일방이 하는 신고",
+      "bullets": [
+        "법정 사유와 절차를 갖춰 공동신고의 예외로 단독신고 가능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-137",
+      "subject": "brokerage_law",
+      "order": 137,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 대행",
+      "subtitle": "신고의무자의 위임을 받은 자가 신고절차를 대신하는 것",
+      "bullets": [
+        "전자신고와 소속공인중개사의 대행 등 절차를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-138",
+      "subject": "brokerage_law",
+      "order": 138,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 정정신청",
+      "subtitle": "이미 신고한 내용이 잘못된 경우 바로잡는 절차",
+      "bullets": [
+        "정정 대상과 변경신고를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-139",
+      "subject": "brokerage_law",
+      "order": 139,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 변경신고",
+      "subtitle": "신고 후 계약내용이 법정 범위에서 변경된 경우 하는 신고",
+      "bullets": [
+        "잘못 기재한 정정과 사후 내용변경을 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-140",
+      "subject": "brokerage_law",
+      "order": 140,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래계약 해제등 신고",
+      "subtitle": "거래가 무효·취소·해제된 경우 그 사실을 신고하는 절차",
+      "bullets": [
+        "원계약 신고 이후 계약소멸 사실을 신고"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-141",
+      "subject": "brokerage_law",
+      "order": 141,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래가격검증체계",
+      "subtitle": "신고된 부동산 거래가격의 적정성을 검증하는 시스템",
+      "bullets": [
+        "공시가격·가격정보 등을 활용해 신고가격을 검증"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-142",
+      "subject": "brokerage_law",
+      "order": 142,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "거래신고 조사",
+      "subtitle": "신고내용의 사실 여부를 확인하기 위한 자료제출 요구·조사",
+      "bullets": [
+        "신고관청의 조사권과 거래대금 지급증명자료 제출의무가 문제됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·신고"
+    },
+    {
+      "id": "brk-card-143",
+      "subject": "brokerage_law",
+      "order": 143,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "자금조달·입주계획서",
+      "subtitle": "법정 주택거래 등에서 추가로 제출하는 자금조달·입주 계획자료",
+      "bullets": [
+        "법정 대상 거래에서 거래신고와 함께 또는 법정 기한 내 별도 제출"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "자금조달계획서",
+        "입주계획서"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "국가법령정보센터 「부동산 거래신고 등에 관한 법률 시행규칙」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「부동산 거래신고 등에 관한 법률 시행규칙」 제2조"
+    },
+    {
+      "id": "brk-card-144",
+      "subject": "brokerage_law",
+      "order": 144,
+      "type": "term",
+      "category": "부동산거래신고법·신고",
+      "title": "법인 주택거래 추가신고",
+      "subtitle": "법인이 주택을 거래할 때 요구되는 추가 신고사항",
+      "bullets": [
+        "법인 정보·거래목적 등 시행규칙상 추가 신고내용을 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "법인신고서"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "부동산거래신고법·신고",
+      "sourceRef": "국가법령정보센터 「부동산 거래신고 등에 관한 법률 시행규칙」 제2조",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「부동산 거래신고 등에 관한 법률 시행규칙」 제2조"
+    },
+    {
+      "id": "brk-card-145",
+      "subject": "brokerage_law",
+      "order": 145,
+      "type": "term",
+      "category": "부동산거래신고법·임대차신고",
+      "title": "주택 임대차 계약 신고",
+      "subtitle": "법정 대상 주택 임대차 계약의 신고제도",
+      "bullets": [
+        "보증금·차임 등 법정 기준에 해당하는 임대차 계약을 신고"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "전월세 신고",
+        "임대차 신고"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "부동산거래신고법·임대차신고",
+      "sourceRef": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 주택 임대차 계약 신고 조문",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 주택 임대차 계약 신고 조문"
+    },
+    {
+      "id": "brk-card-146",
+      "subject": "brokerage_law",
+      "order": 146,
+      "type": "term",
+      "category": "부동산거래신고법·외국인",
+      "title": "외국인등 부동산 취득신고",
+      "subtitle": "외국인등이 국내 부동산등을 취득한 경우의 신고",
+      "bullets": [
+        "계약에 의한 취득과 계약 외 취득의 신고기준을 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "외국인"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 16,
+      "sourceSection": "부동산거래신고법·외국인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 11,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-020",
+        "2021-32-second1-037",
+        "2022-33-second1-007",
+        "2022-33-second1-024",
+        "2022-33-second1-027",
+        "2022-33-second1-039",
+        "2023-34-second1-007",
+        "2023-34-second1-033",
+        "2024-35-2-1-026",
+        "2024-35-2-1-027"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p16 · 부동산거래신고법·외국인"
+    },
+    {
+      "id": "brk-card-147",
+      "subject": "brokerage_law",
+      "order": 147,
+      "type": "term",
+      "category": "부동산거래신고법·토지허가",
+      "title": "토지거래허가구역",
+      "subtitle": "투기적 토지거래를 억제하기 위해 지정하는 구역",
+      "bullets": [
+        "법정 지정권자가 일정 기간 구역을 지정하고 허가제를 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "토지거래허가"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 20,
+      "sourceSection": "부동산거래신고법·토지허가",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 12,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-020",
+        "2021-32-second1-039",
+        "2021-32-second1-040",
+        "2022-33-second1-007",
+        "2022-33-second1-024",
+        "2022-33-second1-026",
+        "2022-33-second1-028",
+        "2023-34-second1-034",
+        "2023-34-second1-039",
+        "2024-35-2-1-022"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p20 · 부동산거래신고법·토지허가"
+    },
+    {
+      "id": "brk-card-148",
+      "subject": "brokerage_law",
+      "order": 148,
+      "type": "term",
+      "category": "부동산거래신고법·토지허가",
+      "title": "토지거래계약 허가",
+      "subtitle": "허가구역 안 일정 토지의 소유권·지상권 거래 등에 필요한 사전허가",
+      "bullets": [
+        "허가대상 계약과 증여·상속·경매 등 비허가 유형을 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "토지거래허가"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 20,
+      "sourceSection": "부동산거래신고법·토지허가",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 13,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-020",
+        "2021-32-second1-038",
+        "2021-32-second1-039",
+        "2021-32-second1-040",
+        "2022-33-second1-007",
+        "2022-33-second1-024",
+        "2022-33-second1-026",
+        "2022-33-second1-028",
+        "2023-34-second1-034",
+        "2023-34-second1-039"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p20 · 부동산거래신고법·토지허가"
+    },
+    {
+      "id": "brk-card-149",
+      "subject": "brokerage_law",
+      "order": 149,
+      "type": "term",
+      "category": "부동산거래신고법·토지허가",
+      "title": "토지 이용의무",
+      "subtitle": "허가받은 목적대로 토지를 일정 기간 이용해야 하는 의무",
+      "bullets": [
+        "허가받은 자는 법정 기간 동안 허가 목적에 맞게 토지를 이용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "부동산거래신고법·토지허가",
+      "sourceRef": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제17조",
+      "sourceNote": "",
+      "basis": [
+        "essential"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 1,
+      "sourceLabel": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제17조"
+    },
+    {
+      "id": "brk-card-150",
+      "subject": "brokerage_law",
+      "order": 150,
+      "type": "term",
+      "category": "부동산거래신고법·토지허가",
+      "title": "토지이용 의무 이행강제금",
+      "subtitle": "허가 목적대로 이용하지 않을 때 부과할 수 있는 금전 제재",
+      "bullets": [
+        "이행명령 불이행 시 취득가액의 법정 범위에서 반복 부과 가능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "이행강제금"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "부동산거래신고법·토지허가",
+      "sourceRef": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제18조",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 6,
+      "examYears": [
+        2021,
+        2022,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-038",
+        "2021-32-second1-039",
+        "2022-33-second1-025",
+        "2022-33-second1-028",
+        "2025-36-second1-028",
+        "2025-36-second1-037"
+      ],
+      "importance": 4,
+      "sourceLabel": "국가법령정보센터 「부동산 거래신고 등에 관한 법률」 제18조"
+    },
+    {
+      "id": "brk-card-151",
+      "subject": "brokerage_law",
+      "order": 151,
+      "type": "term",
+      "category": "중개실무·총설",
+      "title": "중개실무 과정",
+      "subtitle": "의뢰접수부터 계약이행까지 이어지는 중개업무 흐름",
+      "bullets": [
+        "의뢰접수 → 활동계획 → 조사확인 → 판매활동 → 중개완성 → 이행업무"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 17,
+      "sourceSection": "중개실무·총설",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p17 · 중개실무·총설"
+    },
+    {
+      "id": "brk-card-152",
+      "subject": "brokerage_law",
+      "order": 152,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "등기사항증명서",
+      "subtitle": "부동산의 표시와 등기된 권리관계를 확인하는 공부",
+      "bullets": [
+        "갑구·을구 권리와 순위관계 확인에 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2021,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-004",
+        "2024-35-2-1-031"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-153",
+      "subject": "brokerage_law",
+      "order": 153,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "토지대장·임야대장",
+      "subtitle": "토지의 소재·지번·지목·면적 등을 확인하는 공부",
+      "bullets": [
+        "토지의 물적 현황과 공시지가 등 기본정보 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "토지대장",
+        "임야대장"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-154",
+      "subject": "brokerage_law",
+      "order": 154,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "건축물대장",
+      "subtitle": "건축물의 구조·용도·면적·사용승인 등 현황을 확인하는 공부",
+      "bullets": [
+        "위반건축물 여부와 실제 현황 일치 여부 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2021,
+        2022,
+        2023
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-016",
+        "2022-33-second1-019",
+        "2023-34-second1-008"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-155",
+      "subject": "brokerage_law",
+      "order": 155,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "지적도·임야도",
+      "subtitle": "토지의 위치·경계·지형 등을 확인하는 도면",
+      "bullets": [
+        "토지 경계와 지적형태를 공부상 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "지적도",
+        "임야도"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-156",
+      "subject": "brokerage_law",
+      "order": 156,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "공유지연명부",
+      "subtitle": "공유자의 지분과 변동사항을 확인하는 공부",
+      "bullets": [
+        "공유 토지의 공유자별 지분 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-157",
+      "subject": "brokerage_law",
+      "order": 157,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "대지권등록부",
+      "subtitle": "집합건물의 대지권 비율 등을 확인하는 공부",
+      "bullets": [
+        "전유부분과 대지권 관계를 조사할 때 사용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-158",
+      "subject": "brokerage_law",
+      "order": 158,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "토지이용계획확인서",
+      "subtitle": "용도지역·지구·구역과 행위제한·토지거래허가구역 등을 확인하는 서류",
+      "bullets": [
+        "공법상 이용제한과 거래규제를 확인하는 핵심 공부"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-159",
+      "subject": "brokerage_law",
+      "order": 159,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "부동산종합증명서",
+      "subtitle": "지적·건축·가격·등기 등 부동산 정보를 종합한 증명서",
+      "bullets": [
+        "다른 공부와의 내용 일치 여부 점검에 활용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-160",
+      "subject": "brokerage_law",
+      "order": 160,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "후견등기사항증명서",
+      "subtitle": "성년후견·한정후견 등 후견관계를 확인하는 서류",
+      "bullets": [
+        "거래당사자의 행위능력·대리권 확인에 활용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-161",
+      "subject": "brokerage_law",
+      "order": 161,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "임장활동",
+      "subtitle": "현장에 직접 나가 공부로 확인하기 어려운 사실을 조사하는 활동",
+      "bullets": [
+        "시설 상태·경계·환경·점유·법정지상권 징후 등을 현장에서 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-162",
+      "subject": "brokerage_law",
+      "order": 162,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "공부와 실제의 일치 확인",
+      "subtitle": "공적장부와 현실 현황이 같은지 대조하는 조사",
+      "bullets": [
+        "공부만 확인하는 것으로 끝나지 않고 현장상태를 대조"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 18,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p18 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-163",
+      "subject": "brokerage_law",
+      "order": 163,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "법정지상권 조사",
+      "subtitle": "등기부만으로 확인되지 않을 수 있는 법정지상권 성립 가능성 조사",
+      "bullets": [
+        "토지·건물 소유관계와 경매·처분 경위를 현장·자료로 종합 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "법정지상권"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 19,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2023
+      ],
+      "examSampleRefs": [
+        "2023-34-second1-026"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p19 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-164",
+      "subject": "brokerage_law",
+      "order": 164,
+      "type": "term",
+      "category": "중개실무·조사확인",
+      "title": "분묘기지권",
+      "subtitle": "타인 토지의 분묘기지를 사용할 수 있는 관습법상 권리",
+      "bullets": [
+        "등기 없이 성립할 수 있어 현장조사와 판례법리가 중요"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 19,
+      "sourceSection": "중개실무·조사확인",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-004",
+        "2022-33-second1-040",
+        "2023-34-second1-038",
+        "2024-35-2-1-039",
+        "2025-36-second1-032"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p19 · 중개실무·조사확인"
+    },
+    {
+      "id": "brk-card-165",
+      "subject": "brokerage_law",
+      "order": 165,
+      "type": "term",
+      "category": "중개실무·거래규제",
+      "title": "농지취득자격증명",
+      "subtitle": "농지 소유권 취득등기에서 요구되는 법정 증명",
+      "bullets": [
+        "농지 취득 원인과 용도에 따라 필요 여부를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 20,
+      "sourceSection": "중개실무·거래규제",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p20 · 중개실무·거래규제"
+    },
+    {
+      "id": "brk-card-166",
+      "subject": "brokerage_law",
+      "order": 166,
+      "type": "term",
+      "category": "중개실무·거래규제",
+      "title": "투기과열지구",
+      "subtitle": "주택가격 안정 등을 위해 지정되는 주택시장 규제지역",
+      "bullets": [
+        "분양권·입주권 전매제한 등 관련 규제를 중개 시 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 20,
+      "sourceSection": "중개실무·거래규제",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p20",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2021,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-034",
+        "2024-35-2-1-025"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p20 · 중개실무·거래규제"
+    },
+    {
+      "id": "brk-card-167",
+      "subject": "brokerage_law",
+      "order": 167,
+      "type": "term",
+      "category": "중개실무·거래규제",
+      "title": "장사 등에 관한 법률",
+      "subtitle": "묘지·분묘의 설치·관리 등에 관한 중개실무 관련 법률",
+      "bullets": [
+        "묘지 설치·면적·신고·허가와 분묘기지권 관련 현장 확인에 연결"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "장사 등에 관한 법령"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 19,
+      "sourceSection": "중개실무·거래규제",
+      "sourceRef": "3.공인중개사요약_중개사법.pdf p19",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-040",
+        "2023-34-second1-030",
+        "2023-34-second1-038",
+        "2024-35-2-1-040",
+        "2025-36-second1-039"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p19 · 중개실무·거래규제"
+    },
+    {
+      "id": "brk-card-168",
+      "subject": "brokerage_law",
+      "order": 168,
+      "type": "term",
+      "category": "중개실무·판매활동",
+      "title": "AIDA 원리",
+      "subtitle": "주목→흥미→욕망→행동의 판매활동 단계",
+      "bullets": [
+        "Attention → Interest → Desire → Action"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "AIDA"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 22,
+      "sourceSection": "중개실무·판매활동",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p22 · 중개실무·판매활동"
+    },
+    {
+      "id": "brk-card-169",
+      "subject": "brokerage_law",
+      "order": 169,
+      "type": "term",
+      "category": "중개실무·판매활동",
+      "title": "셀링 포인트",
+      "subtitle": "중개대상물의 구매동기를 자극하는 핵심 장점",
+      "bullets": [
+        "법률적·경제적·기술적·사회환경적·정책적 측면에서 분석"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 22,
+      "sourceSection": "중개실무·판매활동",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p22 · 중개실무·판매활동"
+    },
+    {
+      "id": "brk-card-170",
+      "subject": "brokerage_law",
+      "order": 170,
+      "type": "term",
+      "category": "중개실무·판매활동",
+      "title": "클로우징",
+      "subtitle": "고객의 의사결정을 이끌어 계약체결로 마무리하는 활동",
+      "bullets": [
+        "점진적 확인법·계약전제법 등 다양한 마무리 기법 사용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 22,
+      "sourceSection": "중개실무·판매활동",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p22 · 중개실무·판매활동"
+    },
+    {
+      "id": "brk-card-171",
+      "subject": "brokerage_law",
+      "order": 171,
+      "type": "term",
+      "category": "개별법·등기실무",
+      "title": "부동산등기 특별조치법",
+      "subtitle": "부동산 소유권등기 신청의무·검인 등을 규율하는 특별법",
+      "bullets": [
+        "소유권이전등기 신청기한과 미등기전매·검인제도가 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 24,
+      "sourceSection": "개별법·등기실무",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-023",
+        "2024-35-2-1-025",
+        "2025-36-second1-024"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p24 · 개별법·등기실무"
+    },
+    {
+      "id": "brk-card-172",
+      "subject": "brokerage_law",
+      "order": 172,
+      "type": "term",
+      "category": "개별법·등기실무",
+      "title": "소유권이전등기 신청의무",
+      "subtitle": "계약 이행 후 법정 기간 안에 이전등기를 신청하는 의무",
+      "bullets": [
+        "매매·교환 등 계약유형에 따라 기산점을 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 24,
+      "sourceSection": "개별법·등기실무",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p24 · 개별법·등기실무"
+    },
+    {
+      "id": "brk-card-173",
+      "subject": "brokerage_law",
+      "order": 173,
+      "type": "term",
+      "category": "개별법·등기실무",
+      "title": "미등기전매",
+      "subtitle": "자기 앞으로 이전등기하지 않고 다시 양도하는 거래",
+      "bullets": [
+        "법정 의무와 조세·규제 회피 목적 여부에 따라 제재가 문제됨"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 24,
+      "sourceSection": "개별법·등기실무",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p24 · 개별법·등기실무"
+    },
+    {
+      "id": "brk-card-174",
+      "subject": "brokerage_law",
+      "order": 174,
+      "type": "term",
+      "category": "개별법·등기실무",
+      "title": "검인제도",
+      "subtitle": "소유권이전등기 원인서면의 형식적 요건을 확인받는 제도",
+      "bullets": [
+        "검인 대상 계약서와 부동산거래신고·토지거래허가로 갈음되는 경우를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "검인"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 24,
+      "sourceSection": "개별법·등기실무",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-023",
+        "2024-35-2-1-025",
+        "2025-36-second1-024"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p24 · 개별법·등기실무"
+    },
+    {
+      "id": "brk-card-175",
+      "subject": "brokerage_law",
+      "order": 175,
+      "type": "term",
+      "category": "개별법·실명법",
+      "title": "부동산실명법",
+      "subtitle": "부동산 물권을 실권리자 명의로 등기하도록 하는 특별법",
+      "bullets": [
+        "명의신탁 금지와 실명등기의무·과징금·이행강제금 등을 규율"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "부동산 실권리자명의 등기에 관한 법률"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 25,
+      "sourceSection": "개별법·실명법",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2022
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-029"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p25 · 개별법·실명법"
+    },
+    {
+      "id": "brk-card-176",
+      "subject": "brokerage_law",
+      "order": 176,
+      "type": "term",
+      "category": "개별법·실명법",
+      "title": "명의신탁약정",
+      "subtitle": "실권리자와 등기명의자를 다르게 하기로 하는 약정",
+      "bullets": [
+        "부동산실명법상 원칙적으로 무효이며 제3자 보호규정이 적용"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "명의신탁"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 25,
+      "sourceSection": "개별법·실명법",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-003",
+        "2022-33-second1-029",
+        "2023-34-second1-040",
+        "2025-36-second1-037"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p25 · 개별법·실명법"
+    },
+    {
+      "id": "brk-card-177",
+      "subject": "brokerage_law",
+      "order": 177,
+      "type": "term",
+      "category": "개별법·실명법",
+      "title": "실명등기의무",
+      "subtitle": "부동산 물권을 실제 권리자 명의로 등기할 의무",
+      "bullets": [
+        "명의신탁·장기미등기 규제의 중심 원칙"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 25,
+      "sourceSection": "개별법·실명법",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p25 · 개별법·실명법"
+    },
+    {
+      "id": "brk-card-178",
+      "subject": "brokerage_law",
+      "order": 178,
+      "type": "term",
+      "category": "개별법·실명법",
+      "title": "명의신탁 과징금",
+      "subtitle": "실명법 위반 명의신탁자에게 부과되는 행정상 금전제재",
+      "bullets": [
+        "명의수탁자와 명의신탁자의 제재 구조를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 25,
+      "sourceSection": "개별법·실명법",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p25 · 개별법·실명법"
+    },
+    {
+      "id": "brk-card-179",
+      "subject": "brokerage_law",
+      "order": 179,
+      "type": "term",
+      "category": "개별법·실명법",
+      "title": "실명등기 이행강제금",
+      "subtitle": "과징금 후에도 실명등기를 하지 않을 때 추가 부과되는 제재",
+      "bullets": [
+        "실명등기 이행을 강제하기 위한 반복적 금전제재"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 25,
+      "sourceSection": "개별법·실명법",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p25 · 개별법·실명법"
+    },
+    {
+      "id": "brk-card-180",
+      "subject": "brokerage_law",
+      "order": 180,
+      "type": "term",
+      "category": "개별법·주택임대차",
+      "title": "주택임대차보호법",
+      "subtitle": "주거용 건물 임차인을 보호하는 특별법",
+      "bullets": [
+        "대항력·우선변제·계약갱신·임차권등기명령 등이 중개실무 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 26,
+      "sourceSection": "개별법·주택임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 10,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-022",
+        "2021-32-second1-035",
+        "2022-33-second1-032",
+        "2023-34-second1-029",
+        "2023-34-second1-037",
+        "2024-35-2-1-029",
+        "2024-35-2-1-034",
+        "2024-35-2-1-037",
+        "2025-36-second1-030",
+        "2025-36-second1-040"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p26 · 개별법·주택임대차"
+    },
+    {
+      "id": "brk-card-181",
+      "subject": "brokerage_law",
+      "order": 181,
+      "type": "term",
+      "category": "개별법·주택임대차",
+      "title": "주택 임대차 대항력",
+      "subtitle": "주택 인도와 주민등록을 갖춘 임차인이 제3자에게 임차권을 주장하는 효력",
+      "bullets": [
+        "요건을 갖춘 다음 날부터 대항력이 발생"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "대항력"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 26,
+      "sourceSection": "개별법·주택임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-032",
+        "2024-35-2-1-029",
+        "2024-35-2-1-034",
+        "2024-35-2-1-038",
+        "2025-36-second1-040"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p26 · 개별법·주택임대차"
+    },
+    {
+      "id": "brk-card-182",
+      "subject": "brokerage_law",
+      "order": 182,
+      "type": "term",
+      "category": "개별법·주택임대차",
+      "title": "주택 우선변제권",
+      "subtitle": "대항요건과 확정일자를 갖춘 임차인의 우선배당 권리",
+      "bullets": [
+        "경매·공매 환가대금에서 후순위권리자보다 우선해 보증금 변제"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "우선변제권",
+        "확정일자"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 26,
+      "sourceSection": "개별법·주택임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 5,
+      "examYears": [
+        2022,
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-032",
+        "2023-34-second1-029",
+        "2024-35-2-1-029",
+        "2024-35-2-1-034",
+        "2024-35-2-1-038"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p26 · 개별법·주택임대차"
+    },
+    {
+      "id": "brk-card-183",
+      "subject": "brokerage_law",
+      "order": 183,
+      "type": "term",
+      "category": "개별법·주택임대차",
+      "title": "주택 최우선변제권",
+      "subtitle": "소액임차인의 보증금 중 일정액을 다른 담보권자보다 먼저 받는 권리",
+      "bullets": [
+        "금액기준은 개정될 수 있어 카드에는 구조만 유지"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "최우선변제권"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 26,
+      "sourceSection": "개별법·주택임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2024
+      ],
+      "examSampleRefs": [
+        "2024-35-2-1-029",
+        "2024-35-2-1-034"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p26 · 개별법·주택임대차"
+    },
+    {
+      "id": "brk-card-184",
+      "subject": "brokerage_law",
+      "order": 184,
+      "type": "term",
+      "category": "개별법·주택임대차",
+      "title": "주택 임차권등기명령",
+      "subtitle": "임대차 종료 후 보증금 미반환 시 임차권등기를 신청하는 제도",
+      "bullets": [
+        "이사 후에도 기존 대항력·우선변제권을 보전하는 기능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "임차권등기명령"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 26,
+      "sourceSection": "개별법·주택임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2022,
+        2024
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-032",
+        "2024-35-2-1-034"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p26 · 개별법·주택임대차"
+    },
+    {
+      "id": "brk-card-185",
+      "subject": "brokerage_law",
+      "order": 185,
+      "type": "term",
+      "category": "개별법·주택임대차",
+      "title": "주택 계약갱신요구권",
+      "subtitle": "주택임차인이 법정 요건에서 계약갱신을 요구할 수 있는 권리",
+      "bullets": [
+        "현행 주택임대차보호법의 계약갱신요구권 제도를 기준으로 학습"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "계약갱신요구권"
+      ],
+      "sourceKind": "official",
+      "sourcePage": 0,
+      "sourceSection": "개별법·주택임대차",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법」 제6조의3",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "essential"
+      ],
+      "examHitCount": 7,
+      "examYears": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-022",
+        "2022-33-second1-031",
+        "2022-33-second1-032",
+        "2024-35-2-1-037",
+        "2025-36-second1-033",
+        "2025-36-second1-038",
+        "2025-36-second1-040"
+      ],
+      "importance": 4,
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법」 제6조의3"
+    },
+    {
+      "id": "brk-card-186",
+      "subject": "brokerage_law",
+      "order": 186,
+      "type": "term",
+      "category": "개별법·상가임대차",
+      "title": "상가건물 임대차보호법",
+      "subtitle": "상가건물 임차인을 보호하는 특별법",
+      "bullets": [
+        "대항력·우선변제·계약갱신·권리금 회수기회 보호가 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 27,
+      "sourceSection": "개별법·상가임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-038"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p27 · 개별법·상가임대차"
+    },
+    {
+      "id": "brk-card-187",
+      "subject": "brokerage_law",
+      "order": 187,
+      "type": "term",
+      "category": "개별법·상가임대차",
+      "title": "상가 임대차 대항력",
+      "subtitle": "건물 인도와 사업자등록 신청으로 제3자에게 임차권을 주장하는 효력",
+      "bullets": [
+        "법정 요건을 갖춘 다음 날부터 대항력 발생"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "상가 대항력"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 27,
+      "sourceSection": "개별법·상가임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p27 · 개별법·상가임대차"
+    },
+    {
+      "id": "brk-card-188",
+      "subject": "brokerage_law",
+      "order": 188,
+      "type": "term",
+      "category": "개별법·상가임대차",
+      "title": "상가 우선변제권",
+      "subtitle": "대항요건과 확정일자를 갖춘 상가임차인의 우선배당 권리",
+      "bullets": [
+        "법 적용범위와 우선변제요건을 함께 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "상가임대차 우선변제권"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 27,
+      "sourceSection": "개별법·상가임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p27 · 개별법·상가임대차"
+    },
+    {
+      "id": "brk-card-189",
+      "subject": "brokerage_law",
+      "order": 189,
+      "type": "term",
+      "category": "개별법·상가임대차",
+      "title": "상가 계약갱신요구권",
+      "subtitle": "상가임차인이 법정 범위에서 갱신을 요구하는 권리",
+      "bullets": [
+        "갱신 거절사유와 행사 가능 범위를 현행법 기준으로 확인"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 27,
+      "sourceSection": "개별법·상가임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p27 · 개별법·상가임대차"
+    },
+    {
+      "id": "brk-card-190",
+      "subject": "brokerage_law",
+      "order": 190,
+      "type": "term",
+      "category": "개별법·상가임대차",
+      "title": "상가 권리금 회수기회 보호",
+      "subtitle": "임차인의 권리금 회수기회를 임대인이 부당하게 방해하지 못하게 하는 제도",
+      "bullets": [
+        "신규임차인 주선과 임대인의 방해행위 여부가 핵심"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "권리금"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 27,
+      "sourceSection": "개별법·상가임대차",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2022
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-031",
+        "2022-33-second1-037"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p27 · 개별법·상가임대차"
+    },
+    {
+      "id": "brk-card-191",
+      "subject": "brokerage_law",
+      "order": 191,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "경매",
+      "subtitle": "법원이 채무자의 재산을 강제로 매각해 채권을 만족시키는 절차",
+      "bullets": [
+        "강제경매와 담보권 실행을 위한 임의경매를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 11,
+      "examYears": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-007",
+        "2022-33-second1-030",
+        "2022-33-second1-032",
+        "2023-34-second1-032",
+        "2024-35-2-1-007",
+        "2024-35-2-1-029",
+        "2024-35-2-1-030",
+        "2024-35-2-1-038",
+        "2025-36-second1-036",
+        "2025-36-second1-038"
+      ],
+      "importance": 5,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-192",
+      "subject": "brokerage_law",
+      "order": 192,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "공매",
+      "subtitle": "세금 체납·공공자산 처분 등에서 행정기관·공공기관이 재산을 매각하는 절차",
+      "bullets": [
+        "법원 경매와 주체·절차를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 3,
+      "examYears": [
+        2021,
+        2022,
+        2024
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-010",
+        "2022-33-second1-010",
+        "2024-35-2-1-007"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-193",
+      "subject": "brokerage_law",
+      "order": 193,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "강제경매",
+      "subtitle": "집행권원에 기초해 일반채권자가 신청하는 경매",
+      "bullets": [
+        "담보권 실행 경매인 임의경매와 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2024
+      ],
+      "examSampleRefs": [
+        "2024-35-2-1-030"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-194",
+      "subject": "brokerage_law",
+      "order": 194,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "임의경매",
+      "subtitle": "저당권 등 담보권을 실행하기 위한 경매",
+      "bullets": [
+        "담보권자가 별도 집행권원 없이 담보권을 실행"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-195",
+      "subject": "brokerage_law",
+      "order": 195,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "배당요구",
+      "subtitle": "경매절차에서 배당받기 위해 법정 종기까지 채권을 신고·요구하는 절차",
+      "bullets": [
+        "임차인 등 배당요구가 필요한 권리자와 필요 없는 권리자를 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 4,
+      "examYears": [
+        2022,
+        2023,
+        2024
+      ],
+      "examSampleRefs": [
+        "2022-33-second1-030",
+        "2023-34-second1-032",
+        "2023-34-second1-037",
+        "2024-35-2-1-030"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-196",
+      "subject": "brokerage_law",
+      "order": 196,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "말소기준권리",
+      "subtitle": "경매에서 후순위 권리의 소멸 여부를 가르는 기준이 되는 권리",
+      "bullets": [
+        "기준권리보다 뒤의 권리는 원칙적으로 매각으로 소멸"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-197",
+      "subject": "brokerage_law",
+      "order": 197,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "매각기일",
+      "subtitle": "경매에서 입찰을 실시하고 최고가매수신고인을 정하는 날",
+      "bullets": [
+        "매각결정기일과 구별"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 2,
+      "examYears": [
+        2021,
+        2023
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-012",
+        "2023-34-second1-032"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-198",
+      "subject": "brokerage_law",
+      "order": 198,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "매각결정기일",
+      "subtitle": "법원이 매각허가·불허가를 결정하는 날",
+      "bullets": [
+        "매각기일 후 법정 절차로 허가 여부를 심사"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-199",
+      "subject": "brokerage_law",
+      "order": 199,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "인도명령",
+      "subtitle": "매수인이 점유자에게 부동산 인도를 명하도록 법원에 신청하는 절차",
+      "bullets": [
+        "대금 완납 후 법정 기간 안에 신청하는 간이 인도절차"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-036"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-200",
+      "subject": "brokerage_law",
+      "order": 200,
+      "type": "term",
+      "category": "중개실무·경매공매",
+      "title": "권리분석",
+      "subtitle": "경매 부동산의 인수·소멸 권리를 판별하는 작업",
+      "bullets": [
+        "말소기준권리와 선후관계·대항력·유치권 등을 종합 검토"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·경매공매",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 1,
+      "examYears": [
+        2025
+      ],
+      "examSampleRefs": [
+        "2025-36-second1-036"
+      ],
+      "importance": 3,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·경매공매"
+    },
+    {
+      "id": "brk-card-201",
+      "subject": "brokerage_law",
+      "order": 201,
+      "type": "term",
+      "category": "중개실무·매수신청대리",
+      "title": "매수신청대리인 등록",
+      "subtitle": "개업공인중개사가 경매 매수신청대리를 하기 위해 법원에 등록하는 제도",
+      "bullets": [
+        "법정 자격·교육·업무보증을 갖춰 중개사무소 관할 지방법원장에게 등록"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [
+        "매수신청대리인",
+        "매수신청대리"
+      ],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·매수신청대리",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "exam",
+        "summary"
+      ],
+      "examHitCount": 8,
+      "examYears": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "examSampleRefs": [
+        "2021-32-second1-012",
+        "2022-33-second1-030",
+        "2022-33-second1-035",
+        "2023-34-second1-027",
+        "2023-34-second1-032",
+        "2024-35-2-1-031",
+        "2025-36-second1-035",
+        "2025-36-second1-036"
+      ],
+      "importance": 4,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·매수신청대리"
+    },
+    {
+      "id": "brk-card-202",
+      "subject": "brokerage_law",
+      "order": 202,
+      "type": "term",
+      "category": "중개실무·매수신청대리",
+      "title": "매수신청대리 업무",
+      "subtitle": "등록한 개업공인중개사가 할 수 있는 경매 입찰 관련 대리행위",
+      "bullets": [
+        "매수신청 보증 제공, 입찰표 제출, 차순위 신고 등 법정 범위의 대리"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·매수신청대리",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·매수신청대리"
+    },
+    {
+      "id": "brk-card-203",
+      "subject": "brokerage_law",
+      "order": 203,
+      "type": "term",
+      "category": "중개실무·매수신청대리",
+      "title": "매수신청대리 금지업무",
+      "subtitle": "매수신청대리인이 대신할 수 없는 소송·집행 행위",
+      "bullets": [
+        "항고·대금납부·인도명령·명도소송 등은 대리범위에서 제외"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·매수신청대리",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·매수신청대리"
+    },
+    {
+      "id": "brk-card-204",
+      "subject": "brokerage_law",
+      "order": 204,
+      "type": "term",
+      "category": "중개실무·매수신청대리",
+      "title": "차순위 매수신고",
+      "subtitle": "최고가매수신고인이 대금을 내지 않는 경우를 대비한 차순위 신청",
+      "bullets": [
+        "법정 가격요건을 갖춘 입찰자가 차순위매수신고 가능"
+      ],
+      "formula": "",
+      "visual": "none",
+      "aliases": [],
+      "sourceKind": "summary",
+      "sourcePage": 28,
+      "sourceSection": "중개실무·매수신청대리",
+      "sourceRef": "",
+      "sourceNote": "",
+      "basis": [
+        "summary"
+      ],
+      "examHitCount": 0,
+      "examYears": [],
+      "examSampleRefs": [],
+      "importance": 2,
+      "sourceLabel": "공인중개사법령 및 중개실무 요약집 p28 · 중개실무·매수신청대리"
     }
   ]
 };
