@@ -36,6 +36,18 @@
       "status": "complete",
       "orderRule": "기본용어 → 자격·등록 → 사무소운영 → 중개계약·의무 → 보수·교육·행정처분 → 거래신고 → 중개실무·개별법",
       "reindexExam": true
+    },
+    {
+      "subject": "public_law",
+      "label": "부동산공법",
+      "sourceFile": "review/core-cards-v1/04_public_law.txt",
+      "sourcePdf": "5.공인중개사요약_공법.pdf 64쪽 + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 법령",
+      "examSourceFile": "review/past-exams-v1/04_public_law.txt",
+      "pageCount": 64,
+      "total": 234,
+      "status": "complete",
+      "orderRule": "국토계획법 → 도시개발법 → 도시정비법 → 건축법 → 주택법 → 농지법",
+      "reindexExam": true
     }
   ],
   "generatedOutput": "core-cards/data.js",
