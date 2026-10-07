@@ -115,7 +115,7 @@
       if(state.status==='important' && !state.important.has(card.id)) return false;
       if(state.status==='memorized' && !state.memorized.has(card.id)) return false;
       if(!q) return true;
-      const hay=[card.title,card.subtitle,card.category,card.formula].concat(card.bullets||[]).join(' ').toLocaleLowerCase('ko');
+      const hay=[card.title,card.subtitle,card.category,card.formula].concat(card.aliases||[],card.bullets||[]).join(' ').toLocaleLowerCase('ko');
       return hay.includes(q);
     });
 
@@ -191,14 +191,16 @@
         const title=card.title.toLocaleLowerCase('ko');
         const category=card.category.toLocaleLowerCase('ko');
         const subtitle=(card.subtitle||'').toLocaleLowerCase('ko');
+        const aliases=(card.aliases||[]).join(' ').toLocaleLowerCase('ko');
         const body=(card.bullets||[]).join(' ').toLocaleLowerCase('ko');
         let score=99;
         if(title===q) score=0;
         else if(title.startsWith(q)) score=1;
         else if(title.includes(q)) score=2;
-        else if(category.includes(q)) score=3;
-        else if(subtitle.includes(q)) score=4;
-        else if(body.includes(q)) score=5;
+        else if(aliases.includes(q)) score=3;
+        else if(category.includes(q)) score=4;
+        else if(subtitle.includes(q)) score=5;
+        else if(body.includes(q)) score=6;
         return {card,score};
       })
       .filter(item=>item.score<99)

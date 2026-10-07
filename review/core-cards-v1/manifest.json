@@ -3,15 +3,18 @@
   "subject": "real_estate_intro",
   "label": "부동산학개론",
   "sourceFile": "review/core-cards-v1/01_real_estate_intro.txt",
-  "sourcePdf": "1.공인중개사요약_부동산학개론.pdf",
-  "total": 100,
-  "status": "reviewed",
-  "orderRule": "짧은 용어 → 핵심 개념 → 이론/학자 → 그래프 → 수식/응용",
+  "sourcePdf": "1.공인중개사요약_부동산학개론.pdf + official supplemental references",
+  "total": 170,
+  "status": "complete",
+  "orderRule": "짧은 일반 용어 → 핵심 개념 → 이론/학자 → 그래프 → 수식/응용",
   "generatedOutput": "core-cards/data.js",
   "auditNotes": [
-    "나지/맹지는 요약집에 독립 정의가 없어 1차 카드에서 보류",
-    "GPM 문장은 원문 오류 의심으로 제외",
-    "다핵심이론 학자는 공식 2021 제32회 문제지로 교차검증하여 해리스·울만으로 교정",
-    "시점 민감 법령·제도 수치는 제외"
+    "요약집 25쪽 기반 + 요약집에 없는 기본 용어 70장을 Q-Net·국가법령정보센터·국토교통부 자료 등으로 보완",
+    "나지·택지·대지·필지·포락지는 공식 법령/행정규칙 정의를 우선 사용",
+    "맹지·선하지·환지·일단지는 Q-Net 공개 기출의 옳은 정의와 교차검증",
+    "택지구역은 비표준 검색어로 보고 택지지역 카드의 검색 별칭으로 등록",
+    "GPM 문장은 원문 오류 의심으로 제외 유지",
+    "다핵심이론 학자는 공식 2021 제32회 문제지 기준 해리스·울만으로 교정 유지",
+    "시점 민감 법령·제도 숫자는 카드에서 제외"
   ]
 }
