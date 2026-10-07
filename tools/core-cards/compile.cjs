@@ -41,10 +41,13 @@ function parse(){
       order:Number(meta(block,'ORDER')),
       type:meta(block,'TYPE'),
       category:meta(block,'CATEGORY'),
+      sourceKind:meta(block,'SOURCE_KIND')||'summary',
       sourcePage:Number(meta(block,'SOURCE_PAGE')),
       sourceSection:meta(block,'SOURCE_SECTION'),
+      sourceRef:meta(block,'SOURCE_REF'),
       title:section(block,'[제목]',['[부제]']),
-      subtitle:section(block,'[부제]',['[핵심]']),
+      subtitle:section(block,'[부제]',['[검색어]']),
+      aliases:section(block,'[검색어]',['[핵심]']).split('|').map(x=>x.trim()).filter(Boolean),
       bullets:parseBullets(section(block,'[핵심]',['[수식]'])),
       formula:section(block,'[수식]',['[시각화]']),
       visual:section(block,'[시각화]',['[검수메모]'])||'none',
@@ -74,10 +77,15 @@ function parse(){
       bullets:card.bullets,
       formula:card.formula||'',
       visual:card.visual||'none',
+      aliases:card.aliases||[],
+      sourceKind:card.sourceKind||'summary',
       sourcePage:card.sourcePage,
       sourceSection:card.sourceSection,
+      sourceRef:card.sourceRef||'',
       sourceNote:card.sourceNote||'',
-      sourceLabel:'부동산학개론 요약집 p'+card.sourcePage+' · '+card.sourceSection
+      sourceLabel:card.sourceKind==='summary'
+        ? '부동산학개론 요약집 p'+card.sourcePage+' · '+card.sourceSection
+        : (card.sourceRef||card.sourceSection)
     }))
   };
 }
