@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f5f7fb" />
+  <script>
+  (() => {
+    const key='gichulQuizTheme';
+    try {
+      const saved=localStorage.getItem(key);
+      const theme=(saved==='dark'||saved==='light')?saved:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+      document.documentElement.dataset.theme=theme;
+      document.documentElement.style.colorScheme=theme;
+      document.querySelector('meta[name="theme-color"]')?.setAttribute('content',theme==='dark'?'#080d18':'#f5f7fb');
+    } catch (_) { document.documentElement.dataset.theme='light'; }
+  })();
+  </script>
+  <title>핵심 단어 카드 | 공인중개사</title>
+  <link rel="stylesheet" href="cards.css?v=1.55" />
+</head>
+<body>
+  <header class="card-appbar">
+    <a class="brand-link" href="../index.html" aria-label="기출문제 홈으로">
+      <img src="../assets/core-card-icon.png" alt="" aria-hidden="true" />
+      <span><strong>공인중개사 합격노트</strong><small>핵심 단어 카드</small></span>
+    </a>
+    <div class="appbar-actions">
+      <a class="home-btn" href="../index.html">홈</a>
+      <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="다크모드 켜기" title="다크모드 켜기" aria-pressed="false">
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+      </button>
+    </div>
+  </header>
+  <main class="card-shell">
+    <section class="hero">
+      <div><p class="eyebrow">반복 암기</p><h1>핵심 단어 카드</h1><p>핵심 단어와 개념을 한 장씩 빠르게 훑어보는 암기 카드야.</p></div>
+      <div class="hero-badge"><strong id="heroCount">5</strong><span>등록 카드</span></div>
+    </section>
+    <section class="card-controls" aria-label="핵심 단어 카드 필터">
+      <label class="control-field subject-field"><span>과목</span><select id="subjectSelect"></select></label>
+      <label class="control-field search-field"><span class="sr-only">카드 검색</span><input id="cardSearch" type="search" placeholder="개념, 키워드로 검색..." autocomplete="off" /></label>
+      <label class="control-field status-field"><span>표시</span><select id="statusFilter"><option value="all">전체 카드</option><option value="important">중요 카드</option><option value="memorized">외운 카드</option></select></label>
+      <div class="progress-box" aria-live="polite"><span>현재 범위</span><strong id="rangeText">1 / 5</strong><div class="progress-track"><span id="progressFill"></span></div></div>
+    </section>
+    <nav id="categoryTabs" class="category-tabs" aria-label="단원 선택"></nav>
+    <section class="card-stage" aria-label="핵심 단어 카드">
+      <button id="prevBtn" class="stage-nav prev" type="button" aria-label="이전 카드">‹</button>
+      <div id="cardGrid" class="core-card-grid"></div>
+      <button id="nextBtn" class="stage-nav next" type="button" aria-label="다음 카드">›</button>
+    </section>
+    <div id="mobileDots" class="mobile-dots" aria-hidden="true"></div>
+    <footer class="card-footer">
+      <p id="statusText">부동산학개론 · 토지의 자연적 특성</p>
+      <p>현재 화면은 레이아웃 확인용 5장으로 시작했어. 이후 스캔한 핵심요약집을 기준으로 확장하면 돼.</p>
+    </footer>
+  </main>
+  <script src="data.js?v=1.55"></script>
+  <script src="cards.js?v=1.55"></script>
+</body>
+</html>
