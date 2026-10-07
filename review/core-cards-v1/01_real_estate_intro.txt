@@ -190,10 +190,10 @@ STATUS: APPROVED
 ORDER: 6
 TYPE: term
 CATEGORY: 부동산의 분류
-SOURCE_KIND: summary+official
+SOURCE_KIND: reference
 SOURCE_PAGE: 2
 SOURCE_SECTION: 부동산의 분류
-SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p2 건부감가 + Q-Net 2021년 제32회 공인중개사 1차 1교시 1번
+SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p2 건부감가 문맥 + 공인중개사 일반 토지용어 정의
 
 [제목]
 건부지
@@ -215,9 +215,7 @@ SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p2 건부감가 + Q-N
 none
 
 [검수메모]
-
-
-================================================================================
+요약집에는 건부감가 관계만 있고 건부지 독립 정의는 없어 일반 토지용어 정의로 보완.================================================================================
 ID: rei-card-107
 STATUS: APPROVED
 ORDER: 7
@@ -2368,10 +2366,10 @@ STATUS: APPROVED
 ORDER: 72
 TYPE: term
 CATEGORY: 수요와 공급
-SOURCE_KIND: summary
+SOURCE_KIND: reference
 SOURCE_PAGE: 3
 SOURCE_SECTION: 수요와 공급
-SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p3, 1.공인중개사요약_부동산학개론.pdf p19
+SOURCE_REF: 요약집 p3·p19의 용어 사용 + 부동산학 일반 수요 정의
 
 [제목]
 유효수요
@@ -2393,18 +2391,16 @@ SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p3, 1.공인중개사
 none
 
 [검수메모]
-
-
-================================================================================
+요약집은 유효수요가 필요함과 가치발생요인임을 제시하지만 독립 정의는 없어 일반 부동산학 정의로 보완.================================================================================
 ID: rei-card-128
 STATUS: APPROVED
 ORDER: 73
 TYPE: term
 CATEGORY: 수요와 공급
-SOURCE_KIND: summary
+SOURCE_KIND: reference
 SOURCE_PAGE: 3
 SOURCE_SECTION: 수요와 공급
-SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p3
+SOURCE_REF: 요약집 p3의 용어 사용 + 부동산학 일반 공급 정의
 
 [제목]
 유효공급
@@ -2426,9 +2422,7 @@ SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p3
 none
 
 [검수메모]
-
-
-================================================================================
+요약집은 유효공급이 필요함을 제시하지만 독립 정의는 없어 일반 부동산학 정의로 보완.================================================================================
 ID: rei-card-129
 STATUS: APPROVED
 ORDER: 74
@@ -2893,10 +2887,10 @@ STATUS: APPROVED
 ORDER: 88
 TYPE: term
 CATEGORY: 주택정책
-SOURCE_KIND: summary
+SOURCE_KIND: reference
 SOURCE_PAGE: 10
 SOURCE_SECTION: 주택정책
-SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p10
+SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p10 + 주택분양제도 일반정의
 
 [제목]
 선분양제도
@@ -2917,18 +2911,16 @@ SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p10
 none
 
 [검수메모]
-
-
-================================================================================
+요약집에는 선·후분양 제도 항목만 있어 정의는 일반 주택분양제도 기준으로 보완.================================================================================
 ID: rei-card-144
 STATUS: APPROVED
 ORDER: 89
 TYPE: term
 CATEGORY: 주택정책
-SOURCE_KIND: summary
+SOURCE_KIND: reference
 SOURCE_PAGE: 10
 SOURCE_SECTION: 주택정책
-SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p10
+SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p10 + 주택분양제도 일반정의
 
 [제목]
 후분양제도
@@ -2950,9 +2942,7 @@ SOURCE_REF: 1.공인중개사요약_부동산학개론.pdf p10
 none
 
 [검수메모]
-
-
-================================================================================
+요약집에는 선·후분양 제도 항목만 있어 정의는 일반 주택분양제도 기준으로 보완.================================================================================
 ID: rei-card-145
 STATUS: APPROVED
 ORDER: 90
