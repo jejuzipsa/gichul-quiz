@@ -2473,7 +2473,7 @@ PGI → EGI → NOI → BTCF → ATCF
 - BTCF - 영업소득세 = ATCF
 
 [수식]
-
+PGI → EGI → NOI → BTCF → ATCF
 
 [시각화]
 cashflow_sequence
