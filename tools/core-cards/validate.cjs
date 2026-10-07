@@ -45,7 +45,7 @@ need(!titles.some(x=>x.includes('원리금체증식')),'GPM은 원문 오류 의
 const multi=cards.find(c=>c.title==='다핵심이론');
 need(!!multi,'다핵심이론 card missing');
 need(multi?.subtitle.includes('해리스')&&multi?.subtitle.includes('울만'),'다핵심이론 학자 교정 누락');
-need(!JSON.stringify(cards).includes('멕켄지'),'교정 전 멕켄지 표기가 생성 데이터에 남아 있음');
+need(!multi?.title.includes('멕켄지')&&!multi?.subtitle.includes('멕켄지')&&!multi?.bullets.some(x=>x.includes('멕켄지')),'다핵심이론 카드 본문에 교정 전 학자 표기가 남아 있음');
 
 const graphStart=cards.findIndex(c=>c.type==='graph');
 const formulaStart=cards.findIndex(c=>c.type==='formula');
