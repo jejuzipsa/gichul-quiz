@@ -21,7 +21,7 @@ for(const config of configs){
   need(list.length===config.total,config.subject+': count must be '+config.total);
   const orders=new Set(),titles=new Set();
   for(const c of list){
-    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk'}[config.subject];
+    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk',public_law:'pub'}[config.subject];
     need(!!prefix,config.subject+': missing id prefix mapping');
     need(new RegExp('^'+prefix+'-card-\\d{3}$').test(c.id),c.id+': invalid id');
     need(!ids.has(c.id),c.id+': duplicate id'); ids.add(c.id);
@@ -80,6 +80,16 @@ need(brokerage.find(c=>c.title==='실무교육')?.bullets.some(x=>x.includes('45
 need(brokerage.find(c=>c.title==='거래신고 30일')?.bullets.some(x=>x.includes('30일')),'brokerage transaction report deadline must be current 30 days');
 need(!brokerage.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').match(/60일|28시간|32시간|300명|600명|금치산자|한정치산자/)),'outdated brokerage rule leaked into card body');
 need(!brokerage.find(c=>c.title==='주택 계약갱신요구권')?.bullets.some(x=>/없다/.test(x)),'outdated housing renewal rule leaked into brokerage card');
+
+const publicLaw=cards.filter(c=>c.subject==='public_law');
+for(const title of ['광역도시계획','도시·군기본계획','도시·군관리계획','용도지역','지구단위계획','도시·군계획시설','개발행위허가','성장관리계획','도시혁신구역','토지거래허가구역','도시개발구역','환지방식','환지예정지','정비사업','재개발사업','재건축사업','관리처분계획','건축','대수선','건축허가','사용승인','특별건축구역','주택','주택조합','사업계획승인','분양가상한제','사전방문','공동주택 품질점검단','농지','농지취득자격증명','농지 위탁경영','농지전용','농지개량행위 신고']) need(publicLaw.some(c=>c.title===title),'public-law required card missing: '+title);
+need(publicLaw[0]?.title==='국토 이용·관리 기본원칙','public-law first card must be 국토 이용·관리 기본원칙');
+need(publicLaw[publicLaw.length-1]?.title==='농지개량행위 신고','public-law last card must be 농지개량행위 신고');
+need(publicLaw.filter(c=>c.examHitCount>0).length>=170,'public-law exam-backed cards should be at least 170');
+need(publicLaw.some(c=>c.importance===5),'public-law importance 5 cards missing');
+need(publicLaw.some(c=>c.importance===1),'public-law essential-only cards missing');
+for(const title of ['공간재구조화계획','도시혁신구역','복합용도구역','성장관리계획','사업시행계획 통합심의','사전방문','공동주택 품질점검단','농지개량행위 신고']) need(publicLaw.find(c=>c.title===title)?.sourceKind==='official','current public-law card must use official source: '+title);
+need(!publicLaw.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').match(/입지규제최소구역|미관지구|주거환경관리사업/)),'outdated public-law concept leaked into card body');
 
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
