@@ -200,3 +200,33 @@ body.answer-modal-open{
 @media(prefers-reduced-motion:reduce){
   .answer-overlay,.answer-modal{animation:none}
 }
+
+/* v1.54 dark mode */
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#080d18;--surface:#111a2b;--surface2:#18243a;--text:#eef2ff;--muted:#98a7bd;
+  --line:#2a3852;--primary:#6f8cff;--primary2:#5574e8;--blueSoft:#1b2a4a;
+  --bad:#ff6673;--badSoft:#351923;--good:#6f8cff;--shadow:0 18px 46px rgba(0,0,0,.34)
+}
+.quiz-topbar-actions{display:flex;align-items:center;gap:8px}
+.theme-toggle-btn{width:44px;min-width:44px;height:44px;padding:0;display:inline-grid;place-items:center;border:1px solid var(--line);border-radius:13px;background:var(--surface);color:var(--muted)}
+.theme-toggle-btn:hover{color:#8174ff;border-color:#8174ff;background:var(--surface2)}
+.theme-icon{grid-area:1/1;width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.theme-icon-sun{display:none}:root[data-theme="dark"] .theme-icon-moon{display:none}:root[data-theme="dark"] .theme-icon-sun{display:block}
+:root[data-theme="dark"] .progress-track,:root[data-theme="dark"] .result-bar{background:#202d43}
+:root[data-theme="dark"] .choice:not(:disabled):hover{border-color:#526583;background:#141f33}
+:root[data-theme="dark"] .choice.correct{color:#a8ceff}
+:root[data-theme="dark"] .choice.wrong{color:#ffabb2}
+:root[data-theme="dark"] .feedback.good{color:#a8ceff}
+:root[data-theme="dark"] .feedback.bad{color:#ffabb2}
+:root[data-theme="dark"] .wrong-card{background:#0e1727}
+:root[data-theme="dark"] .wrong-answer{color:#9bcbff}
+:root[data-theme="dark"] .answer-overlay{background:rgba(3,7,14,.62)}
+:root[data-theme="dark"] .answer-modal{border-color:#34445f;background:#111a2b;box-shadow:0 24px 70px rgba(0,0,0,.52)}
+:root[data-theme="dark"] .answer-overlay.is-good .answer-modal-badge,:root[data-theme="dark"] .answer-modal-correct{background:#1b2a4a;color:#a8ceff}
+:root[data-theme="dark"] .answer-overlay.is-bad .answer-modal-badge{background:#351923;color:#ffabb2}
+:root[data-theme="dark"] .answer-overlay.is-good .answer-modal-title{color:#9bcbff}
+:root[data-theme="dark"] .answer-overlay.is-bad .answer-modal-title{color:#ff929c}
+:root[data-theme="dark"] .answer-modal-explain{color:#c4cede}
+@media(max-width:600px){.quiz-topbar-actions{grid-column:1/-1;display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px}.quiz-topbar-actions .soft-btn{width:100%;min-height:40px}.theme-toggle-btn{height:40px}}
+

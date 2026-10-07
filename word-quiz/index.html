@@ -4,16 +4,33 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f5f7fb" />
+  <script>
+  (()=>{
+    const key='gichulQuizTheme';
+    try{
+      const saved=localStorage.getItem(key);
+      const theme=(saved==='dark'||saved==='light')?saved:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+      document.documentElement.dataset.theme=theme;
+      document.documentElement.style.colorScheme=theme;
+    }catch(_){document.documentElement.dataset.theme='light';}
+  })();
+  </script>
   <title>핵심 개념 퀴즈</title>
-  <link rel="stylesheet" href="quiz.css?v=1.7" />
-  <link rel="stylesheet" href="blank-quiz.css?v=1.3" />
+  <link rel="stylesheet" href="quiz.css?v=1.8" />
+  <link rel="stylesheet" href="blank-quiz.css?v=1.4" />
 </head>
 <body>
   <main class="quiz-shell">
     <header class="quiz-topbar">
       <a class="home-link" href="../index.html" aria-label="기출문제 홈으로">← 홈</a>
       <div><p class="eyebrow">핵심 개념 퀴즈</p><h1 id="subjectTitle">핵심 개념 퀴즈</h1></div>
-      <button id="newSetTopBtn" class="soft-btn" type="button">새 문제</button>
+      <div class="quiz-topbar-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="다크모드 켜기" title="다크모드 켜기" aria-pressed="false">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+        </button>
+        <button id="newSetTopBtn" class="soft-btn" type="button">새 문제</button>
+      </div>
     </header>
     <section id="playView">
       <div class="quiz-status"><div class="status-line"><strong id="progressText">1 / 10</strong><span id="categoryText"></span></div><div class="progress-track"><div id="progressFill" class="progress-fill"></div></div></div>
@@ -27,6 +44,28 @@
   </main>
   <script>
   (()=>{
+    const THEME_KEY='gichulQuizTheme';
+    const themeBtn=document.getElementById('themeToggleBtn');
+    const systemTheme=()=>matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+    const applyTheme=(theme,persist=false)=>{
+      const next=theme==='dark'?'dark':'light';
+      document.documentElement.dataset.theme=next;
+      document.documentElement.style.colorScheme=next;
+      document.querySelector('meta[name="theme-color"]')?.setAttribute('content',next==='dark'?'#080d18':'#f5f7fb');
+      if(themeBtn){
+        const dark=next==='dark';
+        themeBtn.setAttribute('aria-pressed',dark?'true':'false');
+        themeBtn.setAttribute('aria-label',dark?'라이트모드 켜기':'다크모드 켜기');
+        themeBtn.title=dark?'라이트모드 켜기':'다크모드 켜기';
+      }
+      if(persist){try{localStorage.setItem(THEME_KEY,next)}catch(_){}}
+    };
+    let savedTheme=null;
+    try{savedTheme=localStorage.getItem(THEME_KEY)}catch(_){}
+    applyTheme(savedTheme==='dark'||savedTheme==='light'?savedTheme:systemTheme());
+    themeBtn?.addEventListener('click',()=>applyTheme(document.documentElement.dataset.theme==='dark'?'light':'dark',true));
+    try{matchMedia('(prefers-color-scheme: dark)').addEventListener('change',e=>{if(!localStorage.getItem(THEME_KEY))applyTheme(e.matches?'dark':'light')})}catch(_){}
+
     const subjects={
       real_estate_intro:'real_estate_intro.js',
       civil_law:'civil_law.js',
@@ -61,7 +100,7 @@
       },()=>fail('괄호문제'));
     }else{
       load(`data/${file}?v=20261007-core-v9`,()=>{
-        load('quiz.js?v=1.7',null,()=>fail('문제'));
+        load('quiz.js?v=1.8',null,()=>fail('문제'));
       },()=>fail('문제'));
     }
   })();
