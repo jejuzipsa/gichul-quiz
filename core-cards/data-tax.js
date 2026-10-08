@@ -5466,7 +5466,7 @@
     "aliases": [
       "양도소득세 기본세율"
     ],
-    "sourceKind": "summary+official",
+    "sourceKind": "official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·세율",
     "sourceRef": "국가법령정보센터 소득세법 제104조·제55조",
@@ -5599,7 +5599,7 @@
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary+official",
+    "sourceKind": "official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·세율",
     "sourceRef": "국가법령정보센터 소득세법 제104조제1항제8호·제104조의3",
@@ -5732,7 +5732,7 @@
     "aliases": [
       "고가주택"
     ],
-    "sourceKind": "summary+official",
+    "sourceKind": "official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·비과세",
     "sourceRef": "국가법령정보센터 소득세법 제89조제1항제3호·소득세법 시행령 제156조",
