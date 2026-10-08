@@ -5875,7 +5875,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제245조·제252조 / 대법원 경매 승계취득 판례」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제245조·제252조 / 대법원 경매 승계취득 판례」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415 + 대법원 경매 승계취득 관련 판례 https://law.go.kr/LSW/precInfoP.do?precSeq=208883",
       "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
@@ -5889,7 +5889,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제245조·제252조 / 대법원 경매 승계취득 판례」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제245조·제252조 / 대법원 경매 승계취득 판례」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415 + 대법원 경매 승계취득 관련 판례 https://law.go.kr/LSW/precInfoP.do?precSeq=208883"
     },
     {
       "id": "civ-card-005",
@@ -7297,7 +7297,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
+      "sourceNote": "2026-10-09 기존 기본 법률용어 카드 정의 및 민법상 용례를 검토. 요약 PDF에는 해당 카드의 p0 원문 페이지가 없어 공식 조문 또는 PDF 직접 검증으로 산입하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7344,7 +7344,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
+      "sourceNote": "2026-10-09 기존 기본 법률용어 카드 정의 및 민법상 용례를 검토. 요약 PDF에는 해당 카드의 p0 원문 페이지가 없어 공식 조문 또는 PDF 직접 검증으로 산입하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7390,7 +7390,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
+      "sourceNote": "2026-10-09 기존 기본 법률용어 카드 정의 및 민법상 용례를 검토. 요약 PDF에는 해당 카드의 p0 원문 페이지가 없어 공식 조문 또는 PDF 직접 검증으로 산입하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7437,7 +7437,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
+      "sourceNote": "2026-10-09 기존 기본 법률용어 카드 정의 및 민법상 용례를 검토. 요약 PDF에는 해당 카드의 p0 원문 페이지가 없어 공식 조문 또는 PDF 직접 검증으로 산입하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7475,7 +7475,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
+      "sourceNote": "2026-10-09 기존 기본 법률용어 카드 정의 및 민법상 용례를 검토. 요약 PDF에는 해당 카드의 p0 원문 페이지가 없어 공식 조문 또는 PDF 직접 검증으로 산입하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7560,8 +7560,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제140조·제543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
-      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
+      "sourceRef": "국가법령정보센터 「민법 제140·543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415 + 기존 법률 기본용어",
+      "sourceNote": "2026-10-09 기존 기본어 정의와 표시된 공식 민법 조문의 법적 효과를 1차 대조. 요약 PDF에는 p0 원문 페이지가 없으며 모든 학설·사례를 인증하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7580,7 +7580,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-059"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제140조·제543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
+      "sourceLabel": "국가법령정보센터 「민법 제140·543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415 + 기존 법률 기본용어"
     },
     {
       "id": "civ-card-053",
@@ -7600,8 +7600,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
-      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
+      "sourceRef": "국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415 + 기존 법률 기본용어",
+      "sourceNote": "2026-10-09 기존 기본어 정의와 표시된 공식 민법 조문의 법적 효과를 1차 대조. 요약 PDF에는 p0 원문 페이지가 없으며 모든 학설·사례를 인증하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7614,7 +7614,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-068"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
+      "sourceLabel": "국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415 + 기존 법률 기본용어"
     },
     {
       "id": "civ-card-054",
