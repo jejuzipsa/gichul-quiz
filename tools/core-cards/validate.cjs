@@ -105,7 +105,7 @@ for(const [id,[visual,terms]] of Object.entries(civilVisualChecks)){
   const body=(card?.bullets||[]).join(' ');
   for(const term of terms) need(body.includes(term),id+': missing statute-checked phrase '+term);
 }
-need(civil.filter(c=>c.visual.startsWith('civil_')).length===14,'first civil diagrams rollout must have exactly 14 cards');
+need(civil.filter(c=>c.visual.startsWith('civil_')).length===28,'civil diagrams must include 28 verified first and second batch cards');
 
 const brokerage=cards.filter(c=>c.subject==='brokerage_law');
 for(const title of ['중개','중개대상물','개업공인중개사','소속공인중개사','중개보조원','중개사무소 개설등록','분사무소','전속중개계약','부동산거래정보망','중개대상물 확인·설명','거래계약서','직접거래 금지','업무보증','중개보수청구권','실무교육','한국공인중개사협회','등록취소','업무정지','부동산 거래신고','거래신고 30일','토지거래허가구역','등기사항증명서','분묘기지권','주택임대차보호법','상가건물 임대차보호법','경매','매수신청대리인 등록']) need(brokerage.some(c=>c.title===title),'brokerage required card missing: '+title);
