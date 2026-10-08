@@ -286,6 +286,48 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
     assert.equal(new Set(q.choices.map(normalize)).size,4,id+': no duplicate choices');
   }
 }
+// v2.01: brokerage definitions and authorizing provisions must have a single
+// true statute-specific answer; derived archived originals remain canonical.
+{
+  const questions=compileSubject('brokerage_law').questions;
+  const map=new Map(questions.map(q=>[q.id,q]));
+  const allTrue=new Set(questions.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['BRK001','제2조',0],['BRK002','제2조',3],
+    ['BRK003','제2조',0],['BRK004','제2조',3],
+    ['BRK005','제2조',0],['BRK006','제2조',0],
+    ['BRK007','제3조',1],['BRK008','제4조',0],
+    ['BRK009','제5조',0],['BRK010','제7조',3]
+  ];
+  const ids=new Set(expected.map(x=>x[0]));
+  for(const [id,article,index] of expected){
+    const q=map.get(id);
+    assert.ok(q,id+': required brokerage card');
+    assert.equal(q.sourceLaw,'공인중개사법',id+': official act');
+    assert.equal(q.sourceArticle,article,id+': article');
+    assert.equal(q.answer,index,id+': original correct index retained');
+    assert.match(q.question,/(옳은 것은\?|법적 정의로 옳은 것은\?)$/,id+': truth test heading');
+    assert.ok(q.explanation.includes('공인중개사법 '+article),id+': statute in explanation');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': legal review');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': wording review');
+    for(let i=0;i<4;i++)if(i!==q.answer)
+      assert.ok(!allTrue.has(normalize(q.choices[i])),id+': do not reuse another true definition as false');
+  }
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/03_brokerage_law_final.txt'),'utf8');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  let cnt=0;
+  for(const raw of parseBlocks(source)){
+    const q=parseBlock(raw);
+    if(!ids.has(q.originQuestionId))continue;
+    const original=map.get(q.originQuestionId);
+    assert.equal(q.sourceQuestion,original.question,q.id+': stale origin question');
+    const label='[원본 정답]';
+    assert.ok(raw.includes(label),q.id+': missing origin answer');
+    assert.equal(raw.slice(raw.indexOf(label)+label.length).trim(),original.choices[original.answer],q.id+': stale origin answer');
+    cnt++;
+  }
+  assert.equal(cnt,50,'brokerage statute definitions should link 50 source snapshots');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
