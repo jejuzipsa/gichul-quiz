@@ -13365,7 +13365,7 @@ window.CORE_WORD_CARD_BANK = {
       "aliases": [
         "갱신요구권"
       ],
-      "sourceKind": "summary+official",
+      "sourceKind": "summary+official"officialsummary+official,
       "sourcePage": 34,
       "sourceSection": "민사특별법·임대차보호",
       "sourceRef": "국가법령정보센터 「주택임대차보호법 제6조의3·상가건물 임대차보호법 제10조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
