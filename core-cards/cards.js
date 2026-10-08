@@ -544,6 +544,40 @@
         +'<text class="v-civil-caption" x="120" y="126" text-anchor="middle">원칙: 성취 시점부터</text>'
         +'<text class="v-civil-caption" x="120" y="139" text-anchor="middle">당사자의 소급 의사표시가 있으면 예외</text>');
     }
+    // v1.84: shared SVGs separate statutory rules and case-law exceptions.
+    if(type==='civil_rule_types'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">규정 위반과 계약의 효력</text>'
+        +civBox(6,30,109,'효력규정')+civBox(125,30,109,'단속규정')
+        +'<text class="v-civil-text" x="60" y="84" text-anchor="middle">위반 계약 무효</text>'
+        +'<text class="v-civil-text" x="180" y="84" text-anchor="middle">위반 계약 원칙 유효</text>'
+        +'<text class="v-civil-caption" x="120" y="109" text-anchor="middle">제재가 있다고 모두 무효는 아님</text>'
+        +'<text class="v-civil-caption" x="120" y="126" text-anchor="middle">법률의 문언·목적·보호법익으로 판단</text>');
+    }
+    if(type==='civil_dispatch_rule'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">의사표시 효력: 도달 원칙 / 발신 예외</text>'
+        +civBox(3,30,109,'발송')+civBox(128,30,109,'도달: 원칙')
+        +'<path class="v-civil-line" d="M112 48H126"/><path class="v-civil-arrowtip" d="m122 44 4 4-4 4"/>'
+        +civBox(3,82,109,'승낙 발송')+civBox(128,82,109,'계약 성립')
+        +'<path class="v-civil-line" d="M112 100H126"/><path class="v-civil-arrowtip" d="m122 96 4 4-4 4"/>'
+        +'<text class="v-civil-caption" x="120" y="136" text-anchor="middle">제531조 격지자간 계약의 예외</text>');
+    }
+    if(type==='civil_abuse_protection'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">대리권 남용과 상대방 인식</text>'
+        +civBox(3,31,71,'본인')+civBox(84,31,71,'대리인')+civBox(165,31,71,'상대방')
+        +'<path class="v-civil-line" d="M74 49H82M155 49H163"/>'
+        +'<text class="v-civil-caption" x="120" y="84" text-anchor="middle">권한 있음 ≠ 모든 행위 본인에게 효력</text>'
+        +'<text class="v-civil-caption" x="120" y="100" text-anchor="middle">상대방이 배임을 알았거나 알 수 있었다면</text>'
+        +'<text class="v-civil-text" x="120" y="116" text-anchor="middle">본인에게 효력 미귀속</text>'
+        +'<text class="v-civil-caption" x="120" y="136" text-anchor="middle">후속 선의 제3자 보호 별도 판단</text>');
+    }
+    if(type==='civil_term_effect'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">기한 도래의 효력</text>'
+        +civBox(3,30,109,'시기')+civBox(128,30,109,'종기')
+        +'<text class="v-civil-text" x="58" y="85" text-anchor="middle">효력 발생</text>'
+        +'<text class="v-civil-text" x="183" y="85" text-anchor="middle">효력 소멸</text>'
+        +'<text class="v-civil-caption" x="120" y="110" text-anchor="middle">도래할 사실은 확실 / 조건과 구별</text>'
+        +'<text class="v-civil-caption" x="120" y="128" text-anchor="middle">기한 이익: 채무자 추정·상대방 보호</text>');
+    }
     const row=CIVIL_DIAGRAMS[type];
     if(row){
       const [heading,a,b,c,caption]=row;

@@ -6681,16 +6681,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "강행규정",
       "subtitle": "당사자 합의로 배제할 수 없는 규정",
       "bullets": [
-        "강행규정에 반하는 법률행위는 원칙적으로 허용되지 않음"
+        "강행규정은 당사자 합의로 배제할 수 없는 규범이며 그 위반행위의 효력은 입법취지에 따라 판단",
+        "위반하면 계약도 무효가 되는 효력규정과 위반 제재에도 계약은 원칙적으로 유효한 단속규정을 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_rule_types",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "민법 법률행위 일반원칙 + 요약집 p3",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제105조·제106조 및 2025다211003 판결」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "essential"
@@ -6703,7 +6704,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-049"
       ],
       "importance": 3,
-      "sourceLabel": "민법 법률행위 일반원칙 + 요약집 p3"
+      "sourceLabel": "국가법령정보센터 「민법 제105조·제106조 및 2025다211003 판결」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971"
     },
     {
       "id": "civ-card-030",
@@ -6714,16 +6715,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "임의규정",
       "subtitle": "당사자 합의로 달리 정할 수 있는 규정",
       "bullets": [
-        "당사자의 의사가 법률 규정보다 우선할 수 있는 영역"
+        "민법 제105조: 선량한 풍속 기타 사회질서에 관계없는 규정과 다른 당사자 의사표시가 있으면 그 의사에 따름",
+        "당사자 의사가 명확하지 않으면 민법 제106조의 사실인 관습 적용 가능성을 함께 검토"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_rule_types",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제105조·제106조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "summary"
       ],
@@ -6731,7 +6733,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p3 · 민법총칙·법률행위"
+      "sourceLabel": "국가법령정보센터 「민법 제105조·제106조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-031",
@@ -6742,16 +6744,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "효력규정",
       "subtitle": "위반하면 사법상 행위의 효력까지 부정되는 규정",
       "bullets": [
-        "법 위반에 행정·형사 제재뿐 아니라 사법상 무효까지 연결되는 규정"
+        "효력규정에 위반한 법률행위는 그 사법상 효력이 부정될 수 있어 단속규정과 구별",
+        "금지·제재 규정에 위반했다고 무조건 무효인 것은 아니며 법 문언·목적·보호법익 등을 종합 판단"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_rule_types",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제105조 및 대법원 2025다211003 판결(효력/단속 구별)」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "essential"
@@ -6764,7 +6767,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-045"
       ],
       "importance": 3,
-      "sourceLabel": "Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리"
+      "sourceLabel": "국가법령정보센터 「민법 제105조 및 대법원 2025다211003 판결(효력/단속 구별)」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971"
     },
     {
       "id": "civ-card-032",
@@ -6775,16 +6778,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "단속규정",
       "subtitle": "위반 제재와 사법상 효력을 별개로 보는 규정",
       "bullets": [
-        "위반 시 제재가 있어도 사법상 법률행위가 당연히 무효가 되는 것은 아님"
+        "단속규정은 위반 시 행정·형사상 제재가 가능해도 계약 자체의 효력을 원칙적으로 부정하지 않음",
+        "해당 규정이 단속규정인지 여부는 법령 목적·체계·입법취지 등을 고려해 판례에 따라 판단"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_rule_types",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「대법원 2025다211003·2023다310471 판결」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "essential"
       ],
@@ -6792,7 +6796,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 1,
-      "sourceLabel": "Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리"
+      "sourceLabel": "국가법령정보센터 「대법원 2025다211003·2023다310471 판결」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971"
     },
     {
       "id": "civ-card-033",
@@ -7166,16 +7170,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "발신주의",
       "subtitle": "의사표시를 발송한 때 효력이 생기는 예외 원칙",
       "bullets": [
-        "법이 특별히 정한 경우 발송 시점에 효력을 인정"
+        "상대방 있는 의사표시는 원칙적으로 도달 시 효력이 발생하지만 법률이 정한 발신주의 예외가 있음",
+        "민법 제531조: 격지자간 계약은 승낙의 통지를 발송한 때 성립. 모든 의사표시에 적용되는 것은 아님"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_dispatch_rule",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제111조·제531조」 https://law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0531&lsiSeq=284415&urlMode=lsScJoRltInfoR",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "summary"
       ],
@@ -7183,7 +7188,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p5 · 민법총칙·의사표시"
+      "sourceLabel": "국가법령정보센터 「민법 제111조·제531조」 https://law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0531&lsiSeq=284415&urlMode=lsScJoRltInfoR"
     },
     {
       "id": "civ-card-044",
@@ -7472,18 +7477,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "신의칙",
       "subtitle": "권리행사와 의무이행을 신의성실에 맞게 하라는 원칙",
       "bullets": [
-        "당사자의 신뢰와 형평을 고려해 권리행사를 제한하거나 보충하는 원칙"
+        "민법 제2조제1항: 권리 행사와 의무 이행은 신의에 따라 성실히 해야 함",
+        "같은 조 제2항은 권리남용을 금지하지만 권리행사를 제한하려면 구체적인 사정의 판단이 필요"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "신의성실의 원칙"
       ],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "민법 제2조 및 기출 공통 기본법리",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제2조」 https://www.law.go.kr/lsLinkProc.do?joNo=000200&lnkJoNo=undefined&lsClsCd=L&lsId=001706&lsNm=%EB%AF%BC%EB%B2%95&mode=4",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "essential"
@@ -7499,7 +7505,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-043"
       ],
       "importance": 3,
-      "sourceLabel": "민법 제2조 및 기출 공통 기본법리"
+      "sourceLabel": "국가법령정보센터 「민법 제2조」 https://www.law.go.kr/lsLinkProc.do?joNo=000200&lnkJoNo=undefined&lsClsCd=L&lsId=001706&lsNm=%EB%AF%BC%EB%B2%95&mode=4"
     },
     {
       "id": "civ-card-052",
@@ -7629,16 +7635,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "임의대리",
       "subtitle": "본인의 수권행위로 대리권이 생기는 대리",
       "bullets": [
-        "대리권 범위는 수권행위의 내용과 해석으로 정함"
+        "임의대리는 본인의 법률행위에 따른 수권으로 대리권이 생기는 경우",
+        "대리권 범위는 수권행위 내용에 따라 정하며 임의대리인의 복대리인 선임에는 제120조의 제한이 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제114조·제120조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "summary"
@@ -7653,7 +7660,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-044"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p6 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제114조·제120조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-056",
@@ -7664,16 +7671,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법정대리",
       "subtitle": "법률 규정이나 법원의 선임 등으로 생기는 대리",
       "bullets": [
-        "본인의 수권행위 없이 법률상 대리권이 발생"
+        "법정대리는 본인의 수권행위가 아니라 법률 규정에 따라 대리권이 발생하는 경우",
+        "법정대리인의 복대리인 선임은 제122조의 요건·책임을 따르며 임의대리 제120조와 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제116조·제117조·제122조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "summary"
@@ -7693,7 +7701,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-044"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p6 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제116조·제117조·제122조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-057",
@@ -7704,16 +7712,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "대리권",
       "subtitle": "본인에게 법률효과를 귀속시키는 대리인의 법률상 권한",
       "bullets": [
-        "대리권은 독립된 권리라기보다 법률상 지위로 설명"
+        "대리권은 대리인의 행위가 본인에게 직접 효력을 발생시키게 하는 법률상 권한",
+        "대리권 범위를 정하지 않은 경우 제118조에 따라 보존행위와 성질을 바꾸지 않는 이용·개량행위만 가능"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제114조·제118조」 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032403099",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "summary"
@@ -7739,7 +7748,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-044"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p6 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제114조·제118조」 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032403099"
     },
     {
       "id": "civ-card-058",
@@ -7750,16 +7759,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "수권행위",
       "subtitle": "임의대리인에게 대리권을 주는 본인의 행위",
       "bullets": [
-        "임의대리권 발생의 기초가 되는 본인의 법률행위"
+        "수권행위는 본인이 타인에게 임의대리권을 부여하는 법률행위",
+        "수권의 범위가 대리권 범위를 결정하며 본인을 위한 현명 등 대리행위 요건은 별도로 검토"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제114조·제120조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "summary"
@@ -7772,7 +7782,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-047"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p6 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제114조·제120조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-059",
@@ -7872,18 +7882,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "대리권 남용",
       "subtitle": "권한 범위 안에서 자기·제3자 이익을 위해 대리하는 행위",
       "bullets": [
-        "형식상 권한 내 행위라도 상대방이 남용을 알았거나 알 수 있었다면 본인에게 효력이 부정될 수 있음"
+        "대리권이 형식상 있어도 대리인이 본인 이익을 해쳐 자기·제3자 이익을 도모함을 상대방이 알았거나 알 수 있었다면 본인에게 효력 부정",
+        "민법 제107조제1항 단서 유추적용; 형성된 법률관계를 기초로 새 이해관계를 맺은 선의의 제3자 보호도 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_abuse_protection",
       "aliases": [
         "배임대리행위"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제107조 유추적용·대법원 2016다3201 판결」 https://www.law.go.kr/LSW/precInfoR.do?precSeq=195377&vSct=%2A",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "summary"
       ],
@@ -7891,7 +7902,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제107조 유추적용·대법원 2016다3201 판결」 https://www.law.go.kr/LSW/precInfoR.do?precSeq=195377&vSct=%2A"
     },
     {
       "id": "civ-card-063",
@@ -8631,16 +8642,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "기한",
       "subtitle": "장래 확실한 사실에 효력이나 이행을 의존시키는 부관",
       "bullets": [
-        "도래 여부가 확실하다는 점에서 조건과 구별"
+        "기한은 도래할 것이 확실한 장래 사실에 법률행위 효력의 발생 또는 소멸을 결부시키며 조건과 다름",
+        "민법 제152조: 시기는 도래한 때부터 효력 발생, 종기는 도래한 때부터 효력 소멸"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_term_effect",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 9,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제152조」 https://law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0152&lsiSeq=284415&urlMode=lsScJoRltInfoR",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "summary"
@@ -8666,7 +8678,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-052"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p9 · 민법총칙·조건·기한"
+      "sourceLabel": "국가법령정보센터 「민법 제152조」 https://law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0152&lsiSeq=284415&urlMode=lsScJoRltInfoR"
     },
     {
       "id": "civ-card-083",
@@ -8677,16 +8689,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "기한의 이익",
       "subtitle": "기한이 아직 도래하지 않아 얻는 시간적 이익",
       "bullets": [
-        "원칙적으로 채무자의 이익을 위한 것으로 추정"
+        "기한의 이익은 민법 제153조제1항에 따라 채무자의 이익을 위한 것으로 추정",
+        "기한의 이익은 포기할 수 있지만 상대방의 이익을 해칠 수 없으므로 무조건 조기이행 가능한 것은 아님"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_term_effect",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 9,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제153조」 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0153&lsiSeq=284415&urlMode=lsScJoRltInfoR",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "summary"
@@ -8699,7 +8712,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-048"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p9 · 민법총칙·조건·기한"
+      "sourceLabel": "국가법령정보센터 「민법 제153조」 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0153&lsiSeq=284415&urlMode=lsScJoRltInfoR"
     },
     {
       "id": "civ-card-084",
@@ -8781,16 +8794,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "소급효",
       "subtitle": "법률효과를 과거 시점까지 거슬러 미치게 하는 효력",
       "bullets": [
-        "취소·추인·해제 등에서 효과가 어느 시점까지 미치는지 판단할 때 쓰임"
+        "소급효는 법률효과가 특정 시점 이전으로 거슬러 미치는 것으로 취소·무권대리 추인 등에서 구별",
+        "취소의 소급무효·추인의 계약시 소급과 달리 조건의 효력은 원칙적으로 성취 시 발생하며 제3자 보호 예외 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제133조·제141조·제147조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.",
       "basis": [
         "exam",
         "essential"
@@ -8803,7 +8817,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-067"
       ],
       "importance": 3,
-      "sourceLabel": "민법·기출 공통 기본용어"
+      "sourceLabel": "국가법령정보센터 「민법 제133조·제141조·제147조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-087",
