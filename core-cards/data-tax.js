@@ -198,8 +198,8 @@
     "sourceKind": "summary",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "[제목]",
-    "sourceNote": "",
+    "sourceRef": "",
+    "sourceNote": "2026-10-08: 조세 분류상의 부가세(附加稅)와 부가가치세의 일상적 약칭을 구별. 출처: 요약집 p1.",
     "basis": [
       "summary"
     ],
@@ -904,7 +904,7 @@
     "sourcePage": 4,
     "sourceSection": "취득세·총칙",
     "sourceRef": "국가법령정보센터 「지방세법」 제7조제1항",
-    "sourceNote": "",
+    "sourceNote": "2026-10-08: 현행 지방세법 제7조제1항의 '양식업권' 누락을 보완.",
     "basis": [
       "summary"
     ],
@@ -1588,7 +1588,7 @@
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
     "sourceRef": "국가법령정보센터 「지방세법」 제13조제5항 (2023.3.14. 별장 중과 삭제)",
-    "sourceNote": "",
+    "sourceNote": "2026-10-08: 요약집 p6의 과거 별장 중과 설명 삭제. 2023.3.14 시행 지방세법 개정으로 별장 제외.",
     "basis": [
       "summary"
     ],
@@ -1617,7 +1617,7 @@
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
     "sourceRef": "국가법령정보센터 「지방세법」 제13조제5항 (2023.3.14. 별장 중과 삭제)",
-    "sourceNote": "",
+    "sourceNote": "2026-10-08: 2021년 제32회 기출 직접 등장 용어이므로 카드 보존, 폐지된 별장 중과 규정은 현행 설명으로 교정.",
     "basis": [
       "exam",
       "summary"
@@ -5263,7 +5263,7 @@
     "sourcePage": 0,
     "sourceSection": "양도소득세·세율",
     "sourceRef": "국가법령정보센터 「소득세법」 제104조",
-    "sourceNote": "",
+    "sourceNote": "2026-10-08: 소득세법 제104조제1항제1~3호에 따라 보유기간별 세율 및 분양권 장기보유 60% 규정을 구별.",
     "basis": [
       "essential"
     ],
