@@ -7747,7 +7747,7 @@ EXAM_HIT_COUNT: 2
 EXAM_YEARS: 2021|2023
 EXAM_SAMPLE_REFS: 2021-32-first-076 | 2023-34-first-079
 IMPORTANCE: 3
-SOURCE_KIND: summary+official
+SOURCE_KIND: official
 SOURCE_PAGE: 34
 SOURCE_SECTION: 민사특별법·임대차보호
 SOURCE_REF: 국가법령정보센터 「주택임대차보호법 제6조의3·상가건물 임대차보호법 제10조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248
