@@ -493,7 +493,25 @@
     return rating;
   }
 
-  function cardElement(card,globalIndex,total){
+  function makeSubjectCountsLabel(stats){
+    const summary=document.createElement('p');
+    summary.className='card-subject-counts';
+    summary.setAttribute('aria-label','현재 과목 중요 '+stats.important+'장, 외움 '+stats.memorized+'장, 전체 '+stats.total+'장');
+    const add=(className,content)=>{
+      const span=document.createElement('span');
+      span.className=className;
+      span.textContent=content;
+      summary.appendChild(span);
+    };
+    add('card-subject-count-important','☆ '+stats.important+'장');
+    add('card-subject-count-separator',' | ');
+    add('card-subject-count-memorized','✓ '+stats.memorized+'장');
+    add('card-subject-count-separator',' | ');
+    add('card-subject-count-total','총 '+stats.total+'장');
+    return summary;
+  }
+
+  function cardElement(card,globalIndex,total,subjectStats){
     const article=document.createElement('article');
     article.className='core-card';
 
@@ -540,7 +558,10 @@
     const source=document.createElement('p');
     source.className='card-source';
     source.textContent=card.sourceLabel||'';
-    metaRow.append(source,makeImportanceRating(card));
+    const metaEnd=document.createElement('div');
+    metaEnd.className='card-meta-end';
+    metaEnd.append(makeImportanceRating(card),makeSubjectCountsLabel(subjectStats));
+    metaRow.append(source,metaEnd);
     article.appendChild(metaRow);
 
     const actions=document.createElement('div');
@@ -579,13 +600,10 @@
     render();
   }
 
-  function updateHeroStats(allSubjectCards){
-    const importantCount=allSubjectCards.filter(card=>state.important.has(card.id)).length;
-    const memorizedCount=allSubjectCards.filter(card=>state.memorized.has(card.id)).length;
-
-    els.heroCount.textContent=allSubjectCards.length;
-    els.importantCount.textContent=importantCount;
-    els.memorizedCount.textContent=memorizedCount;
+  function updateHeroStats(subjectStats){
+    els.heroCount.textContent=subjectStats.total;
+    els.importantCount.textContent=subjectStats.important;
+    els.memorizedCount.textContent=subjectStats.memorized;
 
     const map=[
       [els.importantStatBtn,'important'],
@@ -606,6 +624,13 @@
     const maxOffset=Math.max(0,list.length-count);
     state.offset=Math.max(0,Math.min(state.offset,maxOffset));
     const page=list.slice(state.offset,state.offset+count);
+    // Filter-independent subject totals: search/category/status filters must not change these counts.
+    const allSubjectCards=bank.cards.filter(card=>card.subject===state.subject);
+    const subjectStats={
+      total:allSubjectCards.length,
+      important:allSubjectCards.filter(card=>state.important.has(card.id)).length,
+      memorized:allSubjectCards.filter(card=>state.memorized.has(card.id)).length
+    };
 
     els.grid.innerHTML='';
     if(!page.length){
@@ -621,7 +646,7 @@
       els.grid.appendChild(empty);
     }else{
       page.forEach(card=>{
-        els.grid.appendChild(cardElement(card,list.indexOf(card),list.length));
+        els.grid.appendChild(cardElement(card,list.indexOf(card),list.length,subjectStats));
       });
     }
 
@@ -633,8 +658,7 @@
     els.range.textContent=list.length ? from+'–'+to+' / '+list.length : '0 / 0';
     els.fill.style.width=list.length ? Math.min(100,to/list.length*100)+'%' : '0%';
 
-    const allSubjectCards=bank.cards.filter(c=>c.subject===state.subject);
-    updateHeroStats(allSubjectCards);
+    updateHeroStats(subjectStats);
     const subject=bank.subjects.find(s=>s.code===state.subject)?.name||'과목';
     els.statusText.textContent=subject+' · '+(state.category==='all'?'전체 단원':state.category);
     renderDots(list.length);
