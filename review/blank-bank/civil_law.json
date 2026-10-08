@@ -1790,7 +1790,7 @@
       "type": "blank",
       "subject": "민법 및 민사특별법",
       "category": "민법총칙",
-      "prompt": "반사회질서의 법률행위가 문제되는 기준은 {{blank:A}}과 {{blank:B}}이다.",
+      "prompt": "민법 제103조에서 법률행위의 효력을 판단할 때 문제되는 두 기준은 {{blank:A}}과 {{blank:B}}이다.",
       "answer": "선량한 풍속 / 사회질서",
       "choices": [
         "신의칙 / 거래안전",
