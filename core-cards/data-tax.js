@@ -330,7 +330,8 @@
     "title": "납세의무 성립",
     "subtitle": "과세요건이 충족되어 추상적 납세의무가 생기는 단계",
     "bullets": [
-      "취득세는 과세물건 취득 시, 재산세는 과세기준일에 성립"
+      "취득세는 과세물건을 취득한 때, 재산세는 과세기준일에 납세의무가 성립",
+      "납세의무의 성립과 세액의 확정은 서로 다른 단계"
     ],
     "formula": "",
     "visual": "none",
@@ -338,8 +339,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 2,
     "sourceSection": "조세총론·납세의무",
-    "sourceRef": "4.공인중개사요약_세법.pdf p2 + 국가법령정보센터 「지방세기본법」 제34조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제34조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세기본법 제34조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "exam",
       "summary"
@@ -357,7 +358,7 @@
       "2025-36-second2-034"
     ],
     "importance": 3,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p2 + 국가법령정보센터 「지방세기본법」 제34조"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제34조"
   },
   {
     "id": "tax-card-012",
@@ -368,16 +369,17 @@
     "title": "납세의무 확정",
     "subtitle": "성립한 납세의무의 과세표준과 세액을 구체적으로 정하는 단계",
     "bullets": [
-      "신고납세와 정부부과 방식으로 구별"
+      "신고납부 세목은 원칙적으로 과세표준과 세액을 신고할 때 확정",
+      "신고하지 않았거나 신고내용이 법령과 다르면 과세관청의 결정·경정으로 확정"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제35조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세기본법 제35조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -385,7 +387,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·납세의무"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제35조"
   },
   {
     "id": "tax-card-013",
@@ -396,16 +398,17 @@
     "title": "신고납세제도",
     "subtitle": "납세의무자가 과세표준과 세액을 신고하여 확정하는 방식",
     "bullets": [
-      "취득세·등록면허세·소득세 등이 대표적"
+      "취득세·등록분 등록면허세 등은 원칙적으로 납세자의 신고로 과세표준·세액 확정",
+      "무신고·잘못된 신고는 지방자치단체의 결정·경정 대상"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제35조, 지방세법 제20조·제30조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세기본법 제35조, 지방세법 제20조·제30조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -413,7 +416,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·납세의무"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제35조, 지방세법 제20조·제30조"
   },
   {
     "id": "tax-card-014",
@@ -424,16 +427,17 @@
     "title": "정부부과제도",
     "subtitle": "과세관청의 결정으로 세액이 확정되는 방식",
     "bullets": [
-      "재산세·종합부동산세의 부과방식과 연결"
+      "재산세는 지방자치단체가 과세표준·세액을 결정하여 고지",
+      "종합부동산세는 정부부과가 원칙이지만 납세자의 신고납부 선택을 허용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제35조, 종합부동산세법 제16조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세기본법 제35조, 종합부동산세법 제16조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -441,7 +445,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·납세의무"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제35조, 종합부동산세법 제16조"
   },
   {
     "id": "tax-card-015",
@@ -515,16 +519,18 @@
     "title": "부과제척기간",
     "subtitle": "과세관청이 세금을 부과할 수 있는 법정 기간",
     "bullets": [
-      "기간이 지나면 부과권 자체가 소멸하며 소멸시효와 구별"
+      "지방세 부과제척기간은 원칙 5년, 과세표준 무신고 7년, 부정행위 10년",
+      "상속·증여(부담부증여 포함) 취득세 무신고 등 법정 유형은 10년",
+      "법정 기간 만료 후에는 원칙적으로 부과 불가. 결정·판결 등 특례는 별도"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·기간",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제38조 [시행 2026.10.2.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세기본법 제38조 [시행 2026.10.2.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "exam",
       "summary"
@@ -537,7 +543,7 @@
       "2023-34-second2-025"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·기간"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제38조 [시행 2026.10.2.]"
   },
   {
     "id": "tax-card-018",
@@ -548,16 +554,18 @@
     "title": "징수권 소멸시효",
     "subtitle": "확정된 조세채권을 일정 기간 행사하지 않으면 징수권이 소멸하는 제도",
     "bullets": [
-      "시효의 중단·정지 여부가 부과제척기간과 다름"
+      "가산세 제외 지방세액이 5천만원 이상이면 징수권 소멸시효 10년, 5천만원 미만은 5년",
+      "신고세액은 법정납부기한 다음 날, 고지세액은 고지서상 납부기한 다음 날부터 원칙적으로 기산",
+      "부과제척기간과 달리 시효의 중단·정지 등 적용 여부를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·기간",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제39조 [시행 2026.10.2.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세기본법 제39조 [시행 2026.10.2.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -565,7 +573,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·기간"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제39조 [시행 2026.10.2.]"
   },
   {
     "id": "tax-card-019",
@@ -849,16 +857,17 @@
     "title": "취득세",
     "subtitle": "부동산 등 과세물건의 취득에 대해 부과하는 지방세",
     "bullets": [
-      "등기·등록 여부와 관계없이 사실상 취득하면 과세되는 실질과세 성격"
+      "부동산등의 취득세는 등기·등록 여부와 무관하게 사실상 취득하면 부과",
+      "유상승계·무상승계·원시취득뿐 아니라 법률이 정한 간주취득도 포함"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "취득세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제7조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제7조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "exam",
       "summary"
@@ -884,7 +893,7 @@
       "2024-35-2-2-026"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p4 · 취득세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제7조"
   },
   {
     "id": "tax-card-028",
@@ -923,16 +932,17 @@
     "title": "취득",
     "subtitle": "매매·교환·상속·증여·기부·현물출자·건축 등으로 과세물건을 취득하는 것",
     "bullets": [
-      "유상·무상·원시취득을 모두 포함"
+      "취득은 매매·교환·상속·증여·기부·현물출자·건축 등 유상·무상·원시취득을 포괄",
+      "등기 없이 사실상 취득한 경우에도 취득세 납세의무가 성립할 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "취득세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제6조·제7조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제6조·제7조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "exam",
       "summary"
@@ -958,7 +968,7 @@
       "2022-33-second2-031"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p4 · 취득세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제6조·제7조"
   },
   {
     "id": "tax-card-030",
@@ -969,16 +979,17 @@
     "title": "취득의 의제",
     "subtitle": "법률상 소유권 취득이 없어도 경제적 가치 증가 등을 취득으로 보는 것",
     "bullets": [
-      "지목변경·건축물 개수·차량 종류변경·과점주주 취득 등이 대표적"
+      "건축물의 개수, 토지 지목변경, 차량·기계장비·선박의 종류변경으로 가액이 증가하면 취득으로 볼 수 있음",
+      "법인의 과점주주가 되는 경우도 법정 요건에서 간주취득에 해당"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제7조제4항·제5항",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제7조제4항·제5항. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -986,7 +997,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p5 · 취득세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제7조제4항·제5항"
   },
   {
     "id": "tax-card-031",
@@ -997,16 +1008,18 @@
     "title": "과점주주 간주취득",
     "subtitle": "법인의 과점주주가 되면 법인 소유 과세물건을 지분비율만큼 취득한 것으로 보는 제도",
     "bullets": [
-      "주식 취득으로 과점주주가 되거나 지분이 증가한 경우 법정 범위에서 과세"
+      "주식·지분 취득으로 법인의 과점주주가 되면 법인 보유 부동산등을 간주취득하는 경우가 있음",
+      "법인 설립 때 발행한 주식·지분을 취득하여 과점주주가 된 경우는 제외",
+      "지분 증가 등에 따른 과세범위와 연대납세의무는 법정 기준으로 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제7조제5항·지방세기본법 제46조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제7조제5항·지방세기본법 제46조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1014,7 +1027,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제7조제5항·지방세기본법 제46조"
   },
   {
     "id": "tax-card-032",
@@ -1025,16 +1038,17 @@
     "title": "취득세 납세의무자",
     "subtitle": "과세물건을 사실상 취득한 자",
     "bullets": [
-      "명의보다 실제 취득관계가 중요"
+      "취득세 납세의무자는 원칙적으로 부동산등을 사실상 취득한 자",
+      "등기·등록을 하지 않았더라도 사실상 취득한 경우 과세될 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "취득세·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제7조제1항·제2항",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제7조제1항·제2항. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1042,7 +1056,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p4 · 취득세·납세의무"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제7조제1항·제2항"
   },
   {
     "id": "tax-card-033",
@@ -1053,7 +1067,9 @@
     "title": "유상승계취득 시기",
     "subtitle": "매매 등 유상으로 승계취득한 때의 취득시기",
     "bullets": [
-      "원칙적으로 사실상 잔금지급일 등 대통령령이 정한 날을 기준으로 판단"
+      "유상승계취득은 원칙적으로 사실상의 잔금지급일에 취득한 것으로 봄",
+      "실제 잔금지급일 확인 불가 시 계약상 잔금지급일, 그마저 없으면 계약일부터 60일 경과일 적용",
+      "등기 전 적법한 계약해제가 입증된 경우에는 취득으로 보지 않는 예외가 있음"
     ],
     "formula": "",
     "visual": "none",
@@ -1061,8 +1077,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·취득시기",
-    "sourceRef": "4.공인중개사요약_세법.pdf p5 + 국가법령정보센터 「지방세법 시행령」 취득시기 관련 조문",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제20조제2항 [시행 2026.10.1.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 시행령 제20조제2항 [시행 2026.10.1.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1070,7 +1086,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p5 + 국가법령정보센터 「지방세법 시행령」 취득시기 관련 조문"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제20조제2항 [시행 2026.10.1.]"
   },
   {
     "id": "tax-card-034",
@@ -1081,16 +1097,17 @@
     "title": "무상승계취득 시기",
     "subtitle": "증여 등 무상으로 승계취득한 때의 취득시기",
     "bullets": [
-      "상속·유증과 일반 증여의 취득시기를 구별"
+      "일반 증여 등 무상취득은 원칙적으로 계약일을 취득시기로 봄",
+      "상속·유증은 상속 또는 유증 개시일을 기준으로 하며, 등기 전 계약해제 입증 예외는 별도"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·취득시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제20조제1항 [시행 2026.10.1.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 시행령 제20조제1항 [시행 2026.10.1.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1098,7 +1115,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p5 · 취득세·취득시기"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제20조제1항 [시행 2026.10.1.]"
   },
   {
     "id": "tax-card-035",
@@ -1109,16 +1126,17 @@
     "title": "상속 취득시기",
     "subtitle": "상속개시일에 상속재산을 취득한 것으로 보는 기준",
     "bullets": [
-      "상속 취득세 신고기간과 별도로 취득시기를 판단"
+      "상속으로 취득한 재산의 취득시기는 원칙적으로 상속개시일",
+      "취득시기와 취득세 신고납부기한(상속개시월 말일부터 원칙 6개월)은 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·취득시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제20조제1항·지방세법 제20조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 시행령 제20조제1항·지방세법 제20조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1126,7 +1144,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p5 · 취득세·취득시기"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제20조제1항·지방세법 제20조"
   },
   {
     "id": "tax-card-036",
@@ -1137,16 +1155,18 @@
     "title": "원시취득 시기",
     "subtitle": "건축·매립 등으로 새 과세물건이 생기는 경우의 취득시기",
     "bullets": [
-      "사용승인일·사실상 사용일 등 법정 기준 중 해당 시점을 적용"
+      "건축물을 건축·개수한 경우 사용승인서 교부일과 사실상 사용일 중 빠른 날이 원칙",
+      "교부 전 임시사용승인을 받았다면 임시사용승인일도 고려",
+      "매립·간척에 따른 토지 원시취득은 공사준공인가일을 원칙으로 하되 조기 사용승낙·허가·사용 예외가 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·취득시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제20조제6항·제8항 [시행 2026.10.1.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 시행령 제20조제6항·제8항 [시행 2026.10.1.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1154,7 +1174,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p5 · 취득세·취득시기"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제20조제6항·제8항 [시행 2026.10.1.]"
   },
   {
     "id": "tax-card-037",
@@ -1165,16 +1185,17 @@
     "title": "연부취득",
     "subtitle": "취득대금을 장기간에 걸쳐 분할하여 지급하는 취득",
     "bullets": [
-      "각 연부금 지급 시마다 부분 취득으로 보아 과세할 수 있음"
+      "연부취득은 매회 사실상 연부금을 지급한 날에 해당 부분을 취득한 것으로 봄",
+      "취득가액 총액이 취득세 면세점의 적용을 받는 경우는 연부취득 규정에서 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·취득시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제20조제5항·지방세법 제17조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 시행령 제20조제5항·지방세법 제17조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1182,7 +1203,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p5 · 취득세·취득시기"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제20조제5항·지방세법 제17조"
   },
   {
     "id": "tax-card-038",
@@ -1193,16 +1214,17 @@
     "title": "선등기 취득",
     "subtitle": "취득시기 전에 등기·등록한 경우 그 등기·등록일을 취득시기로 보는 제도",
     "bullets": [
-      "실제 잔금지급일보다 먼저 등기한 경우가 대표적"
+      "무상취득·유상승계취득·연부취득의 통상 취득일보다 먼저 등기·등록했다면 그 등기·등록일을 취득일로 봄",
+      "취득시기 판단에서 선등기 특례와 대금청산 원칙을 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·취득시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제20조제14항 [시행 2026.10.1.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 시행령 제20조제14항 [시행 2026.10.1.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1210,7 +1232,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p5 · 취득세·취득시기"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제20조제14항 [시행 2026.10.1.]"
   },
   {
     "id": "tax-card-039",
@@ -1494,16 +1516,18 @@
     "title": "취득세 표준세율",
     "subtitle": "일반적인 취득에 적용하는 법정 기본세율",
     "bullets": [
-      "취득원인·농지 여부·주택 여부 등에 따라 세율을 구분"
+      "부동산 취득세 표준세율은 상속·증여·원시취득·일반 유상취득 등 원인과 농지 여부에 따라 달라짐",
+      "예: 상속 농지 2.3%, 그 밖의 상속 2.8%, 일반 원시취득 2.8%, 농지 일반 유상취득 3%",
+      "주택 유상취득의 별도 1~3% 체계와 중과세율 적용 여부를 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제11조제1항 [시행 2026.7.1.]",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제11조제1항 [시행 2026.7.1.]. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1511,7 +1535,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제11조제1항 [시행 2026.7.1.]"
   },
   {
     "id": "tax-card-049",
@@ -1522,16 +1546,18 @@
     "title": "주택 유상취득세율",
     "subtitle": "주택을 유상으로 취득할 때 적용하는 취득세율 체계",
     "bullets": [
-      "주택가액과 주택 수·지역 등에 따라 일반세율 또는 중과세율이 적용될 수 있음"
+      "주택 유상취득의 일반세율: 취득당시가액 6억원 이하는 1%, 9억원 초과는 3%",
+      "6억원 초과 9억원 이하 구간은 법정 계산식에 따른 1~3% 사이 세율",
+      "법인 취득이나 다주택·조정대상지역 해당 시 제13조의2의 중과 및 예외를 따로 검토"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제11조제1항제8호·제13조의2",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제11조제1항제8호·제13조의2. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1539,7 +1565,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제11조제1항제8호·제13조의2"
   },
   {
     "id": "tax-card-050",
@@ -1550,16 +1576,18 @@
     "title": "취득세 중과세율",
     "subtitle": "사치성 재산·대도시 법인 등 일정 취득에 높은 세율을 적용하는 제도",
     "bullets": [
-      "표준세율과 중과기준세율을 조합해 계산하는 구조"
+      "대도시 법인·공장 관련 중과는 지방세법 제13조, 법인·다주택자의 주택 취득 중과는 제13조의2 기준",
+      "회원제 골프장·고급주택·고급오락장·고급선박 등은 제13조제5항의 별도 중과대상",
+      "별장은 2023년 3월 14일부터 제13조제5항 중과대상에서 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제13조·제13조의2",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제13조·제13조의2. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1567,7 +1595,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제13조·제13조의2"
   },
   {
     "id": "tax-card-051",
@@ -1702,16 +1730,18 @@
     "title": "대도시 법인중과",
     "subtitle": "대도시 법인설립·지점설치·전입 등에 따른 부동산 취득의 중과",
     "bullets": [
-      "중과대상과 제외업종·예외를 구별"
+      "대도시 법인 설립·지점 설치·전입에 따른 부동산 취득은 법정 요건에서 취득세 중과",
+      "시행령상 설치·전입 이후 일정 기간 내의 취득도 포함될 수 있음",
+      "대도시 중과 제외 업종 및 사후 직접사용·전용 관련 추징 요건을 따로 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제13조제2항·제3항, 지방세법 시행령 제27조",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제13조제2항·제3항, 지방세법 시행령 제27조. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1719,7 +1749,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·중과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제13조제2항·제3항, 지방세법 시행령 제27조"
   },
   {
     "id": "tax-card-056",
@@ -1730,16 +1760,17 @@
     "title": "취득세 세율특례",
     "subtitle": "형식적 취득이나 의제취득에 일반 표준세율과 다른 구조를 적용하는 제도",
     "bullets": [
-      "공유물분할·합병·개수·지목변경 등의 유형을 구별"
+      "지방세법 제15조는 특정 취득에 표준세율에서 중과기준세율을 빼거나 중과기준세율 자체를 적용하는 특례를 규정",
+      "법인합병·공유물분할·개수·지목변경·과점주주 간주취득 등은 유형마다 방식과 예외가 다름"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "취득세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제15조제1항·제2항",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제15조제1항·제2항. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1747,7 +1778,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 취득세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제15조제1항·제2항"
   },
   {
     "id": "tax-card-057",
@@ -1758,16 +1789,17 @@
     "title": "형식적 취득",
     "subtitle": "실질적 재산증가가 크지 않은 소유형태 정리 등 취득",
     "bullets": [
-      "공유물분할·법인합병 등은 법정 세율특례가 적용될 수 있음"
+      "공유물 분할·적격 법인합병·재산분할 등은 일정 조건에서 취득세 세율특례가 적용될 수 있음",
+      "형식적 취득이라고 모두 비과세인 것은 아니며 초과지분·사후요건 등을 따져야 함"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "취득세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제15조제1항",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제15조제1항. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1775,7 +1807,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 취득세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제15조제1항"
   },
   {
     "id": "tax-card-058",
@@ -1786,16 +1818,18 @@
     "title": "취득세 비과세",
     "subtitle": "국가 등의 취득 등 법률상 취득세를 부과하지 않는 경우",
     "bullets": [
-      "국가·지자체의 취득 등 법정 비과세 사유를 확인"
+      "국가·지방자치단체 및 지방자치단체조합의 취득은 원칙적으로 취득세 비과세",
+      "외국정부 취득은 상호주의에 따른 과세 예외가 있음",
+      "국가 등에 귀속·기부채납을 조건으로 취득한 부동산도 요건에 따라 비과세되지만 반대급부 등 예외 존재"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "취득세·비과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제9조제1항·제2항",
+    "sourceNote": "2026-10-08 3차 조문 대조: 지방세법 제9조제1항·제2항. 기존 학습 항목에 현행법 세부 구분 보완.",
     "basis": [
       "summary"
     ],
@@ -1803,7 +1837,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p4 · 취득세·비과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제9조제1항·제2항"
   },
   {
     "id": "tax-card-059",
