@@ -1,4 +1,6 @@
 const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
 const {ROOT,MANIFEST,compileSubject}=require('../core-bank/compile.cjs');
 const {TARGETS,readBank}=require('../blank-bank/validate.cjs');
 const subjects=Object.keys(MANIFEST.subjects);
@@ -136,6 +138,57 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
     assert.equal(q.choices.filter(x=>x===q.answer).length,1,id+': exactly one correct choice');
     assert.ok(q.explanation.includes('민법 '+spec.article),id+': explanation addresses statutory basis');
   }
+}
+// v1.98: 민법 물권법 CVK021~038의 정답 위치 보존 및 참인 타개념 오답 재사용 방지.
+{
+  const civil=compileSubject('civil_law').questions;
+  const byId=new Map(civil.map(q=>[q.id,q]));
+  const truth=new Set(civil.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['CVK021','제185조',2],['CVK022','제186조',1],
+    ['CVK023','제187조',2],['CVK024','제192조',1],
+    ['CVK025','제197조',1],['CVK026','제245조제1항',2],
+    ['CVK027','제245조제2항',1],['CVK028','제262조',2],
+    ['CVK029','제264조',3],['CVK030','제265조',1],
+    ['CVK031','제279조',3],['CVK032','제291조',0],
+    ['CVK033','제303조',0],['CVK034','제312조',1],
+    ['CVK035','제320조',1],['CVK036','제321조',0],
+    ['CVK037','제356조',3],['CVK038','제357조',0]
+  ];
+  const auditedIds=new Set(expected.map(x=>x[0]));
+  for(const [id,article,answer] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': missing reviewed civil property card');
+    assert.equal(q.sourceLaw,'민법',id+': statute basis');
+    assert.equal(q.sourceArticle,article,id+': provision');
+    assert.equal(q.answer,answer,id+': preserved answer index');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': statute-specific truth question');
+    assert.ok(q.explanation.includes('민법 '+article.replace('제245조제','제245조 제')),id+': explanatory provision');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': direct review date');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': wording review date');
+    assert.equal(q.choices.length,4,id+': option count');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': unique options');
+    for(let i=0;i<4;i++){
+      if(i!==answer) assert.ok(!truth.has(normalize(q.choices[i])),id+': cannot reuse a factual correct answer from elsewhere');
+    }
+  }
+
+  // These archived source snapshots do not compile into the runtime question;
+  // require them to stay in sync with the canonical source of truth.
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/02_civil_law_final.txt'),'utf8');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  let count=0;
+  for(const raw of parseBlocks(source)){
+    const record=parseBlock(raw);
+    if(!auditedIds.has(record.originQuestionId)) continue;
+    const q=byId.get(record.originQuestionId);
+    assert.equal(record.sourceQuestion,q.question,record.id+': original question snapshot drift');
+    const k='[원본 정답]';
+    assert.ok(raw.includes(k),record.id+': missing original answer snapshot');
+    assert.equal(raw.slice(raw.indexOf(k)+k.length).trim(),q.choices[q.answer],record.id+': original answer snapshot drift');
+    count++;
+  }
+  assert.equal(count,75,'all 75 property-origin derived quiz source snapshots audited');
 }
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
