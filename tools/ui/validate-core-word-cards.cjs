@@ -123,6 +123,16 @@ need(cardJs.includes("['PGI','가능조소득']")&&cardJs.includes("['ATCF','세
 need(cardCss.includes('.visual-legend')&&cardCss.includes('.visual-legend-item'),'graph legend styles missing');
 need(cardJs.includes('card.formula')&&cardJs.includes('card.visual'),'formula/visual rendering support missing');
 need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formula/visual styles missing');
+
+const civilDiagramNames=['civil_agency_basic','civil_agency_disclosure','civil_agency_sub','civil_agency_unauthorized','civil_agency_apparent','civil_apparent_125','civil_apparent_126','civil_apparent_129','civil_possession_simple','civil_possession_revision','civil_possession_claim','civil_possession_indirect','civil_apparent_compare','civil_unauthorized_rights'];
+need(cardJs.includes('function civilDiagramMarkup(type)')&&cardJs.includes('const civilMarkup=civilDiagramMarkup(type)'),'civil diagrams must use the shared SVG renderer');
+for(const name of civilDiagramNames) need(cardJs.includes(name),'missing civil SVG renderer: '+name);
+need(cardCss.includes('.v-civil-box{')&&cardCss.includes('.v-civil-caption{'),'dark/mobile civil SVG style missing');
+need(cardJs.includes("wrap.setAttribute('role','img')")&&cardJs.includes("wrap.setAttribute('aria-label',card.title"),'diagram accessible description missing');
+const illustratedCivil=bank.cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
+need(illustratedCivil.length===14,'civil SVG first batch must contain 14 cards');
+need(new Set(illustratedCivil.map(c=>c.visual)).size===14,'civil diagram types must match the fourteen intended learning concepts');
+
 need(Array.isArray(bank?.cards)&&bank.cards.length===1241,'core card total must be 1241');
 const realCards=bank.cards.filter(c=>c.subject==='real_estate_intro');
 const civilCards=bank.cards.filter(c=>c.subject==='civil_law');
