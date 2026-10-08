@@ -64,6 +64,34 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   assert.equal(person.choices.filter(c=>c===person.answer).length,1);
   assert.ok(!person.choices.includes('거래당사자'));
 }
+// v1.95 statute-specific distractor regression: these seven are truth tests, not terminology matching.
+{
+  const civil=compileSubject('civil_law').questions;
+  const byId=new Map(civil.map(q=>[q.id,q]));
+  const allTrue=new Set(civil.map(q=>normalize(q.choices[q.answer])));
+  const expected=new Map([
+    ['CVK001',{answer:0,article:'제103조'}],
+    ['CVK002',{answer:3,article:'제104조'}],
+    ['CVK003',{answer:0,article:'제107조'}],
+    ['CVK004',{answer:3,article:'제108조'}],
+    ['CVK005',{answer:0,article:'제109조'}],
+    ['CVK006',{answer:0,article:'제110조'}],
+    ['CVK007',{answer:1,article:'제111조'}]
+  ]);
+  for(const [id,spec] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': must survive source compilation');
+    assert.equal(q.answer,spec.answer,id+': preserve canonical answer index');
+    assert.equal(q.sourceLaw,'민법',id+': source law');
+    assert.equal(q.sourceArticle,spec.article,id+': verified statute');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\\?$/,id+': same-topic true/false form');
+    assert.ok(q.explanation.includes('민법 '+spec.article),id+': grounded explanation');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': individual legal review date');
+    for(let i=0;i<q.choices.length;i++){
+      if(i!==q.answer) assert.ok(!allTrue.has(normalize(q.choices[i])),id+': do not recycle another card correct statement');
+    }
+  }
+}
 console.log('core/blank cross-audit OK: '+coreTotal+' core + '+blankTotal+' derived; '+sharedTrueDistractors+' core questions reuse a true statement for another concept.');
 console.log('Potential extended-source semantic review: '+reviewCandidates.length+' derived blanks use words not stated verbatim in original prompt/correct/explanation; not automatically errors.');
 if(process.argv.includes('--details'))console.log(JSON.stringify(reviewCandidates,null,2));
