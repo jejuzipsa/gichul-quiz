@@ -85,6 +85,19 @@ const ruleCards=[29,30,31,32].map(n=>cards.find(c=>c.id==='civ-card-'+String(n).
 const ruleTypes=["civil_rule_mandatory","civil_rule_default","civil_rule_validity","civil_rule_policing"];
 for(let i=0;i<4;i++) need(ruleCards[i]?.visual===ruleTypes[i],'civil rule '+(i+29)+' must use its own diagram');
 need(new Set(ruleCards.map(c=>c?.visual)).size===4,'all four legal rule concepts need distinct diagrams');
+const civilV189ReviewedIds=["civ-card-091","civ-card-092","civ-card-093","civ-card-094","civ-card-095","civ-card-096","civ-card-101","civ-card-119","civ-card-120","civ-card-125","civ-card-127","civ-card-130","civ-card-131","civ-card-132","civ-card-133","civ-card-134","civ-card-135","civ-card-141","civ-card-143","civ-card-144","civ-card-145","civ-card-147","civ-card-148","civ-card-149","civ-card-150","civ-card-152","civ-card-153","civ-card-154","civ-card-155","civ-card-170","civ-card-174","civ-card-176","civ-card-179","civ-card-180","civ-card-184","civ-card-185","civ-card-186","civ-card-187","civ-card-234","civ-card-235","civ-card-237","civ-card-238","civ-card-239","civ-card-242"];
+for(const id of civilV189ReviewedIds){
+  const card=cards.find(c=>c.id===id);
+  need(card?.sourceKind==='summary+official'&&card.sourceRef.includes('law.go.kr')&&card.bullets.length===2,id+': v1.89 official comparison, source link or concise explanation missing');
+  need(card?.sourceNote.includes('2026-10-09'),id+': v1.89 reviewed note missing');
+}
+need(civilV189ReviewedIds.length===44,'v1.89 review must cover 44 cards');
+need(cards.find(c=>c.id==='civ-card-153')?.bullets.some(x=>x.includes('최후 2년')&&x.includes('압류')),'civil statutory landlord mortgage §649 conditions missing');
+need(cards.find(c=>c.id==='civ-card-154')?.bullets.some(x=>x.includes('1년분')),'mortgage §360 delayed damage annual cap missing');
+need(cards.find(c=>c.id==='civ-card-185')?.bullets.some(x=>x.includes('6개월')),'seller defect warranty period missing');
+need(cards.find(c=>c.id==='civ-card-186')?.bullets.some(x=>x.includes('부동산 5년')&&x.includes('동산 3년')),'repurchase period §591 missing');
+need(cards.find(c=>c.id==='civ-card-134')?.bullets.some(x=>x.includes('관리')&&x.includes('보존')),'joint-ownership management vs preservation missing');
+need(cards.find(c=>c.id==='civ-card-141')?.bullets.some(x=>x.includes('2022년')&&x.includes('전원합의체')),'customary superficies 2022 precedent missing');
 const illustratedCivil=cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===57,'civil diagrams must apply to 57 statute-reviewed cards');
 const diagramCardIds=["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"];
