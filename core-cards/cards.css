@@ -44,14 +44,19 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
 .subject-button>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .subject-chevron{width:18px;height:18px;fill:none;stroke:var(--muted);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .15s ease,stroke .15s ease}
 .subject-picker.open .subject-chevron{transform:rotate(180deg);stroke:var(--accent)}
-.subject-menu{position:absolute;left:-8px;right:-6px;top:calc(100% + 7px);z-index:95;display:grid;gap:3px;max-height:min(420px,58vh);overflow:auto;padding:7px;border:1px solid color-mix(in srgb,var(--accent) 28%,var(--line));border-radius:12px;background:var(--menuBg);box-shadow:0 20px 46px rgba(0,0,0,.24);color:var(--text);overscroll-behavior:contain}
+.subject-menu{position:absolute;left:-8px;right:auto;width:min(580px,calc(100vw - 78px));top:calc(100% + 7px);z-index:95;display:grid;gap:3px;max-height:min(420px,58vh);overflow:auto;padding:7px;border:1px solid color-mix(in srgb,var(--accent) 28%,var(--line));border-radius:12px;background:var(--menuBg);box-shadow:0 20px 46px rgba(0,0,0,.24);color:var(--text);overscroll-behavior:contain}
 .subject-menu[hidden]{display:none}
-.subject-option{width:100%;min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;border:1px solid transparent;border-radius:9px;background:transparent;color:var(--text);text-align:left;font-weight:750;line-height:1.3}
+.subject-option{width:100%;min-height:40px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:5px 10px;padding:8px 10px;border:1px solid transparent;border-radius:9px;background:transparent;color:var(--text);text-align:left;font-weight:750;line-height:1.3}
 .subject-option:hover,.subject-option:focus-visible{background:var(--menuHover);border-color:color-mix(in srgb,var(--accent) 24%,var(--line));outline:none}
 .subject-option.active{background:var(--menuSelected);border-color:color-mix(in srgb,var(--accent) 48%,var(--line));color:var(--text)}
 .subject-option.disabled{cursor:not-allowed;color:var(--menuDisabled);background:transparent}
 .subject-option.disabled:hover{border-color:transparent;background:transparent}
-.subject-option-name{min-width:0}
+.subject-option-name{min-width:0;flex:1 1 185px;overflow-wrap:anywhere}
+.subject-option-counts{display:inline-flex;align-items:center;gap:3px;flex:0 0 auto;margin-left:auto;white-space:nowrap;font-size:11px;font-weight:650;font-variant-numeric:tabular-nums;color:var(--muted)}
+.subject-option-count-important{color:#a67a05}
+:root[data-theme="dark"] .subject-option-count-important{color:#facc15}
+.subject-option-count-memorized{color:var(--muted)}
+.subject-option-count-separator{opacity:.7}
 .subject-option-status{flex:0 0 auto;padding:2px 6px;border-radius:999px;border:1px solid color-mix(in srgb,var(--menuDisabled) 42%,var(--line));color:var(--menuDisabled);font-size:9px;font-weight:850;white-space:nowrap}
 .progress-box{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:8px 10px;padding:7px 10px 6px 12px}
 .progress-box strong{justify-self:end;font-size:12px;font-variant-numeric:tabular-nums}
@@ -130,10 +135,6 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
 .card-illustration{margin-top:20px;display:flex;justify-content:center}.card-illustration img{max-width:100%;max-height:160px;object-fit:contain}.card-spacer{flex:1 1 auto;min-height:24px}
 .card-meta-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;padding-top:18px;border-top:1px solid var(--line)}
 .card-source{flex:1 1 225px;min-width:0;margin:0;color:var(--muted);font-size:11px;line-height:1.5;overflow-wrap:anywhere}
-.card-meta-end{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex:0 0 auto;margin-left:auto;max-width:100%;min-width:0}
-.card-subject-counts{margin:0;max-width:100%;color:var(--muted);font-size:11px;line-height:1.4;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-.card-subject-count-important{color:#ad8005}.card-subject-count-memorized{color:var(--muted)}.card-subject-count-separator{color:var(--muted);opacity:.7}
-:root[data-theme="dark"] .card-subject-count-important{color:#facc15}
 .card-importance{display:inline-flex;align-items:center;gap:3px;flex:0 0 auto;margin-left:auto}
 .importance-star{display:block;width:17px;height:17px;fill:none;stroke:var(--muted);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .importance-star.is-active{stroke:#b88705}
@@ -156,7 +157,7 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
   .scope-box{min-height:40px;border-radius:11px}
   .subject-field{gap:6px;padding:0 7px 0 9px}
   .subject-field>span,.progress-box>span{font-size:9px}
-  .subject-button{height:31px;padding-left:4px;font-size:11px}.subject-menu{left:-7px;right:-5px}.subject-option{min-height:38px;font-size:11px}
+  .subject-button{height:31px;padding-left:4px;font-size:11px}.subject-menu{left:-7px;right:auto}.subject-option{min-height:38px;font-size:11px}.subject-option-counts{font-size:10px}
   .progress-box{grid-template-columns:auto 1fr auto;gap:5px 7px;padding:6px 7px 5px 9px}
   .progress-box strong{font-size:11px}
   .hero-stats{grid-template-columns:repeat(3,54px);gap:4px}
@@ -187,7 +188,7 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
   .hero-stats{grid-template-columns:repeat(3,50px);gap:3px}
   .hero-badge{min-height:82px;padding:7px 2px 4px;border-radius:11px}
   .hero-badge strong{font-size:18px}.hero-badge>span:not(.hero-stat-icon){font-size:7.5px}
-  .scope-box{min-height:38px}.subject-field{padding-left:7px}.subject-button{font-size:10px}.subject-option{font-size:10px}
+  .scope-box{min-height:38px}.subject-field{padding-left:7px}.subject-button{font-size:10px}.subject-option{font-size:10px;padding:9px 8px}.subject-option-counts{font-size:9px;gap:2px}
   .progress-box{padding-left:7px}.progress-box strong{font-size:10px}
   .search-field input{height:38px}
   .core-card{min-height:520px}
