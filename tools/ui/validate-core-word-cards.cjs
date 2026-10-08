@@ -126,7 +126,7 @@ need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formul
 
 const nextCivilDiagramNames=['civil_surface_section','civil_joint_mortgage','civil_housing_timeline','civil_provisional_steps','civil_condivision'];
 const generalCivilDiagramNames=['civil_intention_comparison','civil_void_cancel_compare','civil_condition_compare'];
-const remainingCivilDiagramNames=['civil_rule_types','civil_dispatch_rule','civil_abuse_protection','civil_term_effect'];
+const remainingCivilDiagramNames=['civil_rule_mandatory','civil_rule_default','civil_rule_validity','civil_rule_policing','civil_dispatch_rule','civil_abuse_protection','civil_term_effect'];
 const finalCivilDiagramNames=['civil_acquisitive_timeline','civil_grave_rent','civil_joint_auction','civil_housing_renewal','civil_strata_vote','civil_strata_meeting'];
 const civilDiagramNames=['civil_agency_basic','civil_agency_disclosure','civil_agency_sub','civil_agency_unauthorized','civil_agency_apparent','civil_apparent_125','civil_apparent_126','civil_apparent_129','civil_possession_simple','civil_possession_revision','civil_possession_claim','civil_possession_indirect','civil_apparent_compare','civil_unauthorized_rights'];
 need(cardJs.includes('function civilDiagramMarkup(type)')&&cardJs.includes('const civilMarkup=civilDiagramMarkup(type)'),'civil diagrams must use the shared SVG renderer');
@@ -139,9 +139,14 @@ need(cardCss.includes('.v-civil-box{')&&cardCss.includes('.v-civil-caption{'),'d
 need(cardJs.includes("wrap.setAttribute('role','img')")&&cardJs.includes("wrap.setAttribute('aria-label',card.title"),'diagram accessible description missing');
 need(cardJs.includes("if(type==='civil_possession_claim')")&&cardJs.includes("civBox(4,85,78,'제3자')")&&cardJs.includes('제3자 직접점유 유지'),'return-claim diagram must visibly separate the third-party direct possessor');
 need(cardJs.includes("if(type==='civil_agency_unauthorized')")&&cardJs.includes('대리권 없음'),'unauthorized-agent diagram must mark absence of authority');
+const ruleIds=['civ-card-029','civ-card-030','civ-card-031','civ-card-032'];
+const ruleVisuals=["civil_rule_mandatory","civil_rule_default","civil_rule_validity","civil_rule_policing"];
+for(let i=0;i<4;i++) need(bank.cards.find(c=>c.id===ruleIds[i])?.visual===ruleVisuals[i],ruleIds[i]+': correct rule-specific SVG required');
+need(new Set(ruleIds.map(id=>bank.cards.find(c=>c.id===id)?.visual)).size===4,'four different rule cards must not reuse the same SVG');
+need(cardJs.includes('강행규정: 특약으로 배제 불가')&&cardJs.includes('임의규정: 특약 우선')&&cardJs.includes('효력규정: 사법상 효력도 부정')&&cardJs.includes('단속규정: 제재와 계약효력 별개'),'statute diagrams must convey four separate legal concepts');
 const illustratedCivil=bank.cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===57,'civil SVG must include 50 prior plus 7 new civil diagram cards');
-need(new Set(illustratedCivil.map(c=>c.visual)).size===32,'civil diagram types must include prior 26 plus six reusable types');
+need(new Set(illustratedCivil.map(c=>c.visual)).size===35,'civil diagram types must include the four distinct rule diagrams');
 for(const id of ["civ-card-128","civ-card-129","civ-card-142","civ-card-156","civ-card-199","civ-card-224","civ-card-225"]) need(illustratedCivil.some(c=>c.id===id),'missing audited v1.85 SVG card '+id);
 for(const id of ["civ-card-029","civ-card-030","civ-card-031","civ-card-032","civ-card-043","civ-card-062","civ-card-082","civ-card-083"]) need(illustratedCivil.some(c=>c.id===id),'missing new civil SVG card '+id);
 for(const id of ["civ-card-037","civ-card-038","civ-card-039","civ-card-040","civ-card-041","civ-card-073","civ-card-074","civ-card-075","civ-card-076","civ-card-077","civ-card-078","civ-card-079","civ-card-080","civ-card-081"]) need(illustratedCivil.some(c=>c.id===id),'missing general-law SVG card '+id);
