@@ -17,6 +17,10 @@ function validateBlankShape(q, fail) {
   if(keys.length>1 && (keys.some(k=>!k)||new Set(keys).size!==keys.length||keys.join('')!=='ABC'.slice(0,keys.length))) {
     fail(`${q.id}: invalid named blanks`); return;
   }
+
+  const withoutMarkers=String(q.prompt||'').replace(markerRe,'');
+  const expectedValues=keys.length===1?[q.answer]:keys.map(key=>q.blankValues?.[q.answer]?.[key]);
+  if(expectedValues.some(value=>typeof value==='string'&&value.length>=2&&withoutMarkers.includes(value))) fail(`${q.id}: answer is visible outside blank markers`);
   if(String(q.prompt).length>150) fail(`${q.id}: prompt too long`);
   if((q.choices||[]).some(x=>String(x).length>55)) fail(`${q.id}: choice too long`);
   if(keys.length===1) {

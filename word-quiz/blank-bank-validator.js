@@ -26,13 +26,19 @@
       return parts.join(' / ')===choice;
     });
   };
+  const answerVisibleOutsideBlanks=q=>{
+    const matches=markerKeys(q.prompt);
+    const stem=String(q.prompt||'').replace(/\\{\\{blank(?::[A-Z])?\\}\\}/g,'');
+    const expected=matches.length===1?[q.answer]:matches.map(key=>q.blankValues?.[q.answer]?.[key]);
+    return expected.some(value=>typeof value==='string'&&value.length>=2&&stem.includes(value));
+  };
   window.validateBlankBank=(bank,key)=>{
     const target=targets[key];
     if(!target||!bank||!Array.isArray(bank.questions)||bank.questions.length!==target||bank.targetCount!==target||bank.generatedCount!==target) return false;
     const ids=new Set(),prompts=new Set();
     return bank.questions.every(q=>{
       if(!q||q.type!=='blank'||['id','prompt','answer','explanation','source','subject'].some(k=>typeof q[k]!=='string'||!q[k].trim())) return false;
-      if(!validBlankShape(q)||ids.has(q.id)||prompts.has(norm(q.prompt))) return false;
+      if(!validBlankShape(q)||answerVisibleOutsideBlanks(q)||ids.has(q.id)||prompts.has(norm(q.prompt))) return false;
       ids.add(q.id);prompts.add(norm(q.prompt));
       return Array.isArray(q.choices)&&q.choices.length===4&&q.choices.every(x=>typeof x==='string'&&x.trim())&&new Set(q.choices.map(norm)).size===4&&q.choices.filter(x=>x===q.answer).length===1;
     });
