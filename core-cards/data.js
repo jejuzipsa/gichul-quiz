@@ -13860,7 +13860,7 @@ window.CORE_WORD_CARD_BANK = {
         "정기집회는 회계연도 종료 후 3개월 이내 소집하며 임시집회에는 별도 소집요건 적용"
       ],
       "formula": "",
-      "visual": "civil_strata_vote",
+      "visual": "civil_strata_meeting",
       "aliases": [
         "집회"
       ],
