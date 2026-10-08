@@ -7586,7 +7586,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 5,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제114조·제115조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -7789,7 +7789,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제114조·제115조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -7905,7 +7905,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제120조~제123조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -7948,7 +7948,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제130조·제133조·제135조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -7993,7 +7993,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조·제126조·제129조 / 대법원 2009.5.28. 선고 2008다56392」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -8037,7 +8037,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -8069,7 +8069,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제126조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -8105,7 +8105,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제129조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9581,7 +9581,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제188조제2항」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9610,7 +9610,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제189조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9639,7 +9639,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제190조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9831,7 +9831,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제194조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -14011,7 +14011,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "비교·법리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조·제126조·제129조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -14049,7 +14049,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 7,
       "sourceSection": "비교·법리",
       "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제130조~제135조」",
-      "sourceNote": "",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
