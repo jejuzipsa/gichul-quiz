@@ -134,7 +134,10 @@ need(cardCss.includes('.subject-option-counts{display:inline-flex')&&cardCss.inc
 need(cardCss.includes('.subject-menu{position:absolute;left:-8px;right:auto;width:min(580px,calc(100vw - 78px))'),'dropdown width must accommodate right-side counters on narrow screens');
 need(!cardCss.includes('.card-subject-counts{')&&!cardCss.includes('.card-meta-end{'),'old footer count layout must be removed');
 need(cardCss.includes('.card-meta-row{display:flex;flex-wrap:wrap')&&cardCss.includes('.card-importance{display:inline-flex'),'responsive footer importance layout missing');
-need(cardCss.includes('.importance-star{')&&cardCss.includes('fill:none')&&cardCss.includes('.importance-star.is-active{stroke:#b88705')&&cardCss.includes(':root[data-theme="dark"] .importance-star.is-active{stroke:#facc15'),'outlined yellow importance stars in both themes missing');
+need(cardCss.includes('.importance-star{')&&cardCss.includes('fill:none')&&cardCss.includes('.importance-star.is-active{stroke:#b88705')&&cardCss.includes(':root[data-theme="dark"] .importance-star.is-active{stroke:#facc15'),'base importance star outline and dark-mode styling must remain unchanged');
+need(cardCss.includes(':root[data-theme="light"] .importance-star.is-active{fill:#f5c84b;stroke:#b88705}'),'light mode active importance stars need gold fill and a darker gold outline');
+need(cardCss.includes(':root[data-theme="light"] .importance-star.is-inactive{fill:none;stroke:#aeb7c5;opacity:1}'),'light mode inactive importance stars need visible gray outlines with no fill');
+need(!cardCss.includes(':root[data-theme="dark"] .importance-star.is-active{fill:')&&!cardCss.includes(':root[data-theme="dark"] .importance-star.is-inactive{fill:'),'dark-mode importance star fill must stay untouched');
 need(bank.cards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.importance<=5),'all 1241 cards require importance scores 1..5');
 need(cardJs.includes('visualLegend(type)')&&cardJs.includes('addVisualLegend(wrap,card.visual)'),'graph symbol legend renderer missing');
 need(cardJs.includes("['P','가격']")&&cardJs.includes("['Q','수량']"),'P/Q graph legend meanings missing');
