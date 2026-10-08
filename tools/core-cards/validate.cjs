@@ -21,7 +21,7 @@ for(const config of configs){
   need(list.length===config.total,config.subject+': count must be '+config.total);
   const orders=new Set(),titles=new Set();
   for(const c of list){
-    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk',public_law:'pub',registration_law:'reg'}[config.subject];
+    const prefix={real_estate_intro:'rei',civil_law:'civ',brokerage_law:'brk',public_law:'pub',registration_law:'reg',tax_law:'tax'}[config.subject];
     need(!!prefix,config.subject+': missing id prefix mapping');
     need(new RegExp('^'+prefix+'-card-\\d{3}$').test(c.id),c.id+': invalid id');
     need(!ids.has(c.id),c.id+': duplicate id'); ids.add(c.id);
@@ -101,6 +101,21 @@ need(registration.some(c=>c.importance===1),'registration essential-only cards m
 for(const title of ['관련 사건 관할 특례','상속·유증 관할 특례','전자신청','등기정보자료']) need(registration.find(c=>c.title===title)?.sourceKind==='official','current registration-law card must use official source: '+title);
 need(registration.find(c=>c.title==='전자신청')?.bullets.some(x=>x.includes('이동통신단말장치')),'registration electronic application must include current mobile-app rule');
 need(!registration.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').includes('등기전산정보자료')),'outdated registration-law term leaked into card body');
+
+const tax=cards.filter(c=>c.subject==='tax_law');
+for(const title of ['국세','지방세','납세의무 성립','부과제척기간','징수권 소멸시효','연대납세의무','조세우선권','취득세','취득','과점주주 간주취득','취득당시가액','시가인정액','취득세 표준세율','등록면허세','재산세','재산세 과세기준일','재산세 공정시장가액비율','2026 1주택 공정비율','종합합산과세 토지','별도합산과세 토지','분리과세 토지','종합부동산세','주택분 종부세 기본공제','주택분 종부세 공정비율','종합합산 토지 종부세','별도합산 토지 종부세','소득세','거주자','부동산임대업 소득','양도소득세','양도소득세 과세대상','양도','양도·취득시기','양도소득 계산구조','필요경비','장기보유특별공제','양도소득과세표준','양도소득 기본세율','단기보유 세율','미등기양도자산','비사업용 토지','다주택자 중과','1세대 1주택 비과세','고가주택 12억원 기준','증여재산 이월과세','양도소득 예정신고']) need(tax.some(c=>c.title===title),'tax required card missing: '+title);
+need(tax[0]?.title==='국세','tax first card must be 국세');
+need(tax[tax.length-1]?.title==='국외자산 양도소득','tax last card must be 국외자산 양도소득');
+need(tax.filter(c=>c.examHitCount>0).length>=50,'tax exam-backed cards should be at least 50');
+need(tax.some(c=>c.importance===5),'tax importance 5 cards missing');
+need(tax.some(c=>c.importance===1),'tax essential-only cards missing');
+for(const title of ['2026 1주택 공정비율','주택분 종부세 기본공제','주택분 종부세 공정비율','양도소득 기본세율','단기보유 세율','비사업용 토지','다주택자 중과','고가주택 12억원 기준']) need(tax.find(c=>c.title===title)?.sourceKind==='official','current tax card must use official source: '+title);
+need(tax.find(c=>c.title==='양도소득 기본세율')?.bullets.some(x=>x.includes('45%')),'current capital-gains basic rate must reach 45%');
+need(tax.find(c=>c.title==='고가주택 12억원 기준')?.bullets.some(x=>x.includes('12억원')),'current high-priced one-home threshold must be 12억원');
+need(tax.find(c=>c.title==='증여재산 이월과세')?.bullets.some(x=>x.includes('10년')),'current gift carryover period must be 10 years');
+need(['43%','44%','45%'].every(v=>tax.find(c=>c.title==='2026 1주택 공정비율')?.bullets.some(x=>x.includes(v))),'2026 one-home property-tax FMV ratios must be 43/44/45');
+need(['12억원','9억원'].every(v=>tax.find(c=>c.title==='주택분 종부세 기본공제')?.bullets.some(x=>x.includes(v))),'current comprehensive real-estate tax housing deductions must be 12/9억원');
+need(tax.find(c=>c.title==='다주택자 중과')?.bullets.some(x=>x.includes('2026년 5월 9일')),'multi-home surtax suspension end date must be current');
 
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
