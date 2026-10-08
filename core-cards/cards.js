@@ -471,6 +471,28 @@
     return btn;
   }
 
+  function makeImportanceRating(card){
+    const rating=document.createElement('div');
+    rating.className='card-importance';
+    rating.setAttribute('role','img');
+    const importance=Number.isInteger(card.importance)?Math.max(0,Math.min(5,card.importance)):0;
+    const description='기출 중요도 '+importance+'/5 (문제·보기의 검색어 등장 횟수 기준)';
+    rating.setAttribute('aria-label',description);
+    rating.title=description;
+    for(let level=1;level<=5;level++){
+      const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+      svg.setAttribute('viewBox','0 0 24 24');
+      svg.setAttribute('aria-hidden','true');
+      svg.classList.add('importance-star');
+      svg.classList.add(level<=importance?'is-active':'is-inactive');
+      const star=document.createElementNS('http://www.w3.org/2000/svg','path');
+      star.setAttribute('d','m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2Z');
+      svg.appendChild(star);
+      rating.appendChild(svg);
+    }
+    return rating;
+  }
+
   function cardElement(card,globalIndex,total){
     const article=document.createElement('article');
     article.className='core-card';
@@ -513,10 +535,13 @@
     spacer.className='card-spacer';
     article.appendChild(spacer);
 
+    const metaRow=document.createElement('div');
+    metaRow.className='card-meta-row';
     const source=document.createElement('p');
     source.className='card-source';
     source.textContent=card.sourceLabel||'';
-    article.appendChild(source);
+    metaRow.append(source,makeImportanceRating(card));
+    article.appendChild(metaRow);
 
     const actions=document.createElement('div');
     actions.className='card-actions';
