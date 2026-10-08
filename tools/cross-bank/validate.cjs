@@ -232,6 +232,60 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(count,57,'contract law blank-bank source snapshots reviewed');
 }
+// v2.00: eight housing-lease decisions must be statute-specific truth tests;
+ // preserve all 73 civil source IDs/keys, the 합유/총유 distinction, and 38 source snapshots.
+{
+  const bank=compileSubject('civil_law').questions;
+  const byId=new Map(bank.map(q=>[q.id,q]));
+  const trueStatements=new Set(bank.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['CVK053','제3조',0],['CVK054','제3조',0],
+    ['CVK055','제3조의2',3],['CVK056','제4조',1],
+    ['CVK057','제6조',3],['CVK058','제6조제3항',1],
+    ['CVK059','제6조의2',3],['CVK060','제6조의3',3]
+  ];
+  for(const [id,article,answerIndex] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': must exist');
+    assert.equal(q.sourceLaw,'주택임대차보호법',id+': exact law');
+    assert.equal(q.sourceArticle,article,id+': law article');
+    assert.equal(q.answer,answerIndex,id+': answer index preserved');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': same-topic truth form');
+    assert.ok(q.explanation.includes('주택임대차보호법 '+article.replace('제6조제','제6조 제')),id+': law cited in explanation');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': reviewed date');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': legal verification date');
+    for(let i=0;i<q.choices.length;i++)if(i!==q.answer)
+      assert.ok(!trueStatements.has(normalize(q.choices[i])),id+': cannot reuse another correct statement');
+  }
+  const joint=byId.get('CVK065');
+  assert.equal(joint.answer,0,'joint ownership correct index');
+  assert.equal(joint.sourceArticle,'제271조');
+  assert.ok(!joint.choices.some((c,i)=>i!==joint.answer&&c.includes('법인이 아닌 사단의 사원이 집합체')),'총유 true definition not distractor');
+  assert.ok(joint.explanation.includes('민법 제271조'),'joint ownership distinction explained');
+  assert.equal(joint.verifiedAt,'2026-10-09');
+
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/02_civil_law_final.txt'),'utf8');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  const ids=new Set([...expected.map(x=>x[0]),'CVK065']);
+  let count=0;
+  for(const raw of parseBlocks(source)){
+    const b=parseBlock(raw);
+    if(!ids.has(b.originQuestionId))continue;
+    const q=byId.get(b.originQuestionId);
+    assert.equal(b.sourceQuestion,q.question,b.id+': stale copied source question');
+    const tag='[원본 정답]';
+    assert.ok(raw.includes(tag),b.id+': missing source answer');
+    assert.equal(raw.slice(raw.indexOf(tag)+tag.length).trim(),q.choices[q.answer],b.id+': stale copied source answer');
+    count++;
+  }
+  assert.equal(count,38,'all 38 linked housing/joint ownership source snapshots');
+  const untouched=['CVK061','CVK062','CVK063','CVK064','CVK066','CVK067','CVK068','CVK069','CVK070','CVK071','CVK072','CVK073'];
+  for(const id of untouched){
+    const q=byId.get(id);
+    assert.ok(q&&q.choices.length===4&&q.answer>=0&&q.answer<4,id+': valid reviewed unchanged card');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': no duplicate choices');
+  }
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
