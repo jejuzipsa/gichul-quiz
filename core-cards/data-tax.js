@@ -584,16 +584,18 @@
     "title": "가산세",
     "subtitle": "세법상 신고·납부 등 의무위반에 따라 본세에 더해지는 금액",
     "bullets": [
-      "무신고·과소신고·납부지연 등 유형을 구별"
+      "일반 무신고가산세는 무신고납부세액의 20%, 부정행위 무신고는 40%",
+      "일반 과소신고가산세는 과소신고납부세액의 10%; 납부지연가산세는 별도 계산",
+      "신고·납부 의무 위반의 유형과 감면·면제 예외는 각각 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 2,
     "sourceSection": "조세총론·제재",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제53조·제54조·제55조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제53조·제54조·제55조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -614,7 +616,7 @@
       "2025-36-second2-026"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p2 · 조세총론·제재"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제53조·제54조·제55조"
   },
   {
     "id": "tax-card-020",
@@ -625,16 +627,17 @@
     "title": "연대납세의무",
     "subtitle": "둘 이상의 자가 동일 조세채무 전부에 대해 함께 납세의무를 지는 것",
     "bullets": [
-      "국세·지방세에서 법정 사유에 따라 성립"
+      "공유물(공동주택의 공유물은 제외)·공동사업과 관련된 지방자치단체 징수금은 법정 요건에서 연대납세의무",
+      "법인 분할·분할합병에 따른 법정 연대납세의무는 승계한 재산가액 등 범위 제한을 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제44조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제44조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -651,7 +654,7 @@
       "2024-35-2-2-036"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·납세의무"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제44조"
   },
   {
     "id": "tax-card-021",
@@ -662,16 +665,17 @@
     "title": "조세우선권",
     "subtitle": "국세·지방세가 일정 일반채권보다 우선하여 징수되는 원칙",
     "bullets": [
-      "법정기일 전에 설정된 담보권·소액임차보증금 등과 우선순위를 비교"
+      "지방세 징수금은 일반채권보다 우선하나 집행비용·법정기일 이전 담보권·확정일자 있는 임차보증금 등 예외가 있음",
+      "그 부동산에 부과된 재산세 등 당해세 관련 규정과 주택·상가 임차보증금 우선권 특례를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·우선권",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제71조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제71조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -679,7 +683,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·우선권"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제71조"
   },
   {
     "id": "tax-card-022",
@@ -690,16 +694,18 @@
     "title": "법정기일",
     "subtitle": "조세채권과 담보채권 등의 우선순위를 판단하는 기준일",
     "bullets": [
-      "세목과 부과방식에 따라 법정기일이 달라짐"
+      "신고로 확정되는 지방세는 해당 세액의 신고일이 법정기일",
+      "지방자치단체의 결정·경정 고지세액은 납세고지서 발송일이 원칙",
+      "특별징수·제2차 납세의무·압류 관련 세액 등은 법정기일을 별도로 정함"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·우선권",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제71조제1항제3호",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제71조제1항제3호. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -714,7 +720,7 @@
       "2025-36-second2-028"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·우선권"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제71조제1항제3호"
   },
   {
     "id": "tax-card-023",
@@ -725,16 +731,18 @@
     "title": "서류의 송달",
     "subtitle": "과세관청이 납세고지서 등 세법상 서류를 상대방에게 전달하는 절차",
     "bullets": [
-      "교부·우편·전자송달·공시송달 등을 구별"
+      "지방세 서류는 원칙적으로 주소·거소·영업소·사무소 또는 신고된 송달장소에 송달",
+      "교부·우편·전자송달이 기본이며 송달이 어려운 법정 사유에는 공시송달 가능",
+      "연대납세의무자의 납세고지·독촉은 각 연대납세의무자에게 각각 송달"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "조세총론·불복",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제28조·제29조·제30조·제33조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제28조·제29조·제30조·제33조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -747,7 +755,7 @@
       "2022-33-second2-026"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p4 · 조세총론·불복"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제28조·제29조·제30조·제33조"
   },
   {
     "id": "tax-card-024",
@@ -758,16 +766,18 @@
     "title": "이의신청",
     "subtitle": "과세처분에 대해 행정청에 다시 판단을 요구하는 불복절차",
     "bullets": [
-      "국세·지방세 모두 법정 절차와 기간을 확인"
+      "지방세 처분에 대한 이의신청은 원칙적으로 처분을 안 날 또는 통지받은 날부터 90일 이내",
+      "시·도세와 시·군·구세 등 세목 구분에 따라 신청기관이 다름",
+      "이의신청은 심판청구의 필수 선행절차가 아니며 바로 심판청구할 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "조세총론·불복",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제89조·제90조·제91조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제89조·제90조·제91조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -780,7 +790,7 @@
       "2022-33-second2-025"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p4 · 조세총론·불복"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제89조·제90조·제91조"
   },
   {
     "id": "tax-card-025",
@@ -791,16 +801,18 @@
     "title": "심판청구",
     "subtitle": "조세심판원에 과세처분의 취소·변경을 구하는 불복절차",
     "bullets": [
-      "이의신청과 별개로 법정 요건에서 직접 청구 가능"
+      "이의신청 없이 바로 심판청구하면 원칙적으로 처분을 안 날(통지받은 날)부터 90일 이내",
+      "이의신청을 거쳤다면 결정 통지를 받은 날부터 90일 이내 조세심판원장에게 심판청구",
+      "결정기한까지 통지를 받지 못한 경우 등에는 기산점 특례가 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "조세총론·불복",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제89조·제91조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제89조·제91조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -813,7 +825,7 @@
       "2022-33-second2-025"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p4 · 조세총론·불복"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제89조·제91조"
   },
   {
     "id": "tax-card-026",
@@ -822,18 +834,20 @@
     "type": "term",
     "category": "조세총론·불복",
     "title": "심사청구",
-    "subtitle": "국세청장 등 법정 기관에 과세처분 심사를 구하는 불복절차",
+    "subtitle": "세법상 처분에 대해 법령이 정한 기관에 재심사를 구하는 절차",
     "bullets": [
-      "국세 불복절차에서 심판청구와 선택관계가 문제됨"
+      "지방세기본법의 현행 일반 불복절차는 이의신청과 조세심판원 심판청구로 구성",
+      "지방세 일반 불복에 과거 지방세 심사청구 절차를 현행 제도로 혼동하지 않음",
+      "국세청장 심사청구와 감사원법상 심사청구 등은 각 해당 법령 요건에 따라 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "조세총론·불복",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세기본법」 제89조·제91조 / 국세기본법 제61조·제62조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세기본법 제89조·제91조 / 국세기본법 제61조·제62조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -846,7 +860,7 @@
       "2023-34-second2-025"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p4 · 조세총론·불복"
+    "sourceLabel": "국가법령정보센터 「지방세기본법」 제89조·제91조 / 국세기본법 제61조·제62조"
   },
   {
     "id": "tax-card-027",
@@ -1460,16 +1474,18 @@
     "title": "취득가격 포함비용",
     "subtitle": "취득을 위해 거래상대방 또는 제3자에게 지급한 직접·간접 비용",
     "bullets": [
-      "법정 비용은 취득가격에 포함하고 제외항목과 구별"
+      "사실상 취득가격은 거래 상대방·제3자에게 지급할 직접비용과 법정 간접비용의 합계",
+      "농지보전부담금·용역비·일정 중개보수·국민주택채권 매각차손·부착 설비 설치비 등 법정 항목 포함",
+      "법인이 아닌 취득자는 건설자금 이자·할부 연부 이자/연체료·중개보수 등 일부 비용 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·과세표준",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제18조제1항 [시행 2026.10.1.]",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 시행령 제18조제1항 [시행 2026.10.1.]. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -1477,7 +1493,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·과세표준"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제18조제1항 [시행 2026.10.1.]"
   },
   {
     "id": "tax-card-047",
@@ -1488,16 +1504,18 @@
     "title": "취득가격 제외비용",
     "subtitle": "취득가격 산정에서 법령상 제외되는 비용",
     "bullets": [
-      "부가가치세 등 법정 제외항목을 포함비용과 구별"
+      "부가가치세, 취득물건 판매를 위한 광고선전비 등 판매비용은 사실상 취득가격에서 제외",
+      "전기·가스·열 이용자가 법령에 따라 분담하는 비용도 제외",
+      "이주비·지장물 보상금 등 취득물건과 별개 권리의 보상성 비용을 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·과세표준",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법 시행령」 제18조제2항 [시행 2026.10.1.]",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 시행령 제18조제2항 [시행 2026.10.1.]. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -1505,7 +1523,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·과세표준"
+    "sourceLabel": "국가법령정보센터 「지방세법 시행령」 제18조제2항 [시행 2026.10.1.]"
   },
   {
     "id": "tax-card-048",
@@ -1908,16 +1926,17 @@
     "title": "취득세 보통징수",
     "subtitle": "신고가 없거나 부족한 경우 과세관청이 세액을 부과·징수하는 방식",
     "bullets": [
-      "가산세와 함께 추가 징수될 수 있음"
+      "취득세 무신고·과소신고 등으로 발생한 부족세액은 지방세기본법상 가산세를 더해 보통징수",
+      "취득 후 취득세를 신고하지 않은 채 과세물건을 매각한 경우 법정 예외를 제외하고 산출세액의 80%를 가산하는 특례"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "취득세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제21조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제21조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -1925,7 +1944,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 취득세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제21조"
   },
   {
     "id": "tax-card-062",
@@ -1936,16 +1955,18 @@
     "title": "취득세 납세지",
     "subtitle": "취득세를 납부할 지방자치단체를 정하는 기준",
     "bullets": [
-      "부동산은 소재지, 차량 등은 등록지 등 과세물건별 기준을 적용"
+      "취득세 납세지는 부동산 소재지, 차량은 자동차관리법상 등록지가 원칙",
+      "차량 등록지와 사용본거지가 다르면 사용본거지를 기준으로 함",
+      "기계장비는 등록지, 항공기는 정치장, 선박은 선적항 등 과세물건별 법정 기준 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "취득세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제8조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제8조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -1953,7 +1974,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 취득세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제8조"
   },
   {
     "id": "tax-card-063",
@@ -1964,16 +1985,18 @@
     "title": "등록면허세",
     "subtitle": "재산권 등의 등기·등록 또는 각종 면허에 부과하는 지방세",
     "bullets": [
-      "취득세와 달리 등록이라는 형식 자체가 과세대상이 되는 경우가 있음"
+      "등록면허세는 재산권 등의 등기·등록에 대한 등록분과 인허가 등에 대한 면허분으로 구분",
+      "재산의 취득이 아닌 권리의 설정·변경·소멸 등 공적 등록과 영업 면허 등이 대상",
+      "취득세 과세대상 취득에서 발생하는 등기는 일반적으로 등록분에서 제외하나 법정 예외 존재"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "등록면허세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제23조·제24조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제23조·제24조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "exam",
       "summary"
@@ -1995,7 +2018,7 @@
       "2025-36-second2-027"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p7 · 등록면허세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제23조·제24조"
   },
   {
     "id": "tax-card-064",
@@ -2006,16 +2029,18 @@
     "title": "등록면허세 납세의무자",
     "subtitle": "등기·등록을 받거나 면허를 받는 자",
     "bullets": [
-      "권리의 설정·변경·소멸 등을 등록받는 자가 원칙"
+      "등록분은 법령에 따른 등기·등록을 하는 자가 납세의무자",
+      "면허분은 면허·변경면허를 받는 자이며 면허 종류마다 납세의무가 성립",
+      "단순히 부동산 소유자라는 이유만으로 모든 말소등기의 납세의무자가 되는 것은 아님"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "등록면허세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제24조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제24조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2023,7 +2048,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 등록면허세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제24조"
   },
   {
     "id": "tax-card-065",
@@ -2034,16 +2059,18 @@
     "title": "등록면허세 과세대상",
     "subtitle": "재산권과 권리의 설정·변경·소멸에 관한 등기·등록 등",
     "bullets": [
-      "취득세 과세대상 취득을 원인으로 하는 등기·등록은 원칙적으로 제외"
+      "재산권과 그 밖의 권리의 설정·변경·소멸을 공부에 등기·등록하는 경우가 기본 과세대상",
+      "취득세 과세대상 취득을 원인으로 한 등기·등록은 원칙적으로 제외",
+      "광업권·어업권·양식업권 취득 관련 등록, 부과제척기간 경과 물건 등의 등록은 법정 예외로 포함"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "등록면허세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제23조제1호",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제23조제1호. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2051,7 +2078,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 등록면허세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제23조제1호"
   },
   {
     "id": "tax-card-066",
@@ -2062,16 +2089,18 @@
     "title": "등록면허세 비과세",
     "subtitle": "국가 등의 등록 등 법정 사유에서 등록면허세를 부과하지 않는 것",
     "bullets": [
-      "비과세와 감면을 구별"
+      "국가·지방자치단체·지방자치단체조합 등 법정 기관이 자기를 위해 받는 등록·면허는 원칙적으로 비과세",
+      "외국정부 관련 상호주의 예외와 국제기구 요건을 확인",
+      "법원의 일정 등기 촉탁, 단순 표시변경·경정등기도 법정 비과세 유형"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·비과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제26조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제26조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2079,7 +2108,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·비과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제26조"
   },
   {
     "id": "tax-card-067",
@@ -2090,16 +2119,18 @@
     "title": "등록면허세 과세표준",
     "subtitle": "등록면허세액 계산의 기초가 되는 가액 또는 건수",
     "bullets": [
-      "부동산가액·채권금액·임대보증금 또는 건수 등을 기준으로 하는 유형이 있음"
+      "부동산·선박·항공기·자동차·건설기계 등록분은 원칙적으로 등록 당시의 가액을 과세표준으로 함",
+      "신고가액이 시가표준액보다 작거나 신고가 없으면 원칙적으로 시가표준액 적용",
+      "특정 취득원인 등록은 취득당시가액 등 별도 기준, 채권금액 과세 등기는 그 채권금액 기준"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·과세표준",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제27조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제27조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2107,7 +2138,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·과세표준"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제27조"
   },
   {
     "id": "tax-card-068",
@@ -2118,16 +2149,18 @@
     "title": "종가세 등록",
     "subtitle": "부동산가액·채권금액 등 가액에 비례해 등록면허세를 계산하는 등록",
     "bullets": [
-      "소유권·저당권 등 권리등기가 대표적"
+      "종가세 방식은 등록면허세 과세표준인 부동산가액·채권금액 등에 세율을 곱해 계산",
+      "소유권보존·이전, 전세권·저당권 설정 등 법정 비례세율 대상에 적용",
+      "해당 등기 종류의 최저 정액세율 미만이면 법정 최저세율 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제27조·제28조",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제27조·제28조. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2135,7 +2168,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제27조·제28조"
   },
   {
     "id": "tax-card-069",
@@ -2146,16 +2179,18 @@
     "title": "종량세 등록",
     "subtitle": "가액이 아니라 등기·등록 건수에 정액세율을 적용하는 등록",
     "bullets": [
-      "말소·변경 등 일정 등기가 대표적"
+      "종량세 방식은 등기·등록 한 건마다 정액세율을 적용하는 방식",
+      "부동산의 그 밖의 등기 등에는 건당 정액세율이 적용될 수 있음",
+      "법인등기 등은 각 등록 종류마다 정액세율이 다르므로 일률적인 금액을 적용하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제28조제1항",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제28조제1항. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2163,7 +2198,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제28조제1항"
   },
   {
     "id": "tax-card-070",
@@ -2174,16 +2209,18 @@
     "title": "등록면허세 표준세율",
     "subtitle": "등기·등록 유형별 기본세율",
     "bullets": [
-      "소유권·소유권 외 물권·임차권·법인등기 등 유형을 구별"
+      "부동산 소유권보존등기 0.8%, 유상 이전등기 2%는 법 제28조의 세율표상 기준이며 취득세 과세대상 취득에 따른 등기는 원칙적으로 등록분 제외",
+      "전세권 설정은 전세금액의 0.2%; 취득세율이 적용되는 주택 소유권 이전 등은 법정 특례 확인",
+      "가액비례세액이 해당 종류의 그 밖의 등기 정액세율보다 작으면 최저세율을 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제28조제1항",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제28조제1항. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2191,7 +2228,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제28조제1항"
   },
   {
     "id": "tax-card-071",
@@ -2202,16 +2239,18 @@
     "title": "대도시 법인등기 중과",
     "subtitle": "대도시에서 법인설립·전입 등 일정 법인등기에 높은 세율을 적용하는 제도",
     "bullets": [
-      "법정 중과제외 사유와 함께 확인"
+      "대도시 안의 법인 설립·지점 설치·전입 등에 관한 일정 등기는 법정 중과 대상",
+      "단순한 주소이전 등 모든 법인등기가 자동으로 중과되는 것은 아니며 등기 유형과 예외업종 확인",
+      "일반세율과 중과세율은 지방세법 제28조의 적용 요건에 따라 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·중과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제28조제2항",
+    "sourceNote": "2026-10-08 4차 공식조문 대조: 지방세법 제28조제2항. 개별 판례·예외 적용은 법령 원문 우선 확인.",
     "basis": [
       "summary"
     ],
@@ -2219,7 +2258,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·중과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제28조제2항"
   },
   {
     "id": "tax-card-072",

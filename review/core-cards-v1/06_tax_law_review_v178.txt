@@ -1,0 +1,229 @@
+부동산세법 법령·설명 4차 감사 (v1.78)
+=================================
+기준일: 2026-10-08
+원본: review/core-cards-v1/06_tax_law.txt
+구성용 교재: 4.공인중개사요약_세법.pdf (23쪽, 일부 구법 수치에 주의)
+기출: review/past-exams-v1/06_tax_law.txt (2021~2025)
+
+현재 상태
+- v1.73 공식 근거 핵심 주장 17장
+- v1.74 추가 18장
+- v1.75 추가 24장
+- v1.78 추가 21장 (전회들과 중복 없음)
+- 누적 주요 주장 공식 근거 대조 80/187장, 개별 조문 대조 대기 107장
+- 개별 예외·판례·모든 법률 적용을 검증했다는 뜻은 아님. 이번 21장만 설명을 갱신.
+
+주요 교정 사항
+1. 지방세기본법 2026.10.2 시행본: 무신고가산세 일반 20%, 부정 40%; 과소신고 10% / 연대납세(공유물·법인분할) / 법정기일에 앞선 담보·임차보증금 우선권 / 송달과 불복 이의신청·심판청구 90일.
+2. 취득가격: 지방세법 시행령 2026.10.1 시행본 제18조에 따른 포함비용과 제외비용 분리. 특히 일반 개인의 건설자금 이자·중개보수 등 예외를 표시하고 부가가치세·판매광고비·별개 권리 보상금을 제외.
+3. 지방세법 2026.7.1 시행본: 취득세 부족세액 추징과 무신고 전매 관련 법정 가산 특례, 부동산·차량 등 과세물건별 납세지.
+4. 등록면허세 제23~28조: 등록/면허 정의, 납세의무자, 취득원인 등기 원칙적 제외와 광업권·어업권·양식업권 등 예외, 등기·등록 비과세, 등록 당시 가액 및 채권금액, 종가/종량 세율과 대도시 법인등기 중과 구분.
+5. 법 제28조의 소유권이전등기 세율표를 일반 취득 시 이중 세금으로 잘못 해석하지 않도록 법 제23조의 면제 구조를 병기함.
+
+공식 법령 근거 링크 (직접 확인한 법령정보센터 검색 결과)
+- 지방세기본법 제53~54조 (2026.10.2): https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031175531
+- 지방세기본법 제44조: https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0044&lsiSeq=290139&urlMode=lsScJoRltInfoR
+- 지방세기본법 제71조: https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032053963
+- 지방세기본법 제89조: https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032059321
+- 지방세기본법 제90조: https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032050795
+- 지방세기본법 제91조: https://www.law.go.kr/LSW/lsLinkProc.do?ancYd=20171229&joNo=009100000%5E009200000%5E009300000%5E009400000%5E009500000%5E009600000%5E009700000%5E009800000&lsClsCd=L&lsId=2048602&lsNm=%EC%A7%80%EB%B0%A9%EC%84%B8%EA%B8%B0%EB%B3%B8%EB%B2%95&mode=4
+- 지방세법 시행령 제18조 (2026.10.1): https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000212714
+- 지방세법 제8조: https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1023663875
+- 지방세법 제21조: https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1022162181
+- 지방세법 제23조: https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029491703
+- 지방세법 제26조: https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1031707017
+- 지방세법 제27조: https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026497771
+- 지방세법 제28조: https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1033922775
+
+이번 21장: tax-card-019, tax-card-020, tax-card-021, tax-card-022, tax-card-023, tax-card-024, tax-card-025, tax-card-026, tax-card-046, tax-card-047, tax-card-061, tax-card-062, tax-card-063, tax-card-064, tax-card-065, tax-card-066, tax-card-067, tax-card-068, tax-card-069, tax-card-070, tax-card-071
+
+카드별 누적 검수 상태
+tax-card-001 | 국세 | IMPORTANCE=4 | EXAM_HIT_COUNT=8 | 개별 법령 대조 대기
+tax-card-002 | 지방세 | IMPORTANCE=5 | EXAM_HIT_COUNT=39 | 개별 법령 대조 대기
+tax-card-003 | 보통세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-004 | 목적세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-005 | 독립세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-006 | 부가세(附加稅) | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-007 | 인세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-008 | 물세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-009 | 직접세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-010 | 간접세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-011 | 납세의무 성립 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | v1.75 조문 핵심 대조
+tax-card-012 | 납세의무 확정 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-013 | 신고납세제도 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-014 | 정부부과제도 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-015 | 보통징수 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-016 | 납세의무 소멸 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-017 | 부과제척기간 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.75 조문 핵심 대조
+tax-card-018 | 징수권 소멸시효 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-019 | 가산세 | IMPORTANCE=4 | EXAM_HIT_COUNT=6 | v1.78 조문 핵심 대조
+tax-card-020 | 연대납세의무 | IMPORTANCE=3 | EXAM_HIT_COUNT=3 | v1.78 조문 핵심 대조
+tax-card-021 | 조세우선권 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-022 | 법정기일 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | v1.78 조문 핵심 대조
+tax-card-023 | 서류의 송달 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.78 조문 핵심 대조
+tax-card-024 | 이의신청 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.78 조문 핵심 대조
+tax-card-025 | 심판청구 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.78 조문 핵심 대조
+tax-card-026 | 심사청구 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.78 조문 핵심 대조
+tax-card-027 | 취득세 | IMPORTANCE=5 | EXAM_HIT_COUNT=15 | v1.75 조문 핵심 대조
+tax-card-028 | 취득세 과세대상 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-029 | 취득 | IMPORTANCE=5 | EXAM_HIT_COUNT=36 | v1.75 조문 핵심 대조
+tax-card-030 | 취득의 의제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-031 | 과점주주 간주취득 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-032 | 취득세 납세의무자 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-033 | 유상승계취득 시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-034 | 무상승계취득 시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-035 | 상속 취득시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-036 | 원시취득 시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-037 | 연부취득 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-038 | 선등기 취득 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-039 | 취득세 과세표준 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-040 | 취득당시가액 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-041 | 시가인정액 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-042 | 유상승계 과세표준 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-043 | 무상취득 과세표준 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-044 | 원시취득 과세표준 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-045 | 시가표준액 | IMPORTANCE=4 | EXAM_HIT_COUNT=7 | 개별 법령 대조 대기
+tax-card-046 | 취득가격 포함비용 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-047 | 취득가격 제외비용 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-048 | 취득세 표준세율 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-049 | 주택 유상취득세율 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-050 | 취득세 중과세율 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-051 | 사치성 재산 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-052 | 별장 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.73 조문 핵심 대조
+tax-card-053 | 고급주택 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-054 | 고급오락장 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-055 | 대도시 법인중과 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-056 | 취득세 세율특례 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-057 | 형식적 취득 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-058 | 취득세 비과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.75 조문 핵심 대조
+tax-card-059 | 취득세 면세점 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-060 | 취득세 신고납부 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-061 | 취득세 보통징수 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-062 | 취득세 납세지 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-063 | 등록면허세 | IMPORTANCE=4 | EXAM_HIT_COUNT=7 | v1.78 조문 핵심 대조
+tax-card-064 | 등록면허세 납세의무자 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-065 | 등록면허세 과세대상 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-066 | 등록면허세 비과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-067 | 등록면허세 과세표준 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-068 | 종가세 등록 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-069 | 종량세 등록 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-070 | 등록면허세 표준세율 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-071 | 대도시 법인등기 중과 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.78 조문 핵심 대조
+tax-card-072 | 등록면허세 신고납부 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.74 조문 핵심 대조
+tax-card-073 | 등록면허세 최저세액 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-074 | 재산세 | IMPORTANCE=5 | EXAM_HIT_COUNT=19 | 개별 법령 대조 대기
+tax-card-075 | 재산세 과세기준일 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | 개별 법령 대조 대기
+tax-card-076 | 재산세 납세의무자 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-077 | 사실상 소유자 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-078 | 재산세 과세대상 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | 개별 법령 대조 대기
+tax-card-079 | 주택의 재산세 판정 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-080 | 재산세 시가표준액 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-081 | 재산세 공정시장가액비율 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-082 | 2026 1주택 공정비율 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-083 | 종합합산과세 토지 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-084 | 별도합산과세 토지 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-085 | 분리과세 토지 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-086 | 주택분 재산세 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-087 | 건축물분 재산세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-088 | 재산세 도시지역분 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-089 | 재산세 비과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-090 | 재산세 납기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-091 | 재산세 보통징수 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-092 | 재산세 분할납부 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-093 | 재산세 물납 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.74 조문 핵심 대조
+tax-card-094 | 재산세 소액징수면제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-095 | 재산세 지방교육세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-096 | 지역자원시설세 병기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-097 | 공부와 사실현황 과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-098 | 종합부동산세 | IMPORTANCE=5 | EXAM_HIT_COUNT=14 | 개별 법령 대조 대기
+tax-card-099 | 종부세 과세기준일 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-100 | 주택분 종부세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-101 | 종부세 1세대 1주택자 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-102 | 주택분 종부세 기본공제 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-103 | 주택분 종부세 공정비율 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-104 | 종부세 합산배제주택 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-105 | 주택분 재산세액 공제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-106 | 고령자 세액공제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-107 | 장기보유 세액공제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-108 | 종합합산 토지 종부세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-109 | 별도합산 토지 종부세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-110 | 토지분 종부세 공정비율 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-111 | 토지분 재산세액 공제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-112 | 종부세 정부부과 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-113 | 종부세 신고납부 선택 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-114 | 종부세 납부기간 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-115 | 종부세 분납 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-116 | 종부세 농어촌특별세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-117 | 신탁재산 종부세 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-118 | 소득세 | IMPORTANCE=5 | EXAM_HIT_COUNT=36 | 개별 법령 대조 대기
+tax-card-119 | 거주자 | IMPORTANCE=5 | EXAM_HIT_COUNT=28 | 개별 법령 대조 대기
+tax-card-120 | 비거주자 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-121 | 소득세 과세기간 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-122 | 소득세 납세지 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-123 | 종합과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-124 | 분류과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-125 | 분리과세 | IMPORTANCE=4 | EXAM_HIT_COUNT=5 | 개별 법령 대조 대기
+tax-card-126 | 사업소득 | IMPORTANCE=4 | EXAM_HIT_COUNT=5 | 개별 법령 대조 대기
+tax-card-127 | 부동산임대업 소득 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-128 | 주택임대소득 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-129 | 간주임대료 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-130 | 선세금 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-131 | 부동산임대업 결손금 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-132 | 양도소득세 | IMPORTANCE=5 | EXAM_HIT_COUNT=24 | 개별 법령 대조 대기
+tax-card-133 | 양도소득세 과세대상 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | 개별 법령 대조 대기
+tax-card-134 | 부동산에 관한 권리 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-135 | 부동산 취득권리 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-136 | 조합원입주권 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-137 | 분양권 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-138 | 기타자산 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-139 | 양도 | IMPORTANCE=5 | EXAM_HIT_COUNT=33 | 개별 법령 대조 대기
+tax-card-140 | 부담부증여 | IMPORTANCE=4 | EXAM_HIT_COUNT=5 | 개별 법령 대조 대기
+tax-card-141 | 양도로 보지 않는 경우 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-142 | 양도·취득시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-143 | 대금청산일 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-144 | 등기접수일 특례 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-145 | 장기할부 취득시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-146 | 자가건설 건물 취득시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-147 | 상속·증여 취득시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-148 | 경매 취득시기 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-149 | 양도소득 계산구조 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-150 | 양도가액 | IMPORTANCE=4 | EXAM_HIT_COUNT=6 | 개별 법령 대조 대기
+tax-card-151 | 취득가액 | IMPORTANCE=4 | EXAM_HIT_COUNT=8 | 개별 법령 대조 대기
+tax-card-152 | 실지거래가액 | IMPORTANCE=4 | EXAM_HIT_COUNT=7 | 개별 법령 대조 대기
+tax-card-153 | 추계가액 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-154 | 매매사례가액 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-155 | 감정가액 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | 개별 법령 대조 대기
+tax-card-156 | 환산취득가액 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-157 | 기준시가 | IMPORTANCE=4 | EXAM_HIT_COUNT=5 | 개별 법령 대조 대기
+tax-card-158 | 필요경비 | IMPORTANCE=4 | EXAM_HIT_COUNT=7 | 개별 법령 대조 대기
+tax-card-159 | 자본적지출액 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | 개별 법령 대조 대기
+tax-card-160 | 양도비 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | 개별 법령 대조 대기
+tax-card-161 | 필요경비 개산공제 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-162 | 양도차익 | IMPORTANCE=4 | EXAM_HIT_COUNT=7 | 개별 법령 대조 대기
+tax-card-163 | 장기보유특별공제 | IMPORTANCE=3 | EXAM_HIT_COUNT=4 | 개별 법령 대조 대기
+tax-card-164 | 양도소득금액 | IMPORTANCE=4 | EXAM_HIT_COUNT=5 | 개별 법령 대조 대기
+tax-card-165 | 양도소득기본공제 | IMPORTANCE=3 | EXAM_HIT_COUNT=1 | v1.74 조문 핵심 대조
+tax-card-166 | 양도소득과세표준 | IMPORTANCE=4 | EXAM_HIT_COUNT=5 | 개별 법령 대조 대기
+tax-card-167 | 양도소득 기본세율 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-168 | 단기보유 세율 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-169 | 미등기양도자산 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-170 | 미등기양도제외자산 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-171 | 비사업용 토지 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-172 | 비사업용 토지 기간기준 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-173 | 다주택자 중과 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-174 | 1세대 1주택 비과세 | IMPORTANCE=3 | EXAM_HIT_COUNT=2 | 개별 법령 대조 대기
+tax-card-175 | 고가주택 12억원 기준 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-176 | 고가주택 양도차익 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-177 | 일시적 2주택 특례 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-178 | 조합원입주권 비과세특례 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-179 | 부담부증여 양도차익 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-180 | 증여재산 이월과세 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.73 조문 핵심 대조
+tax-card-181 | 부당행위계산 부인 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-182 | 양도차손 통산 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-183 | 양도소득 예정신고 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-184 | 양도소득 확정신고 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | v1.74 조문 핵심 대조
+tax-card-185 | 양도소득세 분할납부 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-186 | 양도소득세 납세지 | IMPORTANCE=2 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+tax-card-187 | 국외자산 양도소득 | IMPORTANCE=1 | EXAM_HIT_COUNT=0 | 개별 법령 대조 대기
+
+다음 과제: 재산세 과세대상·납세의무자, 종부세 남은 예외, 소득세·양도소득세 세부 판단(107장 미대조)을 공식 시행법령과 대조.

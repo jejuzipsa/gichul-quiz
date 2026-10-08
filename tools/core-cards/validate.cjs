@@ -186,6 +186,39 @@ need(tax.find(c=>c.id==='tax-card-018')?.sourceRef.includes('지방세기본법'
 
 
 
+const v178Checks={
+  'tax-card-019':['20%','40%','10%'],
+  'tax-card-020':['공유물','분할'],
+  'tax-card-021':['법정기일','임차보증금'],
+  'tax-card-022':['신고일','발송일'],
+  'tax-card-023':['우편','전자송달','연대납세'],
+  'tax-card-024':['90일','심판청구'],
+  'tax-card-025':['90일','조세심판원'],
+  'tax-card-026':['이의신청','심판청구','국세청장'],
+  'tax-card-046':['농지보전부담금','중개보수','법인이 아닌'],
+  'tax-card-047':['부가가치세','광고선전비','이주비'],
+  'tax-card-061':['보통징수','80%'],
+  'tax-card-062':['부동산 소재지','사용본거지'],
+  'tax-card-063':['등록분','면허분'],
+  'tax-card-064':['면허','종류마다'],
+  'tax-card-065':['양식업권','원칙적으로 제외'],
+  'tax-card-066':['외국정부','표시변경'],
+  'tax-card-067':['등록 당시','시가표준액','채권금액'],
+  'tax-card-068':['종가세','최저'],
+  'tax-card-069':['건마다','정액세율'],
+  'tax-card-070':['0.8%','2%','등록분 제외'],
+  'tax-card-071':['대도시','예외']
+};
+for(const [id,terms] of Object.entries(v178Checks)){
+  const card=tax.find(c=>c.id===id);
+  need(!!card,id+': v1.78 audited tax card missing');
+  const body=(card?.bullets||[]).join(' ');
+  for(const term of terms) need(body.includes(term),id+': v1.78 reviewed distinction missing '+term);
+  need(card?.sourceKind==='summary+official'&&card?.sourceRef.includes('국가법령정보센터'),id+': official law source attribution missing');
+}
+need(tax.find(c=>c.id==='tax-card-065')?.bullets.some(x=>x.includes('양식업권')),'acquisition-based registrations need law-defined exclusions and exceptions');
+need(tax.find(c=>c.id==='tax-card-026')?.bullets.some(x=>x.includes('지방세 일반 불복')),'legacy local-tax administrative appeal must not be shown as a current procedure');
+
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
   for(const c of raw){
