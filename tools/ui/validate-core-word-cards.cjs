@@ -79,6 +79,27 @@ need(cardJs.includes('state.randomRanks=new Map'),'stable random ranking missing
 need(cardCss.includes('.order-controls')&&cardCss.includes('.order-btn.active'),'card order control styles missing');
 need(cardCss.includes('.order-controls{display:grid;grid-template-columns:repeat(3,1fr)'),'mobile 3-button order layout missing');
 need(cardJs.includes("if(w>=1280) return 3")&&cardJs.includes("if(w>=980) return 2")&&cardJs.includes("return 1"),'responsive visible-count logic missing');
+
+// Progress range must be a real, operable native slider, not a decorative bar.
+need(cardIndex.includes('id="progressSlider"')&&cardIndex.includes('type="range"')&&cardIndex.includes('id="progressPreview"'),'native seek slider with preview is missing');
+need(cardIndex.includes('id="rangeText" aria-live="polite"')&&cardIndex.includes('aria-describedby="progressHint"'),'seek slider announcements or keyboard instructions missing');
+need(cardCss.includes('.progress-slider::-webkit-slider-thumb')&&cardCss.includes('.progress-slider::-moz-range-thumb')&&cardCss.includes('touch-action:pan-y'),'seek thumb and touch support missing');
+need(cardJs.includes("els.seek.addEventListener('input',showSeekPreview)")&&cardJs.includes("els.seek.addEventListener('change'")&&cardJs.includes("els.seek.addEventListener('keydown'"),'seek slider drag/commit/keyboard handlers missing');
+need(cardJs.includes("const list=filtered();")&&cardJs.includes("els.seek.max=String(Math.max(1,maxOffset+1))"),'seek range must follow the current filtered cards');
+need(cardJs.includes("els.seek.disabled=maxOffset===0")&&cardJs.includes("els.seekPreview.hidden=true"),'seek must reset and disable on empty or single-page results');
+need(cardJs.includes("event.key==='Home'")&&cardJs.includes("event.key==='End'")&&cardJs.includes("event.key==='PageDown'"),'keyboard seek first/last/page navigation missing');
+const snapSource=cardJs.match(/  function snapSeekOffset\(rawOffset,total,count\)\{[\s\S]*?\n  \}/);
+need(!!snapSource,'responsive page snapping helper missing');
+if(snapSource){
+  const snap=vm.runInNewContext('('+snapSource[0].trim()+')');
+  need(snap(28,247,2)===28&&snap(29,247,2)===30,'two-card desktop slider must snap by two');
+  need(snap(243,247,3)===243&&snap(244,247,3)===244,'three-card mode must reach both penultimate and final complete group');
+  need(snap(245,247,2)===245,'two-card mode must reach final full pair');
+  need(snap(246,247,1)===246,'mobile one-card mode must reach final card');
+  need(snap(-10,247,2)===0&&snap(1000,247,2)===245,'seek must clamp before first and after last group');
+  need(snap(8,0,1)===0&&snap(8,1,3)===0,'empty or single-page seek must remain at start');
+}
+
 need(!cardIndex.includes('<small>핵심 단어 카드</small>'),'brand subtitle 핵심 단어 카드 must be removed');
 need(cardIndex.includes('class="appbar-page-title"')&&cardIndex.includes('<span>반복 암기</span>')&&cardIndex.includes('<strong>핵심 단어 카드</strong>'),'compact centered appbar title missing');
 need(!cardIndex.includes('class="hero"'),'old large hero block must be removed');
