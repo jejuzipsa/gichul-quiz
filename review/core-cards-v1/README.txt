@@ -7,7 +7,8 @@
 - 공인중개사법령 및 중개실무: 204장
 - 부동산공법: 234장
 - 부동산공시법: 199장
-- 총 1,054장
+- 부동산세법: 187장
+- 총 1,241장
 
 원본
 - review/core-cards-v1/01_real_estate_intro.txt
@@ -15,6 +16,7 @@
 - review/core-cards-v1/03_brokerage_law.txt
 - review/core-cards-v1/04_public_law.txt
 - review/core-cards-v1/05_registration_law.txt
+- review/core-cards-v1/06_tax_law.txt
 
 카드 선정 우선순위
 1. 기출문제에 실제 등장한 단어·개념
@@ -41,6 +43,7 @@
 - core-cards/data.js: 부동산학개론·민법·중개사법 기본 묶음
 - core-cards/data-public.js: 부동산공법 234장 런타임 샤드
 - core-cards/data-registration.js: 부동산공시법 199장 런타임 샤드
+- core-cards/data-tax.js: 부동산세법 187장 런타임 샤드
 
 빌드/검증
 - node tools/core-cards/build.cjs
