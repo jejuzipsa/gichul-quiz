@@ -99,7 +99,14 @@ need(cardJs.includes('gichulCoreWordImportant')&&cardJs.includes('gichulCoreWord
 need(cardJs.includes('card.image'),'optional illustration support missing');
 need(cardJs.includes('function makeImportanceRating(card)'),'importance rating renderer missing');
 need(cardJs.includes("rating.setAttribute('role','img')")&&cardJs.includes("rating.setAttribute('aria-label',description)"),'importance rating accessible label missing');
-need(cardJs.includes('metaRow.append(source,makeImportanceRating(card))'),'importance rating must follow source in metadata row');
+need(cardJs.includes("metaEnd.append(makeImportanceRating(card),makeSubjectCountsLabel(subjectStats))"),'importance stars and saved subject counts must share right metadata column');
+need(cardJs.includes('metaRow.append(source,metaEnd)'),'source and right footer metadata layout missing');
+need(cardJs.includes('function makeSubjectCountsLabel(stats)'),'subject saved counts formatter missing');
+need(cardJs.includes("'☆ '+stats.important+'장'")&&cardJs.includes("'✓ '+stats.memorized+'장'")&&cardJs.includes("'총 '+stats.total+'장'"),'star / memorized / total subject counters missing');
+need(cardJs.includes('important:allSubjectCards.filter(card=>state.important.has(card.id)).length')&&cardJs.includes('memorized:allSubjectCards.filter(card=>state.memorized.has(card.id)).length'),'counts must be based on selected subject and persisted bookmarks');
+need(cardJs.includes('cardElement(card,list.indexOf(card),list.length,subjectStats)'),'every displayed card must receive unfiltered subject totals');
+need(cardJs.includes('updateHeroStats(subjectStats)'),'top counters must use the same totals as footer');
+need(cardCss.includes('.card-meta-end{display:flex;flex-direction:column;align-items:flex-end')&&cardCss.includes('.card-subject-counts{'),'responsive right-aligned footer counters styling missing');
 need(cardCss.includes('.card-meta-row{display:flex;flex-wrap:wrap')&&cardCss.includes('.card-importance{display:inline-flex'),'responsive footer importance layout missing');
 need(cardCss.includes('.importance-star{')&&cardCss.includes('fill:none')&&cardCss.includes('.importance-star.is-active{stroke:#b88705')&&cardCss.includes(':root[data-theme="dark"] .importance-star.is-active{stroke:#facc15'),'outlined yellow importance stars in both themes missing');
 need(bank.cards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.importance<=5),'all 1241 cards require importance scores 1..5');
