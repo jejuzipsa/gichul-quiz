@@ -7576,16 +7576,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "대리",
       "subtitle": "대리인의 행위 효과가 직접 본인에게 귀속되는 제도",
       "bullets": [
-        "대리인이 권한 내에서 본인을 위한 행위를 하면 효과가 본인에게 직접 귀속"
+        "대리인이 권한 안에서 본인을 위한 것임을 표시해 의사표시하면 법률효과는 본인에게 직접 귀속",
+        "상대방이 대리행위임을 알았거나 알 수 있었으면 현명하지 않은 경우에도 본인에게 효과 귀속 가능"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_agency_basic",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 5,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p5 + 국가법령정보센터 「민법」 제114조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제114조·제115조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -7611,7 +7612,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-049"
       ],
       "importance": 5,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p5 + 국가법령정보센터 「민법」 제114조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제114조·제115조」"
     },
     {
       "id": "civ-card-055",
@@ -7776,18 +7777,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "현명",
       "subtitle": "대리인이 본인을 위한 행위임을 표시하는 것",
       "bullets": [
-        "원칙적으로 본인을 위한 행위임을 상대방에게 표시해야 함"
+        "현명은 대리인이 자기 이름이 아닌 본인을 위하여 행위한다는 점을 상대방에게 표시하는 것",
+        "표시하지 않으면 원칙적으로 대리인 자신의 행위로 보지만, 상대방이 대리임을 알았거나 알 수 있었으면 예외"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_agency_disclosure",
       "aliases": [
         "현명주의"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제114조·제115조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -7795,7 +7797,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p6 · 민법총칙·대리"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제114조·제115조」"
     },
     {
       "id": "civ-card-060",
@@ -7893,16 +7895,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "복대리",
       "subtitle": "대리인이 자기 이름으로 다시 선임한 본인의 대리인",
       "bullets": [
-        "복대리인은 원대리인의 대리인이 아니라 본인의 대리인"
+        "복대리인은 원대리인이 자기 이름으로 선임하더라도 원대리인의 대리인이 아니라 본인의 대리인",
+        "임의대리인이 복대리인을 선임할 수 있는 경우는 원칙적으로 본인의 승낙 또는 부득이한 사유가 있을 때"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_agency_sub",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제120조~제123조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -7924,7 +7927,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-044"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 민법총칙·대리"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제120조~제123조」"
     },
     {
       "id": "civ-card-064",
@@ -7935,16 +7938,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무권대리",
       "subtitle": "대리권 없이 타인의 대리인으로 한 행위",
       "bullets": [
-        "본인이 추인하지 않으면 원칙적으로 본인에게 효력이 없음"
+        "대리권 없이 타인의 대리인으로 계약한 경우 본인이 추인하지 않으면 원칙적으로 본인에게 효력이 없음",
+        "추인하면 원칙적으로 계약 당시로 소급하되 제3자 권리를 해하지 못하며, 무권대리인 책임은 별도 요건에 따름"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_agency_unauthorized",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제130조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제130조·제133조·제135조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -7968,7 +7972,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-043"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제130조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제130조·제133조·제135조」"
     },
     {
       "id": "civ-card-065",
@@ -7979,16 +7983,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "표현대리",
       "subtitle": "대리권 외관을 신뢰한 상대방을 보호하는 제도",
       "bullets": [
-        "법정요건을 충족하면 실제 권한이 없어도 본인에게 책임이 귀속"
+        "표현대리는 실제 대리권이 없거나 부족해도 본인이 관여한 대리권 외관을 믿은 상대방을 법정 요건에서 보호",
+        "제125조 수여표시, 제126조 권한초과, 제129조 권한소멸을 구별하며 상대방의 선의·무과실이 중요"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_agency_apparent",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조·제126조·제129조 / 대법원 2009.5.28. 선고 2008다56392」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -8009,7 +8014,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-043"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 민법총칙·대리"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조·제126조·제129조 / 대법원 2009.5.28. 선고 2008다56392」"
     },
     {
       "id": "civ-card-066",
@@ -8020,19 +8025,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "대리권수여표시 표현대리",
       "subtitle": "대리권을 준 것처럼 표시한 외관에 기초한 표현대리",
       "bullets": [
-        "민법 제125조 유형",
-        "상대방이 대리권 없음을 알았거나 알 수 있었다면 보호되지 않음"
+        "본인이 제3자에게 타인에게 대리권을 수여했다고 표시한 경우 그 표시된 범위 안의 대리행위에 책임",
+        "제3자가 대리권 없음을 알았거나 알 수 있었던 경우에는 보호되지 않음"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_apparent_125",
       "aliases": [
         "125조 표현대리"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제125조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -8040,7 +8045,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제125조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조」"
     },
     {
       "id": "civ-card-067",
@@ -8051,11 +8056,11 @@ window.CORE_WORD_CARD_BANK = {
       "title": "권한을 넘은 표현대리",
       "subtitle": "대리인이 권한 범위를 넘은 경우의 표현대리",
       "bullets": [
-        "민법 제126조 유형",
-        "상대방에게 권한이 있다고 믿을 정당한 이유가 필요"
+        "대리인에게 기본대리권이 있으나 그 범위를 넘은 법률행위를 한 경우의 표현대리",
+        "상대방에게 그 권한까지 있다고 믿을 만한 정당한 이유가 있어야 본인이 책임"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_apparent_126",
       "aliases": [
         "월권대리",
         "126조 표현대리"
@@ -8063,8 +8068,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제126조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제126조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -8077,7 +8082,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-049"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제126조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제126조」"
     },
     {
       "id": "civ-card-068",
@@ -8088,19 +8093,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "대리권소멸 후 표현대리",
       "subtitle": "소멸한 대리권의 외관을 믿은 경우의 표현대리",
       "bullets": [
-        "민법 제129조 유형",
-        "선의의 제3자를 보호하되 과실이 있으면 보호 제한"
+        "한때 존재하던 대리권이 소멸했더라도 이를 알지 못한 선의의 제3자에게는 원칙적으로 소멸을 대항할 수 없음",
+        "제3자가 과실로 대리권 소멸을 알지 못했다면 표현대리 보호가 제한됨"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_apparent_129",
       "aliases": [
         "129조 표현대리"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제129조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제129조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -8108,7 +8113,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제129조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제129조」"
     },
     {
       "id": "civ-card-069",
@@ -9566,16 +9571,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "간이인도",
       "subtitle": "양수인이 이미 점유 중일 때 의사표시만으로 하는 인도",
       "bullets": [
-        "현실로 다시 넘겨주지 않고 합의만으로 인도 효과 발생"
+        "동산 양수인이 이미 그 동산을 현실로 점유하고 있다면 당사자의 의사표시만으로 인도 효과가 생김",
+        "물건을 다시 건네지 않아도 되며 양수인이 기존 직접점유를 그대로 계속함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_possession_simple",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제188조제2항」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9583,7 +9589,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제188조제2항」"
     },
     {
       "id": "civ-card-109",
@@ -9594,16 +9600,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유개정",
       "subtitle": "양도인이 계속 점유하되 양수인이 인도받은 것으로 하는 방식",
       "bullets": [
-        "양도인이 직접점유를 계속하면서 점유를 양수인에게 이전한 것으로 봄"
+        "당사자 간 계약으로 동산 양도인이 물건의 직접점유를 계속하면서 양수인이 인도받은 것으로 보는 방식",
+        "양수인은 점유개정으로 간접점유하게 되고 양도인은 점유매개관계 아래 직접점유를 유지함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_possession_revision",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제189조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9611,7 +9618,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제189조」"
     },
     {
       "id": "civ-card-110",
@@ -9622,16 +9629,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "목적물반환청구권 양도",
       "subtitle": "제3자 점유 동산의 반환청구권을 넘겨 인도하는 방식",
       "bullets": [
-        "양도인이 제3자에 대한 반환청구권을 양수인에게 양도해 인도에 갈음"
+        "제3자가 현실로 점유하는 동산을 양도할 때 양도인이 가진 목적물반환청구권을 양수인에게 양도하면 인도한 것으로 봄",
+        "제3자의 현실점유가 당장 바뀌는 것은 아니며 반환청구권의 귀속이 양수인에게 이전됨"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_possession_claim",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제190조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -9639,7 +9647,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제190조」"
     },
     {
       "id": "civ-card-111",
@@ -9813,16 +9821,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "간접점유",
       "subtitle": "다른 사람을 매개로 물건을 점유하는 것",
       "bullets": [
-        "임대차·사용대차 등 점유매개관계를 통해 간접으로 점유"
+        "임대차·사용대차·임치 등 점유매개관계로 타인이 물건을 직접점유하게 한 사람에게 간접점유권 인정",
+        "간접점유자와 물건을 실제 지배하는 직접점유자를 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_possession_indirect",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제194조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -9838,7 +9847,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-061"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·점유권"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제194조」"
     },
     {
       "id": "civ-card-117",
@@ -13988,11 +13997,11 @@ window.CORE_WORD_CARD_BANK = {
       "title": "표현대리 125·126·129",
       "subtitle": "대리권 외관이 생긴 원인에 따라 구별",
       "bullets": [
-        "125조: 대리권수여 표시",
-        "126조: 권한 초과 / 129조: 대리권 소멸 후"
+        "제125조는 본인의 대리권 수여표시, 제126조는 기본대리권을 넘은 행위, 제129조는 기존 대리권 소멸 후의 행위",
+        "표현대리 성립요건에는 상대방의 선의·무과실이 중요하며 세 유형의 외관 발생 원인을 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_apparent_compare",
       "aliases": [
         "125조",
         "126조",
@@ -14001,8 +14010,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "비교·법리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제125조·제126조·제129조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조·제126조·제129조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "exam",
         "summary"
@@ -14018,7 +14027,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-044"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제125조·제126조·제129조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제125조·제126조·제129조」"
     },
     {
       "id": "civ-card-233",
@@ -14029,17 +14038,18 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무권대리 당사자 지위",
       "subtitle": "본인의 추인과 상대방의 최고·철회를 함께 구분",
       "bullets": [
-        "본인은 추인 또는 추인거절 가능",
-        "상대방은 최고할 수 있고 선의라면 추인 전 철회 가능"
+        "본인은 무권대리 계약을 추인하거나 거절할 수 있고, 추인하면 원칙적으로 계약 당시로 소급",
+        "상대방은 상당한 기간을 정해 최고할 수 있고, 계약 당시 무권대리임을 몰랐다면 본인의 추인 전 철회할 수 있음",
+        "무권대리인의 이행·손해배상책임은 민법 제135조의 별도 요건과 예외를 검토"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_unauthorized_rights",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "비교·법리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제130조~제135조」",
+      "sourceNote": "2026-10-08 민법(시행 2026.3.17.) 핵심 조문 1차 대조·도식 대상. 실제 제3자 사례와 판례의 예외는 별도 검수 필요.",
       "basis": [
         "summary"
       ],
@@ -14047,7 +14057,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 비교·법리"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제130조~제135조」"
     },
     {
       "id": "civ-card-234",

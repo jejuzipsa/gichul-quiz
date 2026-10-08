@@ -1,0 +1,58 @@
+민법 설명·SVG 도식 1차 적용 기록 (2026-10-08)
+=========================================
+대상: jejuzipsa/gichul-quiz 민법 및 민사특별법 247장 중 14장
+기존 후보조사: review/core-cards-v1/visual_candidates_v180.txt
+참고 요약집: 2.공인중개사요약_민법.pdf 39쪽
+현행 확인: 민법 [시행 2026.3.17.] 국가법령정보센터, 대법원 공개 판례
+주의: 이 작업은 14장의 관련 조문과 기본 법리 대조 및 학습 도식 제작이다.
+민법 전 247장의 판례·사실관계별 예외까지 최종 검증한 상태가 아니다.
+
+적용 범위
+- 민법 14장: civ-card-054, civ-card-059, civ-card-063, civ-card-064, civ-card-065, civ-card-066, civ-card-067, civ-card-068, civ-card-108, civ-card-109, civ-card-110, civ-card-116, civ-card-232, civ-card-233
+- 카드 본문: 간략하지만 혼동되는 법정 요건을 조문에 맞춰 보완.
+- 시각화: 관계도/점유구조도 타입 14종, 실제 core-cards/cards.js inline SVG.
+- 시각화 정보: 카드 [시각화] 키, runtime core-cards/data.js, 모바일/다크모드 CSS.
+- 카드 ID·ORDER·기출언급횟수·중요도·과목별 카드 수 변경 없음.
+- 학개론 기존 SVG 21장과 공법·공시법·중개사법의 기존 화면은 그대로 유지.
+- '도식'은 설명보조이며 구체적 사실관계에 대한 법적 판단으로 사용하지 않음.
+
+그림 그룹과 법률 검수:
+- 대리·현명: civ-card-054 | civ-card-059 | 대리권의 효과가 본인에게 귀속되는 조건과 표시 예외
+- 복대리·무권대리: civ-card-063 | civ-card-064 | 복대리인은 본인의 대리인, 무권대리 계약은 본인 추인 전 미확정
+- 표현대리: civ-card-065 | civ-card-066 | 수여표시와 제3자 선의·무과실 구분
+- 권한초과·권한소멸 표현대리: civ-card-067 | civ-card-068 | 기본권한의 초과와 소멸 후 외관 비교
+- 점유이전: civ-card-108 | civ-card-109 | 간이인도와 점유개정의 직접점유자 구분
+- 반환청구권·간접점유: civ-card-110 | civ-card-116 | 반환청구권 이전 및 점유매개관계
+- 표현대리 3유형·무권대리 당사자: civ-card-232 | civ-card-233 | 민법 제125·126·129조 비교, 최고·철회·추인
+
+법령·공식 판례 참조(2026 시행본):
+1. 민법 제114~115조 현명/대리행위:
+https://law.go.kr/lsInfoP.do?ancYnChk=0&lsId=001706
+2. 민법 제120~123조 복대리:
+https://law.go.kr/lsInfoP.do?ancYnChk=0&lsId=001706
+3. 민법 제125~126조·제129조 표현대리:
+https://law.go.kr/lsInfoP.do?ancYnChk=0&lsId=001706
+4. 민법 제130~135조 무권대리 계약·추인·상대방 보호:
+https://law.go.kr/lsInfoP.do?ancYnChk=0&lsId=001706
+5. 민법 제188조제2항 간이인도:
+https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1023594801
+6. 민법 제189조 점유개정:
+https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026989657
+7. 민법 제190조 목적물반환청구권 양도:
+https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900157834
+8. 민법 제194조 간접점유:
+https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1023594803
+9. 대법원 2009.5.28. 선고 2008다56392 판결(표현대리 선의·무과실):
+https://www.law.go.kr/LSW/precInfoP.do?precSeq=192682
+
+시각화 QA 요청:
+- 화면 너비 320px 이하에서 글씨 잘림/겹침 없는지
+- 라이트/다크 모드 배경 대비 및 접근성 음성 안내(카드 핵심 요약)
+- 학개론 수요/공급 SVG 21장의 기존 렌더링 유지
+- 중요도 노란 빈 별, 개인 중요/외움/총 집계·필터 기능 유지
+- 본문 카드 14개의 데이터와 diagram 타입 정확히 일치
+- 하나의 개념도(특히 점유개정)는 '누가 실제로 점유하는지'와 '인도로 보는 효과' 분리 표현
+
+후속 법령감사:
+- 민법총칙 001~086 나머지 카드, 물권법 087~158, 계약/특별법 159~230, 비교/판례 231~247 차례 검수.
+- 후속 도식 후보: 법정지상권·주위토지통행권·공동저당·임대차 대항력·집합건물 단면도.

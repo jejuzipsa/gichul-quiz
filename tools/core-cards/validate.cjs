@@ -10,7 +10,11 @@ const visualWhitelist=new Set([
   'concentric_city','concentric_zones','sector_city','multi_nuclei',
   'demand_down','supply_up','demand_move','demand_shift','supply_move','supply_shift',
   'elasticity_formula','elastic_demand','inelastic_demand','unit_elastic_demand',
-  'perfect_elastic_demand','perfect_inelastic_demand','cashflow_sequence'
+  'perfect_elastic_demand','perfect_inelastic_demand','cashflow_sequence',
+  'civil_agency_basic','civil_agency_disclosure','civil_agency_sub','civil_agency_unauthorized',
+  'civil_agency_apparent','civil_apparent_125','civil_apparent_126','civil_apparent_129',
+  'civil_possession_simple','civil_possession_revision','civil_possession_claim','civil_possession_indirect',
+  'civil_apparent_compare','civil_unauthorized_rights'
 ]);
 const expectedTotal=configs.reduce((n,x)=>n+x.total,0);
 need(cards.length===expectedTotal,'approved card count must be '+expectedTotal);
@@ -70,6 +74,32 @@ need(civil.some(c=>c.importance===5),'civil importance 5 cards missing');
 need(civil.some(c=>c.importance===1),'civil essential-only cards missing');
 need(civil.find(c=>c.title==='계약갱신요구권')?.sourceKind==='official','contract renewal card must use current official source');
 need(!civil.find(c=>c.title==='계약갱신요구권')?.bullets.some(x=>/5년|없다/.test(x)),'outdated renewal rule leaked into card');
+// v1.80: agency and movable-possession explanations must match the approved statutory diagrams.
+const civilVisualChecks={
+  'civ-card-054':['civil_agency_basic',['직접 귀속','표시']],
+  'civ-card-059':['civil_agency_disclosure',['본인을 위하여','알았거나']],
+  'civ-card-063':['civil_agency_sub',['원대리인의 대리인이 아니라','승낙']],
+  'civ-card-064':['civil_agency_unauthorized',['추인','제3자']],
+  'civ-card-065':['civil_agency_apparent',['제125조','제126조','제129조']],
+  'civ-card-066':['civil_apparent_125',['표시된 범위','알 수 있었던']],
+  'civ-card-067':['civil_apparent_126',['기본대리권','정당한 이유']],
+  'civ-card-068':['civil_apparent_129',['소멸','과실']],
+  'civ-card-108':['civil_possession_simple',['이미','의사표시']],
+  'civ-card-109':['civil_possession_revision',['직접점유','간접점유']],
+  'civ-card-110':['civil_possession_claim',['제3자','반환청구권']],
+  'civ-card-116':['civil_possession_indirect',['임대차','직접점유자']],
+  'civ-card-232':['civil_apparent_compare',['제125조','제126조','제129조']],
+  'civ-card-233':['civil_unauthorized_rights',['최고','철회','추인']]
+};
+for(const [id,[visual,terms]] of Object.entries(civilVisualChecks)){
+  const card=civil.find(c=>c.id===id);
+  need(card?.visual===visual,id+': wrong civil-law diagram type');
+  need(card?.sourceKind==='summary+official'&&card?.sourceRef.includes('민법'),id+': missing reviewed official civil-law reference');
+  const body=(card?.bullets||[]).join(' ');
+  for(const term of terms) need(body.includes(term),id+': missing statute-checked phrase '+term);
+}
+need(civil.filter(c=>c.visual.startsWith('civil_')).length===14,'first civil diagrams rollout must have exactly 14 cards');
+
 const brokerage=cards.filter(c=>c.subject==='brokerage_law');
 for(const title of ['중개','중개대상물','개업공인중개사','소속공인중개사','중개보조원','중개사무소 개설등록','분사무소','전속중개계약','부동산거래정보망','중개대상물 확인·설명','거래계약서','직접거래 금지','업무보증','중개보수청구권','실무교육','한국공인중개사협회','등록취소','업무정지','부동산 거래신고','거래신고 30일','토지거래허가구역','등기사항증명서','분묘기지권','주택임대차보호법','상가건물 임대차보호법','경매','매수신청대리인 등록']) need(brokerage.some(c=>c.title===title),'brokerage required card missing: '+title);
 need(brokerage[0]?.title==='중개','brokerage first card must be 중개');

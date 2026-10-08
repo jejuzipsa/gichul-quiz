@@ -394,7 +394,65 @@
 
   const TYPE_LABELS={term:'단어',concept:'개념',theory:'이론',graph:'그래프',formula:'수식'};
 
+  // Reusable, source-reviewed civil-law relationship diagrams. These are schematic, not factual case rulings.
+  const CIVIL_DIAGRAMS={
+    civil_agency_basic:['대리의 효과','본인','대리인','상대방','본인에게 효과 귀속'],
+    civil_agency_disclosure:['현명: 본인을 위한 표시','본인','대리인','상대방','알았거나 알 수 있으면 예외'],
+    civil_agency_sub:['복대리인도 본인의 대리인','본인','원대리인','복대리인','원대리인의 대리인 아님'],
+    civil_agency_unauthorized:['대리권 없는 계약','본인','무권대리인','상대방','추인 없으면 본인에 무효력'],
+    civil_agency_apparent:['법정 요건의 대리권 외관','본인','외관·표시','제3자','선의·무과실 등 요건'],
+    civil_apparent_125:['제125조: 수여표시','본인 표시','대리권 외관','제3자','알았거나 알 수 있으면 제외'],
+    civil_apparent_126:['제126조: 권한 초과','기본대리권','권한 초과','상대방','정당한 이유 필요'],
+    civil_apparent_129:['제129조: 권한 소멸','기존 대리권','권한 소멸','제3자','선의·무과실 보호'],
+    civil_unauthorized_rights:['무권대리 계약과 선택','무권대리인','본인 추인','상대방','최고·추인 전 철회 가능']
+  };
+  const CIVIL_POSSESSION={
+    civil_possession_simple:['간이인도','양도인','양수인','동산','이미 양수인이 직접점유','합의로 인도 효과'],
+    civil_possession_revision:['점유개정','양도인','양수인','동산','양도인이 계속 직접점유','양수인은 간접점유'],
+    civil_possession_claim:['반환청구권 양도','양도인','양수인','동산','반환청구권은 양수인에게','제3자가 동산 직접점유'],
+    civil_possession_indirect:['간접점유','간접점유자','직접점유자','동산','임대차 등 점유매개관계','물건은 직접점유자가 지배']
+  };
+  const civBox=(x,y,w,label)=>`<rect class="v-civil-box" x="${x}" y="${y}" width="${w}" height="37" rx="10"/><text class="v-civil-text" x="${x+w/2}" y="${y+23}" text-anchor="middle">${label}</text>`;
+  const civSvg=body=>`<svg viewBox="0 0 240 140" aria-hidden="true"><path class="v-civil-guide" d="M0 0H0"/>${body}</svg>`;
+  function civilDiagramMarkup(type){
+    if(type==='civil_apparent_compare'){
+      const rows=[['125조','수여표시'],['126조','권한 초과'],['129조','권한 소멸']];
+      return civSvg(`<text class="v-civil-heading" x="120" y="17" text-anchor="middle">표현대리 발생 원인 비교</text>`+rows.map(([n,meaning],i)=>{
+        const y=29+i*35;
+        return `<rect class="v-civil-box" x="13" y="${y}" width="214" height="30" rx="8"/><text class="v-civil-title" x="51" y="${y+20}" text-anchor="middle">${n}</text><path class="v-civil-sep" d="M84 ${y+5}V${y+25}"/><text class="v-civil-text" x="155" y="${y+20}" text-anchor="middle">${meaning}</text>`;
+      }).join(''));
+    }
+    const possession=CIVIL_POSSESSION[type];
+    if(possession){
+      const [heading,left,right,object,top,bottom]=possession;
+      // Solid = current direct possessor; dashed = mediated/claim relationship; omitted = no current possession.
+      const lines={
+        civil_possession_simple:['','v-civil-line'],
+        civil_possession_revision:['v-civil-line','v-civil-dashed'],
+        civil_possession_claim:['v-civil-dashed','v-civil-dashed'],
+        civil_possession_indirect:['v-civil-dashed','v-civil-line']
+      }[type];
+      return civSvg(`<text class="v-civil-heading" x="120" y="16" text-anchor="middle">${heading}</text>`
+        +civBox(4,30,75,left)+civBox(161,30,75,right)
+        +`<rect class="v-civil-object" x="88" y="76" width="64" height="26" rx="7"/><text class="v-civil-title" x="120" y="94" text-anchor="middle">${object}</text>`
+        +(lines[0]?`<path class="${lines[0]}" d="M42 67L95 83"/>`:'')
+        +(lines[1]?`<path class="${lines[1]}" d="M198 67L145 83"/>`:'')
+        +`<text class="v-civil-caption" x="120" y="119" text-anchor="middle">${top}</text><text class="v-civil-caption" x="120" y="133" text-anchor="middle">${bottom}</text>`);
+    }
+    const row=CIVIL_DIAGRAMS[type];
+    if(row){
+      const [heading,a,b,c,caption]=row;
+      return civSvg(`<text class="v-civil-heading" x="120" y="22" text-anchor="middle">${heading}</text>`
+        +civBox(3,44,70,a)+civBox(85,44,70,b)+civBox(167,44,70,c)
+        +`<path class="v-civil-line" d="M73 63H83M155 63H165"/><path class="v-civil-arrowtip" d="m79 59 4 4-4 4m82-8 4 4-4 4"/>`
+        +`<text class="v-civil-caption" x="120" y="119" text-anchor="middle">${caption}</text>`);
+    }
+    return '';
+  }
+
   function visualMarkup(type){
+    const civilMarkup=civilDiagramMarkup(type);
+    if(civilMarkup) return civilMarkup;
     const common='viewBox="0 0 240 140" role="img" aria-hidden="true"';
     const axes='<path class="v-axis" d="M34 14V116H222"/><text class="v-label" x="18" y="20">P</text><text class="v-label" x="222" y="132">Q</text>';
     const map={
@@ -494,6 +552,10 @@
     const wrap=document.createElement('div');
     wrap.className='card-visual';
     wrap.innerHTML=markup;
+    if(card.visual.startsWith('civil_')){
+      wrap.setAttribute('role','img');
+      wrap.setAttribute('aria-label',card.title+' 관계도. '+(card.bullets||[]).join(' '));
+    }
     addVisualLegend(wrap,card.visual);
     article.appendChild(wrap);
   }
