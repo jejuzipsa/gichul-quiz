@@ -461,6 +461,56 @@
         +(lines[1]?`<path class="${lines[1]}" d="M198 67L145 83"/>`:'')
         +`<text class="v-civil-caption" x="120" y="119" text-anchor="middle">${top}</text><text class="v-civil-caption" x="120" y="133" text-anchor="middle">${bottom}</text>`);
     }
+    // Civil-law second batch: one statutorily grounded diagram for each shared concept group.
+    if(type==='civil_surface_section'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">법정지상권: 경매 전후</text>'
+        +'<text class="v-civil-caption" x="60" y="32" text-anchor="middle">요건 충족 전</text>'
+        +'<text class="v-civil-caption" x="182" y="32" text-anchor="middle">경매로 소유자 분리</text>'
+        +civBox(8,39,101,'건물 A')+civBox(8,83,101,'토지 A')
+        +civBox(132,39,100,'건물 A')+civBox(132,83,100,'토지 B')
+        +'<path class="v-civil-line" d="M109 77H129"/><path class="v-civil-arrowtip" d="m125 73 4 4-4 4"/>'
+        +'<text class="v-civil-caption" x="120" y="139" text-anchor="middle">제366조 및 판례상 성립요건 확인</text>');
+    }
+    if(type==='civil_joint_mortgage'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">공동저당: 하나의 채권, 여러 부동산</text>'
+        +civBox(8,29,99,'부동산 A')+civBox(133,29,99,'부동산 B')
+        +'<path class="v-civil-line" d="M58 67L93 85M182 67L147 85"/>'
+        +'<rect class="v-civil-object" x="61" y="83" width="118" height="26" rx="7"/>'
+        +'<text class="v-civil-title" x="120" y="100" text-anchor="middle">같은 피담보채권</text>'
+        +'<text class="v-civil-caption" x="120" y="123" text-anchor="middle">동시배당: 경매대가 비례 분담</text>'
+        +'<text class="v-civil-caption" x="120" y="136" text-anchor="middle">이시배당: 차순위자 대위 가능</text>');
+    }
+    if(type==='civil_housing_timeline'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">주택임대차: 대항력과 우선변제</text>'
+        +civBox(3,28,110,'인도·주민등록')+civBox(128,28,109,'다음 날 대항력')
+        +'<path class="v-civil-line" d="M113 46H126"/><path class="v-civil-arrowtip" d="m122 42 4 4-4 4"/>'
+        +civBox(3,81,110,'확정일자 추가')+civBox(128,81,109,'우선변제 요건')
+        +'<path class="v-civil-line" d="M113 99H126"/><path class="v-civil-arrowtip" d="m122 95 4 4-4 4"/>'
+        +'<text class="v-civil-caption" x="120" y="136" text-anchor="middle">배당순위: 요건 시점과 선순위 권리 고려</text>');
+    }
+    if(type==='civil_provisional_steps'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">가등기담보: 소유권 취득 방식 실행</text>'
+        +civBox(3,29,109,'변제기 후 통지')+civBox(128,29,109,'통지 도달')
+        +'<path class="v-civil-line" d="M112 47H126"/><path class="v-civil-arrowtip" d="m122 43 4 4-4 4"/>'
+        +civBox(3,82,109,'2개월 경과')+civBox(128,82,109,'청산금·등기')
+        +'<path class="v-civil-line" d="M112 100H126"/><path class="v-civil-arrowtip" d="m122 96 4 4-4 4"/>'
+        +'<path class="v-civil-dashed" d="M182 66V77H57V80"/>'
+        +'<text class="v-civil-caption" x="120" y="136" text-anchor="middle">가등기와 이전등기 선행 사례를 구분</text>');
+    }
+    if(type==='civil_condivision'){
+      return civSvg('<text class="v-civil-heading" x="120" y="15" text-anchor="middle">집합건물: 전유·공용·대지사용권</text>'
+        +'<rect class="v-civil-box" x="18" y="27" width="204" height="74" rx="3"/>'
+        +'<path class="v-civil-line" d="M18 64H222M98 27V101M143 27V101"/>'
+        +'<rect class="v-civil-common" x="99" y="28" width="43" height="72" rx="2"/>'
+        +'<text class="v-civil-text" x="58" y="48" text-anchor="middle">전유</text>'
+        +'<text class="v-civil-text" x="181" y="48" text-anchor="middle">전유</text>'
+        +'<text class="v-civil-text" x="58" y="86" text-anchor="middle">전유</text>'
+        +'<text class="v-civil-text" x="181" y="86" text-anchor="middle">전유</text>'
+        +'<text class="v-civil-text" x="120" y="53" text-anchor="middle">공용</text>'
+        +'<text class="v-civil-text" x="120" y="86" text-anchor="middle">공용</text>'
+        +'<rect class="v-civil-object" x="18" y="110" width="204" height="24" rx="4"/>'
+        +'<text class="v-civil-title" x="120" y="126" text-anchor="middle">대지: 전유부분 소유를 위한 대지사용권</text>');
+    }
     const row=CIVIL_DIAGRAMS[type];
     if(row){
       const [heading,a,b,c,caption]=row;

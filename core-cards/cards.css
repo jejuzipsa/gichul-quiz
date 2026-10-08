@@ -132,6 +132,7 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
 .v-box{fill:color-mix(in srgb,var(--accent) 8%,var(--surface));stroke:var(--accent);stroke-width:1.5}
 .v-label,.v-text,.v-note,.v-title,.v-formula,.v-mini{fill:currentColor;font-family:inherit}
 .v-civil-box{fill:color-mix(in srgb,var(--accent) 10%,var(--surface));stroke:var(--accent);stroke-width:1.4}
+.v-civil-common{fill:color-mix(in srgb,var(--accent) 24%,var(--surface2));stroke:var(--accent);stroke-width:1.1}
 .v-civil-object{fill:color-mix(in srgb,#e5b341 18%,var(--surface));stroke:#d4a22d;stroke-width:1.5}
 .v-civil-line,.v-civil-dashed,.v-civil-sep,.v-civil-arrowtip{fill:none;stroke:var(--muted);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .v-civil-dashed{stroke-dasharray:4 4;stroke:var(--accent)}
