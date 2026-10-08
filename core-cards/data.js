@@ -11673,16 +11673,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "청약",
       "subtitle": "계약을 성립시키려는 확정적 의사표시",
       "bullets": [
-        "상대방의 승낙만 있으면 계약이 성립할 정도로 구체적인 제안"
+        "청약은 승낙만 있으면 계약이 성립할 정도로 확정된 의사표시이며, 민법 제527조에 따라 원칙적으로 철회하지 못함",
+        "승낙기간을 정한 청약은 그 기간 내, 기간을 정하지 않은 청약은 상당한 기간 내 승낙 통지를 받지 못하면 효력을 잃음(제528·529조)"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제527~529조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0527&lsiSeq=284415&urlMode=lsScJoRltInfoR」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -11703,7 +11704,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-071"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제527~529조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0527&lsiSeq=284415&urlMode=lsScJoRltInfoR」"
     },
     {
       "id": "civ-card-167",
@@ -11714,16 +11715,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "승낙",
       "subtitle": "청약에 동의하여 계약을 성립시키는 의사표시",
       "bullets": [
-        "청약 내용과 합치하는 의사표시가 원칙"
+        "승낙은 청약 내용에 동의하는 의사표시이며, 조건을 붙이거나 내용을 변경한 승낙은 청약 거절과 새로운 청약으로 봄(제534조)",
+        "격지자간 계약은 원칙적으로 승낙 통지를 발송한 때 성립하며(제531조), 승낙 통지가 불필요한 경우에는 제532조가 적용됨"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제531·532·534조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0534&lsiSeq=284415&urlMode=lsScJoRltInfoR」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -11749,7 +11751,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-066"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제531·532·534조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0534&lsiSeq=284415&urlMode=lsScJoRltInfoR」"
     },
     {
       "id": "civ-card-168",
@@ -12537,16 +12539,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "임차권",
       "subtitle": "임차인이 목적물을 사용·수익할 수 있는 채권",
       "bullets": [
-        "원칙적으로 채권이지만 법률에 따라 대항력 등이 강화될 수 있음"
+        "임차권은 약정한 목적물의 사용·수익을 청구하는 채권이고, 임차권의 양도·전대에는 원칙적으로 임대인의 동의가 필요함(민법 제618·629조)",
+        "주택임대차에서는 등기 없이도 주택 인도와 주민등록을 마치면 그 다음 날부터 제3자에 대한 대항력이 생김(주택임대차보호법 제3조)"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 28,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p28 + 국가법령정보센터 「민법 제618·629조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0629&lsiSeq=284415&urlMode=lsScJoRltInfoR + 주택임대차보호법 제3조 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1031475507」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -12569,7 +12572,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-080"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p28 · 계약법·임대차"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p28 + 국가법령정보센터 「민법 제618·629조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0629&lsiSeq=284415&urlMode=lsScJoRltInfoR + 주택임대차보호법 제3조 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1031475507」"
     },
     {
       "id": "civ-card-189",
@@ -12580,16 +12583,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "차임",
       "subtitle": "임차인이 사용·수익의 대가로 지급하는 금전 등",
       "bullets": [
-        "임대차에서 임차인이 부담하는 대표적 급부"
+        "차임은 임차인이 목적물을 사용·수익하는 대가로 지급하는 급부로서 임대차의 핵심 요소임(민법 제618조)",
+        "별도 약정이 없는 경우 민법 제633조의 지급시기는 동산·건물·대지 매월 말, 그 밖의 토지 매년 말이며 수확기가 있으면 수확 후 지체 없이 지급함"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p29 + 국가법령정보센터 「민법 제618·633조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0633&lsiSeq=284415&urlMode=lsScJoRltInfoR」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -12615,7 +12619,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-073"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p29 + 국가법령정보센터 「민법 제618·633조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0633&lsiSeq=284415&urlMode=lsScJoRltInfoR」"
     },
     {
       "id": "civ-card-190",
@@ -12626,16 +12630,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "보증금",
       "subtitle": "임차인의 채무를 담보하기 위해 임대인에게 맡기는 금전 등",
       "bullets": [
-        "임대차 종료 시 미지급 차임 등을 정산하고 반환하는 담보 성격"
+        "임대차보증금은 임대차 종료 후 목적물을 반환할 때까지 발생하는 임차인의 차임 등 채무를 담보하며, 정산 후 잔액을 반환함",
+        "원칙적으로 임차인의 목적물 반환과 임대인의 잔액 보증금 반환은 동시이행관계이나, 공제 범위와 소멸시효 등은 개별 약정·판례에 따라 검토함"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 30,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p30 + 국가법령정보센터 「대법원 2025.3.27. 임대료등청구 판결 https://www.law.go.kr/LSW/precInfoP.do?precSeq=605337 + 대법원 2002다52657 판결 https://www.law.go.kr/LSW/precInfoP.do?evtNo=2002%EB%8B%A452657」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -12661,7 +12666,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-074"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p30 · 계약법·임대차"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p30 + 국가법령정보센터 「대법원 2025.3.27. 임대료등청구 판결 https://www.law.go.kr/LSW/precInfoP.do?precSeq=605337 + 대법원 2002다52657 판결 https://www.law.go.kr/LSW/precInfoP.do?evtNo=2002%EB%8B%A452657」"
     },
     {
       "id": "civ-card-191",
@@ -12672,16 +12677,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "권리금",
       "subtitle": "영업시설·거래처·신용·입지 등 영업가치의 양도·이용 대가",
       "bullets": [
-        "상가 임대차에서 영업상 가치와 관련해 주고받는 대가"
+        "권리금은 영업시설·비품, 거래처·신용·노하우, 상가 입지 등의 유형·무형 가치에 대한 보증금·차임 외 대가임(상가건물 임대차보호법 제10조의3)",
+        "권리금 계약은 신규임차인이 되려는 자가 기존 임차인에게 권리금을 지급하기로 하는 계약이며, 임대인이 언제나 지급할 의무를 지는 것은 아님"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 30,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p30 + 국가법령정보센터 「상가건물 임대차보호법 제10조의3 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0010&lsiSeq=279651&urlMode=lsScJoRltInfoR」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -12700,7 +12706,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-067"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p30 · 계약법·임대차"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p30 + 국가법령정보센터 「상가건물 임대차보호법 제10조의3 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0010&lsiSeq=279651&urlMode=lsScJoRltInfoR」"
     },
     {
       "id": "civ-card-192",
@@ -12995,7 +13001,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택임대차보호법",
       "subtitle": "주거용 건물 임대차에 민법 특례를 두는 법률",
       "bullets": [
-        "주택 임차인의 대항력·보증금 회수·갱신 등을 보호"
+        "주택 임차인은 주택을 인도받고 주민등록을 마친 다음 날부터 등기 없이도 제3자에게 임대차의 대항력을 주장할 수 있음(주택임대차보호법 제3조)",
+        "보증금의 우선변제에는 확정일자 등 별도 요건이 필요하고(제3조의2), 계약갱신 요구에도 법정 거절사유가 있음(제6조의3)"
       ],
       "formula": "",
       "visual": "none",
@@ -13003,8 +13010,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 32,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법 제3조 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1031475507 + 제6조의3 https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1027302761」",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽의 개념과 명시된 공식 조문·판례 주요 주장을 대조·교정. 학설상 분류·사실관계별 예외 및 후속 판례 전부를 최종 인증한 것은 아님.",
       "basis": [
         "exam",
         "summary"
@@ -13028,7 +13035,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-075"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법 제3조 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1031475507 + 제6조의3 https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1027302761」"
     },
     {
       "id": "civ-card-201",
