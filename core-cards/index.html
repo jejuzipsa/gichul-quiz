@@ -17,7 +17,7 @@
   })();
   </script>
   <title>핵심 단어 카드 | 공인중개사</title>
-  <link rel="stylesheet" href="cards.css?v=1.86" />
+  <link rel="stylesheet" href="cards.css?v=1.87" />
 </head>
 <body>
   <header class="card-appbar">
@@ -67,10 +67,18 @@
               <div id="subjectMenu" class="subject-menu" role="listbox" aria-labelledby="subjectLabel" hidden></div>
             </div>
           </div>
-          <div class="scope-box progress-box" aria-live="polite">
+          <div class="scope-box progress-box">
             <span>현재 범위</span>
-            <strong id="rangeText">1 / 170</strong>
-            <div class="progress-track"><span id="progressFill"></span></div>
+            <strong id="rangeText" aria-live="polite">1 / 170</strong>
+            <div class="progress-seek">
+              <div class="progress-track" aria-hidden="true"><span id="progressFill"></span></div>
+              <input id="progressSlider" class="progress-slider" type="range"
+                min="1" max="170" step="1" value="1"
+                aria-label="현재 범위 빠른 이동" aria-describedby="progressHint"
+                aria-valuetext="1 / 170" />
+              <output id="progressPreview" class="progress-preview" for="progressSlider" hidden></output>
+              <span id="progressHint" class="sr-only">드래그하거나 트랙을 눌러 이동. 화살표 키로 페이지 이동, Home과 End로 처음과 끝 이동.</span>
+            </div>
           </div>
         </div>
 
@@ -142,10 +150,10 @@
       <p>부동산학개론 170장 · 민법 247장 · 중개사법 204장 · 공법 234장 · 공시법 199장 · 세법 187장, 총 1,241장을 과목별 TXT 기준으로 정리했어.</p>
     </footer>
   </main>
-  <script src="data.js?v=1.86"></script>
-  <script src="data-public.js?v=1.86"></script>
-  <script src="data-registration.js?v=1.86"></script>
-  <script src="data-tax.js?v=1.86"></script>
-  <script src="cards.js?v=1.86"></script>
+  <script src="data.js?v=1.87"></script>
+  <script src="data-public.js?v=1.87"></script>
+  <script src="data-registration.js?v=1.87"></script>
+  <script src="data-tax.js?v=1.87"></script>
+  <script src="cards.js?v=1.87"></script>
 </body>
 </html>
