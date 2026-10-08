@@ -162,6 +162,8 @@ button,input,select,a{font:inherit} button{cursor:pointer} button:disabled{curso
 .card-importance{display:inline-flex;align-items:center;gap:3px;flex:0 0 auto;margin-left:auto}
 .importance-star{display:block;width:17px;height:17px;fill:none;stroke:var(--muted);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .importance-star.is-active{stroke:#b88705}
+:root[data-theme="light"] .importance-star.is-active{fill:#f5c84b;stroke:#b88705}
+:root[data-theme="light"] .importance-star.is-inactive{fill:none;stroke:#aeb7c5;opacity:1}
 :root[data-theme="dark"] .importance-star.is-active{stroke:#facc15}
 .importance-star.is-inactive{opacity:.55}
 .card-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.card-action{min-height:42px;border:1px solid var(--line);border-radius:12px;background:var(--surface2);color:var(--muted);font-weight:850}.card-action:hover{border-color:var(--accent);color:var(--accent)}.card-action.active{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 16%,var(--surface2));color:var(--text)}
