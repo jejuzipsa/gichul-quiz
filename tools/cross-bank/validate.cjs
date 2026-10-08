@@ -92,6 +92,51 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
     }
   }
 }
+// v1.97: thirteen civil agency/invalidity provisions require a single true answer
+// on the same statutory topic; numeric answer position and base question ID are stable.
+{
+  const civil=compileSubject('civil_law').questions;
+  const truth=new Set(civil.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['CVK008','제114조',0],['CVK009','제115조',0],
+    ['CVK010','제116조',3],['CVK011','제118조',1],
+    ['CVK012','제125조',0],['CVK013','제126조',0],
+    ['CVK014','제129조',2],['CVK015','제130조',0],
+    ['CVK016','제131조',1],['CVK017','제133조',1],
+    ['CVK018','제134조',2],['CVK019','제137조',3],
+    ['CVK020','제146조',2]
+  ];
+  for(const [id,article,answerIndex] of expected){
+    const q=civil.find(q=>q.id===id);
+    assert.ok(q,id+': required civil law card');
+    assert.equal(q.answer,answerIndex,id+': preserve original answer position');
+    assert.equal(q.sourceLaw,'민법',id+': official statute');
+    assert.equal(q.sourceArticle,article,id+': correct provision');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': same-topic truth test');
+    assert.ok(q.explanation.includes('민법 '+article),id+': statute identified in explanation');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': verified date');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': reviewed date');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': distinct answer choices');
+    for(let i=0;i<4;i++) if(i!==q.answer){
+      assert.ok(!truth.has(normalize(q.choices[i])),id+': no factual truth copied as incorrect option');
+    }
+  }
+}
+{
+  const civilBlanks=readBank('civil_law').questions;
+  const expected=new Map([
+    ['BLANK-02-093',{answer:'도달주의',article:'제111조'}],
+    ['BLANK-02-094',{answer:'영향이 없다',article:'제111조'}],
+    ['BLANK-02-298',{answer:'제3자',article:'제548조'}]
+  ]);
+  for(const [id,spec] of expected){
+    const q=civilBlanks.find(x=>x.id===id);
+    assert.ok(q,id+': reviewed supplementary blank');
+    assert.equal(q.answer,spec.answer,id+': unchanged correct choice');
+    assert.equal(q.choices.filter(x=>x===q.answer).length,1,id+': exactly one correct choice');
+    assert.ok(q.explanation.includes('민법 '+spec.article),id+': explanation addresses statutory basis');
+  }
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
