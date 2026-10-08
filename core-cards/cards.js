@@ -13,6 +13,7 @@
     searchCategorySection:$('searchCategorySection'), searchSuggestSection:$('searchSuggestSection'),
     searchCategoryList:$('searchCategoryList'), searchSuggestions:$('searchSuggestions'),
     grid:$('cardGrid'), prev:$('prevBtn'), next:$('nextBtn'), range:$('rangeText'), fill:$('progressFill'),
+    seek:$('progressSlider'), seekPreview:$('progressPreview'),
     dots:$('mobileDots'), heroCount:$('heroCount'), importantCount:$('importantCount'), memorizedCount:$('memorizedCount'),
     importantStatBtn:$('importantStatBtn'), memorizedStatBtn:$('memorizedStatBtn'), registeredStatBtn:$('registeredStatBtn'),
     randomOrderBtn:$('randomOrderBtn'), easyOrderBtn:$('easyOrderBtn'), hardOrderBtn:$('hardOrderBtn'),
@@ -107,6 +108,42 @@
     if(w>=980) return 2;
     return 1;
   }
+
+  // Navigate in whole visible pages (1 mobile, 2 tablet/PC, 3 wide PC).
+  // Keep the exact last full page reachable even when its index is not page-aligned.
+  function snapSeekOffset(rawOffset,total,count){
+    const maxOffset=Math.max(0,total-count);
+    const position=Math.max(0,Math.min(maxOffset,Math.round(Number(rawOffset)||0)));
+    if(position===maxOffset) return maxOffset;
+    return Math.min(maxOffset,Math.round(position/count)*count);
+  }
+
+  function seekRangeLabel(offset,total,count){
+    if(!total) return '0 / 0';
+    const start=offset+1;
+    const end=Math.min(offset+count,total);
+    return start===end ? start+' / '+total : start+'–'+end+' / '+total;
+  }
+
+  function paintSeekPosition(offset,maxOffset){
+    const percent=maxOffset>0?Math.max(0,Math.min(100,offset/maxOffset*100)):0;
+    els.fill.style.width=percent+'%';
+    els.seekPreview.style.setProperty('--seek-percent',percent+'%');
+  }
+
+  function showSeekPreview(){
+    const list=filtered();
+    const count=visibleCount();
+    const maxOffset=Math.max(0,list.length-count);
+    const raw=Math.max(0,Number(els.seek.value)-1);
+    const snapped=snapSeekOffset(raw,list.length,count);
+    els.seekPreview.textContent=seekRangeLabel(snapped,list.length,count);
+    els.seekPreview.hidden=false;
+    els.seek.setAttribute('aria-valuetext',seekRangeLabel(snapped,list.length,count));
+    // The native thumb moves smoothly; only the displayed card page snaps.
+    paintSeekPosition(raw,maxOffset);
+  }
+
 
   function filtered(){
     const q=state.query.trim().toLocaleLowerCase('ko');
@@ -940,10 +977,16 @@
     els.prev.disabled=state.offset<=0;
     els.next.disabled=state.offset+count>=list.length;
 
-    const from=list.length?state.offset+1:0;
-    const to=Math.min(state.offset+count,list.length);
-    els.range.textContent=list.length ? from+'–'+to+' / '+list.length : '0 / 0';
-    els.fill.style.width=list.length ? Math.min(100,to/list.length*100)+'%' : '0%';
+    const rangeLabel=seekRangeLabel(state.offset,list.length,count);
+    els.range.textContent=rangeLabel;
+    els.seek.min='1';
+    els.seek.max=String(Math.max(1,maxOffset+1));
+    els.seek.step='1'; // The snapping rule depends on the responsive visible count.
+    els.seek.value=String(state.offset+1);
+    els.seek.disabled=maxOffset===0;
+    els.seek.setAttribute('aria-valuetext',rangeLabel);
+    els.seekPreview.hidden=true;
+    paintSeekPosition(state.offset,maxOffset);
 
     updateHeroStats(subjectStats);
     const subject=bank.subjects.find(s=>s.code===state.subject)?.name||'과목';
@@ -1022,6 +1065,36 @@
   els.randomOrderBtn?.addEventListener('click',()=>setOrderMode('random',{reshuffle:true}));
   els.easyOrderBtn?.addEventListener('click',()=>setOrderMode('easy'));
   els.hardOrderBtn?.addEventListener('click',()=>setOrderMode('hard'));
+
+  // Input previews the destination without re-rendering every card on pointermove.
+  // Change commits one snapped page after the user releases the thumb or clicks the track.
+  els.seek.addEventListener('pointerdown',showSeekPreview);
+  els.seek.addEventListener('input',showSeekPreview);
+  els.seek.addEventListener('change',()=>{
+    const list=filtered();
+    state.offset=snapSeekOffset(Number(els.seek.value)-1,list.length,visibleCount());
+    render();
+  });
+  els.seek.addEventListener('pointercancel',render);
+  els.seek.addEventListener('blur',()=>{
+    els.seekPreview.hidden=true;
+  });
+  els.seek.addEventListener('keydown',event=>{
+    const count=visibleCount();
+    const total=filtered().length;
+    const maxOffset=Math.max(0,total-count);
+    let next=state.offset;
+    if(event.key==='ArrowLeft'||event.key==='ArrowDown') next-=count;
+    else if(event.key==='ArrowRight'||event.key==='ArrowUp') next+=count;
+    else if(event.key==='PageDown') next+=count*5;
+    else if(event.key==='PageUp') next-=count*5;
+    else if(event.key==='Home') next=0;
+    else if(event.key==='End') next=maxOffset;
+    else return;
+    event.preventDefault();
+    state.offset=Math.max(0,Math.min(next,maxOffset));
+    render();
+  });
 
   els.prev.addEventListener('click',()=>{
     state.offset=Math.max(0,state.offset-visibleCount());
