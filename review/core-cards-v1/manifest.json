@@ -60,6 +60,18 @@
       "status": "complete",
       "orderRule": "지적 총론·등록사항 → 지적공부 → 토지이동·지적측량 → 등기 총론 → 표시등기 → 신청절차 → 소유권 → 용익·담보 → 가등기·신탁·촉탁·이의",
       "reindexExam": true
+    },
+    {
+      "subject": "tax_law",
+      "label": "부동산세법",
+      "sourceFile": "review/core-cards-v1/06_tax_law.txt",
+      "sourcePdf": "4.공인중개사요약_세법.pdf 23쪽 + Q-Net 2021~2025 제32~36회 + 국가법령정보센터 2026-10-08 현행 세법",
+      "examSourceFile": "review/past-exams-v1/06_tax_law.txt",
+      "pageCount": 23,
+      "total": 187,
+      "status": "complete",
+      "orderRule": "조세총론 → 취득세 → 등록면허세 → 재산세 → 종합부동산세 → 소득세·임대소득 → 양도소득세",
+      "reindexExam": true
     }
   ],
   "generatedOutput": "core-cards/data.js",
@@ -82,6 +94,10 @@
     {
       "subject": "registration_law",
       "output": "core-cards/data-registration.js"
+    },
+    {
+      "subject": "tax_law",
+      "output": "core-cards/data-tax.js"
     }
   ]
 }
