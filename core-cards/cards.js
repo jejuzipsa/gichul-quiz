@@ -409,7 +409,7 @@
   const CIVIL_POSSESSION={
     civil_possession_simple:['간이인도','양도인','양수인','동산','이미 양수인이 직접점유','합의로 인도 효과'],
     civil_possession_revision:['점유개정','양도인','양수인','동산','양도인이 계속 직접점유','양수인은 간접점유'],
-    civil_possession_claim:['반환청구권 양도','양도인','양수인','제3자','제3자가 계속 직접점유','반환청구권을 양수인에게'],
+    civil_possession_claim:['반환청구권 양도','양도인','양수인','동산','반환청구권은 양수인에게','제3자가 동산 직접점유'],
     civil_possession_indirect:['간접점유','간접점유자','직접점유자','동산','임대차 등 점유매개관계','물건은 직접점유자가 지배']
   };
   const civBox=(x,y,w,label)=>`<rect class="v-civil-box" x="${x}" y="${y}" width="${w}" height="37" rx="10"/><text class="v-civil-text" x="${x+w/2}" y="${y+23}" text-anchor="middle">${label}</text>`;
