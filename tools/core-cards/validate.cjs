@@ -74,7 +74,7 @@ need(civil.some(c=>c.importance===5),'civil importance 5 cards missing');
 need(civil.some(c=>c.importance===1),'civil essential-only cards missing');
 need(civil.find(c=>c.title==='계약갱신요구권')?.sourceKind==='official','contract renewal card must use current official source');
 need(!civil.find(c=>c.title==='계약갱신요구권')?.bullets.some(x=>/5년|없다/.test(x)),'outdated renewal rule leaked into card');
-// v1.81: agency and movable-possession explanations must match the approved statutory diagrams.
+// v1.80: agency and movable-possession explanations must match the approved statutory diagrams.
 const civilVisualChecks={
   'civ-card-054':['civil_agency_basic',['직접 귀속','표시']],
   'civ-card-059':['civil_agency_disclosure',['본인을 위하여','알았거나']],
