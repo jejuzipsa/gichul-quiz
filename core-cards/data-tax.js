@@ -15,16 +15,17 @@
     "title": "국세",
     "subtitle": "국가가 과세권을 갖는 조세",
     "bullets": [
-      "소득세·종합부동산세·상속세·증여세·농어촌특별세 등이 대표적"
+      "국세는 국가의 과세권에 따라 부과·징수하는 세금",
+      "소득세·종합부동산세·상속세·증여세·농어촌특별세 등을 지방세와 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 국세기본법 제2조·소득세법 제1조·종합부동산세법 제1조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -48,7 +49,7 @@
       "2025-36-second2-036"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 국세기본법 제2조·소득세법 제1조·종합부동산세법 제1조"
   },
   {
     "id": "tax-card-002",
@@ -59,16 +60,17 @@
     "title": "지방세",
     "subtitle": "지방자치단체가 과세권을 갖는 조세",
     "bullets": [
-      "취득세·등록면허세·재산세·지방소득세 등이 대표적"
+      "지방자치단체가 법령과 조례에 근거하여 부과·징수하는 세금",
+      "취득세·등록면허세·재산세·지방소득세 등을 포함하며 국가가 부과하는 종부세와 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세기본법 제7조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -94,7 +96,7 @@
       "2022-33-second2-026"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 지방세기본법 제7조"
   },
   {
     "id": "tax-card-003",
@@ -105,16 +107,17 @@
     "title": "보통세",
     "subtitle": "조세수입의 용도를 특정하지 않는 조세",
     "bullets": [
-      "목적세와 대비되는 분류"
+      "보통세는 조세수입의 사용목적을 특정하지 않는 일반 재원 조세",
+      "취득세·재산세·등록면허세 등과 목적세인 지방교육세·지역자원시설세를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세기본법 제7조·지방세법 제1조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -122,7 +125,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 지방세기본법 제7조·지방세법 제1조"
   },
   {
     "id": "tax-card-004",
@@ -133,16 +136,17 @@
     "title": "목적세",
     "subtitle": "조세수입을 특정 목적에 사용하도록 정한 조세",
     "bullets": [
-      "지방교육세·지역자원시설세·농어촌특별세 등이 대표적"
+      "목적세는 세수의 사용 목적을 특정하여 부과하는 조세",
+      "지방교육세·지역자원시설세와 국세인 농어촌특별세를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세기본법 제7조·지방세법 제142조·제149조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -150,7 +154,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 지방세기본법 제7조·지방세법 제142조·제149조"
   },
   {
     "id": "tax-card-005",
@@ -161,16 +165,17 @@
     "title": "독립세",
     "subtitle": "다른 조세에 부가되지 않고 독립된 과세대상을 가진 조세",
     "bullets": [
+      "독립세는 다른 조세액에 종속된 부가세(附加稅)와 달리 자체 과세대상·세액계산 체계가 있음",
       "취득세·재산세·종합부동산세·양도소득세 등이 대표적"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제7조·제105조, 종합부동산세법 제7조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -178,7 +183,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 지방세법 제7조·제105조, 종합부동산세법 제7조"
   },
   {
     "id": "tax-card-006",
@@ -189,17 +194,17 @@
     "title": "부가세(附加稅)",
     "subtitle": "독립세에 대비하여 다른 조세에 덧붙여 부과되는 조세",
     "bullets": [
-      "지방교육세·농어촌특별세 등은 다른 조세에 부가해 산정하는 유형이 있음",
-      "일상적으로 부가가치세를 줄여 부르는 '부가세'와는 구별"
+      "조세 분류상의 부가세(附加稅)는 다른 세금의 세액 등에 연동하여 산출하는 세금",
+      "지방교육세·농어촌특별세의 해당 유형을 부가가치세의 일상적 약칭인 '부가세'와 혼동하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "2026-10-08: 조세 분류상의 부가세(附加稅)와 부가가치세의 일상적 약칭을 구별. 출처: 요약집 p1.",
+    "sourceRef": "국가법령정보센터 지방세법 제151조·농어촌특별세법 제5조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -207,7 +212,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 지방세법 제151조·농어촌특별세법 제5조"
   },
   {
     "id": "tax-card-007",
@@ -218,16 +223,17 @@
     "title": "인세",
     "subtitle": "납세의무자의 인적 사정과 담세력을 고려하는 조세",
     "bullets": [
-      "소득세·종합부동산세 등에서 인적 요소가 반영될 수 있음"
+      "인세는 납세자의 소득·가족관계·보유기간 등 인적 사정을 세부담 계산에 반영하는 분류",
+      "소득세의 인적공제와 종부세 1세대 1주택자 공제·세액공제 등을 예로 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제55조·종합부동산세법 제8조·제9조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -235,7 +241,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 소득세법 제55조·종합부동산세법 제8조·제9조"
   },
   {
     "id": "tax-card-008",
@@ -246,16 +252,17 @@
     "title": "물세",
     "subtitle": "재산·거래 등 물적 사실을 중심으로 과세하는 조세",
     "bullets": [
-      "취득세·등록면허세·재산세 등이 대표적"
+      "물세는 과세물건·재산·거래의 객관적 사실을 중심으로 세액을 산정하는 분류",
+      "취득세·등록면허세·재산세 등이 대표적이나 개별 세목에도 납세자별 특례가 존재"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제7조·제105조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -263,7 +270,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 지방세법 제7조·제105조"
   },
   {
     "id": "tax-card-009",
@@ -274,16 +281,17 @@
     "title": "직접세",
     "subtitle": "납세의무자와 실질적인 담세자가 원칙적으로 일치하는 조세",
     "bullets": [
-      "소득세·재산세·취득세 등이 대표적"
+      "직접세는 법률상 납세의무자와 경제적 세부담자가 원칙적으로 일치하는 조세",
+      "소득세·재산세·취득세 등을 예로 들되 실제 세부담 전가는 거래에 따라 달라질 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제1조·지방세법 제107조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -291,7 +299,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 소득세법 제1조·지방세법 제107조"
   },
   {
     "id": "tax-card-010",
@@ -302,16 +310,17 @@
     "title": "간접세",
     "subtitle": "세 부담이 거래 상대방에게 전가될 수 있는 조세",
     "bullets": [
-      "부가가치세·인지세 등이 대표적"
+      "간접세는 거래가격 등에 조세가 전가될 수 있어 납세의무자와 실질 부담자가 달라질 수 있는 조세",
+      "부가가치세를 대표 예시로 하며 조세법상 납세의무자와 경제적 부담자를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 부가가치세법 제3조·제4조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -319,7 +328,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p1 · 조세총론·분류"
+    "sourceLabel": "국가법령정보센터 부가가치세법 제3조·제4조"
   },
   {
     "id": "tax-card-011",
@@ -456,16 +465,17 @@
     "title": "보통징수",
     "subtitle": "지방자치단체가 납세고지서를 발급하여 지방세를 징수하는 방식",
     "bullets": [
-      "재산세의 기본 징수방식"
+      "보통징수는 지방자치단체가 납세고지서를 발급해 납부하도록 하는 징수방법",
+      "재산세는 지방자치단체가 결정·고지하여 징수하는 방식이 원칙"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세기본법 제2조·지방세법 제116조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -480,7 +490,7 @@
       "2023-34-second2-032"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·징수"
+    "sourceLabel": "국가법령정보센터 지방세기본법 제2조·지방세법 제116조"
   },
   {
     "id": "tax-card-016",
@@ -491,16 +501,17 @@
     "title": "납세의무 소멸",
     "subtitle": "성립·확정된 납세의무가 없어지는 것",
     "bullets": [
-      "납부·충당·부과취소·부과제척기간 만료·징수권 소멸시효 완성 등이 핵심"
+      "조세채무는 납부·충당·부과취소 등 법정 사유로 소멸할 수 있음",
+      "부과제척기간은 부과권의 기간 제한, 소멸시효는 확정된 세액의 징수권 제한이므로 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 3,
     "sourceSection": "조세총론·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세기본법 제37조·제38조·제39조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -508,7 +519,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p3 · 조세총론·납세의무"
+    "sourceLabel": "국가법령정보센터 지방세기본법 제37조·제38조·제39조"
   },
   {
     "id": "tax-card-017",
@@ -1285,16 +1296,17 @@
     "title": "취득당시가액",
     "subtitle": "취득세 과세표준 산정의 기준이 되는 취득 당시 가액",
     "bullets": [
-      "현행 지방세법 제10조의 기본 개념"
+      "취득당시가액은 취득세 과세표준을 정할 때 출발점이 되는 취득 당시의 재산가액",
+      "취득원인에 따라 무상취득 제10조의2, 유상승계 제10조의3, 원시취득 제10조의4 등의 개별 산정규정을 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·과세표준",
-    "sourceRef": "국가법령정보센터 「지방세법」 제10조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제10조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "exam",
       "essential"
@@ -1309,7 +1321,7 @@
       "2024-35-2-2-029"
     ],
     "importance": 3,
-    "sourceLabel": "국가법령정보센터 「지방세법」 제10조"
+    "sourceLabel": "국가법령정보센터 지방세법 제10조"
   },
   {
     "id": "tax-card-041",
@@ -1404,16 +1416,17 @@
     "title": "원시취득 과세표준",
     "subtitle": "건축·매립 등 원시취득에 적용하는 과세표준",
     "bullets": [
-      "사실상 취득가격 등 현행 법정 기준으로 산정"
+      "건축·매립 등 원시취득은 법정 방법으로 산정한 사실상 취득가격을 과세표준으로 함",
+      "취득을 위한 직접·간접비용의 포함·제외 여부와 취득가격을 확인할 수 없는 경우의 별도 기준을 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·과세표준",
-    "sourceRef": "국가법령정보센터 「지방세법」 제10조의4",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제10조의4",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "essential"
     ],
@@ -1421,7 +1434,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「지방세법」 제10조의4"
+    "sourceLabel": "국가법령정보센터 지방세법 제10조의4"
   },
   {
     "id": "tax-card-045",
@@ -1432,7 +1445,9 @@
     "title": "시가표준액",
     "subtitle": "지방세 과세를 위해 법정 기준에 따라 정한 재산가액",
     "bullets": [
-      "토지·주택은 공시가격, 기타 건축물 등은 법정 기준으로 산정"
+      "시가표준액은 지방세 과세를 위해 법정 방법으로 산정하는 표준가액",
+      "토지·주택은 법정 공시가격 등을 활용하고 기타 건축물 등은 종류·용도별 산정 기준을 적용",
+      "취득세 무상취득의 시가인정액과 시가표준액은 서로 다른 개념"
     ],
     "formula": "",
     "visual": "none",
@@ -1440,8 +1455,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 5,
     "sourceSection": "취득세·과세표준",
-    "sourceRef": "4.공인중개사요약_세법.pdf p5 + 국가법령정보센터 「지방세법 시행령」 제2조 등",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제4조·제10조의2",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -1463,7 +1478,7 @@
       "2025-36-second2-032"
     ],
     "importance": 4,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p5 + 국가법령정보센터 「지방세법 시행령」 제2조 등"
+    "sourceLabel": "국가법령정보센터 지방세법 제4조·제10조의2"
   },
   {
     "id": "tax-card-046",
@@ -1687,16 +1702,18 @@
     "title": "고급주택",
     "subtitle": "면적·가액·시설 등 법정 요건을 충족하는 고급 주거용 건축물",
     "bullets": [
-      "사치성 재산에 해당하면 취득세가 중과"
+      "고급주택은 건물·부속토지의 면적·가액 및 시설 등 법정 요건을 충족하는 주택",
+      "요건을 충족한 고급주택 취득에는 법 제13조제5항의 중과세율 적용",
+      "과거 별장 중과 제도와 혼동하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제13조제5항·지방세법 시행령 제28조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -1704,7 +1721,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·중과세"
+    "sourceLabel": "국가법령정보센터 지방세법 제13조제5항·지방세법 시행령 제28조"
   },
   {
     "id": "tax-card-054",
@@ -1715,16 +1732,18 @@
     "title": "고급오락장",
     "subtitle": "도박장·유흥주점 등 법정 고급오락 용도의 부동산",
     "bullets": [
-      "토지와 건축물의 중과 여부를 확인"
+      "고급오락장은 대통령령으로 정하는 도박장·유흥주점 등 고급오락 용도의 장소",
+      "법정 요건에 해당하는 토지와 건축물의 취득은 중과세율 적용 대상",
+      "용도·시설·영업허가 등의 구체적 요건을 단순 일반 음식점과 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제13조제5항·지방세법 시행령 제28조",
+    "sourceNote": "2026-10-08: 법령 분류·정의 관련 핵심 주장 대조. 법령 적용 예외는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -1737,7 +1756,7 @@
       "2023-34-second2-031"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·중과세"
+    "sourceLabel": "국가법령정보센터 지방세법 제13조제5항·지방세법 시행령 제28조"
   },
   {
     "id": "tax-card-055",
@@ -2332,16 +2351,17 @@
     "title": "재산세",
     "subtitle": "토지·건축물·주택·선박·항공기 보유에 부과하는 지방세",
     "bullets": [
-      "매년 과세기준일 현재 보유상태를 기준으로 과세"
+      "재산세는 보유 중인 토지·건축물·주택·선박·항공기 등 법정 재산에 매년 과세",
+      "납세의무는 과세기준일 현재 사실상 소유자를 원칙으로 하되 법정 특례 존재"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제104조·제105조·제107조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -2367,7 +2387,7 @@
       "2023-34-second2-031"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·총칙"
+    "sourceLabel": "국가법령정보센터 지방세법 제104조·제105조·제107조"
   },
   {
     "id": "tax-card-075",
@@ -2378,7 +2398,8 @@
     "title": "재산세 과세기준일",
     "subtitle": "재산세 납세의무자를 판단하는 기준일",
     "bullets": [
-      "매년 6월 1일 현재 사실상 소유자를 중심으로 판단"
+      "재산세 과세기준일은 매년 6월 1일",
+      "원칙적으로 그날 사실상 소유한 자가 납세의무자이며 매매 잔금·소유권 이전 시점과 구분"
     ],
     "formula": "",
     "visual": "none",
@@ -2386,8 +2407,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·총칙",
-    "sourceRef": "4.공인중개사요약_세법.pdf p9 + 국가법령정보센터 「지방세법」 재산세 과세기준일 관련 조문",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제114조·제107조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -2406,7 +2427,7 @@
       "2025-36-second2-029"
     ],
     "importance": 3,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p9 + 국가법령정보센터 「지방세법」 재산세 과세기준일 관련 조문"
+    "sourceLabel": "국가법령정보센터 지방세법 제114조·제107조"
   },
   {
     "id": "tax-card-076",
@@ -2417,16 +2438,18 @@
     "title": "재산세 납세의무자",
     "subtitle": "과세기준일 현재 재산의 사실상 소유자",
     "bullets": [
-      "공부상 소유자·사용자·주된 상속자 등 법정 예외를 구별"
+      "과세기준일 현재 재산을 사실상 소유한 자가 원칙적으로 납부",
+      "공유재산은 지분권자별, 주택 건물과 부속토지 소유자가 다르면 시가표준액 비율로 안분",
+      "소유자 불명·상속 미등기·신탁 등 법정 예외를 별도로 판단"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제107조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2434,7 +2457,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·납세의무"
+    "sourceLabel": "국가법령정보센터 지방세법 제107조"
   },
   {
     "id": "tax-card-077",
@@ -2445,16 +2468,17 @@
     "title": "사실상 소유자",
     "subtitle": "실질적으로 재산을 소유하는 자로 재산세 납세의무의 원칙적 주체",
     "bullets": [
-      "공부상 명의와 실제 소유가 다를 때 법정 요건에 따라 판단"
+      "공부 명의자와 실제 소유자가 달라도 과세기준일 현재 사실상 소유자가 원칙적 납세의무자",
+      "사실상 소유자를 알 수 없는 미신고 소유권 변동·상속 미등기 등에는 공부상 명의자나 주된 상속자 등의 특례 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제107조제1항·제2항",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2462,7 +2486,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·납세의무"
+    "sourceLabel": "국가법령정보센터 지방세법 제107조제1항·제2항"
   },
   {
     "id": "tax-card-078",
@@ -2473,16 +2497,17 @@
     "title": "재산세 과세대상",
     "subtitle": "토지·건축물·주택·선박·항공기",
     "bullets": [
-      "토지와 건축물, 주택은 과세구분 방식이 다름"
+      "토지·건축물·주택·선박·항공기가 기본 과세대상",
+      "토지는 종합합산·별도합산·분리과세로 구분하며 주택과 주택부속토지는 원칙적으로 주택분으로 과세"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제105조·제106조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -2501,7 +2526,7 @@
       "2025-36-second2-029"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·총칙"
+    "sourceLabel": "국가법령정보센터 지방세법 제105조·제106조"
   },
   {
     "id": "tax-card-079",
@@ -2512,16 +2537,18 @@
     "title": "주택의 재산세 판정",
     "subtitle": "주거와 비주거가 혼합된 건물 등을 주택으로 볼지 판단하는 기준",
     "bullets": [
-      "주거용 면적과 건물 구조·부속토지 기준을 함께 확인"
+      "주택은 주거용 건축물과 그 부속토지를 주택분 과세단위로 판단",
+      "건축물 일부가 주거용일 때에는 법정 겸용주택의 주택 부분과 기타 부분을 구분",
+      "상가·주택 겸용은 주거용 면적 및 부속토지 안분 기준 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제104조·제106조제2항",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2529,7 +2556,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·과세대상"
+    "sourceLabel": "국가법령정보센터 지방세법 제104조·제106조제2항"
   },
   {
     "id": "tax-card-080",
@@ -2540,16 +2567,17 @@
     "title": "재산세 시가표준액",
     "subtitle": "재산세 과세표준 산정의 출발점이 되는 법정 평가가액",
     "bullets": [
-      "토지·주택의 공시가격과 기타 재산의 시가표준액을 사용"
+      "재산세 과세표준은 시가표준액에 법정 공정시장가액비율을 곱하여 산정",
+      "토지·주택의 공시가격과 기타 건축물·선박·항공기의 시가표준액 산정 기준을 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·과세표준",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제4조·제110조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2557,7 +2585,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·과세표준"
+    "sourceLabel": "국가법령정보센터 지방세법 제4조·제110조"
   },
   {
     "id": "tax-card-081",
@@ -2626,16 +2654,18 @@
     "title": "종합합산과세 토지",
     "subtitle": "별도합산·분리과세가 아닌 일반 토지를 합산하여 과세하는 토지분",
     "bullets": [
-      "나대지·일반 잡종지 등이 대표적"
+      "종합합산과세 토지는 원칙적으로 별도합산·분리과세가 아닌 과세대상 토지",
+      "나대지·일반 잡종지 등이 대표 예시지만 용도·법정 예외에 따라 다른 구분 가능",
+      "소유자별 해당 지방자치단체 관할 토지 과세표준을 합산하여 누진세율 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 10,
     "sourceSection": "재산세·토지과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제106조제1항제1호",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2643,7 +2673,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p10 · 재산세·토지과세"
+    "sourceLabel": "국가법령정보센터 지방세법 제106조제1항제1호"
   },
   {
     "id": "tax-card-084",
@@ -2654,16 +2684,18 @@
     "title": "별도합산과세 토지",
     "subtitle": "사업용 건축물 부속토지 등 법정 토지를 별도로 합산하는 토지분",
     "bullets": [
-      "종합합산보다 사업용 성격을 고려한 세율체계를 적용"
+      "공장용 건축물 등의 법정 건축물 부속토지와 차고·보세창고·물류시설 등 특정 사업용 토지는 별도합산",
+      "철거·멸실 건축물 부속토지도 대통령령의 법정 조건에서 포함",
+      "면적·용도·이용상태를 확인하고 모든 사업용 토지를 일괄 별도합산하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 10,
     "sourceSection": "재산세·토지과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제106조제1항제2호",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2671,7 +2703,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p10 · 재산세·토지과세"
+    "sourceLabel": "국가법령정보센터 지방세법 제106조제1항제2호"
   },
   {
     "id": "tax-card-085",
@@ -2682,16 +2714,18 @@
     "title": "분리과세 토지",
     "subtitle": "법정 토지를 다른 토지와 합산하지 않고 개별적으로 과세하는 토지분",
     "bullets": [
-      "농지 등 저율분리·골프장 등 고율분리·사업용 분리과세를 구별"
+      "법정 농지·임야 등 보호·지원 토지와 골프장·고급오락장 용지 등 중과 토지를 분리과세",
+      "일정 농지·임야는 0.07%, 골프장·고급오락장 용지는 4%, 그 밖의 분리과세 토지는 원칙 0.2%",
+      "분리과세 여부는 용도뿐 아니라 대통령령상 지역·소유·이용요건 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·토지과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제106조제1항제3호·제111조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2699,7 +2733,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·토지과세"
+    "sourceLabel": "국가법령정보센터 지방세법 제106조제1항제3호·제111조"
   },
   {
     "id": "tax-card-086",
@@ -2710,16 +2744,18 @@
     "title": "주택분 재산세",
     "subtitle": "주택과 그 부속토지를 하나의 과세대상으로 보아 부과하는 재산세",
     "bullets": [
-      "주택별 과세표준에 누진세율을 적용"
+      "일반 주택분 재산세는 과세표준에 법정 4단계 누진세율을 적용",
+      "시가표준액 9억원 이하 법정 1세대 1주택은 2026년까지 경감 세율특례 적용 가능",
+      "취득세의 6억·9억원 취득가액 구간과 재산세 시가표준액 9억원 구분은 다름"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제111조제1항제3호·제111조의2",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -2732,7 +2768,7 @@
       "2022-33-second2-029"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·세율"
+    "sourceLabel": "국가법령정보센터 지방세법 제111조제1항제3호·제111조의2"
   },
   {
     "id": "tax-card-087",
@@ -2743,16 +2779,18 @@
     "title": "건축물분 재산세",
     "subtitle": "주택 외 건축물에 부과하는 재산세",
     "bullets": [
-      "골프장·고급오락장·공장용 건축물 등 유형별 세율을 구별"
+      "일반 건축물 재산세 표준세율은 과세표준의 0.25%",
+      "법정 골프장·고급오락장용 건축물은 4%, 법정 지역의 특정 공장용 건축물은 0.5%",
+      "토지분·주택분과 달리 건축물 자체에 대한 세율을 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 10,
     "sourceSection": "재산세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제111조제1항제2호",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2760,7 +2798,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p10 · 재산세·세율"
+    "sourceLabel": "국가법령정보센터 지방세법 제111조제1항제2호"
   },
   {
     "id": "tax-card-088",
@@ -2771,16 +2809,18 @@
     "title": "재산세 도시지역분",
     "subtitle": "도시지역 내 일정 토지·건축물·주택에 추가로 부과되는 재산세액",
     "bullets": [
-      "일반 재산세와 함께 고지될 수 있음"
+      "지방의회 의결·고시를 거친 재산세 도시지역분 적용대상 지역의 토지·건축물·주택 등에 적용",
+      "해당 과세표준에 0.14%(1천분의 1.4)를 곱한 도시지역분을 일반 재산세액에 합산할 수 있음",
+      "모든 도시지역 부동산에 무조건 적용하는 것은 아니며 고시·조례 등 법정 조건 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 10,
     "sourceSection": "재산세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제112조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -2793,7 +2833,7 @@
       "2021-32-second2-028"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p10 · 재산세·세율"
+    "sourceLabel": "국가법령정보센터 지방세법 제112조"
   },
   {
     "id": "tax-card-089",
@@ -2804,16 +2844,18 @@
     "title": "재산세 비과세",
     "subtitle": "국가 소유 재산·공용재산 등 법정 과세제외",
     "bullets": [
-      "유료사용 여부 등 비과세 배제사유를 함께 확인"
+      "국가·지방자치단체 등 소유 재산, 국가 등의 공용·공공용 사용 재산 등에 법정 비과세",
+      "외국정부 상호주의·유료사용·수익사업·목적외 사용 등 비과세 배제사유 존재",
+      "법정 비과세와 지방세특례제한법상 감면은 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·비과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제109조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2821,7 +2863,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·비과세"
+    "sourceLabel": "국가법령정보센터 지방세법 제109조"
   },
   {
     "id": "tax-card-090",
@@ -2862,16 +2904,18 @@
     "title": "재산세 보통징수",
     "subtitle": "과세관청이 납세고지서를 발급해 재산세를 징수하는 방식",
     "bullets": [
-      "신고납부세목인 취득세와 대비"
+      "재산세는 지방자치단체가 과세표준·세액을 결정해 고지·징수하는 보통징수 방식",
+      "납세의무자가 취득일부터 스스로 신고납부하는 취득세와 구분",
+      "주택분·토지분·건축물분별 법정 납기를 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제116조·제115조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -2879,7 +2923,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부과징수"
+    "sourceLabel": "국가법령정보센터 지방세법 제116조·제115조"
   },
   {
     "id": "tax-card-092",
@@ -2983,16 +3027,18 @@
     "title": "재산세 지방교육세",
     "subtitle": "재산세액에 부가되는 지방교육세",
     "bullets": [
-      "재산세와 연계해 부과되는 목적세"
+      "재산세분 지방교육세는 원칙적으로 해당 재산세액의 20%",
+      "재산세 도시지역분 관련 법정 제외세액은 지방교육세 과세표준에서 제외",
+      "국세인 농어촌특별세·별도 목적세인 지역자원시설세와 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부가세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제151조제1항제6호",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3000,7 +3046,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부가세"
+    "sourceLabel": "국가법령정보센터 지방세법 제151조제1항제6호"
   },
   {
     "id": "tax-card-096",
@@ -3011,16 +3057,18 @@
     "title": "지역자원시설세 병기",
     "subtitle": "특정 부동산 재산세 고지서에 지역자원시설세를 함께 적어 고지하는 방식",
     "bullets": [
-      "재산세 자체와 별도의 지방세라는 점을 구별"
+      "지역자원시설세는 특정 자원·시설 등에 부과하는 별도의 지방 목적세",
+      "법정 특정부동산분 지역자원시설세가 재산세 고지서에 함께 나타날 수 있음",
+      "같은 고지서의 세금이라도 재산세 자체의 세율이나 과세표준에 합산하여 혼동하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부가세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제142조·제146조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3028,7 +3076,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부가세"
+    "sourceLabel": "국가법령정보센터 지방세법 제142조·제146조"
   },
   {
     "id": "tax-card-097",
@@ -3039,16 +3087,17 @@
     "title": "공부와 사실현황 과세",
     "subtitle": "공부상 등재와 실제 현황이 다를 때 재산세 과세대상을 판단하는 원칙",
     "bullets": [
-      "원칙적으로 사실상 현황을 기준으로 하되 법정 예외를 확인"
+      "재산세 과세대상 물건의 현황은 과세기준일의 사실상 이용상태를 기준으로 판정하는 것이 원칙",
+      "공부상 용도와 실제 사용현황이 다르면 법령상 사실현황 과세규정과 예외 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 9,
     "sourceSection": "재산세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 지방세법 제106조·지방세법 시행령 제119조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3056,7 +3105,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p9 · 재산세·과세대상"
+    "sourceLabel": "국가법령정보센터 지방세법 제106조·지방세법 시행령 제119조"
   },
   {
     "id": "tax-card-098",
@@ -3067,16 +3116,18 @@
     "title": "종합부동산세",
     "subtitle": "고액 부동산 보유자에게 부과하는 국세",
     "bullets": [
-      "주택분과 토지분으로 구분하고 재산세와 과세체계를 연계"
+      "종합부동산세는 주택과 종합합산·별도합산 대상 토지에 국가가 부과하는 국세",
+      "같은 재산에 부과된 재산세액을 법정 방식으로 공제하여 이중과세를 조정",
+      "분리과세 대상 토지는 종부세 토지분 과세에서 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "종합부동산세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제7조·제12조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -3102,7 +3153,7 @@
       "2024-35-2-2-027"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p11 · 종합부동산세·총칙"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제7조·제12조"
   },
   {
     "id": "tax-card-099",
@@ -3113,16 +3164,18 @@
     "title": "종부세 과세기준일",
     "subtitle": "종합부동산세 납세의무자를 판단하는 기준일",
     "bullets": [
-      "재산세와 동일하게 매년 6월 1일"
+      "종부세 과세기준일은 매년 6월 1일로 재산세와 동일",
+      "과세기준일 현재 부동산 보유 및 법정 납세의무 요건을 판단",
+      "납부기간인 12월 1~15일과 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "종합부동산세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제3조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3130,7 +3183,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 종합부동산세·총칙"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제3조"
   },
   {
     "id": "tax-card-100",
@@ -3141,16 +3194,18 @@
     "title": "주택분 종부세",
     "subtitle": "일정 기준을 넘는 주택 공시가격 합계에 부과하는 종합부동산세",
     "bullets": [
-      "납세의무자별 전국 주택 공시가격을 합산해 과세표준을 계산"
+      "주택분 재산세 납세의무자가 주택분 종부세 과세대상 납세의무자",
+      "전국 보유 주택 공시가격 합산 후 법정 공제액과 공정시장가액비율을 적용",
+      "합산배제주택 및 1세대 1주택 특례 적용 여부를 따로 판단"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 12,
     "sourceSection": "종합부동산세·주택",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제7조·제8조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3158,7 +3213,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p12 · 종합부동산세·주택"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제7조·제8조"
   },
   {
     "id": "tax-card-101",
@@ -3169,16 +3224,18 @@
     "title": "종부세 1세대 1주택자",
     "subtitle": "대통령령 요건을 충족한 1세대 1주택 소유자",
     "bullets": [
-      "과세표준 공제와 세액공제 등에서 별도 규정이 적용"
+      "1세대 1주택자 요건에 맞으면 주택분 공제액 12억원(일반 9억원) 등을 적용",
+      "고령자·장기보유 공제 및 일시적 2주택·상속주택 등 주택 수 제외특례는 각각 별도 요건",
+      "2026년 10월 시행령 개정으로 일부 일시적 2주택 요건이 달라져 취득시점·조정지역 여부 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 12,
     "sourceSection": "종합부동산세·주택",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제8조·제9조·종합부동산세법 시행령 제2조의3·제4조의2",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3186,7 +3243,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p12 · 종합부동산세·주택"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제8조·제9조·종합부동산세법 시행령 제2조의3·제4조의2"
   },
   {
     "id": "tax-card-102",
@@ -3255,16 +3312,18 @@
     "title": "종부세 합산배제주택",
     "subtitle": "법정 요건을 충족해 주택분 종부세 합산대상에서 제외되는 주택",
     "bullets": [
-      "임대주택·사원용주택 등 법정 유형과 신고요건을 확인"
+      "법정 요건의 일정 임대주택·사원용주택 등을 주택분 공시가격 합산에서 배제",
+      "등록·임대기간·면적·가액·합산배제 신고 등 유형별 요건을 충족해야 함",
+      "임대주택이면 무조건 합산배제되는 것은 아니며 사후 추징 규정도 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 12,
     "sourceSection": "종합부동산세·주택",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제8조제2항·종합부동산세법 시행령 제3조·제4조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3272,7 +3331,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p12 · 종합부동산세·주택"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제8조제2항·종합부동산세법 시행령 제3조·제4조"
   },
   {
     "id": "tax-card-105",
@@ -3283,16 +3342,17 @@
     "title": "주택분 재산세액 공제",
     "subtitle": "종부세 과세대상 주택에 이미 부과된 재산세 상당액을 종부세에서 공제하는 제도",
     "bullets": [
-      "이중과세 조정을 위한 장치"
+      "주택분 종부세 산출세액에서 해당 과세대상 주택의 재산세액 중 법정 공제액을 차감",
+      "재산세액 공제는 동일 과세표준에 대한 이중과세 조정으로, 납부한 재산세 전액 공제와 다름"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 12,
     "sourceSection": "종합부동산세·주택",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제9조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3300,7 +3360,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p12 · 종합부동산세·주택"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제9조"
   },
   {
     "id": "tax-card-106",
@@ -3453,16 +3513,17 @@
     "title": "토지분 재산세액 공제",
     "subtitle": "종부세 과세대상 토지에 이미 부과된 재산세 상당액을 공제하는 제도",
     "bullets": [
-      "주택분과 마찬가지로 이중과세를 조정"
+      "종합합산·별도합산 토지분 종부세는 해당 토지에 부과된 재산세액을 법정 산식으로 공제",
+      "토지분 재산세 전액을 무조건 공제하지 않으며 중복 과세표준 상당액을 조정"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "종합부동산세·토지",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제14조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3470,7 +3531,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 종합부동산세·토지"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제14조"
   },
   {
     "id": "tax-card-112",
@@ -3627,16 +3688,18 @@
     "title": "신탁재산 종부세",
     "subtitle": "신탁부동산의 종부세 납세의무와 수탁자 물적납세의무에 관한 제도",
     "bullets": [
-      "위탁자의 종부세 체납 시 법정 요건에서 수탁자가 신탁재산으로 납부할 의무를 질 수 있음"
+      "신탁재산의 종부세 납세의무자는 원칙적으로 위탁자와 관련된 법정 규정을 따름",
+      "위탁자가 종부세 등을 체납하면 수탁자는 법률이 정한 한도·절차에서 신탁재산으로 물적 납세의무를 질 수 있음",
+      "재산세 신탁 납세의무 관련 규정과 별도로 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 0,
     "sourceSection": "종합부동산세·신탁",
-    "sourceRef": "국가법령정보센터 「종합부동산세법」 제12조의2 등",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 종합부동산세법 제7조·제12조·제17조",
+    "sourceNote": "2026-10-08 현행 재산세·종부세 규정 핵심 주장 대조. 법적 예외는 조문 원문 우선.",
     "basis": [
       "essential"
     ],
@@ -3644,7 +3707,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「종합부동산세법」 제12조의2 등"
+    "sourceLabel": "국가법령정보센터 종합부동산세법 제7조·제12조·제17조"
   },
   {
     "id": "tax-card-118",
@@ -3655,16 +3718,17 @@
     "title": "소득세",
     "subtitle": "개인의 소득에 부과하는 국세",
     "bullets": [
-      "거주자는 원칙적으로 국내외 소득, 비거주자는 국내원천소득에 과세"
+      "소득세는 개인의 법정 소득에 부과되는 국세로 종합소득·퇴직소득·양도소득 등을 구분",
+      "거주자는 원칙적으로 국내외 과세소득, 비거주자는 국내원천소득에 대해 법정 범위에서 납세의무"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "소득세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제1조·제3조·제4조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -3690,7 +3754,7 @@
       "2022-33-second2-033"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p13 · 소득세·총칙"
+    "sourceLabel": "국가법령정보센터 소득세법 제1조·제3조·제4조"
   },
   {
     "id": "tax-card-119",
@@ -3701,16 +3765,18 @@
     "title": "거주자",
     "subtitle": "국내에 주소를 두거나 법정 기간 이상 거소를 둔 개인",
     "bullets": [
-      "소득세법상 무제한 납세의무가 원칙"
+      "거주자는 국내에 주소를 두거나 183일 이상 거소를 둔 개인",
+      "주소는 국내 가족·자산·직업 등 객관적 생활관계로 판단",
+      "거주자는 원칙적으로 국내외 과세소득에 대한 납세의무를 부담"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제1조의2·소득세법 시행령 제2조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -3736,7 +3802,7 @@
       "2022-33-second2-034"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·납세의무"
+    "sourceLabel": "국가법령정보센터 소득세법 제1조의2·소득세법 시행령 제2조"
   },
   {
     "id": "tax-card-120",
@@ -3747,16 +3813,18 @@
     "title": "비거주자",
     "subtitle": "거주자가 아닌 개인으로 국내원천소득이 있는 자",
     "bullets": [
-      "국내원천소득에 한해 제한적으로 납세의무"
+      "비거주자는 소득세법상 거주자에 해당하지 않는 개인",
+      "국내원천소득에 한하여 법정 과세 및 원천징수규정이 적용될 수 있음",
+      "비거주자의 국내 부동산 양도와 사업소득에는 별도 납세지·신고 규정 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·납세의무",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제1조의2·제3조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3764,7 +3832,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·납세의무"
+    "sourceLabel": "국가법령정보센터 소득세법 제1조의2·제3조"
   },
   {
     "id": "tax-card-121",
@@ -3775,16 +3843,17 @@
     "title": "소득세 과세기간",
     "subtitle": "소득세를 계산하는 기본 기간",
     "bullets": [
-      "원칙적으로 1월 1일부터 12월 31일까지"
+      "거주자 소득세의 과세기간은 원칙적으로 매년 1월 1일~12월 31일",
+      "거주자가 사망하거나 출국해 비거주자가 되는 경우에는 법정 특수 과세기간을 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·과세기간",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제5조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3792,7 +3861,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·과세기간"
+    "sourceLabel": "국가법령정보센터 소득세법 제5조"
   },
   {
     "id": "tax-card-122",
@@ -3803,16 +3872,18 @@
     "title": "소득세 납세지",
     "subtitle": "소득세를 신고·납부할 관할 세무서를 정하는 기준",
     "bullets": [
-      "거주자는 원칙적으로 주소지, 비거주자는 국내사업장 등 법정 기준"
+      "거주자의 소득세 납세지는 원칙적으로 주소지, 주소지가 없다면 거소지",
+      "비거주자는 국내사업장 소재지 등 법정 기준에 따름",
+      "양도소득세의 별도 납세지 규정도 함께 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·납세지",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제6조·제7조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3820,7 +3891,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·납세지"
+    "sourceLabel": "국가법령정보센터 소득세법 제6조·제7조"
   },
   {
     "id": "tax-card-123",
@@ -3831,16 +3902,17 @@
     "title": "종합과세",
     "subtitle": "여러 소득을 합산해 하나의 과세표준으로 계산하는 방식",
     "bullets": [
-      "이자·배당·사업·근로·연금·기타소득 등이 대상"
+      "종합소득은 이자·배당·사업·근로·연금·기타소득 중 법정 합산대상 소득을 합해 과세",
+      "분리과세 대상 소득과 분류과세인 퇴직·양도소득은 종합과세와 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "소득세·과세방법",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제4조·제14조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3848,7 +3920,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 소득세·과세방법"
+    "sourceLabel": "국가법령정보센터 소득세법 제4조·제14조"
   },
   {
     "id": "tax-card-124",
@@ -3859,16 +3931,17 @@
     "title": "분류과세",
     "subtitle": "다른 소득과 합산하지 않고 별도의 과세표준으로 계산하는 방식",
     "bullets": [
-      "퇴직소득과 양도소득이 대표적"
+      "분류과세는 종합소득과 별도로 퇴직소득·양도소득의 과세표준 및 세액을 각각 계산",
+      "양도소득은 부동산·권리 등 자산별 과세대상·공제·세율 체계가 별도"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "소득세·과세방법",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제4조제1항",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3876,7 +3949,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 소득세·과세방법"
+    "sourceLabel": "국가법령정보센터 소득세법 제4조제1항"
   },
   {
     "id": "tax-card-125",
@@ -3887,16 +3960,18 @@
     "title": "분리과세",
     "subtitle": "일정 소득을 다른 소득과 합산하지 않고 별도 세율로 과세종결하는 방식",
     "bullets": [
-      "법정 금융소득·주택임대소득 등에서 적용될 수 있음"
+      "분리과세는 법이 정한 소득을 다른 종합소득과 합산하지 않고 별도로 과세하는 방식",
+      "일부 금융소득 및 일정 금액 이하 주택임대소득 등은 법정 조건에서 분리과세 가능",
+      "분리과세의 선택 가능 여부·세율·소득종류를 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "소득세·과세방법",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제14조·제64조의2",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -3916,7 +3991,7 @@
       "2025-36-second2-029"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p13 · 소득세·과세방법"
+    "sourceLabel": "국가법령정보센터 소득세법 제14조·제64조의2"
   },
   {
     "id": "tax-card-126",
@@ -3927,16 +4002,17 @@
     "title": "사업소득",
     "subtitle": "사업활동에서 발생하는 소득",
     "bullets": [
-      "부동산임대업·부동산매매업 등에서 발생한 소득이 포함"
+      "사업소득은 사업 활동으로 발생한 법정 소득으로 부동산 임대·매매업 소득 등이 포함될 수 있음",
+      "부동산을 사업으로 매매한 소득과 일반 자산 양도로 발생한 양도소득의 구분은 거래 실태·사업성에 따라 판단"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·사업소득",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제19조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -3956,7 +4032,7 @@
       "2025-36-second2-036"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·사업소득"
+    "sourceLabel": "국가법령정보센터 소득세법 제19조"
   },
   {
     "id": "tax-card-127",
@@ -3967,16 +4043,18 @@
     "title": "부동산임대업 소득",
     "subtitle": "부동산 또는 부동산상의 권리를 대여해 얻는 사업소득",
     "bullets": [
-      "임대료·관리비·간주임대료 등 총수입금액에서 필요경비를 공제"
+      "부동산임대업의 사업소득금액은 총수입금액에서 법정 필요경비를 공제해 계산",
+      "임대료·임차인이 부담한 임대인 비용·보증금에 대한 일정 간주임대료 등을 수입에 포함할 수 있음",
+      "부가가치세 등 다른 세목의 계산규정과 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·부동산임대",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제19조·제24조·제27조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -3984,7 +4062,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·부동산임대"
+    "sourceLabel": "국가법령정보센터 소득세법 제19조·제24조·제27조"
   },
   {
     "id": "tax-card-128",
@@ -3995,16 +4073,18 @@
     "title": "주택임대소득",
     "subtitle": "주택을 임대하여 얻는 사업소득",
     "bullets": [
-      "주택 수·임대수입 규모 등 법정 요건에 따라 과세방법이 달라짐"
+      "국내 1주택자의 주택임대소득은 원칙적으로 비과세하나 기준시가 12억원 초과 또는 국외주택 등 예외",
+      "법정 소규모 주택임대소득의 경우 수입금액 연 2천만원 이하라면 분리과세 선택 가능",
+      "임대주택 수·부부 합산·월세·보증금 등을 함께 판단"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·부동산임대",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제12조제2호나목·제64조의2",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4019,7 +4099,7 @@
       "2024-35-2-2-032"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·부동산임대"
+    "sourceLabel": "국가법령정보센터 소득세법 제12조제2호나목·제64조의2"
   },
   {
     "id": "tax-card-129",
@@ -4030,16 +4110,18 @@
     "title": "간주임대료",
     "subtitle": "보증금 등에서 발생한 것으로 보아 임대수입에 포함하는 금액",
     "bullets": [
-      "법정 주택 수·보증금 요건과 이자율을 적용해 계산"
+      "부동산 임대보증금 등의 간주임대료는 법정 보증금·임대주택 수·면적·기준시가 조건에서 계산",
+      "3주택 이상 보유자는 보증금 합계 3억원 초과분 등을 검토하며, 2026년부터 고가주택(기준시가 12억원 초과) 2주택자의 보증금 등 합계 12억원 초과도 과세대상",
+      "임대보증금 단순 전액에 법정 이율을 그대로 곱하는 방식과 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·부동산임대",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제25조·소득세법 시행령 제53조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4052,7 +4134,7 @@
       "2022-33-second2-036"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·부동산임대"
+    "sourceLabel": "국가법령정보센터 소득세법 제25조·소득세법 시행령 제53조"
   },
   {
     "id": "tax-card-130",
@@ -4063,16 +4145,18 @@
     "title": "선세금",
     "subtitle": "여러 과세기간에 걸친 임대료를 미리 받은 금액",
     "bullets": [
-      "대여기간에 대응하도록 수입금액을 안분"
+      "여러 과세연도에 걸친 부동산 임대의 선세금은 임대기간별 대응 수입으로 안분",
+      "일시에 받은 금액 모두를 받은 해의 임대수입에 귀속시키는 것과 구별",
+      "해약·환급 등 예외적인 수입귀속은 시행령 기준을 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·부동산임대",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제24조·소득세법 시행령 제51조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4080,7 +4164,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·부동산임대"
+    "sourceLabel": "국가법령정보센터 소득세법 제24조·소득세법 시행령 제51조"
   },
   {
     "id": "tax-card-131",
@@ -4091,16 +4175,18 @@
     "title": "부동산임대업 결손금",
     "subtitle": "부동산임대업에서 필요경비가 총수입금액을 초과한 금액",
     "bullets": [
-      "주거용 건물 임대업 여부 등에 따라 다른 종합소득과의 공제범위가 달라짐"
+      "사업소득 결손금의 종합소득 간 공제에는 사업 종류별 제한 존재",
+      "주거용 건물 임대업에서 발생한 결손금과 일반 사업소득 결손금의 다른 소득 통산 가능 범위를 구분",
+      "이월결손금 공제도 법정 기간·순서·세목별 한도를 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 14,
     "sourceSection": "소득세·부동산임대",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제45조",
+    "sourceNote": "2026-10-08 소득세·임대소득 관련 공식법령 핵심 주장 대조. 개별 적용특례는 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4108,7 +4194,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p14 · 소득세·부동산임대"
+    "sourceLabel": "국가법령정보센터 소득세법 제45조"
   },
   {
     "id": "tax-card-132",
@@ -4119,16 +4205,18 @@
     "title": "양도소득세",
     "subtitle": "자산의 양도로 발생한 소득에 부과하는 국세",
     "bullets": [
-      "종합소득과 구분하여 분류과세"
+      "양도소득세는 법에서 열거한 자산의 양도로 발생한 소득에 부과하는 국세",
+      "종합소득과 별도로 과세표준과 세액을 계산하는 분류과세",
+      "비과세·감면·중과 여부는 자산 종류·양도시점 및 요건을 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·총칙",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제4조·제92조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4154,7 +4242,7 @@
       "2022-33-second2-038"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·총칙"
+    "sourceLabel": "국가법령정보센터 소득세법 제4조·제92조"
   },
   {
     "id": "tax-card-133",
@@ -4165,16 +4253,18 @@
     "title": "양도소득세 과세대상",
     "subtitle": "토지·건물·부동산에 관한 권리·주식·기타자산 등 법정 자산",
     "bullets": [
-      "자산 유형별 과세여부를 구별"
+      "토지·건물, 부동산을 취득할 수 있는 권리·지상권·전세권·등기된 부동산임차권 등이 과세대상",
+      "일정 주식·영업권·특정 법인주식 등 기타자산 및 법정 신탁 수익권 등도 포함",
+      "자산을 보유한 것 자체가 아니라 법정 양도에 의한 소득을 과세"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제94조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4193,7 +4283,7 @@
       "2024-35-2-2-037"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·과세대상"
+    "sourceLabel": "국가법령정보센터 소득세법 제94조"
   },
   {
     "id": "tax-card-134",
@@ -4204,16 +4294,17 @@
     "title": "부동산에 관한 권리",
     "subtitle": "지상권·전세권·등기된 부동산임차권 등 양도세 과세대상 권리",
     "bullets": [
-      "부동산 그 자체와 구별되는 권리"
+      "부동산에 관한 권리는 부동산 취득권리, 지상권, 전세권과 등기된 부동산임차권을 포함",
+      "등기되지 않은 일반 임차권은 등기된 임차권과 양도세 과세대상 판단이 다를 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제94조제1항제2호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4221,7 +4312,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·과세대상"
+    "sourceLabel": "국가법령정보센터 소득세법 제94조제1항제2호"
   },
   {
     "id": "tax-card-135",
@@ -4232,16 +4323,17 @@
     "title": "부동산 취득권리",
     "subtitle": "분양권·매매계약상 권리 등 부동산을 취득할 수 있는 권리",
     "bullets": [
-      "계약금만 지급한 상태의 권리 등도 과세대상이 될 수 있음"
+      "부동산을 취득할 수 있는 권리는 완성 전 건축물과 부속토지를 취득하는 권리도 포함",
+      "주택 분양계약상 권리·특정 입주권 등의 양도는 해당 권리의 법적 성격과 세율을 따로 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제94조제1항제2호가목",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4249,7 +4341,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·과세대상"
+    "sourceLabel": "국가법령정보센터 소득세법 제94조제1항제2호가목"
   },
   {
     "id": "tax-card-136",
@@ -4260,16 +4352,18 @@
     "title": "조합원입주권",
     "subtitle": "정비사업 등으로 조합원이 새 주택을 공급받을 수 있는 권리",
     "bullets": [
-      "양도세 과세와 주택 수 계산에서 별도 규정이 적용"
+      "조합원입주권은 정비사업 등의 법정 인가·권리변환에 따라 신축주택 등을 취득할 수 있는 권리",
+      "주택 수 산정·비과세특례·장기보유특별공제는 일반 분양권과 다른 개별 규정 적용",
+      "조합원에게 발생한 입주권과 조합원에게서 매입한 입주권도 공제요건 등을 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제88조·제94조·제95조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4282,7 +4376,7 @@
       "2024-35-2-2-037"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·과세대상"
+    "sourceLabel": "국가법령정보센터 소득세법 제88조·제94조·제95조"
   },
   {
     "id": "tax-card-137",
@@ -4293,16 +4387,18 @@
     "title": "분양권",
     "subtitle": "주택 등 분양계약에 따라 장래 소유권을 취득할 수 있는 권리",
     "bullets": [
-      "현행 세율과 주택 수 규정에서 조합원입주권과 함께 확인"
+      "분양권은 주택공급계약 등으로 주택을 공급받을 수 있는 법정 권리를 의미",
+      "소득세법상 양도소득 과세대상이며 일반 주택보다 높은 별도 양도세율 규정이 있음",
+      "조합원입주권과 분양권은 취득 경위와 비과세·주택 수 규정에서 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제88조·제94조·제104조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4315,7 +4411,7 @@
       "2023-34-second2-037"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·과세대상"
+    "sourceLabel": "국가법령정보센터 소득세법 제88조·제94조·제104조"
   },
   {
     "id": "tax-card-138",
@@ -4326,16 +4422,18 @@
     "title": "기타자산",
     "subtitle": "사업용 고정자산과 함께 양도하는 영업권·특정시설물이용권 등 법정 자산",
     "bullets": [
-      "부동산 관련성이 큰 특정 주식 등도 포함될 수 있음"
+      "기타자산에는 사업용 부동산과 함께 양도하는 영업권, 골프·콘도 시설물 이용권 등이 포함",
+      "부동산 비중이 큰 법인의 과점주주가 법정 수량 이상의 주식을 양도하는 경우 등도 포함",
+      "모든 일반 주식의 양도를 기타자산 양도로 보는 것은 아님"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·과세대상",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제94조제1항제4호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4343,7 +4441,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·과세대상"
+    "sourceLabel": "국가법령정보센터 소득세법 제94조제1항제4호"
   },
   {
     "id": "tax-card-139",
@@ -4354,16 +4452,18 @@
     "title": "양도",
     "subtitle": "자산을 유상으로 사실상 이전하는 것",
     "bullets": [
-      "매매·교환·법인 현물출자·대물변제 등이 대표적"
+      "양도는 등기·등록과 관계없이 자산을 유상으로 사실상 이전하는 것을 의미",
+      "매매·교환·법인 현물출자·대물변제 등의 유상 이전이 포함",
+      "무상증여와 채무승계가 있는 부담부증여를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 15,
     "sourceSection": "양도소득세·양도",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제88조제1호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4389,7 +4489,7 @@
       "2022-33-second2-034"
     ],
     "importance": 5,
-    "sourceLabel": "부동산세법 요약집 p15 · 양도소득세·양도"
+    "sourceLabel": "국가법령정보센터 소득세법 제88조제1호"
   },
   {
     "id": "tax-card-140",
@@ -4400,16 +4500,18 @@
     "title": "부담부증여",
     "subtitle": "수증자가 채무를 인수하는 조건의 증여",
     "bullets": [
-      "채무 인수액에 해당하는 부분은 증여자에게 유상양도로 보아 양도세가 과세될 수 있음"
+      "부담부증여는 증여받는 자가 증여자의 채무를 인수하는 방식의 증여",
+      "법정 채무인수액에 해당하는 부분은 원칙적으로 유상양도로 보아 증여자에게 양도소득세 발생",
+      "친족 간 부담부증여에서 채무를 실제로 인수했는지 등에 대한 법정 추정·입증요건 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 19,
     "sourceSection": "양도소득세·양도",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제88조·제96조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4430,7 +4532,7 @@
       "2025-36-second2-035"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p19 · 양도소득세·양도"
+    "sourceLabel": "국가법령정보센터 소득세법 제88조·제96조"
   },
   {
     "id": "tax-card-141",
@@ -4441,16 +4543,18 @@
     "title": "양도로 보지 않는 경우",
     "subtitle": "형식상 이전이 있어도 양도소득세법상 양도로 보지 않는 유형",
     "bullets": [
-      "환지처분·단순 공유물분할·일정 양도담보 등 법정 유형을 구별"
+      "도시개발사업의 일정 환지처분은 원칙적으로 자산의 유상 이전에 해당하지 않는 법정 특례",
+      "공유물 분할로 지분 비율대로 구분된 것과 지분 초과분의 대가 수수는 구별",
+      "양도담보 계약의 법정 요건을 충족하면 양도로 보지 않는 경우가 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·양도",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제88조·소득세법 시행령 제151조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4458,7 +4562,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·양도"
+    "sourceLabel": "국가법령정보센터 소득세법 제88조·소득세법 시행령 제151조"
   },
   {
     "id": "tax-card-142",
@@ -4469,16 +4573,18 @@
     "title": "양도·취득시기",
     "subtitle": "양도소득세 계산에서 취득일과 양도일을 정하는 기준",
     "bullets": [
-      "원칙은 대금청산일이며 법정 예외를 확인"
+      "양도·취득 시기는 원칙적으로 자산 대금을 실제로 청산한 날",
+      "대금청산일 불분명·청산 전 소유권이전 등기·장기할부·자가건설 등은 시행령상 특례",
+      "보유기간 계산을 위해 계약체결일과 취득시기 또는 양도시기를 혼동하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제98조·소득세법 시행령 제162조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4486,7 +4592,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 제98조·소득세법 시행령 제162조"
   },
   {
     "id": "tax-card-143",
@@ -4497,16 +4603,17 @@
     "title": "대금청산일",
     "subtitle": "일반 매매에서 양도·취득시기의 원칙이 되는 날",
     "bullets": [
-      "잔금 약정일이 아니라 실제 대금이 청산된 날이 기준"
+      "양도소득세의 양도·취득시기 원칙은 잔금 약정일이 아닌 실제 대금청산일",
+      "대금청산일이 불분명하거나 청산 전 등기한 경우에는 시행령 제162조 특례가 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제98조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4514,7 +4621,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 제98조"
   },
   {
     "id": "tax-card-144",
@@ -4525,16 +4632,18 @@
     "title": "등기접수일 특례",
     "subtitle": "대금청산일이 불분명하거나 청산 전에 등기한 경우 적용하는 시기",
     "bullets": [
-      "등기·등록 접수일을 양도·취득시기로 보는 법정 예외"
+      "대금청산일이 불분명하면 등기·등록접수일 또는 명의개서일을 적용",
+      "대금청산 전에 소유권이전등기·등록을 마친 경우에도 등기·등록 접수일 등이 취득·양도시기",
+      "등기원인일과 실제 등기접수일을 혼동하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 시행령 제162조제1항제1호·제2호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4542,7 +4651,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 시행령 제162조제1항제1호·제2호"
   },
   {
     "id": "tax-card-145",
@@ -4553,16 +4662,17 @@
     "title": "장기할부 취득시기",
     "subtitle": "장기할부조건 거래의 양도·취득시기",
     "bullets": [
-      "소유권이전등기 접수일·인도일·사용수익일 중 빠른 날 등을 기준"
+      "장기할부조건의 양도·취득시기는 시행령상 등기·등록접수일, 인도일, 사용수익일 중 빠른 날",
+      "장기할부조건에 해당하는지 계약·대금지급 기간 등 법정 요건을 먼저 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 시행령 제162조제1항제3호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4570,7 +4680,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 시행령 제162조제1항제3호"
   },
   {
     "id": "tax-card-146",
@@ -4581,16 +4691,18 @@
     "title": "자가건설 건물 취득시기",
     "subtitle": "자기가 건설한 건축물의 취득시기",
     "bullets": [
-      "원칙적으로 사용승인서 교부일, 그 전에 사용하면 사실상 사용일 등을 기준"
+      "자가건설 건물의 취득시기는 원칙적으로 사용승인서 교부일",
+      "그 전에 사실상 사용 또는 임시사용승인을 받으면 그 해당일 중 빠른 날",
+      "무허가 건축물은 법정 기준에 따라 사실상 사용일을 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 시행령 제162조제1항제4호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4598,7 +4710,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 시행령 제162조제1항제4호"
   },
   {
     "id": "tax-card-147",
@@ -4609,16 +4721,18 @@
     "title": "상속·증여 취득시기",
     "subtitle": "상속·증여로 자산을 취득한 경우의 취득시기",
     "bullets": [
-      "상속개시일과 증여받은 날을 각각 기준"
+      "상속으로 취득한 자산은 원칙적으로 상속개시일이 취득시기",
+      "증여받은 자산은 관련 소득세법 시행령이 정한 증여 취득일을 적용",
+      "증여재산 이월과세는 취득시기의 단순 판정과 별도 규정"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 시행령 제162조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4626,7 +4740,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 시행령 제162조"
   },
   {
     "id": "tax-card-148",
@@ -4637,16 +4751,17 @@
     "title": "경매 취득시기",
     "subtitle": "경매로 부동산을 취득한 경우의 취득시기",
     "bullets": [
-      "원칙적으로 경매대금 완납일"
+      "민사집행법상 경매로 자산을 취득한 때는 원칙적으로 경매대금을 완납한 날을 기준",
+      "매각허가결정일과 대금납부 완료일을 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 16,
     "sourceSection": "양도소득세·시기",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제98조·소득세법 시행령 제162조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4654,7 +4769,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p16 · 양도소득세·시기"
+    "sourceLabel": "국가법령정보센터 소득세법 제98조·소득세법 시행령 제162조"
   },
   {
     "id": "tax-card-149",
@@ -4665,7 +4780,9 @@
     "title": "양도소득 계산구조",
     "subtitle": "양도가액에서 필요경비·공제액을 차감해 과세표준을 구하는 순서",
     "bullets": [
-      "양도차익 → 장기보유특별공제 → 양도소득금액 → 기본공제 → 과세표준"
+      "양도차익 = 양도가액 - 취득가액 - 자본적 지출액 등 법정 필요경비",
+      "양도소득금액 = 양도차익 - 장기보유특별공제액(적용 대상만)",
+      "양도소득과세표준 = 양도소득금액 - 양도소득 기본공제액(적용 대상만)"
     ],
     "formula": "",
     "visual": "none",
@@ -4673,8 +4790,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "4.공인중개사요약_세법.pdf p17 + 국가법령정보센터 「소득세법」 제92조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제92조·제95조·제103조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4682,7 +4799,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p17 + 국가법령정보센터 「소득세법」 제92조"
+    "sourceLabel": "국가법령정보센터 소득세법 제92조·제95조·제103조"
   },
   {
     "id": "tax-card-150",
@@ -4693,16 +4810,17 @@
     "title": "양도가액",
     "subtitle": "자산 양도로 받은 대가로서 양도차익 계산의 출발점",
     "bullets": [
-      "원칙적으로 실지거래가액을 기준"
+      "양도가액은 원칙적으로 해당 자산 양도의 실지거래가액",
+      "특정 부당행위·특수관계 거래 등에서는 법정 시가 인정이나 대체가액 산정 특례 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제96조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4723,7 +4841,7 @@
       "2025-36-second2-038"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제96조"
   },
   {
     "id": "tax-card-151",
@@ -4734,16 +4852,18 @@
     "title": "취득가액",
     "subtitle": "양도자산을 취득하는 데 든 가액",
     "bullets": [
-      "원칙적으로 실지거래가액을 기준으로 필요경비에 포함"
+      "양도자산의 취득가액은 원칙적으로 취득에 든 실제 거래대금과 법정 관련 비용",
+      "실지 취득가액을 확인할 수 없으면 매매사례가액·감정가액·환산취득가액 등을 법정 순서대로 적용",
+      "기존 임대사업에서 필요경비로 처리한 감가상각비 조정 여부 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·필요경비",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조제1항제1호",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4766,7 +4886,7 @@
       "2025-36-second2-027"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·필요경비"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조제1항제1호"
   },
   {
     "id": "tax-card-152",
@@ -4777,16 +4897,18 @@
     "title": "실지거래가액",
     "subtitle": "실제로 거래한 금액을 기준으로 양도차익을 계산하는 방식",
     "bullets": [
-      "현행 양도소득세 계산의 원칙"
+      "실지거래가액은 거래 당사자가 실제로 수수한 대가를 원칙으로 하는 가액",
+      "양도가액과 취득가액의 계산방식은 원칙적으로 서로 대응하도록 적용",
+      "토지·건물 일괄 거래는 법정 기준시가 등에 따른 안분계산이 필요할 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제96조·제97조·제100조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4809,7 +4931,7 @@
       "2025-36-second2-038"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제96조·제97조·제100조"
   },
   {
     "id": "tax-card-153",
@@ -4820,16 +4942,17 @@
     "title": "추계가액",
     "subtitle": "실지거래가액을 인정·확인하기 어려울 때 법정 순서로 추정한 가액",
     "bullets": [
-      "매매사례가액·감정가액·환산가액·기준시가 등을 활용"
+      "취득 당시 실제 거래가액을 확인할 수 없을 때 매매사례가액·감정가액·환산취득가액 등 추계기준을 순서대로 적용",
+      "기준시가는 해당 법정 규정에 따라 활용되며 임의로 감정가액과 선택하는 방식이 아님"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조·제114조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4837,7 +4960,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조·제114조"
   },
   {
     "id": "tax-card-154",
@@ -4848,16 +4971,17 @@
     "title": "매매사례가액",
     "subtitle": "유사자산의 실제 거래사례를 이용한 추계가액",
     "bullets": [
-      "추계결정 시 우선 검토되는 가액 중 하나"
+      "매매사례가액은 법정 범위에서 유사 자산의 실제 거래사례로 평가한 금액",
+      "적용기간·유사성·순서 등 시행령의 추계기준을 충족해야 인정"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조·제114조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4865,7 +4989,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조·제114조"
   },
   {
     "id": "tax-card-155",
@@ -4876,16 +5000,17 @@
     "title": "감정가액",
     "subtitle": "감정평가 결과를 이용한 추계가액",
     "bullets": [
-      "법정 요건에 맞는 감정가액을 사용"
+      "감정가액은 법정 감정평가 요건 및 평가 기준에 맞는 자산가액",
+      "실지거래가액 확인이 불가능한 때 추계가액 적용순서와 감정평가 횟수 등의 시행령 요건 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조·제114조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4898,7 +5023,7 @@
       "2022-33-second2-033"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조·제114조"
   },
   {
     "id": "tax-card-156",
@@ -4909,16 +5034,18 @@
     "title": "환산취득가액",
     "subtitle": "양도가액과 취득·양도 당시 기준시가 비율로 환산한 취득가액",
     "bullets": [
-      "취득 실지거래가액을 확인하기 어려운 경우 활용"
+      "환산취득가액은 취득 당시 실지거래가액을 확인할 수 없을 때 법정 비율로 환산한 가액",
+      "양도 당시와 취득 당시의 기준시가 등에 의한 법정 비율을 이용",
+      "신축·증축·5년 이내 양도 등에는 법정 가산세·제한 규정 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조·소득세법 시행령 제176조의2",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -4926,7 +5053,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조·소득세법 시행령 제176조의2"
   },
   {
     "id": "tax-card-157",
@@ -4937,16 +5064,17 @@
     "title": "기준시가",
     "subtitle": "소득세법상 자산 유형별로 정한 평가기준가액",
     "bullets": [
-      "실지거래가액과 추계가액 계산에서 사용"
+      "기준시가는 토지·건물 등 법정 자산의 과세 기준이 되는 공시가격·기준가액 등의 체계",
+      "양도·취득가액의 실지거래 원칙과 달리 추계·안분계산 등 법정 상황에 사용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제99조·제100조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -4965,7 +5093,7 @@
       "2023-34-second2-040"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제99조·제100조"
   },
   {
     "id": "tax-card-158",
@@ -4976,16 +5104,18 @@
     "title": "필요경비",
     "subtitle": "양도차익 계산에서 양도가액에서 공제하는 취득·개량·양도 관련 비용",
     "bullets": [
-      "취득가액·자본적지출액·양도비 등이 핵심"
+      "양도차익 계산에서 필요경비는 법이 정한 취득가액·자본적지출액·양도비로 한정",
+      "지급사실과 자본적 지출 성격을 입증할 법정 증빙이 필요한 항목 존재",
+      "수선비라고 전부 자본적지출액으로 인정되는 것은 아님"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·필요경비",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -5007,7 +5137,7 @@
       "2025-36-second2-038"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·필요경비"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조"
   },
   {
     "id": "tax-card-159",
@@ -5018,16 +5148,18 @@
     "title": "자본적지출액",
     "subtitle": "자산 가치 증가·내용연수 연장 등에 든 비용",
     "bullets": [
-      "법정 증빙이 있는 경우 필요경비에 산입"
+      "자본적지출액은 자산의 가치·내용연수 증가 또는 이용편익 향상 등에 사용된 법정 지출",
+      "대수선·용도변경 등 자본적 지출은 증빙을 갖추어 필요경비에 산입",
+      "일상적 유지보수 등 수익적 지출은 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·필요경비",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조제1항제2호·소득세법 시행령 제163조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -5045,7 +5177,7 @@
       "2025-36-second2-040"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·필요경비"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조제1항제2호·소득세법 시행령 제163조"
   },
   {
     "id": "tax-card-160",
@@ -5056,16 +5188,18 @@
     "title": "양도비",
     "subtitle": "자산을 양도하기 위해 직접 지출한 비용",
     "bullets": [
-      "중개보수·인지대 등 법정 양도비용을 포함"
+      "양도비는 자산을 양도하기 위해 직접 든 법정 비용",
+      "공인중개사 중개보수·계약서 작성비용·법정 증빙이 있는 인지대 등 해당 비용 확인",
+      "양도와 무관한 사적 지출은 필요경비에 포함하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 18,
     "sourceSection": "양도소득세·필요경비",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조제1항제3호·소득세법 시행령 제163조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -5083,7 +5217,7 @@
       "2025-36-second2-040"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p18 · 양도소득세·필요경비"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조제1항제3호·소득세법 시행령 제163조"
   },
   {
     "id": "tax-card-161",
@@ -5094,16 +5228,18 @@
     "title": "필요경비 개산공제",
     "subtitle": "실제 일부 필요경비를 확인하기 어려운 경우 기준시가 등에 일정률을 적용하는 공제",
     "bullets": [
-      "자산 종류와 미등기 여부에 따라 방식이 다름"
+      "실지거래가액을 확인하지 못해 추계 취득가액을 적용할 때 법정 개산공제 등 적용방식을 구별",
+      "자산의 종류·취득시기·미등기 여부 등에 따라 기준시가에 정률을 곱하는 계산이 다름",
+      "실제 증빙이 있는 자본적지출액·양도비와 중복 공제 여부 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 18,
     "sourceSection": "양도소득세·필요경비",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제97조·소득세법 시행령 제163조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "summary"
     ],
@@ -5111,7 +5247,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p18 · 양도소득세·필요경비"
+    "sourceLabel": "국가법령정보센터 소득세법 제97조·소득세법 시행령 제163조"
   },
   {
     "id": "tax-card-162",
@@ -5122,16 +5258,17 @@
     "title": "양도차익",
     "subtitle": "양도가액에서 필요경비를 뺀 금액",
     "bullets": [
-      "양도소득금액 계산의 기초"
+      "양도차익은 양도가액에서 법정 취득가액 및 필요경비를 차감한 금액",
+      "양도차익과 장기보유특별공제 후의 양도소득금액을 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제95조·제97조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -5153,7 +5290,7 @@
       "2025-36-second2-040"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제95조·제97조"
   },
   {
     "id": "tax-card-163",
@@ -5164,16 +5301,18 @@
     "title": "장기보유특별공제",
     "subtitle": "장기간 보유한 일정 자산의 양도차익에서 공제하는 제도",
     "bullets": [
-      "미등기자산 등 법정 배제대상과 1세대 1주택 특례를 구별"
+      "보유기간 3년 이상인 법정 토지·건물 등에 장기보유특별공제 적용 가능",
+      "일반 자산은 기간별 표1 공제율, 1세대 1주택 특정 주택은 보유·거주기간을 반영한 표2 공제율",
+      "미등기양도자산·일부 중과대상 자산 등은 공제 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 18,
     "sourceSection": "양도소득세·공제",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제95조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -5191,7 +5330,7 @@
       "2024-35-2-2-040"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p18 · 양도소득세·공제"
+    "sourceLabel": "국가법령정보센터 소득세법 제95조"
   },
   {
     "id": "tax-card-164",
@@ -5202,16 +5341,17 @@
     "title": "양도소득금액",
     "subtitle": "양도차익에서 장기보유특별공제액을 뺀 금액",
     "bullets": [
-      "양도소득 기본공제 전 단계"
+      "양도소득금액은 양도차익에서 적용 가능한 장기보유특별공제액을 차감한 금액",
+      "여기에서 법정 양도소득기본공제를 차감해야 과세표준을 계산"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 18,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제95조",
+    "sourceNote": "2026-10-08 소득세법·시행령 양도소득 핵심 주장 및 개념 구분 대조. 세부 예외 원문 우선.",
     "basis": [
       "exam",
       "summary"
@@ -5231,7 +5371,7 @@
       "2025-36-second2-035"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p18 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제95조"
   },
   {
     "id": "tax-card-165",
@@ -5276,16 +5416,17 @@
     "title": "양도소득과세표준",
     "subtitle": "양도소득금액에서 기본공제를 뺀 세율 적용 대상금액",
     "bullets": [
-      "종합소득과 별도로 계산"
+      "양도소득과세표준은 양도소득금액에서 적용 가능한 양도소득기본공제를 차감하여 산출",
+      "종합소득과세표준과 구별하며 자산 종류별 법정 기본공제·통산 순서 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제92조·제103조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "exam",
       "summary"
@@ -5305,7 +5446,7 @@
       "2025-36-second2-035"
     ],
     "importance": 4,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·계산"
+    "sourceLabel": "국가법령정보센터 소득세법 제92조·제103조"
   },
   {
     "id": "tax-card-167",
@@ -5316,7 +5457,9 @@
     "title": "양도소득 기본세율",
     "subtitle": "일반 토지·건물 등에 적용하는 초과누진세율",
     "bullets": [
-      "2026년 현행 기본세율은 6%부터 45%까지의 누진구조"
+      "양도소득세의 일반 누진세율은 2026년 기준 과세표준별 6%~45%",
+      "1,400만원·5,000만원·8,800만원 등 법정 구간별 세율과 누진공제 체계를 적용",
+      "단기보유·미등기·비사업용 토지·분양권 등에 별도 세율이 정해진 경우는 구분"
     ],
     "formula": "",
     "visual": "none",
@@ -5326,8 +5469,8 @@
     "sourceKind": "official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·세율",
-    "sourceRef": "국가법령정보센터 「소득세법」 제55조·제104조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제104조·제55조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "essential"
     ],
@@ -5335,7 +5478,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「소득세법」 제55조·제104조"
+    "sourceLabel": "국가법령정보센터 소득세법 제104조·제55조"
   },
   {
     "id": "tax-card-168",
@@ -5376,7 +5519,9 @@
     "title": "미등기양도자산",
     "subtitle": "취득등기를 하지 않고 양도하는 자산",
     "bullets": [
-      "현행법상 70% 세율, 비과세·감면·장기보유특별공제·기본공제 제한 등이 문제됨"
+      "미등기양도자산은 원칙적으로 법이 정한 미등기 상태로 자산을 양도한 경우",
+      "법정 미등기양도자산의 세율은 70%이며, 비과세·감면·장기보유특별공제·기본공제 등에 제한",
+      "등기가 불가능한 법정 제외사유가 있으면 모든 미등기 거래가 곧바로 이 유형이 되는 것은 아님"
     ],
     "formula": "",
     "visual": "none",
@@ -5384,8 +5529,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 20,
     "sourceSection": "양도소득세·세율",
-    "sourceRef": "4.공인중개사요약_세법.pdf p20 + 국가법령정보센터 「소득세법」 제104조 등",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제104조제1항제10호·제3항",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "exam",
       "summary"
@@ -5400,7 +5545,7 @@
       "2023-34-second2-039"
     ],
     "importance": 3,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p20 + 국가법령정보센터 「소득세법」 제104조 등"
+    "sourceLabel": "국가법령정보센터 소득세법 제104조제1항제10호·제3항"
   },
   {
     "id": "tax-card-170",
@@ -5411,16 +5556,18 @@
     "title": "미등기양도제외자산",
     "subtitle": "등기하지 않았어도 법정 사유로 미등기 중과에서 제외되는 자산",
     "bullets": [
-      "법원의 결정으로 등기불가·장기할부·도시개발사업 미완료 등 법정 유형을 확인"
+      "법령상 등기를 할 수 없는 미등기자산이나 법에서 정한 일정 미등기양도 제외자산은 70% 미등기양도 세율 대상에서 제외",
+      "장기할부·도시개발사업 등은 법정 조건과 구체적인 등기 불가능 사유 확인",
+      "단순히 등기를 안 했다는 개인 사정만으로 법정 제외에 해당하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 20,
     "sourceSection": "양도소득세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제104조제3항·소득세법 시행령 제168조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "exam",
       "summary"
@@ -5434,7 +5581,7 @@
       "2021-32-second2-039"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p20 · 양도소득세·세율"
+    "sourceLabel": "국가법령정보센터 소득세법 제104조제3항·소득세법 시행령 제168조"
   },
   {
     "id": "tax-card-171",
@@ -5445,7 +5592,9 @@
     "title": "비사업용 토지",
     "subtitle": "법정 기간 동안 소유자의 사업에 직접 사용하지 않은 토지",
     "bullets": [
-      "기간기준과 토지용도 기준을 모두 확인하며 기본세율보다 중과된 누진세율이 적용"
+      "비사업용 토지는 일정 보유기간 동안 자기 사업 등에 사용하지 않는 법정 유형의 토지",
+      "농지·임야·목장용지·나대지 등의 용도 및 소유·이용상태와 기간 요건을 함께 판단",
+      "양도세율은 기본세율보다 높은 별도 누진구조(2026년 16~55%) 적용 대상"
     ],
     "formula": "",
     "visual": "none",
@@ -5453,8 +5602,8 @@
     "sourceKind": "official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·세율",
-    "sourceRef": "국가법령정보센터 「소득세법」 제104조의3 + 국가법령정보센터 「소득세법 시행령」 제168조의6 등",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제104조제1항제8호·제104조의3",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "exam",
       "essential"
@@ -5469,7 +5618,7 @@
       "2025-36-second2-037"
     ],
     "importance": 3,
-    "sourceLabel": "국가법령정보센터 「소득세법」 제104조의3 + 국가법령정보센터 「소득세법 시행령」 제168조의6 등"
+    "sourceLabel": "국가법령정보센터 소득세법 제104조제1항제8호·제104조의3"
   },
   {
     "id": "tax-card-172",
@@ -5480,16 +5629,18 @@
     "title": "비사업용 토지 기간기준",
     "subtitle": "토지 보유기간 중 비사업용으로 본 기간을 판단하는 기준",
     "bullets": [
-      "보유기간 5년 이상이면 최근 5년·3년·전체 보유기간의 법정 기준을 함께 판단"
+      "보유기간이 5년 이상이면 양도일 직전 5년 중 2년 초과, 직전 3년 중 1년 초과, 전체 보유기간 20% 초과의 기간요건을 함께 확인",
+      "3년 이상 5년 미만, 3년 미만 보유 토지는 시행령상 별도 기간 판단",
+      "장기 보유했다는 이유만으로 비사업용 기간기준을 면제하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·세율",
-    "sourceRef": "국가법령정보센터 「소득세법 시행령」 제168조의6",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 시행령 제168조의6",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "essential"
     ],
@@ -5497,7 +5648,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「소득세법 시행령」 제168조의6"
+    "sourceLabel": "국가법령정보센터 소득세법 시행령 제168조의6"
   },
   {
     "id": "tax-card-173",
@@ -5536,7 +5687,9 @@
     "title": "1세대 1주택 비과세",
     "subtitle": "법정 보유·거주 등 요건을 갖춘 1세대 1주택 양도소득 비과세",
     "bullets": [
-      "고가주택은 전부 비과세가 아니며 일시적 2주택 등 특례가 있음"
+      "1세대가 양도일 현재 국내 1주택을 보유하고 원칙적으로 2년 이상 보유하면 법정 비과세 검토",
+      "취득 당시 조정대상지역 주택 등은 보유기간 중 2년 거주요건이 추가될 수 있음",
+      "고가주택 12억원 초과 부분과 일시적 2주택 등은 별도 규정 적용"
     ],
     "formula": "",
     "visual": "none",
@@ -5544,8 +5697,8 @@
     "sourceKind": "summary+official",
     "sourcePage": 21,
     "sourceSection": "양도소득세·비과세",
-    "sourceRef": "4.공인중개사요약_세법.pdf p21 + 국가법령정보센터 「소득세법」 제89조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제89조·소득세법 시행령 제154조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "exam",
       "summary"
@@ -5559,7 +5712,7 @@
       "2024-35-2-2-039"
     ],
     "importance": 3,
-    "sourceLabel": "4.공인중개사요약_세법.pdf p21 + 국가법령정보센터 「소득세법」 제89조"
+    "sourceLabel": "국가법령정보센터 소득세법 제89조·소득세법 시행령 제154조"
   },
   {
     "id": "tax-card-175",
@@ -5570,7 +5723,9 @@
     "title": "고가주택 12억원 기준",
     "subtitle": "1세대 1주택 비과세에서 고가주택을 구분하는 현행 기준",
     "bullets": [
-      "주택과 부수토지의 양도 당시 실지거래가액 합계가 12억원을 초과하면 초과분 관련 양도차익을 과세"
+      "고가주택은 주택과 부수토지의 양도 당시 실지거래가액 합계가 12억원을 초과하는 주택",
+      "1세대 1주택 비과세요건을 충족해도 12억원 초과에 해당하는 양도차익은 과세",
+      "취득가액 12억원이나 공시가격 12억원 기준이 아님"
     ],
     "formula": "",
     "visual": "none",
@@ -5580,8 +5735,8 @@
     "sourceKind": "official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·비과세",
-    "sourceRef": "국가법령정보센터 「소득세법」 제89조 + 국가법령정보센터 「소득세법 시행령」 제160조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제89조제1항제3호·소득세법 시행령 제156조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "essential"
     ],
@@ -5589,7 +5744,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「소득세법」 제89조 + 국가법령정보센터 「소득세법 시행령」 제160조"
+    "sourceLabel": "국가법령정보센터 소득세법 제89조제1항제3호·소득세법 시행령 제156조"
   },
   {
     "id": "tax-card-176",
@@ -5600,16 +5755,18 @@
     "title": "고가주택 양도차익",
     "subtitle": "고가 1세대 1주택의 과세대상 양도차익을 안분하는 계산",
     "bullets": [
-      "전체 양도차익에 (양도가액-12억원)/양도가액 비율을 적용"
+      "고가주택 과세대상 양도차익은 전체 양도차익 × (양도가액 - 12억원) / 양도가액으로 산출",
+      "장기보유특별공제도 고가주택 해당 과세대상 양도차익 기준으로 별도 계산",
+      "12억원 이하의 비과세 부분과 초과 부분을 분리"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·비과세",
-    "sourceRef": "국가법령정보센터 「소득세법 시행령」 제160조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제95조·소득세법 시행령 제160조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "essential"
     ],
@@ -5617,7 +5774,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「소득세법 시행령」 제160조"
+    "sourceLabel": "국가법령정보센터 소득세법 제95조·소득세법 시행령 제160조"
   },
   {
     "id": "tax-card-177",
@@ -5628,16 +5785,18 @@
     "title": "일시적 2주택 특례",
     "subtitle": "대체취득·상속·혼인 등으로 일시적으로 2주택 이상이 된 경우의 비과세 특례",
     "bullets": [
-      "사유별 처분기한·거주요건 등 현행 시행령 요건을 충족해야 함"
+      "일시적 2주택 특례는 종전주택 보유 중 새 주택 취득 뒤 종전주택을 정해진 기간 내 처분하는 상황 등에서 적용",
+      "일반 취득 상황과 조정대상지역·상속·혼인 등 유형별 처분기한·선행취득 요건을 구분",
+      "재산세·종부세 1세대 1주택 판정특례와 양도세 비과세특례는 별도 규정"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 21,
     "sourceSection": "양도소득세·비과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 시행령 제155조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "summary"
     ],
@@ -5645,7 +5804,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p21 · 양도소득세·비과세"
+    "sourceLabel": "국가법령정보센터 소득세법 시행령 제155조"
   },
   {
     "id": "tax-card-178",
@@ -5656,16 +5815,18 @@
     "title": "조합원입주권 비과세특례",
     "subtitle": "1주택과 조합원입주권을 보유한 경우 일정 주택 양도에 적용하는 특례",
     "bullets": [
-      "입주권 취득시점·종전주택 양도시기·거주요건 등을 확인"
+      "조합원입주권 보유자의 종전주택 양도 비과세는 입주권 취득 경위·주택 보유 상태와 양도시기를 기준으로 특례 판단",
+      "조합원입주권을 보유하였다는 사유만으로 무조건 1세대 1주택 비과세가 인정되는 것은 아님",
+      "종전주택 거주요건 및 사업완료 후 거주 등 시행령 조건을 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 22,
     "sourceSection": "양도소득세·비과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제89조·소득세법 시행령 제155조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "summary"
     ],
@@ -5673,7 +5834,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p22 · 양도소득세·비과세"
+    "sourceLabel": "국가법령정보센터 소득세법 제89조·소득세법 시행령 제155조"
   },
   {
     "id": "tax-card-179",
@@ -5684,16 +5845,18 @@
     "title": "부담부증여 양도차익",
     "subtitle": "부담부증여에서 채무 인수부분의 양도차익을 계산하는 방식",
     "bullets": [
-      "채무 인수액에 대응하는 양도가액·취득가액을 안분하여 계산"
+      "부담부증여에서 수증자가 인수한 법정 채무액에 해당하는 부분은 유상양도로 보아 양도소득세 계산",
+      "채무 인수부분의 양도가액과 취득가액·필요경비를 법정 비율로 안분",
+      "나머지 증여부분은 증여세 과세체계로 별도 판단"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 19,
     "sourceSection": "양도소득세·특례",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제88조·제96조·제97조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "summary"
     ],
@@ -5701,7 +5864,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p19 · 양도소득세·특례"
+    "sourceLabel": "국가법령정보센터 소득세법 제88조·제96조·제97조"
   },
   {
     "id": "tax-card-180",
@@ -5740,16 +5903,18 @@
     "title": "부당행위계산 부인",
     "subtitle": "특수관계인 거래로 조세부담을 부당하게 줄인 경우 정상가액으로 다시 계산하는 제도",
     "bullets": [
-      "우회양도 등에서 거래형태와 세부담 감소 여부를 판단"
+      "특수관계인에게 자산을 저가양도하거나 우회양도하여 양도소득세 부담이 부당히 감소한 경우 법정 시가 등으로 재계산 가능",
+      "증여 후 단기간 제3자에게 양도하는 거래도 법령상 요건을 충족하면 실제 거래형태와 달리 과세 가능",
+      "개별 적용기준은 특수관계·거래가액·세부담 감소 여부를 함께 판단"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 19,
     "sourceSection": "양도소득세·특례",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제101조·소득세법 시행령 제167조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "summary"
     ],
@@ -5757,7 +5922,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p19 · 양도소득세·특례"
+    "sourceLabel": "국가법령정보센터 소득세법 제101조·소득세법 시행령 제167조"
   },
   {
     "id": "tax-card-182",
@@ -5768,16 +5933,18 @@
     "title": "양도차손 통산",
     "subtitle": "같은 과세기간의 양도차익과 양도차손을 법정 소득군별로 통산하는 제도",
     "bullets": [
-      "자산군에 따라 통산 범위와 기본공제 적용순서를 확인"
+      "같은 과세기간의 양도차익과 양도차손은 법정 과세대상 자산군과 순서에 따라 통산",
+      "토지·건물 등과 주식·파생상품 등은 자산군별 통산 범위가 달라 무조건 합산하지 않음",
+      "양도소득기본공제 적용 전의 통산 순서를 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·계산",
-    "sourceRef": "국가법령정보센터 「소득세법」 제102조",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제102조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "essential"
     ],
@@ -5785,7 +5952,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「소득세법」 제102조"
+    "sourceLabel": "국가법령정보센터 소득세법 제102조"
   },
   {
     "id": "tax-card-183",
@@ -5855,16 +6022,18 @@
     "title": "양도소득세 분할납부",
     "subtitle": "납부세액이 일정 기준을 넘으면 일부를 나누어 납부하는 제도",
     "bullets": [
-      "현행 법정 분납기준·기한을 확인"
+      "거주자로서 예정신고·확정신고 납부세액이 각각 1천만원을 초과하면 법정 한도 안에서 분납 가능",
+      "분납기한은 원래 납부기한이 지난 후 2개월 이내",
+      "재산세·종부세의 분납 금액·기한과 구분"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 21,
     "sourceSection": "양도소득세·신고납부",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제112조·소득세법 시행령 제175조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "summary"
     ],
@@ -5872,7 +6041,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p21 · 양도소득세·신고납부"
+    "sourceLabel": "국가법령정보센터 소득세법 제112조·소득세법 시행령 제175조"
   },
   {
     "id": "tax-card-186",
@@ -5883,16 +6052,17 @@
     "title": "양도소득세 납세지",
     "subtitle": "양도소득세를 신고·납부할 세무서의 관할 기준",
     "bullets": [
-      "거주자는 주소지, 비거주자는 국내사업장·자산소재지 등 법정 기준"
+      "거주자는 원칙적으로 주소지, 주소지가 없는 경우 거소지 관할이 소득세 납세지",
+      "비거주자의 양도소득세는 국내사업장 또는 부동산 소재지 등 법정 납세지 특례 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 20,
     "sourceSection": "양도소득세·신고납부",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제6조·제7조",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "summary"
     ],
@@ -5900,7 +6070,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p20 · 양도소득세·신고납부"
+    "sourceLabel": "국가법령정보센터 소득세법 제6조·제7조"
   },
   {
     "id": "tax-card-187",
@@ -5911,16 +6081,18 @@
     "title": "국외자산 양도소득",
     "subtitle": "거주자가 국외 부동산 등을 양도하여 발생한 소득",
     "bullets": [
-      "국내 거주기간 등 법정 요건을 충족하면 국외자산 양도소득도 과세대상"
+      "국외자산 양도소득은 해당 자산 양도일까지 계속 5년 이상 국내에 주소 또는 거소를 둔 거주자가 양도한 법정 국외자산 소득이 과세대상",
+      "국외 토지·건물·일정 부동산 취득권리 등 법정 자산 범위와 국외 납부세액 공제 규정 확인",
+      "국외자산에 대한 연 250만원 기본공제와 장기보유특별공제 배제 규정을 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "official",
+    "sourceKind": "summary+official",
     "sourcePage": 0,
     "sourceSection": "양도소득세·국외자산",
-    "sourceRef": "국가법령정보센터 「소득세법」 국외자산 양도 관련 조문",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 소득세법 제118조의2·제118조의7·제118조의8",
+    "sourceNote": "2026-10-08 소득세법 양도소득 세율·비과세·특례·신고 관련 핵심 주장 대조.",
     "basis": [
       "essential"
     ],
@@ -5928,7 +6100,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 1,
-    "sourceLabel": "국가법령정보센터 「소득세법」 국외자산 양도 관련 조문"
+    "sourceLabel": "국가법령정보센터 소득세법 제118조의2·제118조의7·제118조의8"
   }
 ];
   cards.forEach(card=>{ if(!ids.has(card.id)){ bank.cards.push(card); ids.add(card.id); } });

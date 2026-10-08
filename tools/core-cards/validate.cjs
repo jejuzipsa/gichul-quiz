@@ -219,6 +219,44 @@ for(const [id,terms] of Object.entries(v178Checks)){
 need(tax.find(c=>c.id==='tax-card-065')?.bullets.some(x=>x.includes('양식업권')),'acquisition-based registrations need law-defined exclusions and exceptions');
 need(tax.find(c=>c.id==='tax-card-026')?.bullets.some(x=>x.includes('지방세 일반 불복')),'legacy local-tax administrative appeal must not be shown as a current procedure');
 
+// v1.79: whole-subject source/importance checks and high-risk 2026 law regressions.
+need(tax.length===187,'v1.79 tax card count must remain 187');
+need(tax.every(c=>['summary+official','official'].includes(c.sourceKind)),'every reviewed tax card must identify an official source type');
+need(tax.every(c=>c.sourceRef?.trim()&&c.bullets?.length),'reviewed tax card needs an explicit statutory source and learning text');
+const checkedTaxTerms={
+  'tax-card-074':['토지','선박','항공기'],
+  'tax-card-075':['6월 1일','사실상 소유'],
+  'tax-card-076':['지분권자','상속'],
+  'tax-card-083':['종합합산','별도합산'],
+  'tax-card-085':['0.07%','4%','0.2%'],
+  'tax-card-086':['9억원','1세대 1주택'],
+  'tax-card-087':['0.25%','0.5%','4%'],
+  'tax-card-088':['0.14%','고시'],
+  'tax-card-095':['20%','도시지역분'],
+  'tax-card-101':['12억원','2026년 10월','요건'],
+  'tax-card-119':['183일','거주자'],
+  'tax-card-128':['12억원','2천만원'],
+  'tax-card-129':['2026년부터','2주택','12억원','3주택','3억원'],
+  'tax-card-134':['등기된 부동산임차권','지상권'],
+  'tax-card-136':['조합원입주권','분양권'],
+  'tax-card-142':['대금','청산','특례'],
+  'tax-card-146':['사용승인서','사실상 사용'],
+  'tax-card-158':['취득가액','자본적지출','양도비'],
+  'tax-card-163':['3년','미등기'],
+  'tax-card-171':['16~55%','기간','이용'],
+  'tax-card-172':['5년','3년','20%'],
+  'tax-card-174':['2년','조정대상지역'],
+  'tax-card-175':['12억원','실지거래가액'],
+  'tax-card-176':['양도가액 - 12억원','양도차익'],
+  'tax-card-185':['1천만원','2개월'],
+  'tax-card-187':['5년','250만원','장기보유특별공제']
+};
+for(const [id,terms] of Object.entries(checkedTaxTerms)){
+  const card=tax.find(x=>x.id===id);
+  const body=(card?.bullets||[]).join(' ');
+  for(const term of terms) need(body.includes(term),id+': v1.79 statutory audit regression: '+term);
+}
+
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
   for(const c of raw){
