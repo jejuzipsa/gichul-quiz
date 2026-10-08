@@ -98,6 +98,21 @@ need(cards.find(c=>c.id==='civ-card-185')?.bullets.some(x=>x.includes('6개월')
 need(cards.find(c=>c.id==='civ-card-186')?.bullets.some(x=>x.includes('부동산 5년')&&x.includes('동산 3년')),'repurchase period §591 missing');
 need(cards.find(c=>c.id==='civ-card-134')?.bullets.some(x=>x.includes('관리')&&x.includes('보존')),'joint-ownership management vs preservation missing');
 need(cards.find(c=>c.id==='civ-card-141')?.bullets.some(x=>x.includes('2022년')&&x.includes('전원합의체')),'customary superficies 2022 precedent missing');
+
+const civilV190ReviewedIds=["civ-card-166","civ-card-167","civ-card-188","civ-card-189","civ-card-190","civ-card-191","civ-card-200"];
+for(const id of civilV190ReviewedIds){
+  const c=cards.find(x=>x.id===id);
+  need(c?.subject==='civil_law'&&c.sourceKind==='summary+official'&&c.sourceRef.includes('law.go.kr'),id+': v1.90 official statutory or case-law source missing');
+  need(c?.bullets.length===2&&c.sourceNote.includes('2026-10-09'),id+': v1.90 reviewed explanations/memo missing');
+}
+need(cards.find(c=>c.id==='civ-card-166')?.bullets.some(x=>x.includes('제527조')&&x.includes('철회')),'offer withdrawal rule missing');
+need(cards.find(c=>c.id==='civ-card-167')?.bullets.some(x=>x.includes('제534조')&&x.includes('새로운 청약')),'modified acceptance rule missing');
+need(cards.find(c=>c.id==='civ-card-188')?.bullets.some(x=>x.includes('제629조')&&x.includes('동의')),'lease assignment rule missing');
+need(cards.find(c=>c.id==='civ-card-189')?.bullets.some(x=>x.includes('제633조')&&x.includes('매월 말')),'rent payment timing missing');
+need(cards.find(c=>c.id==='civ-card-190')?.bullets.some(x=>x.includes('동시이행')),'deposit simultaneous performance rule missing');
+need(cards.find(c=>c.id==='civ-card-191')?.bullets.some(x=>x.includes('제10조의3')&&x.includes('보증금')),'key-money definition missing');
+need(cards.find(c=>c.id==='civ-card-200')?.bullets.some(x=>x.includes('제6조의3')&&x.includes('거절사유')),'housing renewal exception missing');
+
 const illustratedCivil=cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===57,'civil diagrams must apply to 57 statute-reviewed cards');
 const diagramCardIds=["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"];
