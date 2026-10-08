@@ -545,13 +545,38 @@
         +'<text class="v-civil-caption" x="120" y="139" text-anchor="middle">당사자의 소급 의사표시가 있으면 예외</text>');
     }
     // v1.84: shared SVGs separate statutory rules and case-law exceptions.
-    if(type==='civil_rule_types'){
-      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">규정 위반과 계약의 효력</text>'
-        +civBox(6,30,109,'효력규정')+civBox(125,30,109,'단속규정')
-        +'<text class="v-civil-text" x="60" y="84" text-anchor="middle">위반 계약 무효</text>'
-        +'<text class="v-civil-text" x="180" y="84" text-anchor="middle">위반 계약 원칙 유효</text>'
-        +'<text class="v-civil-caption" x="120" y="109" text-anchor="middle">제재가 있다고 모두 무효는 아님</text>'
-        +'<text class="v-civil-caption" x="120" y="126" text-anchor="middle">법률의 문언·목적·보호법익으로 판단</text>');
+    // Each of the four legal-rule cards has a different explanatory diagram.
+    // Mandatory/default concerns freedom of agreement; validity/policing concerns effects of breach.
+    if(type==='civil_rule_mandatory'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">강행규정: 특약으로 배제 불가</text>'
+        +civBox(4,31,109,'강행적 법규')+civBox(127,31,109,'당사자 특약')
+        +'<path class="v-civil-dashed" d="M114 50H124"/>'
+        +'<text class="v-civil-text" x="120" y="86" text-anchor="middle">법규에 반하는 특약 허용 X</text>'
+        +'<text class="v-civil-caption" x="120" y="114" text-anchor="middle">위반한 계약의 무효 여부는</text>'
+        +'<text class="v-civil-caption" x="120" y="130" text-anchor="middle">효력규정·단속규정의 구별로 판단</text>');
+    }
+    if(type==='civil_rule_default'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">임의규정: 특약 우선</text>'
+        +civBox(4,30,109,'당사자 특약')+civBox(127,30,109,'특약 내용 적용')
+        +'<path class="v-civil-line" d="M113 49H125"/><path class="v-civil-arrowtip" d="m121 45 4 4-4 4"/>'
+        +'<text class="v-civil-caption" x="120" y="87" text-anchor="middle">특약이 없거나 의사가 불명확하면</text>'
+        +'<text class="v-civil-text" x="120" y="106" text-anchor="middle">법률 규정·사실인 관습 검토</text>'
+        +'<text class="v-civil-caption" x="120" y="133" text-anchor="middle">민법 제105조·제106조</text>');
+    }
+    if(type==='civil_rule_validity'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">효력규정: 사법상 효력도 부정</text>'
+        +civBox(31,29,178,'효력규정 위반')
+        +'<path class="v-civil-line" d="M120 62V75"/><path class="v-civil-arrowtip" d="m116 71 4 4 4-4"/>'
+        +civBox(31,78,178,'위반 법률행위 무효')
+        +'<text class="v-civil-caption" x="120" y="125" text-anchor="middle">제재뿐 아니라 계약의 효력에도 영향</text>');
+    }
+    if(type==='civil_rule_policing'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">단속규정: 제재와 계약효력 별개</text>'
+        +civBox(4,30,109,'위반에 대한 제재')+civBox(127,30,109,'계약 자체의 효력')
+        +'<text class="v-civil-text" x="58" y="86" text-anchor="middle">행정·형사상 가능</text>'
+        +'<text class="v-civil-text" x="181" y="86" text-anchor="middle">원칙적으로 유효</text>'
+        +'<text class="v-civil-caption" x="120" y="116" text-anchor="middle">어느 규정인지 문언·목적·보호법익</text>'
+        +'<text class="v-civil-caption" x="120" y="132" text-anchor="middle">등으로 개별 판단</text>');
     }
     if(type==='civil_dispatch_rule'){
       return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">의사표시 효력: 도달 원칙 / 발신 예외</text>'
