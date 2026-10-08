@@ -10639,16 +10639,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법정지상권",
       "subtitle": "법이 정한 요건에서 등기 없이 성립하는 지상권",
       "bullets": [
-        "토지와 건물의 소유자가 달라지는 일정한 경우 건물 이용을 위해 성립"
+        "민법 제366조는 저당물 경매로 토지와 지상건물의 소유자가 달라진 경우의 법정지상권을 규정",
+        "저당권 설정 당시 건물 존재·토지와 건물의 동일 소유 등 판례상 요건을 확인해야 하며 지료는 청구 시 법원이 정함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_surface_section",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 20,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제366조 및 판례상 법정지상권」 https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=900141458",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -10667,7 +10668,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-061"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p20 · 물권법·용익물권"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제366조 및 판례상 법정지상권」 https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=900141458"
     },
     {
       "id": "civ-card-141",
@@ -11268,16 +11269,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "공동저당",
       "subtitle": "하나의 채권을 여러 부동산이 함께 담보하는 저당",
       "bullets": [
-        "여러 부동산의 배당과 후순위자의 대위 관계가 문제됨"
+        "하나의 채권을 담보하기 위하여 여러 부동산에 저당권을 설정한 경우",
+        "동시배당은 경매대가에 비례해 부담을 나누고, 일부를 먼저 배당하면 선순위 전액 변제와 차순위자 대위가 문제됨"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_joint_mortgage",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 21,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제368조 공동저당·동시배당·이시배당」 https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026156729",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "summary"
       ],
@@ -11285,7 +11287,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p21 · 물권법·담보물권"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「민법 제368조 공동저당·동시배당·이시배당」 https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026156729"
     },
     {
       "id": "civ-card-158",
@@ -12920,18 +12922,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택임대차 대항력",
       "subtitle": "주택 임차권을 양수인 등 제3자에게 주장할 수 있는 효력",
       "bullets": [
-        "주택 인도와 주민등록을 갖추면 법정 시점부터 대항력 발생"
+        "주택의 인도와 주민등록(전입신고)을 모두 마친 다음 날부터 제3자에 대한 대항력 발생",
+        "주택 양수인 등에 대항하려면 임차인의 대항요건 취득 시점과 계속 유지 여부를 확인"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_housing_timeline",
       "aliases": [
         "주택 대항력"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 32,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」 제3조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「주택임대차보호법 제3조제1항」 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1031475507",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "summary"
       ],
@@ -12939,7 +12942,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」 제3조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「주택임대차보호법 제3조제1항」 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1031475507"
     },
     {
       "id": "civ-card-202",
@@ -12950,16 +12953,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "확정일자",
       "subtitle": "임대차계약서가 특정 날짜에 존재했음을 공적으로 확인받은 날짜",
       "bullets": [
-        "대항요건과 함께 갖추면 우선변제권 취득에 중요한 요건"
+        "확정일자는 임대차계약증서에 부여받는 날짜로, 그 자체만으로 주택 대항력이 발생하지는 않음",
+        "인도·주민등록 대항요건과 계약증서의 확정일자를 함께 갖추어야 우선변제권 요건 충족"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_housing_timeline",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 33,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「주택임대차보호법 제3조의2제2항·제3조의6」 https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029588309",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -12978,7 +12982,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-080"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p33 · 민사특별법·주택임대차"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「주택임대차보호법 제3조의2제2항·제3조의6」 https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029588309"
     },
     {
       "id": "civ-card-203",
@@ -12989,18 +12993,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택 우선변제권",
       "subtitle": "후순위권리자보다 먼저 주택보증금을 배당받는 권리",
       "bullets": [
-        "대항요건과 확정일자를 갖춘 임차인이 경매·공매 환가대금에서 우선변제"
+        "주택 인도·주민등록 대항요건과 임대차계약증서 확정일자를 모두 갖춘 임차인에게 우선변제권 인정",
+        "경매·공매에서 후순위권리자 등에 우선하며 실제 배당순위는 각 요건을 갖춘 시점과 선순위 권리에 따라 판단"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_housing_timeline",
       "aliases": [
         "주택임대차 우선변제권"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 33,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p33 + 국가법령정보센터 「주택임대차보호법」 제3조의2",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「주택임대차보호법 제3조·제3조의2제2항」 https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029588309",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "summary"
       ],
@@ -13008,7 +13013,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p33 + 국가법령정보센터 「주택임대차보호법」 제3조의2"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「주택임대차보호법 제3조·제3조의2제2항」 https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029588309"
     },
     {
       "id": "civ-card-204",
@@ -13305,18 +13310,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "가등기담보",
       "subtitle": "채권담보를 위해 소유권이전청구권 가등기를 이용하는 담보방법",
       "bullets": [
-        "채무불이행 때 소유권을 이전받기로 약정하고 가등기로 담보하는 방식"
+        "담보가등기는 채권 담보 목적으로 소유권이전청구권 보전의 가등기를 이용하는 방식",
+        "부동산 소유권 취득 방식으로 담보를 실행하려면 변제기 후 통지·2개월 청산기간 등 법정절차를 거쳐야 함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_provisional_steps",
       "aliases": [
         "담보가등기"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 35,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "2.공인중개사요약_민법.pdf p35 + 국가법령정보센터 「가등기담보 등에 관한 법률」",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제2조·제3조·제4조」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13337,7 +13343,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-077"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p35 + 국가법령정보센터 「가등기담보 등에 관한 법률」"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제2조·제3조·제4조」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4"
     },
     {
       "id": "civ-card-214",
@@ -13381,16 +13387,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "청산금",
       "subtitle": "담보목적물 가치가 채권액을 넘을 때 채무자등에게 지급할 차액",
       "bullets": [
-        "목적부동산 평가액에서 피담보채권 등 법정 공제액을 뺀 금액"
+        "청산금은 통지 당시 부동산 평가액에서 피담보채권액과 선순위담보채권액 등 법정 공제액을 뺀 금액",
+        "청산금이 없다고 판단해도 그 뜻을 통지하며, 청산금 지급과 소유권 취득 요건은 등기 상태에 따라 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_provisional_steps",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 36,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "2.공인중개사요약_민법.pdf p36 + 국가법령정보센터 「가등기담보 등에 관한 법률」 제3조·제4조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제3조·제4조」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13409,7 +13416,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-077"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p36 + 국가법령정보센터 「가등기담보 등에 관한 법률」 제3조·제4조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제3조·제4조」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4"
     },
     {
       "id": "civ-card-216",
@@ -13420,17 +13427,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "청산기간",
       "subtitle": "가등기담보 실행통지 후 청산을 위해 보장되는 기간",
       "bullets": [
-        "채무자에게 변제 기회를 주고 후순위권리자가 대응할 수 있게 하는 법정 기간",
-        "기간 숫자는 법령 변경 가능성을 고려해 카드에서 제외"
+        "청산기간은 채권자의 청산금 평가액 통지가 채무자등에게 도달한 날부터 2개월",
+        "채권 변제기 후 통지해야 하며 기간이 지난 뒤에도 청산금 지급·본등기 등 별도 요건을 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_provisional_steps",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 36,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제3조제1항」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13445,7 +13452,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-077"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p36 · 민사특별법·가등기담보"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제3조제1항」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4"
     },
     {
       "id": "civ-card-217",
@@ -13491,16 +13498,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "구분소유권",
       "subtitle": "1동 건물의 독립 사용 가능한 부분을 목적으로 하는 소유권",
       "bullets": [
-        "구조상·이용상 독립성이 있는 전유부분을 대상으로 하는 소유권"
+        "구분소유권은 1동 건물에서 구조상·이용상 독립하여 소유권 대상으로 삼을 수 있는 부분에 대한 권리",
+        "그 대상인 전유부분과 구분소유자 공동사용의 공용부분을 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condivision",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제1조·제2조제1호·제3호」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130814",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13513,7 +13521,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-080"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p37 · 민사특별법·집합건물"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제1조·제2조제1호·제3호」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130814"
     },
     {
       "id": "civ-card-219",
@@ -13524,16 +13532,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "전유부분",
       "subtitle": "구분소유권의 목적이 되는 건물부분",
       "bullets": [
-        "구조상·이용상 독립해 구분소유할 수 있는 부분"
+        "전유부분은 구분소유권의 목적이 되는 건물 부분으로, 일반적으로 독립하여 이용하는 호실 등이 해당",
+        "복도·계단처럼 공동사용하는 공용부분과 구별해야 하며 구체적인 구조·이용 상태를 확인"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condivision",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조제3호·제3조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130814",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13551,7 +13560,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-076"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p37 · 민사특별법·집합건물"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조제3호·제3조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130814"
     },
     {
       "id": "civ-card-220",
@@ -13562,16 +13571,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "공용부분",
       "subtitle": "구분소유자 전원 또는 일부의 공동사용에 제공되는 건물부분",
       "bullets": [
-        "복도·계단 같은 구조상 공용부분과 규약상 공용부분이 있음"
+        "공용부분은 전유부분 외의 건물 부분·공동사용 부속물 또는 법정 방식으로 공용부분이 된 부속 건물",
+        "복도·계단 등이 대표적이며 전원 또는 일부 구분소유자만의 공용에 제공되는 경우도 있음"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condivision",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조제4호·제3조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130814",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13593,7 +13603,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-076"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p37 · 민사특별법·집합건물"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조제4호·제3조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130814"
     },
     {
       "id": "civ-card-221",
@@ -13604,18 +13614,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "대지사용권",
       "subtitle": "구분소유자가 전유부분 소유를 위해 대지에 가지는 권리",
       "bullets": [
-        "소유권·지상권·임차권 등 전유부분 소유를 위한 대지 권리"
+        "대지사용권은 구분소유자가 전유부분 소유를 위해 건물 대지에 갖는 권리로 토지 소유권에만 한정되지 않음",
+        "원칙적으로 전유부분 처분에 따르고 분리처분은 금지되나 규약상 예외와 선의 제3자 대항요건을 확인"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condivision",
       "aliases": [
         "대지권"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 37,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조제6호·제20조」 https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1020634317",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "exam",
         "summary"
@@ -13630,7 +13641,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-076"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p37 · 민사특별법·집합건물"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조제6호·제20조」 https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1020634317"
     },
     {
       "id": "civ-card-222",
@@ -14389,17 +14400,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "가등기담보 실행순서",
       "subtitle": "통지 → 청산기간 → 청산금 → 소유권취득 순으로 이해",
       "bullets": [
-        "채권자가 소유권을 취득하려면 법정 통지와 청산절차를 거쳐야 함",
-        "청산금 지급 후 본등기 등 법정절차로 소유권 취득"
+        "변제기 후 청산금 평가액 등 통지 → 채무자등에 도달 후 2개월 경과 → 청산금 처리 순으로 확인",
+        "담보가등기라면 기간 경과 뒤 본등기를 청구하고, 이전등기를 이미 했다면 청산금 지급 시 소유권 취득 요건을 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_provisional_steps",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 36,
       "sourceSection": "비교·법리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p36 + 국가법령정보센터 「가등기담보 등에 관한 법률」 제3조·제4조",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제3조·제4조」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "summary"
       ],
@@ -14407,7 +14418,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p36 + 국가법령정보센터 「가등기담보 등에 관한 법률」 제3조·제4조"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「가등기담보법 제3조·제4조」 https://www.law.go.kr/LSW/lsSc.do?menuId=1&query=%EA%B0%80%EB%93%B1%EA%B8%B0%EB%8B%B4%EB%B3%B4"
     },
     {
       "id": "civ-card-246",
@@ -14418,17 +14429,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "전유부분·공용부분·대지사용권",
       "subtitle": "집합건물의 세 핵심 대상을 한 번에 구별",
       "bullets": [
-        "전유부분: 구분소유권의 목적 / 공용부분: 공동사용 부분",
-        "대지사용권: 전유부분 소유를 위해 건물 대지에 가지는 권리"
+        "전유부분은 독립된 소유권 대상, 공용부분은 공동사용 부분으로 구분",
+        "대지사용권은 전유부분 소유를 위한 대지에 대한 권리로 원칙적으로 전유부분 처분에 함께 따름"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condivision",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 37,
       "sourceSection": "비교·법리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조·제3조·제20조」 https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1020634317",
+      "sourceNote": "2026-10-08 공식 법령 핵심 조문 1차 대조 및 SVG 도식 적용. 예외·경과규정·관련 판례 전수 확인은 별도 후속 과제.",
       "basis": [
         "summary"
       ],
@@ -14436,7 +14447,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p37 · 비교·법리"
+      "sourceLabel": "2.공인중개사요약_민법.pdf + 국가법령정보센터 「집합건물법 제2조·제3조·제20조」 https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1020634317"
     },
     {
       "id": "civ-card-247",
