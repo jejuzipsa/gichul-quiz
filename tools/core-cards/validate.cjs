@@ -17,7 +17,8 @@ const visualWhitelist=new Set([
   'civil_apparent_compare','civil_unauthorized_rights',
   'civil_surface_section','civil_joint_mortgage','civil_housing_timeline','civil_provisional_steps','civil_condivision',
   'civil_intention_comparison','civil_void_cancel_compare','civil_condition_compare',
-  'civil_rule_types','civil_dispatch_rule','civil_abuse_protection','civil_term_effect'
+  'civil_rule_types','civil_dispatch_rule','civil_abuse_protection','civil_term_effect',
+  'civil_acquisitive_timeline','civil_grave_rent','civil_joint_auction','civil_housing_renewal','civil_strata_vote','civil_strata_meeting'
 ]);
 const expectedTotal=configs.reduce((n,x)=>n+x.total,0);
 need(cards.length===expectedTotal,'approved card count must be '+expectedTotal);
@@ -71,8 +72,16 @@ for(const id of remainingGeneralReviewedIds){const card=cards.find(c=>c.id===id)
 need(cards.find(c=>c.id==='civ-card-043')?.bullets.some(x=>x.includes('제531조')),'dispatch contract formation exception missing');
 need(cards.find(c=>c.id==='civ-card-062')?.bullets.some(x=>x.includes('선의의 제3자')),'2016다3201 third-party case-law point missing');
 need(cards.find(c=>c.id==='civ-card-083')?.bullets.some(x=>x.includes('상대방의 이익')),'deadline benefit waiver protection missing');
+const v185CorrectedIds=["civ-card-089","civ-card-097","civ-card-098","civ-card-099","civ-card-100","civ-card-102","civ-card-107","civ-card-111","civ-card-114","civ-card-115","civ-card-117","civ-card-121","civ-card-122","civ-card-123","civ-card-124","civ-card-126","civ-card-128","civ-card-129","civ-card-136","civ-card-137","civ-card-138","civ-card-139","civ-card-142","civ-card-146","civ-card-151","civ-card-156","civ-card-158","civ-card-168","civ-card-169","civ-card-171","civ-card-172","civ-card-173","civ-card-175","civ-card-177","civ-card-178","civ-card-181","civ-card-182","civ-card-183","civ-card-192","civ-card-193","civ-card-194","civ-card-195","civ-card-196","civ-card-197","civ-card-198","civ-card-199","civ-card-204","civ-card-205","civ-card-206","civ-card-207","civ-card-208","civ-card-209","civ-card-210","civ-card-211","civ-card-212","civ-card-217","civ-card-222","civ-card-223","civ-card-224","civ-card-225","civ-card-226","civ-card-228","civ-card-231","civ-card-240","civ-card-241","civ-card-243","civ-card-244","civ-card-247"];
+for(const id of v185CorrectedIds){const c=cards.find(x=>x.id===id);need(!!c&&['summary+official','official'].includes(c.sourceKind)&&c.sourceRef.includes('law.go.kr'),id+': official reference for v1.85 substantive correction missing');}
+need(cards.find(c=>c.id==='civ-card-212')?.sourceKind==='official','renewal official-only card status must be retained');
+need(cards.find(c=>c.id==='civ-card-231')?.title==='의사표시 5유형 비교','intention comparison title should list 5 types');
+need(cards.find(c=>c.id==='civ-card-156')?.bullets.some(x=>x.includes('건물의 경매대가')&&x.includes('우선변제')),'joint auction building proceeds warning missing');
+need(cards.find(c=>c.id==='civ-card-199')?.bullets.some(x=>x.includes('6개월')&&x.includes('2개월')),'housing tacit renewal current notice range missing');
+need(cards.find(c=>c.id==='civ-card-224')?.bullets.some(x=>x.includes('4분의 3')),'condominium regulation quorum missing');
+need(cards.find(c=>c.id==='civ-card-142')?.bullets.some(x=>x.includes('지료')),'burial site land rent case-law rule missing');
 const illustratedCivil=cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
-need(illustratedCivil.length===50,'civil diagrams must apply to 50 statute-reviewed cards');
+need(illustratedCivil.length===57,'civil diagrams must apply to 57 statute-reviewed cards');
 const diagramCardIds=["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"];
 for(const id of diagramCardIds){const c=cards.find(x=>x.id===id);need(!!c&&c.sourceKind==='summary+official'&&c.sourceRef.includes('law.go.kr')&&c.visual.startsWith('civil_'),id+': audited visual/source missing');}
 need(cards.find(c=>c.id==='civ-card-201')?.bullets.some(s=>s.includes('다음 날')),'rental opposability next-day law missing');
@@ -118,7 +127,7 @@ for(const [id,[visual,terms]] of Object.entries(civilVisualChecks)){
   const body=(card?.bullets||[]).join(' ');
   for(const term of terms) need(body.includes(term),id+': missing statute-checked phrase '+term);
 }
-need(civil.filter(c=>c.visual.startsWith('civil_')).length===50,'civil diagrams must include all 50 reviewed visual cards');
+need(civil.filter(c=>c.visual.startsWith('civil_')).length===57,'civil diagrams must include all 57 reviewed visual cards');
 
 const brokerage=cards.filter(c=>c.subject==='brokerage_law');
 for(const title of ['중개','중개대상물','개업공인중개사','소속공인중개사','중개보조원','중개사무소 개설등록','분사무소','전속중개계약','부동산거래정보망','중개대상물 확인·설명','거래계약서','직접거래 금지','업무보증','중개보수청구권','실무교육','한국공인중개사협회','등록취소','업무정지','부동산 거래신고','거래신고 30일','토지거래허가구역','등기사항증명서','분묘기지권','주택임대차보호법','상가건물 임대차보호법','경매','매수신청대리인 등록']) need(brokerage.some(c=>c.title===title),'brokerage required card missing: '+title);
