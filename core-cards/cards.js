@@ -422,6 +422,29 @@
         return `<rect class="v-civil-box" x="13" y="${y}" width="214" height="30" rx="8"/><text class="v-civil-title" x="51" y="${y+20}" text-anchor="middle">${n}</text><path class="v-civil-sep" d="M84 ${y+5}V${y+25}"/><text class="v-civil-text" x="155" y="${y+20}" text-anchor="middle">${meaning}</text>`;
       }).join(''));
     }
+    // Distinguish the claim transfer from the third party's unchanged direct possession.
+    if(type==='civil_possession_claim'){
+      return civSvg('<text class="v-civil-heading" x="120" y="15" text-anchor="middle">목적물반환청구권 양도</text>'
+        +'<text class="v-civil-caption" x="120" y="28" text-anchor="middle">반환청구권 이전</text>'
+        +civBox(4,34,78,'양도인')+civBox(158,34,78,'양수인')
+        +'<path class="v-civil-dashed" d="M82 52H156"/><path class="v-civil-arrowtip" d="m150 48 6 4-6 4"/>'
+        +'<text class="v-civil-caption" x="120" y="81" text-anchor="middle">제3자 직접점유 유지</text>'
+        +civBox(4,85,78,'제3자')
+        +'<rect class="v-civil-object" x="158" y="90" width="78" height="27" rx="7"/>'
+        +'<text class="v-civil-title" x="197" y="108" text-anchor="middle">동산</text>'
+        +'<path class="v-civil-line" d="M82 104H157"/>'
+        +'<text class="v-civil-caption" x="120" y="135" text-anchor="middle">동산의 현실점유는 바뀌지 않음</text>');
+    }
+    // An unauthorized representative has no authority flowing from the principal.
+    if(type==='civil_agency_unauthorized'){
+      return civSvg('<text class="v-civil-heading" x="120" y="22" text-anchor="middle">무권대리 계약</text>'
+        +civBox(3,44,70,'본인')+civBox(85,44,70,'무권대리인')+civBox(167,44,70,'상대방')
+        +'<path class="v-civil-dashed" d="M73 63H83"/>'
+        +'<path class="v-civil-line" d="M155 63H165"/>'
+        +'<path class="v-civil-arrowtip" d="m161 59 4 4-4 4"/>'
+        +'<text class="v-civil-caption" x="78" y="104" text-anchor="middle">대리권 없음</text>'
+        +'<text class="v-civil-caption" x="120" y="126" text-anchor="middle">추인 전 본인에게 계약 효력 없음</text>');
+    }
     const possession=CIVIL_POSSESSION[type];
     if(possession){
       const [heading,left,right,object,top,bottom]=possession;
@@ -429,7 +452,6 @@
       const lines={
         civil_possession_simple:['','v-civil-line'],
         civil_possession_revision:['v-civil-line','v-civil-dashed'],
-        civil_possession_claim:['v-civil-dashed','v-civil-dashed'],
         civil_possession_indirect:['v-civil-dashed','v-civil-line']
       }[type];
       return civSvg(`<text class="v-civil-heading" x="120" y="16" text-anchor="middle">${heading}</text>`
