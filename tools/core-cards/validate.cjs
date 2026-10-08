@@ -17,7 +17,7 @@ const visualWhitelist=new Set([
   'civil_apparent_compare','civil_unauthorized_rights',
   'civil_surface_section','civil_joint_mortgage','civil_housing_timeline','civil_provisional_steps','civil_condivision',
   'civil_intention_comparison','civil_void_cancel_compare','civil_condition_compare',
-  'civil_rule_types','civil_dispatch_rule','civil_abuse_protection','civil_term_effect',
+  'civil_rule_mandatory','civil_rule_default','civil_rule_validity','civil_rule_policing','civil_dispatch_rule','civil_abuse_protection','civil_term_effect',
   'civil_acquisitive_timeline','civil_grave_rent','civil_joint_auction','civil_housing_renewal','civil_strata_vote','civil_strata_meeting'
 ]);
 const expectedTotal=configs.reduce((n,x)=>n+x.total,0);
@@ -80,6 +80,11 @@ need(cards.find(c=>c.id==='civ-card-156')?.bullets.some(x=>x.includes('건물의
 need(cards.find(c=>c.id==='civ-card-199')?.bullets.some(x=>x.includes('6개월')&&x.includes('2개월')),'housing tacit renewal current notice range missing');
 need(cards.find(c=>c.id==='civ-card-224')?.bullets.some(x=>x.includes('4분의 3')),'condominium regulation quorum missing');
 need(cards.find(c=>c.id==='civ-card-142')?.bullets.some(x=>x.includes('지료')),'burial site land rent case-law rule missing');
+
+const ruleCards=[29,30,31,32].map(n=>cards.find(c=>c.id==='civ-card-'+String(n).padStart(3,'0')));
+const ruleTypes=["civil_rule_mandatory","civil_rule_default","civil_rule_validity","civil_rule_policing"];
+for(let i=0;i<4;i++) need(ruleCards[i]?.visual===ruleTypes[i],'civil rule '+(i+29)+' must use its own diagram');
+need(new Set(ruleCards.map(c=>c?.visual)).size===4,'all four legal rule concepts need distinct diagrams');
 const illustratedCivil=cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===57,'civil diagrams must apply to 57 statute-reviewed cards');
 const diagramCardIds=["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"];

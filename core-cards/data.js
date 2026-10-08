@@ -6685,7 +6685,7 @@ window.CORE_WORD_CARD_BANK = {
         "위반하면 계약도 무효가 되는 효력규정과 위반 제재에도 계약은 원칙적으로 유효한 단속규정을 구별"
       ],
       "formula": "",
-      "visual": "civil_rule_types",
+      "visual": "civil_rule_mandatory",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 3,
@@ -6719,7 +6719,7 @@ window.CORE_WORD_CARD_BANK = {
         "당사자 의사가 명확하지 않으면 민법 제106조의 사실인 관습 적용 가능성을 함께 검토"
       ],
       "formula": "",
-      "visual": "civil_rule_types",
+      "visual": "civil_rule_default",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 3,
@@ -6748,7 +6748,7 @@ window.CORE_WORD_CARD_BANK = {
         "금지·제재 규정에 위반했다고 무조건 무효인 것은 아니며 법 문언·목적·보호법익 등을 종합 판단"
       ],
       "formula": "",
-      "visual": "civil_rule_types",
+      "visual": "civil_rule_validity",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 3,
@@ -6782,7 +6782,7 @@ window.CORE_WORD_CARD_BANK = {
         "해당 규정이 단속규정인지 여부는 법령 목적·체계·입법취지 등을 고려해 판례에 따라 판단"
       ],
       "formula": "",
-      "visual": "civil_rule_types",
+      "visual": "civil_rule_policing",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 3,
