@@ -113,6 +113,25 @@ need(cards.find(c=>c.id==='civ-card-190')?.bullets.some(x=>x.includes('동시이
 need(cards.find(c=>c.id==='civ-card-191')?.bullets.some(x=>x.includes('제10조의3')&&x.includes('보증금')),'key-money definition missing');
 need(cards.find(c=>c.id==='civ-card-200')?.bullets.some(x=>x.includes('제6조의3')&&x.includes('거절사유')),'housing renewal exception missing');
 
+
+const civilV191ReviewedIds=["civ-card-087","civ-card-088","civ-card-103","civ-card-104","civ-card-105","civ-card-106","civ-card-112","civ-card-113","civ-card-118","civ-card-214","civ-card-229","civ-card-230"];
+for(const id of civilV191ReviewedIds){
+  const c=cards.find(x=>x.id===id);
+  need(c?.subject==='civil_law'&&c.sourceKind==='summary+official',id+': v1.91 review source kind missing');
+  need(c?.sourceRef.includes('law.go.kr')||c?.sourceRef.includes('easylaw.go.kr'),id+': official source URL missing');
+  need(c?.bullets.length===2&&c.sourceNote.includes('2026-10-09'),id+': v1.91 two legal points and memo required');
+}
+need(civilV191ReviewedIds.length===12,'v1.91 reviewed count must be 12');
+need(cards.find(c=>c.id==='civ-card-104')?.bullets.some(x=>x.includes('제88조')&&x.includes('청구권')),'provisional registration legal purpose missing');
+need(cards.find(c=>c.id==='civ-card-105')?.bullets.some(x=>x.includes('제92조')&&x.includes('직권말소')),'principal registration junior interests exception missing');
+need(cards.find(c=>c.id==='civ-card-106')?.bullets.some(x=>x.includes('전원')&&x.includes('합의')),'intermediate title-omission unanimous agreement condition missing');
+need(cards.find(c=>c.id==='civ-card-112')?.bullets.some(x=>x.includes('저당권')&&x.includes('토지')),'standing timber registration independent mortgage missing');
+need(cards.find(c=>c.id==='civ-card-113')?.bullets.some(x=>x.includes('저당권')&&x.includes('구별')),'customary tree ownership marking must not be conflated with mortgage');
+need(cards.find(c=>c.id==='civ-card-118')?.bullets.some(x=>x.includes('제197조')&&x.includes('추정')),'other-person possession legal presumption exception missing');
+need(cards.find(c=>c.id==='civ-card-214')?.bullets.some(x=>x.includes('대물변제')&&x.includes('청산')),'title-transfer collateral vs payment distinction missing');
+need(cards.find(c=>c.id==='civ-card-229')?.bullets.some(x=>x.includes('명의신탁약정')&&x.includes('제외')),'sectional sharing statute definition exception missing');
+need(cards.find(c=>c.id==='civ-card-230')?.bullets.some(x=>x.includes('상대방 선의')&&x.includes('제3자')),'title-registration entrustment third-party exceptions missing');
+
 const illustratedCivil=cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===57,'civil diagrams must apply to 57 statute-reviewed cards');
 const diagramCardIds=["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"];
