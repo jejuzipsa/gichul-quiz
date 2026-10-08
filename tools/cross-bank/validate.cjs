@@ -190,6 +190,48 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(count,75,'all 75 property-origin derived quiz source snapshots audited');
 }
+// v1.99: contract-law questions are same-topic truth tests with immutable answer keys.
+{
+  const byId=new Map(compileSubject('civil_law').questions.map(q=>[q.id,q]));
+  const trueAnswers=new Set([...byId.values()].map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['CVK039','제536조',0],['CVK040','제537조',1],
+    ['CVK041','제539조',0],['CVK042','제544조',3],
+    ['CVK043','제545조',2],['CVK044','제548조',2],
+    ['CVK045','제550조',3],['CVK046','제565조',0],
+    ['CVK047','제563조',1],['CVK048','제568조',3],
+    ['CVK049','제618조',3],['CVK050','제623조',0],
+    ['CVK051','제626조',1],['CVK052','제640조',2]
+  ];
+  const ids=new Set(expected.map(x=>x[0]));
+  for(const [id,law,correct] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': reviewed law question must exist');
+    assert.equal(q.sourceLaw,'민법',id+': law source');
+    assert.equal(q.sourceArticle,law,id+': article');
+    assert.equal(q.answer,correct,id+': preserved answer position');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': same-topic question');
+    assert.ok(q.explanation.includes('민법 '+law),id+': law cited in explanation');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': individual verification date');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': distinct options');
+    for(let i=0;i<4;i++)if(i!==correct)
+      assert.ok(!trueAnswers.has(normalize(q.choices[i])),id+': incorrect choice cannot be another correct claim');
+  }
+  const {parseBlock,parseBlocks}=require('../blank-bank/compile-v2.cjs');
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/02_civil_law_final.txt'),'utf8');
+  let count=0;
+  for(const raw of parseBlocks(source)){
+    const b=parseBlock(raw);
+    if(!ids.has(b.originQuestionId))continue;
+    const q=byId.get(b.originQuestionId);
+    assert.equal(b.sourceQuestion,q.question,b.id+': source question should match');
+    const label='[원본 정답]';
+    assert.ok(raw.includes(label),b.id+': missing source answer');
+    assert.equal(raw.slice(raw.indexOf(label)+label.length).trim(),q.choices[q.answer],b.id+': canonical answer snapshot');
+    count++;
+  }
+  assert.equal(count,57,'contract law blank-bank source snapshots reviewed');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
