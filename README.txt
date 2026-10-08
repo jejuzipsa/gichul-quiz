@@ -1,7 +1,7 @@
 ﻿공인중개사 기출문제 사이트
 
 현재 버전
-- v1.69
+- v1.70
 - 기출문제 총 1000문항
 - 2021년 제32회 ~ 2025년 제36회
 - PC / 모바일 반응형
@@ -13,10 +13,11 @@
    - 공인중개사법령 및 중개실무 204장
    - 부동산공법 234장
    - 부동산공시법 199장
-   - 총 1,054장
-   - 원본: review/core-cards-v1/01_real_estate_intro.txt, 02_civil_law.txt, 03_brokerage_law.txt, 04_public_law.txt, 05_registration_law.txt
+   - 부동산세법 187장
+   - 총 1,241장
+   - 원본: review/core-cards-v1/01_real_estate_intro.txt, 02_civil_law.txt, 03_brokerage_law.txt, 04_public_law.txt, 05_registration_law.txt, 06_tax_law.txt
    - 카드 선정 우선순위: 기출 등장 > 핵심요약 등장 > 과목 필수 기본어
-   - 민법·중개사법·공법·공시법은 2021~2025 기출 등장 횟수와 중요도 메타데이터 자동 계산
+   - 민법·중개사법·공법·공시법·세법은 2021~2025 기출 등장 횟수와 중요도 메타데이터 자동 계산
    - 새 기출 추가 시 tools/core-cards/reindex.cjs 로 빈도/중요도 갱신
    - 모바일/좁은 화면 1장, 넓은 PC 화면 최대 3장
    - 중요/외움 상태 저장, 검색/과목 선택 지원
