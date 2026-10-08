@@ -8920,16 +8920,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "물권법정주의",
       "subtitle": "법률 또는 관습법 외에는 물권을 임의로 만들 수 없다는 원칙",
       "bullets": [
-        "물권의 종류와 내용을 당사자가 마음대로 창설하지 못함"
+        "물권은 법률 또는 관습법으로 인정된 종류와 내용 외에는 당사자가 임의로 만들 수 없음",
+        "계약자유의 원칙만으로 새로운 물권을 창설하는 것은 허용되지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제185조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -8942,7 +8943,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-052"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p10 · 물권법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제185조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-090",
@@ -9179,16 +9180,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "물권적 청구권",
       "subtitle": "물권 침해의 제거·예방 등을 청구하는 권리",
       "bullets": [
-        "반환청구·방해제거청구·방해예방청구로 구분"
+        "소유자는 점유자에게 반환을 청구하고 소유권 방해의 제거·예방을 청구할 수 있음",
+        "반환청구와 방해제거·방해예방청구는 상대방의 점유 침탈 여부에 따라 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제213조·제214조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -9209,7 +9211,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-051"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제213조·제214조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-098",
@@ -9220,16 +9222,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "반환청구권",
       "subtitle": "물권자가 점유를 빼앗겼을 때 반환을 요구하는 청구권",
       "bullets": [
-        "소유권·지상권·전세권 등 본권에 기한 반환청구가 문제됨"
+        "소유자는 물건을 점유한 자에게 그 반환을 청구할 수 있음",
+        "점유자가 물건을 점유할 정당한 권리가 있으면 소유자의 반환청구를 거절할 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제213조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -9251,7 +9254,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-079"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제213조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-099",
@@ -9262,16 +9265,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "방해제거청구권",
       "subtitle": "현재 계속되는 물권 방해를 없애라고 요구하는 권리",
       "bullets": [
-        "점유를 빼앗긴 경우가 아닌 현재의 방해 제거를 청구"
+        "소유권에 대한 현재의 방해가 있으면 방해 제거를 청구할 수 있음",
+        "물건의 점유 자체를 잃은 때의 반환청구권과는 구분"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제214조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -9279,7 +9283,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제214조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-100",
@@ -9290,16 +9294,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "방해예방청구권",
       "subtitle": "장래의 물권 방해를 미리 막아 달라고 요구하는 권리",
       "bullets": [
-        "방해의 염려가 있을 때 예방 또는 담보를 청구"
+        "소유권을 방해할 염려가 있으면 방해 예방 또는 손해배상 담보를 청구할 수 있음",
+        "현존 방해 제거청구와 미래 방해 예방청구를 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제214조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -9307,7 +9312,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제214조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-101",
@@ -9357,7 +9362,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "등기",
       "subtitle": "부동산 물권변동의 대표적 공시방법",
       "bullets": [
-        "법률행위에 의한 부동산 물권변동은 원칙적으로 등기가 있어야 효력 발생"
+        "법률행위로 인한 부동산 물권변동은 원칙적으로 등기하여야 효력이 생김",
+        "상속·공용징수·판결·경매 등 법률 규정에 의한 물권취득은 제187조의 예외를 검토"
       ],
       "formula": "",
       "visual": "none",
@@ -9365,8 +9371,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "2.공인중개사요약_민법.pdf p11 + 국가법령정보센터 「민법」 제186조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제186조·제187조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -9392,7 +9398,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-075"
       ],
       "importance": 5,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p11 + 국가법령정보센터 「민법」 제186조"
+      "sourceLabel": "국가법령정보센터 「민법 제186조·제187조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-103",
@@ -9560,16 +9566,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "인도",
       "subtitle": "동산의 점유를 넘겨주는 공시방법",
       "bullets": [
-        "동산 물권 양도는 원칙적으로 인도가 있어야 효력 발생"
+        "동산 물권을 양도할 때에는 원칙적으로 물건의 인도가 있어야 효력 발생",
+        "간이인도·점유개정·목적물반환청구권 양도 등 법률상 인도방법과 구분"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제188조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -9595,7 +9602,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-053"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "국가법령정보센터 「민법 제188조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-108",
@@ -9693,16 +9700,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "선의취득",
       "subtitle": "무권리자로부터 동산을 취득해도 일정 요건 아래 소유권을 얻는 제도",
       "bullets": [
-        "평온·공연한 양수와 선의·무과실 등 법정요건을 충족하면 보호"
+        "거래행위로 평온·공연하게 동산을 양수하고 선의·무과실로 점유하면 선의취득 가능",
+        "도품·유실물은 원칙적으로 2년 내 회복청구의 특칙 등이 적용되므로 별도 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제249조·제250조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -9710,7 +9718,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "국가법령정보센터 「민법 제249조·제250조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-112",
@@ -9782,16 +9790,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유",
       "subtitle": "물건을 사실상 지배하는 상태",
       "bullets": [
-        "사실상 지배가 있고 외부에서 인식 가능한 상태"
+        "점유는 물건에 대한 사실상 지배로 취득하며 본권 보유 여부와 구별",
+        "점유를 유지할 객관적 지배 상태와 점유보조자·간접점유의 구별이 중요"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제192조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -9817,7 +9826,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-056"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제192조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-115",
@@ -9828,16 +9837,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유보조자",
       "subtitle": "타인의 지시를 받아 사실상 지배하는 사람",
       "bullets": [
-        "가사·영업상 관계 등으로 지시를 받아 지배하면 지시한 사람만 점유자"
+        "가사·영업 기타 유사한 관계로 타인의 지시를 받아 물건을 사실상 지배하면 점유보조자",
+        "이 경우 점유자는 지시를 하는 사람이며 점유보조자에게 독립된 점유권을 인정하지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제195조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -9845,7 +9855,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제195조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-116",
@@ -9893,16 +9903,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "자주점유",
       "subtitle": "소유의 의사로 하는 점유",
       "bullets": [
-        "자기 물건처럼 소유할 의사로 점유"
+        "소유의 의사로 점유하는 자주점유는 점유자의 내심만이 아니라 권원의 객관적 성질로 판단",
+        "점유자는 소유의 의사로 평온·공연하게 점유한 것으로 추정되는 것이 원칙"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제197조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -9918,7 +9929,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-054"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제197조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-118",
@@ -10020,18 +10031,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유물반환청구권",
       "subtitle": "점유를 빼앗긴 자가 반환을 청구하는 권리",
       "bullets": [
-        "점유 침탈이 있는 경우 점유 자체의 보호를 위해 행사"
+        "점유를 침탈당한 자는 물건의 반환과 손해배상을 청구할 수 있음",
+        "침탈일부터 1년 이내에 행사해야 하며 선의의 특별승계인 등에 대한 예외가 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "점유회수청구권"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제204조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10046,7 +10058,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-053"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p13 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제204조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-122",
@@ -10057,18 +10069,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유물방해제거청구권",
       "subtitle": "점유 방해의 제거와 손해배상을 청구하는 권리",
       "bullets": [
-        "현재 점유가 방해받고 있을 때 행사"
+        "점유 방해를 받은 자는 방해 제거와 손해배상을 청구할 수 있음",
+        "방해가 종료한 날부터 1년 내 행사 등 법정 행사기간과 예외를 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "점유보유청구권"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제205조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -10076,7 +10089,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p13 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제205조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-123",
@@ -10087,16 +10100,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유보전청구권",
       "subtitle": "점유 방해의 예방이나 담보를 청구하는 권리",
       "bullets": [
-        "점유 방해의 염려가 있을 때 예방적으로 행사"
+        "점유를 방해받을 염려가 있으면 예방 또는 손해배상 담보를 청구할 수 있음",
+        "제204조의 침탈 및 제205조의 현재 방해와 법률효과를 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제206조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -10104,7 +10118,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p13 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제206조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-124",
@@ -10115,16 +10129,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "자력구제",
       "subtitle": "법원의 절차 전 긴급하게 스스로 점유침해를 막는 제도",
       "bullets": [
-        "법정요건 아래 즉시 침탈자를 배제하거나 점유물을 회수하는 예외적 구제"
+        "점유자는 점유에 대한 부정한 침탈 또는 방해를 자력으로 방위할 수 있음",
+        "점유물 탈환은 부동산은 침탈 직후, 동산은 현장에서 또는 추적해 즉시 회수하는 경우로 제한"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 13,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제209조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -10132,7 +10147,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p13 · 물권법·점유권"
+      "sourceLabel": "국가법령정보센터 「민법 제209조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-125",
@@ -10176,16 +10191,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주위토지통행권",
       "subtitle": "공로로 나갈 통로가 없는 토지의 통행을 위한 권리",
       "bullets": [
-        "필요한 범위에서 주위 토지를 통행할 수 있게 하는 상린관계"
+        "공로로 나갈 통로가 없는 토지소유자는 주변 토지를 필요한 범위에서 통행하거나 통로를 개설할 수 있음",
+        "가장 손해가 적은 장소·방법을 택해야 하며 원칙적으로 통행지 소유자의 손해를 보상"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 14,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제219조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10198,7 +10214,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-056"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p14 · 물권법·소유권"
+      "sourceLabel": "국가법령정보센터 「민법 제219조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-127",
@@ -10255,17 +10271,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "점유취득시효",
       "subtitle": "장기간 자주·평온·공연 점유 후 등기로 소유권을 취득",
       "bullets": [
-        "민법 제245조 제1항 유형",
-        "법정기간 점유 후 등기를 해야 소유권을 취득"
+        "20년간 소유의 의사로 평온·공연하게 부동산을 점유하면 등기로 소유권 취득",
+        "점유기간 완성만으로 즉시 등기 없이 소유권 취득하는 것은 아님"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_acquisitive_timeline",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "2.공인중개사요약_민법.pdf p15 + 국가법령정보센터 「민법」 제245조 제1항",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제245조제1항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10287,7 +10303,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-078"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p15 + 국가법령정보센터 「민법」 제245조 제1항"
+      "sourceLabel": "국가법령정보센터 「민법 제245조제1항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-129",
@@ -10298,17 +10314,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "등기부취득시효",
       "subtitle": "소유자로 등기한 선의·무과실 점유자의 취득시효",
       "bullets": [
-        "민법 제245조 제2항 유형",
-        "등기와 선의·무과실 등의 법정요건이 필요"
+        "소유자로 등기한 자가 선의·무과실로 평온·공연하게 10년 점유하면 소유권 취득",
+        "20년 점유취득시효와 달리 등기명의와 선의·무과실 요건을 구별"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_acquisitive_timeline",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 15,
       "sourceSection": "물권법·소유권",
-      "sourceRef": "2.공인중개사요약_민법.pdf p15 + 국가법령정보센터 「민법」 제245조 제2항",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제245조제2항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -10316,7 +10332,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p15 + 국가법령정보센터 「민법」 제245조 제2항"
+      "sourceLabel": "국가법령정보센터 「민법 제245조제2항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-130",
@@ -10530,16 +10546,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "공유물분할청구권",
       "subtitle": "공유관계를 끝내기 위해 공유물 분할을 요구하는 권리",
       "bullets": [
-        "각 공유자는 원칙적으로 언제든지 분할을 청구할 수 있음"
+        "공유자는 원칙적으로 공유물 분할을 청구할 수 있음",
+        "분할하지 않기로 하는 약정은 5년 이내에서 가능하며 공유물 분할은 법정 예외도 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제268조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -10547,7 +10564,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p16 · 물권법·공동소유"
+      "sourceLabel": "국가법령정보센터 「민법 제268조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-137",
@@ -10558,16 +10575,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "합유",
       "subtitle": "조합체 구성원이 단체관계에 따라 공동소유하는 형태",
       "bullets": [
-        "합유지분 처분과 분할이 공유보다 강하게 제한"
+        "합유물은 조합체의 합유자들이 공동소유하며 처분·변경에는 합유자 전원의 동의가 필요",
+        "합유지분 처분에는 전원의 동의가 필요하고 공유와 달리 분할청구가 제한됨"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제271조·제273조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10584,7 +10602,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-054"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p16 · 물권법·공동소유"
+      "sourceLabel": "국가법령정보센터 「민법 제271조·제273조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-138",
@@ -10595,16 +10613,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "총유",
       "subtitle": "법인 아닌 사단 구성원이 지분 없이 공동소유하는 형태",
       "bullets": [
-        "관리·처분은 사원총회 결의 등 단체의 의사에 따름"
+        "총유는 법인이 아닌 사단의 구성원이 집합체로 물건을 소유하는 형태",
+        "관리·처분은 사원총회 결의에 의하고 각 사원이 개인 지분을 소유하지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 16,
       "sourceSection": "물권법·공동소유",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제275조·제276조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10617,7 +10636,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-057"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p16 · 물권법·공동소유"
+      "sourceLabel": "국가법령정보센터 「민법 제275조·제276조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-139",
@@ -10628,16 +10647,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "지상권",
       "subtitle": "타인의 토지에서 건물·공작물·수목을 소유하기 위한 물권",
       "bullets": [
-        "타인의 토지를 사용하는 대표적 용익물권"
+        "지상권자는 타인의 토지에서 건물·공작물·수목을 소유하기 위해 토지를 사용할 권리가 있음",
+        "토지를 단지 임차해 사용하는 채권적 임차권과 구분되는 물권"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제279조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10663,7 +10683,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-059"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p17 · 물권법·용익물권"
+      "sourceLabel": "국가법령정보센터 「민법 제279조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-140",
@@ -10749,16 +10769,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "분묘기지권",
       "subtitle": "타인 토지의 분묘기지를 사용할 수 있는 관습법상 권리",
       "bullets": [
-        "분묘의 설치·존속과 관련해 판례상 인정되는 관습법상 권리"
+        "분묘기지권은 성립 원인에 따라 지료 지급 시점이 달라지는 관습법상 권리",
+        "시효취득형은 토지소유자가 지료를 청구한 날부터 지급하고 다른 성립유형은 별도로 판단"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_grave_rent",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 17,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「대법원 2017다228007·2017다271834 판결」 https://law.go.kr/precInfoP.do?mode=0&precSeq=226859",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10773,7 +10794,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-058"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p17 · 물권법·용익물권"
+      "sourceLabel": "국가법령정보센터 「대법원 2017다228007·2017다271834 판결」 https://law.go.kr/precInfoP.do?mode=0&precSeq=226859"
     },
     {
       "id": "civ-card-143",
@@ -10903,16 +10924,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "전세권",
       "subtitle": "전세금을 지급하고 부동산을 사용·수익하며 우선변제받는 물권",
       "bullets": [
-        "등기로 성립하는 용익물권이면서 담보적 기능도 가짐"
+        "전세금 지급·등기를 통해 성립하는 물권으로 부동산을 사용·수익하고 전세금 우선변제 가능",
+        "전세금 반환이 지체되면 법정요건에서 목적 부동산 경매청구권 행사 가능"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 18,
       "sourceSection": "물권법·용익물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제303조·제318조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -10938,7 +10960,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-060"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p18 · 물권법·용익물권"
+      "sourceLabel": "국가법령정보센터 「민법 제303조·제318조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-147",
@@ -11072,16 +11094,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "유치권",
       "subtitle": "채권 변제 때까지 관련 물건의 반환을 거절하는 법정담보물권",
       "bullets": [
-        "타인의 물건을 점유하고 그 물건에 관해 생긴 채권이 변제기에 있으면 성립 가능"
+        "타인의 물건 또는 유가증권을 점유하고 그 물건에 관해 생긴 변제기 도래 채권이 있어야 유치권 성립",
+        "불법행위로 점유하게 된 경우에는 성립하지 않으며 점유를 잃으면 유치권도 소멸할 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제320조·제321조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -11105,7 +11128,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-064"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p19 · 물권법·담보물권"
+      "sourceLabel": "국가법령정보센터 「민법 제320조·제321조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-152",
@@ -11269,18 +11292,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "일괄경매청구권",
       "subtitle": "저당토지와 그 위 건물을 함께 경매해 달라고 청구하는 권리",
       "bullets": [
-        "법정요건 아래 토지저당권자가 토지와 건물을 일괄경매할 수 있음"
+        "토지에 저당권 설정 후 설정자가 건물을 축조하면 저당권자가 토지·건물 일괄경매 청구 가능",
+        "일괄경매할 수 있더라도 건물의 경매대가에 대해 우선변제받을 권리는 없음"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_joint_auction",
       "aliases": [
         "일괄경매"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 21,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제365조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -11293,7 +11317,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-064"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p21 · 물권법·담보물권"
+      "sourceLabel": "국가법령정보센터 「민법 제365조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-157",
@@ -11333,18 +11357,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "근저당권",
       "subtitle": "계속적 거래의 불특정 채권을 최고액 범위에서 담보하는 저당권",
       "bullets": [
-        "채무 최고액을 정하고 채무 확정을 장래에 보류하는 저당권"
+        "근저당권은 담보할 채무의 최고액을 정하고 채무 확정을 장래에 보류한 저당권",
+        "확정 전에는 피담보채권의 증감·교체가 가능하며 확정 후에는 일반 저당권에 가까워짐"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "근저당"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 21,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제357조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -11362,7 +11387,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-064"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p21 · 물권법·담보물권"
+      "sourceLabel": "국가법령정보센터 「민법 제357조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-159",
@@ -11706,16 +11731,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "교차청약",
       "subtitle": "서로 같은 내용의 청약이 교차하는 경우",
       "bullets": [
-        "두 청약이 상대방에게 도달한 때 계약 성립을 판단"
+        "당사자 쌍방이 서로 같은 내용의 청약을 했을 때 양 청약이 각 상대방에게 도달하면 계약이 성립",
+        "청약만 도달했다고 항상 계약이 되는 것은 아니며 청약 내용의 합치가 필요"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제533조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -11723,7 +11749,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제533조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-169",
@@ -11734,16 +11760,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "의사실현",
       "subtitle": "승낙 통지 없이 행동으로 승낙 의사가 실현되는 경우",
       "bullets": [
-        "관습 또는 청약자의 의사에 의해 승낙 통지가 필요 없을 때 문제됨"
+        "관습 또는 청약자의 의사표시로 승낙 통지가 필요하지 않을 때에는 승낙 사실이 있으면 계약 성립",
+        "당사자 의사를 전혀 확인하지 않고 단순한 침묵을 승낙으로 볼 수는 없음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제532조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -11751,7 +11778,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "국가법령정보센터 「민법 제532조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-170",
@@ -11790,7 +11817,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "동시이행항변권",
       "subtitle": "상대방 이행제공 전까지 자기 이행을 거절하는 권리",
       "bullets": [
-        "쌍무계약에서 대가적 채무가 서로 견련될 때 인정"
+        "쌍무계약에서는 상대방이 채무이행을 제공할 때까지 자기 채무이행을 거절할 수 있음",
+        "상대방 채무가 아직 변제기에 있지 않으면 원칙적으로 적용되지 않으며 불안의 항변권은 별도"
       ],
       "formula": "",
       "visual": "none",
@@ -11800,8 +11828,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·효력",
-      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법」 제536조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -11814,7 +11842,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-068"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법」 제536조"
+      "sourceLabel": "국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-172",
@@ -11825,7 +11853,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "위험부담",
       "subtitle": "쌍무계약의 이행불능 위험을 누가 부담하는지의 문제",
       "bullets": [
-        "쌍방 책임 없는 이행불능이면 채무자는 상대방 이행을 청구하지 못함"
+        "쌍방 책임 없는 이행불능이면 채무자는 반대급부의 이행을 청구할 수 없음",
+        "채권자에게 책임 있는 이행불능이나 수령지체 중 이행불능은 제538조의 별도 원칙 적용"
       ],
       "formula": "",
       "visual": "none",
@@ -11833,8 +11862,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 23,
       "sourceSection": "계약법·효력",
-      "sourceRef": "2.공인중개사요약_민법.pdf p23 + 국가법령정보센터 「민법」 제537조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제537조·제538조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -11842,7 +11871,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p23 + 국가법령정보센터 「민법」 제537조"
+      "sourceLabel": "국가법령정보센터 「민법 제537조·제538조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-173",
@@ -11853,16 +11882,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "제3자를 위한 계약",
       "subtitle": "계약 당사자가 제3자에게 급부하도록 약정하는 계약",
       "bullets": [
-        "요약자와 낙약자의 계약으로 제3자가 급부를 받을 수 있게 함"
+        "제3자를 위한 계약은 요약자와 낙약자의 계약으로 수익자인 제3자에게 권리 취득 가능",
+        "제3자가 낙약자에게 계약 이익을 받을 의사를 표시하면 직접 청구할 권리가 생김"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 23,
       "sourceSection": "계약법·효력",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제539조·제540조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -11881,7 +11911,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-070"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p23 · 계약법·효력"
+      "sourceLabel": "국가법령정보센터 「민법 제539조·제540조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-174",
@@ -11937,16 +11967,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "이행지체",
       "subtitle": "이행이 가능하지만 이행기까지 채무를 이행하지 않은 상태",
       "bullets": [
-        "상당한 기간을 정한 최고 후 해제 등과 연결"
+        "채무 이행기에 이행하지 않으면 이행지체가 문제되며 불이행 유형·기산점을 구별",
+        "계약 해제는 원칙적으로 상당한 기간을 정해 이행을 최고하고 기간 내 불이행해야 가능"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제387조·제544조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -11961,7 +11992,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-051"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p24 · 계약법·해제·해지"
+      "sourceLabel": "국가법령정보센터 「민법 제387조·제544조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-176",
@@ -12012,16 +12043,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "해제",
       "subtitle": "유효한 계약을 소급적으로 없애는 일방적 의사표시",
       "bullets": [
-        "법정 또는 약정 해제권을 행사하면 계약관계를 소급적으로 청산"
+        "해제하면 원칙적으로 처음부터 계약이 없었던 것으로 보고 당사자가 원상회복의무를 부담",
+        "해제는 제3자의 권리를 해하지 못하므로 독립한 권리를 얻은 제3자 보호 여부 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제548조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12047,7 +12079,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-071"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p24 · 계약법·해제·해지"
+      "sourceLabel": "국가법령정보센터 「민법 제548조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-178",
@@ -12058,16 +12090,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "해지",
       "subtitle": "계속적 계약관계를 장래를 향해 끝내는 의사표시",
       "bullets": [
-        "임대차 같은 계속적 계약을 장래에 향해 종료"
+        "계속적 계약을 해지하면 원칙적으로 장래에 향하여 효력을 잃음",
+        "이미 이행된 부분의 효력은 보통 유지되며 계약 해제의 소급효와 구분"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 24,
       "sourceSection": "계약법·해제·해지",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제550조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12093,7 +12126,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-072"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p24 · 계약법·해제·해지"
+      "sourceLabel": "국가법령정보센터 「민법 제550조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-179",
@@ -12185,16 +12218,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "매매예약",
       "subtitle": "장래 매매를 완결할 수 있도록 미리 약정하는 계약",
       "bullets": [
-        "일방예약은 예약완결권 행사가 있으면 매매 효력이 생김"
+        "매매의 일방예약은 상대방이 매매를 완결할 의사를 표시하면 본계약 효력이 생김",
+        "행사기간 약정이 없으면 예약자는 상당기간을 정해 확답을 최고할 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제564조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12211,7 +12245,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-071"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p26 · 계약법·매매"
+      "sourceLabel": "국가법령정보센터 「민법 제564조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-182",
@@ -12222,16 +12256,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "예약완결권",
       "subtitle": "매매예약에서 본계약을 성립시키는 형성권",
       "bullets": [
-        "일방예약의 권리자가 완결 의사를 표시하면 본계약 성립"
+        "일방예약의 예약완결권은 완결 의사표시만으로 매매 효력을 발생시키는 형성권",
+        "완결권 존속기간·최고 등은 제564조와 관련 판례에서 별도 검토"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제564조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12248,7 +12283,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-069"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p26 · 계약법·매매"
+      "sourceLabel": "국가법령정보센터 「민법 제564조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-183",
@@ -12259,16 +12294,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "계약금",
       "subtitle": "계약 체결 때 당사자 사이에 주고받는 금전 또는 물건",
       "bullets": [
-        "특약이 없으면 해약금 성질이 문제될 수 있음"
+        "계약금이 지급되면 별도 약정이 없는 한 매매에서 해약금 성질이 인정될 수 있음",
+        "계약금 지급과 손해배상액 예정·위약벌 약정은 같은 개념이 아니므로 별도 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 26,
       "sourceSection": "계약법·매매",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제565조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12289,7 +12325,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-072"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p26 · 계약법·매매"
+      "sourceLabel": "국가법령정보센터 「민법 제565조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-184",
@@ -12637,16 +12673,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "필요비",
       "subtitle": "목적물을 보존·유지하기 위해 지출한 비용",
       "bullets": [
-        "임차인이 지출한 보존비 등은 비용상환청구 대상이 될 수 있음"
+        "임차인이 임차물 보존에 관한 필요비를 지출하면 임대인에게 그 상환을 청구 가능",
+        "유익비와 달리 필요비는 목적물 가치 증가의 현존을 요구하지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제626조제1항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12668,7 +12705,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-072"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제626조제1항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-193",
@@ -12679,16 +12716,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "유익비",
       "subtitle": "목적물 가치를 증가시키기 위해 지출한 비용",
       "bullets": [
-        "가치 증가가 현존하는 범위에서 임대차 종료 시 상환 문제가 생김"
+        "유익비는 임대차 종료 시 그 지출로 늘어난 목적물 가치가 현존할 때 상환 가능",
+        "임대인은 임차인의 지출액 또는 증가액을 선택해 상환하고 법원은 상환기간을 허여할 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제626조제2항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12702,7 +12740,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-073"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제626조제2항」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-194",
@@ -12713,16 +12751,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "지상물매수청구권",
       "subtitle": "토지임차인이 일정 요건에서 지상물 매수를 요구하는 권리",
       "bullets": [
-        "건물 등 지상물을 보호하기 위해 인정되는 형성권"
+        "건물·공작물 소유 등을 위한 토지임대차 기간 만료 시 시설이 현존하면 갱신·매수청구 문제 발생",
+        "임대인이 갱신을 원하지 않을 때 법정요건 아래 지상물매수청구권 행사 가능"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제283조·제643조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12742,7 +12781,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-073"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제283조·제643조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-195",
@@ -12753,16 +12792,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "부속물매수청구권",
       "subtitle": "건물임차인이 일정 요건에서 부속물 매수를 요구하는 권리",
       "bullets": [
-        "임대인 동의로 부속한 물건 등 일정한 경우 인정되는 형성권"
+        "임차인이 사용 편익을 위해 임대인 동의를 얻어 부속한 물건은 종료 시 매수청구 가능",
+        "임대인으로부터 매수한 부속물에도 제646조의 매수청구권이 적용될 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제646조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12775,7 +12815,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-073"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제646조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-196",
@@ -12786,16 +12826,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "임차권 양도",
       "subtitle": "임차인이 임차권을 제3자에게 이전하는 것",
       "bullets": [
-        "원칙적으로 임대인 동의 없이 양도할 수 없음"
+        "임차인은 임대인의 동의 없이 임차권을 양도할 수 없는 것이 원칙",
+        "무단 양도는 계약 해지 사유가 될 수 있으나 구체적 신뢰관계 파괴 여부 등 판례상 예외 검토"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제629조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -12803,7 +12844,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제629조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-197",
@@ -12814,16 +12855,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "전대",
       "subtitle": "임차인이 임차물을 다시 제3자에게 임대하는 것",
       "bullets": [
-        "원칙적으로 임대인의 동의 없이 전대할 수 없음"
+        "임차물 전대에는 원칙적으로 임대인의 동의가 필요하며 무단 전대 시 계약 해지 문제",
+        "동의받은 전대에서는 전차인이 임대인에 대해 직접 의무를 부담"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제629조·제630조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12839,7 +12881,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-072"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제629조·제630조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-198",
@@ -12850,16 +12892,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "전차인",
       "subtitle": "임차인으로부터 다시 임차한 사람",
       "bullets": [
-        "적법한 전대에서는 임대인과도 일정한 직접 관계가 생김"
+        "적법한 전대의 전차인은 임대인에 대해 직접 의무를 부담하지만 임차인과의 관계도 존속",
+        "전차인이 전대인에게 차임을 지급했다는 사정만으로 임대인에게 대항할 수는 없음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제630조·제631조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -12867,7 +12910,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「민법 제630조·제631조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-199",
@@ -12878,16 +12921,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "묵시적 갱신",
       "subtitle": "기간 만료 후 이의 없이 관계가 계속되어 갱신되는 것",
       "bullets": [
-        "법률이 정한 요건에서 종전 임대차가 묵시적으로 갱신"
+        "주택 임대인이 종료 6개월 전부터 2개월 전까지 갱신거절 등을 통지하지 않으면 묵시적 갱신 문제",
+        "묵시적으로 갱신되면 임차인은 언제든 해지통지할 수 있고 임대인 수령 후 3개월 뒤 효력 발생"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_housing_renewal",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 28,
       "sourceSection": "계약법·임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법 제6조·제6조의2」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -12902,7 +12946,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-075"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p28 · 계약법·임대차"
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법 제6조·제6조의2」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248"
     },
     {
       "id": "civ-card-200",
@@ -13059,8 +13103,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택 최우선변제권",
       "subtitle": "소액임차인의 보증금 중 일정액을 먼저 변제받는 권리",
       "bullets": [
-        "법정 요건을 갖춘 소액임차인의 보증금 일부를 우선 보호",
-        "지역별 금액기준은 변동 가능해 카드에서 숫자를 제외"
+        "소액임차인은 주택 인도와 주민등록을 경매신청 등기 전에 갖추면 보증금 중 일정액 최우선변제 가능",
+        "보호액·소액임차인 범위는 지역·담보권 설정시기 등에 따라 다르므로 시행령 및 부칙 확인"
       ],
       "formula": "",
       "visual": "none",
@@ -13070,8 +13114,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 33,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p33 + 국가법령정보센터 「주택임대차보호법」",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법 제8조·시행령」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13079,7 +13123,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p33 + 국가법령정보센터 「주택임대차보호법」"
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법 제8조·시행령」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248"
     },
     {
       "id": "civ-card-205",
@@ -13090,8 +13134,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택 임차권등기명령",
       "subtitle": "보증금 미반환 시 임차권등기를 법원에 신청하는 제도",
       "bullets": [
-        "임대차 종료 후 보증금이 반환되지 않으면 신청 가능",
-        "등기 후 이사해도 기존 대항력·우선변제권을 유지할 수 있음"
+        "임대차 종료 후 보증금을 반환받지 못하면 임차권등기명령을 신청 가능",
+        "임차권등기 완료 뒤 종전 대항요건을 상실하더라도 기존 대항력·우선변제권은 유지"
       ],
       "formula": "",
       "visual": "none",
@@ -13101,8 +13145,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 32,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」 제3조의3",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법 제3조의3」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13117,7 +13161,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-080"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p32 + 국가법령정보센터 「주택임대차보호법」 제3조의3"
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법 제3조의3」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248"
     },
     {
       "id": "civ-card-206",
@@ -13128,16 +13172,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택임차권 승계",
       "subtitle": "임차인 사망 등에서 주택임차권을 일정 범위에서 승계하는 제도",
       "bullets": [
-        "법정요건에 따라 사실혼 배우자 등에게 임차권·권리의무 승계가 문제됨"
+        "임차인 사망 시 사실혼 배우자·공동생활 가족 등의 승계 여부는 동거관계와 법정 순위에 따라 판단",
+        "임차권 승계는 모든 동거인에게 무조건 인정되지 않으므로 법률상 요건을 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 33,
       "sourceSection": "민사특별법·주택임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법 제9조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13145,7 +13190,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p33 · 민사특별법·주택임대차"
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법 제9조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248"
     },
     {
       "id": "civ-card-207",
@@ -13156,7 +13201,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상가건물 임대차보호법",
       "subtitle": "상가건물 임차인을 보호하기 위한 민법 특례법",
       "bullets": [
-        "상가 임차인의 대항력·보증금 회수·계약갱신·권리금 등을 보호"
+        "상가 임차인의 대항력·보증금 회수·갱신요구·권리금 및 관리비 관련 권리를 보호",
+        "2026년 5월 시행 개정으로 일정 요건에서 임대인의 관리비 내역 제공 의무가 추가됨"
       ],
       "formula": "",
       "visual": "none",
@@ -13166,8 +13212,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 34,
       "sourceSection": "민사특별법·상가임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「상가건물 임대차보호법 제3조·제10조·제19조의2」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13180,7 +13226,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-079"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」"
+      "sourceLabel": "국가법령정보센터 「상가건물 임대차보호법 제3조·제10조·제19조의2」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95"
     },
     {
       "id": "civ-card-208",
@@ -13191,7 +13237,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상가임대차 대항력",
       "subtitle": "상가 임차권을 양수인 등 제3자에게 주장할 수 있는 효력",
       "bullets": [
-        "건물 인도와 사업자등록 신청을 갖추면 법정 시점부터 대항력 발생"
+        "상가건물 인도와 사업자등록 신청을 갖춘 다음 날부터 제3자에 대하여 대항력 발생",
+        "주택임대차의 주민등록과 달리 상가임대차는 사업자등록 신청을 요구"
       ],
       "formula": "",
       "visual": "none",
@@ -13201,8 +13248,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 34,
       "sourceSection": "민사특별법·상가임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제3조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「상가건물 임대차보호법 제3조」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13210,7 +13257,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제3조"
+      "sourceLabel": "국가법령정보센터 「상가건물 임대차보호법 제3조」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95"
     },
     {
       "id": "civ-card-209",
@@ -13221,7 +13268,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상가 우선변제권",
       "subtitle": "후순위권리자보다 먼저 상가보증금을 배당받는 권리",
       "bullets": [
-        "대항요건과 확정일자를 갖춘 임차인이 경매·공매 환가대금에서 우선변제"
+        "상가 인도·사업자등록 신청 대항요건과 임대차계약서의 확정일자를 갖추면 우선변제권 인정",
+        "경매·공매 배당순위는 대항요건·확정일자 취득시점과 선순위 권리를 함께 판단"
       ],
       "formula": "",
       "visual": "none",
@@ -13231,8 +13279,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 34,
       "sourceSection": "민사특별법·상가임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제5조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「상가건물 임대차보호법 제5조」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13240,7 +13288,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제5조"
+      "sourceLabel": "국가법령정보센터 「상가건물 임대차보호법 제5조」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95"
     },
     {
       "id": "civ-card-210",
@@ -13251,16 +13299,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상가 최우선변제권",
       "subtitle": "소액 상가임차인의 보증금 중 일정액을 우선변제받는 권리",
       "bullets": [
-        "법정 범위의 소액임차인을 보호하며 금액기준은 변동 가능해 카드에서 제외"
+        "상가 소액임차인의 최우선변제는 법정 보증금 범위와 대항요건 취득시점 등의 제한을 받음",
+        "소액임차인 범위·최우선 보호액은 지역·담보물권 설정시기·시행령 경과규정을 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 34,
       "sourceSection": "민사특별법·상가임대차",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「상가건물 임대차보호법 제14조·시행령」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13268,7 +13317,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p34 · 민사특별법·상가임대차"
+      "sourceLabel": "국가법령정보센터 「상가건물 임대차보호법 제14조·시행령」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95"
     },
     {
       "id": "civ-card-211",
@@ -13279,7 +13328,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상가 임차권등기명령",
       "subtitle": "보증금 미반환 시 상가 임차권등기를 법원에 신청하는 제도",
       "bullets": [
-        "등기를 마치면 대항력·우선변제권을 취득하거나 기존 권리를 유지할 수 있음"
+        "상가 임차권등기명령은 임대차 종료 후 미반환 보증금 보호를 위한 법정절차",
+        "등기 완료 후 대항요건을 잃어도 기존 대항력과 우선변제권을 유지하는지 법률 요건을 확인"
       ],
       "formula": "",
       "visual": "none",
@@ -13287,8 +13337,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 34,
       "sourceSection": "민사특별법·상가임대차",
-      "sourceRef": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제6조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「상가건물 임대차보호법 제6조」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13296,7 +13346,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p34 + 국가법령정보센터 「상가건물 임대차보호법」 제6조"
+      "sourceLabel": "국가법령정보센터 「상가건물 임대차보호법 제6조」 https://law.go.kr/unSc.do?query=%EC%83%81%EA%B0%80%EC%9E%84%EB%8C%80%EC%B0%A8%EB%B2%95"
     },
     {
       "id": "civ-card-212",
@@ -13307,8 +13357,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "계약갱신요구권",
       "subtitle": "임차인이 법정 범위에서 임대차 갱신을 요구할 수 있는 권리",
       "bullets": [
-        "주택·상가 모두 현행법상 법정 갱신요구 제도가 있음",
-        "행사기간·연체횟수 등 시점 민감 숫자는 카드에서 제외"
+        "주택 갱신요구는 원칙적으로 1회·2년, 상가 갱신요구는 최초 임대차기간 포함 10년 한도",
+        "행사기간·차임연체·직접거주 등 갱신 거절사유가 서로 다르므로 각 법률을 따로 확인"
       ],
       "formula": "",
       "visual": "none",
@@ -13318,8 +13368,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "official",
       "sourcePage": 34,
       "sourceSection": "민사특별법·임대차보호",
-      "sourceRef": "국가법령정보센터 「주택임대차보호법」 제6조의3 + 「상가건물 임대차보호법」 제10조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법 제6조의3·상가건물 임대차보호법 제10조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "essential"
@@ -13334,7 +13384,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-079"
       ],
       "importance": 3,
-      "sourceLabel": "국가법령정보센터 「주택임대차보호법」 제6조의3 + 「상가건물 임대차보호법」 제10조"
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법 제6조의3·상가건물 임대차보호법 제10조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248"
     },
     {
       "id": "civ-card-213",
@@ -13498,16 +13548,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "후순위권리자",
       "subtitle": "담보가등기보다 뒤 순위의 권리를 가진 사람",
       "bullets": [
-        "실행통지·청산 절차에서 통지와 경매청구 등 법정 지위가 문제됨"
+        "후순위권리자는 법정 범위에서 청산금에 대해 권리를 행사할 수 있고 채권자는 통지 의무를 부담",
+        "청산금 압류·가압류와 다른 권리자의 대항요건, 청산금 지급순위는 조문별로 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 36,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「가등기담보 등에 관한 법률 제5조·제6조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=105941",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13522,7 +13573,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-076"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p36 · 민사특별법·가등기담보"
+      "sourceLabel": "국가법령정보센터 「가등기담보 등에 관한 법률 제5조·제6조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=105941"
     },
     {
       "id": "civ-card-218",
@@ -13687,16 +13738,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "관리단",
       "subtitle": "구분소유자 전원으로 당연히 구성되는 집합건물 관리단체",
       "bullets": [
-        "별도 가입행위 없이 구분소유관계가 성립하면 관리단이 구성"
+        "구분소유 관계가 성립하면 별도 가입이나 설립등기 없이 구분소유자 전원으로 관리단이 당연 설립",
+        "일부공용부분에 대해 별도의 일부공용부분관리단이 구성될 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「집합건물법 제23조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13712,7 +13764,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-076"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p38 · 민사특별법·집합건물"
+      "sourceLabel": "국가법령정보센터 「집합건물법 제23조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0"
     },
     {
       "id": "civ-card-223",
@@ -13723,16 +13775,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "관리인",
       "subtitle": "관리단 사무를 집행하는 사람",
       "bullets": [
-        "공용부분 관리와 비용 청구·수령 등 관리단 사무를 담당"
+        "구분소유자가 10인 이상이면 관리인을 선임해야 하고 관리인은 관리단을 대표하여 사무 집행",
+        "관리인은 구분소유자일 필요가 없으며 법과 규약에 따라 선임·해임·임기 제한을 받음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「집합건물법 제24조·제25조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13749,7 +13802,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-076"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p38 · 민사특별법·집합건물"
+      "sourceLabel": "국가법령정보센터 「집합건물법 제24조·제25조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0"
     },
     {
       "id": "civ-card-224",
@@ -13760,16 +13813,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "규약",
       "subtitle": "집합건물 관리와 사용에 관한 자치규범",
       "bullets": [
-        "관리단집회 결의로 설정·변경·폐지하며 법정 특별정족수가 문제됨"
+        "규약 설정·변경·폐지는 원칙적으로 구분소유자 및 의결권 각각 4분의 3 이상의 찬성이 필요",
+        "일부 소유자에게 특별한 영향을 미치는 변경은 해당 구분소유자의 승낙도 필요"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_strata_vote",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「집합건물법 제29조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13791,7 +13845,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-076"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p38 · 민사특별법·집합건물"
+      "sourceLabel": "국가법령정보센터 「집합건물법 제29조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0"
     },
     {
       "id": "civ-card-225",
@@ -13802,18 +13856,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "관리단집회",
       "subtitle": "구분소유자들이 집합건물 관리사항을 결의하는 회의",
       "bullets": [
-        "정기·임시집회와 의결정족수 등이 규율됨"
+        "관리단 사무는 법·규약으로 위임한 사항 외에는 관리단집회의 결의로 수행",
+        "정기집회는 회계연도 종료 후 3개월 이내 소집하며 임시집회에는 별도 소집요건 적용"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_strata_meeting",
       "aliases": [
         "집회"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 38,
       "sourceSection": "민사특별법·집합건물",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「집합건물법 제31조·제32조·제33조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13826,7 +13881,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-077"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p38 · 민사특별법·집합건물"
+      "sourceLabel": "국가법령정보센터 「집합건물법 제31조·제32조·제33조」 https://www.law.go.kr/lsSc.do?query=%EC%A7%91%ED%95%A9%EA%B1%B4%EB%AC%BC%EC%9D%98+%EC%86%8C%EC%9C%A0+%EB%B0%8F+%EA%B4%80%EB%A6%AC%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0"
     },
     {
       "id": "civ-card-226",
@@ -13837,7 +13892,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "명의신탁",
       "subtitle": "실권리자는 따로 두고 부동산 물권등기를 타인 명의로 하는 약정",
       "bullets": [
-        "부동산실명법상 명의신탁약정은 원칙적으로 무효"
+        "부동산실명법상 명의신탁약정 및 이에 따른 등기 물권변동은 원칙적으로 무효",
+        "그 무효는 제3자에게 대항할 수 없으나 계약명의신탁의 매도인 선의 등 예외를 구별"
       ],
       "formula": "",
       "visual": "none",
@@ -13847,8 +13903,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제2조·제4조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「부동산실명법 제4조」 https://www.law.go.kr/lsInfoP.do?lsiSeq=178980",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "exam",
         "summary"
@@ -13871,7 +13927,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-079"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제2조·제4조"
+      "sourceLabel": "국가법령정보센터 「부동산실명법 제4조」 https://www.law.go.kr/lsInfoP.do?lsiSeq=178980"
     },
     {
       "id": "civ-card-227",
@@ -13910,16 +13966,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "계약명의신탁",
       "subtitle": "수탁자가 매매계약 당사자가 되어 자기 명의로 등기하는 명의신탁",
       "bullets": [
-        "매도인의 명의신탁 인식 여부가 물권변동 효력 판단에 중요"
+        "계약명의신탁은 명의수탁자가 계약 당사자가 되며 매도인의 명의신탁 인식 여부가 중요",
+        "매도인이 명의신탁약정 존재를 몰랐다면 수탁자 명의의 물권변동이 유효한 예외가 가능"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「부동산실명법 제4조제2항」 https://www.law.go.kr/lsInfoP.do?lsiSeq=178980",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -13927,7 +13984,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p39 · 민사특별법·부동산실명법"
+      "sourceLabel": "국가법령정보센터 「부동산실명법 제4조제2항」 https://www.law.go.kr/lsInfoP.do?lsiSeq=178980"
     },
     {
       "id": "civ-card-229",
@@ -14009,11 +14066,11 @@ window.CORE_WORD_CARD_BANK = {
       "order": 231,
       "type": "concept",
       "category": "비교·법리",
-      "title": "의사표시 4유형 비교",
+      "title": "의사표시 5유형 비교",
       "subtitle": "비진의·통정허위·착오·사기강박의 효과 구분",
       "bullets": [
-        "비진의: 원칙 유효 / 통정허위: 무효",
-        "착오·사기·강박: 취소 가능, 선의 제3자 보호 규정 확인"
+        "비진의표시: 원칙 유효(상대방 악의·과실시 무효) / 통정허위표시: 무효",
+        "착오·사기·강박: 법정 요건에서 취소 가능하며 선의 제3자 보호 규정을 함께 확인"
       ],
       "formula": "",
       "visual": "none",
@@ -14023,8 +14080,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 4,
       "sourceSection": "비교·법리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제107조~제110조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제107조~제110조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -14032,7 +14089,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제107조~제110조"
+      "sourceLabel": "국가법령정보센터 「민법 제107조~제110조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-232",
@@ -14288,17 +14345,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "유치권 성립요건과 판례",
       "subtitle": "견련성·점유·변제기를 함께 확인",
       "bullets": [
-        "타인의 물건 점유, 그 물건에 관해 생긴 채권, 변제기 도래 등이 핵심",
-        "임차보증금 반환채권처럼 견련성이 없으면 유치권이 부정될 수 있음"
+        "타인 물건 점유·목적물 관련 채권·변제기 도래가 유치권 성립의 핵심 요건",
+        "불법행위로 점유하면 유치권이 성립하지 않고 임차보증금 반환채권 등은 견련성 검토"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 19,
       "sourceSection": "비교·판례",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제320조·제321조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -14306,7 +14363,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p19 · 비교·판례"
+      "sourceLabel": "국가법령정보센터 「민법 제320조·제321조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-241",
@@ -14317,17 +14374,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "해제 효과와 제3자",
       "subtitle": "소급효·원상회복과 제3자 보호를 함께 봄",
       "bullets": [
-        "해제하면 당사자 사이 계약효과는 소급적으로 소멸하고 원상회복의무 발생",
-        "해제 전에 독립한 권리를 취득한 제3자는 법정요건 아래 보호될 수 있음"
+        "해제하면 당사자는 받은 급부를 원상회복할 의무가 있으며 원칙적으로 계약 효력은 소급 소멸",
+        "해제는 제3자의 권리를 해하지 못하므로 해제 전후 독립 권리 취득·공시 여부를 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 24,
       "sourceSection": "비교·법리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제548조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -14335,7 +14392,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p24 · 비교·법리"
+      "sourceLabel": "국가법령정보센터 「민법 제548조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-242",
@@ -14375,17 +14432,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "임차권 양도·전대 비교",
       "subtitle": "임대인 동의와 당사자 관계를 구별",
       "bullets": [
-        "원칙적으로 임대인의 동의 없이 임차권 양도·전대 불가",
-        "적법한 전대에서는 전차인이 임대인에게 일정한 직접 의무를 부담"
+        "임차권 양도는 임차인 지위 이전, 전대는 임차인이 전차인에게 사용수익하게 하는 계약",
+        "임대인 동의가 원칙이며 적법한 전대에서 전차인은 임대인에게 직접 의무를 부담"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 29,
       "sourceSection": "비교·법리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제629조·제630조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -14393,7 +14450,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p29 · 비교·법리"
+      "sourceLabel": "국가법령정보센터 「민법 제629조·제630조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706"
     },
     {
       "id": "civ-card-244",
@@ -14404,19 +14461,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "주택·상가 대항력 비교",
       "subtitle": "주택은 주민등록, 상가는 사업자등록 신청이 핵심",
       "bullets": [
-        "주택: 인도 + 주민등록",
-        "상가: 인도 + 사업자등록 신청"
+        "주택: 인도·주민등록 완료 다음 날 대항력 / 상가: 인도·사업자등록 신청 다음 날 대항력",
+        "두 법의 대항요건을 혼동하지 말고 확정일자를 통한 우선변제권은 별도 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "대항요건 비교"
       ],
-      "sourceKind": "official",
+      "sourceKind": "summary+official",
       "sourcePage": 34,
       "sourceSection": "비교·법리",
-      "sourceRef": "국가법령정보센터 「주택임대차보호법」 제3조 + 「상가건물 임대차보호법」 제3조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「주택임대차보호법 제3조·상가건물 임대차보호법 제3조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "essential"
       ],
@@ -14424,7 +14481,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 1,
-      "sourceLabel": "국가법령정보센터 「주택임대차보호법」 제3조 + 「상가건물 임대차보호법」 제3조"
+      "sourceLabel": "국가법령정보센터 「주택임대차보호법 제3조·상가건물 임대차보호법 제3조」 https://www.law.go.kr/LSW/lsInfoP.do?lsId=001248"
     },
     {
       "id": "civ-card-245",
@@ -14493,8 +14550,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "명의신탁 유형과 효력",
       "subtitle": "등기명의신탁·계약명의신탁의 구조를 구별",
       "bullets": [
-        "명의신탁약정은 원칙적으로 무효이고 그 무효는 제3자에게 대항하지 못함",
-        "계약명의신탁은 매도인의 선의 여부가 물권변동 판단에 중요"
+        "명의신탁약정과 그에 따른 물권변동은 원칙적으로 무효이며 그 무효는 제3자에게 대항하지 못함",
+        "2자간·중간생략등기·계약명의신탁의 법률관계를 나누고 매도인의 선의 여부를 확인"
       ],
       "formula": "",
       "visual": "none",
@@ -14502,8 +14559,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 39,
       "sourceSection": "비교·법리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제4조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「부동산실명법 제2조·제4조」 https://www.law.go.kr/lsInfoP.do?lsiSeq=178980",
+      "sourceNote": "2026-10-08 업로드 요약집의 해당 항목 및 공식 법률·판례 핵심 규칙 1차 대조. 예외·경과규정·최신 판례는 별도 상세 확인.",
       "basis": [
         "summary"
       ],
@@ -14511,7 +14568,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산 실권리자명의 등기에 관한 법률」 제4조"
+      "sourceLabel": "국가법령정보센터 「부동산실명법 제2조·제4조」 https://www.law.go.kr/lsInfoP.do?lsiSeq=178980"
     },
     {
       "id": "brk-card-001",
