@@ -1036,10 +1036,10 @@ EXAM_HIT_COUNT: 1
 EXAM_YEARS: 2022
 EXAM_SAMPLE_REFS: 2022-33-first-049
 IMPORTANCE: 3
-SOURCE_KIND: reference
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 3
 SOURCE_SECTION: 민법총칙·법률행위
-SOURCE_REF: 민법 법률행위 일반원칙 + 요약집 p3
+SOURCE_REF: 국가법령정보센터 「민법 제105조·제106조 및 2025다211003 판결」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971
 
 [제목]
 강행규정
@@ -1051,16 +1051,17 @@ SOURCE_REF: 민법 법률행위 일반원칙 + 요약집 p3
 
 
 [핵심]
-- 강행규정에 반하는 법률행위는 원칙적으로 허용되지 않음
+- 강행규정은 당사자 합의로 배제할 수 없는 규범이며 그 위반행위의 효력은 입법취지에 따라 판단
+- 위반하면 계약도 무효가 되는 효력규정과 위반 제재에도 계약은 원칙적으로 유효한 단속규정을 구별
 
 [수식]
 
 
 [시각화]
-none
+civil_rule_types
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-030
 STATUS: APPROVED
@@ -1072,10 +1073,10 @@ EXAM_HIT_COUNT: 0
 EXAM_YEARS: 
 EXAM_SAMPLE_REFS: 
 IMPORTANCE: 2
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 3
 SOURCE_SECTION: 민법총칙·법률행위
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제105조·제106조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706
 
 [제목]
 임의규정
@@ -1087,16 +1088,17 @@ SOURCE_REF:
 
 
 [핵심]
-- 당사자의 의사가 법률 규정보다 우선할 수 있는 영역
+- 민법 제105조: 선량한 풍속 기타 사회질서에 관계없는 규정과 다른 당사자 의사표시가 있으면 그 의사에 따름
+- 당사자 의사가 명확하지 않으면 민법 제106조의 사실인 관습 적용 가능성을 함께 검토
 
 [수식]
 
 
 [시각화]
-none
+civil_rule_types
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-031
 STATUS: APPROVED
@@ -1108,10 +1110,10 @@ EXAM_HIT_COUNT: 1
 EXAM_YEARS: 2021
 EXAM_SAMPLE_REFS: 2021-32-first-045
 IMPORTANCE: 3
-SOURCE_KIND: reference
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 3
 SOURCE_SECTION: 민법총칙·법률행위
-SOURCE_REF: Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리
+SOURCE_REF: 국가법령정보센터 「민법 제105조 및 대법원 2025다211003 판결(효력/단속 구별)」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971
 
 [제목]
 효력규정
@@ -1123,16 +1125,17 @@ SOURCE_REF: Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법
 
 
 [핵심]
-- 법 위반에 행정·형사 제재뿐 아니라 사법상 무효까지 연결되는 규정
+- 효력규정에 위반한 법률행위는 그 사법상 효력이 부정될 수 있어 단속규정과 구별
+- 금지·제재 규정에 위반했다고 무조건 무효인 것은 아니며 법 문언·목적·보호법익 등을 종합 판단
 
 [수식]
 
 
 [시각화]
-none
+civil_rule_types
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-032
 STATUS: APPROVED
@@ -1144,10 +1147,10 @@ EXAM_HIT_COUNT: 0
 EXAM_YEARS: 
 EXAM_SAMPLE_REFS: 
 IMPORTANCE: 1
-SOURCE_KIND: reference
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 3
 SOURCE_SECTION: 민법총칙·법률행위
-SOURCE_REF: Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법리
+SOURCE_REF: 국가법령정보센터 「대법원 2025다211003·2023다310471 판결」 https://www.law.go.kr/LSW/precInfoP.do?mode=0&precSeq=615971
 
 [제목]
 단속규정
@@ -1159,16 +1162,17 @@ SOURCE_REF: Q-Net 기출의 효력규정·단속규정 구별 + 민법 일반법
 
 
 [핵심]
-- 위반 시 제재가 있어도 사법상 법률행위가 당연히 무효가 되는 것은 아님
+- 단속규정은 위반 시 행정·형사상 제재가 가능해도 계약 자체의 효력을 원칙적으로 부정하지 않음
+- 해당 규정이 단속규정인지 여부는 법령 목적·체계·입법취지 등을 고려해 판례에 따라 판단
 
 [수식]
 
 
 [시각화]
-none
+civil_rule_types
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-033
 STATUS: APPROVED
@@ -1547,10 +1551,10 @@ EXAM_HIT_COUNT: 0
 EXAM_YEARS: 
 EXAM_SAMPLE_REFS: 
 IMPORTANCE: 2
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 5
 SOURCE_SECTION: 민법총칙·의사표시
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제111조·제531조」 https://law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0531&lsiSeq=284415&urlMode=lsScJoRltInfoR
 
 [제목]
 발신주의
@@ -1562,16 +1566,17 @@ SOURCE_REF:
 
 
 [핵심]
-- 법이 특별히 정한 경우 발송 시점에 효력을 인정
+- 상대방 있는 의사표시는 원칙적으로 도달 시 효력이 발생하지만 법률이 정한 발신주의 예외가 있음
+- 민법 제531조: 격지자간 계약은 승낙의 통지를 발송한 때 성립. 모든 의사표시에 적용되는 것은 아님
 
 [수식]
 
 
 [시각화]
-none
+civil_dispatch_rule
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-044
 STATUS: APPROVED
@@ -1837,10 +1842,10 @@ EXAM_HIT_COUNT: 3
 EXAM_YEARS: 2021|2025
 EXAM_SAMPLE_REFS: 2021-32-first-043 | 2021-32-first-069 | 2025-36-first-043
 IMPORTANCE: 3
-SOURCE_KIND: reference
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 0
 SOURCE_SECTION: 법률 기본어
-SOURCE_REF: 민법 제2조 및 기출 공통 기본법리
+SOURCE_REF: 국가법령정보센터 「민법 제2조」 https://www.law.go.kr/lsLinkProc.do?joNo=000200&lnkJoNo=undefined&lsClsCd=L&lsId=001706&lsNm=%EB%AF%BC%EB%B2%95&mode=4
 
 [제목]
 신의칙
@@ -1852,7 +1857,8 @@ SOURCE_REF: 민법 제2조 및 기출 공통 기본법리
 신의성실의 원칙
 
 [핵심]
-- 당사자의 신뢰와 형평을 고려해 권리행사를 제한하거나 보충하는 원칙
+- 민법 제2조제1항: 권리 행사와 의무 이행은 신의에 따라 성실히 해야 함
+- 같은 조 제2항은 권리남용을 금지하지만 권리행사를 제한하려면 구체적인 사정의 판단이 필요
 
 [수식]
 
@@ -1861,7 +1867,7 @@ SOURCE_REF: 민법 제2조 및 기출 공통 기본법리
 none
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-052
 STATUS: APPROVED
@@ -1983,10 +1989,10 @@ EXAM_HIT_COUNT: 2
 EXAM_YEARS: 2022|2025
 EXAM_SAMPLE_REFS: 2022-33-first-048 | 2025-36-first-044
 IMPORTANCE: 3
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 6
 SOURCE_SECTION: 민법총칙·대리
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제114조·제120조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706
 
 [제목]
 임의대리
@@ -1998,7 +2004,8 @@ SOURCE_REF:
 
 
 [핵심]
-- 대리권 범위는 수권행위의 내용과 해석으로 정함
+- 임의대리는 본인의 법률행위에 따른 수권으로 대리권이 생기는 경우
+- 대리권 범위는 수권행위 내용에 따라 정하며 임의대리인의 복대리인 선임에는 제120조의 제한이 있음
 
 [수식]
 
@@ -2007,7 +2014,7 @@ SOURCE_REF:
 none
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-056
 STATUS: APPROVED
@@ -2019,10 +2026,10 @@ EXAM_HIT_COUNT: 6
 EXAM_YEARS: 2022|2023|2025
 EXAM_SAMPLE_REFS: 2022-33-first-041 | 2022-33-first-045 | 2022-33-first-048 | 2022-33-first-049 | 2023-34-first-044 | 2025-36-first-044
 IMPORTANCE: 4
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 6
 SOURCE_SECTION: 민법총칙·대리
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제116조·제117조·제122조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706
 
 [제목]
 법정대리
@@ -2034,7 +2041,8 @@ SOURCE_REF:
 
 
 [핵심]
-- 본인의 수권행위 없이 법률상 대리권이 발생
+- 법정대리는 본인의 수권행위가 아니라 법률 규정에 따라 대리권이 발생하는 경우
+- 법정대리인의 복대리인 선임은 제122조의 요건·책임을 따르며 임의대리 제120조와 구별
 
 [수식]
 
@@ -2043,7 +2051,7 @@ SOURCE_REF:
 none
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-057
 STATUS: APPROVED
@@ -2055,10 +2063,10 @@ EXAM_HIT_COUNT: 13
 EXAM_YEARS: 2021|2022|2023|2024|2025
 EXAM_SAMPLE_REFS: 2021-32-first-042 | 2021-32-first-043 | 2021-32-first-048 | 2022-33-first-043 | 2022-33-first-047 | 2022-33-first-048 | 2022-33-first-049 | 2022-33-first-050 | 2023-34-first-042 | 2023-34-first-044
 IMPORTANCE: 5
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 6
 SOURCE_SECTION: 민법총칙·대리
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제114조·제118조」 https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032403099
 
 [제목]
 대리권
@@ -2070,7 +2078,8 @@ SOURCE_REF:
 
 
 [핵심]
-- 대리권은 독립된 권리라기보다 법률상 지위로 설명
+- 대리권은 대리인의 행위가 본인에게 직접 효력을 발생시키게 하는 법률상 권한
+- 대리권 범위를 정하지 않은 경우 제118조에 따라 보존행위와 성질을 바꾸지 않는 이용·개량행위만 가능
 
 [수식]
 
@@ -2079,7 +2088,7 @@ SOURCE_REF:
 none
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-058
 STATUS: APPROVED
@@ -2091,10 +2100,10 @@ EXAM_HIT_COUNT: 1
 EXAM_YEARS: 2022
 EXAM_SAMPLE_REFS: 2022-33-first-047
 IMPORTANCE: 3
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 6
 SOURCE_SECTION: 민법총칙·대리
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제114조·제120조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706
 
 [제목]
 수권행위
@@ -2106,7 +2115,8 @@ SOURCE_REF:
 
 
 [핵심]
-- 임의대리권 발생의 기초가 되는 본인의 법률행위
+- 수권행위는 본인이 타인에게 임의대리권을 부여하는 법률행위
+- 수권의 범위가 대리권 범위를 결정하며 본인을 위한 현명 등 대리행위 요건은 별도로 검토
 
 [수식]
 
@@ -2115,7 +2125,7 @@ SOURCE_REF:
 none
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-059
 STATUS: APPROVED
@@ -2239,10 +2249,10 @@ EXAM_HIT_COUNT: 0
 EXAM_YEARS: 
 EXAM_SAMPLE_REFS: 
 IMPORTANCE: 2
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 7
 SOURCE_SECTION: 민법총칙·대리
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제107조 유추적용·대법원 2016다3201 판결」 https://www.law.go.kr/LSW/precInfoR.do?precSeq=195377&vSct=%2A
 
 [제목]
 대리권 남용
@@ -2254,16 +2264,17 @@ SOURCE_REF:
 배임대리행위
 
 [핵심]
-- 형식상 권한 내 행위라도 상대방이 남용을 알았거나 알 수 있었다면 본인에게 효력이 부정될 수 있음
+- 대리권이 형식상 있어도 대리인이 본인 이익을 해쳐 자기·제3자 이익을 도모함을 상대방이 알았거나 알 수 있었다면 본인에게 효력 부정
+- 민법 제107조제1항 단서 유추적용; 형성된 법률관계를 기초로 새 이해관계를 맺은 선의의 제3자 보호도 구별
 
 [수식]
 
 
 [시각화]
-none
+civil_abuse_protection
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-063
 STATUS: APPROVED
@@ -2984,10 +2995,10 @@ EXAM_HIT_COUNT: 24
 EXAM_YEARS: 2021|2022|2023|2024|2025
 EXAM_SAMPLE_REFS: 2021-32-first-046 | 2021-32-first-049 | 2021-32-first-051 | 2021-32-first-052 | 2021-32-first-054 | 2021-32-first-055 | 2021-32-first-060 | 2022-33-first-044 | 2022-33-first-046 | 2022-33-first-052
 IMPORTANCE: 5
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 9
 SOURCE_SECTION: 민법총칙·조건·기한
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제152조」 https://law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0152&lsiSeq=284415&urlMode=lsScJoRltInfoR
 
 [제목]
 기한
@@ -2999,16 +3010,17 @@ SOURCE_REF:
 
 
 [핵심]
-- 도래 여부가 확실하다는 점에서 조건과 구별
+- 기한은 도래할 것이 확실한 장래 사실에 법률행위 효력의 발생 또는 소멸을 결부시키며 조건과 다름
+- 민법 제152조: 시기는 도래한 때부터 효력 발생, 종기는 도래한 때부터 효력 소멸
 
 [수식]
 
 
 [시각화]
-none
+civil_term_effect
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-083
 STATUS: APPROVED
@@ -3020,10 +3032,10 @@ EXAM_HIT_COUNT: 1
 EXAM_YEARS: 2025
 EXAM_SAMPLE_REFS: 2025-36-first-048
 IMPORTANCE: 3
-SOURCE_KIND: summary
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 9
 SOURCE_SECTION: 민법총칙·조건·기한
-SOURCE_REF: 
+SOURCE_REF: 국가법령정보센터 「민법 제153조」 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0153&lsiSeq=284415&urlMode=lsScJoRltInfoR
 
 [제목]
 기한의 이익
@@ -3035,16 +3047,17 @@ SOURCE_REF:
 
 
 [핵심]
-- 원칙적으로 채무자의 이익을 위한 것으로 추정
+- 기한의 이익은 민법 제153조제1항에 따라 채무자의 이익을 위한 것으로 추정
+- 기한의 이익은 포기할 수 있지만 상대방의 이익을 해칠 수 없으므로 무조건 조기이행 가능한 것은 아님
 
 [수식]
 
 
 [시각화]
-none
+civil_term_effect
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-084
 STATUS: APPROVED
@@ -3130,10 +3143,10 @@ EXAM_HIT_COUNT: 1
 EXAM_YEARS: 2021
 EXAM_SAMPLE_REFS: 2021-32-first-067
 IMPORTANCE: 3
-SOURCE_KIND: reference
+SOURCE_KIND: summary+official
 SOURCE_PAGE: 0
 SOURCE_SECTION: 법률 기본어
-SOURCE_REF: 민법·기출 공통 기본용어
+SOURCE_REF: 국가법령정보센터 「민법 제133조·제141조·제147조」 https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=001706
 
 [제목]
 소급효
@@ -3145,7 +3158,8 @@ SOURCE_REF: 민법·기출 공통 기본용어
 
 
 [핵심]
-- 취소·추인·해제 등에서 효과가 어느 시점까지 미치는지 판단할 때 쓰임
+- 소급효는 법률효과가 특정 시점 이전으로 거슬러 미치는 것으로 취소·무권대리 추인 등에서 구별
+- 취소의 소급무효·추인의 계약시 소급과 달리 조건의 효력은 원칙적으로 성취 시 발생하며 제3자 보호 예외 확인
 
 [수식]
 
@@ -3154,7 +3168,7 @@ SOURCE_REF: 민법·기출 공통 기본용어
 none
 
 [검수메모]
-
+2026-10-08 주요 공식 민법 조문·해당 공개 판례의 판단 범위를 1차 대조. 모든 예외·사실관계·후속 판결은 추후 별도 검증.
 ================================================================================
 ID: civ-card-087
 STATUS: APPROVED
