@@ -129,6 +129,8 @@ need(cardJs.includes('function civilDiagramMarkup(type)')&&cardJs.includes('cons
 for(const name of civilDiagramNames) need(cardJs.includes(name),'missing civil SVG renderer: '+name);
 need(cardCss.includes('.v-civil-box{')&&cardCss.includes('.v-civil-caption{'),'dark/mobile civil SVG style missing');
 need(cardJs.includes("wrap.setAttribute('role','img')")&&cardJs.includes("wrap.setAttribute('aria-label',card.title"),'diagram accessible description missing');
+need(cardJs.includes("if(type==='civil_possession_claim')")&&cardJs.includes("civBox(4,85,78,'제3자')")&&cardJs.includes('제3자 직접점유 유지'),'return-claim diagram must visibly separate the third-party direct possessor');
+need(cardJs.includes("if(type==='civil_agency_unauthorized')")&&cardJs.includes('대리권 없음'),'unauthorized-agent diagram must mark absence of authority');
 const illustratedCivil=bank.cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===14,'civil SVG first batch must contain 14 cards');
 need(new Set(illustratedCivil.map(c=>c.visual)).size===14,'civil diagram types must match the fourteen intended learning concepts');
