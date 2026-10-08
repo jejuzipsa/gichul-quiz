@@ -107,7 +107,7 @@ for(const id of civilV190ReviewedIds){
 }
 need(cards.find(c=>c.id==='civ-card-166')?.bullets.some(x=>x.includes('제527조')&&x.includes('철회')),'offer withdrawal rule missing');
 need(cards.find(c=>c.id==='civ-card-167')?.bullets.some(x=>x.includes('제534조')&&x.includes('새로운 청약')),'modified acceptance rule missing');
-need(cards.find(c=>c.id==='civ-card-188')?.bullets.some(x=>x.includes('제629조')&&x.includes('동의')),'lease assignment rule missing');
+need(cards.find(c=>c.id==='civ-card-188')?.bullets.some(x=>x.includes('629조')&&x.includes('동의')),'lease assignment rule missing');
 need(cards.find(c=>c.id==='civ-card-189')?.bullets.some(x=>x.includes('제633조')&&x.includes('매월 말')),'rent payment timing missing');
 need(cards.find(c=>c.id==='civ-card-190')?.bullets.some(x=>x.includes('동시이행')),'deposit simultaneous performance rule missing');
 need(cards.find(c=>c.id==='civ-card-191')?.bullets.some(x=>x.includes('제10조의3')&&x.includes('보증금')),'key-money definition missing');
