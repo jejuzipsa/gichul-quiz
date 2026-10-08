@@ -125,17 +125,20 @@ need(cardJs.includes('card.formula')&&cardJs.includes('card.visual'),'formula/vi
 need(cardCss.includes('.card-formula')&&cardCss.includes('.card-visual'),'formula/visual styles missing');
 
 const nextCivilDiagramNames=['civil_surface_section','civil_joint_mortgage','civil_housing_timeline','civil_provisional_steps','civil_condivision'];
+const generalCivilDiagramNames=['civil_intention_comparison','civil_void_cancel_compare','civil_condition_compare'];
 const civilDiagramNames=['civil_agency_basic','civil_agency_disclosure','civil_agency_sub','civil_agency_unauthorized','civil_agency_apparent','civil_apparent_125','civil_apparent_126','civil_apparent_129','civil_possession_simple','civil_possession_revision','civil_possession_claim','civil_possession_indirect','civil_apparent_compare','civil_unauthorized_rights'];
 need(cardJs.includes('function civilDiagramMarkup(type)')&&cardJs.includes('const civilMarkup=civilDiagramMarkup(type)'),'civil diagrams must use the shared SVG renderer');
 for(const name of civilDiagramNames) need(cardJs.includes(name),'missing civil SVG renderer: '+name);
 for(const name of nextCivilDiagramNames) need(cardJs.includes("type==='"+name+"'"),'missing new civil SVG renderer: '+name);
+for(const name of generalCivilDiagramNames) need(cardJs.includes("type==='"+name+"'"),'missing general-law diagram renderer: '+name);
 need(cardCss.includes('.v-civil-box{')&&cardCss.includes('.v-civil-caption{'),'dark/mobile civil SVG style missing');
 need(cardJs.includes("wrap.setAttribute('role','img')")&&cardJs.includes("wrap.setAttribute('aria-label',card.title"),'diagram accessible description missing');
 need(cardJs.includes("if(type==='civil_possession_claim')")&&cardJs.includes("civBox(4,85,78,'제3자')")&&cardJs.includes('제3자 직접점유 유지'),'return-claim diagram must visibly separate the third-party direct possessor');
 need(cardJs.includes("if(type==='civil_agency_unauthorized')")&&cardJs.includes('대리권 없음'),'unauthorized-agent diagram must mark absence of authority');
 const illustratedCivil=bank.cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
-need(illustratedCivil.length===28,'civil SVG must contain old 14 plus 14 newly audited cards');
-need(new Set(illustratedCivil.map(c=>c.visual)).size===19,'civil diagram types must include old fourteen plus five reusable types');
+need(illustratedCivil.length===42,'civil SVG must include 28 prior plus 14 general-law audited cards');
+need(new Set(illustratedCivil.map(c=>c.visual)).size===22,'civil diagram types must include 14 earlier plus 5 and 3 newer reusable types');
+for(const id of ["civ-card-037","civ-card-038","civ-card-039","civ-card-040","civ-card-041","civ-card-073","civ-card-074","civ-card-075","civ-card-076","civ-card-077","civ-card-078","civ-card-079","civ-card-080","civ-card-081"]) need(illustratedCivil.some(c=>c.id===id),'missing general-law SVG card '+id);
 for(const id of ["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"]) need(illustratedCivil.some(c=>c.id===id),'audited civil diagram card missing '+id);
 need(cardJs.includes("if(type==='civil_condivision')")&&cardCss.includes('.v-civil-common{'),'condo cutaway missing style');
 
