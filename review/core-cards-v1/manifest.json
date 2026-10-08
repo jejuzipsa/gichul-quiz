@@ -11,7 +11,7 @@
       "total": 170,
       "status": "complete",
       "orderRule": "짧은 일반 용어 → 핵심 개념 → 이론/학자 → 그래프 → 수식/응용",
-      "reindexExam": false
+      "reindexExam": true
     },
     {
       "subject": "civil_law",
