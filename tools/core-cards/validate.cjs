@@ -116,6 +116,14 @@ need(tax.find(c=>c.title==='증여재산 이월과세')?.bullets.some(x=>x.inclu
 need(['43%','44%','45%'].every(v=>tax.find(c=>c.title==='2026 1주택 공정비율')?.bullets.some(x=>x.includes(v))),'2026 one-home property-tax FMV ratios must be 43/44/45');
 need(['12억원','9억원'].every(v=>tax.find(c=>c.title==='주택분 종부세 기본공제')?.bullets.some(x=>x.includes(v))),'current comprehensive real-estate tax housing deductions must be 12/9억원');
 need(tax.find(c=>c.title==='다주택자 중과')?.bullets.some(x=>x.includes('2026년 5월 9일')),'multi-home surtax suspension end date must be current');
+need(tax.find(c=>c.id==='tax-card-006')?.title==='부가세(附加稅)','surtax classification must not be confused with VAT abbreviation');
+need(tax.find(c=>c.id==='tax-card-006')?.bullets.some(x=>x.includes('부가가치세')),'附加稅 vs VAT terminology clarification missing');
+need(tax.find(c=>c.id==='tax-card-028')?.bullets.some(x=>x.includes('양식업권')),'acquisition-tax taxable items missing aquaculture rights');
+need(tax.find(c=>c.id==='tax-card-051')?.subtitle.includes('골프장')&&!tax.find(c=>c.id==='tax-card-051')?.subtitle.includes('별장'),'repealed villa acquisition surtax leaked into surcharge list');
+need(tax.find(c=>c.id==='tax-card-051')?.bullets.some(x=>x.includes('2023년 3월 14일')),'villa acquisition surtax repeal date missing');
+need(tax.find(c=>c.id==='tax-card-052')?.bullets.some(x=>x.includes('중과하지 않음')),'repealed villa surcharge must not be presented as current');
+need(['50%','40%','70%','60%'].every(v=>tax.find(c=>c.id==='tax-card-168')?.bullets.some(x=>x.includes(v))),'short-term holding capital gains rate breakdown missing');
+need(tax.find(c=>c.id==='tax-card-168')?.bullets.some(x=>x.includes('2년 이상')&&x.includes('60%')),'longer-held presale right 60-percent rate missing');
 
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
