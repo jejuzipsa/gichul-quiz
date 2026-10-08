@@ -73,3 +73,15 @@
 - core-cards/data.js는 생성물.
 - node tools/core-cards/build.cjs로 TXT → data.js 생성 및 검증.
 - 외부 보완 카드는 SOURCE_KIND / SOURCE_REF를 반드시 유지.
+
+
+v1.71 학개론 출제빈도 메타데이터 감사 (2026-10-08)
+--------------------------------------------------
+- 2021~2025 공식 기출 TXT 200문제 전체 기준, 문제 본문+보기 내 제목/검색별칭 매칭.
+- 각 문제에서 여러 번 일치해도 1회만 계산.
+- 기출 직접 등장 카드: 85 / 170장.
+- IMPORTANCE 5=4장, 4=14장, 3=67장, 2=80장, 1=5장.
+- 모든 카드에 BASIS/EXAM_HIT_COUNT/EXAM_YEARS/EXAM_SAMPLE_REFS/IMPORTANCE 추가.
+- 학개론 manifest reindexExam=true 적용.
+- 기존 런타임 data.js 메타데이터와 Source of Truth 대조: 불일치 0.
+- 단순 용어 출현 빈도는 독립 출제빈도와 같지 않으며, 의미상 매칭/정의 정확도는 별도 검토 필요.
