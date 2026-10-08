@@ -132,6 +132,33 @@ need(cards.find(c=>c.id==='civ-card-214')?.bullets.some(x=>x.includes('대물변
 need(cards.find(c=>c.id==='civ-card-229')?.bullets.some(x=>x.includes('명의신탁약정')&&x.includes('제외')),'sectional sharing statute definition exception missing');
 need(cards.find(c=>c.id==='civ-card-230')?.bullets.some(x=>x.includes('상대방 선의')&&x.includes('제3자')),'title-registration entrustment third-party exceptions missing');
 
+
+// v1.92: the remaining 48 cards have distinct statute-backed and doctrinal audit levels.
+const v192StatuteIds=["civ-card-159","civ-card-160","civ-card-162","civ-card-163","civ-card-164","civ-card-004","civ-card-005","civ-card-006","civ-card-007","civ-card-008","civ-card-009","civ-card-011","civ-card-018","civ-card-019","civ-card-020","civ-card-023","civ-card-024","civ-card-025","civ-card-027","civ-card-028","civ-card-227","civ-card-052","civ-card-053","civ-card-236"];
+const v192DoctrineIds=["civ-card-161","civ-card-165","civ-card-090","civ-card-001","civ-card-002","civ-card-003","civ-card-010","civ-card-012","civ-card-013","civ-card-014","civ-card-015","civ-card-016","civ-card-017","civ-card-021","civ-card-022","civ-card-026","civ-card-034","civ-card-035","civ-card-036","civ-card-046","civ-card-047","civ-card-048","civ-card-049","civ-card-050"];
+need(v192StatuteIds.length===24&&v192DoctrineIds.length===24&&new Set([...v192StatuteIds,...v192DoctrineIds]).size===48,'v1.92 audit partition must cover all 48 prior pending IDs');
+for(const id of v192StatuteIds){
+  const c=cards.find(x=>x.id===id);
+  need(!!c&&c.subject==='civil_law'&&c.sourceKind==='summary+official'&&c.sourceRef.includes('law.go.kr'),id+': v1.92 statute reference missing');
+  need(c?.bullets.length===2&&c.sourceNote.includes('2026-10-09'),id+': v1.92 statute audit bullets/note missing');
+}
+for(const id of v192DoctrineIds){
+  const c=cards.find(x=>x.id===id);
+  need(!!c&&c.subject==='civil_law'&&['summary','reference'].includes(c.sourceKind),id+': doctrinal category must not be falsely marked official');
+  need(c?.bullets.length===2&&c.sourceNote.includes('공식')&&c.sourceNote.includes('2026-10-09'),id+': explicit doctrine-only audit note missing');
+}
+need(cards.find(c=>c.id==='civ-card-159')?.bullets.some(t=>t.includes('15종')&&t.includes('제674조의2')),'15 named contracts / travel contract amendment missing');
+need(cards.find(c=>c.id==='civ-card-004')?.bullets.some(t=>t.includes('경매')&&t.includes('승계취득')),'auction is derivative acquisition; missing court rule');
+need(cards.find(c=>c.id==='civ-card-160')?.bullets.some(t=>t.includes('제536조')),'reciprocal contract §536 condition missing');
+need(cards.find(c=>c.id==='civ-card-165')?.bullets.some(t=>t.includes('합의 외')),'real contract classification missing');
+need(cards.find(c=>c.id==='civ-card-024')?.bullets.some(t=>t.includes('제450조')&&t.includes('대항요건')),'assignment opposability condition missing');
+need(cards.find(c=>c.id==='civ-card-227')?.bullets.some(t=>t.includes('제3자 보호')),'title trust third-party exception missing');
+need(cards.find(c=>c.id==='civ-card-236')?.bullets.some(t=>t.includes('제185조')&&t.includes('제449조')),'property and claim statutory comparison missing');
+for(const id of ['civ-card-046','civ-card-047','civ-card-048','civ-card-049','civ-card-050','civ-card-052','civ-card-053']){
+  const c=cards.find(x=>x.id===id);
+  need(!c.sourceRef.includes('pdf p0')&&c.sourceNote.includes('p0'),id+': non-existent PDF p0 must not be cited as primary material');
+}
+
 const illustratedCivil=cards.filter(c=>c.subject==='civil_law'&&c.visual.startsWith('civil_'));
 need(illustratedCivil.length===57,'civil diagrams must apply to 57 statute-reviewed cards');
 const diagramCardIds=["civ-card-140","civ-card-157","civ-card-201","civ-card-202","civ-card-203","civ-card-213","civ-card-215","civ-card-216","civ-card-218","civ-card-219","civ-card-220","civ-card-221","civ-card-245","civ-card-246"];
