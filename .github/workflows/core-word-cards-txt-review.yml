@@ -20,6 +20,8 @@ jobs:
         run: node tools/core-cards/compile.cjs --check
       - name: Validate reviewed card bank
         run: node tools/core-cards/validate.cjs
+      - name: Audit card content risk flags
+        run: node tools/core-cards/audit-content.cjs
       - name: Check JavaScript syntax
         run: |
           node --check core-cards/data.js
