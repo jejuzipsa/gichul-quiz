@@ -578,6 +578,56 @@
         +'<text class="v-civil-caption" x="120" y="110" text-anchor="middle">도래할 사실은 확실 / 조건과 구별</text>'
         +'<text class="v-civil-caption" x="120" y="128" text-anchor="middle">기한 이익: 채무자 추정·상대방 보호</text>');
     }
+    // v1.85: diagrams distinguish separate time, priority and legal-claim rules.
+    if(type==='civil_acquisitive_timeline'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">부동산 취득시효 두 유형</text>'
+        +civBox(5,30,109,'점유취득 20년')+civBox(127,30,109,'등기부취득 10년')
+        +'<text class="v-civil-text" x="59" y="81" text-anchor="middle">자주·평온·공연</text>'
+        +'<text class="v-civil-text" x="181" y="81" text-anchor="middle">등기·선의·무과실</text>'
+        +'<text class="v-civil-caption" x="60" y="110" text-anchor="middle">등기 필요</text>'
+        +'<text class="v-civil-caption" x="181" y="110" text-anchor="middle">점유 요건 충족</text>'
+        +'<text class="v-civil-caption" x="120" y="138" text-anchor="middle">민법 제245조 제1항과 제2항을 구별</text>');
+    }
+    if(type==='civil_grave_rent'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">시효취득형 분묘기지권의 지료</text>'
+        +civBox(3,34,108,'분묘기지권 성립')+civBox(129,34,108,'토지소유자 청구')
+        +'<path class="v-civil-line" d="M111 52H127"/><path class="v-civil-arrowtip" d="m123 48 4 4-4 4"/>'
+        +'<text class="v-civil-text" x="120" y="98" text-anchor="middle">청구한 날부터 지료 지급</text>'
+        +'<text class="v-civil-caption" x="120" y="124" text-anchor="middle">2021년 전원합의체 판결</text>'
+        +'<text class="v-civil-caption" x="120" y="138" text-anchor="middle">승낙형 등 성립원인은 별도 판단</text>');
+    }
+    if(type==='civil_joint_auction'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">토지 저당권자의 일괄경매</text>'
+        +civBox(4,32,109,'저당 토지')+civBox(128,32,108,'나중 신축 건물')
+        +'<path class="v-civil-line" d="M113 52H126"/>'
+        +'<text class="v-civil-text" x="120" y="92" text-anchor="middle">토지 + 건물 일괄경매 가능</text>'
+        +'<text class="v-civil-caption" x="120" y="117" text-anchor="middle">건물 경매대가에는 우선변제권 없음</text>'
+        +'<text class="v-civil-caption" x="120" y="137" text-anchor="middle">민법 제365조의 법정요건</text>');
+    }
+    if(type==='civil_housing_renewal'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">주택 묵시적 갱신과 해지</text>'
+        +civBox(3,31,111,'종료 6~2개월 전')+civBox(126,31,111,'갱신거절 통지 無')
+        +'<path class="v-civil-line" d="M114 49H124"/>'
+        +'<text class="v-civil-text" x="120" y="87" text-anchor="middle">원칙: 같은 조건으로 갱신</text>'
+        +'<text class="v-civil-caption" x="120" y="113" text-anchor="middle">임차인의 해지 통지 가능</text>'
+        +'<text class="v-civil-caption" x="120" y="137" text-anchor="middle">임대인이 수령한 날부터 3개월 후</text>');
+    }
+    if(type==='civil_strata_vote'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">집합건물 규약의 특별결의</text>'
+        +civBox(4,32,111,'구분소유자')+civBox(125,32,111,'의결권')
+        +'<text class="v-civil-title" x="59" y="86" text-anchor="middle">3/4 이상</text>'
+        +'<text class="v-civil-title" x="180" y="86" text-anchor="middle">3/4 이상</text>'
+        +'<text class="v-civil-caption" x="120" y="115" text-anchor="middle">두 요건을 각각 모두 충족</text>'
+        +'<text class="v-civil-caption" x="120" y="138" text-anchor="middle">특별 영향 받는 소유자 승낙 추가</text>');
+    }
+    if(type==='civil_strata_meeting'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">관리단집회의 구성과 권한</text>'
+        +civBox(3,31,109,'관리단·관리인')+civBox(128,31,109,'관리단집회')
+        +'<path class="v-civil-line" d="M112 49H126"/>'
+        +'<text class="v-civil-text" x="120" y="89" text-anchor="middle">위임하지 않은 사무: 집회 결의</text>'
+        +'<text class="v-civil-caption" x="120" y="116" text-anchor="middle">정기집회·임시집회 소집요건 구별</text>'
+        +'<text class="v-civil-caption" x="120" y="137" text-anchor="middle">규약 변경의 3/4 특별결의와 별개</text>');
+    }
     const row=CIVIL_DIAGRAMS[type];
     if(row){
       const [heading,a,b,c,caption]=row;
