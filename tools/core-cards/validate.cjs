@@ -125,6 +125,33 @@ need(tax.find(c=>c.id==='tax-card-052')?.bullets.some(x=>x.includes('중과하�
 need(['50%','40%','70%','60%'].every(v=>tax.find(c=>c.id==='tax-card-168')?.bullets.some(x=>x.includes(v))),'short-term holding capital gains rate breakdown missing');
 need(tax.find(c=>c.id==='tax-card-168')?.bullets.some(x=>x.includes('2년 이상')&&x.includes('60%')),'longer-held presale right 60-percent rate missing');
 
+const taxBullet=id=>tax.find(c=>c.id===id)?.bullets.join(' ')||'';
+for(const [id,terms] of [
+  ['tax-card-059',['50만원','1년']],
+  ['tax-card-060',['60일','3개월','6개월','9개월']],
+  ['tax-card-072',['등기','전까지']],
+  ['tax-card-073',['6천원','일률']],
+  ['tax-card-090',['7월 16일','9월 16일','20만원']],
+  ['tax-card-092',['250만원','500만원','3개월']],
+  ['tax-card-093',['1천만원','관할구역']],
+  ['tax-card-094',['2천원 미만','고지서']],
+  ['tax-card-106',['60세','65세','70세','80%']],
+  ['tax-card-107',['5년','10년','15년','80%']],
+  ['tax-card-112',['12월 1일','15일']],
+  ['tax-card-113',['12월 1일','15일','없었던']],
+  ['tax-card-114',['12월 1일','12월 15일']],
+  ['tax-card-115',['250만원','500만원','6개월','3개월']],
+  ['tax-card-116',['20%','분납']],
+  ['tax-card-165',['250만원','미등기']],
+  ['tax-card-183',['2개월','3개월']],
+  ['tax-card-184',['5월 1일','31일','예정신고']]
+]){
+  for(const term of terms) need(taxBullet(id).includes(term),id+': v1.74 official-law audit term missing '+term);
+}
+need(tax.filter(c=>c.id==='tax-card-092').every(c=>!c.bullets.some(x=>x.includes('6개월'))),'property tax installment period must not be mixed with comprehensive tax');
+need(tax.find(c=>c.id==='tax-card-073')?.subtitle.includes('해당 종류'),'registration tax minimum is type-specific, not universal');
+
+
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
   for(const c of raw){

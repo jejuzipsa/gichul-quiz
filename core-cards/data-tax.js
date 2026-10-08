@@ -1814,16 +1814,17 @@
     "title": "취득세 면세점",
     "subtitle": "취득가액이 소액인 일정 취득에 취득세를 부과하지 않는 제도",
     "bullets": [
-      "현행 법정 면세점 기준을 별도 확인"
+      "취득가액이 50만원 이하이면 취득세를 부과하지 않음",
+      "취득 후 1년 안에 인접 토지·건축물을 추가 취득한 경우에는 법정 합산 규정을 적용"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "취득세·비과세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제17조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제17조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -1831,7 +1832,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 취득세·비과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제17조"
   },
   {
     "id": "tax-card-060",
@@ -1842,16 +1843,19 @@
     "title": "취득세 신고납부",
     "subtitle": "취득 후 법정 신고기한 내 과세표준과 세액을 신고·납부하는 절차",
     "bullets": [
-      "일반 취득과 상속 등 취득의 신고기한을 구별"
+      "일반 취득은 취득일부터 60일 이내에 신고·납부",
+      "일반 무상취득·부담부증여는 취득일이 속하는 달의 말일부터 3개월",
+      "상속은 상속개시일이 속하는 달의 말일부터 6개월(해외주소 상속인이 있으면 9개월)",
+      "신고기한 전에 등기·등록하려면 접수일까지 먼저 신고·납부"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 7,
     "sourceSection": "취득세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제20조제1항·제4항",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제20조제1항·제4항. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -1859,7 +1863,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p7 · 취득세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제20조제1항·제4항"
   },
   {
     "id": "tax-card-061",
@@ -2192,16 +2196,17 @@
     "title": "등록면허세 신고납부",
     "subtitle": "등기·등록을 하기 전까지 등록면허세를 신고·납부하는 절차",
     "bullets": [
-      "미신고·미납부 시 보통징수와 가산세가 적용될 수 있음"
+      "등록분 등록면허세는 등기·등록을 하기 전까지 신고·납부해야 함",
+      "등록 후 법정 중과대상에 해당하면 추가 신고·납부 규정이 적용될 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제30조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제30조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "exam",
       "summary"
@@ -2214,7 +2219,7 @@
       "2022-33-second2-037"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제30조"
   },
   {
     "id": "tax-card-073",
@@ -2223,18 +2228,19 @@
     "type": "term",
     "category": "등록면허세·세율",
     "title": "등록면허세 최저세액",
-    "subtitle": "일정 등록의 산출세액이 최저액보다 적으면 최저액을 적용하는 제도",
+    "subtitle": "종가세 산출액이 해당 종류의 최저 정액세율보다 작을 때 적용하는 하한",
     "bullets": [
-      "소액징수면제와 구별"
+      "부동산 등기 중 '그 밖의 등기' 정액세율은 건당 6천원",
+      "등록 종류마다 최저 정액세율이 다르므로 모든 등록에 6천원을 일률 적용하지 않음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 8,
     "sourceSection": "등록면허세·세율",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제28조제1항",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제28조제1항. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -2242,7 +2248,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p8 · 등록면허세·세율"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제28조제1항"
   },
   {
     "id": "tax-card-074",
@@ -2753,16 +2759,18 @@
     "title": "재산세 납기",
     "subtitle": "재산 종류에 따라 정해진 재산세 납부기간",
     "bullets": [
-      "건축물·선박·항공기는 7월, 토지는 9월, 주택은 원칙적으로 7월·9월 부과"
+      "건축물·선박·항공기: 7월 16일~31일, 토지: 9월 16일~30일",
+      "주택: 원칙적으로 7월과 9월에 절반씩 납부",
+      "주택분 해당 연도 세액이 20만원 이하이면 조례에 따라 7월 한 번에 부과할 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제115조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제115조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -2770,7 +2778,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제115조"
   },
   {
     "id": "tax-card-091",
@@ -2809,16 +2817,18 @@
     "title": "재산세 분할납부",
     "subtitle": "재산세액이 일정 기준을 넘으면 법정 범위에서 나누어 납부하는 제도",
     "bullets": [
-      "분할납부 기준과 기한은 현행 법령을 확인"
+      "납부세액이 250만원을 초과하면 법정 범위에서 분할납부 가능",
+      "500만원 이하는 250만원 초과분, 500만원 초과는 세액의 절반 이하",
+      "재산세 분납기한은 원래 납부기한이 지난 날부터 3개월 이내"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제118조·시행령 제116조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제118조·시행령 제116조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -2826,7 +2836,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제118조·시행령 제116조"
   },
   {
     "id": "tax-card-093",
@@ -2837,16 +2847,17 @@
     "title": "재산세 물납",
     "subtitle": "일정 요건을 충족한 재산세를 부동산으로 납부하는 제도",
     "bullets": [
-      "현금납부 원칙의 예외로 법정 금액·부동산 요건을 충족해야 함"
+      "재산세 납부세액이 1천만원을 초과할 때 물납 신청 가능",
+      "물납은 해당 지방자치단체 관할구역 내 부동산에 한하여 허가할 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제117조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제117조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "exam",
       "summary"
@@ -2859,7 +2870,7 @@
       "2021-32-second2-029"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제117조"
   },
   {
     "id": "tax-card-094",
@@ -2870,16 +2881,17 @@
     "title": "재산세 소액징수면제",
     "subtitle": "고지서 1장당 세액이 법정 소액이면 징수하지 않는 제도",
     "bullets": [
-      "취득세 면세점·등록면허세 최저세액과 구별"
+      "고지서 1장당 징수할 재산세액이 2천원 미만이면 징수하지 않음",
+      "취득세 면세점(취득가액)과 달리 재산세 고지서별 세액 기준"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 11,
     "sourceSection": "재산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제119조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「지방세법」 제119조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -2887,7 +2899,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p11 · 재산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제119조"
   },
   {
     "id": "tax-card-095",
@@ -3226,16 +3238,17 @@
     "title": "고령자 세액공제",
     "subtitle": "1세대 1주택자 등의 연령에 따라 주택분 종부세에서 공제하는 제도",
     "bullets": [
-      "보유기간 세액공제와 합산한 공제한도 규정을 확인"
+      "1세대 1주택자 등 법정 요건 충족 시 60세 이상 20%, 65세 이상 30%, 70세 이상 40%",
+      "장기보유 세액공제와 합산하여 최대 80%까지 공제"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 12,
     "sourceSection": "종합부동산세·주택",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「종합부동산세법」 제9조 / 국세청 종합부동산세 안내",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「종합부동산세법」 제9조 / 국세청 종합부동산세 안내. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3243,7 +3256,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p12 · 종합부동산세·주택"
+    "sourceLabel": "국가법령정보센터 「종합부동산세법」 제9조 / 국세청 종합부동산세 안내"
   },
   {
     "id": "tax-card-107",
@@ -3254,16 +3267,17 @@
     "title": "장기보유 세액공제",
     "subtitle": "1세대 1주택자 등의 보유기간에 따라 주택분 종부세에서 공제하는 제도",
     "bullets": [
-      "고령자 공제와 함께 적용되는 구조"
+      "1세대 1주택자 등 법정 요건 충족 시 5년 이상 20%, 10년 이상 40%, 15년 이상 50%",
+      "고령자 세액공제와 합산한 한도는 최대 80%"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 12,
     "sourceSection": "종합부동산세·주택",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「종합부동산세법」 제9조 / 국세청 종합부동산세 안내",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「종합부동산세법」 제9조 / 국세청 종합부동산세 안내. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3271,7 +3285,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p12 · 종합부동산세·주택"
+    "sourceLabel": "국가법령정보센터 「종합부동산세법」 제9조 / 국세청 종합부동산세 안내"
   },
   {
     "id": "tax-card-108",
@@ -3394,16 +3408,17 @@
     "title": "종부세 정부부과",
     "subtitle": "세무서장이 과세표준과 세액을 계산해 고지하는 종부세 기본 부과방식",
     "bullets": [
-      "납세자가 신고납부를 선택할 수 있는 특례와 구별"
+      "관할 세무서장이 종합부동산세액을 결정하여 12월 1일~15일 부과·징수하는 것이 기본",
+      "납세자가 법정기간에 신고납부를 선택할 수 있음"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "종합부동산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「종합부동산세법」 제16조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「종합부동산세법」 제16조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3411,7 +3426,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 종합부동산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「종합부동산세법」 제16조"
   },
   {
     "id": "tax-card-113",
@@ -3422,16 +3437,17 @@
     "title": "종부세 신고납부 선택",
     "subtitle": "납세자가 정해진 기간에 직접 과세표준·세액을 신고해 납부하는 선택제도",
     "bullets": [
-      "신고하면 정부부과 고지는 없었던 것으로 처리"
+      "납세자는 12월 1일~15일에 종부세 과세표준·세액을 신고하고 납부하는 방식을 선택 가능",
+      "법정 신고를 하면 정부부과 방식의 기존 결정은 없었던 것으로 봄"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "종합부동산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「종합부동산세법」 제16조제3항·제4항",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「종합부동산세법」 제16조제3항·제4항. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3439,7 +3455,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 종합부동산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「종합부동산세법」 제16조제3항·제4항"
   },
   {
     "id": "tax-card-114",
@@ -3450,16 +3466,17 @@
     "title": "종부세 납부기간",
     "subtitle": "종합부동산세를 납부하는 법정 기간",
     "bullets": [
-      "원칙적으로 매년 12월 법정 기간에 납부"
+      "종합부동산세 법정 납부기간은 매년 12월 1일부터 12월 15일까지",
+      "납부기한이 공휴일에 해당하는 경우에는 기한 연장 규정을 함께 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "종합부동산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「종합부동산세법」 제16조 / 국세청 종부세 납부기한",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「종합부동산세법」 제16조 / 국세청 종부세 납부기한. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3467,7 +3484,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 종합부동산세·부과징수"
+    "sourceLabel": "국가법령정보센터 「종합부동산세법」 제16조 / 국세청 종부세 납부기한"
   },
   {
     "id": "tax-card-115",
@@ -3478,16 +3495,18 @@
     "title": "종부세 분납",
     "subtitle": "납부할 종부세액이 일정 기준을 넘으면 나누어 납부하는 제도",
     "bullets": [
-      "현행 분납기준과 기한을 확인"
+      "납부할 종부세액이 250만원을 초과하면 6개월 이내 분납 가능",
+      "250만원 초과 500만원 이하는 250만원 초과분, 500만원 초과는 세액의 50% 이하",
+      "재산세 분납기한(3개월)과 종부세 분납기한(6개월)을 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "종합부동산세·부과징수",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국세청 「종합부동산세 납부기한」 / 종합부동산세법 제20조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국세청 「종합부동산세 납부기한」 / 종합부동산세법 제20조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3495,7 +3514,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 종합부동산세·부과징수"
+    "sourceLabel": "국세청 「종합부동산세 납부기한」 / 종합부동산세법 제20조"
   },
   {
     "id": "tax-card-116",
@@ -3506,16 +3525,17 @@
     "title": "종부세 농어촌특별세",
     "subtitle": "종합부동산세액에 부가되는 농어촌특별세",
     "bullets": [
-      "종부세액의 20%가 부과되는 구조"
+      "종합부동산세의 20%에 해당하는 농어촌특별세가 부과됨",
+      "종부세를 분납하면 농어촌특별세도 종부세와 같은 비율로 분납"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 13,
     "sourceSection": "종합부동산세·부가세",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국세청 「종합부동산세 납부기한」",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국세청 「종합부동산세 납부기한」. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -3523,7 +3543,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p13 · 종합부동산세·부가세"
+    "sourceLabel": "국세청 「종합부동산세 납부기한」"
   },
   {
     "id": "tax-card-117",
@@ -5149,16 +5169,17 @@
     "title": "양도소득기본공제",
     "subtitle": "양도소득금액에서 소득별로 공제하는 기본공제",
     "bullets": [
-      "미등기양도자산 등은 적용이 배제될 수 있음"
+      "양도소득 유형별로 해당 과세기간 양도소득금액에서 연 250만원 기본공제",
+      "미등기양도자산은 양도소득기본공제 적용이 배제"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 17,
     "sourceSection": "양도소득세·공제",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「소득세법」 제103조 / 국세청 양도세 계산 안내",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「소득세법」 제103조 / 국세청 양도세 계산 안내. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "exam",
       "summary"
@@ -5171,7 +5192,7 @@
       "2021-32-second2-026"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p17 · 양도소득세·공제"
+    "sourceLabel": "국가법령정보센터 「소득세법」 제103조 / 국세청 양도세 계산 안내"
   },
   {
     "id": "tax-card-166",
@@ -5702,16 +5723,18 @@
     "title": "양도소득 예정신고",
     "subtitle": "자산 양도 후 법정기한 내 양도소득과세표준을 신고하는 절차",
     "bullets": [
-      "토지·건물 등은 양도일이 속하는 달의 말일부터 2개월 이내가 원칙"
+      "토지·건물 등 일반 양도는 양도일이 속하는 달의 말일부터 2개월 이내 예정신고",
+      "부담부증여 중 채무 인수액을 양도로 보는 부분은 양도월 말일부터 3개월",
+      "토지거래허가구역에서 허가 전 잔금을 청산한 경우 등의 예외를 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 20,
     "sourceSection": "양도소득세·신고납부",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「소득세법」 제105조",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「소득세법」 제105조. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -5719,7 +5742,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p20 · 양도소득세·신고납부"
+    "sourceLabel": "국가법령정보센터 「소득세법」 제105조"
   },
   {
     "id": "tax-card-184",
@@ -5730,16 +5753,17 @@
     "title": "양도소득 확정신고",
     "subtitle": "한 해의 양도소득을 다음 연도 법정기간에 확정해 신고하는 절차",
     "bullets": [
-      "예정신고만으로 확정신고 의무가 면제되는 경우를 확인"
+      "양도소득 확정신고는 원칙적으로 다음 해 5월 1일~31일",
+      "예정신고를 했다면 일정 요건에서 확정신고를 생략할 수 있지만, 연간 복수 양도 등은 별도 확인"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 21,
     "sourceSection": "양도소득세·신고납부",
-    "sourceRef": "",
-    "sourceNote": "",
+    "sourceRef": "국가법령정보센터 「소득세법」 제110조 / 국세청 양도세 신고 안내",
+    "sourceNote": "2026-10-08 2차 현행법 검수: 국가법령정보센터 「소득세법」 제110조 / 국세청 양도세 신고 안내. 요약집의 이전 수치가 아닌 해당 시행법 기준.",
     "basis": [
       "summary"
     ],
@@ -5747,7 +5771,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p21 · 양도소득세·신고납부"
+    "sourceLabel": "국가법령정보센터 「소득세법」 제110조 / 국세청 양도세 신고 안내"
   },
   {
     "id": "tax-card-185",
