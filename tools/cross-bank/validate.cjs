@@ -92,6 +92,19 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
     }
   }
 }
+// v1.96: parent/child actor terms must not form two factually true alternatives.
+{
+  const brokerage=readBank('brokerage_law').questions;
+  for(const [id,answer,index] of [['BLANK-03-132','개업공인중개사',2],['BLANK-03-184','개업공인중개사',0]]){
+    const q=brokerage.find(item=>item.id===id);
+    assert.ok(q,id+': verified choice conflict regression');
+    assert.equal(q.answer,answer,id+': preserve correct answer');
+    assert.equal(q.choices.indexOf(answer),index,id+': preserve answer index');
+    assert.ok(!q.choices.includes('법인인 개업공인중개사'),id+': subtype is not an incorrect alternative');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': four distinct alternatives');
+    assert.ok(q.explanation.includes('개업공인중개사'),id+': identify legal obligor');
+  }
+}
 console.log('core/blank cross-audit OK: '+coreTotal+' core + '+blankTotal+' derived; '+sharedTrueDistractors+' core questions reuse a true statement for another concept.');
 console.log('Potential extended-source semantic review: '+reviewCandidates.length+' derived blanks use words not stated verbatim in original prompt/correct/explanation; not automatically errors.');
 if(process.argv.includes('--details'))console.log(JSON.stringify(reviewCandidates,null,2));
