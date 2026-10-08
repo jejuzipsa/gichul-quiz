@@ -84,7 +84,7 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
     assert.equal(q.answer,spec.answer,id+': preserve canonical answer index');
     assert.equal(q.sourceLaw,'민법',id+': source law');
     assert.equal(q.sourceArticle,spec.article,id+': verified statute');
-    assert.match(q.question,/에 관한 설명으로 옳은 것은\\?$/,id+': same-topic true/false form');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': same-topic true/false form');
     assert.ok(q.explanation.includes('민법 '+spec.article),id+': grounded explanation');
     assert.equal(q.verifiedAt,'2026-10-09',id+': individual legal review date');
     for(let i=0;i<q.choices.length;i++){
