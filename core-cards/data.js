@@ -8828,16 +8828,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "물권",
       "subtitle": "특정 물건을 직접 지배하여 배타적 이익을 얻는 권리",
       "bullets": [
-        "특정 물건에 대한 직접적·배타적 지배권"
+        "물권은 특정 물건을 직접 지배하는 배타적 권리로 소유권·지상권·저당권 등 권리별 효력이 다름",
+        "민법 제185조에 따라 물권은 법률 또는 관습법에 의하지 않고는 임의로 새로운 종류를 창설하지 못함"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p10 + 민법 제185·186조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -8863,7 +8864,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-056"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p10 · 물권법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p10 + 민법 제185·186조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-088",
@@ -8874,16 +8875,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "채권",
       "subtitle": "특정인에게 일정한 급부를 청구하는 권리",
       "bullets": [
-        "특정 채무자에게 이행을 요구하는 상대적 권리"
+        "채권은 채권자가 특정 채무자에게 급부나 의무의 이행을 청구하는 상대적 권리",
+        "채무자가 채무 내용에 따른 이행을 하지 않으면 민법 제390조의 요건에 따라 손해배상이 문제되고 귀책사유 예외를 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p10 + 민법 제390조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -8909,7 +8911,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-059"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p10 · 물권법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p10 + 민법 제390조 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-089",
@@ -9416,16 +9418,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "등기청구권",
       "subtitle": "등기의무자에게 등기절차 이행을 청구하는 권리",
       "bullets": [
-        "채권적 청구권인지 물권적 청구권인지 발생원인에 따라 구별"
+        "매매로 인한 소유권이전등기청구권은 매도인의 권리이전의무에서 생기는 채권적 청구권",
+        "판례상 매매에 따른 등기청구권 양도는 원칙적으로 매도인의 동의·승낙이 필요하며 단순 통지로 대항할 수 없음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p11 + 대법원 2001.10.9. 2000다51216 https://law.go.kr/LSW/precInfoP.do?precSeq=192605",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -9447,7 +9450,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-051"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p11 + 대법원 2001.10.9. 2000다51216 https://law.go.kr/LSW/precInfoP.do?precSeq=192605"
     },
     {
       "id": "civ-card-104",
@@ -9458,16 +9461,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "가등기",
       "subtitle": "장래 본등기 순위를 보전하기 위한 예비등기",
       "bullets": [
-        "청구권 보전을 위해 하고 그 자체로 완전한 물권변동 효력은 없음"
+        "가등기는 부동산등기법 제88조에 따라 권리 설정·이전·변경·소멸 청구권을 보전하는 예비등기",
+        "가등기만으로 소유권이 이전되지는 않고 그에 기한 본등기 시 순위보전 효력이 문제되며 담보가등기와 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p11 + 부동산등기법 제88·92조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0088&lsiSeq=265377&urlMode=lsScJoRltInfoR",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -9490,7 +9494,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-077"
       ],
       "importance": 4,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p11 + 부동산등기법 제88·92조 https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0088&lsiSeq=265377&urlMode=lsScJoRltInfoR"
     },
     {
       "id": "civ-card-105",
@@ -9501,16 +9505,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "본등기",
       "subtitle": "등기 본래의 물권변동 효력을 발생시키는 종국등기",
       "bullets": [
-        "가등기에 대응하는 완전한 종국등기"
+        "본등기는 등기의 본래 효력을 발생시키는 종국등기이고 일반 등기는 완료되면 접수 시부터 효력이 발생함",
+        "가등기에 기한 본등기를 마치면 제92조에 따라 가등기의 보전권리를 침해하는 후순위 등기는 요건에 따라 직권말소"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p11 + 부동산등기법 제6·92조 https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1026156121",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -9527,7 +9532,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-077"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p11 + 부동산등기법 제6·92조 https://law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1026156121"
     },
     {
       "id": "civ-card-106",
@@ -9538,16 +9543,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "중간생략등기",
       "subtitle": "중간 취득자 등기를 생략하고 최종취득자에게 바로 하는 등기",
       "bullets": [
-        "실체관계와 등기절차가 일치하는지 및 청구 가능성이 기출에서 반복"
+        "중간생략등기는 순차 매매 뒤 중간 매수인 명의 등기를 생략하고 최종 매수인 명의로 직접 등기하는 방식",
+        "최종 매수인이 최초 매도인에게 직접 등기를 청구하려면 원칙적으로 관계 당사자 전원의 합의가 필요하고 기존 대금채권도 자동 소멸하지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 11,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p11 + 대법원 2005.4.29. 2003다66431 https://www.law.go.kr/LSW/precInfoP.do?precSeq=83806",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -9562,7 +9568,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-054"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p11 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p11 + 대법원 2005.4.29. 2003다66431 https://www.law.go.kr/LSW/precInfoP.do?precSeq=83806"
     },
     {
       "id": "civ-card-107",
@@ -9736,16 +9742,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "입목",
       "subtitle": "입목법에 따라 독립 부동산으로 취급되는 수목집단",
       "bullets": [
-        "토지에 부착된 수목집단 중 소유권보존등기를 받은 것"
+        "입목은 토지에 부착된 수목집단으로서 입목에 관한 법률에 따라 소유권보존등기를 마친 것",
+        "입목은 별도 부동산으로 보아 토지와 분리해 양도하거나 저당권 목적으로 할 수 있고 토지 처분 효력은 입목에 미치지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p12 + 입목에 관한 법률 제2·3조 https://www.law.go.kr/LSW/LsiJoLinkP.do?docType=&joNo=&languageType=KO&lsNm=%EC%9E%85%EB%AA%A9%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0&paras=1",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -9758,7 +9765,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-060"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p12 + 입목에 관한 법률 제2·3조 https://www.law.go.kr/LSW/LsiJoLinkP.do?docType=&joNo=&languageType=KO&lsNm=%EC%9E%85%EB%AA%A9%EC%97%90+%EA%B4%80%ED%95%9C+%EB%B2%95%EB%A5%A0&paras=1"
     },
     {
       "id": "civ-card-113",
@@ -9769,16 +9776,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "명인방법",
       "subtitle": "수목 등 독립 소유권을 외부에 표시하는 공시방법",
       "bullets": [
-        "수목 등의 소유권 이전을 공시하는 관습법상 방법"
+        "명인방법은 소유자 표시 등으로 수목집단의 소유관계를 제3자가 알 수 있도록 하는 관습법상 공시방법",
+        "명인방법을 갖춘 수목은 토지와 분리해 거래·집행될 수 있으나 입목에 관한 법률상 저당권을 위한 입목등기와 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·물권변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p12 + 대법원 1998.10.28. 98마1817 법제처 생활법령 https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=1&cciNo=1&cnpClsNo=2&csmSeq=306",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "summary"
       ],
@@ -9786,7 +9794,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·물권변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p12 + 대법원 1998.10.28. 98마1817 법제처 생활법령 https://www.easylaw.go.kr/CSP/CnpClsMain.laf?ccfNo=1&cciNo=1&cnpClsNo=2&csmSeq=306"
     },
     {
       "id": "civ-card-114",
@@ -9947,16 +9955,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "타주점유",
       "subtitle": "소유의 의사 없이 하는 점유",
       "bullets": [
-        "임차인처럼 타인의 소유임을 전제로 하는 점유"
+        "타주점유는 소유의 의사 없는 점유이며 임차권 등 권원의 성질에 비추어 다른 사람의 소유를 전제로 하는 점유가 대표적",
+        "자주·타주 구별은 내심만으로 정하지 않고 권원과 객관적 사정을 보며 민법 제197조의 자주점유 추정도 번복될 수 있음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "물권법·점유권",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p12 + 대법원 1997.8.21. 95다28625 전원합의체 https://law.go.kr/precInfoP.do?precSeq=196528",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -9971,7 +9980,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-051"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 물권법·점유권"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p12 + 대법원 1997.8.21. 95다28625 전원합의체 https://law.go.kr/precInfoP.do?precSeq=196528"
     },
     {
       "id": "civ-card-119",
@@ -13484,16 +13493,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "양도담보",
       "subtitle": "담보 목적으로 재산권을 채권자에게 이전하는 비전형담보",
       "bullets": [
-        "형식상 권리를 이전하지만 실질은 채권 담보를 위한 구조"
+        "양도담보는 채권 담보를 위해 재산권을 이전하는 구조로 대물변제와 달리 담보·청산의 목적을 가짐",
+        "담보 목적인지는 약정 당시 채무액·목적물 가치·처분 및 점유관계 등 사정을 종합해 판단하며 형식상 명칭만으로 단정하지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 35,
       "sourceSection": "민사특별법·가등기담보",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p35 + 대법원 2013.1.16. 2012다11648 https://law.go.kr/LSW/precInfoP.do?precSeq=170712",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -13506,7 +13516,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-076"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p35 · 민사특별법·가등기담보"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p35 + 대법원 2013.1.16. 2012다11648 https://law.go.kr/LSW/precInfoP.do?precSeq=170712"
     },
     {
       "id": "civ-card-215",
@@ -14040,18 +14050,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "구분소유적 공유",
       "subtitle": "내부적으로 위치를 나눠 소유하면서 외부적으로 공유등기하는 형태",
       "bullets": [
-        "상호명의신탁이라고도 하며 명의신탁약정 정의에서 제외되는 유형"
+        "구분소유적 공유는 특정 부분을 나눠 소유하기로 하면서 외부 등기는 공유지분으로 하는 상호명의신탁관계",
+        "위치·면적을 특정해 구분소유하고 공유등기한 경우 부동산실명법 제2조의 명의신탁약정 정의에서 제외되며 지분 양도 유형을 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "상호명의신탁"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p39 + 부동산실명법 제2조·대법원 2022.3.31. 2021다215589 https://www.law.go.kr/LSW/precInfoP.do?precSeq=233019",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -14068,7 +14079,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-068"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p39 · 민사특별법·부동산실명법"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p39 + 부동산실명법 제2조·대법원 2022.3.31. 2021다215589 https://www.law.go.kr/LSW/precInfoP.do?precSeq=233019"
     },
     {
       "id": "civ-card-230",
@@ -14079,18 +14090,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "실권리자명의 등기",
       "subtitle": "부동산 물권을 실제 권리자 명의로 등기하는 원칙",
       "bullets": [
-        "명의신탁을 금지하고 실질권리자 명의 등기를 요구하는 부동산실명제의 핵심"
+        "부동산실명법 제3조는 원칙적으로 명의신탁약정에 따른 명의수탁자 명의의 부동산 물권 등기를 금지함",
+        "제4조에 따라 명의신탁약정은 무효이나 물권변동의 효력은 계약명의신탁의 상대방 선의 등 예외와 제3자 보호를 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "부동산실명제"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p39 + 부동산실명법 제2~4조 https://law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=20200324&lsiSeq=215759&urlMode=lsInfoP",
+      "sourceNote": "2026-10-09 요약 PDF 해당 쪽과 표시된 공식 조문·판례 주요 주장을 대조함. 개별 사건의 모든 예외·후속 판례까지 인증한 의미는 아님.",
       "basis": [
         "exam",
         "summary"
@@ -14103,7 +14115,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-077"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p39 · 민사특별법·부동산실명법"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p39 + 부동산실명법 제2~4조 https://law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=20200324&lsiSeq=215759&urlMode=lsInfoP"
     },
     {
       "id": "civ-card-231",
