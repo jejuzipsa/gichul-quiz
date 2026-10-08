@@ -11001,7 +11001,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 19,
       "sourceSection": "물권법·담보물권",
-      "sourceRef": "2.공인중개사요약_민법.pdf p19 + 국가법령정보센터 「민법 제321조·제331조·제356조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceRef": "2.공인중개사요약_민법.pdf p19 + 국가법령정보센터 「민법 제320조·제356조·제357조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
       "sourceNote": "2026-10-09 요약집 해당 쪽과 공식 민법(2026.3.17. 시행) 주요 조문·공개 판례의 해당 논점 대조. 사례별 요건/후속 판례는 별도 판단.",
       "basis": [
         "summary"
@@ -11010,7 +11010,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p19 + 국가법령정보센터 「민법 제321조·제331조·제356조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p19 + 국가법령정보센터 「민법 제320조·제356조·제357조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-148",
@@ -11241,7 +11241,7 @@ window.CORE_WORD_CARD_BANK = {
       "subtitle": "담보물권으로 담보되는 채권",
       "bullets": [
         "피담보채권은 담보권이 확보하려는 원본채권과 법정·약정된 범위의 부수채권",
-        "저당권은 원본·이자·위약금·채무불이행 손해배상과 실행비용 등을 담보하나 기간·범위 제한 검토"
+        "민법 제360조는 지연배상에 대하여 원본 이행기 경과 후 1년분으로 저당권 행사 범위를 제한"
       ],
       "formula": "",
       "visual": "none",
