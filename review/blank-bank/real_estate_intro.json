@@ -1680,14 +1680,14 @@
       "subject": "부동산학개론",
       "category": "금융론",
       "prompt": "{{blank}}은 소액투자자에게 지분권을 판매해 모은 자금을 부동산에 투자하고 수익을 배분하는 기구이다.",
-      "answer": "부동산투자신탁(REITs)",
+      "answer": "부동산투자회사(REITs)",
       "choices": [
         "저당금융",
         "신탁금융",
         "주택상환사채",
-        "부동산투자신탁(REITs)"
+        "부동산투자회사(REITs)"
       ],
-      "explanation": "REITs는 다수 투자자의 자금을 모아 부동산에 투자하는 지분금융 방식이다.",
+      "explanation": "부동산투자회사(REITs·리츠)는 부동산투자회사법에 따른 투자회사로 다수 투자자의 자금을 모아 부동산 등에 투자하고 수익을 배분한다.",
       "source": "V2 검수은행 · REK076",
       "originQuestionId": "REK076",
       "review": {
