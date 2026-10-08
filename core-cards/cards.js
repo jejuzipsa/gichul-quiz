@@ -425,11 +425,18 @@
     const possession=CIVIL_POSSESSION[type];
     if(possession){
       const [heading,left,right,object,top,bottom]=possession;
-      const line=type==='civil_possession_revision'?'v-civil-dashed':'v-civil-line';
+      // Solid = current direct possessor; dashed = mediated/claim relationship; omitted = no current possession.
+      const lines={
+        civil_possession_simple:['','v-civil-line'],
+        civil_possession_revision:['v-civil-line','v-civil-dashed'],
+        civil_possession_claim:['v-civil-dashed','v-civil-dashed'],
+        civil_possession_indirect:['v-civil-dashed','v-civil-line']
+      }[type];
       return civSvg(`<text class="v-civil-heading" x="120" y="16" text-anchor="middle">${heading}</text>`
         +civBox(4,30,75,left)+civBox(161,30,75,right)
         +`<rect class="v-civil-object" x="88" y="76" width="64" height="26" rx="7"/><text class="v-civil-title" x="120" y="94" text-anchor="middle">${object}</text>`
-        +`<path class="v-civil-line" d="M42 67L95 83"/><path class="${line}" d="M198 67L145 83"/>`
+        +(lines[0]?`<path class="${lines[0]}" d="M42 67L95 83"/>`:'')
+        +(lines[1]?`<path class="${lines[1]}" d="M198 67L145 83"/>`:'')
         +`<text class="v-civil-caption" x="120" y="119" text-anchor="middle">${top}</text><text class="v-civil-caption" x="120" y="133" text-anchor="middle">${bottom}</text>`);
     }
     const row=CIVIL_DIAGRAMS[type];
