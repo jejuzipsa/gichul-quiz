@@ -116,7 +116,7 @@
   function startNewSet() {
     hideAnswerModal();
     state.phase = 'main';
-    state.session = shuffle(bank.questions).slice(0, Math.min(QUIZ_COUNT, bank.questions.length)).map(prepareQuestion);
+    state.session = window.pickBlankQuizSession(bank.questions, Math.min(QUIZ_COUNT, bank.questions.length)).map(prepareQuestion);
     state.index = 0;
     state.locked = false;
     state.current = null;

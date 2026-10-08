@@ -47,7 +47,8 @@ for(const subject of Object.keys(TARGETS)) {
     b=>b.questions[1].prompt=b.questions[0].prompt,
     b=>b.questions[0].prompt+=' {{blank}}',
     b=>b.questions[0].explanation='',
-    b=>b.questions[0].originQuestionId='UNKNOWN-CORE-ID'
+    b=>b.questions[0].originQuestionId='UNKNOWN-CORE-ID',
+    b=>{const q=b.questions.find(x=>!x.blankValues);q.prompt=q.prompt+' '+q.answer;}
   ]) {
     const broken=structuredClone(bank);
     mutate(broken);
@@ -69,6 +70,29 @@ for(const subject of Object.keys(TARGETS)) {
   }
 }
 
+// The signed answer must never be readable in the question outside blank slots.
+const sessionContext={window:{}};
+vm.createContext(sessionContext);
+vm.runInContext(fs.readFileSync(path.join(ROOT,'word-quiz/blank-session.js'),'utf8'),sessionContext);
+assert.equal(typeof sessionContext.window.pickBlankQuizSession,'function');
+checks+=1;
+for(const subject of Object.keys(TARGETS)){
+  const bank=readBank(subject);
+  for(const randomValue of [0,0.15,0.5,0.97]){
+    const picked=sessionContext.window.pickBlankQuizSession(bank.questions,10,()=>randomValue);
+    assert.equal(picked.length,10,subject+': must draw 10 questions');
+    assert.equal(new Set(picked.map(x=>x.originQuestionId)).size,10,subject+': no repeated origin in 10-question session');
+    checks+=2;
+  }
+}
+{
+ const small=[{id:'a',originQuestionId:'A'},{id:'b',originQuestionId:'A'},{id:'c',originQuestionId:'B'}];
+ const result=sessionContext.window.pickBlankQuizSession(small,3,()=>0.4);
+ assert.equal(result.length,3);
+ assert.equal(new Set(result.map(x=>x.id)).size,3);
+ checks+=2;
+}
+
 assert.ok(multiCount>0,'At least one reviewed bank must exercise multi-blank rendering data');
 checks+=1;
 
@@ -76,13 +100,15 @@ const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261007-blank-v2'));
+assert.ok(html.includes('20261009-blank-v3'));
+assert.ok(html.includes('blank-session.js?v=20261009-blank-v3'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-v2-summary1'));
+assert.ok(html.includes('blank-quiz.js?v=20261009-blank-v3'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
 assert.ok(quizJs.includes('blankValues'));
+assert.ok(quizJs.includes('window.pickBlankQuizSession'));
 assert.ok(quizJs.includes('data-blank-key')||quizJs.includes('dataset.blankKey'));
 assert.ok(quizJs.includes('correctSentence'));
 assert.ok(quizJs.includes('renderAnswerSummary'));
