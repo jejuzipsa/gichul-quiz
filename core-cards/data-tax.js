@@ -186,10 +186,11 @@
     "order": 6,
     "type": "term",
     "category": "조세총론·분류",
-    "title": "부가세",
-    "subtitle": "다른 본세에 부가하여 징수하는 조세",
+    "title": "부가세(附加稅)",
+    "subtitle": "독립세에 대비하여 다른 조세에 덧붙여 부과되는 조세",
     "bullets": [
-      "지방교육세·농어촌특별세 등은 본세와 연결해 계산"
+      "지방교육세·농어촌특별세 등은 다른 조세에 부가해 산정하는 유형이 있음",
+      "일상적으로 부가가치세를 줄여 부르는 '부가세'와는 구별"
     ],
     "formula": "",
     "visual": "none",
@@ -197,7 +198,7 @@
     "sourceKind": "summary",
     "sourcePage": 1,
     "sourceSection": "조세총론·분류",
-    "sourceRef": "",
+    "sourceRef": "[제목]",
     "sourceNote": "",
     "basis": [
       "summary"
@@ -894,15 +895,15 @@
     "title": "취득세 과세대상",
     "subtitle": "취득세가 부과되는 부동산·준부동산·권리",
     "bullets": [
-      "토지·건축물, 차량·기계장비·항공기·선박·입목, 광업권·어업권·회원권 등이 포함"
+      "토지·건축물, 차량·기계장비·항공기·선박·입목, 광업권·어업권·양식업권과 법정 회원권 등을 포함"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 4,
     "sourceSection": "취득세·총칙",
-    "sourceRef": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제7조제1항",
     "sourceNote": "",
     "basis": [
       "summary"
@@ -911,7 +912,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p4 · 취득세·총칙"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제7조제1항"
   },
   {
     "id": "tax-card-029",
@@ -1575,17 +1576,18 @@
     "type": "term",
     "category": "취득세·중과세",
     "title": "사치성 재산",
-    "subtitle": "취득세가 중과되는 별장·골프장·고급오락장·고급주택·고급선박",
+    "subtitle": "취득세 중과대상인 골프장·고급주택·고급오락장·고급선박",
     "bullets": [
-      "일반 취득보다 강화된 세율이 적용"
+      "현행 지방세법 제13조제5항에 따른 취득세 중과대상을 구별",
+      "별장은 2023년 3월 14일부터 해당 중과대상에서 제외"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
-    "sourceRef": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제13조제5항 (2023.3.14. 별장 중과 삭제)",
     "sourceNote": "",
     "basis": [
       "summary"
@@ -1594,7 +1596,7 @@
     "examYears": [],
     "examSampleRefs": [],
     "importance": 2,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·중과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제13조제5항 (2023.3.14. 별장 중과 삭제)"
   },
   {
     "id": "tax-card-052",
@@ -1605,15 +1607,16 @@
     "title": "별장",
     "subtitle": "상시 주거용이 아닌 휴양·피서용 주거용 건축물",
     "bullets": [
-      "법정 요건을 충족하면 사치성 재산으로 취득세 중과"
+      "2023년 3월 14일부터 별장이라는 이유만으로 취득세를 중과하지 않음",
+      "2021년 기출의 별장 중과 관련 규정은 당시 법령 기준이므로 현행법과 구별"
     ],
     "formula": "",
     "visual": "none",
     "aliases": [],
-    "sourceKind": "summary",
+    "sourceKind": "summary+official",
     "sourcePage": 6,
     "sourceSection": "취득세·중과세",
-    "sourceRef": "",
+    "sourceRef": "국가법령정보센터 「지방세법」 제13조제5항 (2023.3.14. 별장 중과 삭제)",
     "sourceNote": "",
     "basis": [
       "exam",
@@ -1627,7 +1630,7 @@
       "2021-32-second2-028"
     ],
     "importance": 3,
-    "sourceLabel": "부동산세법 요약집 p6 · 취득세·중과세"
+    "sourceLabel": "국가법령정보센터 「지방세법」 제13조제5항 (2023.3.14. 별장 중과 삭제)"
   },
   {
     "id": "tax-card-053",
@@ -5249,8 +5252,9 @@
     "title": "단기보유 세율",
     "subtitle": "보유기간이 짧은 토지·건물 등에 적용하는 별도 양도세율",
     "bullets": [
-      "일반 자산은 1년 미만 50%, 1년 이상 2년 미만 40%",
-      "주택·조합원입주권·분양권은 각각 70%·60%가 적용될 수 있음"
+      "일반 토지·건물: 보유 1년 미만 50%, 1년 이상 2년 미만 40%",
+      "주택·조합원입주권·분양권: 보유 1년 미만 70%, 1년 이상 2년 미만 60%",
+      "분양권은 보유기간 2년 이상이어도 60% 세율을 적용하는 별도 규정을 확인"
     ],
     "formula": "",
     "visual": "none",
