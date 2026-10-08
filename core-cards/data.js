@@ -5770,7 +5770,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법률사실",
       "subtitle": "법률요건을 구성하는 개개의 사실",
       "bullets": [
-        "법률관계 변동의 원인이 되는 법률요건을 이루는 하나하나의 사실"
+        "법률사실은 법률요건을 구성하는 개개의 사실로 사람의 행위와 사건 등을 포함한다.",
+        "개개의 법률사실이 하나 또는 여러 개 결합하여 법률요건을 이루고 법률효과가 발생할 수 있다."
       ],
       "formula": "",
       "visual": "none",
@@ -5779,7 +5780,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -5798,8 +5799,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법률요건",
       "subtitle": "일정한 법률효과를 발생시키는 사실의 묶음",
       "bullets": [
-        "법률효과를 발생시키는 원인이 되는 요건",
-        "하나 또는 여러 법률사실로 구성"
+        "법률요건은 일정한 법률효과를 발생시키는 데 필요한 사실 또는 사실의 결합이다.",
+        "법률행위처럼 의사표시를 포함하는 요건과 사건 등 의사와 무관한 요건을 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -5808,7 +5809,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -5827,7 +5828,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법률효과",
       "subtitle": "법률요건이 충족되어 생기는 법률관계의 결과",
       "bullets": [
-        "권리의 발생·변경·소멸처럼 법이 인정하는 결과"
+        "법률효과는 법률요건 충족으로 법이 인정하는 권리·의무의 발생·변경·소멸이다.",
+        "법률사실은 구성 사실, 법률요건은 발생 조건, 법률효과는 그 결과라는 순서로 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -5836,7 +5838,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -5862,18 +5864,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "원시취득",
       "subtitle": "타인의 권리를 승계하지 않고 새로 취득",
       "bullets": [
-        "시효취득·무주물선점처럼 종전 권리와 무관하게 새 권리를 취득"
+        "원시취득은 종전 권리자의 권리를 이어받지 않고 새로 권리를 취득하는 방식으로 취득시효·무주물선점 등이 해당한다.",
+        "경매에 의한 부동산 취득은 원칙적으로 승계취득이므로 원시취득 사례로 외우지 않도록 구별한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "原始取得"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제245조·제252조 / 대법원 경매 승계취득 판례」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -5886,7 +5889,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p1 · 민법총칙·권리변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제245조·제252조 / 대법원 경매 승계취득 판례」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-005",
@@ -5897,18 +5900,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "승계취득",
       "subtitle": "종전 권리자의 권리를 이어받는 취득",
       "bullets": [
-        "매매·증여·상속처럼 기존 권리를 승계하여 취득"
+        "승계취득은 종전 권리자의 권리를 이전받거나 그 권리에 기초해 제한물권 등을 취득하는 방식이다.",
+        "매매·증여·상속·경매가 대표적이고 법률행위에 의한 취득과 법률 규정에 의한 취득은 등기 요건을 구별한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "承繼取得"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제186조·제187조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -5921,7 +5925,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-079"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p1 · 민법총칙·권리변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제186조·제187조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-006",
@@ -5932,16 +5936,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "이전적 승계",
       "subtitle": "기존 권리가 그대로 이전되는 승계취득",
       "bullets": [
-        "매매·증여에 따른 소유권 이전처럼 권리 자체가 옮겨감"
+        "이전적 승계는 매매·증여 등으로 기존 권리 자체가 다른 사람에게 이전되는 것이다.",
+        "법률행위로 부동산 소유권을 이전할 때는 원칙적으로 등기해야 효력이 생긴다(민법 제186조)."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제186조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -5954,7 +5959,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-064"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p1 · 민법총칙·권리변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제186조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-007",
@@ -5965,16 +5970,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "설정적 승계",
       "subtitle": "기존 권리 위에 제한물권을 새로 취득",
       "bullets": [
-        "타인의 토지에 지상권·전세권·저당권 등을 설정받는 경우"
+        "설정적 승계는 기존 소유권 등의 권능을 바탕으로 지상권·전세권·저당권 등 새 제한물권을 설정받는 것이다.",
+        "소유권 자체를 옮기는 이전적 승계와 달리 소유자가 권리를 보유한 채 제한물권이 병존할 수 있다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제279조·제303조·제356조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -5982,7 +5988,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p1 · 민법총칙·권리변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제279조·제303조·제356조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-008",
@@ -5993,16 +5999,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "포괄승계",
       "subtitle": "권리·의무를 일괄적으로 승계",
       "bullets": [
-        "상속·포괄유증·회사합병처럼 재산관계를 포괄적으로 이어받음"
+        "포괄승계는 상속·포괄유증·합병처럼 권리와 의무를 포괄하여 이어받는 형태다.",
+        "상속은 민법 제1005조에 따라 원칙적으로 피상속인의 재산상 권리·의무를 승계하지만 일신전속 권리는 제외된다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제1005조·제187조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -6010,7 +6017,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p1 · 민법총칙·권리변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제1005조·제187조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-009",
@@ -6021,16 +6028,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "특정승계",
       "subtitle": "개별 권리를 특정하여 승계",
       "bullets": [
-        "매매·교환·증여처럼 특정한 권리를 개별적으로 이어받음"
+        "특정승계는 매매·증여·교환 등으로 특정한 권리를 개별적으로 이어받는 취득 형태다.",
+        "포괄승계와 달리 모든 재산상 권리·의무를 일괄 이전받는 것이 아니며 부동산 소유권 이전에는 등기가 원칙이다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 1,
       "sourceSection": "민법총칙·권리변동",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제186조·제563조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6045,7 +6053,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p1 · 민법총칙·권리변동"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p1 + 국가법령정보센터 「민법 제186조·제563조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-010",
@@ -6056,7 +6064,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법률행위",
       "subtitle": "의사표시를 필수 요소로 하는 법률요건",
       "bullets": [
-        "의사표시 내용에 따라 법률효과를 발생시키는 행위"
+        "법률행위는 의사표시를 구성요소로 하며 그 내용에 맞는 법률효과가 인정되는 법률요건이다.",
+        "단독행위·계약·합동행위 등으로 분류하고 단순한 사실행위와 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6065,7 +6074,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -6102,16 +6111,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "의사표시",
       "subtitle": "법률효과를 원하는 의사를 외부에 나타내는 행위",
       "bullets": [
-        "법률행위의 필요적 요소가 되는 법률사실"
+        "의사표시는 일정한 법률효과를 발생시키려는 의사를 외부에 나타내는 행위다.",
+        "상대방 있는 의사표시의 효력발생 시기는 원칙적으로 도달 시이며(제111조), 진의 아닌 표시에는 제107조가 적용된다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제107조·제111조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6137,7 +6147,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-043"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제107조·제111조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-012",
@@ -6148,7 +6158,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "의사의 통지",
       "subtitle": "일정한 의사를 알리는 준법률행위",
       "bullets": [
-        "최고·거절처럼 의사를 상대방에게 알리는 행위"
+        "의사의 통지는 상대방에게 최고·거절 등의 의사를 알리는 준법률행위의 한 유형이다.",
+        "의사표시처럼 그 내용대로 효과가 생기는 것이 아니라 법률이 통지 사실에 효과를 부여하는 것으로 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6157,7 +6168,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -6181,7 +6192,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "관념의 통지",
       "subtitle": "사실이나 관념을 알리는 준법률행위",
       "bullets": [
-        "채권양도 통지·승낙처럼 사실 또는 관념을 알리는 행위"
+        "관념의 통지는 사실이나 인식한 사항을 외부에 알리는 준법률행위다.",
+        "채권양도의 통지·승낙 등은 관념의 통지의 예로 설명되지만 효력·대항요건은 개별 법률에 따른다."
       ],
       "formula": "",
       "visual": "none",
@@ -6190,7 +6202,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6209,7 +6221,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "감정의 통지",
       "subtitle": "감정을 외부에 나타내 법률효과가 붙는 행위",
       "bullets": [
-        "용서·용인처럼 감정을 표시하는 준법률행위"
+        "감정의 통지는 용서·용인처럼 감정을 외부에 나타내는 준법률행위의 학설상 분류다.",
+        "의사표시·의사의 통지·관념의 통지와 함께 표현행위로 분류하지만 개별 효과는 관련 법률에 따른다."
       ],
       "formula": "",
       "visual": "none",
@@ -6218,7 +6231,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6237,7 +6250,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "사실행위",
       "subtitle": "사실상 결과에 법률효과가 결부되는 행위",
       "bullets": [
-        "매장물 발견·가공·물건의 인도 등이 대표적인 예"
+        "사실행위는 의사표시의 내용보다 객관적으로 이루어진 행위 또는 결과에 법률효과가 결부되는 행위다.",
+        "매장물 발견·가공·물건의 인도 등이 예시이며 순수사실행위와 혼합사실행위로 세분하기도 한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6246,7 +6260,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6265,7 +6279,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "사건",
       "subtitle": "사람의 의사와 관계없이 법률효과의 원인이 되는 사실",
       "bullets": [
-        "시간의 경과·출생·사망·물건의 멸실 등이 해당"
+        "사건은 행위자의 법률효과를 원하는 의사와 별개로 발생하여 법률요건을 이루는 사실이다.",
+        "출생·사망·시간의 경과·천연과실의 분리 등이 예시로 제시된다."
       ],
       "formula": "",
       "visual": "none",
@@ -6274,7 +6289,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 1,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -6300,7 +6315,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "단독행위",
       "subtitle": "한 사람의 의사표시만으로 성립하는 법률행위",
       "bullets": [
-        "상대방 있는 단독행위와 상대방 없는 단독행위로 구분"
+        "단독행위는 한 사람의 의사표시만으로 성립하는 법률행위다.",
+        "그 의사표시를 받아야 할 상대방이 있는 단독행위와 상대방 없는 단독행위로 구분한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6309,7 +6325,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -6335,16 +6351,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상대방 있는 단독행위",
       "subtitle": "특정 상대방에게 의사표시해야 하는 단독행위",
       "bullets": [
-        "상계·취소·해제·채무면제 등이 대표적"
+        "상대방 있는 단독행위는 취소·해제·상계 등 특정 상대방에게 의사표시하여 효과가 생기는 법률행위다.",
+        "상계는 제493조에 따라, 계약의 해제·해지는 제543조에 따라 원칙적으로 상대방에게 의사표시하여야 한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제493조·제543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6357,7 +6374,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제493조·제543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-019",
@@ -6368,16 +6385,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "상대방 없는 단독행위",
       "subtitle": "상대방 없이도 성립하는 단독행위",
       "bullets": [
-        "유언·재단법인 설립행위·권리 포기 등이 대표적"
+        "상대방 없는 단독행위는 특정 상대방에게 의사표시를 도달시킬 필요 없이 성립하는 법률행위다.",
+        "유언이 대표적이나 민법 제1060조에 따라 법이 정한 방식에 의하지 않으면 효력이 없다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제1060조 이하」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6390,7 +6408,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제1060조 이하」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-020",
@@ -6401,16 +6419,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "계약",
       "subtitle": "대립하는 둘 이상의 의사표시가 합치한 법률행위",
       "bullets": [
-        "매매·임대차처럼 당사자 의사합치로 성립"
+        "계약은 청약과 승낙 등 대립하는 둘 이상의 의사표시가 합치하여 성립하는 법률행위다.",
+        "매매는 민법 제563조에 따라 재산권 이전과 대금 지급의 약정이 합치하면 성립한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제527조·제563조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6436,7 +6455,7 @@ window.CORE_WORD_CARD_BANK = {
         "2021-32-first-069"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제527조·제563조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-021",
@@ -6447,7 +6466,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "합동행위",
       "subtitle": "같은 방향의 여러 의사표시가 결합하는 법률행위",
       "bullets": [
-        "사단법인 설립행위가 대표적"
+        "합동행위는 둘 이상의 의사표시가 동일한 방향으로 결합하여 공동의 법률효과를 만드는 법률행위다.",
+        "사단법인 설립행위가 대표적인 학설상 예시이고 서로 대립하는 의사표시가 합치하는 계약과 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6456,7 +6476,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6475,7 +6495,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "채권행위",
       "subtitle": "채권·채무를 발생시키는 법률행위",
       "bullets": [
-        "매매·증여·임대차처럼 이행을 거쳐 목적을 실현"
+        "채권행위는 당사자 사이에 급부를 청구할 채권·채무를 발생시키는 법률행위다.",
+        "매매·증여·임대차와 같은 계약을 예로 들며 부동산 물권변동 자체와 채권상 의무 발생은 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6484,7 +6505,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6503,16 +6524,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "물권행위",
       "subtitle": "물권변동을 직접 일으키는 법률행위",
       "bullets": [
-        "소유권이전·지상권설정·저당권설정 등이 해당"
+        "물권행위는 소유권 이전·지상권 설정 등 물권변동을 목적으로 하는 처분행위라는 민법학 분류다.",
+        "법률행위로 부동산 물권을 변동시키려면 등기(제186조), 동산 물권을 양도하려면 인도(제188조)가 원칙이다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제186조·제188조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6525,7 +6547,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제186조·제188조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-024",
@@ -6536,16 +6558,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "준물권행위",
       "subtitle": "물권 외 권리의 변동을 직접 일으키는 처분행위",
       "bullets": [
-        "채권양도·채무면제·시효이익 포기 등이 대표적"
+        "준물권행위는 물권 이외의 권리를 직접 변동시키는 처분행위로 채권양도·채무면제 등이 예시다.",
+        "채권양도는 원칙적으로 허용되지만 제449조의 양도 제한과 제450조의 통지·승낙 대항요건을 구별한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제449조·제450조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -6558,7 +6581,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제449조·제450조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-025",
@@ -6569,16 +6592,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "요식행위",
       "subtitle": "법이 정한 방식을 갖춰야 하는 법률행위",
       "bullets": [
-        "유언·혼인처럼 정해진 형식을 따라야 효력이 인정"
+        "요식행위는 법이 요구하는 특정 방식·절차를 갖춰야 효력이 인정되는 법률행위다.",
+        "혼인은 신고로 효력이 발생하고(제812조) 유언은 법정 방식에 따라야 한다(제1060조)."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제812조·제1060조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -6586,7 +6610,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제812조·제1060조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-026",
@@ -6597,7 +6621,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "보조행위",
       "subtitle": "다른 법률행위의 효력을 보충하는 행위",
       "bullets": [
-        "동의·추인·대리권 수여 등이 대표적"
+        "보조행위는 타인의 법률행위 또는 주된 법률행위의 효력을 보충·완성하는 행위다.",
+        "동의·추인·대리권 수여 등이 예시이나 요건과 효과는 각각의 제도에 따라 다르다."
       ],
       "formula": "",
       "visual": "none",
@@ -6606,7 +6631,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6625,16 +6650,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "종된행위",
       "subtitle": "주된 법률행위에 의존하는 법률행위",
       "bullets": [
-        "저당권설정계약이 피담보채권에 종속되는 관계가 대표적"
+        "종된행위는 주된 법률관계의 존재나 효력에 의존하는 법률행위로 담보권설정계약 등이 예시다.",
+        "민법 제361조에 따라 저당권은 담보하는 채권과 분리하여 양도하거나 다른 채권의 담보로 하지 못한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제361조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -6642,7 +6668,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제361조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-028",
@@ -6653,16 +6679,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법률행위의 목적",
       "subtitle": "법률행위로 발생시키려는 법률효과",
       "bullets": [
-        "목적은 확정 가능하고 적법하며 사회적 타당성이 있어야 함"
+        "법률행위의 목적은 발생시키려는 법률효과로서 확정 가능하고 적법하며 사회적으로 타당해야 한다.",
+        "반사회질서 행위(제103조)와 법정요건의 불공정한 법률행위(제104조)는 무효다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 2,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제103조·제104조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -6670,7 +6697,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p2 · 민법총칙·법률행위"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p2 + 국가법령정보센터 「민법 제103조·제104조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-029",
@@ -6843,7 +6870,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "자연적 해석",
       "subtitle": "표의자의 실제 의사를 중심으로 하는 해석",
       "bullets": [
-        "상대방 없는 단독행위처럼 표의자의 실제 의사를 중시"
+        "자연적 해석은 표현의 문언보다 당사자의 실제 의사를 밝히는 데 초점을 두는 해석 방법이다.",
+        "표의자의 진의를 특히 중시하는 상대방 없는 단독행위 등이 학설상 예시다."
       ],
       "formula": "",
       "visual": "none",
@@ -6852,7 +6880,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6871,7 +6899,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "규범적 해석",
       "subtitle": "표시의 객관적 의미를 중심으로 하는 해석",
       "bullets": [
-        "상대방 관점에서 표시의 의미와 신뢰를 기준으로 해석"
+        "규범적 해석은 의사표시의 객관적 의미를 거래 관념과 상대방 입장에서 해석하는 방법이다.",
+        "표시를 신뢰한 상대방이 합리적으로 이해할 내용과 구체적 사정을 고려한다."
       ],
       "formula": "",
       "visual": "none",
@@ -6880,7 +6909,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -6899,7 +6928,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "보충적 해석",
       "subtitle": "정하지 않은 부분을 합리적으로 보충하는 해석",
       "bullets": [
-        "계약 목적·신의칙 등을 고려해 빈 부분을 메움"
+        "보충적 해석은 법률행위에 정하지 않은 사항이 있을 때 가상의 합리적 의사를 찾아 내용을 보충하는 방법이다.",
+        "계약의 목적·거래관행·신의성실원칙 등 관련 사정을 고려하되 새로운 계약을 임의로 만들어서는 안 된다."
       ],
       "formula": "",
       "visual": "none",
@@ -6908,7 +6938,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -7257,7 +7287,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "선의",
       "subtitle": "어떤 사실을 알지 못하는 상태",
       "bullets": [
-        "법률상 선의는 보통 특정 사실을 모르는 상태를 뜻함"
+        "법률상 선의는 통상 특정한 사실이나 사정을 알지 못하는 상태를 의미한다.",
+        "도덕적으로 착하다는 뜻이 아니며 선의 외에 무과실까지 요구하는지는 각 조문마다 다르다."
       ],
       "formula": "",
       "visual": "none",
@@ -7266,7 +7297,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7303,7 +7334,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "악의",
       "subtitle": "어떤 사실을 알고 있는 상태",
       "bullets": [
-        "법률상 악의는 보통 특정 사실을 알고 있는 상태를 뜻함"
+        "법률상 악의는 통상 특정한 사실이나 사정을 알고 있는 상태를 의미한다.",
+        "도덕적으로 악하다는 뜻이 아니며 어떤 사실에 관한 인식인지는 해당 규정에서 확인한다."
       ],
       "formula": "",
       "visual": "none",
@@ -7312,7 +7344,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7348,7 +7380,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "과실",
       "subtitle": "주의의무를 다하지 못한 잘못",
       "bullets": [
-        "알았어야 할 사실을 주의 부족으로 알지 못한 경우 등에 사용"
+        "과실은 요구되는 주의의무를 다하지 않아 사실을 알지 못하거나 결과를 방지하지 못한 잘못이다.",
+        "고의와 구별하며 법률효과에 과실이 필요한지 및 주의의무의 정도는 개별 규정에 따른다."
       ],
       "formula": "",
       "visual": "none",
@@ -7357,7 +7390,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7394,7 +7427,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무과실",
       "subtitle": "필요한 주의를 다해 잘못이 없는 상태",
       "bullets": [
-        "선의취득·표현대리 등에서 상대방 보호요건으로 자주 등장"
+        "무과실은 특정 상황에서 요구되는 주의의무를 다했으므로 과실이 없는 상태다.",
+        "선의와 무과실은 별개 요건이므로 선의라고 하여 당연히 무과실인 것은 아니다."
       ],
       "formula": "",
       "visual": "none",
@@ -7403,7 +7437,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7431,7 +7465,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "제3자",
       "subtitle": "당사자 외에 법률관계의 영향을 받는 사람",
       "bullets": [
-        "선의의 제3자 보호처럼 민법 전반에서 반복되는 기본 용어"
+        "제3자는 특정 법률관계의 당사자 이외의 사람을 가리키는 용어다.",
+        "제3자 보호 규정의 적용 범위는 단순한 비당사자 전체가 아니라 해당 조문과 판례의 요건으로 정한다."
       ],
       "formula": "",
       "visual": "none",
@@ -7440,7 +7475,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
       "sourceRef": "민법·기출 공통 기본용어",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "essential"
@@ -7516,16 +7551,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "형성권",
       "subtitle": "일방 의사표시로 법률관계를 변동시키는 권리",
       "bullets": [
-        "취소권·해제권·매수청구권처럼 행사만으로 법률관계가 변동"
+        "형성권은 권리자의 일방적 행사로 일정한 법률관계를 발생·변경·소멸시키는 권리다.",
+        "취소권·계약해제권 등이 예시이며 행사기간 및 상대방에 대한 의사표시 요건은 별도 조문을 따른다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "민법·요약집에 반복 사용되는 기본 법률용어",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제140조·제543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "essential"
@@ -7544,7 +7580,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-059"
       ],
       "importance": 3,
-      "sourceLabel": "민법·요약집에 반복 사용되는 기본 법률용어"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제140조·제543조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-053",
@@ -7555,16 +7591,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "항변권",
       "subtitle": "상대방 청구의 효력을 저지할 수 있는 권리",
       "bullets": [
-        "동시이행항변권처럼 상대방 청구에 맞서 이행을 거절하는 권리"
+        "항변권은 상대방의 청구에 대해 일정한 사유로 이행을 거절하거나 청구의 효력을 저지하는 권리다.",
+        "동시이행항변권은 민법 제536조에 따라 상대방이 채무이행을 제공할 때까지 이행을 거절할 수 있다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "민법·요약집에 반복 사용되는 기본 법률용어",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "essential"
@@ -7577,7 +7614,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-068"
       ],
       "importance": 3,
-      "sourceLabel": "민법·요약집에 반복 사용되는 기본 법률용어"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p0 + 국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-054",
@@ -8956,7 +8993,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "일물일권주의",
       "subtitle": "하나의 물건에 동일 내용의 물권 하나가 성립한다는 원칙",
       "bullets": [
-        "물건의 일부·구성부분에는 원칙적으로 독립 물권을 인정하지 않음"
+        "일물일권주의는 원칙적으로 하나의 독립된 물건 또는 권리를 대상으로 하나의 물권을 인정하는 법리다.",
+        "동일 물건에 소유권과 제한물권이 함께 성립할 수 있어 모든 물권의 중첩을 금한다는 뜻은 아니다."
       ],
       "formula": "",
       "visual": "none",
@@ -8965,7 +9003,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 10,
       "sourceSection": "물권법·총론",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "summary"
       ],
@@ -11436,18 +11474,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "전형계약",
       "subtitle": "민법에 이름과 규율이 정해진 계약",
       "bullets": [
-        "매매·임대차·증여 등 민법 채권각론에 규정된 계약"
+        "전형계약은 민법이 명칭과 기본 규칙을 정한 계약으로, 매매·증여·임대차 등이 해당한다.",
+        "요약집의 14종은 구자료이며 여행계약(제674조의2)이 추가되어 현행 민법상 전형계약은 15종이다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [
         "유명계약"
       ],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 계약 각칙(제554조 이하), 제674조의2」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -11455,7 +11494,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 계약 각칙(제554조 이하), 제674조의2」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-160",
@@ -11466,16 +11505,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "쌍무계약",
       "subtitle": "당사자 쌍방이 서로 대가적 채무를 부담하는 계약",
       "bullets": [
-        "매매처럼 서로의 채무가 대가관계에 있음"
+        "쌍무계약은 매매처럼 서로 대가관계에 있는 채무를 쌍방이 부담하는 계약이다.",
+        "상대방의 이행 제공 전 이행을 거절하는 동시이행항변권은 제536조의 요건과 선이행채무 예외를 따른다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -11492,7 +11532,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-068"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제536조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-161",
@@ -11503,7 +11543,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "편무계약",
       "subtitle": "쌍방의 채무가 대가관계에 있지 않은 계약",
       "bullets": [
-        "한쪽만 채무를 부담하거나 양쪽 급부가 대가관계가 아닌 계약"
+        "편무계약은 한쪽만 채무를 부담하거나 쌍방의 채무가 있어도 대가관계가 없는 계약이다.",
+        "쌍무계약은 채무의 존재뿐 아니라 쌍방 채무 사이의 대가관계로 구별한다."
       ],
       "formula": "",
       "visual": "none",
@@ -11512,7 +11553,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -11540,16 +11581,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "유상계약",
       "subtitle": "당사자 쌍방이 경제적 대가를 주고받는 계약",
       "bullets": [
-        "급부에 대응하는 경제적 반대급부가 존재"
+        "유상계약은 당사자들이 경제적 반대급부를 주고받는 계약이며 모든 쌍무계약은 유상계약이다.",
+        "민법 제567조에 따라 매매 이외의 유상계약에도 성질이 허용하는 범위에서 매매 규정을 준용한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제567조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -11562,7 +11604,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-065"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제567조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-163",
@@ -11573,16 +11615,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무상계약",
       "subtitle": "경제적 대가 없이 이익을 주는 계약",
       "bullets": [
-        "증여·사용대차 등이 대표적"
+        "무상계약은 경제적 반대급부를 예정하지 않은 계약으로 증여와 사용대차가 대표적이다.",
+        "민법 제554조의 증여는 무상 수여 약정, 제609조의 사용대차는 무상 사용·수익 후 반환 약정이다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제554조·제609조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -11599,7 +11642,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-074"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제554조·제609조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-164",
@@ -11610,16 +11653,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "낙성계약",
       "subtitle": "당사자의 합의만으로 성립하는 계약",
       "bullets": [
-        "특별한 방식이나 목적물 인도 없이 의사합치로 성립"
+        "낙성계약은 목적물 인도 없이 당사자 의사의 합치만으로 성립하는 계약이다.",
+        "민법 제563조의 매매와 제618조의 임대차는 약정으로 성립하고 실제 인도·지급은 이행 문제다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제563조·제618조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "exam",
         "summary"
@@ -11634,7 +11678,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-074"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p22 · 계약법·총론"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p22 + 국가법령정보센터 「민법 제563조·제618조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-165",
@@ -11645,7 +11689,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "요물계약",
       "subtitle": "합의 외에 목적물 인도 등이 있어야 성립하는 계약",
       "bullets": [
-        "합의만으로는 부족하고 법이 요구하는 현실적 요소가 필요"
+        "요물계약은 합의 외에 목적물 교부 등 법이 요구하는 현실적 요소가 있어야 성립하는 계약 유형이다.",
+        "민법상 개별 계약의 성립 요건을 먼저 보아야 하며 매매·임대차처럼 합의로 성립하는 낙성계약과 구분한다."
       ],
       "formula": "",
       "visual": "none",
@@ -11654,7 +11699,7 @@ window.CORE_WORD_CARD_BANK = {
       "sourcePage": 22,
       "sourceSection": "계약법·총론",
       "sourceRef": "",
-      "sourceNote": "",
+      "sourceNote": "2026-10-09 업로드 민법 요약집의 정의·분류를 대조한 민법학 개념 검수. 개념 자체에 대응하는 단일 법 조문이 없어 공식 조문 대조로 합산하지 않음.",
       "basis": [
         "exam",
         "summary"
@@ -13993,16 +14038,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "등기명의신탁",
       "subtitle": "매매당사자는 실권리자이고 등기만 수탁자 명의로 하는 명의신탁",
       "bullets": [
-        "2자간형과 중간생략등기형 등 구조를 구별"
+        "등기명의신탁은 명의신탁자가 계약의 실질 당사자이고 등기만 수탁자 명의로 하는 구조다.",
+        "2자간형과 중간생략등기형은 물권변동이 원칙적으로 무효이나 제4조 제3항의 제3자 보호를 구별한다."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 39,
       "sourceSection": "민사특별법·부동산실명법",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산실명법 제2조·제4조」 https://law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=20200324&lsiSeq=215759&urlMode=lsInfoP",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -14010,7 +14056,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p39 · 민사특별법·부동산실명법"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p39 + 국가법령정보센터 「부동산실명법 제2조·제4조」 https://law.go.kr/LSW/lsInfoP.do?ancYnChk=0&chrClsCd=010202&efYd=20200324&lsiSeq=215759&urlMode=lsInfoP"
     },
     {
       "id": "civ-card-228",
@@ -14286,17 +14332,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "물권과 채권 비교",
       "subtitle": "직접지배권과 상대적 청구권의 차이",
       "bullets": [
-        "물권: 특정 물건에 대한 직접·배타적 지배권, 공시 필요",
-        "채권: 특정 채무자에게 급부를 청구하는 상대적 권리"
+        "물권은 특정 물건을 직접 지배하는 배타적 권리이고, 채권은 특정 채무자에게 급부를 요구하는 상대적 권리다.",
+        "물권은 법률 또는 관습법이 정한 종류에 한정되고(제185조), 채권은 성질·양도제한에 따라 양도성이 달라진다(제449조)."
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 10,
       "sourceSection": "비교·법리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "2.공인중개사요약_민법.pdf p10 + 국가법령정보센터 「민법 제185조·제449조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415",
+      "sourceNote": "2026-10-09 업로드 요약집과 현행 공식 조문의 표시된 핵심 주장만 1차 대조. 학설 분류 전체·후속 판례·사례별 예외 완전 검증 아님.",
       "basis": [
         "summary"
       ],
@@ -14304,7 +14350,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p10 · 비교·법리"
+      "sourceLabel": "2.공인중개사요약_민법.pdf p10 + 국가법령정보센터 「민법 제185조·제449조」 https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=284415"
     },
     {
       "id": "civ-card-237",
