@@ -6803,7 +6803,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "불공정한 법률행위",
       "subtitle": "궁박·경솔·무경험을 이용한 현저히 불공정한 행위",
       "bullets": [
-        "민법 제104조 요건을 충족하면 무효"
+        "민법 제104조: 당사자의 궁박·경솔 또는 무경험을 이용해 현저하게 공정을 잃은 법률행위는 무효",
+        "현저한 급부 불균형만으로 항상 무효인 것은 아니며 주관적 사정과 상대방의 이용행위도 함께 검토"
       ],
       "formula": "",
       "visual": "none",
@@ -6811,8 +6812,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 3,
       "sourceSection": "민법총칙·법률행위",
-      "sourceRef": "2.공인중개사요약_민법.pdf p3 + 국가법령정보센터 「민법」 제104조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제104조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -6827,7 +6828,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-047"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p3 + 국가법령정보센터 「민법」 제104조"
+      "sourceLabel": "국가법령정보센터 「민법 제104조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-034",
@@ -6922,19 +6923,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "비진의표시",
       "subtitle": "진의와 다른 줄 알면서 한 의사표시",
       "bullets": [
-        "원칙적으로 표시한 대로 효력이 있음",
-        "상대방이 진의 아님을 알았거나 알 수 있었다면 무효"
+        "비진의표시: 진의가 아님을 알면서 한 표시도 원칙적으로 유효하며, 상대방이 알았거나 알 수 있었으면 무효",
+        "그 무효는 선의의 제3자에게 대항할 수 없음"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_intention_comparison",
       "aliases": [
         "진의 아닌 의사표시"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 4,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제107조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제107조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -6947,7 +6948,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-045"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제107조"
+      "sourceLabel": "국가법령정보센터 「민법 제107조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-038",
@@ -6958,11 +6959,11 @@ window.CORE_WORD_CARD_BANK = {
       "title": "통정허위표시",
       "subtitle": "상대방과 짜고 한 거짓 의사표시",
       "bullets": [
-        "당사자 사이에서는 무효",
-        "그 무효는 선의의 제3자에게 대항하지 못함"
+        "통정허위표시는 상대방과 짜고 한 거짓 표시이므로 당사자 사이에서 무효",
+        "그 무효는 선의의 제3자에게 대항하지 못함. 비진의표시와 달리 상대방과의 통정이 요건"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_intention_comparison",
       "aliases": [
         "허위표시",
         "통정한 허위의 의사표시"
@@ -6970,8 +6971,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 4,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제108조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제108조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -6993,7 +6994,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-045"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제108조"
+      "sourceLabel": "국가법령정보센터 「민법 제108조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-039",
@@ -7004,19 +7005,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "착오",
       "subtitle": "법률행위 내용의 중요부분을 잘못 안 의사표시",
       "bullets": [
-        "중요부분의 착오이면 취소할 수 있음",
-        "표의자에게 중대한 과실이 있으면 원칙적으로 취소 제한"
+        "법률행위 내용의 중요부분에 착오가 있는 경우 취소 가능; 표의자 중대한 과실이 있으면 원칙적으로 취소 불가",
+        "착오 취소는 선의의 제3자에게 대항하지 못함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_intention_comparison",
       "aliases": [
         "착오로 인한 의사표시"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 4,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제109조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제109조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -7041,7 +7042,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-050"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제109조"
+      "sourceLabel": "국가법령정보센터 「민법 제109조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-040",
@@ -7052,18 +7053,19 @@ window.CORE_WORD_CARD_BANK = {
       "title": "사기",
       "subtitle": "기망 때문에 하게 된 의사표시",
       "bullets": [
-        "사기에 의한 의사표시는 취소할 수 있음"
+        "사기로 의사표시를 했다면 취소 가능. 상대방 있는 표시에서 제3자의 사기는 상대방이 알았거나 알 수 있어야 취소 가능",
+        "사기에 따른 취소는 선의의 제3자에게 대항할 수 없음"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_intention_comparison",
       "aliases": [
         "기망"
       ],
       "sourceKind": "summary+official",
       "sourcePage": 4,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제110조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제110조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -7087,7 +7089,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-069"
       ],
       "importance": 4,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제110조"
+      "sourceLabel": "국가법령정보센터 「민법 제110조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-041",
@@ -7098,16 +7100,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "강박",
       "subtitle": "위협 때문에 자유롭지 못하게 한 의사표시",
       "bullets": [
-        "강박에 의한 의사표시는 취소할 수 있음"
+        "강박으로 의사표시를 했다면 취소 가능. 제3자의 강박은 상대방이 알았거나 알 수 있었을 때에만 취소 가능",
+        "강박에 따른 취소는 선의의 제3자에게 대항할 수 없음"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_intention_comparison",
       "aliases": [],
       "sourceKind": "summary+official",
       "sourcePage": 4,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제110조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제110조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -7123,7 +7126,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-041"
       ],
       "importance": 3,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p4 + 국가법령정보센터 「민법」 제110조"
+      "sourceLabel": "국가법령정보센터 「민법 제110조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-042",
@@ -7134,16 +7137,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "도달주의",
       "subtitle": "의사표시가 상대방에게 도달할 때 효력이 생기는 원칙",
       "bullets": [
-        "상대방 있는 의사표시는 원칙적으로 도달한 때 효력 발생"
+        "상대방 있는 의사표시는 상대방에게 도달한 때 효력 발생(발신 시점이 아님)",
+        "발송 뒤 표의자가 사망하거나 제한능력자가 되어도 의사표시의 효력에는 영향이 없음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제111조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -7151,7 +7155,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p5 · 민법총칙·의사표시"
+      "sourceLabel": "국가법령정보센터 「민법 제111조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-043",
@@ -7190,16 +7194,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "공시송달",
       "subtitle": "상대방을 알 수 없을 때 공시로 의사표시를 도달시키는 제도",
       "bullets": [
-        "표의자가 과실 없이 상대방이나 소재를 모르면 민사소송법상 공시송달을 이용"
+        "표의자가 과실 없이 상대방을 알 수 없거나 소재를 모르는 경우 민사소송법의 공시송달 방식 이용 가능",
+        "공시송달 요건과 송달 효력 발생 시점은 해당 민사소송법 규정도 함께 확인"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제113조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -7207,7 +7212,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p5 · 민법총칙·의사표시"
+      "sourceLabel": "국가법령정보센터 「민법 제113조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-045",
@@ -7218,16 +7223,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "수령능력",
       "subtitle": "의사표시를 유효하게 받아 상대방이 될 수 있는 능력",
       "bullets": [
-        "제한능력자에 대한 의사표시에는 별도 보호규율이 적용"
+        "상대방의 의사표시 수령능력이 제한된 경우에는 법률이 정한 범위에서 그 의사표시로 대항하지 못함",
+        "법정대리인이 도달 사실을 알게 된 때의 효과와 수령자의 구체적 능력 상태를 구별"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 5,
       "sourceSection": "민법총칙·의사표시",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제112조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -7235,7 +7241,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p5 · 민법총칙·의사표시"
+      "sourceLabel": "국가법령정보센터 「민법 제112조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-046",
@@ -7808,8 +7814,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "자기계약",
       "subtitle": "대리인이 본인과 자기 사이의 법률행위를 대리하는 것",
       "bullets": [
-        "본인의 허락이 없으면 원칙적으로 금지",
-        "채무 이행 등 예외가 있음"
+        "대리인이 본인을 위해 자기 자신과 법률행위를 하는 자기계약은 원칙적으로 본인 허락이 필요",
+        "민법 제124조는 본인의 허락이 없더라도 채무의 이행에 해당하면 예외적으로 허용"
       ],
       "formula": "",
       "visual": "none",
@@ -7817,8 +7823,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p6 + 국가법령정보센터 「민법」 제124조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제124조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -7826,7 +7832,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p6 + 국가법령정보센터 「민법」 제124조"
+      "sourceLabel": "국가법령정보센터 「민법 제124조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-061",
@@ -7837,7 +7843,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "쌍방대리",
       "subtitle": "한 대리인이 동일 법률행위의 양쪽 당사자를 모두 대리",
       "bullets": [
-        "본인의 허락이 없으면 원칙적으로 금지"
+        "동일한 법률행위에서 한 사람이 당사자 양쪽을 대리하는 쌍방대리는 본인 허락 없이 원칙적으로 금지",
+        "민법 제124조 단서는 채무의 이행을 예외로 하므로 자기계약과 동일한 예외를 함께 기억"
       ],
       "formula": "",
       "visual": "none",
@@ -7845,8 +7852,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 6,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p6 + 국가법령정보센터 「민법」 제124조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제124조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -7854,7 +7861,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p6 + 국가법령정보센터 「민법」 제124조"
+      "sourceLabel": "국가법령정보센터 「민법 제124조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-062",
@@ -8124,16 +8131,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "추인",
       "subtitle": "이미 한 행위를 사후에 유효한 것으로 확정하는 의사표시",
       "bullets": [
-        "무권대리행위를 본인이 추인하면 원칙적으로 행위 시점으로 소급해 효력 발생"
+        "무권대리 계약은 본인이 추인해야 본인에게 효력이 생기며, 다른 의사표시가 없으면 계약 때로 소급",
+        "추인은 제3자 권리를 해치지 못하며 상대방에게 하지 않으면 원칙적으로 상대방에게 대항할 수 없음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제130조·제132조·제133조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8159,7 +8167,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-050"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제130조·제132조·제133조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-070",
@@ -8170,16 +8178,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "최고권",
       "subtitle": "일정 기간 안에 추인 여부 등 확답을 요구하는 권리",
       "bullets": [
-        "무권대리 상대방은 본인에게 추인 여부의 확답을 요구할 수 있음"
+        "무권대리 계약 상대방은 선의·악의와 관계없이 상당한 기간을 정해 본인에게 추인 여부 확답을 최고 가능",
+        "본인이 그 기간 안에 확답을 발하지 않으면 추인을 거절한 것으로 봄"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제131조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -8187,7 +8196,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제131조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-071",
@@ -8198,16 +8207,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "철회권",
       "subtitle": "무권대리 상대방이 행위를 거둬들이는 권리",
       "bullets": [
-        "본인의 추인 전 선의의 상대방은 원칙적으로 철회 가능"
+        "무권대리 계약 상대방은 본인의 추인 전까지 본인 또는 무권대리인에 대해 계약을 철회할 수 있음",
+        "다만 계약 당시에 대리권이 없음을 이미 알았다면 철회권을 행사할 수 없음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제134조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -8215,7 +8225,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "민법 및 민사특별법 요약집 p7 · 민법총칙·대리"
+      "sourceLabel": "국가법령정보센터 「민법 제134조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-072",
@@ -8226,7 +8236,8 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무권대리인 책임",
       "subtitle": "본인 추인이 없을 때 무권대리인이 상대방에게 지는 책임",
       "bullets": [
-        "상대방은 법정요건 아래 이행 또는 손해배상을 청구할 수 있음"
+        "무권대리인이 대리권을 증명하지 못하고 본인의 추인도 없으면 상대방은 이행 또는 손해배상 중 선택 가능",
+        "상대방이 대리권 없음을 알았거나 알 수 있었던 경우, 또는 무권대리인이 제한능력자이면 책임 예외"
       ],
       "formula": "",
       "visual": "none",
@@ -8236,8 +8247,8 @@ window.CORE_WORD_CARD_BANK = {
       "sourceKind": "summary+official",
       "sourcePage": 7,
       "sourceSection": "민법총칙·대리",
-      "sourceRef": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제135조",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제135조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "summary"
       ],
@@ -8245,7 +8256,7 @@ window.CORE_WORD_CARD_BANK = {
       "examYears": [],
       "examSampleRefs": [],
       "importance": 2,
-      "sourceLabel": "2.공인중개사요약_민법.pdf p7 + 국가법령정보센터 「민법」 제135조"
+      "sourceLabel": "국가법령정보센터 「민법 제135조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-073",
@@ -8256,16 +8267,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무효",
       "subtitle": "처음부터 법률효과가 발생하지 않는 상태",
       "bullets": [
-        "별도의 취소 의사표시 없이 처음부터 효력이 없음"
+        "무효인 법률행위는 취소를 기다리지 않고 원칙적으로 처음부터 법률효과가 없음",
+        "일부무효는 원칙적으로 전부무효지만 나머지만으로도 행위했을 것으로 인정되면 예외"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_void_cancel_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제137조·제139조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8291,7 +8303,7 @@ window.CORE_WORD_CARD_BANK = {
         "2022-33-first-043"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·무효·취소"
+      "sourceLabel": "국가법령정보센터 「민법 제137조·제139조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-074",
@@ -8302,17 +8314,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "취소",
       "subtitle": "취소권 행사로 행위의 효력을 소급해 없애는 것",
       "bullets": [
-        "취소 전에는 일단 유효하게 취급",
-        "취소하면 원칙적으로 처음부터 무효로 봄"
+        "취소할 수 있는 법률행위는 취소되기 전에는 효력이 있고 취소하면 처음부터 무효인 것으로 봄",
+        "취소권은 추인할 수 있는 날부터 3년, 행위일로부터 10년 안에 행사해야 함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_void_cancel_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제140조·제141조·제143조·제146조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8338,7 +8350,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-045"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·무효·취소"
+      "sourceLabel": "국가법령정보센터 「민법 제140조·제141조·제143조·제146조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-075",
@@ -8349,16 +8361,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "취소권자",
       "subtitle": "취소할 수 있는 법률행위를 취소할 수 있는 사람",
       "bullets": [
-        "제한능력자, 착오·사기·강박의 표의자와 그 대리인·승계인 등이 해당"
+        "법률행위 취소권자는 제한능력자, 착오·사기·강박의 표의자 및 그 대리인 또는 승계인에 한정",
+        "취소권 행사에는 법률이 정한 사유와 상대방에 대한 의사표시 방식이 적용"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_void_cancel_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제140조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8377,7 +8390,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-050"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·무효·취소"
+      "sourceLabel": "국가법령정보센터 「민법 제140조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-076",
@@ -8388,16 +8401,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "법정추인",
       "subtitle": "특정 사실이 생기면 추인한 것으로 보는 제도",
       "bullets": [
-        "전부·일부 이행, 이행청구, 담보제공 등 법정사유가 있으면 추인으로 봄"
+        "추인할 수 있게 된 후 전부·일부 이행, 이행청구, 경개, 담보제공 등이 있으면 법정추인 문제 발생",
+        "권리의 전부·일부 양도나 강제집행도 해당하지만, 이의를 보류한 때에는 법정추인 아님"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_void_cancel_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제144조·제145조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8414,7 +8428,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-050"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·무효·취소"
+      "sourceLabel": "국가법령정보센터 「민법 제144조·제145조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-077",
@@ -8425,16 +8439,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무효행위의 추인",
       "subtitle": "무효임을 알고 추인하면 새 법률행위로 보는 제도",
       "bullets": [
-        "무효인 행위가 그대로 살아나는 것은 아니고 새로운 법률행위로 봄"
+        "무효행위는 나중에 추인하여도 종전 행위가 소급해 유효하게 되는 것은 아님",
+        "당사자가 무효임을 알고 추인했다면 새로운 법률행위로 보는 것이 원칙"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_void_cancel_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제139조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8447,7 +8462,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-049"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·무효·취소"
+      "sourceLabel": "국가법령정보센터 「민법 제139조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-078",
@@ -8458,16 +8473,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "무효행위의 전환",
       "subtitle": "무효행위가 다른 법률행위의 요건을 갖추면 그 행위로 인정",
       "bullets": [
-        "당사자가 무효를 알았더라면 다른 행위를 했을 의사가 인정되는 경우 문제됨"
+        "무효행위가 다른 법률행위의 성립요건을 갖추고, 당사자의 가정적 의사가 인정되면 전환 가능",
+        "단순히 당사자가 유사한 효과를 원했을 것이라는 추측만으로 자동 전환되는 것은 아님"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_void_cancel_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·무효·취소",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제138조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8482,7 +8498,7 @@ window.CORE_WORD_CARD_BANK = {
         "2025-36-first-047"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·무효·취소"
+      "sourceLabel": "국가법령정보센터 「민법 제138조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-079",
@@ -8493,16 +8509,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "조건",
       "subtitle": "장래 불확실한 사실에 법률효과를 의존시키는 부관",
       "bullets": [
-        "성취 여부가 불확실한 장래 사실과 효력 발생·소멸을 연결"
+        "조건은 장래 성취 여부가 불확실한 사실에 법률행위의 효력 발생 또는 소멸을 결부시키는 부관",
+        "조건 성취 전에는 조건부권리에 대한 상대방의 이익을 해하지 못함"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condition_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제147조·제148조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8528,7 +8545,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-061"
       ],
       "importance": 5,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·조건·기한"
+      "sourceLabel": "국가법령정보센터 「민법 제147조·제148조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-080",
@@ -8539,16 +8556,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "정지조건",
       "subtitle": "조건 성취 때부터 법률효과가 발생하는 조건",
       "bullets": [
-        "조건이 성취되면 법률효과가 발생"
+        "정지조건부 법률행위는 조건 성취 시점부터 효력이 발생하는 것이 원칙",
+        "당사자가 조건 성취의 효력을 성취 전으로 소급시키기로 의사를 표시했다면 그 의사에 따름"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condition_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제147조제1항·제3항」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8566,7 +8584,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-050"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·조건·기한"
+      "sourceLabel": "국가법령정보센터 「민법 제147조제1항·제3항」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-081",
@@ -8577,16 +8595,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "해제조건",
       "subtitle": "조건 성취 때 법률효과가 소멸하는 조건",
       "bullets": [
-        "조건이 성취되면 이미 발생한 효력이 장래를 향해 소멸"
+        "해제조건부 법률행위는 조건이 성취한 때부터 효력을 잃는 것이 원칙",
+        "당사자가 조건 성취 전으로 소급하게 할 의사를 표시했다면 그 의사에 따름"
       ],
       "formula": "",
-      "visual": "none",
+      "visual": "civil_condition_compare",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 8,
       "sourceSection": "민법총칙·조건·기한",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제147조제2항·제3항」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8601,7 +8620,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-049"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p8 · 민법총칙·조건·기한"
+      "sourceLabel": "국가법령정보센터 「민법 제147조제2항·제3항」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-082",
@@ -8691,16 +8710,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "소멸시효",
       "subtitle": "권리를 행사하지 않은 상태가 계속되면 권리가 소멸하는 제도",
       "bullets": [
-        "권리 불행사 상태의 계속과 법정기간 경과를 기초로 함"
+        "일반 채권은 10년, 채권·소유권 이외의 재산권은 20년간 행사하지 않으면 소멸시효 완성",
+        "권리 행사 가능 시점부터 진행하며 청구·압류 또는 가압류·가처분·승인은 중단사유(단기시효 등 별도 확인)"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "summary",
+      "sourceKind": "summary+official",
       "sourcePage": 12,
       "sourceSection": "민법총칙·기본법리",
-      "sourceRef": "",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제162조·제166조·제168조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "summary"
@@ -8716,7 +8736,7 @@ window.CORE_WORD_CARD_BANK = {
         "2024-35-1-1-063"
       ],
       "importance": 3,
-      "sourceLabel": "민법 및 민사특별법 요약집 p12 · 민법총칙·기본법리"
+      "sourceLabel": "국가법령정보센터 「민법 제162조·제166조·제168조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-085",
@@ -8727,16 +8747,17 @@ window.CORE_WORD_CARD_BANK = {
       "title": "제척기간",
       "subtitle": "권리를 행사할 수 있는 법정 존속기간",
       "bullets": [
-        "기간이 지나면 권리 자체가 소멸하는 기간으로 취소권·예약완결권 등에서 등장"
+        "제척기간은 일정한 기간 안에 권리를 행사하도록 제한하는 기간으로 취소권 등에서 문제됨",
+        "취소권은 추인할 수 있는 날부터 3년, 행위일로부터 10년을 구별하고 소멸시효와 동일시하지 않음"
       ],
       "formula": "",
       "visual": "none",
       "aliases": [],
-      "sourceKind": "reference",
+      "sourceKind": "summary+official",
       "sourcePage": 0,
       "sourceSection": "법률 기본어",
-      "sourceRef": "Q-Net 기출·민법 판례에서 반복되는 기본 용어",
-      "sourceNote": "",
+      "sourceRef": "국가법령정보센터 「민법 제146조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf",
+      "sourceNote": "2026-10-08 현행 민법(2026.3.17. 시행) 해당 조문 핵심효과 대조. 개별 판례·경과규정 전수 검수는 별도.",
       "basis": [
         "exam",
         "essential"
@@ -8749,7 +8770,7 @@ window.CORE_WORD_CARD_BANK = {
         "2023-34-first-069"
       ],
       "importance": 3,
-      "sourceLabel": "Q-Net 기출·민법 판례에서 반복되는 기본 용어"
+      "sourceLabel": "국가법령정보센터 「민법 제146조」 (https://law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260317&lsiSeq=284415) + 2.공인중개사요약_민법.pdf"
     },
     {
       "id": "civ-card-086",

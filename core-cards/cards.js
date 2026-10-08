@@ -511,6 +511,39 @@
         +'<rect class="v-civil-object" x="18" y="110" width="204" height="24" rx="4"/>'
         +'<text class="v-civil-title" x="120" y="126" text-anchor="middle">대지: 전유부분 소유를 위한 대지사용권</text>');
     }
+    // v1.83: general-provisions diagrams compare the statutory outcomes, not factual cases.
+    if(type==='civil_intention_comparison'){
+      const rows=[['비진의표시','원칙 유효'],['통정허위표시','무효'],['중요 착오','취소 가능'],['사기','취소 가능'],['강박','취소 가능']];
+      return civSvg('<text class="v-civil-heading" x="120" y="14" text-anchor="middle">의사표시 하자 유형 비교</text>'
+        +rows.map(([name,outcome],i)=>{
+          const y=24+i*21;
+          return '<rect class="v-civil-box" x="8" y="'+y+'" width="224" height="19" rx="5"/>'
+            +'<path class="v-civil-sep" d="M113 '+(y+2)+'V'+(y+17)+'"/>'
+            +'<text class="v-civil-text" x="60" y="'+(y+13)+'" text-anchor="middle">'+name+'</text>'
+            +'<text class="v-civil-text" x="175" y="'+(y+13)+'" text-anchor="middle">'+outcome+'</text>';
+        }).join('')
+        +'<text class="v-civil-caption" x="120" y="138" text-anchor="middle">상대방 인식·선의 제3자 등 예외는 설명 참조</text>');
+    }
+    if(type==='civil_void_cancel_compare'){
+      return civSvg('<text class="v-civil-heading" x="120" y="17" text-anchor="middle">무효와 취소의 법률효과</text>'
+        +civBox(3,30,110,'무효')+civBox(127,30,110,'취소 가능')
+        +'<text class="v-civil-caption" x="58" y="81" text-anchor="middle">처음부터 효력 없음</text>'
+        +'<text class="v-civil-caption" x="182" y="81" text-anchor="middle">취소 전에는 유효</text>'
+        +'<path class="v-civil-dashed" d="M182 86V97"/>'
+        +'<text class="v-civil-caption" x="58" y="113" text-anchor="middle">추인해도 소급회복 X</text>'
+        +'<text class="v-civil-caption" x="182" y="113" text-anchor="middle">취소하면 처음부터 무효</text>'
+        +'<text class="v-civil-caption" x="120" y="138" text-anchor="middle">취소권: 추인 가능일 3년 / 행위일 10년</text>');
+    }
+    if(type==='civil_condition_compare'){
+      return civSvg('<text class="v-civil-heading" x="120" y="16" text-anchor="middle">조건 성취에 따른 효력 변화</text>'
+        +civBox(3,29,111,'정지조건')+civBox(126,29,111,'해제조건')
+        +'<path class="v-civil-line" d="M58 67V84M181 67V84"/>'
+        +'<path class="v-civil-arrowtip" d="m54 80 4 4 4-4m119 0 4 4 4-4"/>'
+        +'<text class="v-civil-text" x="58" y="101" text-anchor="middle">성취시 효력 발생</text>'
+        +'<text class="v-civil-text" x="182" y="101" text-anchor="middle">성취시 효력 소멸</text>'
+        +'<text class="v-civil-caption" x="120" y="126" text-anchor="middle">원칙: 성취 시점부터</text>'
+        +'<text class="v-civil-caption" x="120" y="139" text-anchor="middle">당사자의 소급 의사표시가 있으면 예외</text>');
+    }
     const row=CIVIL_DIAGRAMS[type];
     if(row){
       const [heading,a,b,c,caption]=row;
