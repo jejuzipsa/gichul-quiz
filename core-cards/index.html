@@ -70,7 +70,14 @@
           <div class="scope-box progress-box" aria-live="polite">
             <span>현재 범위</span>
             <strong id="rangeText">1 / 170</strong>
-            <div class="progress-track"><span id="progressFill"></span></div>
+            <div class="progress-seek">
+              <div class="progress-track" aria-hidden="true"><span id="progressFill"></span></div>
+              <input id="progressSlider" class="progress-slider" type="range"
+                min="1" max="170" step="1" value="1"
+                aria-label="현재 범위 빠른 이동"
+                aria-valuetext="1 / 170" />
+              <output id="progressPreview" class="progress-preview" for="progressSlider" hidden></output>
+            </div>
           </div>
         </div>
 
