@@ -151,6 +151,40 @@ for(const [id,terms] of [
 need(tax.filter(c=>c.id==='tax-card-092').every(c=>!c.bullets.some(x=>x.includes('6개월'))),'property tax installment period must not be mixed with comprehensive tax');
 need(tax.find(c=>c.id==='tax-card-073')?.subtitle.includes('해당 종류'),'registration tax minimum is type-specific, not universal');
 
+const taxTextById=id=>(tax.find(c=>c.id===id)?.bullets||[]).join(' ');
+for(const [id,terms] of [
+  ['tax-card-011',['과세기준일','확정']],
+  ['tax-card-012',['신고','결정']],
+  ['tax-card-013',['신고','결정']],
+  ['tax-card-014',['재산세','종합부동산세']],
+  ['tax-card-017',['5년','7년','10년','상속']],
+  ['tax-card-018',['5천만원','10년','5년']],
+  ['tax-card-027',['등기','간주취득']],
+  ['tax-card-029',['상속','현물출자']],
+  ['tax-card-030',['지목변경','과점주주']],
+  ['tax-card-031',['법인 설립','제외','연대납세']],
+  ['tax-card-032',['등기','사실상']],
+  ['tax-card-033',['잔금지급일','60일','계약해제']],
+  ['tax-card-034',['계약일','상속','등기']],
+  ['tax-card-035',['상속개시일','신고납부기한']],
+  ['tax-card-036',['임시사용승인일','사실상 사용일','매립']],
+  ['tax-card-037',['연부금','지급','면세점']],
+  ['tax-card-038',['등기','등록','취득일']],
+  ['tax-card-048',['2.3%','2.8%','3%']],
+  ['tax-card-049',['6억원','9억원','1%','3%']],
+  ['tax-card-050',['대도시','골프장','별장']],
+  ['tax-card-055',['대도시','중과','제외']],
+  ['tax-card-056',['중과기준세율','과점주주']],
+  ['tax-card-057',['공유물','합병','초과지분']],
+  ['tax-card-058',['국가','외국정부','기부채납']]
+]){
+  for(const term of terms) need(taxTextById(id).includes(term),id+': v1.75 current-law distinction missing '+term);
+}
+need(tax.find(c=>c.id==='tax-card-031')?.sourceRef.includes('제7조제5항'),'tax-card-031 lacks current deemed shareholder acquisition source');
+need(tax.find(c=>c.id==='tax-card-017')?.sourceRef.includes('지방세기본법'),'tax-card-017 limitation period primary law reference absent');
+need(tax.find(c=>c.id==='tax-card-018')?.sourceRef.includes('지방세기본법'),'tax-card-018 collection prescription primary law reference absent');
+
+
 
 for(const config of configs.filter(x=>x.reindexExam)){
   const raw=parseSource(config);
