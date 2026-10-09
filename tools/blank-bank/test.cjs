@@ -116,10 +116,10 @@ const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261009-blank-v21'));
-assert.ok(html.includes('blank-session.js?v=20261009-blank-v21'));
+assert.ok(html.includes('20261010-blank-v22'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v22'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261009-blank-v21'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v22'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
