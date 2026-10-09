@@ -143,14 +143,32 @@ checks+=1;
   assert.ok(rows[n-101].explanation.length>35,'formula explanation '+n);
  }
 }
+
+// v2.16: all 144 independently reviewed introduction blanks.
+{
+ const rows=readBank('real_estate_intro').questions.slice(156,300);
+ assert.equal(rows.length,144);
+ for(let i=0;i<rows.length;i++){
+  const q=rows[i];
+  assert.equal(q.id,'BLANK-01-'+String(i+157).padStart(3,'0'));
+  assert.equal(q.choices.filter(x=>x===q.answer).length,1,q.id);
+  assert.equal(new Set(q.choices).size,4,q.id);
+  assert.ok(q.explanation.length>9,q.id);
+ }
+ assert.ok(rows[243-157].prompt.startsWith('손익분기비율(BER)'));
+ assert.ok(readBank('real_estate_intro').questions[99].prompt.startsWith('손익분기비율(BER)'));
+ assert.ok(rows[225-157].explanation.includes('중복계산'));
+ assert.ok(!rows[298-157].choices.includes('종합자본환원율'));
+ assert.ok(rows[296-157].prompt.includes('정액법'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v24'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v24'));
+assert.ok(html.includes('20261010-blank-v25'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v25'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v24'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v25'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');

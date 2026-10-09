@@ -1,5 +1,5 @@
 window.WORD_QUIZ_BANK = {
-  "version": "core-2026-10-07-audited-v3",
+  "version": "core-2026-10-10-audited-v4",
   "subject": "부동산학개론",
   "count": 156,
   "conceptCount": 156,
@@ -1993,7 +1993,7 @@ window.WORD_QUIZ_BANK = {
       "conceptId": "REK100",
       "category": "투자론",
       "difficulty": "공식",
-      "question": "채무불이행률의 공식은?",
+      "question": "손익분기비율(BER)의 공식은?",
       "choices": [
         "(영업경비 + 부채서비스액) ÷ 유효조소득",
         "조소득 ÷ 부동산가치",
@@ -2001,7 +2001,7 @@ window.WORD_QUIZ_BANK = {
         "대출금 × 저당상수"
       ],
       "answer": 0,
-      "explanation": "채무불이행률의 공식은 (영업경비 + 부채서비스액) ÷ 유효조소득이다. 유효조소득 중 영업경비와 부채서비스액이 차지하는 비율이다.",
+      "explanation": "이 공식은 채무불이행률이 아니라 손익분기비율(BER)의 산식이다. (영업경비 + 부채서비스액) ÷ 유효조소득이며 유효수입 중 운영비와 원리금상환 부담이 차지하는 비율을 나타낸다.",
       "sourceSection": "5. 부동산 투자론",
       "sourceType": "요약자료",
       "legacyId": "RE178",
@@ -3129,7 +3129,7 @@ window.WORD_QUIZ_BANK = {
       "reviewedAt": "2026-09-02"
     }
   ],
-  "auditDate": "2026-10-07",
+  "auditDate": "2026-10-10",
   "auditStatus": "approved",
-  "auditNote": "정답·4개 선택지·해설·단일정답성·공식/정의 범위를 2차 전수감사. REK038·REK054·REK071·REK076·REK137·REK138·REK144·REK151·REK153 교정 반영."
+  "auditNote": "정답·4개 선택지·해설·단일정답성·공식/정의 범위를 2차 전수감사. REK038·REK054·REK071·REK076·REK137·REK138·REK144·REK151·REK153 교정 반영.; REK100 BER 용어 교정"
 };
