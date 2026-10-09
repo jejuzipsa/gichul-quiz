@@ -504,6 +504,61 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(linked,50,'BRK041-050 exact fifty linked source copies');
 }
+// v2.06: final 10 brokerage concepts, their 50 source references and the revised land-permit deadline.
+{
+  const core=compileSubject('brokerage_law').questions,byId=new Map(core.map(q=>[q.id,q]));
+  const trueAnswers=new Set(core.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['BRK051','공인중개사법','제41조',1],
+    ['BRK052','공인중개사법','제41조',2],
+    ['BRK053','공인중개사법','제41조의2',0],
+    ['BRK054','공인중개사법','제41조의3',0],
+    ['BRK055','공인중개사법','제41조의4',3],
+    ['BRK056','부동산 거래신고 등에 관한 법률','제3조',1],
+    ['BRK057','부동산 거래신고 등에 관한 법률','제3조',3],
+    ['BRK058','부동산 거래신고 등에 관한 법률 시행규칙','제2조',1],
+    ['BRK059','부동산 거래신고 등에 관한 법률','제11조',3],
+    ['BRK060','부동산 거래신고 등에 관한 법률 시행령','제14조',0]
+  ];
+  const ids=new Set(expected.map(v=>v[0]));
+  for(const [id,law,article,key] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': missing');
+    assert.equal(q.sourceLaw,law,id+': wrong source law');
+    assert.equal(q.sourceArticle,article,id+': wrong source article');
+    assert.equal(q.answer,key,id+': answer location changed');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': question form');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': statute review date');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': edited review date');
+    assert.equal(q.choices.length,4,id+': four choices');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': duplicate choice');
+    for(let i=0;i<4;i++)if(i!==key)
+      assert.ok(!trueAnswers.has(normalize(q.choices[i])),id+': reused true statement');
+  }
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/03_brokerage_law_final.txt'),'utf8');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  let total=0;
+  for(const b of parseBlocks(source)){
+    const q=parseBlock(b),parent=byId.get(q.originQuestionId);
+    if(!ids.has(q.originQuestionId))continue;
+    assert.equal(q.sourceQuestion,parent.question,q.id+': source question mismatch');
+    const marker='[원본 정답]';
+    assert.ok(b.includes(marker),q.id+': missing source answer');
+    assert.equal(b.slice(b.indexOf(marker)+marker.length).trim(),parent.choices[parent.answer],q.id+': source answer mismatch');
+    total++;
+  }
+  assert.equal(total,50,'BRK051-060 fifty derived references');
+  const derived=readBank('brokerage_law').questions;
+  assert.equal(derived.length,300,'brokerage derived count');
+  for(const id of ['BLANK-03-059','BLANK-03-293','BLANK-03-294','BLANK-03-295','BLANK-03-296']){
+    const q=derived.find(x=>x.id===id);
+    assert.ok(q,id+': linked blank missing');
+    assert.ok(!/15일/.test(q.prompt+' '+q.explanation),id+': obsolete deadline');
+    assert.equal(q.originQuestionId,'BRK059',id+': origin');
+  }
+  assert.equal(derived.find(x=>x.id==='BLANK-03-059').answer,'「민원 처리에 관한 법률」');
+  assert.equal(derived.find(x=>x.id==='BLANK-03-293').answer,'「민원 처리에 관한 법률」');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
