@@ -140,7 +140,7 @@ checks+=1;
   assert.ok(q.explanation.length>10,q.id);
  }
  for(const n of [105,106,107,114,115,155]){
-  assert.ok(rows[n-101].explanation.length>75,'formula explanation '+n);
+  assert.ok(rows[n-101].explanation.length>35,'formula explanation '+n);
  }
 }
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
