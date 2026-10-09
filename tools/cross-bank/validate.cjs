@@ -726,6 +726,38 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
  assert.equal(linked,40);
  assert.equal(readBank('public_law').questions.length,300);
 }
+
+// v2.12: PLK051-070 complete public law audit and 80 linked snapshots.
+{
+ const bank=compileSubject('public_law').questions;
+ const selected=bank.filter(q=>Number(q.id.slice(3))>=51&&Number(q.id.slice(3))<=70);
+ assert.equal(selected.length,20);
+ const byId=new Map(selected.map(q=>[q.id,q]));
+ const truth=new Set(bank.map(q=>normalize(q.choices[q.answer])));
+ for(const q of selected){
+  assert.equal(q.verifiedAt,'2026-10-09',q.id);
+  assert.equal(q.reviewedAt,'2026-10-09',q.id);
+  assert.equal(q.choices.length,4,q.id);
+  assert.equal(new Set(q.choices.map(normalize)).size,4,q.id);
+  assert.ok(q.question.endsWith('에 관한 설명으로 옳은 것은?'),q.id);
+  if(Number(q.id.slice(3))<=60){
+   assert.equal(q.sourceLaw,'농지법',q.id);
+   for(let i=0;i<4;i++)if(i!==q.answer)assert.ok(!truth.has(normalize(q.choices[i])),q.id+': true distractor');
+  }
+ }
+ const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+ const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/04_public_law_final.txt'),'utf8');
+ let linked=0;
+ for(const raw of parseBlocks(source)){
+  const q=parseBlock(raw),parent=byId.get(q.originQuestionId);
+  if(!parent)continue;
+  assert.equal(q.sourceQuestion,parent.question,q.id);
+  assert.equal(raw.split('[원본 정답]')[1].trim(),parent.choices[parent.answer],q.id);
+  linked++;
+ }
+ assert.equal(linked,80);
+ assert.equal(readBank('public_law').questions.length,300);
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
