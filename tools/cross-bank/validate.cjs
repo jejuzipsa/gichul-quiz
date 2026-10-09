@@ -608,6 +608,34 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   assert.ok(runtime.find(x=>x.id==='BLANK-04-084').prompt.includes('국가유산'));
   assert.ok(runtime.find(x=>x.id==='BLANK-04-085').prompt.includes('국가유산'));
 }
+
+// v2.08: regression for PLK011-020 and fifty linked blanks.
+{
+ const qs=compileSubject('public_law').questions;
+ const ids=new Set(Array.from({length:10},(_,i)=>'PLK'+String(i+11).padStart(3,'0')));
+ const selected=qs.filter(q=>ids.has(q.id));
+ assert.equal(selected.length,10,'public law ten');
+ for(const q of selected){
+  assert.equal(q.sourceLaw,'도시개발법');
+  assert.equal(q.verifiedAt,'2026-10-09');
+  assert.equal(q.reviewedAt,'2026-10-09');
+  assert.equal(q.choices.length,4);
+  assert.equal(new Set(q.choices).size,4);
+  assert.ok(q.question.endsWith('에 관한 설명으로 옳은 것은?'));
+ }
+ const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+ const raw=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/04_public_law_final.txt'),'utf8');
+ let linked=0;
+ for(const block of parseBlocks(raw)){
+  const blank=parseBlock(block);
+  if(!ids.has(blank.originQuestionId))continue;
+  const parent=selected.find(q=>q.id===blank.originQuestionId);
+  assert.equal(blank.sourceQuestion,parent.question);
+  assert.equal(block.split('[원본 정답]')[1].trim(),parent.choices[parent.answer]);
+  linked++;
+ }
+ assert.equal(linked,50);
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
