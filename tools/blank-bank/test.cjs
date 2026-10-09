@@ -97,7 +97,7 @@ assert.ok(multiCount>0,'At least one reviewed bank must exercise multi-blank ren
 checks+=1;
 
 
-// v2.14: first ten real-estate-introduction blanks independently reviewed.
+// v2.15: first ten real-estate-introduction blanks independently reviewed.
 {
  const b=readBank('real_estate_intro');
  const reviewed=b.questions.filter(q=>/^BLANK-01-0(0[1-9]|10)$/.test(q.id));
@@ -113,7 +113,7 @@ checks+=1;
  assert.ok(reviewed[9].explanation.includes('경사진'));
 }
 
-// v2.14: first 100 intro blanks reviewed, key and source consistency fixed.
+// v2.15: first 100 intro blanks reviewed, key and source consistency fixed.
 {
  const bank=readBank('real_estate_intro');
  for(let i=0;i<100;i++){
@@ -147,10 +147,10 @@ const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v23'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v23'));
+assert.ok(html.includes('20261010-blank-v24'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v24'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v23'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v24'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
