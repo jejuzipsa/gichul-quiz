@@ -97,7 +97,7 @@ assert.ok(multiCount>0,'At least one reviewed bank must exercise multi-blank ren
 checks+=1;
 
 
-// v2.13: first ten real-estate-introduction blanks independently reviewed.
+// v2.14: first ten real-estate-introduction blanks independently reviewed.
 {
  const b=readBank('real_estate_intro');
  const reviewed=b.questions.filter(q=>/^BLANK-01-0(0[1-9]|10)$/.test(q.id));
@@ -112,14 +112,30 @@ checks+=1;
  assert.ok(reviewed[8].explanation.includes('해변'));
  assert.ok(reviewed[9].explanation.includes('경사진'));
 }
+
+// v2.14: first 100 intro blanks reviewed, key and source consistency fixed.
+{
+ const bank=readBank('real_estate_intro');
+ for(let i=0;i<100;i++){
+  const q=bank.questions[i];
+  assert.equal(q.id,'BLANK-01-'+String(i+1).padStart(3,'0'));
+  assert.equal(q.choices.filter(c=>c===q.answer).length,1,q.id);
+  assert.ok(q.prompt.includes('{{blank}}')||q.prompt.includes('{{blank:A}}'),q.id);
+  assert.ok(q.explanation.length>9,q.id);
+ }
+ const weak=bank.questions[28],semi=bank.questions[29],strong=bank.questions[30];
+ assert.ok(weak.prompt.includes('가장 약한 유형'));
+ assert.ok(semi.prompt.includes('미공개 내부정보'));
+ assert.ok(strong.prompt.includes('미공개 내부정보'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v22'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v22'));
+assert.ok(html.includes('20261010-blank-v23'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v23'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v22'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v23'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
