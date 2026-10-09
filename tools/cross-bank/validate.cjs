@@ -459,6 +459,51 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(count,50,'all 50 related blank questions have consistent source snapshots');
 }
+// v2.05: brokerage guarantees, statutory training and association, plus 50 linked source copies.
+{
+  const bank=compileSubject('brokerage_law').questions,byId=new Map(bank.map(q=>[q.id,q]));
+  const truth=new Set(bank.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['BRK041','공인중개사법 시행령','제27조의2',0],
+    ['BRK042','공인중개사법','제30조',3],
+    ['BRK043','공인중개사법 시행령','제24조',2],
+    ['BRK044','공인중개사법 시행령','제24조',2],
+    ['BRK045','공인중개사법 시행령','제24조',3],
+    ['BRK046','공인중개사법 시행령','제28조',0],
+    ['BRK047','공인중개사법 시행령','제28조',1],
+    ['BRK048','공인중개사법 시행령','제28조',3],
+    ['BRK049','공인중개사법 시행령','제28조',3],
+    ['BRK050','공인중개사법','제41조',0]
+  ];
+  const ids=new Set(expected.map(x=>x[0]));
+  for(const [id,law,article,correct] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': missing reviewed question');
+    assert.equal(q.sourceLaw,law,id+': unchanged source law');
+    assert.equal(q.sourceArticle,article,id+': source provision');
+    assert.equal(q.answer,correct,id+': original answer');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': truth question');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': reviewed statute');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': revised wording');
+    assert.equal(q.choices.length,4,id+': choice count');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': unique choices');
+    for(let i=0;i<4;i++)if(i!==correct)
+      assert.ok(!truth.has(normalize(q.choices[i])),id+': copied true answer must not be distractor');
+  }
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/03_brokerage_law_final.txt'),'utf8');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  let linked=0;
+  for(const raw of parseBlocks(source)){
+    const q=parseBlock(raw);
+    if(!ids.has(q.originQuestionId))continue;
+    const parent=byId.get(q.originQuestionId),mark='[원본 정답]';
+    assert.equal(q.sourceQuestion,parent.question,q.id+': source question drift');
+    assert.ok(raw.includes(mark),q.id+': source answer missing');
+    assert.equal(raw.slice(raw.indexOf(mark)+mark.length).trim(),parent.choices[parent.answer],q.id+': source answer drift');
+    linked++;
+  }
+  assert.equal(linked,50,'BRK041-050 exact fifty linked source copies');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
