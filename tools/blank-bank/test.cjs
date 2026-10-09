@@ -96,6 +96,22 @@ for(const subject of Object.keys(TARGETS)){
 assert.ok(multiCount>0,'At least one reviewed bank must exercise multi-blank rendering data');
 checks+=1;
 
+
+// v2.13: first ten real-estate-introduction blanks independently reviewed.
+{
+ const b=readBank('real_estate_intro');
+ const reviewed=b.questions.filter(q=>/^BLANK-01-0(0[1-9]|10)$/.test(q.id));
+ assert.equal(reviewed.length,10);
+ const keys=['복합개념의 부동산','획지','맹지','나지','소지(素地)','공한지','후보지','이행지','빈지(濱地)','법지(法地)'];
+ for(let i=0;i<10;i++){
+  const q=reviewed[i];
+  assert.equal(q.answer,keys[i],q.id);
+  assert.equal(q.choices.filter(c=>c===q.answer).length,1,q.id);
+  assert.ok(q.explanation.includes(keys[i].replace(/\(.+\)/,'').replace('복합개념의 부동산','부동산')),q.id);
+ }
+ assert.ok(reviewed[8].explanation.includes('해변'));
+ assert.ok(reviewed[9].explanation.includes('경사진'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
