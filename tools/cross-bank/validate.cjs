@@ -374,6 +374,45 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(count,50,'registration/employment 50 blank links');
 }
+// v2.03: BRK021-030 correct indices and all 50 derived reference snapshots.
+{
+  const questions=compileSubject('brokerage_law').questions,byId=new Map(questions.map(q=>[q.id,q]));
+  const allTrue=new Set(questions.map(q=>normalize(q.choices[q.answer])));
+  const keys=[
+    ['BRK021','제17조',2],['BRK022','제18조',1],
+    ['BRK023','제18조',2],['BRK024','제18조의2',1],
+    ['BRK025','제18조의2',1],['BRK026','제23조',2],
+    ['BRK027','제24조',1],['BRK028','제25조',0],
+    ['BRK029','제25조',3],['BRK030','제25조의2',0]
+  ];
+  const ids=new Set(keys.map(k=>k[0]));
+  for(const [id,article,key] of keys){
+    const q=byId.get(id);
+    assert.ok(q,id+': required core question');
+    assert.equal(q.sourceLaw,'공인중개사법',id+': statute');
+    assert.equal(q.sourceArticle,article,id+': article');
+    assert.equal(q.answer,key,id+': preserve original answer index');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': same-topic question');
+    assert.ok(q.explanation.includes('공인중개사법 '+article),id+': explanatory law');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': legally reviewed date');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': question review date');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': distinct choices');
+    for(let i=0;i<4;i++)if(i!==q.answer)assert.ok(!allTrue.has(normalize(q.choices[i])),id+': no another-concept true answer reused');
+  }
+  const src=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/03_brokerage_law_final.txt'),'utf8');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  let count=0;
+  for(const raw of parseBlocks(src)){
+    const row=parseBlock(raw),origin=byId.get(row.originQuestionId);
+    if(!ids.has(row.originQuestionId))continue;
+    assert.equal(row.sourceQuestion,origin.question,row.id+': current source question');
+    const marker='[원본 정답]';
+    assert.ok(raw.includes(marker),row.id+': archived answer present');
+    assert.equal(raw.slice(raw.indexOf(marker)+marker.length).trim(),origin.choices[origin.answer],row.id+': current source answer');
+    count++;
+  }
+  assert.equal(count,50,'BRK021-030 exactly 50 derived source references');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
