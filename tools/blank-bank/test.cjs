@@ -161,14 +161,35 @@ checks+=1;
  assert.ok(!rows[298-157].choices.includes('종합자본환원율'));
  assert.ok(rows[296-157].prompt.includes('정액법'));
 }
+
+// v2.17 civil-law independent audit, all 300 questions.
+{
+ const bank=readBank('civil_law');
+ assert.equal(bank.questions.length,300);
+ for(let i=0;i<300;i++){
+  const q=bank.questions[i];
+  assert.equal(q.id,'BLANK-02-'+String(i+1).padStart(3,'0'));
+  assert.equal(q.choices.length,4,q.id);
+  assert.equal(q.choices.filter(x=>x===q.answer).length,1,q.id);
+  assert.equal(new Set(q.choices).size,4,q.id);
+  assert.ok(q.explanation.length>10,q.id);
+ }
+ assert.ok(bank.questions[7].choices.includes('대리행위의 하자'));
+ assert.ok(bank.questions[28].explanation.includes('제264조'));
+ assert.ok(bank.questions[51].explanation.includes('제640조'));
+ assert.ok(bank.questions[69].explanation.includes('환산보증금'));
+ assert.ok(bank.questions[204].explanation.includes('제3자'));
+ assert.ok(!bank.questions[246].choices.includes('계약갱신요구권'));
+ assert.ok(bank.questions[280].explanation.includes('환산보증금'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v25'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v25'));
+assert.ok(html.includes('20261010-blank-v26'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v26'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v25'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v26'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
