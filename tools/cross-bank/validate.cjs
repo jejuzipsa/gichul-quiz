@@ -413,6 +413,52 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(count,50,'BRK021-030 exactly 50 derived source references');
 }
+// v2.04 brokerage confirmation, contracts, duties and prohibitions.
+{
+  const bank=compileSubject('brokerage_law').questions;
+  const byId=new Map(bank.map(q=>[q.id,q]));
+  const trueAnswers=new Set(bank.map(q=>normalize(q.choices[q.answer])));
+  const expected=[
+    ['BRK031','공인중개사법','제25조의3',0],
+    ['BRK032','공인중개사법 시행령','제21조',0],
+    ['BRK033','공인중개사법','제26조',0],
+    ['BRK034','공인중개사법 시행령','제22조',1],
+    ['BRK035','공인중개사법','제26조',1],
+    ['BRK036','공인중개사법','제26조',0],
+    ['BRK037','공인중개사법','제29조',3],
+    ['BRK038','공인중개사법','제29조',1],
+    ['BRK039','공인중개사법','제33조',0],
+    ['BRK040','공인중개사법','제33조',1]
+  ];
+  const ids=new Set(expected.map(x=>x[0]));
+  for(const [id,law,article,index] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': required reviewed question');
+    assert.equal(q.sourceLaw,law,id+': law');
+    assert.equal(q.sourceArticle,article,id+': article');
+    assert.equal(q.answer,index,id+': original answer index');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': truth-test question');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': individual review');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': edited date');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': distinct alternatives');
+    for(let i=0;i<4;i++)if(i!==index)
+      assert.ok(!trueAnswers.has(normalize(q.choices[i])),id+': cannot copy another true answer as an incorrect choice');
+  }
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  const source=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/03_brokerage_law_final.txt'),'utf8');
+  let count=0;
+  for(const raw of parseBlocks(source)){
+    const q=parseBlock(raw);
+    if(!ids.has(q.originQuestionId))continue;
+    const core=byId.get(q.originQuestionId);
+    assert.equal(q.sourceQuestion,core.question,q.id+': canonical source question');
+    const tag='[원본 정답]';
+    assert.ok(raw.includes(tag),q.id+': source answer snapshot');
+    assert.equal(raw.slice(raw.indexOf(tag)+tag.length).trim(),core.choices[core.answer],q.id+': canonical correct statement');
+    count++;
+  }
+  assert.equal(count,50,'all 50 related blank questions have consistent source snapshots');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
