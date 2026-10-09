@@ -92,16 +92,16 @@
     };
 
     if(mode==='blank'){
-      load(`blank-data/${file}?v=20261009-blank-v18`,()=>{
-        load('blank-bank-validator.js?v=20261009-blank-v18',()=>{
+      load(`blank-data/${file}?v=20261009-blank-v19`,()=>{
+        load('blank-bank-validator.js?v=20261009-blank-v19',()=>{
           if(!window.validateBlankBank(window.BLANK_QUIZ_BANK,key)) return fail('괄호문제');
-          load('blank-session.js?v=20261009-blank-v18',()=>{
-            load('blank-quiz.js?v=20261009-blank-v18',null,()=>fail('괄호문제'));
+          load('blank-session.js?v=20261009-blank-v19',()=>{
+            load('blank-quiz.js?v=20261009-blank-v19',null,()=>fail('괄호문제'));
           },()=>fail('괄호문제'));
         },()=>fail('괄호문제'));
       },()=>fail('괄호문제'));
     }else{
-      load(`data/${file}?v=20261009-core-v24`,()=>{
+      load(`data/${file}?v=20261009-core-v25`,()=>{
         load('quiz.js?v=1.8',null,()=>fail('문제'));
       },()=>fail('문제'));
     }
