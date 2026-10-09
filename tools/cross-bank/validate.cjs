@@ -559,6 +559,55 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   assert.equal(derived.find(x=>x.id==='BLANK-03-059').answer,'「민원 처리에 관한 법률」');
   assert.equal(derived.find(x=>x.id==='BLANK-03-293').answer,'「민원 처리에 관한 법률」');
 }
+// v2.07: public law PLK001-010 statutory truth questions and 50 derived references.
+{
+  const core=compileSubject('public_law').questions;
+  const byId=new Map(core.map(q=>[q.id,q])),truth=new Set(core.map(q=>normalize(q.choices[q.answer])));
+  const expected=[['PLK001','제6조',0],['PLK002','제6조',3],['PLK003','제6조',0],['PLK004','제6조',3],
+    ['PLK005','제36조',0],['PLK006','제36조',0],['PLK007','제2조',1],['PLK008','제56조',0],
+    ['PLK009','제29조',0],['PLK010','제29조',3]];
+  const ids=new Set(expected.map(x=>x[0]));
+  for(const [id,article,answer] of expected){
+    const q=byId.get(id);
+    assert.ok(q,id+': missing');
+    assert.equal(q.sourceLaw,'국토의 계획 및 이용에 관한 법률',id+': wrong statute');
+    assert.equal(q.sourceArticle,article,id+': wrong article');
+    assert.equal(q.answer,answer,id+': correct choice position');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': question is not a truth test');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': law review date');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': editorial review date');
+    assert.equal(q.choices.length,4,id+': four answers');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': choices duplicated');
+    for(let i=0;i<4;i++)if(i!==answer)
+      assert.ok(!truth.has(normalize(q.choices[i])),id+': cross-concept true distractor');
+  }
+  assert.ok(byId.get('PLK004').choices[3].includes('국가유산'),'PLK004 modern terminology');
+  assert.ok(!byId.get('PLK004').choices[3].includes('문화재'),'PLK004 obsolete terminology');
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  const src=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/04_public_law_final.txt'),'utf8');
+  let count=0,heritage=0;
+  for(const raw of parseBlocks(src)){
+    const q=parseBlock(raw),parent=byId.get(q.originQuestionId);
+    if(!ids.has(q.originQuestionId))continue;
+    assert.equal(q.sourceQuestion,parent.question,q.id+': original question reference outdated');
+    const marker='[원본 정답]';
+    assert.ok(raw.includes(marker),q.id+': missing source answer reference');
+    assert.equal(raw.slice(raw.indexOf(marker)+marker.length).trim(),parent.choices[parent.answer],q.id+': original correct answer reference outdated');
+    if(q.originQuestionId==='PLK004'){
+      heritage++;
+      assert.ok(!q.prompt.includes('문화재'),q.id+': old heritage term in question');
+      assert.ok(!q.explanation.includes('문화재'),q.id+': old heritage term in explanation');
+    }
+    count++;
+  }
+  assert.equal(count,50,'PLK001-010 must link to 50 derived blanks');
+  assert.equal(heritage,5,'PLK004 must link to 5 heritage blanks');
+  const runtime=readBank('public_law').questions;
+  assert.equal(runtime.length,300,'all 300 public law blanks kept');
+  assert.ok(runtime.find(x=>x.id==='BLANK-04-004').prompt.includes('국가유산'));
+  assert.ok(runtime.find(x=>x.id==='BLANK-04-084').prompt.includes('국가유산'));
+  assert.ok(runtime.find(x=>x.id==='BLANK-04-085').prompt.includes('국가유산'));
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
