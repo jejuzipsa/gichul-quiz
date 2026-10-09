@@ -666,6 +666,37 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
  assert.equal(linked,40);
  assert.equal(readBank('public_law').questions.length,300);
 }
+
+// v2.10: architecture law PLK031-040 and forty linked source snapshots.
+{
+ const core=compileSubject('public_law').questions;
+ const ids=new Set(Array.from({length:10},(_,i)=>'PLK'+String(i+31).padStart(3,'0')));
+ const selected=core.filter(q=>ids.has(q.id));
+ assert.equal(selected.length,10);
+ const expected=['제2조','제2조','제2조','제19조','제2조','제11조','제14조','제20조','제22조','제11조'];
+ for(let i=0;i<selected.length;i++){
+  const q=selected[i];
+  assert.equal(q.sourceLaw,'건축법');
+  assert.equal(q.sourceArticle,expected[i]);
+  assert.equal(q.verifiedAt,'2026-10-09');
+  assert.equal(q.reviewedAt,'2026-10-09');
+  assert.equal(new Set(q.choices).size,4);
+  assert.ok(q.question.endsWith('에 관한 설명으로 옳은 것은?'));
+ }
+ const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+ const raw=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/04_public_law_final.txt'),'utf8');
+ let linked=0;
+ for(const block of parseBlocks(raw)){
+  const blank=parseBlock(block);
+  if(!ids.has(blank.originQuestionId))continue;
+  const parent=selected.find(q=>q.id===blank.originQuestionId);
+  assert.equal(blank.sourceQuestion,parent.question,blank.id);
+  assert.equal(block.split('[원본 정답]')[1].trim(),parent.choices[parent.answer],blank.id);
+  linked++;
+ }
+ assert.equal(linked,40);
+ assert.equal(readBank('public_law').questions.length,300);
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
