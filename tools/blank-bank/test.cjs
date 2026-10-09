@@ -128,6 +128,21 @@ checks+=1;
  assert.ok(semi.prompt.includes('미공개 내부정보'));
  assert.ok(strong.prompt.includes('미공개 내부정보'));
 }
+
+// v2.15: lock 101-156 independently reviewed real-estate blank questions.
+{
+ const rows=readBank('real_estate_intro').questions.slice(100,156);
+ assert.equal(rows.length,56);
+ for(let i=0;i<rows.length;i++){
+  const q=rows[i];
+  assert.equal(q.id,'BLANK-01-'+String(i+101).padStart(3,'0'));
+  assert.equal(q.choices.filter(x=>x===q.answer).length,1,q.id);
+  assert.ok(q.explanation.length>10,q.id);
+ }
+ for(const n of [105,106,107,114,115,155]){
+  assert.ok(rows[n-101].explanation.length>75,'formula explanation '+n);
+ }
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
