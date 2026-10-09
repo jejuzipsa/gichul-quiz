@@ -328,6 +328,52 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   }
   assert.equal(cnt,50,'brokerage statute definitions should link 50 source snapshots');
 }
+// v2.02: registration and employment claims (BRK011~020), and 50 archive links.
+{
+  const questions=compileSubject('brokerage_law').questions;
+  const byId=new Map(questions.map(q=>[q.id,q]));
+  const trueTexts=new Set(questions.map(q=>normalize(q.choices[q.answer])));
+  const entries=[
+    ['BRK011','공인중개사법','제9조',1],
+    ['BRK012','공인중개사법 시행규칙','제4조',0],
+    ['BRK013','공인중개사법 시행령','제13조',0],
+    ['BRK014','공인중개사법 시행령','제13조',2],
+    ['BRK015','공인중개사법','제13조',0],
+    ['BRK016','공인중개사법','제13조',1],
+    ['BRK017','공인중개사법','제15조',1],
+    ['BRK018','공인중개사법 시행규칙','고용관계 신고 규정',2],
+    ['BRK019','공인중개사법','제15조',3],
+    ['BRK020','공인중개사법','제18조의4',2]
+  ];
+  const ids=new Set(entries.map(e=>e[0]));
+  for(const [id,law,article,index] of entries){
+    const q=byId.get(id);
+    assert.ok(q,id+': missing card');
+    assert.equal(q.sourceLaw,law,id+': source law unchanged');
+    assert.equal(q.sourceArticle,article,id+': source article unchanged');
+    assert.equal(q.answer,index,id+': original correct choice');
+    assert.match(q.question,/에 관한 설명으로 옳은 것은\?$/,id+': single-topic truth test');
+    assert.equal(q.verifiedAt,'2026-10-09',id+': individual review date');
+    assert.equal(q.reviewedAt,'2026-10-09',id+': editorial review date');
+    assert.equal(q.choices.length,4,id+': four choices');
+    assert.equal(new Set(q.choices.map(normalize)).size,4,id+': unique choices');
+    for(let i=0;i<4;i++)if(i!==q.answer)
+      assert.ok(!trueTexts.has(normalize(q.choices[i])),id+': not an alternative truth copied from another key');
+  }
+  const {parseBlocks,parseBlock}=require('../blank-bank/compile-v2.cjs');
+  const src=fs.readFileSync(path.join(ROOT,'review/blank-bank-v2/03_brokerage_law_final.txt'),'utf8');
+  let count=0;
+  for(const raw of parseBlocks(src)){
+    const row=parseBlock(raw);
+    if(!ids.has(row.originQuestionId))continue;
+    const source=byId.get(row.originQuestionId),label='[원본 정답]';
+    assert.equal(row.sourceQuestion,source.question,row.id+': source prompt snapshot');
+    assert.ok(raw.includes(label),row.id+': answer snapshot exists');
+    assert.equal(raw.slice(raw.indexOf(label)+label.length).trim(),source.choices[source.answer],row.id+': source answer snapshot');
+    count++;
+  }
+  assert.equal(count,50,'registration/employment 50 blank links');
+}
 // v1.96: parent/child actor terms must not form two factually true alternatives.
 {
   const brokerage=readBank('brokerage_law').questions;
