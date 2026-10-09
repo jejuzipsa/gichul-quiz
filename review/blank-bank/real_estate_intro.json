@@ -913,7 +913,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "시장론·입지론",
-      "prompt": "다핵심이론은 {{blank}}(C. Harris)와 ( B )(E. Ullman)의 도시내부구조이론으로, 도시가 성장하면서 여러 개의 분리된 핵이 형성·발달한다고 본다.",
+      "prompt": "다핵심이론은 {{blank:A}}(C. Harris)와 {{blank:B}}(E. Ullman)의 도시내부구조이론으로, 도시가 성장하면서 여러 개의 분리된 핵이 형성·발달한다고 본다.",
       "answer": "해리스 / 울만",
       "choices": [
         "버제스 / 호이트",
