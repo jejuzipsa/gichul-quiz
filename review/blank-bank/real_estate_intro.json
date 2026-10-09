@@ -3663,7 +3663,7 @@
       "type": "blank",
       "subject": "부동산학개론",
       "category": "감정평가·가격공시",
-      "prompt": "부채감당률(DCR), 저당비율(LTV), 저당상수(MC)의 곱으로 구할 수 있는 {{blank:A}}의 추정식이 있다.",
+      "prompt": "{{blank:A}} × 저당비율(LTV) × {{blank:B}}로 종합자본환원율을 추정할 수 있다.",
       "answer": "부채감당률 / 저당상수",
       "choices": [
         "저당상수 / 부채감당률",
