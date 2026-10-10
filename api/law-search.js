@@ -219,7 +219,8 @@ module.exports = async function handler(req, res) {
     console.error('[law-search] UPSTREAM_NON_JSON contentType=text/html');
     return reply(res, 502, {
       error: 'UPSTREAM_NON_JSON',
-      message: '국가법령정보센터에서 JSON 대신 HTML을 반환했어. 인증 승인·접속 제한 또는 차단 여부를 확인해야 해.'
+      reason: 'HTML_RESPONSE',
+      message: '국가법령정보센터에서 JSON 대신 HTML을 반환했어. 지능형 법령검색 서비스 사용 권한이나 오류 페이지 여부를 확인해야 해.'
     });
   }
 
@@ -230,7 +231,8 @@ module.exports = async function handler(req, res) {
     console.error('[law-search] UPSTREAM_NON_JSON parse failed');
     return reply(res, 502, {
       error: 'UPSTREAM_NON_JSON',
-      message: '국가법령정보센터 응답을 JSON으로 읽을 수 없어. 접속 제한이나 API 인증 상태를 확인해야 해.'
+      reason: 'JSON_PARSE_FAILED',
+      message: '국가법령정보센터의 응답을 JSON으로 읽을 수 없어. 요청 대상과 응답 형식을 확인해야 해.'
     });
   }
 

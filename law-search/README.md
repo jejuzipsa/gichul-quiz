@@ -41,3 +41,8 @@ API 호출 실패는 시간 초과/네트워크/HTTP/JSON 파싱/상위 API 거�
 
 ## 실제 운영 응답: result / msg
 2026-10-10 운영 API의 두 모드가 모두 `{ result: string, msg: string }` 형태의 JSON을 반환하는 것을 확인했다. 이는 표준 검색 결과 `LawSearch`/`aiSearch`가 아니므로 `UPSTREAM_API_REJECTED`로 분류한다. 본문의 `msg` 값은 인증값이나 서버 정보가 포함될 수 있어 그대로 표시하지 않는다. `reason`은 사유를 판단하는 **단서**이며 승인·IP 제한 원인을 확정한 것은 아니다. 법제처 공식 신청 양식은 도메인 주소와 서버 IP 주소 항목을 제공하므로 실제 서버 IP 등록과 승인 상태를 확인해야 한다.
+
+## 운영 실증(2026-10-10)
+- 등록된 서비스 도메인을 발신 요청 `Referer`에 지정한 후 Production 실검사에서 **법령명 '민법' 검색 200 응답, 9건**을 반환함. 이 비교 실험의 성공만 확인됐으며, Referer의 공식 필수 여부는 확인되지 않음.
+- **지능형 조문 검색(aiSearch)은 아직 502 UPSTREAM_NON_JSON**. API가 반환한 HTML 응답과 JSON 파싱 실패는 `reason=HTML_RESPONSE` 또는 `JSON_PARSE_FAILED`로 구분. 실제 오류 내용은 노출하지 않음.
+- aiSearch의 실제 서비스 권한은 별도 자가진단을 통해 같은 OC로 확인해야 함. 현재 응답을 정상 결과로 조작하거나 법령명 검색 결과를 조문 검색 결과로 위장하지 않음.
