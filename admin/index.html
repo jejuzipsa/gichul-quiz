@@ -17,11 +17,18 @@
     <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.27" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
     <button id="adminLogout" class="admin-logout" type="button" hidden>로그아웃</button>
   </header>
-  <section id="adminNotice" class="admin-login-state" aria-live="polite">
-    <h2>관리자 인증</h2>
-    <p id="authStatus">로그인 상태를 확인하고 있어.</p>
-    <a id="adminLoginLink" class="admin-primary" href="https://gichul-law-api.vercel.app/api/admin-auth?mode=start" hidden>GitHub 계정으로 로그인</a>
-    <p id="adminSetupHint" class="admin-info-small" hidden>GitHub OAuth 앱과 Vercel 환경변수를 등록해야 로그인할 수 있어.</p>
+  <section id="adminNotice" class="admin-login-state" aria-labelledby="adminLoginTitle">
+    <h2 id="adminLoginTitle">관리자 로그인</h2>
+    <p class="admin-info-small">사이트 현황을 확인하려면 관리자 비밀번호를 입력해.</p>
+    <form id="adminLoginForm" class="admin-login-form">
+      <label for="adminUsername">아이디</label>
+      <input id="adminUsername" type="text" value="admin" readonly autocomplete="username">
+      <label for="adminPassword">비밀번호</label>
+      <input id="adminPassword" type="password" required minlength="12" maxlength="128" autocomplete="current-password" placeholder="관리자 비밀번호">
+      <button id="adminLoginBtn" class="admin-primary" type="submit">로그인</button>
+    </form>
+    <p id="authStatus" role="status" aria-live="polite"></p>
+    <p id="adminSetupHint" class="admin-info-small" hidden>아직 관리자 인증 서버가 설정되지 않았어. Vercel 환경변수와 저장소를 연결하면 로그인할 수 있어.</p>
   </section>
   <div id="adminDashboard" hidden>
     <div class="admin-welcome">
@@ -45,6 +52,19 @@
     <section class="admin-section" aria-labelledby="adminPatchTitle">
       <div class="admin-section-head"><h2 id="adminPatchTitle">최근 패치 기록</h2><a href="../PATCH_NOTES.txt" target="_blank" rel="noopener noreferrer">전체 패치노트 보기 ↗</a></div>
       <div id="adminPatchList" class="admin-patches"><p>패치 기록을 읽는 중…</p></div>
+    </section>
+    <section class="admin-section" aria-labelledby="adminPasswordTitle">
+      <div class="admin-section-head"><h2 id="adminPasswordTitle">관리자 비밀번호 변경</h2></div>
+      <form id="adminPasswordForm" class="admin-login-form admin-password-form">
+        <label for="currentPassword">현재 비밀번호</label>
+        <input id="currentPassword" type="password" required minlength="12" autocomplete="current-password">
+        <label for="newPassword">새 비밀번호 (12자 이상)</label>
+        <input id="newPassword" type="password" required minlength="12" maxlength="128" autocomplete="new-password">
+        <label for="newPasswordConfirm">새 비밀번호 확인</label>
+        <input id="newPasswordConfirm" type="password" required minlength="12" maxlength="128" autocomplete="new-password">
+        <button id="adminPasswordBtn" type="submit" class="admin-primary">비밀번호 변경</button>
+        <p id="adminPasswordStatus" role="status" aria-live="polite" class="admin-info-small"></p>
+      </form>
     </section>
     <section class="admin-section" aria-labelledby="adminOperationsTitle">
       <div class="admin-section-head"><h2 id="adminOperationsTitle">운영 정보</h2></div>
