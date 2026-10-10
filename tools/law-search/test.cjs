@@ -89,3 +89,38 @@ test('search response, pagination and origin restriction with stubbed upstream',
     else process.env.LAW_API_OC = previous;
   }
 });
+
+
+test('diagnoses upstream failures separately without revealing an OC key', async () => {
+  const saved = process.env.LAW_API_OC;
+  const savedFetch = global.fetch;
+  const savedError = console.error;
+  process.env.LAW_API_OC = 'do-not-leak-secret';
+  console.error = () => {};
+  try {
+    const cases = [
+      [{ ok:false, status:403 }, 'UPSTREAM_HTTP', 403],
+      [{ ok:true, headers:{ get:()=> 'text/html; charset=utf-8' }, json:async()=>({}) }, 'UPSTREAM_NON_JSON'],
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>{throw new SyntaxError('Unexpected token');} }, 'UPSTREAM_NON_JSON'],
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ other:[] }) }, 'UPSTREAM_FORMAT'],
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ LawSearch:{ resultCode:'99', resultMsg:'Invalid API key' } }) }, 'UPSTREAM_API_REJECTED']
+    ];
+    for (const [response, expected, http] of cases) {
+      global.fetch = async () => response;
+      const res = await invoke({ q:'민법', mode:'laws' });
+      assert.equal(res.statusCode,502);
+      assert.equal(res.body.error,expected);
+      if (http) assert.equal(res.body.upstreamStatus,http);
+      assert.ok(!JSON.stringify(res.body).includes(process.env.LAW_API_OC));
+    }
+    global.fetch = async () => { const error = new Error('timeout'); error.name = 'TimeoutError'; throw error; };
+    assert.equal((await invoke({ q:'민법', mode:'laws' })).body.error,'UPSTREAM_TIMEOUT');
+    global.fetch = async () => { throw new TypeError('fetch failed'); };
+    assert.equal((await invoke({ q:'민법', mode:'laws' })).body.error,'UPSTREAM_NETWORK');
+  } finally {
+    global.fetch = savedFetch;
+    console.error = savedError;
+    if (saved === undefined) delete process.env.LAW_API_OC;
+    else process.env.LAW_API_OC = saved;
+  }
+});

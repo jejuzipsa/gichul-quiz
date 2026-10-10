@@ -120,17 +120,76 @@ module.exports = async function handler(req, res) {
     page: String(page),
     search: mode === 'laws' ? '1' : '0'
   });
+  let upstream;
   try {
-    const upstream = await fetch(API_HOST + '?' + params, {
+    upstream = await fetch(API_HOST + '?' + params, {
       headers: { Accept: 'application/json' },
-      signal: AbortSignal.timeout(9000)
+      signal: AbortSignal.timeout(15000)
     });
-    if (!upstream.ok) return reply(res, 502, { error: 'UPSTREAM_ERROR', message: '국가법령정보센터 응답을 받아오지 못했어.' });
-    const data = await upstream.json();
-    const normalized = mode === 'laws' ? normalizeLaws(data) : normalizeArticles(data);
-    return reply(res, 200, { query: q, mode, page, pageSize: DISPLAY, ...normalized });
   } catch (error) {
-    return reply(res, 502, { error: 'UPSTREAM_ERROR', message: '법령 검색 연결에 문제가 생겼어. 잠시 후 다시 시도해 줘.' });
+    const isTimeout = error?.name === 'TimeoutError' || error?.name === 'AbortError';
+    const code = isTimeout ? 'UPSTREAM_TIMEOUT' : 'UPSTREAM_NETWORK';
+    // Never log the request URL, OC key, or raw upstream response.
+    console.error('[law-search]', code, 'target=' + (mode === 'laws' ? 'law' : 'aiSearch'));
+    return reply(res, 502, {
+      error: code,
+      message: isTimeout
+        ? '국가법령정보센터 응답 시간이 초과됐어. 잠시 후 다시 검색해 줘.'
+        : 'Vercel에서 국가법령정보센터로 연결하지 못했어. 인증키 오류로 단정할 수 없어.'
+    });
   }
+
+  if (!upstream.ok) {
+    console.error('[law-search] UPSTREAM_HTTP target=' + (mode === 'laws' ? 'law' : 'aiSearch') + ' status=' + upstream.status);
+    return reply(res, 502, {
+      error: 'UPSTREAM_HTTP',
+      upstreamStatus: upstream.status,
+      message: '국가법령정보센터에서 HTTP ' + upstream.status + ' 오류를 반환했어. API 승인 상태와 이용 권한을 확인해 줘.'
+    });
+  }
+
+  const contentType = text(upstream.headers?.get?.('content-type'));
+  if (/text\/html/i.test(contentType)) {
+    console.error('[law-search] UPSTREAM_NON_JSON contentType=text/html');
+    return reply(res, 502, {
+      error: 'UPSTREAM_NON_JSON',
+      message: '국가법령정보센터에서 JSON 대신 HTML을 반환했어. 인증 승인·접속 제한 또는 차단 여부를 확인해야 해.'
+    });
+  }
+
+  let data;
+  try {
+    data = await upstream.json();
+  } catch (_) {
+    console.error('[law-search] UPSTREAM_NON_JSON parse failed');
+    return reply(res, 502, {
+      error: 'UPSTREAM_NON_JSON',
+      message: '국가법령정보센터 응답을 JSON으로 읽을 수 없어. 접속 제한이나 API 인증 상태를 확인해야 해.'
+    });
+  }
+
+  const body = mode === 'laws'
+    ? data?.LawSearch || data?.lawSearch
+    : data?.aiSearch || data?.AiSearch;
+  const upstreamCode = text(body?.resultCode || data?.resultCode);
+  if (upstreamCode && upstreamCode !== '00') {
+    console.error('[law-search] UPSTREAM_API_REJECTED target=' + (mode === 'laws' ? 'law' : 'aiSearch') + ' resultCode=' + upstreamCode.slice(0, 12).replace(/[^a-zA-Z0-9_-]/g, ''));
+    return reply(res, 502, {
+      error: 'UPSTREAM_API_REJECTED',
+      message: '국가법령정보센터에서 요청을 거부했어. API 인증키의 승인 및 신청 항목을 확인해 줘.'
+    });
+  }
+
+  let normalized;
+  try {
+    normalized = mode === 'laws' ? normalizeLaws(data) : normalizeArticles(data);
+  } catch (_) {
+    console.error('[law-search] UPSTREAM_FORMAT target=' + (mode === 'laws' ? 'law' : 'aiSearch'));
+    return reply(res, 502, {
+      error: 'UPSTREAM_FORMAT',
+      message: '국가법령정보센터가 예상과 다른 JSON 형식으로 응답했어. 응답 구조를 수정해야 해.'
+    });
+  }
+  return reply(res, 200, { query: q, mode, page, pageSize: DISPLAY, ...normalized });
 };
 module.exports._test = { formatDate, officialLink, normalizeArticles, normalizeLaws };
