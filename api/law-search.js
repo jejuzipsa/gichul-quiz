@@ -78,6 +78,40 @@ function normalizeLaws(payload) {
     }).filter(item => item.lawName)
   };
 }
+// Describe only allowlisted field names and types. Never include upstream values, URLs or OC.
+function payloadShape(payload, mode) {
+  const known = new Set([
+    'LawSearch', 'lawSearch', 'aiSearch', 'AiSearch', 'Law',
+    'error', 'Error', 'ERROR', 'errorCode', 'resultCode',
+    'resultMsg', 'message', 'Message', 'status', 'code'
+  ]);
+  const kind = value => value === null ? 'null' : Array.isArray(value) ? 'array' : typeof value;
+  if (!payload || typeof payload !== 'object' || Array.isArray(payload)) {
+    return { rootType: kind(payload), knownFields: [], fieldCount: 0 };
+  }
+  const keys = Object.keys(payload);
+  const envelope = mode === 'laws'
+    ? payload.LawSearch ?? payload.lawSearch
+    : payload.aiSearch ?? payload.AiSearch;
+  return {
+    rootType: 'object',
+    knownFields: keys.filter(key => known.has(key)).sort(),
+    fieldCount: keys.length,
+    envelopeType: kind(envelope)
+  };
+}
+function upstreamRejected(payload, body) {
+  for (const item of [payload, body]) {
+    if (typeof item === 'string' && item.trim()) return true;
+    if (!item || typeof item !== 'object' || Array.isArray(item)) continue;
+    const code = text(item.resultCode ?? item.errorCode ?? item.code);
+    if (code && code !== '00' && code !== '0' && code !== '200') return true;
+    if (item.error != null || item.Error != null || item.ERROR != null) return true;
+    const message = text(item.resultMsg ?? item.message ?? item.Message);
+    if (message && !/^(success|ok)$/i.test(message)) return true;
+  }
+  return false;
+}
 function reply(res, status, result) {
   res.statusCode = status;
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -171,12 +205,14 @@ module.exports = async function handler(req, res) {
   const body = mode === 'laws'
     ? data?.LawSearch || data?.lawSearch
     : data?.aiSearch || data?.AiSearch;
-  const upstreamCode = text(body?.resultCode || data?.resultCode);
-  if (upstreamCode && upstreamCode !== '00') {
-    console.error('[law-search] UPSTREAM_API_REJECTED target=' + (mode === 'laws' ? 'law' : 'aiSearch') + ' resultCode=' + upstreamCode.slice(0, 12).replace(/[^a-zA-Z0-9_-]/g, ''));
+  const diagnostic = payloadShape(data, mode);
+  if (upstreamRejected(data, body)) {
+    // Do not echo upstream messages or codes: they may contain credentials.
+    console.error('[law-search] UPSTREAM_API_REJECTED target=' + (mode === 'laws' ? 'law' : 'aiSearch') + ' envelope=' + diagnostic.envelopeType);
     return reply(res, 502, {
       error: 'UPSTREAM_API_REJECTED',
-      message: '국가법령정보센터에서 요청을 거부했어. API 인증키의 승인 및 신청 항목을 확인해 줘.'
+      message: '국가법령정보센터가 검색 요청을 처리하지 않았어. OPEN API 승인 상태, OC 인증값, 신청한 서비스 권한을 확인해 줘.',
+      diagnostic
     });
   }
 
@@ -187,9 +223,10 @@ module.exports = async function handler(req, res) {
     console.error('[law-search] UPSTREAM_FORMAT target=' + (mode === 'laws' ? 'law' : 'aiSearch'));
     return reply(res, 502, {
       error: 'UPSTREAM_FORMAT',
-      message: '국가법령정보센터가 예상과 다른 JSON 형식으로 응답했어. 응답 구조를 수정해야 해.'
+      message: '검색 API 응답 형식이 공식 규격과 일치하지 않아. 아래 진단 정보로 응답 유형을 확인해 줘.',
+      diagnostic
     });
   }
   return reply(res, 200, { query: q, mode, page, pageSize: DISPLAY, ...normalized });
 };
-module.exports._test = { formatDate, officialLink, normalizeArticles, normalizeLaws };
+module.exports._test = { formatDate, officialLink, normalizeArticles, normalizeLaws, payloadShape, upstreamRejected };
