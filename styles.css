@@ -1942,3 +1942,72 @@ body { transition: background-color .18s ease, color .18s ease; }
 @media(max-width:560px) {
   .home-feature-card .exam-entry-icon { width: 52px; height: 52px; }
 }
+
+/* v2.26: reading-size buttons also affect visible study text on the home screen.
+   Navigation/quiz action button labels and layout controls keep their normal size. */
+body {
+  --reading-home-heading-size: clamp(21px, 2.3vw, 28px);
+  --reading-home-subject-size: 18px;
+  --reading-home-subject-meta-size: 14px;
+  --reading-home-card-size: 15px;
+  --reading-home-card-meta-size: 12px;
+  --reading-home-feature-size: clamp(20px, 2.4vw, 28px);
+  --reading-home-description-size: 13px;
+  --reading-review-heading-size: clamp(18px, 2.2vw, 24px);
+}
+body[data-reading-size="small"] {
+  --reading-home-heading-size: clamp(18px, 2.05vw, 25px);
+  --reading-home-subject-size: 16px;
+  --reading-home-subject-meta-size: 12px;
+  --reading-home-card-size: 13px;
+  --reading-home-card-meta-size: 11px;
+  --reading-home-feature-size: clamp(18px, 2.1vw, 25px);
+  --reading-home-description-size: 12px;
+  --reading-review-heading-size: clamp(16px, 1.9vw, 21px);
+}
+body[data-reading-size="large"] {
+  --reading-home-heading-size: clamp(24px, 2.65vw, 32px);
+  --reading-home-subject-size: 20px;
+  --reading-home-subject-meta-size: 16px;
+  --reading-home-card-size: 17px;
+  --reading-home-card-meta-size: 14px;
+  --reading-home-feature-size: clamp(23px, 2.75vw, 31px);
+  --reading-home-description-size: 15px;
+  --reading-review-heading-size: clamp(21px, 2.6vw, 28px);
+}
+#homeView .past-exam-home-head h2,
+#homeView .word-quiz-home-head h2,
+#homeView .law-home-copy h2 {
+  font-size: var(--reading-home-heading-size);
+}
+#homeView .past-exam-home-head p:not(.past-exam-eyebrow),
+#homeView .word-quiz-home-head p:not(.word-quiz-eyebrow),
+#homeView .law-home-copy p:not(.eyebrow) {
+  font-size: var(--reading-home-description-size);
+}
+#homeView .subject-btn strong {
+  font-size: var(--reading-home-subject-size);
+}
+#homeView .subject-btn span {
+  display: block;
+  min-width: 0;
+  font-size: var(--reading-home-subject-meta-size);
+  overflow-wrap: anywhere;
+}
+#homeView .word-quiz-subject-info strong {
+  font-size: var(--reading-home-card-size);
+}
+#homeView .word-quiz-subject-info > span {
+  font-size: var(--reading-home-card-meta-size);
+}
+#homeView .home-feature-card span {
+  font-size: var(--reading-home-feature-size);
+}
+#bankView .bank-browser-head h2,
+#resultView .result-head h2,
+#examResultView .result-head h2 {
+  font-size: var(--reading-home-heading-size);
+}
+.exam-review-question {
+  font-size: var(--reading-review-heading-size);
+}

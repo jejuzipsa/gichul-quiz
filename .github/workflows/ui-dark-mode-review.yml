@@ -21,3 +21,5 @@ jobs:
           node --check word-quiz/blank-quiz.js
       - name: Validate dark-mode hooks and palette
         run: node tools/ui/validate-dark-mode.cjs
+      - name: Test responsive reading-size control
+        run: node --test tools/ui/validate-reading-size.cjs
