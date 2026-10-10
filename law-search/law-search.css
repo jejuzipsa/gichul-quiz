@@ -1,8 +1,7 @@
 .law-page { max-width: 940px; }
 .law-topbar { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:22px; }
 .law-topbar h1 {font-size:clamp(23px,4vw,30px); margin:0; }
-.law-home,.law-theme-btn { border:1px solid var(--line); border-radius:12px; padding:11px 14px; background:var(--surface); color:var(--text); font-weight:700; text-decoration:none; }
-.law-theme-btn {white-space:nowrap;}
+.law-home { border:1px solid var(--line); border-radius:12px; padding:11px 14px; background:var(--surface); color:var(--text); font-weight:700; text-decoration:none; }
 .law-panel {background:var(--surface); border:1px solid var(--line); border-radius:22px; padding:clamp(18px,4vw,30px); box-shadow:var(--shadow);}
 .law-panel h2 {font-size:clamp(22px,3vw,28px); margin-bottom:9px;}
 .law-panel .helper {margin-bottom:18px;}
@@ -39,7 +38,7 @@
 .law-footer p {margin:8px 0 0;}
 @media (max-width:600px) {
  .law-topbar {flex-wrap:wrap;}
- .law-home,.law-theme-btn {font-size:13px; padding:10px;}
+ .law-home {font-size:13px; padding:10px;}
  .law-search-form {gap:8px;}
  .law-search-form button {padding:0 14px;}
  .law-mode-group legend {float:none; margin:0 0 10px;}
