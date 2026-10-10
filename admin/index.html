@@ -2,19 +2,19 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.27">
+  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.28">
   <meta name="theme-color" content="#080d18">
-  <link rel="icon" type="image/png" href="../assets/property-icon.png?v=2.27">
+  <link rel="icon" type="image/png" href="../assets/property-icon.png?v=2.28">
   <title>사이트 관리 | 공인중개사 기출문제</title>
   <script>try{const t=localStorage.getItem('gichulQuizTheme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:'dark'}catch(_){document.documentElement.dataset.theme='dark'}</script>
-  <link rel="stylesheet" href="../styles.css?v=2.27">
-  <link rel="stylesheet" href="admin.css?v=2.27">
+  <link rel="stylesheet" href="../styles.css?v=2.28">
+  <link rel="stylesheet" href="admin.css?v=2.28">
 </head>
 <body>
 <main class="admin-shell">
   <header class="admin-topbar">
     <a class="admin-back" href="../">← 홈</a>
-    <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.27" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
+    <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.28" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
     <button id="adminLogout" class="admin-logout" type="button" hidden>로그아웃</button>
   </header>
   <section id="adminNotice" class="admin-login-state" aria-labelledby="adminLoginTitle">
@@ -40,6 +40,33 @@
       <article><span>핵심 개념 퀴즈</span><strong id="totalConcept">—</strong><small>일반 객관식</small></article>
       <article><span>괄호문제</span><strong id="totalBlank">—</strong><small>빈칸 선택형</small></article>
       <article><span>핵심 단어 카드</span><strong id="totalCards">—</strong><small>암기 카드</small></article>
+    </section>
+    <section class="admin-section" aria-labelledby="adminSecurityTitle">
+      <div class="admin-section-head">
+        <h2 id="adminSecurityTitle">접속 통계 · 보안 이력</h2>
+        <button type="button" id="refreshVisitLogs" class="admin-refresh-btn">새로고침</button>
+      </div>
+      <p id="adminLogStatus" class="admin-info-small" role="status">로그를 확인하는 중…</p>
+      <div id="adminSecurityWarning" class="admin-security-warning" hidden></div>
+      <div class="admin-stats admin-visit-stats">
+        <article><span>오늘 방문</span><strong id="visitorsToday">—</strong><small>중복 제외</small></article>
+        <article><span>최근 7일</span><strong id="visitorsWeek">—</strong><small>일별 합계</small></article>
+        <article><span>최근 30일</span><strong id="visitorsMonth">—</strong><small>일별 합계</small></article>
+      </div>
+      <h3 class="admin-log-heading">최근 일반 방문</h3>
+      <div class="admin-table-wrap">
+        <table><thead><tr><th scope="col">접속 시각</th><th scope="col">IP 일부 표시</th><th scope="col">브라우저</th></tr></thead>
+          <tbody id="visitorLogRows"><tr><td colspan="3">아직 기록이 없어.</td></tr></tbody>
+        </table>
+      </div>
+      <h3 class="admin-log-heading">관리자 보안 기록</h3>
+      <p class="admin-info-small">관리자 로그인 성공은 매번 기록해. 처음 보는 기기·IP는 확인 표시가 붙어. 실패한 로그인과 비밀번호 변경도 별도 기록돼.</p>
+      <div class="admin-table-wrap">
+        <table><thead><tr><th scope="col">일시</th><th scope="col">보안 이벤트</th><th scope="col">IP 일부 표시</th><th scope="col">브라우저</th></tr></thead>
+          <tbody id="adminLogRows"><tr><td colspan="4">아직 기록이 없어.</td></tr></tbody>
+        </table>
+      </div>
+      <p class="admin-info-small">IP와 브라우저로 실제 접속자를 확정할 수 없어. 낯선 관리자 로그인이 있으면 즉시 비밀번호를 변경하고 세션 인증키도 재발급해야 해. 이 화면은 실시간 알림을 보내지는 않아.</p>
     </section>
     <section class="admin-section" aria-labelledby="adminSubjectTitle">
       <div class="admin-section-head"><h2 id="adminSubjectTitle">과목별 문제 수</h2><p>사이트에 등록된 문제은행 기준</p></div>
@@ -77,6 +104,6 @@
     </section>
   </div>
 </main>
-<script src="admin.js?v=2.27"></script>
+<script src="admin.js?v=2.28"></script>
 </body>
 </html>
