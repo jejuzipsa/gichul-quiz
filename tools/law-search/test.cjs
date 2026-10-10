@@ -303,8 +303,33 @@ test('all main pages link to the existing property favicon', () => {
   for (const page of ['index.html', 'law-search/index.html', 'word-quiz/index.html', 'core-cards/index.html']) {
     const html = fs.readFileSync(path.join(root, page), 'utf8');
     const target = page === 'index.html'
-      ? 'assets/property-icon.png?v=2.23'
-      : '../assets/property-icon.png?v=2.23';
+      ? 'assets/property-icon.png?v=2.24'
+      : '../assets/property-icon.png?v=2.24';
     assert.ok(html.includes('<link rel="icon" type="image/png" href="' + target + '" />'), page);
   }
+});
+
+test('v2.24 section icons and cache busting use all six named PNGs', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const root = path.join(__dirname, '../..');
+  const home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const css = fs.readFileSync(path.join(root, 'styles.css'), 'utf8');
+  const law = fs.readFileSync(path.join(root, 'law-search/index.html'), 'utf8');
+  const icons = [
+    'property-icon.png', 'gichul-icon.png', 'exam-icon.png',
+    'core-card-icon.png', 'concept-quiz-icon.png', 'law-search-icon.png'
+  ];
+  for (const icon of icons) {
+    const buffer = fs.readFileSync(path.join(root, 'assets', icon));
+    assert.ok(buffer.length > 10000, icon + ' appears empty');
+    assert.ok(buffer.length < 450000, icon + ' was not optimized');
+    assert.equal(buffer.subarray(1, 4).toString(), 'PNG', icon + ' is not PNG');
+    assert.ok(home.includes(icon + '?v=2.24') || css.includes(icon + '?v=2.24'), icon + ' is not on the home page');
+  }
+  assert.ok(home.includes('id="pastExamHomeTitle"><img class="section-heading-icon"'));
+  assert.ok(home.includes('id="wordQuizHomeTitle"><img class="section-heading-icon"'));
+  assert.ok(home.includes('id="lawHomeTitle"><img class="section-heading-icon"'));
+  assert.ok(law.includes('../assets/law-search-icon.png?v=2.24'));
+  assert.ok(fs.readFileSync(path.join(root, 'version.json'), 'utf8').includes('"2.24"'));
 });
