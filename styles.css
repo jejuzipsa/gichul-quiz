@@ -2011,3 +2011,9 @@ body[data-reading-size="large"] {
 .exam-review-question {
   font-size: var(--reading-review-heading-size);
 }
+
+
+/* v2.27: discreet administrator entry at bottom-right of the main page */
+.admin-entry-row{display:flex;justify-content:flex-end;align-items:center;margin-top:7px;padding:0 12px}
+.admin-entry-link{display:inline-flex;align-items:center;justify-content:center;min-height:30px;padding:5px 9px;border-radius:8px;text-decoration:none;color:var(--muted);font-size:12px;font-weight:700;border:1px solid transparent}
+.admin-entry-link:hover,.admin-entry-link:focus-visible{color:var(--primary);background:var(--surface);border-color:var(--line)}

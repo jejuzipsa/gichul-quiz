@@ -1,4 +1,4 @@
-﻿const SITE_BUILD_VERSION='2.26';
+﻿const SITE_BUILD_VERSION='2.27';
 (() => {
   const $ = (id) => document.getElementById(id);
   const THEME_KEY = 'gichulQuizTheme';
