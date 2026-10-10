@@ -52,11 +52,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f5f7fb" />
-  <meta name="app-version" content="2.23" />
-  <link rel="icon" type="image/png" href="assets/property-icon.png?v=2.23" />
+  <meta name="app-version" content="2.24" />
+  <link rel="icon" type="image/png" href="assets/property-icon.png?v=2.24" />
   <title>공인중개사 기출문제</title>
-  <link rel="stylesheet" href="styles.css?v=2.23" />
-  <link rel="stylesheet" href="word-quiz/entry.css?v=2.23" />
+  <link rel="stylesheet" href="styles.css?v=2.24" />
+  <link rel="stylesheet" href="word-quiz/entry.css?v=2.24" />
 </head>
 <body>
   <main class="app-shell" id="app">
@@ -78,17 +78,17 @@
 
     <section id="homeView" class="view">
       <section class="past-exam-home-section" aria-labelledby="pastExamHomeTitle">
-        <div class="past-exam-home-head"><div><p class="past-exam-eyebrow">기출문제</p><h2 id="pastExamHomeTitle">과목별 기출문제</h2><p>과목을 고른 뒤 10문제·20문제 또는 전체 문제를 선택해 풀어보세요.</p></div></div>
+        <div class="past-exam-home-head"><div><p class="past-exam-eyebrow">기출문제</p><h2 id="pastExamHomeTitle"><img class="section-heading-icon" src="assets/gichul-icon.png?v=2.24" alt="" aria-hidden="true" width="42" height="42" />과목별 기출문제</h2><p>과목을 고른 뒤 10문제·20문제 또는 전체 문제를 선택해 풀어보세요.</p></div></div>
         <div class="subject-grid" id="subjectGrid"></div>
       </section>
 
       <div class="home-feature-grid" aria-label="학습 메뉴">
-        <button id="examEntryBtn" class="exam-entry-card exam-entry-card-button home-feature-card" type="button"><img class="exam-entry-icon" src="assets/exam-icon.png" alt="" aria-hidden="true" /><span>실전처럼 시험 보기</span></button>
-        <button id="coreCardEntryBtn" class="exam-entry-card exam-entry-card-button home-feature-card core-card-entry-button" type="button"><img class="exam-entry-icon core-card-entry-icon" src="assets/core-card-icon.png" alt="" aria-hidden="true" /><span>핵심 단어 카드</span></button>
+        <button id="examEntryBtn" class="exam-entry-card exam-entry-card-button home-feature-card" type="button"><img class="exam-entry-icon" src="assets/exam-icon.png?v=2.24" alt="" aria-hidden="true" /><span>실전처럼 시험 보기</span></button>
+        <button id="coreCardEntryBtn" class="exam-entry-card exam-entry-card-button home-feature-card core-card-entry-button" type="button"><img class="exam-entry-icon core-card-entry-icon" src="assets/core-card-icon.png?v=2.24" alt="" aria-hidden="true" /><span>핵심 단어 카드</span></button>
       </div>
 
       <section id="wordQuizHomeSection" class="word-quiz-home-section" aria-labelledby="wordQuizHomeTitle">
-        <div class="word-quiz-home-head"><div><p class="word-quiz-eyebrow">반복 암기</p><h2 id="wordQuizHomeTitle">핵심 개념 퀴즈</h2><p>과목을 고른 뒤 10문제·30문제 또는 괄호문제를 선택해 풀어보세요.</p></div></div>
+        <div class="word-quiz-home-head"><div><p class="word-quiz-eyebrow">반복 암기</p><h2 id="wordQuizHomeTitle"><img class="section-heading-icon" src="assets/concept-quiz-icon.png?v=2.24" alt="" aria-hidden="true" width="42" height="42" />핵심 개념 퀴즈</h2><p>과목을 고른 뒤 10문제·30문제 또는 괄호문제를 선택해 풀어보세요.</p></div></div>
         <div class="word-quiz-subject-grid">
           <div class="word-quiz-subject-btn word-quiz-subject-card"><div class="word-quiz-subject-info"><strong>부동산학개론</strong><span>156문제</span></div><div class="word-quiz-action-stack"><div class="word-quiz-count-actions" aria-label="부동산학개론 문제 수 선택"><a href="word-quiz/index.html?subject=real_estate_intro&count=10">10문제</a><a href="word-quiz/index.html?subject=real_estate_intro&count=30">30문제</a></div><a class="word-quiz-blank-action" href="word-quiz/index.html?subject=real_estate_intro&mode=blank">괄호문제</a></div></div>
           <div class="word-quiz-subject-btn word-quiz-subject-card"><div class="word-quiz-subject-info"><strong>민법 및 민사특별법</strong><span>73문제</span></div><div class="word-quiz-action-stack"><div class="word-quiz-count-actions" aria-label="민법 및 민사특별법 문제 수 선택"><a href="word-quiz/index.html?subject=civil_law&count=10">10문제</a><a href="word-quiz/index.html?subject=civil_law&count=30">30문제</a></div><a class="word-quiz-blank-action" href="word-quiz/index.html?subject=civil_law&mode=blank">괄호문제</a></div></div>
@@ -102,7 +102,7 @@
       <section class="law-home-section" aria-labelledby="lawHomeTitle">
         <div class="law-home-copy">
           <p class="eyebrow">법령 정보</p>
-          <h2 id="lawHomeTitle">법률 정보 검색</h2>
+          <h2 id="lawHomeTitle"><img class="section-heading-icon" src="assets/law-search-icon.png?v=2.24" alt="" aria-hidden="true" width="42" height="42" />법률 정보 검색</h2>
           <p>국가법령정보센터에서 법률·시행령·시행규칙과 관련 조문을 찾아봐.</p>
         </div>
         <form class="law-home-form" action="law-search/" method="get">
@@ -133,7 +133,7 @@
 
     <section id="resultView" class="view hidden"><div class="result-head"><div><p class="eyebrow" id="resultSubject"></p><h2>풀이 결과</h2><p id="resultScore" class="score-line"></p></div><div class="legend"><span><i class="dot blue"></i>정답</span><span><i class="dot red"></i>오답</span></div></div><div id="resultGrid" class="result-grid" aria-label="문제별 결과"></div><p id="resultHint" class="helper"></p><button id="practiceFullReviewBtn" class="secondary-btn practice-full-review-btn" type="button">결과보기</button><section id="practiceFullReview" class="exam-full-review hidden" aria-label="전체 풀이 결과"><div class="exam-full-review-head"><div><p class="eyebrow">ANSWER REVIEW</p><h2>전체 풀이 결과</h2></div><div class="legend"><span><i class="dot blue"></i>정답</span><span><i class="dot red"></i>오답</span></div></div><div id="practiceFullReviewList" class="exam-full-review-list"></div></section><div id="practiceResultActions" class="result-actions"><button id="restartBtn" class="primary-btn" type="button">같은 과목 다시 풀기</button><button id="changeSubjectBtn" class="secondary-btn" type="button">과목 바꾸기</button><button id="practiceStickyCloseBtn" class="secondary-btn practice-sticky-only" type="button">결과닫기</button><button id="practiceScrollTopBtn" class="secondary-btn result-scroll-top-btn practice-sticky-only" type="button" aria-label="맨 위로" title="맨 위로"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5"></path><path d="m6.5 10.5 5.5-5.5 5.5 5.5"></path></svg></button></div></section>
 
-    <section id="examSetupView" class="view hidden"><div class="exam-setup-head"><div class="exam-setup-title"><img class="exam-setup-icon" src="assets/exam-icon.png" alt="" aria-hidden="true" /><h2>시험 선택</h2></div><label class="year-picker"><span>기출 연도</span><select id="examYearSelect"></select></label></div><div id="examTypeGrid" class="exam-type-grid"></div><section class="exam-history" aria-labelledby="examHistoryTitle"><div class="exam-history-head"><h2 id="examHistoryTitle">시험기록</h2><button id="clearExamHistoryBtn" class="secondary-btn exam-history-clear-btn" type="button">시험기록 지우기</button></div><div id="examHistoryList" class="exam-history-list"></div></section></section>
+    <section id="examSetupView" class="view hidden"><div class="exam-setup-head"><div class="exam-setup-title"><img class="exam-setup-icon" src="assets/exam-icon.png?v=2.24" alt="" aria-hidden="true" /><h2>시험 선택</h2></div><label class="year-picker"><span>기출 연도</span><select id="examYearSelect"></select></label></div><div id="examTypeGrid" class="exam-type-grid"></div><section class="exam-history" aria-labelledby="examHistoryTitle"><div class="exam-history-head"><h2 id="examHistoryTitle">시험기록</h2><button id="clearExamHistoryBtn" class="secondary-btn exam-history-clear-btn" type="button">시험기록 지우기</button></div><div id="examHistoryList" class="exam-history-list"></div></section></section>
 
     <section id="examQuizView" class="view hidden"><div class="exam-toolbar"><div class="exam-toolbar-meta"><strong id="examRunningTitle">시험</strong><span id="examRunningProgress">1 / 80</span></div><div class="exam-toolbar-actions"><div id="examTimer" class="exam-timer" aria-live="polite">01:40:00</div><button id="examNextBtn" class="primary-btn exam-toolbar-next" type="button">다음 문제</button></div></div><div class="progress-track exam-progress-track" aria-hidden="true"><div id="examProgressFill" class="progress-fill"></div></div><article class="question-card exam-question-card"><div class="question-number" id="examQuestionNumber">문제 1</div><h2 id="examQuestionText"></h2><form id="examAnswerForm" class="choices"></form><div class="exam-question-index-wrap"><div class="exam-question-index-head"><strong>전체 문제</strong><div class="exam-index-legend" aria-hidden="true"><span><i class="exam-index-swatch answered"></i>푼 문제</span><span><i class="exam-index-swatch unanswered"></i>안 푼 문제</span></div></div><div id="examQuestionIndex" class="exam-question-index" aria-label="전체 문제 번호"></div></div></article></section>
 
@@ -141,7 +141,7 @@
   </main>
 
   <script src="data/manifest.js"></script>
-  <script src="summary/manifest.js?v=2.23"></script>
-  <script src="app.js?v=2.23"></script>
+  <script src="summary/manifest.js?v=2.24"></script>
+  <script src="app.js?v=2.24"></script>
 </body>
 </html>
