@@ -1,39 +1,27 @@
-# 관리자 로그인 초기 설정 (v2.28)
+# 관리자 OTP 로그인 (v2.29)
 
-관리자 아이디는 admin으로 고정되어 있어. 일반 방문자는 로그인하지 않아도 기존 문제풀이 기능을 그대로 이용할 수 있어.
+## 사용자 로그인과 최초 설정
+1. 관리자 화면에서 아이디 admin과 직접 변경한 비밀번호로 로그인해.
+2. OTP가 등록되지 않았다면 사이트가 Microsoft Authenticator 등록 화면으로 이동해.
+3. Microsoft Authenticator → 계정 추가 → 기타 계정 → 수동으로 코드를 입력해. 화면에 표시된 비밀키를 그대로 입력해. OTP를 외부 QR 생성 사이트에 보내지 마.
+4. Microsoft Authenticator가 표시한 6자리 코드를 사이트에 넣어 등록 확인을 완료해.
+5. 복구 코드 8개를 신뢰할 수 있는 암호 관리자/오프라인 저장소에 보관해. 각 코드 1회 사용이고 원문은 최초 등록 화면에서만 보여 줘.
+6. 이후 로그인은 admin/비밀번호 → OTP 순서로 진행해. 휴대폰 분실 시 저장한 복구 코드 하나를 OTP 화면에 입력할 수 있어.
+7. 로그인 후 관리 페이지에서 비밀번호를 재입력해 복구 코드 8개를 재발급할 수 있어. 기존 복구 코드는 즉시 무효화돼.
 
-## 처음 한 번만 설정하면 되는 항목
+## Vercel 운영 환경 설정
+- KV_REST_API_URL, KV_REST_API_TOKEN(혹은 UPSTASH_REDIS_REST_URL/TOKEN): Redis 읽기/쓰기.
+- GICHUL_ADMIN_SESSION_SECRET: 관리자 세션 서명값(32자 이상).
+- GICHUL_ADMIN_TOTP_ENCRYPTION_KEY: 반드시 32바이트 난수의 base64url(43자) 표현. 서버에서 OTP 키 AES-256-GCM 암호화 및 복구 코드 HMAC용. **변경하면 기존 OTP와 복구 코드가 작동하지 않으므로 분실·교체 시 복구 절차가 필요해.**
+- 관리자 비밀번호는 Redis 키 gichul:admin:password:v1의 scrypt 해시만 사용해. 없거나 손상됐다면 인증은 잠금 처리돼.
+- v2.29 배포가 확인된 뒤 Vercel 환경변수 GICHUL_ADMIN_INITIAL_PASSWORD_HASH를 삭제해. 새 버전은 이 값을 참조하지 않아. 예전 Vercel 함수가 아직 실행 중이라면 API 전환 확인 전에는 삭제하지 마.
+- 신규 사용자를 위한 자동 비밀번호 초기화 기능은 제공하지 않아. 기존 변경한 관리자 비밀번호가 Redis에 정상적으로 저장되어 있어야 정상적인 OTP 최초 등록이 가능해.
 
-1. Vercel gichul-law-api 프로젝트에 비공개 저장소 Upstash Redis를 연결해. Vercel Marketplace → Upstash for Redis → 프로젝트 연결을 이용하면 편해.
-2. 환경변수 UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN이 해당 Vercel 프로젝트 Production에 등록됐는지 확인해. Vercel이 KV_REST_API_URL, KV_REST_API_TOKEN 이름으로 설정해 줬다면 이 코드에서도 사용할 수 있어. 반드시 읽기 전용이 아닌 쓰기 가능한 Redis REST 토큰이어야 해.
-3. 로컬에서 저장소 코드를 내려받아 터미널에서 다음 명령을 실행해. 스크립트는 비밀번호를 표시하지 않고 해시만 출력해.
-
-   node tools/admin/hash-password.cjs
-
-4. 출력된 해시를 Vercel → Project → Settings → Environment Variables의 Production Secret인 GICHUL_ADMIN_INITIAL_PASSWORD_HASH에 넣어.
-5. 같은 Production Secret에 GICHUL_ADMIN_SESSION_SECRET을 등록해. 최소 32자 이상의 예측 불가능한 난수가 필요해. Node 환경에서 다음 명령으로 생성할 수 있어.
-
-   node -e "console.log(require('node:crypto').randomBytes(48).toString('hex'))"
-
-6. 등록 후 Vercel Production을 재배포해. GitHub Pages는 별도 설정할 필요 없어.
-7. https://jejuzipsa.github.io/gichul-quiz/ 아래의 관리자 버튼으로 로그인한 뒤 관리자 화면 → 비밀번호 변경에서 현재 비밀번호와 새 비밀번호를 입력하면 돼.
-
-## 주의 사항
-
-- 최초 비밀번호 원문, Redis REST 토큰, 세션 비밀값은 GitHub나 채팅에 보내지 마.
-- GICHUL_ADMIN_INITIAL_PASSWORD_HASH는 첫 비밀번호의 서버 전용 해시야. 암호를 변경하면 Upstash의 gichul:admin:password:v1 키에 새 해시가 저장돼. 이후에는 Redis의 해시가 우선돼.
-- Redis 저장소 데이터를 삭제하면 변경한 비밀번호도 소실되고 초기 해시 비밀번호로 되돌아갈 수 있어. 백업 없이 저장소를 삭제하지 마.
-- 세션은 2시간 유효하고, 비밀번호를 변경하면 기존 로그인 세션은 즉시 무효가 돼.
-- 로그인 시도 제한은 접속자별 15분 내 10회며 IP 원문은 Redis에 저장하지 않아.
-- GitHub Pages의 HTML/CSS/문제은행/PATCH_NOTES 파일은 본래 공개 파일이야. 관리자 페이지는 관리자용 진입 동선을 분리하지만 공개 자료 자체를 비공개로 바꾸는 기능은 아니야. 방문자 접속 로그 같은 비공개 정보는 반드시 인증된 서버 API를 통해서만 읽도록 구현해야 해.
-- 방문 IP 수집은 아직 미구현이며 사용자에게 별도 수집 안내/보관 기간을 정하기 전에는 시작하지 않아.
-
-## 접속 로그와 보안 이력 (v2.28)
-- 일반 방문: 한국 날짜 기준 IP·브라우저·OS 조합당 하루 한 번만 기록. 검색어·답안·이동 기록을 저장하지 않음. 원본 IP는 저장하지 않고 일부 마스킹한 값만 기록.
-- 관리자는 로그인 성공 이벤트를 매번 기록하며 일반 방문 통계와 분리해. 최근 30일 보안 기록은 관리자 로그인에서 조회할 수 있어.
-- 관리자 실패 로그인/비밀번호 변경/로그아웃 기록은 로그인 성공과 별도 분류돼.
-- 처음 접속한 기기(관리자 브라우저 식별자) 또는 IP는 참고용 경고가 표시돼. IP 변경·브라우저 데이터 초기화로도 표시될 수 있으니 이것만으로 해킹 여부를 확정하지 마.
-- 서버에 저장된 관리자 세션은 로그아웃 시 즉시 폐기돼. 비밀번호 변경 시 기존 로그인 세션은 모두 무효화돼.
-- Redis 키는 약 30일 유지하며 한 달이 지난 이벤트는 조회에서 제외돼. 일반 방문 로그는 최대 최근 250건, 관리자 보안 기록은 최대 500건만 저장해.
-- 모르는 관리자 성공 로그를 발견하면 즉시 비밀번호를 변경하고 Vercel의 GICHUL_ADMIN_SESSION_SECRET도 새 난수로 교체한 뒤 Production을 재배포해. 추가로 MFA를 적용할 것을 권장해.
-- 현재 실시간 알림(이메일·푸시) 및 2단계 인증은 구현되어 있지 않아.
+## 주요 방어
+- 관리 세션은 OTP/복구 코드 인증까지 마친 뒤에만 발급되고 2시간 만료. 기존 2단계 인증 이전 세션은 v2.29에서 무효.
+- 로그인 비밀번호 시도 15분 10회, OTP 시도는 서버의 임시 챌린지당 최대 5회. OTP 재사용 및 사용한 복구 코드 재사용 차단.
+- OTP 키는 서버에서만 암호화/해독하고, 복구 코드는 원문을 서버 영구 저장하지 않아.
+- 관리자 로그인 성공·실패, OTP 실패, 복구 코드 사용 등은 비공개 감사 기록에 남겨. 새 기기/IP는 보조 지표이며 본인 신원이나 해킹 여부를 확정하지 못해.
+- OTP 서버 API 업데이트와 GitHub Pages 관리 UI 버전이 같아야 정상 작동해. Vercel 배포가 제한된 동안에는 PR을 main에 병합하지 않는 게 안전해.
+- GitHub Pages는 공개 정적 사이트이므로 문제은행과 프런트엔드 소스는 공개되어 있고, 서버 비밀값이나 관리자 로그는 공개 페이지에 넣으면 안 돼.
+- 신뢰할 수 있는 본인 PC에서 관리자 사이트를 사용하고, 공용 PC 사용 뒤에는 반드시 로그아웃해.
