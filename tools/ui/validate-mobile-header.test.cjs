@@ -38,3 +38,14 @@ test('CSS and JS cache-bust updated assets without affecting API version',()=>{
   assert.match(html,/styles\.css\?v=2\.28&header=2/);
   assert.match(html,/app\.js\?v=2\.28&header=1/);
 });
+
+test('home footer shows business copyright instead of visit details',()=>{
+  const html=read('index.html');
+  const css=read('styles.css');
+  assert.ok(html.includes('© 2026 제주집사.'));
+  assert.ok(html.includes('All rights reserved.'));
+  assert.ok(!html.includes('visitor-privacy-note'));
+  assert.ok(html.includes('class="admin-entry-link"'));
+  assert.ok(css.includes('.site-copyright'));
+  assert.ok(css.includes('justify-content:center'));
+});
