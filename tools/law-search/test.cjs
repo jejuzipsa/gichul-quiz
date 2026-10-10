@@ -271,3 +271,40 @@ test('distinguishes HTML response and JSON parse failure without exposing upstre
     if(prevOc===undefined) delete process.env.LAW_API_OC; else process.env.LAW_API_OC=prevOc;
   }
 });
+
+test('law search reuses the main moon/sun theme icons and accessible toggle labels', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const root = path.join(__dirname, '../..');
+  const home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const searchPage = fs.readFileSync(path.join(root, 'law-search/index.html'), 'utf8');
+  const searchScript = fs.readFileSync(path.join(root, 'law-search/law-search.js'), 'utf8');
+  const getIcon = (html, name) => {
+    const start = html.indexOf('<svg class="theme-icon ' + name + '"');
+    assert.ok(start !== -1, 'missing ' + name);
+    const end = html.indexOf('</svg>', start);
+    assert.ok(end !== -1, 'missing SVG closing tag for ' + name);
+    return html.slice(start, end + 6);
+  };
+  for (const name of ['theme-icon-moon', 'theme-icon-sun']) {
+    assert.equal(getIcon(searchPage, name), getIcon(home, name));
+  }
+  assert.ok(searchPage.includes('id="lawThemeToggle" class="theme-toggle-btn"'));
+  assert.ok(searchScript.includes("themeButton.setAttribute('aria-label', label)"));
+  assert.ok(searchScript.includes("themeButton.setAttribute('aria-pressed'"));
+  assert.ok(!searchScript.includes('themeButton.textContent ='));
+});
+
+test('all main pages link to the existing property favicon', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const root = path.join(__dirname, '../..');
+  assert.ok(fs.statSync(path.join(root, 'assets/property-icon.png')).size > 0);
+  for (const page of ['index.html', 'law-search/index.html', 'word-quiz/index.html', 'core-cards/index.html']) {
+    const html = fs.readFileSync(path.join(root, page), 'utf8');
+    const target = page === 'index.html'
+      ? 'assets/property-icon.png?v=2.23'
+      : '../assets/property-icon.png?v=2.23';
+    assert.ok(html.includes('<link rel="icon" type="image/png" href="' + target + '" />'), page);
+  }
+});
