@@ -212,3 +212,26 @@ test('both law and article errors contain safe root diagnostics', async () => {
     else process.env.LAW_API_OC = prevOc;
   }
 });
+
+test('temporary: safely observe public production proxy envelope', async () => {
+  const endpoint = 'https://gichul-law-api.vercel.app/api/law-search';
+  for (const mode of ['laws', 'articles']) {
+    try {
+      const url = new URL(endpoint);
+      url.searchParams.set('q', mode === 'laws' ? '민법' : '중개대상물');
+      url.searchParams.set('mode', mode);
+      const response = await fetch(url, { signal: AbortSignal.timeout(10000) });
+      const result = await response.json();
+      const shape = result && result.diagnostic;
+      // Emit nothing from the raw upstream response, credentials or user content.
+      console.log('LIVE_PROXY_SHAPE', JSON.stringify({
+        mode, status: response.status, error: result.error || null,
+        rootType: shape?.rootType, knownFields: shape?.knownFields,
+        fieldCount: shape?.fieldCount, envelopeType: shape?.envelopeType,
+        rootFields: shape?.rootFields
+      }));
+    } catch (error) {
+      console.log('LIVE_PROXY_UNAVAILABLE', mode, error && error.name);
+    }
+  }
+});
