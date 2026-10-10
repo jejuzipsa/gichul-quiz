@@ -271,3 +271,18 @@ test('distinguishes HTML response and JSON parse failure without exposing upstre
     if(prevOc===undefined) delete process.env.LAW_API_OC; else process.env.LAW_API_OC=prevOc;
   }
 });
+
+test('temporary: safe production API mode health check after HTML diagnostics', async () => {
+  for (const [mode,q] of [['laws','민법'],['articles','중개대상물']]) {
+    try {
+      const url=new URL('https://gichul-law-api.vercel.app/api/law-search');
+      url.searchParams.set('q',q);url.searchParams.set('mode',mode);
+      const response=await fetch(url,{signal:AbortSignal.timeout(10000)});
+      const data=await response.json();
+      console.log('LAW_ARTICLE_STATUS',JSON.stringify({
+        mode,status:response.status,error:data.error||null,reason:data.reason||null,
+        itemCount:Array.isArray(data.items)?data.items.length:null
+      }));
+    } catch(error) { console.log('LAW_ARTICLE_STATUS',mode,error?.name || 'network_error'); }
+  }
+});
