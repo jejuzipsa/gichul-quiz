@@ -18,16 +18,21 @@
 
   const preferredTheme = () => document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
   const themeButton = $('lawThemeToggle');
-  function refreshThemeLabel() {
-    themeButton.textContent = preferredTheme() === 'dark' ? '라이트 모드' : '다크 모드';
+  function refreshThemeButton() {
+    const dark = preferredTheme() === 'dark';
+    const label = dark ? '라이트모드 켜기' : '다크모드 켜기';
+    themeButton.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    themeButton.setAttribute('aria-label', label);
+    themeButton.title = label;
   }
   themeButton.addEventListener('click', () => {
     const next = preferredTheme() === 'dark' ? 'light' : 'dark';
     document.documentElement.dataset.theme = next;
+    document.documentElement.style.colorScheme = next;
     try { localStorage.setItem('gichulQuizTheme', next); } catch (_) {}
-    refreshThemeLabel();
+    refreshThemeButton();
   });
-  refreshThemeLabel();
+  refreshThemeButton();
 
   const officialSearchUrl = () => {
     const target = new URL('https://www.law.go.kr/lsSc.do');
