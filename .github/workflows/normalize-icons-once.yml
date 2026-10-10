@@ -1,0 +1,39 @@
+name: Normalize icon PNGs once
+
+on:
+  push:
+    branches:
+      - fix/icon-assets-trim-v224
+    paths:
+      - .github/workflows/normalize-icons-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  optimize-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/icon-assets-trim-v224
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow==11.3.0
+      - name: Normalize six committed PNGs
+        run: python tools/icons/trim-icons.py
+      - name: Commit optimized assets and remove one-shot workflow
+        shell: bash
+        run: |
+          rm -f .github/workflows/normalize-icons-once.yml
+          git add -- assets/property-icon.png assets/gichul-icon.png assets/exam-icon.png assets/core-card-icon.png assets/law-search-icon.png assets/concept-quiz-icon.png .github/workflows/normalize-icons-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --cached --stat
+          git diff --cached --quiet && { echo "No changes to commit"; exit 1; }
+          git commit -m "chore(icons): commit six trimmed transparent PNGs"
+          git push origin HEAD:fix/icon-assets-trim-v224
