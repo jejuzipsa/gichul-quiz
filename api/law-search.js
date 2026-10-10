@@ -78,8 +78,19 @@ function normalizeLaws(payload) {
     }).filter(item => item.lawName)
   };
 }
-// Describe only allowlisted field names and types. Never include upstream values, URLs or OC.
-function payloadShape(payload, mode) {
+// Never expose upstream field VALUES. Export key names only after conservative
+// validation: keys can theoretically be influenced by untrusted upstream data.
+function safeFieldName(key, oc) {
+  if (typeof key !== 'string' || !/^[A-Za-z가-힣_][A-Za-z0-9가-힣_]{0,39}$/.test(key)) return '[redacted]';
+  const lower = key.toLowerCase();
+  if ((oc && lower.includes(oc.toLowerCase())) ||
+      /password|secret|token|credential|auth|api_?key|cookie|^oc$/i.test(key)) {
+    return '[redacted]';
+  }
+  return key;
+}
+// Describe field names and types only. Do not echo values, URLs or the OC.
+function payloadShape(payload, mode, oc = '') {
   const known = new Set([
     'LawSearch', 'lawSearch', 'aiSearch', 'AiSearch', 'Law',
     'error', 'Error', 'ERROR', 'errorCode', 'resultCode',
@@ -97,7 +108,17 @@ function payloadShape(payload, mode) {
     rootType: 'object',
     knownFields: keys.filter(key => known.has(key)).sort(),
     fieldCount: keys.length,
-    envelopeType: kind(envelope)
+    envelopeType: kind(envelope),
+    rootFields: keys.slice(0, 8).map(key => ({
+      name: safeFieldName(key, oc),
+      type: kind(payload[key]),
+      ...(payload[key] && typeof payload[key] === 'object' && !Array.isArray(payload[key])
+        ? { nestedFields: Object.keys(payload[key]).slice(0, 8).map(nested => ({
+            name: safeFieldName(nested, oc),
+            type: kind(payload[key][nested])
+          })) }
+        : {})
+    }))
   };
 }
 function upstreamRejected(payload, body) {
@@ -205,7 +226,7 @@ module.exports = async function handler(req, res) {
   const body = mode === 'laws'
     ? data?.LawSearch || data?.lawSearch
     : data?.aiSearch || data?.AiSearch;
-  const diagnostic = payloadShape(data, mode);
+  const diagnostic = payloadShape(data, mode, oc);
   if (upstreamRejected(data, body)) {
     // Do not echo upstream messages or codes: they may contain credentials.
     console.error('[law-search] UPSTREAM_API_REJECTED target=' + (mode === 'laws' ? 'law' : 'aiSearch') + ' envelope=' + diagnostic.envelopeType);
@@ -229,4 +250,4 @@ module.exports = async function handler(req, res) {
   }
   return reply(res, 200, { query: q, mode, page, pageSize: DISPLAY, ...normalized });
 };
-module.exports._test = { formatDate, officialLink, normalizeArticles, normalizeLaws, payloadShape, upstreamRejected };
+module.exports._test = { formatDate, officialLink, normalizeArticles, normalizeLaws, payloadShape, safeFieldName, upstreamRejected };

@@ -150,7 +150,7 @@ test('diagnoses unexpected JSON with safe keys/types, never raw values', async (
     assert.deepEqual(res.body.diagnostic.knownFields, ['LawSearch']);
     assert.equal(res.body.diagnostic.envelopeType, 'undefined');
     assert.ok(!JSON.stringify(res.body).includes('keep-this-oc-private'));
-    assert.ok(!JSON.stringify(res.body).includes('privateField'));
+    assert.deepEqual(res.body.diagnostic.rootFields.find(field => field.name === 'privateField'), { name: 'privateField', type: 'string' });
   } finally {
     global.fetch = previousFetch;
     console.error = previousError;
@@ -162,4 +162,53 @@ test('diagnoses unexpected JSON with safe keys/types, never raw values', async (
 test('official zero-result envelopes are valid, not mistaken for failures', () => {
   assert.deepEqual(normalizeLaws({ LawSearch: { totalCnt:'0' } }), { total:0, items:[] });
   assert.deepEqual(normalizeArticles({ aiSearch: { 검색결과개수:'0' } }), { total:0, items:[] });
+});
+
+test('unknown upstream root keys are reported as names and types, never contents', async () => {
+  const { payloadShape, safeFieldName } = handler._test;
+  const oc = 'private-oc-123';
+  const raw = {
+    '결과': { '결과코드': 'INVALID_KEY', '사유': oc },
+    'requestInfo': 'protected authentication information'
+  };
+  const shape = payloadShape(raw, 'laws', oc);
+  assert.deepEqual(shape.rootFields, [
+    { name: '결과', type: 'object', nestedFields: [
+      { name: '결과코드', type: 'string' },
+      { name: '사유', type: 'string' }
+    ] },
+    { name: 'requestInfo', type: 'string' }
+  ]);
+  assert.ok(!JSON.stringify(shape).includes(oc));
+  assert.ok(!JSON.stringify(shape).includes('INVALID_KEY'));
+  assert.equal(safeFieldName(oc, oc), '[redacted]');
+  assert.equal(safeFieldName('prefix_' + oc, oc), '[redacted]');
+  assert.equal(safeFieldName('token', oc), '[redacted]');
+  assert.equal(safeFieldName('unexpected entry', oc), '[redacted]');
+});
+
+test('both law and article errors contain safe root diagnostics', async () => {
+  const prevOc = process.env.LAW_API_OC;
+  const prevFetch = global.fetch;
+  const prevLog = console.error;
+  process.env.LAW_API_OC = 'private-oc-123';
+  global.fetch = async () => ({ ok: true, headers: { get: () => 'application/json' },
+    json: async () => ({ '응답결과': { '상태': 'not-approved', '안내': process.env.LAW_API_OC }, '요청정보':'test' }) });
+  console.error = () => {};
+  try {
+    for (const mode of ['laws', 'articles']) {
+      const res = await invoke({ q:'민법', mode });
+      assert.equal(res.statusCode, 502);
+      assert.equal(res.body.error, 'UPSTREAM_FORMAT');
+      assert.deepEqual(res.body.diagnostic.rootFields.map(x => x.name), ['응답결과','요청정보']);
+      assert.equal(res.body.diagnostic.rootFields[0].nestedFields[0].name, '상태');
+      assert.ok(!JSON.stringify(res.body).includes('not-approved'));
+      assert.ok(!JSON.stringify(res.body).includes(process.env.LAW_API_OC));
+    }
+  } finally {
+    global.fetch = prevFetch;
+    console.error = prevLog;
+    if (prevOc === undefined) delete process.env.LAW_API_OC;
+    else process.env.LAW_API_OC = prevOc;
+  }
 });
