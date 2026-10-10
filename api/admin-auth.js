@@ -1,6 +1,7 @@
 'use strict';
 const auth=require('../lib/admin-auth.js');
 const audit=require('../lib/visit-logs.js');
+const mfa=require('../lib/admin-mfa.js');
 const {config,cors,respond,requireOrigin,readBody,verifyPassword,
   createPasswordHash,issueSession,revokeSession,bearer,
   redis,currentHash,requireAdmin,checkRateLimit,PASSWORD_KEY}=auth;
@@ -33,13 +34,13 @@ module.exports=async function handler(req,res){
         await audit.recordAdminFailure(c,req);
         return respond(res,401,{error:'INVALID_CREDENTIALS'});
       }
-      // Every successful login is audited, including repeat logins.
-      // Never issue a session if the security audit cannot be written.
-      const flags=await audit.recordAdminLogin(c,req,body.deviceId);
-      const session=await issueSession(hash,c);
+      // Password authentication alone never creates an administrator session.
+      // Enrollment is a restricted challenge and grants no dashboard access.
+      const kind=await mfa.getState(c)?'verify':'setup';
+      const challenge=await mfa.createChallenge(c,hash,body.deviceId,kind);
       return respond(res,200,{
-        authenticated:true,username:'admin',session,
-        expiresIn:auth.SESSION_SECONDS,security:flags
+        authenticated:false,username:'admin',mfaRequired:true,
+        mfaMode:kind,challenge,expiresIn:kind==='setup'?600:300
       });
     }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
   }
