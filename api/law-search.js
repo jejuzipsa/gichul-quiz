@@ -106,7 +106,7 @@ function upstreamRejected(payload, body) {
     if (!item || typeof item !== 'object' || Array.isArray(item)) continue;
     const code = text(item.resultCode ?? item.errorCode ?? item.code);
     if (code && code !== '00' && code !== '0' && code !== '200') return true;
-    if (item.error != null || item.Error != null || item.ERROR != null) return true;
+    if (item.error != null || item.Error != null || item.ERROR != null || (typeof item.Law === 'string' && item.Law.trim())) return true;
     const message = text(item.resultMsg ?? item.message ?? item.Message);
     if (message && !/^(success|ok)$/i.test(message)) return true;
   }
