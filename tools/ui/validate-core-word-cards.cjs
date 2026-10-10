@@ -25,7 +25,7 @@ vm.runInContext(registrationDataJs,ctx);
 vm.runInContext(taxDataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='2.21','version.json must be 2.21');
+need(/^\d+\.\d+$/.test(version.version) && index.includes('content="'+version.version+'"'), 'site version and HTML meta must agree');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
