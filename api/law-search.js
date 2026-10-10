@@ -124,10 +124,10 @@ function payloadShape(payload, mode, oc = '') {
 // Classify common API rejection messages without disclosing their contents.
 function upstreamFailureReason(payload) {
   const msg = typeof payload?.msg === 'string' ? payload.msg.slice(0, 1000) : '';
-  if (/\\bIP\\b|아이피|도메인|서버\\s*주소|호스트|접속\\s*IP|허용\\s*주소/i.test(msg)) return 'SOURCE_RESTRICTION';
+  if (/IP|아이피|도메인|서버.?주소|호스트|접속.?IP|허용.?주소/i.test(msg)) return 'SOURCE_RESTRICTION';
   if (/승인|미등록|인증|인증키|OC|API.?key|신청|사용자|권한|허가|유효하지/i.test(msg)) return 'AUTH_OR_APPROVAL';
-  if (/초과|호출\\s*횟수|rate\\s*limit|quota|한도/i.test(msg)) return 'RATE_LIMIT';
-  if (/파라미터|매개변수|필수\\s*항목|잘못된\\s*요청|invalid\\s*request/i.test(msg)) return 'INVALID_PARAMETERS';
+  if (/초과|호출.?횟수|rate.?limit|quota|한도/i.test(msg)) return 'RATE_LIMIT';
+  if (/파라미터|매개변수|필수.?항목|잘못된.?요청|invalid.?request/i.test(msg)) return 'INVALID_PARAMETERS';
   return 'UNCLASSIFIED';
 }
 function upstreamRejected(payload, body) {
