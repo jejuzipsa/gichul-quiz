@@ -212,3 +212,39 @@ test('both law and article errors contain safe root diagnostics', async () => {
     else process.env.LAW_API_OC = prevOc;
   }
 });
+
+test('result/msg envelope is an upstream rejection, not a malformed search result', async () => {
+  const prev = process.env.LAW_API_OC;
+  const prevFetch = global.fetch;
+  const prevLog = console.error;
+  process.env.LAW_API_OC = 'my-private-oc-value';
+  global.fetch = async () => ({
+    ok: true, headers: { get: () => 'application/json' },
+    json: async () => ({ result: 'error', msg: '등록되지 않은 서버 IP입니다. OC: ' + process.env.LAW_API_OC })
+  });
+  console.error = () => {};
+  try {
+    for (const mode of ['laws', 'articles']) {
+      const response = await invoke({ q: '민법', mode });
+      assert.equal(response.statusCode, 502);
+      assert.equal(response.body.error, 'UPSTREAM_API_REJECTED');
+      assert.equal(response.body.reason, 'SOURCE_RESTRICTION');
+      assert.deepEqual(response.body.diagnostic.rootFields.map(f => f.name), ['result', 'msg']);
+      assert.ok(!JSON.stringify(response.body).includes(process.env.LAW_API_OC));
+      assert.ok(!JSON.stringify(response.body).includes('등록되지 않은 서버 IP'));
+    }
+  } finally {
+    global.fetch = prevFetch;
+    console.error = prevLog;
+    if (prev === undefined) delete process.env.LAW_API_OC;
+    else process.env.LAW_API_OC = prev;
+  }
+});
+
+test('result/msg reason classifier never returns raw sensitive messages', () => {
+  const { upstreamFailureReason } = handler._test;
+  assert.equal(upstreamFailureReason({ result:'fail', msg:'API 인증이 미승인 상태입니다.' }), 'AUTH_OR_APPROVAL');
+  assert.equal(upstreamFailureReason({ result:'fail', msg:'일일 호출 횟수 초과' }), 'RATE_LIMIT');
+  assert.equal(upstreamFailureReason({ result:'fail', msg:'잘못된 요청 파라미터' }), 'INVALID_PARAMETERS');
+  assert.equal(upstreamFailureReason({ result:'fail', msg:'No further details' }), 'UNCLASSIFIED');
+});
