@@ -49,3 +49,8 @@
  .law-results-heading p {margin-top:6px;}
  .law-footer a {display:block; margin:5px 0 0;}
 }
+
+/* v2.24: matching law-section icon */
+.law-topbar h1 { display:inline-flex; align-items:center; gap:10px; }
+.law-title-icon { display:block; flex:0 0 auto; width:36px; height:36px; object-fit:contain; }
+@media(max-width:600px) { .law-title-icon { width:30px; height:30px; } }
