@@ -2017,3 +2017,8 @@ body[data-reading-size="large"] {
 .admin-entry-row{display:flex;justify-content:flex-end;align-items:center;margin-top:7px;padding:0 12px}
 .admin-entry-link{display:inline-flex;align-items:center;justify-content:center;min-height:30px;padding:5px 9px;border-radius:8px;text-decoration:none;color:var(--muted);font-size:12px;font-weight:700;border:1px solid transparent}
 .admin-entry-link:hover,.admin-entry-link:focus-visible{color:var(--primary);background:var(--surface);border-color:var(--line)}
+
+/* v2.28: unobtrusive visitor-statistics notice */
+.admin-entry-row{gap:12px;justify-content:space-between;flex-wrap:wrap}
+.visitor-privacy-note{margin:0;color:var(--muted);font-size:11px;line-height:1.65;min-width:0}
+.admin-entry-link{margin-left:auto;flex:0 0 auto}
