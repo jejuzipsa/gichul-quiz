@@ -2018,10 +2018,39 @@ body[data-reading-size="large"] {
 .admin-entry-link{display:inline-flex;align-items:center;justify-content:center;min-height:30px;padding:5px 9px;border-radius:8px;text-decoration:none;color:var(--muted);font-size:12px;font-weight:700;border:1px solid transparent}
 .admin-entry-link:hover,.admin-entry-link:focus-visible{color:var(--primary);background:var(--surface);border-color:var(--line)}
 
-/* v2.28: unobtrusive visitor-statistics notice */
-.admin-entry-row{gap:12px;justify-content:space-between;flex-wrap:wrap}
-.visitor-privacy-note{margin:0;color:var(--muted);font-size:11px;line-height:1.65;min-width:0}
-.admin-entry-link{margin-left:auto;flex:0 0 auto}
+/* Copyright attribution for 제주집사 (real estate property management).
+   Keep attribution optically centered; admin link stays at the far right. */
+.admin-entry-row{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  padding:5px 62px;
+}
+.site-copyright{
+  margin:0;
+  color:var(--muted);
+  font-size:12px;
+  font-weight:500;
+  line-height:1.5;
+  text-align:center;
+  white-space:nowrap;
+}
+.admin-entry-link{
+  position:absolute;
+  right:12px;
+  top:50%;
+  transform:translateY(-50%);
+  margin-left:0;
+}
+@media(max-width:420px){
+  .site-copyright{font-size:11px}
+}
+@media(max-width:360px){
+  .site-copyright{font-size:10px}
+  .copyright-detail{display:none}
+}
 
 /* Mobile topbar fit: text yields space to controls rather than wrapping behind them. */
 .topbar-title-wrap {
