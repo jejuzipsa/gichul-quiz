@@ -103,7 +103,10 @@ test('diagnoses upstream failures separately without revealing an OC key', async
       [{ ok:true, headers:{ get:()=> 'text/html; charset=utf-8' }, json:async()=>({}) }, 'UPSTREAM_NON_JSON'],
       [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>{throw new SyntaxError('Unexpected token');} }, 'UPSTREAM_NON_JSON'],
       [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ other:[] }) }, 'UPSTREAM_FORMAT'],
-      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ LawSearch:{ resultCode:'99', resultMsg:'Invalid API key' } }) }, 'UPSTREAM_API_REJECTED']
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ LawSearch:{ resultCode:'99', resultMsg:'Invalid API key' } }) }, 'UPSTREAM_API_REJECTED'],
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ Law: 'OC 인증값 승인 필요' }) }, 'UPSTREAM_API_REJECTED'],
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ error: 'invalid key' }) }, 'UPSTREAM_API_REJECTED'],
+      [{ ok:true, headers:{ get:()=> 'application/json' }, json:async()=>({ LawSearch: 'API 접근 거부' }) }, 'UPSTREAM_API_REJECTED']
     ];
     for (const [response, expected, http] of cases) {
       global.fetch = async () => response;
@@ -112,6 +115,11 @@ test('diagnoses upstream failures separately without revealing an OC key', async
       assert.equal(res.body.error,expected);
       if (http) assert.equal(res.body.upstreamStatus,http);
       assert.ok(!JSON.stringify(res.body).includes(process.env.LAW_API_OC));
+      assert.ok(!JSON.stringify(res.body).includes('invalid key'));
+      if (expected === 'UPSTREAM_FORMAT' || expected === 'UPSTREAM_API_REJECTED') {
+        assert.equal(res.body.diagnostic.rootType, 'object');
+        assert.equal(typeof res.body.diagnostic.fieldCount, 'number');
+      }
     }
     global.fetch = async () => { const error = new Error('timeout'); error.name = 'TimeoutError'; throw error; };
     assert.equal((await invoke({ q:'민법', mode:'laws' })).body.error,'UPSTREAM_TIMEOUT');
@@ -123,4 +131,35 @@ test('diagnoses upstream failures separately without revealing an OC key', async
     if (saved === undefined) delete process.env.LAW_API_OC;
     else process.env.LAW_API_OC = saved;
   }
+});
+
+test('diagnoses unexpected JSON with safe keys/types, never raw values', async () => {
+  const previous = process.env.LAW_API_OC;
+  const previousFetch = global.fetch;
+  const previousError = console.error;
+  process.env.LAW_API_OC = 'keep-this-oc-private';
+  console.error = () => {};
+  global.fetch = async () => ({
+    ok: true, headers: { get: () => 'application/json' },
+    json: async () => ({ privateField: 'keep-this-oc-private', LawSearch: null })
+  });
+  try {
+    const res = await invoke({ q: '민법', mode: 'laws' });
+    assert.equal(res.statusCode, 502);
+    assert.equal(res.body.error, 'UPSTREAM_FORMAT');
+    assert.deepEqual(res.body.diagnostic.knownFields, ['LawSearch']);
+    assert.equal(res.body.diagnostic.envelopeType, 'undefined');
+    assert.ok(!JSON.stringify(res.body).includes('keep-this-oc-private'));
+    assert.ok(!JSON.stringify(res.body).includes('privateField'));
+  } finally {
+    global.fetch = previousFetch;
+    console.error = previousError;
+    if (previous === undefined) delete process.env.LAW_API_OC;
+    else process.env.LAW_API_OC = previous;
+  }
+});
+
+test('official zero-result envelopes are valid, not mistaken for failures', () => {
+  assert.deepEqual(normalizeLaws({ LawSearch: { totalCnt:'0' } }), { total:0, items:[] });
+  assert.deepEqual(normalizeArticles({ aiSearch: { 검색결과개수:'0' } }), { total:0, items:[] });
 });
