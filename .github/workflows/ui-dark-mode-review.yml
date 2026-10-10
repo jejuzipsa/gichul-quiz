@@ -23,8 +23,13 @@ jobs:
         run: node tools/ui/validate-dark-mode.cjs
       - name: Test responsive reading-size control
         run: node --test tools/ui/validate-reading-size.cjs
-      - name: Test administrator password authentication
+      - name: Test administrator authentication and access logs
         run: |
           node --check admin/admin.js
+          node --check visit.js
+          node --check lib/admin-auth.js
+          node --check lib/visit-logs.js
           node --check api/admin-auth.js
+          node --check api/admin-logs.js
+          node --check api/visit.js
           node --test tools/admin/admin-auth.test.cjs
