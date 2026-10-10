@@ -182,14 +182,39 @@ checks+=1;
  assert.ok(!bank.questions[246].choices.includes('계약갱신요구권'));
  assert.ok(bank.questions[280].explanation.includes('환산보증금'));
 }
+
+// v2.18: independent audit of 300 brokerage-law blanks.
+{
+ const qs=readBank('brokerage_law').questions;
+ assert.equal(qs.length,300);
+ for(let n=1;n<=300;n++){
+  const q=qs[n-1];
+  assert.equal(q.id,'BLANK-03-'+String(n).padStart(3,'0'));
+  assert.equal(q.choices.length,4,q.id);
+  assert.equal(q.choices.filter(x=>x===q.answer).length,1,q.id);
+  assert.equal(new Set(q.choices).size,4,q.id);
+  assert.ok(q.explanation.length>=18,q.id);
+ }
+ assert.ok(qs[17].choices.includes('14일'));
+ assert.ok(qs[45].explanation.includes('2026년 8월 28일'));
+ assert.ok(qs[49].explanation.includes('제41조'));
+ assert.ok(qs[58].explanation.includes('15일'));
+ assert.ok(qs[59].explanation.includes('대체토지'));
+ assert.ok(qs[171].choices.includes('중개의뢰인'));
+ assert.ok(!qs[171].choices.includes('법인인 개업공인중개사'));
+ assert.ok(!qs[190].choices.includes('법인인 개업공인중개사'));
+ assert.ok(qs[259].explanation.includes('설립한다'));
+ assert.ok(qs[296].explanation.includes('대체토지'));
+ assert.ok(qs[299].explanation.includes('대체토지'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v26'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v26'));
+assert.ok(html.includes('20261010-blank-v27'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v27'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v26'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v27'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
