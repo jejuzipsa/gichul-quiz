@@ -207,14 +207,39 @@ checks+=1;
  assert.ok(qs[296].explanation.includes('대체토지'));
  assert.ok(qs[299].explanation.includes('대체토지'));
 }
+
+// v2.19: all 300 public-law blanks, changed key ambiguous pairs.
+{
+ const qs=readBank('public_law').questions;
+ assert.equal(qs.length,300);
+ for(let n=1;n<=300;n++){
+  const q=qs[n-1];
+  assert.equal(q.id,'BLANK-04-'+String(n).padStart(3,'0'));
+  assert.equal(q.choices.length,4,q.id);
+  assert.equal(q.choices.filter(x=>x===q.answer).length,1,q.id);
+  assert.equal(new Set(q.choices).size,4,q.id);
+ }
+ assert.ok(qs[87].choices.includes('계획관리지역'));
+ assert.ok(!qs[88].choices.includes('상업지역'));
+ assert.ok(!qs[122].choices.includes('도시개발조합'));
+ assert.ok(!qs[123].choices.includes('도시개발조합'));
+ assert.ok(!qs[127].choices.includes('환지방식'));
+ assert.ok(!qs[136].choices.includes('환지방식'));
+ assert.ok(!qs[146].choices.includes('공공기관'));
+ assert.ok(!qs[228].choices.includes('건축설비'));
+ assert.ok(!qs[229].choices.includes('관리사무소'));
+ assert.ok(!qs[231].choices.includes('어린이놀이터'));
+ assert.ok(qs[152].prompt.includes('통칭'));
+ assert.ok(qs[164].prompt.includes('확충하는 유형'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v27'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v27'));
+assert.ok(html.includes('20261010-blank-v28'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v28'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v27'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v28'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
