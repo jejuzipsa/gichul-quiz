@@ -251,3 +251,23 @@ test('result/msg reason classifier never returns raw sensitive messages', () => 
   assert.equal(upstreamFailureReason({ result:'fail', msg:'잘못된 요청 파라미터' }), 'INVALID_PARAMETERS');
   assert.equal(upstreamFailureReason({ result:'fail', msg:'No further details' }), 'UNCLASSIFIED');
 });
+
+test('distinguishes HTML response and JSON parse failure without exposing upstream body', async () => {
+  const prevOc=process.env.LAW_API_OC, prevFetch=global.fetch, prevErr=console.error;
+  process.env.LAW_API_OC='test-secret-private';
+  console.error=()=>{};
+  try {
+    global.fetch=async()=>({ok:true, headers:{get:()=> 'text/html; charset=utf-8'}, json:async()=>{throw Error('secret payload');}});
+    let r=await invoke({q:'중개대상물',mode:'articles'});
+    assert.equal(r.statusCode,502);
+    assert.equal(r.body.reason,'HTML_RESPONSE');
+    assert.equal(JSON.stringify(r.body).includes('test-secret-private'),false);
+    global.fetch=async()=>({ok:true, headers:{get:()=> 'application/json'}, json:async()=>{throw Error('secret payload');}});
+    r=await invoke({q:'중개대상물',mode:'articles'});
+    assert.equal(r.body.reason,'JSON_PARSE_FAILED');
+    assert.equal(JSON.stringify(r.body).includes('secret payload'),false);
+  } finally {
+    global.fetch=prevFetch; console.error=prevErr;
+    if(prevOc===undefined) delete process.env.LAW_API_OC; else process.env.LAW_API_OC=prevOc;
+  }
+});
