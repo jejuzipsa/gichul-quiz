@@ -189,7 +189,7 @@ module.exports = async function handler(req, res) {
   let upstream;
   try {
     upstream = await fetch(API_HOST + '?' + params, {
-      headers: { Accept: 'application/json' },
+      headers: { Accept: 'application/json', Referer: 'https://gichul-law-api.vercel.app/' },
       signal: AbortSignal.timeout(15000)
     });
   } catch (error) {

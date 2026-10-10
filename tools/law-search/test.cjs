@@ -62,9 +62,11 @@ test('search response, pagination and origin restriction with stubbed upstream',
   const previous = process.env.LAW_API_OC;
   const previousFetch = global.fetch;
   const urls = [];
+  const requestOptions = [];
   process.env.LAW_API_OC = 'secret-test';
-  global.fetch = async url => {
+  global.fetch = async (url, options) => {
     urls.push(String(url));
+    requestOptions.push(options);
     return {
       ok: true,
       json: async () => ({ aiSearch: { 검색결과개수: '20', 법령조문: [{
@@ -83,6 +85,7 @@ test('search response, pagination and origin restriction with stubbed upstream',
     assert.equal(url.searchParams.get('target'), 'aiSearch');
     assert.equal(url.searchParams.get('query'), '반사회질서');
     assert.equal(url.searchParams.get('page'), '2');
+    assert.equal(requestOptions[0].headers.Referer, 'https://gichul-law-api.vercel.app/');
   } finally {
     global.fetch = previousFetch;
     if (previous === undefined) delete process.env.LAW_API_OC;
