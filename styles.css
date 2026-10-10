@@ -337,9 +337,9 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
   content: "";
   display: inline-block;
   flex: 0 0 auto;
-  width: clamp(48px, 4.8vw, 64px);
-  height: clamp(48px, 4.8vw, 64px);
-  background: url("assets/property-icon.png?v=2.24") center / contain no-repeat;
+  width: clamp(64px, 7vw, 80px);
+  height: clamp(64px, 7vw, 80px);
+  background: url("assets/property-icon.png?v=2.25") center / contain no-repeat;
 }
 .exam-entry-card-button {
   justify-content: flex-start;
@@ -361,8 +361,8 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
 @media (max-width: 560px) {
   #headerTitle { gap: 10px; }
   #headerTitle::before {
-    width: 44px;
-    height: 44px;
+    width: 52px;
+    height: 52px;
   }
   .exam-entry-card-button {
     flex-direction: row;
@@ -1926,8 +1926,8 @@ body { transition: background-color .18s ease, color .18s ease; }
   gap: 10px;
 }
 .section-heading-icon {
-  width: clamp(36px, 3.3vw, 44px);
-  height: clamp(36px, 3.3vw, 44px);
+  width: clamp(48px, 4.6vw, 54px);
+  height: clamp(48px, 4.6vw, 54px);
   flex: 0 0 auto;
   object-fit: contain;
 }
@@ -1935,7 +1935,10 @@ body { transition: background-color .18s ease, color .18s ease; }
   width: clamp(58px, 6vw, 76px);
   height: clamp(58px, 6vw, 76px);
 }
+@media(max-width:720px) {
+  #headerTitle::before { width: 52px; height: 52px; }
+  .section-heading-icon { width: 42px; height: 42px; }
+}
 @media(max-width:560px) {
-  .section-heading-icon { width: 34px; height: 34px; }
   .home-feature-card .exam-entry-icon { width: 52px; height: 52px; }
 }
