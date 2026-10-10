@@ -553,7 +553,11 @@ assert.equal(blankTotal,1600,'expected blanks 1600');
   for(const id of ['BLANK-03-059','BLANK-03-293','BLANK-03-294','BLANK-03-295','BLANK-03-296']){
     const q=derived.find(x=>x.id===id);
     assert.ok(q,id+': linked blank missing');
-    assert.ok(!/15일/.test(q.prompt+' '+q.explanation),id+': obsolete deadline');
+    assert.ok(!/15일/.test(q.prompt),id+': deadline must not become answer or premise');
+    if(/15일/.test(q.explanation)){
+      assert.ok(q.explanation.includes('시행령 제8조'),id+': 15-day detail requires the enforcement-decree basis');
+      assert.ok(q.explanation.includes('민원 처리에 관한 법률'),id+': statutory basis must be distinguished');
+    }
     assert.equal(q.originQuestionId,'BRK059',id+': origin');
   }
   assert.equal(derived.find(x=>x.id==='BLANK-03-059').answer,'「민원 처리에 관한 법률」');
