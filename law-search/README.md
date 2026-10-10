@@ -35,3 +35,6 @@ API 호출 실패는 시간 초과/네트워크/HTTP/JSON 파싱/상위 API 거�
 - `UPSTREAM_NON_JSON`: 응답이 HTML이거나 JSON 파싱 불가.
 
 테스트: `node --test tools/law-search/test.cjs`. Vercel Runtime Logs 접근에 실패하면 **실제 성공을 확인한 것으로 표시하지 않는다**.
+
+## 원인 미확정 JSON에 대한 안전 진단 (추가)
+양쪽 검색에서 `UPSTREAM_FORMAT`이고 `knownFields=[]`인 경우, 실제 서버가 반환한 최상위 필드의 **이름과 타입**만 `diagnostic.rootFields`에 표시한다. 객체인 경우 한 단계의 하위 필드 이름/타입도 포함한다. 검색어, 원문 오류메시지, OC 인증값, 요청 URL, 실제 필드 값은 출력하지 않는다. 필드 이름이 길거나 민감한 문자열과 일치할 가능성이 있으면 `[redacted]`로 치환한다. 이 정보로 응답 구조를 확인하기 전에는 인증 문제나 외부 API 구조 변경이라고 단정하지 말 것.
