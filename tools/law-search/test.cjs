@@ -251,3 +251,20 @@ test('result/msg reason classifier never returns raw sensitive messages', () => 
   assert.equal(upstreamFailureReason({ result:'fail', msg:'잘못된 요청 파라미터' }), 'INVALID_PARAMETERS');
   assert.equal(upstreamFailureReason({ result:'fail', msg:'No further details' }), 'UNCLASSIFIED');
 });
+
+test('temporary: post-Referer production status probe, do not expose upstream values', async () => {
+  for (const mode of ['laws', 'articles']) {
+    try {
+      const u = new URL('https://gichul-law-api.vercel.app/api/law-search');
+      u.searchParams.set('q', mode === 'laws' ? '민법' : '중개대상물');
+      u.searchParams.set('mode', mode);
+      const res = await fetch(u, { signal: AbortSignal.timeout(10000) });
+      const data = await res.json();
+      console.log('REFERER_PROBE', JSON.stringify({
+        mode, status: res.status, error: data.error || null,
+        reason: data.reason || null, itemCount: Array.isArray(data.items) ? data.items.length : null,
+        rootFields: data.diagnostic?.rootFields?.map(x=>({name:x.name,type:x.type}))||null
+      }));
+    } catch(e) { console.log('REFERER_PROBE', mode, e?.name || 'network_error'); }
+  }
+});
