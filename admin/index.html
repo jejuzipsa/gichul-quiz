@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.27">
+  <meta name="theme-color" content="#080d18">
+  <link rel="icon" type="image/png" href="../assets/property-icon.png?v=2.27">
+  <title>사이트 관리 | 공인중개사 기출문제</title>
+  <script>try{const t=localStorage.getItem('gichulQuizTheme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:'dark'}catch(_){document.documentElement.dataset.theme='dark'}</script>
+  <link rel="stylesheet" href="../styles.css?v=2.27">
+  <link rel="stylesheet" href="admin.css?v=2.27">
+</head>
+<body>
+<main class="admin-shell">
+  <header class="admin-topbar">
+    <a class="admin-back" href="../">← 홈</a>
+    <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.27" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
+    <button id="adminLogout" class="admin-logout" type="button" hidden>로그아웃</button>
+  </header>
+  <section id="adminNotice" class="admin-login-state" aria-live="polite">
+    <h2>관리자 인증</h2>
+    <p id="authStatus">로그인 상태를 확인하고 있어.</p>
+    <a id="adminLoginLink" class="admin-primary" href="https://gichul-law-api.vercel.app/api/admin-auth?mode=start" hidden>GitHub 계정으로 로그인</a>
+    <p id="adminSetupHint" class="admin-info-small" hidden>GitHub OAuth 앱과 Vercel 환경변수를 등록해야 로그인할 수 있어.</p>
+  </section>
+  <div id="adminDashboard" hidden>
+    <div class="admin-welcome">
+      <div><p class="admin-eyebrow">SITE OVERVIEW</p><h2>공인중개사 기출문제 운영 현황</h2><p id="adminIdentity" class="admin-info-small"></p></div>
+      <span class="admin-version" id="adminVersion">버전 확인 중</span>
+    </div>
+    <section class="admin-stats" aria-label="전체 학습 자료 수">
+      <article><span>기출문제</span><strong id="totalPast">—</strong><small>2021~2025</small></article>
+      <article><span>핵심 개념 퀴즈</span><strong id="totalConcept">—</strong><small>일반 객관식</small></article>
+      <article><span>괄호문제</span><strong id="totalBlank">—</strong><small>빈칸 선택형</small></article>
+      <article><span>핵심 단어 카드</span><strong id="totalCards">—</strong><small>암기 카드</small></article>
+    </section>
+    <section class="admin-section" aria-labelledby="adminSubjectTitle">
+      <div class="admin-section-head"><h2 id="adminSubjectTitle">과목별 문제 수</h2><p>사이트에 등록된 문제은행 기준</p></div>
+      <div class="admin-table-wrap"><table>
+        <thead><tr><th scope="col">과목</th><th scope="col">기출문제</th><th scope="col">핵심 개념</th><th scope="col">괄호문제</th><th scope="col">단어 카드</th></tr></thead>
+        <tbody id="adminSubjectRows"><tr><td colspan="5">불러오는 중…</td></tr></tbody>
+      </table></div>
+      <p class="admin-info-small" id="adminDataStatus" role="status"></p>
+    </section>
+    <section class="admin-section" aria-labelledby="adminPatchTitle">
+      <div class="admin-section-head"><h2 id="adminPatchTitle">최근 패치 기록</h2><a href="../PATCH_NOTES.txt" target="_blank" rel="noopener noreferrer">전체 패치노트 보기 ↗</a></div>
+      <div id="adminPatchList" class="admin-patches"><p>패치 기록을 읽는 중…</p></div>
+    </section>
+    <section class="admin-section" aria-labelledby="adminOperationsTitle">
+      <div class="admin-section-head"><h2 id="adminOperationsTitle">운영 정보</h2></div>
+      <div class="admin-operations">
+        <a href="https://github.com/jejuzipsa/gichul-quiz" target="_blank" rel="noopener noreferrer">GitHub 저장소 ↗</a>
+        <a href="https://vercel.com/jejuzipsa/gichul-law-api" target="_blank" rel="noopener noreferrer">Vercel 법령 API ↗</a>
+        <a href="../law-search/">법령 검색 확인 ↗</a>
+      </div>
+      <p class="admin-info-small">방문자 로그는 아직 수집하지 않아. 별도 저장소와 보관 정책을 정한 뒤 연결할 수 있어.</p>
+    </section>
+  </div>
+</main>
+<script src="admin.js?v=2.27"></script>
+</body>
+</html>
