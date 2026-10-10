@@ -1,33 +1,53 @@
 'use strict';
-const crypto = require('node:crypto');
-const {
-  API_CALLBACK_URL, STATE_LIFETIME_SECONDS, getConfig, noStore, setCors,
-  sendJson, redirect, adminErrorUrl, createSession, verifySession, cookieHeader
-} = require('../lib/admin-auth.js');
+const auth=require('../lib/admin-auth.js');
+const {config,cors,respond,requireOrigin,readBody,verifyPassword,
+  createPasswordHash,createSession,redis,currentHash,requireAdmin,checkRateLimit,PASSWORD_KEY}=auth;
 
-module.exports = async function handler(req, res) {
-  noStore(res);
-  setCors(req, res);
-  if (req.method === 'OPTIONS') { res.statusCode = 204; return res.end(); }
-  if (req.method !== 'GET') return sendJson(res, 405, {error: 'METHOD_NOT_ALLOWED'});
-  const config = getConfig();
-  const mode = req.query?.mode === 'start' ? 'start' : 'verify';
-  if (mode === 'start') {
-    if (!config.configured) return redirect(res, adminErrorUrl('configuration'));
-    const state = crypto.randomBytes(24).toString('hex');
-    res.setHeader('Set-Cookie', cookieHeader(state, STATE_LIFETIME_SECONDS));
-    const url = new URL('https://github.com/login/oauth/authorize');
-    url.searchParams.set('client_id', config.clientId);
-    url.searchParams.set('redirect_uri', API_CALLBACK_URL);
-    url.searchParams.set('scope', 'read:user');
-    url.searchParams.set('state', state);
-    return redirect(res, url.toString());
+module.exports=async function handler(req,res) {
+  auth.noStore(res);
+  cors(req,res);
+  if(req.method==='OPTIONS'){
+    if(!requireOrigin(req,res))return;
+    res.statusCode=204;return res.end();
   }
-  if (!config.configured) return sendJson(res, 503, {error: 'ADMIN_NOT_CONFIGURED'});
-  const match = /^Bearer ([A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)$/.exec(String(req.headers?.authorization || ''));
-  const session = match ? verifySession(match[1], config) : null;
-  if (!session) return sendJson(res, 401, {error: 'AUTH_REQUIRED'});
-  return sendJson(res, 200, {authenticated: true, login: session.login});
+  const c=config();
+  if(!c.configured)return respond(res,503,{error:'ADMIN_NOT_CONFIGURED'});
+  if(!requireOrigin(req,res))return;
+  if(req.method==='GET'){
+    const oldHash=await requireAdmin(req,res,c);
+    if(!oldHash)return;
+    return respond(res,200,{authenticated:true,username:'admin'});
+  }
+  if(req.method!=='POST')return respond(res,405,{error:'METHOD_NOT_ALLOWED'});
+  let body;
+  try {body=readBody(req)}catch{return respond(res,400,{error:'BAD_REQUEST'})}
+  const mode=String(req.query?.mode||'login');
+  if(mode==='login'){
+    try{
+      const allowed=await checkRateLimit(req,c);
+      if(!allowed)return respond(res,429,{error:'TOO_MANY_ATTEMPTS'});
+      const hash=await currentHash(c);
+      if(body.username!=='admin'||!verifyPassword(body.password,hash)){
+        return respond(res,401,{error:'INVALID_CREDENTIALS'});
+      }
+      return respond(res,200,{
+        authenticated:true,username:'admin',
+        session:createSession(hash,c.sessionSecret),expiresIn:auth.SESSION_SECONDS
+      });
+    }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
+  }
+  if(mode==='change-password'){
+    const current=await requireAdmin(req,res,c);
+    if(!current)return;
+    if(!verifyPassword(body.currentPassword,current))return respond(res,401,{error:'INVALID_CURRENT_PASSWORD'});
+    if(body.newPassword===body.currentPassword)return respond(res,400,{error:'PASSWORD_UNCHANGED'});
+    if(typeof body.newPassword!=='string'||body.newPassword.length<12||body.newPassword.length>128)
+      return respond(res,400,{error:'PASSWORD_LENGTH'});
+    try{
+      const nextHash=createPasswordHash(body.newPassword);
+      await redis(c,['SET',PASSWORD_KEY,nextHash]);
+      return respond(res,200,{changed:true,session:createSession(nextHash,c.sessionSecret)});
+    }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
+  }
+  return respond(res,400,{error:'BAD_MODE'});
 };
-
-module.exports._test = {createSession, verifySession};
