@@ -245,7 +245,7 @@ test('CORS restricted, missing config fails closed and static frontend has no se
   const html=fs.readFileSync(path.join(__dirname,'../../admin/index.html'),'utf8');
   assert.ok(html.includes('id="adminMfaForm"'));
   assert.ok(html.includes('id="adminRecoveryCodes"'));
-  assert.ok(frontend.includes('?mode=verify'));
+  assert.ok(frontend.includes("mfaMode==='setup'?'confirm':'verify'"));
   assert.ok(!frontend.includes('GICHUL_ADMIN_TOTP_ENCRYPTION_KEY'));
   assert.ok(!html.includes('GICHUL_ADMIN_TOTP_ENCRYPTION_KEY'));
   const vars=['GICHUL_ADMIN_TOTP_ENCRYPTION_KEY','UPSTASH_REDIS_REST_URL','KV_REST_API_URL'];
