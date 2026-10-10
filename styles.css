@@ -337,9 +337,9 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
   content: "";
   display: inline-block;
   flex: 0 0 auto;
-  width: clamp(38px, 4.2vw, 52px);
-  height: clamp(38px, 4.2vw, 52px);
-  background: url("assets/property-icon.png") center / contain no-repeat;
+  width: clamp(48px, 4.8vw, 64px);
+  height: clamp(48px, 4.8vw, 64px);
+  background: url("assets/property-icon.png?v=2.24") center / contain no-repeat;
 }
 .exam-entry-card-button {
   justify-content: flex-start;
@@ -353,16 +353,16 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
   box-shadow: 0 14px 34px rgba(31, 99, 233, .10);
 }
 .exam-entry-icon {
-  width: clamp(42px, 4.5vw, 58px);
-  height: clamp(42px, 4.5vw, 58px);
+  width: clamp(56px, 5.6vw, 72px);
+  height: clamp(56px, 5.6vw, 72px);
   object-fit: contain;
   flex: 0 0 auto;
 }
 @media (max-width: 560px) {
   #headerTitle { gap: 10px; }
   #headerTitle::before {
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
   }
   .exam-entry-card-button {
     flex-direction: row;
@@ -371,8 +371,8 @@ h2 { font-size: clamp(22px, 2.5vw, 32px); line-height: 1.35; letter-spacing: -.0
     padding: 18px 20px;
   }
   .exam-entry-icon {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
   }
 }
 
@@ -1892,7 +1892,7 @@ body { transition: background-color .18s ease, color .18s ease; }
 .home-feature-card{min-height:118px}
 .core-card-entry-button{background:color-mix(in srgb,#8174ff 8%,var(--surface));border-color:color-mix(in srgb,#8174ff 26%,var(--line))}
 .core-card-entry-button:hover{background:color-mix(in srgb,#8174ff 13%,var(--surface));border-color:color-mix(in srgb,#8174ff 48%,var(--line));box-shadow:0 14px 34px rgba(129,116,255,.12)}
-.core-card-entry-icon{padding:3px}
+.core-card-entry-icon{padding:0}
 :root[data-theme="dark"] .past-exam-home-section{background:var(--surface)}
 :root[data-theme="dark"] .core-card-entry-button{background:#151d35;border-color:#393b6b}
 :root[data-theme="dark"] .core-card-entry-button:hover{background:#1b2340;border-color:#625ab4}
@@ -1915,3 +1915,27 @@ body { transition: background-color .18s ease, color .18s ease; }
 .law-home-form input:focus-visible {outline:2px solid var(--primary);outline-offset:2px;}
 .law-home-more {display:inline-block;margin-top:13px;color:var(--primary);font-weight:700;font-size:13px;text-decoration:none;}
 @media(max-width:720px){.law-home-section{padding:16px;border-radius:17px;}.law-home-form{gap:8px;}.law-home-form .primary-btn{padding:0 15px;}}
+
+/* v2.24: compact, consistent six-icon family across main page headings */
+.past-exam-home-head h2,
+.word-quiz-home-head h2,
+.law-home-copy h2 {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.section-heading-icon {
+  width: clamp(36px, 3.3vw, 44px);
+  height: clamp(36px, 3.3vw, 44px);
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+.home-feature-card .exam-entry-icon {
+  width: clamp(58px, 6vw, 76px);
+  height: clamp(58px, 6vw, 76px);
+}
+@media(max-width:560px) {
+  .section-heading-icon { width: 34px; height: 34px; }
+  .home-feature-card .exam-entry-icon { width: 52px; height: 52px; }
+}
