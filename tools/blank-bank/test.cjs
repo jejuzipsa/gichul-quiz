@@ -255,14 +255,40 @@ checks+=1;
  assert.ok(!rows[200].choices.includes('지역권'));
  assert.ok(rows[200].explanation.includes('점유권'));
 }
+
+// v2.21: tax law 180-item independent audit, including one statutory answer correction.
+{
+ const tax=readBank('tax_law').questions;
+ assert.equal(tax.length,180);
+ for(let i=0;i<180;i++){
+  const q=tax[i];
+  assert.equal(q.choices.length,4,q.id);
+  assert.equal(q.choices.filter(v=>v===q.answer).length,1,q.id);
+  assert.equal(new Set(q.choices).size,4,q.id);
+  assert.ok(q.explanation.length>15,q.id);
+ }
+ assert.equal(tax[113].id,'EXP-06-114');
+ assert.equal(tax[113].answer,'등록을 하는 자');
+ assert.equal(tax[113].choices.indexOf(tax[113].answer),1);
+ assert.ok(tax[113].explanation.includes('제24조'));
+ assert.ok(tax[62].prompt.includes('경마·경륜'));
+ assert.ok(tax[63].prompt.includes('자동차의 소유'));
+ assert.ok(tax[68].prompt.includes('자동차의 소유'));
+ assert.ok(!tax[87].choices.includes('상속'));
+ assert.ok(!tax[163].choices.includes('등록'));
+ assert.ok(!tax[165].choices.includes('취득자'));
+ assert.ok(!tax[171].choices.includes('과세표준'));
+ assert.ok(tax[47].explanation.includes('60%'));
+ assert.ok(tax[45].explanation.includes('12억원'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v29'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v29'));
+assert.ok(html.includes('20261010-blank-v30'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v30'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v29'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v30'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
