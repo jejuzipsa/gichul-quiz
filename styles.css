@@ -1904,3 +1904,14 @@ body { transition: background-color .18s ease, color .18s ease; }
   .home-feature-card{min-height:96px}
 }
 
+
+
+/* v2.22: 홈 최하단 법령 검색 */
+.law-home-section {margin-top:22px;padding:22px;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow);}
+.law-home-copy h2 {font-size:clamp(21px,2.3vw,28px);margin:0;}
+.law-home-copy p:not(.eyebrow) {color:var(--muted);font-size:13px;line-height:1.6;margin:6px 0 16px;}
+.law-home-form {display:flex;align-items:stretch;gap:10px;max-width:660px;}
+.law-home-form input[type="search"] {flex:1;min-width:0;padding:12px 15px;background:var(--surface-2);color:var(--text);border:1px solid var(--line);border-radius:12px;font-size:16px;}
+.law-home-form input:focus-visible {outline:2px solid var(--primary);outline-offset:2px;}
+.law-home-more {display:inline-block;margin-top:13px;color:var(--primary);font-weight:700;font-size:13px;text-decoration:none;}
+@media(max-width:720px){.law-home-section{padding:16px;border-radius:17px;}.law-home-form{gap:8px;}.law-home-form .primary-btn{padding:0 15px;}}

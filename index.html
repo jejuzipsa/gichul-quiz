@@ -52,10 +52,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f5f7fb" />
-  <meta name="app-version" content="2.21" />
+  <meta name="app-version" content="2.22" />
   <title>공인중개사 기출문제</title>
-  <link rel="stylesheet" href="styles.css?v=2.21" />
-  <link rel="stylesheet" href="word-quiz/entry.css?v=2.21" />
+  <link rel="stylesheet" href="styles.css?v=2.22" />
+  <link rel="stylesheet" href="word-quiz/entry.css?v=2.22" />
 </head>
 <body>
   <main class="app-shell" id="app">
@@ -98,6 +98,21 @@
         </div>
       </section>
 
+      <section class="law-home-section" aria-labelledby="lawHomeTitle">
+        <div class="law-home-copy">
+          <p class="eyebrow">법령 정보</p>
+          <h2 id="lawHomeTitle">법률 정보 검색</h2>
+          <p>국가법령정보센터에서 법률·시행령·시행규칙과 관련 조문을 찾아봐.</p>
+        </div>
+        <form class="law-home-form" action="law-search/" method="get">
+          <label class="sr-only" for="homeLawQuery">법령명 또는 조문 검색어</label>
+          <input id="homeLawQuery" type="search" name="q" placeholder="법령명 또는 검색어 입력" minlength="2" maxlength="80" required />
+          <input type="hidden" name="mode" value="articles" />
+          <button class="primary-btn" type="submit">검색</button>
+        </form>
+        <a class="law-home-more" href="law-search/">법령명 검색 및 상세 검색 →</a>
+      </section>
+
       <section class="summary-home-section" hidden aria-hidden="true" aria-labelledby="summaryHomeTitle"><div class="summary-home-head"><h2 id="summaryHomeTitle">핵심요약</h2></div><div id="summarySubjectGrid" class="summary-subject-grid"></div></section>
     </section>
 
@@ -125,7 +140,7 @@
   </main>
 
   <script src="data/manifest.js"></script>
-  <script src="summary/manifest.js?v=2.21"></script>
-  <script src="app.js?v=2.21"></script>
+  <script src="summary/manifest.js?v=2.22"></script>
+  <script src="app.js?v=2.22"></script>
 </body>
 </html>
