@@ -150,7 +150,7 @@ test('diagnoses unexpected JSON with safe keys/types, never raw values', async (
     assert.deepEqual(res.body.diagnostic.knownFields, ['LawSearch']);
     assert.equal(res.body.diagnostic.envelopeType, 'undefined');
     assert.ok(!JSON.stringify(res.body).includes('keep-this-oc-private'));
-    assert.ok(!JSON.stringify(res.body).includes('privateField'));
+    assert.deepEqual(res.body.diagnostic.rootFields.find(field => field.name === 'privateField'), { name: 'privateField', type: 'string' });
   } finally {
     global.fetch = previousFetch;
     console.error = previousError;
