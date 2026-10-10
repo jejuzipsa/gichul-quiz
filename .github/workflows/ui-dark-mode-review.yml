@@ -23,6 +23,8 @@ jobs:
         run: node tools/ui/validate-dark-mode.cjs
       - name: Test responsive reading-size control
         run: node --test tools/ui/validate-reading-size.cjs
+      - name: Test single-line mobile header and responsive font fitting
+        run: node --test tools/ui/validate-mobile-header.test.cjs
       - name: Test administrator authentication and access logs
         run: |
           node --check admin/admin.js

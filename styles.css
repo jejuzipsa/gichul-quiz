@@ -2022,3 +2022,41 @@ body[data-reading-size="large"] {
 .admin-entry-row{gap:12px;justify-content:space-between;flex-wrap:wrap}
 .visitor-privacy-note{margin:0;color:var(--muted);font-size:11px;line-height:1.65;min-width:0}
 .admin-entry-link{margin-left:auto;flex:0 0 auto}
+
+
+/* Mobile topbar fit: text yields space to controls rather than wrapping behind them. */
+.topbar-title-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+#headerTitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  white-space: nowrap;
+}
+#headerTitleText {
+  flex: 1 1 auto;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+  line-height: 1.2;
+}
+.topbar-actions {
+  flex: 0 0 auto;
+  min-width: max-content;
+}
+@media (max-width: 400px) {
+  #headerTitle { gap: 6px; }
+  #headerTitle::before { width: 40px; height: 40px; }
+}
+@media (max-width: 340px) {
+  .topbar { gap: 5px; }
+  .topbar-actions { gap: 4px; }
+  #headerTitle { gap: 4px; }
+  #headerTitle::before { width: 32px; height: 32px; }
+}
