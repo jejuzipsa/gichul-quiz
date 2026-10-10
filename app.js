@@ -76,7 +76,7 @@
   };
 
   const els = {
-    headerTitle: $('headerTitle'), homeBtn: $('homeBtn'), themeToggleBtn: $('themeToggleBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'), coreCardEntryBtn: $('coreCardEntryBtn'),
+    headerTitle: $('headerTitle'), headerTitleText: $('headerTitleText'), homeBtn: $('homeBtn'), themeToggleBtn: $('themeToggleBtn'), subjectGrid: $('subjectGrid'), examEntryBtn: $('examEntryBtn'), coreCardEntryBtn: $('coreCardEntryBtn'),
     summarySubjectGrid: $('summarySubjectGrid'), summaryTitle: $('summaryTitle'), summaryMeta: $('summaryMeta'), summarySearch: $('summarySearch'), summarySubjectTabs: $('summarySubjectTabs'), summaryToc: $('summaryToc'), summaryTocSelect: $('summaryTocSelect'), summaryContent: $('summaryContent'), summarySearchStatus: $('summarySearchStatus'), summaryFloatActions: $('summaryFloatActions'), summaryFloatHomeBtn: $('summaryFloatHomeBtn'), summaryFloatTopBtn: $('summaryFloatTopBtn'),
     bankBrowserSubject: $('bankBrowserSubject'), bankBrowserSummary: $('bankBrowserSummary'), bankQuestionList: $('bankQuestionList'), bankPagination: $('bankPagination'), bankStartQuizBtn: $('bankStartQuizBtn'), bankFloatActions: $('bankFloatActions'), bankFloatQuizBtn: $('bankFloatQuizBtn'), bankFloatHomeBtn: $('bankFloatHomeBtn'), bankFloatTopBtn: $('bankFloatTopBtn'),
     quizSubject: $('quizSubject'), quizProgress: $('quizProgress'), sourceMeta: $('sourceMeta'), progressFill: $('progressFill'), questionCard: $('questionCard'), questionNumber: $('questionNumber'), questionText: $('questionText'), answerForm: $('answerForm'), feedback: $('feedback'), nextBtn: $('nextBtn'), backToResultBtn: $('backToResultBtn'),
@@ -142,6 +142,7 @@
   function showView(name) {
     Object.entries(views).forEach(([key, el]) => el.classList.toggle('hidden', key !== name));
     els.homeBtn.classList.toggle('hidden', name === 'home');
+    scheduleHeaderFit();
     els.bankFloatActions?.classList.add('hidden');
     els.summaryFloatActions?.classList.add('hidden');
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -167,9 +168,47 @@
   function subjectCount(entry) { return state.subjectOverrides.has(entry.name) ? state.subjectOverrides.get(entry.name).length : (Number(entry.count) || 0); }
   function totalQuestionCount() { return manifest.reduce((sum, entry) => sum + subjectCount(entry), 0); }
 
+  // Keep the title on one line without hiding the theme or text-size controls.
+  // The title's text element is allowed to shrink, but the control group is not.
+  let headerFitFrame = 0;
+  function fitHeaderTitle() {
+    const titleText = els.headerTitleText;
+    if (!titleText || !els.headerTitle) return;
+    titleText.style.fontSize = '';
+    if (!titleText.clientWidth) return;
+    const fullSize = parseFloat(getComputedStyle(titleText).fontSize) || 26;
+    if (titleText.scrollWidth <= titleText.clientWidth + 1) return;
+    let low = 10, high = fullSize;
+    for (let i = 0; i < 12; i++) {
+      const mid = (low + high) / 2;
+      titleText.style.fontSize = mid + 'px';
+      if (titleText.scrollWidth <= titleText.clientWidth + 1) low = mid;
+      else high = mid;
+    }
+    titleText.style.fontSize = Math.max(10, Math.floor(low * 10) / 10) + 'px';
+  }
+  function scheduleHeaderFit() {
+    if (headerFitFrame) cancelAnimationFrame(headerFitFrame);
+    headerFitFrame = requestAnimationFrame(() => {
+      headerFitFrame = 0;
+      fitHeaderTitle();
+    });
+  }
+  window.addEventListener('resize', scheduleHeaderFit, {passive:true});
+  if (typeof ResizeObserver !== 'undefined') {
+    const observer = new ResizeObserver(scheduleHeaderFit);
+    observer.observe(els.headerTitle.parentElement);
+    observer.observe(document.querySelector('.topbar-actions'));
+  }
+  document.fonts?.ready.then(scheduleHeaderFit).catch(() => {});
+
+  function setHeaderTitle(label) {
+    els.headerTitleText.textContent = label;
+    scheduleHeaderFit();
+  }
+
   function renderHome() {
-    const total = totalQuestionCount();
-    els.headerTitle.textContent = `공인중개사 기출문제(${total}문항)`;
+    setHeaderTitle('공인중개사 기출문제');
     els.subjectGrid.innerHTML = '';
     renderSummaryHome();
     for (const entry of manifest) {
@@ -308,7 +347,7 @@
     const data=await loadSummaryData(code);
     state.summaryCode=code;
     state.summaryData=data;
-    els.headerTitle.textContent='공인중개사 핵심요약';
+    setHeaderTitle('공인중개사 핵심요약');
     if(els.summarySearch)els.summarySearch.value='';
     renderSummaryTabs();
     renderSummaryReader();
