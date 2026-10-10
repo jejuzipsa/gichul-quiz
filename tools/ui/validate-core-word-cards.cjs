@@ -25,7 +25,7 @@ vm.runInContext(registrationDataJs,ctx);
 vm.runInContext(taxDataJs,ctx);
 const bank=ctx.window.CORE_WORD_CARD_BANK;
 
-need(version.version==='2.18','version.json must be 2.18');
+need(version.version==='2.19','version.json must be 2.19');
 need(index.includes('class="past-exam-home-section"'),'past-exam section wrapper missing');
 need(index.includes('class="home-feature-grid"'),'split feature grid missing');
 need(index.includes('id="examEntryBtn"')&&index.includes('id="coreCardEntryBtn"'),'home feature buttons missing');
@@ -220,7 +220,7 @@ need(publicCards.filter(c=>c.examHitCount>0).length>=170,'public-law exam-backed
 need(publicCards.every(c=>Array.isArray(c.basis)&&c.basis.length>=1),'public-law basis metadata missing');
 need(publicCards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.importance<=5),'public-law importance metadata invalid');
 for(const title of ['공간재구조화계획','도시혁신구역','복합용도구역','성장관리계획','사업시행계획 통합심의','사전방문','공동주택 품질점검단','농지개량행위 신고']) need(publicCards.find(c=>c.title===title)?.sourceKind==='official','current public-law source must be official: '+title);
-need(cardIndex.includes('data-public.js?v=2.18'),'public-law runtime shard must load before cards.js');
+need(cardIndex.includes('data-public.js?v=2.19'),'public-law runtime shard must load before cards.js');
 for(const title of ['부동산 공시제도','지적제도','필지','지번','지목','경계','지적공부','토지대장','임야대장','공유지연명부','대지권등록부','경계점좌표등록부','지적도','임야도','부동산종합공부','토지이동','신규등록','등록전환','분할','합병','축척변경','지적측량','경계복원측량','지적현황측량','지적측량 적부심사','등기부','등기기록','등기필정보','등기관','관련 사건 관할 특례','상속·유증 관할 특례','표제부','갑구','을구','공동신청주의','전자신청','등기신청 각하','소유권보존등기','소유권이전등기','지상권등기','지역권등기','전세권등기','임차권등기','저당권등기','근저당권등기','공동저당등기','가등기','신탁등기','관공서 촉탁등기','등기관 처분 이의신청']) need(registrationCards.some(c=>c.title===title),'required registration-law card missing: '+title);
 need(registrationCards[0]?.title==='부동산 공시제도'&&registrationCards[198]?.title==='기록명령','registration-law order endpoints changed');
 need(registrationCards.filter(c=>c.examHitCount>0).length>=95,'registration-law exam-backed card count too low');
@@ -228,7 +228,7 @@ need(registrationCards.every(c=>Array.isArray(c.basis)&&c.basis.length>=1),'regi
 need(registrationCards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.importance<=5),'registration-law importance metadata invalid');
 for(const title of ['관련 사건 관할 특례','상속·유증 관할 특례','전자신청','등기정보자료']) need(registrationCards.find(c=>c.title===title)?.sourceKind==='official','current registration-law source must be official: '+title);
 need(registrationCards.find(c=>c.title==='전자신청')?.bullets.some(x=>x.includes('이동통신단말장치')),'registration electronic application must include current mobile rule');
-need(cardIndex.includes('data-registration.js?v=2.18'),'registration-law runtime shard must load before cards.js');
+need(cardIndex.includes('data-registration.js?v=2.19'),'registration-law runtime shard must load before cards.js');
 for(const title of ['국세','지방세','납세의무 성립','부과제척기간','징수권 소멸시효','연대납세의무','조세우선권','취득세','취득','과점주주 간주취득','취득당시가액','시가인정액','취득세 표준세율','등록면허세','재산세','재산세 과세기준일','재산세 공정시장가액비율','2026 1주택 공정비율','종합합산과세 토지','별도합산과세 토지','분리과세 토지','종합부동산세','주택분 종부세 기본공제','주택분 종부세 공정비율','소득세','부동산임대업 소득','양도소득세','양도소득세 과세대상','양도·취득시기','양도소득 계산구조','필요경비','장기보유특별공제','양도소득과세표준','양도소득 기본세율','단기보유 세율','미등기양도자산','비사업용 토지','다주택자 중과','1세대 1주택 비과세','고가주택 12억원 기준','증여재산 이월과세','양도소득 예정신고']) need(taxCards.some(c=>c.title===title),'required tax-law card missing: '+title);
 need(taxCards[0]?.title==='국세'&&taxCards[186]?.title==='국외자산 양도소득','tax-law order endpoints changed');
 need(taxCards.filter(c=>c.examHitCount>0).length>=50,'tax-law exam-backed card count too low');
@@ -237,7 +237,7 @@ need(taxCards.every(c=>Number.isInteger(c.importance)&&c.importance>=1&&c.import
 need(taxCards.find(c=>c.title==='양도소득 기본세율')?.bullets.some(x=>x.includes('45%')),'current tax basic rate missing 45%');
 need(taxCards.find(c=>c.title==='고가주택 12억원 기준')?.bullets.some(x=>x.includes('12억원')),'current high-home threshold missing 12억원');
 need(taxCards.find(c=>c.title==='증여재산 이월과세')?.bullets.some(x=>x.includes('10년')),'current gift carryover missing 10 years');
-need(cardIndex.includes('data-tax.js?v=2.18'),'tax-law runtime shard must load before cards.js');
+need(cardIndex.includes('data-tax.js?v=2.19'),'tax-law runtime shard must load before cards.js');
 need(!brokerageCards.some(c=>[c.title,c.subtitle,...c.bullets].join(' ').match(/60일|28시간|32시간|300명|600명|금치산자|한정치산자/)),'outdated brokerage rule leaked into runtime cards');
 need(bank.cards.some(c=>c.sourceKind!=='summary'),'supplemental-source cards missing');
 need(cardJs.includes('card.aliases||[]'),'alias search support missing');
