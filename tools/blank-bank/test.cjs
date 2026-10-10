@@ -232,14 +232,37 @@ checks+=1;
  assert.ok(qs[152].prompt.includes('통칭'));
  assert.ok(qs[164].prompt.includes('확충하는 유형'));
 }
+
+// v2.20: independently reviewed registration-law blanks with exact answer lock.
+{
+ const rows=readBank('registration_law').questions;
+ assert.equal(rows.length,220);
+ for(let n=1;n<=220;n++){
+  const q=rows[n-1];
+  assert.equal(q.id,'BLANK-05-'+String(n).padStart(3,'0'));
+  assert.equal(q.choices.length,4,q.id);
+  assert.equal(q.choices.filter(v=>v===q.answer).length,1,q.id);
+  assert.equal(new Set(q.choices).size,4,q.id);
+ }
+ assert.ok(rows[54].explanation.includes('등기관'));
+ assert.ok(!rows[105].choices.includes('전'));
+ assert.ok(!rows[142].choices.includes('부동산가격'));
+ assert.ok(!rows[150].choices.includes('등기 순서'));
+ assert.ok(!rows[151].choices.includes('등기 순서'));
+ assert.ok(!rows[177].choices.includes('상속'));
+ assert.ok(!rows[190].choices.includes('최고액'));
+ assert.ok(!rows[193].choices.includes('저당권'));
+ assert.ok(!rows[200].choices.includes('지역권'));
+ assert.ok(rows[200].explanation.includes('점유권'));
+}
 const html=fs.readFileSync(path.join(ROOT,'word-quiz/index.html'),'utf8');
 assert.ok(!html.includes('blank-bank-builder.js'));
 assert.ok(!html.includes('../summary/'));
 assert.match(html,/\?v=\d{8}-core-v\d+/);
-assert.ok(html.includes('20261010-blank-v28'));
-assert.ok(html.includes('blank-session.js?v=20261010-blank-v28'));
+assert.ok(html.includes('20261010-blank-v29'));
+assert.ok(html.includes('blank-session.js?v=20261010-blank-v29'));
 assert.ok(html.includes('answerSummarySection'));
-assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v28'));
+assert.ok(html.includes('blank-quiz.js?v=20261010-blank-v29'));
 checks+=6;
 
 const quizJs=fs.readFileSync(path.join(ROOT,'word-quiz/blank-quiz.js'),'utf8');
