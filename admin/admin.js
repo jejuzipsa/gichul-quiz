@@ -2,10 +2,22 @@
 'use strict';
 const API='https://gichul-law-api.vercel.app/api/admin-auth';
 const SESSION_KEY='gichulAdminSession';
+const DEVICE_KEY='gichulAdminDeviceId';
+const LOG_API='https://gichul-law-api.vercel.app/api/admin-logs';
 const $=id=>document.getElementById(id);
 const codes=new Set(['real_estate_intro','civil_law','brokerage_law','public_law','registration_law','tax_law']);
 const notice=$('adminNotice'),dashboard=$('adminDashboard'),logout=$('adminLogout'),status=$('authStatus');
 let token='';
+let recentLoginFlags=null;
+function getDeviceId(){
+  try{
+    let id=localStorage.getItem(DEVICE_KEY);
+    if(id && /^[a-f0-9-]{32,64}$/i.test(id))return id;
+    id=crypto.randomUUID();
+    localStorage.setItem(DEVICE_KEY,id);
+    return id;
+  }catch{return ''}
+}
 try{token=sessionStorage.getItem(SESSION_KEY)||''}catch(_){}
 function saveSession(next){
   token=next;
@@ -51,18 +63,29 @@ $('adminLoginForm').addEventListener('submit',async event=>{
   button.disabled=true;
   status.textContent='로그인 확인 중…';
   try{
-    const result=await request(API+'?mode=login',{method:'POST',body:JSON.stringify({username:'admin',password})});
+    const result=await request(API+'?mode=login',{method:'POST',body:JSON.stringify({username:'admin',password,deviceId:getDeviceId()})});
     saveSession(result.session);
+    recentLoginFlags=result.security||null;
     $('adminPassword').value='';
     await initializeDashboard();
   }catch(error){
     showLogin(errorMessage(error.message),error.message==='ADMIN_NOT_CONFIGURED');
   }finally{button.disabled=false}
 });
-logout.addEventListener('click',()=>{
+logout.addEventListener('click',async()=>{
+  const prior=token;
   saveSession('');
+  recentLoginFlags=null;
   $('adminPasswordForm').reset();
   showLogin('관리자 계정에서 로그아웃했어.');
+  if(prior){
+    try{
+      await request(API+'?mode=logout',{method:'POST',
+        headers:{Authorization:'Bearer '+prior},body:'{}'});
+    }catch{
+      showLogin('로그아웃했지만 서버 세션 폐기에 실패했어. 보안이 걱정된다면 비밀번호를 변경해 줘.');
+    }
+  }
 });
 $('adminPasswordForm').addEventListener('submit',async event=>{
   event.preventDefault();
@@ -197,11 +220,73 @@ async function populateVersion(){
     if(typeof json.version==='string')$('adminVersion').textContent='v'+json.version;
   }catch(_){}
 }
+
+function tableRow(cells) {
+  const row=document.createElement('tr');
+  for(const c of cells){
+    const td=document.createElement('td');
+    td.textContent=c;
+    row.appendChild(td);
+  }
+  return row;
+}
+function dateKst(stamp){
+  const time=new Date(stamp);
+  if(!Number.isFinite(time.valueOf()))return '—';
+  return time.toLocaleString('ko-KR',{timeZone:'Asia/Seoul',
+    year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+}
+function eventName(event){
+  switch(event.kind){
+    case 'login_success':return '로그인 성공'+(event.newDevice?' · 새 기기':'')+(event.newIp?' · 새 IP':'');
+    case 'login_failed':return '로그인 실패';
+    case 'password_changed':return '비밀번호 변경';
+    case 'logout':return '로그아웃';
+    default:return '관리자 이벤트';
+  }
+}
+async function populateLogs(){
+  const status=$('adminLogStatus');
+  status.textContent='접속 기록을 읽고 있어…';
+  try{
+    const data=await request(LOG_API,{headers:{Authorization:'Bearer '+token}});
+    for(const [id,count] of [['visitorsToday',data.today],['visitorsWeek',data.week],['visitorsMonth',data.month]]){
+      $(id).textContent=Number(count||0).toLocaleString('ko-KR');
+    }
+    const visitors=(Array.isArray(data.visitors)?data.visitors:[]).slice(0,50);
+    const admin=(Array.isArray(data.admin)?data.admin:[]).slice(0,80);
+    $('visitorLogRows').replaceChildren(...(
+      visitors.length?visitors.map(e=>tableRow([dateKst(e.time),e.ip||'—',
+        [e.os,e.browser].filter(Boolean).join(' / ')])):[tableRow(['아직 기록이 없어.','—','—'])]
+    ));
+    $('adminLogRows').replaceChildren(...(
+      admin.length?admin.map(e=>tableRow([dateKst(e.time),eventName(e),e.ip||'—',
+        [e.os,e.browser].filter(Boolean).join(' / ')])):[tableRow(['아직 기록이 없어.','—','—','—'])]
+    ));
+    const warning=$('adminSecurityWarning');
+    const unknown=admin.filter(e=>e.kind==='login_success'&&(e.newDevice||e.newIp));
+    if(recentLoginFlags?.newDevice||recentLoginFlags?.newIp){
+      warning.textContent='이번 관리자 로그인은 '+[
+        recentLoginFlags.newDevice?'처음 보는 브라우저':'',
+        recentLoginFlags.newIp?'처음 보는 IP':''
+      ].filter(Boolean).join('·')+'에서 확인됐어. 본인 접속인지 확인해 줘.';
+      warning.hidden=false;
+    }else if(unknown.length){
+      warning.textContent='최근 관리자 로그인 중 신규 기기·IP 표시가 '+unknown.length+'건 있어. 아래 보안 기록을 확인해 줘.';
+      warning.hidden=false;
+    }else{warning.hidden=true}
+    status.textContent='방문 로그는 같은 IP·브라우저 조합을 한국 날짜 기준 하루 한 번만 저장해. 기록은 약 30일 보관하며 페이지 이동은 추적하지 않아.';
+  }catch(error){
+    status.textContent='접속 기록을 불러오지 못했어. '+errorMessage(error.message);
+  }
+}
+$('refreshVisitLogs').addEventListener('click',()=>populateLogs());
+
 async function initializeDashboard(){
   const result=await request(API,{headers:{Authorization:'Bearer '+token}});
   showDashboard();
   $('adminIdentity').textContent='로그인 계정: '+result.username;
-  await Promise.all([populateVersion(),populateCounts(),populatePatchNotes()]);
+  await Promise.all([populateVersion(),populateCounts(),populatePatchNotes(),populateLogs()]);
 }
 async function bootstrap(){
   if(!token){showLogin('');return}
