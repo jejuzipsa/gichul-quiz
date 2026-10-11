@@ -2,19 +2,19 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.28">
+  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.29">
   <meta name="theme-color" content="#080d18">
-  <link rel="icon" type="image/png" href="../assets/property-icon.png?v=2.28">
+  <link rel="icon" type="image/png" href="../assets/property-icon.png?v=2.29">
   <title>사이트 관리 | 공인중개사 기출문제</title>
   <script>try{const t=localStorage.getItem('gichulQuizTheme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:'dark'}catch(_){document.documentElement.dataset.theme='dark'}</script>
-  <link rel="stylesheet" href="../styles.css?v=2.28">
-  <link rel="stylesheet" href="admin.css?v=2.28">
+  <link rel="stylesheet" href="../styles.css?v=2.29">
+  <link rel="stylesheet" href="admin.css?v=2.29">
 </head>
 <body>
 <main class="admin-shell">
   <header class="admin-topbar">
     <a class="admin-back" href="../">← 홈</a>
-    <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.28" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
+    <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.29" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
     <button id="adminLogout" class="admin-logout" type="button" hidden>로그아웃</button>
   </header>
   <section id="adminNotice" class="admin-login-state" aria-labelledby="adminLoginTitle">
@@ -29,6 +29,35 @@
     </form>
     <p id="authStatus" role="status" aria-live="polite"></p>
     <p id="adminSetupHint" class="admin-info-small" hidden>아직 관리자 인증 서버가 설정되지 않았어. Vercel 환경변수와 저장소를 연결하면 로그인할 수 있어.</p>
+  </section>
+  <section id="adminMfa" class="admin-login-state" hidden aria-labelledby="mfaTitle">
+    <h2 id="mfaTitle">관리자 2단계 인증</h2>
+    <p id="mfaGuide" class="admin-info-small">Microsoft Authenticator에서 확인한 6자리 코드를 입력해.</p>
+    <div id="mfaSetupInstructions" class="admin-mfa-key" hidden>
+      <p>Microsoft Authenticator → 계정 추가 (+) → 기타 계정 → <strong>수동으로 코드 입력</strong></p>
+      <p>계정 이름: <strong>공인중개사 사이트 (admin)</strong></p>
+      <label for="mfaSecret">비밀 키 · 최초 등록할 때만 표시</label>
+      <div class="admin-mfa-secret-row">
+        <input id="mfaSecret" type="text" readonly spellcheck="false" autocomplete="off">
+        <button type="button" id="copyMfaSecret" class="admin-primary">키 복사</button>
+      </div>
+      <p class="admin-info-small">이 키는 절대로 다른 사람에게 보내지 마. QR 생성 사이트에도 입력하면 안 돼.</p>
+    </div>
+    <form id="adminMfaForm" class="admin-login-form">
+      <label for="mfaCode">인증 앱 6자리 코드 또는 일회용 복구 코드</label>
+      <input id="mfaCode" type="text" required inputmode="text" autocomplete="one-time-code" autocapitalize="characters" spellcheck="false" placeholder="인증 코드">
+      <button id="adminMfaBtn" class="admin-primary" type="submit">2단계 인증 확인</button>
+    </form>
+    <p id="mfaStatus" role="status" aria-live="polite"></p>
+    <button type="button" id="cancelMfa" class="admin-refresh-btn">로그인 화면으로 돌아가기</button>
+  </section>
+  <section id="adminRecovery" class="admin-login-state" hidden aria-labelledby="adminRecoveryTitle">
+    <h2 id="adminRecoveryTitle">일회용 복구 코드</h2>
+    <p class="admin-info-small">아래 복구 코드 8개는 지금 한 번만 보여줘. Microsoft Authenticator를 잃어버리면 이 중 하나로 로그인할 수 있어. 코드마다 한 번만 사용할 수 있어.</p>
+    <pre id="adminRecoveryCodes" class="admin-recovery-list"></pre>
+    <button type="button" id="copyRecoveryCodes" class="admin-primary">복구 코드 복사</button>
+    <label class="admin-recovery-confirm"><input type="checkbox" id="savedRecoveryCodes"> 복구 코드를 안전한 곳에 저장했어</label>
+    <button type="button" id="finishRecovery" class="admin-primary" disabled>관리자 화면으로 이동</button>
   </section>
   <div id="adminDashboard" hidden>
     <div class="admin-welcome">
@@ -80,6 +109,16 @@
       <div class="admin-section-head"><h2 id="adminPatchTitle">최근 패치 기록</h2><a href="../PATCH_NOTES.txt" target="_blank" rel="noopener noreferrer">전체 패치노트 보기 ↗</a></div>
       <div id="adminPatchList" class="admin-patches"><p>패치 기록을 읽는 중…</p></div>
     </section>
+    <section class="admin-section" aria-labelledby="adminMfaManageTitle">
+      <div class="admin-section-head"><h2 id="adminMfaManageTitle">2단계 인증 · 복구 코드</h2></div>
+      <p class="admin-info-small">Microsoft Authenticator를 잃어버릴 경우에 대비해 새로운 복구 코드 8개를 다시 만들 수 있어. 기존 복구 코드는 모두 무효가 돼.</p>
+      <form id="adminRegenerateForm" class="admin-login-form admin-password-form">
+        <label for="regenPassword">현재 관리자 비밀번호</label>
+        <input id="regenPassword" type="password" required autocomplete="current-password">
+        <button id="adminRegenerateBtn" type="submit" class="admin-primary">복구 코드 재발급</button>
+        <p id="adminRegenerateStatus" role="status" class="admin-info-small"></p>
+      </form>
+    </section>
     <section class="admin-section" aria-labelledby="adminPasswordTitle">
       <div class="admin-section-head"><h2 id="adminPasswordTitle">관리자 비밀번호 변경</h2></div>
       <form id="adminPasswordForm" class="admin-login-form admin-password-form">
@@ -100,10 +139,10 @@
         <a href="https://vercel.com/jejuzipsa/gichul-law-api" target="_blank" rel="noopener noreferrer">Vercel 법령 API ↗</a>
         <a href="../law-search/">법령 검색 확인 ↗</a>
       </div>
-      <p class="admin-info-small">방문자 로그는 아직 수집하지 않아. 별도 저장소와 보관 정책을 정한 뒤 연결할 수 있어.</p>
+      <p class="admin-info-small">방문 기록과 관리자 보안 로그는 서버 API에 저장하고, 인증된 관리자에게만 표시해.</p>
     </section>
   </div>
 </main>
-<script src="admin.js?v=2.28"></script>
+<script src="admin.js?v=2.29"></script>
 </body>
 </html>

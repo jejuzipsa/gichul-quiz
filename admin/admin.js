@@ -4,10 +4,14 @@ const API='https://gichul-law-api.vercel.app/api/admin-auth';
 const SESSION_KEY='gichulAdminSession';
 const DEVICE_KEY='gichulAdminDeviceId';
 const LOG_API='https://gichul-law-api.vercel.app/api/admin-logs';
+const MFA_API='https://gichul-law-api.vercel.app/api/admin-mfa';
 const $=id=>document.getElementById(id);
 const codes=new Set(['real_estate_intro','civil_law','brokerage_law','public_law','registration_law','tax_law']);
 const notice=$('adminNotice'),dashboard=$('adminDashboard'),logout=$('adminLogout'),status=$('authStatus');
 let token='';
+let mfaChallenge='';
+let mfaMode='';
+let displayedCodes=[];
 let recentLoginFlags=null;
 function getDeviceId(){
   try{
@@ -25,6 +29,10 @@ function saveSession(next){
 }
 function showLogin(message,setup=false){
   dashboard.hidden=true;
+  $('adminMfa').hidden=true;
+  $('adminRecovery').hidden=true;
+  mfaChallenge='';
+  mfaMode='';
   notice.hidden=false;
   logout.hidden=true;
   $('adminSetupHint').hidden=!setup;
@@ -32,6 +40,8 @@ function showLogin(message,setup=false){
 }
 function showDashboard(){
   notice.hidden=true;
+  $('adminMfa').hidden=true;
+  $('adminRecovery').hidden=true;
   dashboard.hidden=false;
   logout.hidden=false;
 }
@@ -45,7 +55,13 @@ function errorMessage(error){
     PASSWORD_LENGTH:'비밀번호는 12~128자로 설정해 줘.',
     AUTH_REQUIRED:'로그인 시간이 만료됐어. 다시 로그인해 줘.',
     STORE_UNAVAILABLE:'관리자 인증 저장소에 연결할 수 없어. 잠시 뒤 다시 시도해 줘.',
-    ORIGIN_NOT_ALLOWED:'허용되지 않은 관리자 접속 주소야.'
+    ORIGIN_NOT_ALLOWED:'허용되지 않은 관리자 접속 주소야.',
+    INVALID_MFA_CODE:'OTP 또는 복구 코드가 맞지 않아.',
+    MFA_CODE_USED:'이미 사용된 OTP야. 다음 30초 코드를 입력해 줘.',
+    MFA_TOO_MANY_ATTEMPTS:'OTP 시도가 너무 많아. 비밀번호부터 다시 로그인해 줘.',
+    MFA_CHALLENGE_EXPIRED:'OTP 인증 시간이 만료됐어. 비밀번호부터 다시 로그인해 줘.',
+    MFA_SETUP_EXPIRED:'OTP 등록 시간이 끝났어. 비밀번호부터 다시 로그인해 줘.',
+    MFA_ALREADY_ENABLED:'OTP가 이미 활성화되어 있어. 다시 로그인해 줘.'
   };
   return messages[error]||'처리 중 오류가 발생했어. 잠시 뒤 다시 시도해 줘.';
 }
@@ -64,10 +80,31 @@ $('adminLoginForm').addEventListener('submit',async event=>{
   status.textContent='로그인 확인 중…';
   try{
     const result=await request(API+'?mode=login',{method:'POST',body:JSON.stringify({username:'admin',password,deviceId:getDeviceId()})});
-    saveSession(result.session);
-    recentLoginFlags=result.security||null;
     $('adminPassword').value='';
-    await initializeDashboard();
+    if(result.mfaRequired){
+      mfaChallenge=result.challenge;
+      mfaMode=result.mfaMode;
+      if(mfaMode==='setup'){
+        const setup=await request(MFA_API+'?mode=start',{
+          method:'POST',body:JSON.stringify({challenge:mfaChallenge})
+        });
+        $('mfaSecret').value=setup.secret||'';
+        $('mfaSetupInstructions').hidden=false;
+        $('mfaGuide').textContent='Microsoft Authenticator에 아래 비밀 키를 수동 등록하고 6자리 코드를 입력해 줘.';
+      }else{
+        $('mfaSecret').value='';
+        $('mfaSetupInstructions').hidden=true;
+        $('mfaGuide').textContent='Microsoft Authenticator의 6자리 코드 또는 저장한 복구 코드를 입력해 줘.';
+      }
+      notice.hidden=true;
+      dashboard.hidden=true;
+      $('adminMfa').hidden=false;
+      $('mfaCode').value='';
+      $('mfaStatus').textContent='';
+      return;
+    }
+    // Fail closed when the server does not enforce two-factor authentication.
+    showLogin('서버의 OTP 보안 업데이트가 아직 배포되지 않았어. 잠시 후 다시 시도해 줘.');
   }catch(error){
     showLogin(errorMessage(error.message),error.message==='ADMIN_NOT_CONFIGURED');
   }finally{button.disabled=false}
@@ -111,6 +148,89 @@ $('adminPasswordForm').addEventListener('submit',async event=>{
     if(error.message==='AUTH_REQUIRED') {saveSession('');showLogin('세션이 만료됐어. 다시 로그인해 줘.')}
   }finally{button.disabled=false}
 });
+
+function showRecovery(codes){
+  displayedCodes=Array.isArray(codes)?codes:[];
+  dashboard.hidden=true;
+  notice.hidden=true;
+  $('adminMfa').hidden=true;
+  $('adminRecovery').hidden=false;
+  $('adminRecoveryCodes').textContent=displayedCodes.map((c,i)=>(i+1)+'. '+c).join('\n');
+  $('savedRecoveryCodes').checked=false;
+  $('finishRecovery').disabled=true;
+}
+$('copyMfaSecret').addEventListener('click',async()=>{
+  const secret=$('mfaSecret').value;
+  if(!secret)return;
+  try{await navigator.clipboard.writeText(secret);
+    $('mfaStatus').textContent='비밀 키를 복사했어. 사용 후 클립보드 기록을 정리하는 게 좋아.';
+  }catch{$('mfaStatus').textContent='복사할 수 없어. 비밀 키를 직접 입력해 줘.'}
+});
+$('cancelMfa').addEventListener('click',()=>{
+  $('mfaSecret').value='';
+  $('mfaCode').value='';
+  showLogin('OTP 단계가 취소됐어. 다시 로그인해 줘.');
+});
+$('adminMfaForm').addEventListener('submit',async event=>{
+  event.preventDefault();
+  const btn=$('adminMfaBtn');
+  const code=$('mfaCode').value.trim();
+  const mode=mfaMode==='setup'?'confirm':'verify';
+  btn.disabled=true;
+  $('mfaStatus').textContent='2단계 인증 확인 중…';
+  try{
+    const result=await request(MFA_API+'?mode='+mode,{
+      method:'POST',body:JSON.stringify({challenge:mfaChallenge,code})
+    });
+    saveSession(result.session);
+    recentLoginFlags=result.security||null;
+    mfaChallenge='';
+    $('mfaCode').value='';
+    $('mfaSecret').value='';
+    if(result.recoveryCodes){showRecovery(result.recoveryCodes);}
+    else{await initializeDashboard();}
+  }catch(error){
+    $('mfaStatus').textContent=errorMessage(error.message);
+    if(error.message==='MFA_CHALLENGE_EXPIRED'||error.message==='MFA_TOO_MANY_ATTEMPTS'){
+      showLogin(errorMessage(error.message));
+    }
+  }finally{btn.disabled=false}
+});
+$('copyRecoveryCodes').addEventListener('click',async()=>{
+  const codes=displayedCodes.join('\n');
+  if(!codes)return;
+  try{await navigator.clipboard.writeText(codes);}
+  catch{$('adminRecoveryTitle').textContent='복사 실패 · 코드를 직접 저장해 줘.'}
+});
+$('savedRecoveryCodes').addEventListener('change',event=>{
+  $('finishRecovery').disabled=!event.target.checked;
+});
+$('finishRecovery').addEventListener('click',async()=>{
+  if(!$('savedRecoveryCodes').checked)return;
+  displayedCodes=[];
+  $('adminRecoveryCodes').textContent='';
+  await initializeDashboard().catch(e=>{
+    showLogin(errorMessage(e.message));saveSession('');
+  });
+});
+$('adminRegenerateForm').addEventListener('submit',async event=>{
+  event.preventDefault();
+  const button=$('adminRegenerateBtn');
+  const status=$('adminRegenerateStatus');
+  button.disabled=true;
+  status.textContent='새 복구 코드를 만드는 중…';
+  try{
+    const r=await request(MFA_API+'?mode=regenerate',{
+      method:'POST',
+      headers:{Authorization:'Bearer '+token},
+      body:JSON.stringify({password:$('regenPassword').value})
+    });
+    $('regenPassword').value='';
+    showRecovery(r.recoveryCodes);
+  }catch(error){status.textContent=errorMessage(error.message)}
+  finally{button.disabled=false}
+});
+
 function loadScript(path){
   return new Promise((resolve,reject)=>{
     const tag=document.createElement('script');
@@ -242,6 +362,10 @@ function eventName(event){
     case 'login_failed':return '로그인 실패';
     case 'password_changed':return '비밀번호 변경';
     case 'logout':return '로그아웃';
+    case 'mfa_enabled':return '관리자 OTP 활성화';
+    case 'mfa_failed':return 'OTP 인증 실패';
+    case 'recovery_used':return '복구 코드로 로그인';
+    case 'recovery_regenerated':return '복구 코드 재발급';
     default:return '관리자 이벤트';
   }
 }

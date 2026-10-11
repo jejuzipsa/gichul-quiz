@@ -2052,7 +2052,6 @@ body[data-reading-size="large"] {
   .copyright-detail{display:none}
 }
 
-
 /* Mobile topbar fit: text yields space to controls rather than wrapping behind them. */
 .topbar-title-wrap {
   flex: 1 1 auto;
