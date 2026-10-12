@@ -15,6 +15,7 @@ let sessionTick=null;
 let activityDebounce=null;
 let lastActivitySent=0;
 let activityInFlight=false;
+let activityPending=false;
 let sessionExpired=false;
 const codes=new Set(['real_estate_intro','civil_law','brokerage_law','public_law','registration_law','tax_law']);
 const notice=$('adminNotice'),dashboard=$('adminDashboard'),logout=$('adminLogout'),status=$('authStatus');
@@ -43,6 +44,7 @@ function showLogin(message,setup=false){
   if(sessionTick){clearInterval(sessionTick);sessionTick=null}
   if(activityDebounce){clearTimeout(activityDebounce);activityDebounce=null}
   lastActivitySent=0;
+  activityPending=false;
   sessionExpired=false;
   sessionStatus.textContent='';
   dashboard.hidden=true;
@@ -128,8 +130,10 @@ function renderSessionTimer(){
   if(ms<=0)handleSessionExpired();
 }
 async function reportActivity(){
-  if(!token||!clock.ready||activityInFlight)return;
+  if(!token||!clock.ready)return;
+  if(activityInFlight){activityPending=true;return}
   activityInFlight=true;
+  activityPending=false;
   const currentToken=token;
   const initiatedAt=Date.now();
   lastActivitySent=initiatedAt;
@@ -143,7 +147,10 @@ async function reportActivity(){
   }catch(error){
     if(error.message==='AUTH_REQUIRED'&&token===currentToken)handleSessionExpired();
     else if(token===currentToken)sessionStatus.textContent='활동 기록을 서버와 동기화하지 못했어. 연결 상태를 확인해 줘.';
-  }finally{activityInFlight=false}
+  }finally{
+    activityInFlight=false;
+    if(activityPending&&token===currentToken){activityPending=false;void reportActivity()}
+  }
 }
 function noteUserActivity(event){
   if(event.isTrusted===false||!token||!clock.ready||dashboard.hidden)return;
