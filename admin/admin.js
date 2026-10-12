@@ -5,6 +5,16 @@ const SESSION_KEY='gichulAdminSession';
 const DEVICE_KEY='gichulAdminDeviceId';
 const LOG_API='https://gichul-law-api.vercel.app/api/admin-logs';
 const MFA_API='https://gichul-law-api.vercel.app/api/admin-mfa';
+const THEME_KEY='gichulQuizTheme';
+const clock=new window.AdminSessionClock.SessionClock();
+const sessionControls=$('adminSessionControls');
+const countdown=$('adminSessionTimer');
+const sessionStatus=$('adminSessionStatus');
+let sessionTick=null;
+let activityDebounce=null;
+let lastActivitySent=0;
+let activityInFlight=false;
+let sessionExpired=false;
 const $=id=>document.getElementById(id);
 const codes=new Set(['real_estate_intro','civil_law','brokerage_law','public_law','registration_law','tax_law']);
 const notice=$('adminNotice'),dashboard=$('adminDashboard'),logout=$('adminLogout'),status=$('authStatus');
@@ -28,6 +38,13 @@ function saveSession(next){
   try{if(next)sessionStorage.setItem(SESSION_KEY,next);else sessionStorage.removeItem(SESSION_KEY)}catch(_){}
 }
 function showLogin(message,setup=false){
+  sessionControls.hidden=true;
+  clock.clear();
+  if(sessionTick){clearInterval(sessionTick);sessionTick=null}
+  if(activityDebounce){clearTimeout(activityDebounce);activityDebounce=null}
+  lastActivitySent=0;
+  sessionExpired=false;
+  sessionStatus.textContent='';
   dashboard.hidden=true;
   $('adminMfa').hidden=true;
   $('adminRecovery').hidden=true;
@@ -39,6 +56,9 @@ function showLogin(message,setup=false){
   status.textContent=message||'';
 }
 function showDashboard(){
+  sessionControls.hidden=false;
+  if(!sessionTick)sessionTick=setInterval(renderSessionTimer,1000);
+  renderSessionTimer();
   notice.hidden=true;
   $('adminMfa').hidden=true;
   $('adminRecovery').hidden=true;
@@ -53,7 +73,7 @@ function errorMessage(error){
     INVALID_CURRENT_PASSWORD:'현재 비밀번호가 일치하지 않아.',
     PASSWORD_UNCHANGED:'새 비밀번호는 현재 비밀번호와 달라야 해.',
     PASSWORD_LENGTH:'비밀번호는 12~128자로 설정해 줘.',
-    AUTH_REQUIRED:'로그인 시간이 만료됐어. 다시 로그인해 줘.',
+    AUTH_REQUIRED:'로그인이 만료됐어. 다시 로그인해 줘.',
     STORE_UNAVAILABLE:'관리자 인증 저장소에 연결할 수 없어. 잠시 뒤 다시 시도해 줘.',
     ORIGIN_NOT_ALLOWED:'허용되지 않은 관리자 접속 주소야.',
     INVALID_MFA_CODE:'OTP 또는 복구 코드가 맞지 않아.',
@@ -72,6 +92,99 @@ async function request(url,options={}){
   if(!res.ok){const e=new Error(body.error||'NETWORK_ERROR');e.status=res.status;throw e}
   return body;
 }
+
+function applyAdminTheme(theme,persist=true){
+  const next=theme==='light'?'light':'dark';
+  document.documentElement.dataset.theme=next;
+  document.documentElement.style.colorScheme=next;
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content',next==='dark'?'#080d18':'#f5f7fb');
+  const btn=$('adminThemeToggle');
+  btn.setAttribute('aria-pressed',next==='dark'?'true':'false');
+  btn.setAttribute('aria-label',next==='dark'?'라이트모드 켜기':'다크모드 켜기');
+  btn.title=next==='dark'?'라이트모드 켜기':'다크모드 켜기';
+  if(persist)try{localStorage.setItem(THEME_KEY,next)}catch{}
+}
+$('adminThemeToggle').addEventListener('click',()=>{
+  applyAdminTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+});
+applyAdminTheme(document.documentElement.dataset.theme,false);
+
+function handleSessionExpired(){
+  if(sessionExpired||!token)return;
+  sessionExpired=true;
+  saveSession('');
+  recentLoginFlags=null;
+  showLogin('누적된 미사용 시간이 10분에 도달해 자동으로 로그아웃됐어.');
+}
+function renderSessionTimer(){
+  if(!token||!clock.ready)return;
+  const ms=clock.remaining();
+  countdown.textContent=clock.format();
+  countdown.classList.toggle('running',clock.isCounting());
+  countdown.classList.toggle('session-low',ms<=120000);
+  countdown.title=clock.isCounting()?
+    '미사용 시간 누적 중 · 새로운 행동을 하면 멈춰':
+    '활동 중 또는 마지막 활동 후 30초 대기 · 남은 시간은 유지';
+  if(ms<=0)handleSessionExpired();
+}
+async function reportActivity(){
+  if(!token||!clock.ready||activityInFlight)return;
+  activityInFlight=true;
+  const currentToken=token;
+  const initiatedAt=Date.now();
+  lastActivitySent=initiatedAt;
+  try{
+    const result=await request(API+'?mode=activity',{
+      method:'POST',headers:{Authorization:'Bearer '+currentToken},body:'{}'
+    });
+    if(token!==currentToken)return;
+    // Do not roll back a newer local interaction with an older network response.
+    if(clock.lastActivityAt<=initiatedAt)clock.sync(result.sessionClock);
+  }catch(error){
+    if(error.message==='AUTH_REQUIRED'&&token===currentToken)handleSessionExpired();
+    else if(token===currentToken)sessionStatus.textContent='활동 기록을 서버와 동기화하지 못했어. 연결 상태를 확인해 줘.';
+  }finally{activityInFlight=false}
+}
+function noteUserActivity(event){
+  if(event.isTrusted===false||!token||!clock.ready||dashboard.hidden)return;
+  if(clock.remaining()<=0){handleSessionExpired();return}
+  clock.activity();
+  renderSessionTimer();
+  if(activityDebounce)clearTimeout(activityDebounce);
+  activityDebounce=setTimeout(()=>{
+    activityDebounce=null;
+    reportActivity();
+  },1100);
+  // During continuous input, synchronize periodically rather than once per keystroke.
+  if(Date.now()-lastActivitySent>=15000)reportActivity();
+}
+for(const type of ['pointerdown','keydown','input','scroll','touchstart']){
+  document.addEventListener(type,noteUserActivity,{passive:true,capture:true});
+}
+document.addEventListener('visibilitychange',()=>{
+  if(!document.hidden)renderSessionTimer();
+});
+$('adminSessionReset').addEventListener('click',async()=>{
+  const btn=$('adminSessionReset');
+  if(!token||!clock.ready)return;
+  btn.disabled=true;
+  sessionStatus.textContent='';
+  const currentToken=token;
+  try{
+    const result=await request(API+'?mode=reset',{
+      method:'POST',headers:{Authorization:'Bearer '+currentToken},body:'{}'
+    });
+    if(token===currentToken){
+      clock.sync(result.sessionClock);
+      renderSessionTimer();
+      sessionStatus.textContent='남은 미사용 시간을 10분으로 연장했어.';
+    }
+  }catch(error){
+    if(error.message==='AUTH_REQUIRED')handleSessionExpired();
+    else sessionStatus.textContent='연장에 실패했어. '+errorMessage(error.message);
+  }finally{btn.disabled=false}
+});
+
 $('adminLoginForm').addEventListener('submit',async event=>{
   event.preventDefault();
   const button=$('adminLoginBtn');
@@ -141,6 +254,7 @@ $('adminPasswordForm').addEventListener('submit',async event=>{
       body:JSON.stringify({currentPassword:current,newPassword:next})
     });
     saveSession(response.session);
+    if(response.sessionClock)clock.sync(response.sessionClock);
     $('adminPasswordForm').reset();
     status.textContent='비밀번호가 변경됐어. 기존 로그인 세션은 무효화됐어.';
   }catch(error){
@@ -408,6 +522,7 @@ $('refreshVisitLogs').addEventListener('click',()=>populateLogs());
 
 async function initializeDashboard(){
   const result=await request(API,{headers:{Authorization:'Bearer '+token}});
+  if(!clock.sync(result.sessionClock))throw new Error('AUTH_REQUIRED');
   showDashboard();
   $('adminIdentity').textContent='로그인 계정: '+result.username;
   await Promise.all([populateVersion(),populateCounts(),populatePatchNotes(),populateLogs()]);
