@@ -393,7 +393,7 @@ test('admin home link awaits authenticated departure before navigating',()=>{
   assert.match(js,/event\.target\?\.closest\?\.\('a\.admin-back'\)/);
   assert.match(js,/homeLink\.addEventListener\('click',async event=>/);
   assert.match(js,/event\.preventDefault\(\)/);
-  assert.match(js,/await Promise\.race\(\[leaveAdmin\(\)/);
+  assert.match(js,/await Promise\.race\(\[leaveAdmin\(\{keepalive:true\}\)/);
   assert.match(js,/window\.location\.assign\(homeLink\.href\)/);
   assert.match(js,/window\.addEventListener\('pagehide'/);
   assert.match(js,/document\.addEventListener\('visibilitychange'/);
