@@ -51,7 +51,7 @@ function redisMock(t){
         const left=Math.max(0,Number(state.b)-Math.max(0,Number(nowMs)-Number(state.a)-Number(graceMs)));
         if(left<=0){kv.delete(sessionKey);result=[0,0];break}
         state.b=mode==='reset'?Number(budgetMs):left;
-        state.a=Number(nowMs);
+        state.a=Number(nowMs)-(mode==='leave'?Number(graceMs):0);
         kv.set(sessionKey,JSON.stringify(state));
         result=[1,Math.floor(state.b)];
         break;
@@ -361,4 +361,42 @@ test('admin topbar maintains timer → extension → theme → logout and reload
   assert.ok(js.includes('applyAdminTheme'));
   assert.ok(css.includes('.admin-top-actions'));
   assert.ok(clockSrc.includes('this.bankMs=this.remaining(now)'));
+});
+
+
+test('leaving admin immediately skips 30s grace, while return retains unused budget',async t=>{
+  withEnv(t);const db=redisMock(t);
+  const {session}=await enroll();
+  const cfg=auth.config(),hash=await auth.currentHash(cfg);
+  const key=auth.sessionKey(session);
+  const initial=JSON.parse(db.kv.get(key));
+  const departure=initial.a+20000;
+  const left=await auth.sessionAction(session,hash,cfg,'leave',departure);
+  assert.equal(left.remainingMs,600000,'leaving within grace does not spend time yet');
+  assert.equal(left.ageMs,30000,'departure instantly exhausts the grace period');
+  const leftState=JSON.parse(db.kv.get(key));
+  assert.equal(leftState.a,departure-30000);
+  assert.equal(auth.sessionClock(leftState,departure+1000).remainingMs,599000);
+  assert.equal(auth.sessionClock(leftState,departure+90000).remainingMs,510000);
+  const resumed=await auth.sessionAction(session,hash,cfg,'activity',departure+90000);
+  assert.equal(resumed.remainingMs,510000,'ordinary return does not restore ten minutes');
+  assert.equal(auth.sessionClock(db.kv.get(key),departure+91000).remainingMs,510000,
+    '30-second grace applies again only after renewed admin activity');
+  const nextLeave=await auth.sessionAction(session,hash,cfg,'leave',departure+91000);
+  assert.equal(nextLeave.remainingMs,510000);
+  assert.equal(auth.sessionClock(db.kv.get(key),departure+92000).remainingMs,509000);
+});
+
+test('admin home link awaits authenticated departure before navigating',()=>{
+  const js=fs.readFileSync(path.join(__dirname,'../../admin/admin.js'),'utf8');
+  const html=fs.readFileSync(path.join(__dirname,'../../admin/index.html'),'utf8');
+  assert.match(js,/event\.target\?\.closest\?\.\('a\.admin-back'\)/);
+  assert.match(js,/homeLink\.addEventListener\('click',async event=>/);
+  assert.match(js,/event\.preventDefault\(\)/);
+  assert.match(js,/await Promise\.race\(\[leaveAdmin\(\)/);
+  assert.match(js,/window\.location\.assign\(homeLink\.href\)/);
+  assert.match(js,/window\.addEventListener\('pagehide'/);
+  assert.match(js,/document\.addEventListener\('visibilitychange'/);
+  assert.match(js,/mode=leave/);
+  assert.match(html,/admin\.js\?v=2\.30&leave=1/);
 });
