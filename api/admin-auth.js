@@ -19,7 +19,9 @@ module.exports=async function handler(req,res){
   if(req.method==='GET'){
     const hash=await requireAdmin(req,res,c);
     if(!hash)return;
-    return respond(res,200,{authenticated:true,username:'admin'});
+    const clock=await auth.sessionInfo(bearer(req),hash,c);
+    if(!clock)return respond(res,401,{error:'AUTH_REQUIRED'});
+    return respond(res,200,{authenticated:true,username:'admin',sessionClock:clock});
   }
   if(req.method!=='POST')return respond(res,405,{error:'METHOD_NOT_ALLOWED'});
   let body;
@@ -44,6 +46,15 @@ module.exports=async function handler(req,res){
       });
     }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
   }
+  if(mode==='activity'||mode==='reset'){
+    const hash=await requireAdmin(req,res,c);
+    if(!hash)return;
+    try{
+      const clock=await auth.sessionAction(bearer(req),hash,c,mode);
+      if(!clock)return respond(res,401,{error:'AUTH_REQUIRED'});
+      return respond(res,200,{sessionClock:clock});
+    }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
+  }
   if(mode==='change-password'){
     const current=await requireAdmin(req,res,c);
     if(!current)return;
@@ -54,12 +65,16 @@ module.exports=async function handler(req,res){
     if(typeof body.newPassword!=='string'||body.newPassword.length<12||body.newPassword.length>128)
       return respond(res,400,{error:'PASSWORD_LENGTH'});
     try{
+      const clock=await auth.sessionInfo(bearer(req),current,c);
+      if(!clock)return respond(res,401,{error:'AUTH_REQUIRED'});
       const nextHash=createPasswordHash(body.newPassword);
       await redis(c,['SET',PASSWORD_KEY,nextHash]);
       await audit.recordAdminAction(c,req,'password_changed');
       // Password fingerprint makes all previous sessions invalid.
-      const session=await issueSession(nextHash,c);
-      return respond(res,200,{changed:true,session});
+      const session=await issueSession(nextHash,c,clock.remainingMs);
+      return respond(res,200,{changed:true,session,
+        sessionClock:{remainingMs:clock.remainingMs,bankMs:clock.remainingMs,ageMs:0,
+          graceMs:auth.SESSION_GRACE_MS}});
     }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
   }
   if(mode==='logout'){
