@@ -75,3 +75,94 @@ body{min-height:100vh}
 #finishRecovery:disabled{opacity:.45;cursor:not-allowed}
 #cancelMfa{margin-top:14px}
 @media(max-width:560px){.admin-mfa-secret-row{flex-wrap:wrap}.admin-mfa-secret-row input{flex:1 1 100%}.admin-mfa-secret-row button{width:100%}}
+
+
+/* v2.30 — admin topbar: cumulative idle budget, manual +10m reset and theme */
+.admin-topbar{
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr) auto;
+  align-items:center;
+  column-gap:14px;
+  row-gap:9px;
+}
+.admin-top-title{justify-self:center}
+.admin-top-actions{
+  display:flex;
+  align-items:center;
+  justify-self:end;
+  justify-content:flex-end;
+  gap:7px;
+  min-width:0;
+}
+.admin-session-controls{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  flex:0 0 auto;
+}
+.admin-session-timer{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:63px;
+  height:42px;
+  padding:0 6px;
+  border-radius:10px;
+  border:1px solid var(--line);
+  color:var(--text);
+  background:var(--surface-2);
+  font-size:15px;
+  font-weight:850;
+  line-height:1;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.02em;
+}
+.admin-session-timer.running{color:var(--primary)}
+.admin-session-timer.session-low{color:var(--bad);border-color:var(--bad)}
+.admin-extend-btn{
+  min-height:42px;
+  padding:0 10px;
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--surface);
+  color:var(--text);
+  font-size:12px;
+  font-weight:800;
+  white-space:nowrap;
+}
+.admin-extend-btn:hover{color:var(--primary);border-color:var(--primary)}
+.admin-extend-btn:disabled{opacity:.55;cursor:wait}
+.admin-theme-toggle{
+  width:42px;
+  min-width:42px;
+  height:42px;
+  border-radius:11px;
+  flex:0 0 42px;
+}
+.admin-top-actions .admin-logout{
+  min-height:42px;
+  padding:9px 12px;
+  white-space:nowrap;
+  flex:0 0 auto;
+}
+.admin-session-status{
+  margin:-20px 0 16px;
+  text-align:right;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.5;
+}
+.admin-session-status:empty{display:none}
+@media(max-width:850px){
+  .admin-topbar{grid-template-columns:auto minmax(0,1fr);row-gap:9px}
+  .admin-top-title{justify-self:end}
+  .admin-top-actions{grid-column:1 / -1;justify-self:end}
+}
+@media(max-width:400px){
+  .admin-top-actions{gap:5px}
+  .admin-session-controls{gap:5px}
+  .admin-session-timer{min-width:57px;height:40px;font-size:13px}
+  .admin-extend-btn{min-height:40px;padding:0 8px;font-size:11px}
+  .admin-theme-toggle{height:40px;width:40px;min-width:40px;flex-basis:40px}
+  .admin-top-actions .admin-logout{min-height:40px;padding:8px;font-size:11px}
+}

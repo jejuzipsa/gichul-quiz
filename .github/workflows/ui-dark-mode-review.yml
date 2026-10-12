@@ -27,6 +27,7 @@ jobs:
         run: node --test tools/ui/validate-mobile-header.test.cjs
       - name: Test administrator authentication and access logs
         run: |
+          node --check admin/session-clock.js
           node --check admin/admin.js
           node --check visit.js
           node --check lib/admin-mfa.js

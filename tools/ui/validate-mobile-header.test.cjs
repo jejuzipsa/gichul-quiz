@@ -34,9 +34,9 @@ test('JS auto-fits on width changes and resets font for wider screens',()=>{
 });
 test('CSS and JS cache-bust updated assets without affecting API version',()=>{
   const html=read('index.html'), v=JSON.parse(read('version.json'));
-  assert.equal(v.version,'2.29');
-  assert.match(html,/styles\.css\?v=2\.29&header=2/);
-  assert.match(html,/app\.js\?v=2\.29&header=1/);
+  assert.equal(v.version,'2.30');
+  assert.match(html,/styles\.css\?v=2\.30&header=2/);
+  assert.match(html,/app\.js\?v=2\.30&header=1/);
 });
 
 test('home footer shows business copyright instead of visit details',()=>{

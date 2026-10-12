@@ -42,6 +42,20 @@ function redisMock(t){
     const [cmd,key,...args]=JSON.parse(options.body);
     let result=null;
     switch(cmd){
+      case 'EVAL':{
+        const [,sessionKey,nowMs,graceMs,budgetMs,mode]=args;
+        const raw=kv.get(sessionKey);
+        if(!raw){result=[0,0];break}
+        let state;
+        try{state=JSON.parse(raw)}catch{result=[0,0];break}
+        const left=Math.max(0,Number(state.b)-Math.max(0,Number(nowMs)-Number(state.a)-Number(graceMs)));
+        if(left<=0){kv.delete(sessionKey);result=[0,0];break}
+        state.b=mode==='reset'?Number(budgetMs):left;
+        state.a=Number(nowMs);
+        kv.set(sessionKey,JSON.stringify(state));
+        result=[1,Math.floor(state.b)];
+        break;
+      }
       case 'GET':result=kv.has(key)?kv.get(key):null;break;
       case 'GETDEL':result=kv.has(key)?kv.get(key):null;kv.delete(key);break;
       case 'SET':{
@@ -265,4 +279,86 @@ test('visitor dedup and separate admin log still work after TOTP enrollment',asy
   assert.equal(stats.statusCode,200);
   assert.equal(stats.body.today,1);
   assert.ok(stats.body.admin.some(e=>e.kind==='mfa_enabled'));
+});
+
+
+test('server cumulative 10-minute inactivity budget pauses 30s and never silently resets',async t=>{
+  withEnv(t);
+  const db=redisMock(t);
+  const {session}=await enroll();
+  const cfg=auth.config(),hash=await auth.currentHash(cfg);
+  const key=auth.sessionKey(session);
+  const initial=JSON.parse(db.kv.get(key));
+  assert.equal(initial.b,600000);
+  assert.equal(auth.SESSION_IDLE_SECONDS,600);
+  assert.equal(auth.SESSION_GRACE_MS,30000);
+  assert.equal(auth.sessionClock(initial,initial.a+29999).remainingMs,600000);
+  assert.equal(auth.sessionClock(initial,initial.a+45000).remainingMs,585000);
+  assert.equal(auth.sessionClock(initial,initial.a+630000),null);
+  // Time-consuming reading of the page: 90 seconds of silence => 60 seconds charged.
+  const started=initial.a+90000;
+  let snapshot=await auth.sessionAction(session,hash,cfg,'activity',started);
+  assert.equal(snapshot.remainingMs,540000);
+  // Any next action after 45 seconds only consumes 15 MORE idle seconds.
+  snapshot=await auth.sessionAction(session,hash,cfg,'activity',started+45000);
+  assert.equal(snapshot.remainingMs,525000);
+  assert.equal(auth.sessionClock(db.kv.get(key),started+45001).remainingMs,525000);
+  // Manual +10-minute button is the only budget refill.
+  snapshot=await auth.sessionAction(session,hash,cfg,'reset',started+45010);
+  assert.equal(snapshot.remainingMs,600000);
+  // Expired time cannot be resurrected by a new activity OR by reset.
+  assert.equal(await auth.sessionAction(session,hash,cfg,'activity',started+45010+630001),null);
+  assert.equal(await auth.sessionAction(session,hash,cfg,'reset',started+45010+630002),null);
+  const access=await invoke(authApi,req('GET',{},null,{authorization:'Bearer '+session}));
+  assert.equal(access.statusCode,401);
+});
+test('session API reports remaining budget and rejects unauthenticated extension',async t=>{
+  withEnv(t);redisMock(t);
+  const {session}=await enroll();
+  const unauthorized=await invoke(authApi,req('POST',{mode:'reset'},{}));
+  assert.equal(unauthorized.statusCode,401);
+  const check=await invoke(authApi,req('GET',{},null,{authorization:'Bearer '+session}));
+  assert.equal(check.statusCode,200);
+  assert.ok(check.body.sessionClock.remainingMs>0);
+  assert.equal(check.body.sessionClock.graceMs,30000);
+  const activity=await invoke(authApi,req('POST',{mode:'activity'},{},{authorization:'Bearer '+session}));
+  assert.equal(activity.statusCode,200);
+  assert.equal(activity.body.sessionClock.bankMs,600000);
+  const reset=await invoke(authApi,req('POST',{mode:'reset'},{},{authorization:'Bearer '+session}));
+  assert.equal(reset.statusCode,200);
+  assert.equal(reset.body.sessionClock.remainingMs,600000);
+});
+test('browser clock pauses after input, resumes after 30s and resets only on explicit call',()=>{
+  const {SessionClock}=require('../../admin/session-clock.js');
+  const clock=new SessionClock();
+  clock.sync({bankMs:600000,ageMs:0,graceMs:30000},1000000);
+  assert.equal(clock.remaining(1029999),600000);
+  assert.equal(clock.isCounting(1029999),false);
+  assert.equal(clock.remaining(1031000),599000);
+  assert.equal(clock.isCounting(1031000),true);
+  assert.equal(clock.activity(1090000),540000);
+  assert.equal(clock.isCounting(1091000),false);
+  assert.equal(clock.remaining(1120000),540000);
+  assert.equal(clock.remaining(1140000),520000);
+  assert.equal(clock.activity(1140000),520000);
+  assert.equal(clock.remaining(1160000),520000);
+  assert.equal(clock.reset(1160000),600000);
+  assert.equal(clock.format(1160000),'10:00');
+});
+test('admin topbar maintains timer → extension → theme → logout and reloadable state',()=>{
+  const html=fs.readFileSync(path.join(__dirname,'../../admin/index.html'),'utf8');
+  const js=fs.readFileSync(path.join(__dirname,'../../admin/admin.js'),'utf8');
+  const css=fs.readFileSync(path.join(__dirname,'../../admin/admin.css'),'utf8');
+  const clockSrc=fs.readFileSync(path.join(__dirname,'../../admin/session-clock.js'),'utf8');
+  const ids=['adminSessionTimer','adminSessionReset','adminThemeToggle','adminLogout'];
+  const starts=ids.map(id=>html.indexOf('id="'+id+'"'));
+  assert.ok(starts.every(p=>p>=0));
+  assert.deepEqual(starts,[...starts].sort((a,b)=>a-b));
+  assert.ok(html.indexOf('session-clock.js?v=2.30')<html.indexOf('admin.js?v=2.30'));
+  assert.ok(js.includes('clock.sync(result.sessionClock)'));
+  assert.ok(js.includes("mode=activity"));
+  assert.ok(js.includes("mode=reset"));
+  assert.ok(js.includes('applyAdminTheme'));
+  assert.ok(css.includes('.admin-top-actions'));
+  assert.ok(clockSrc.includes('this.bankMs=this.remaining(now)'));
 });
