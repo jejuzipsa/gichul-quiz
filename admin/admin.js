@@ -153,6 +153,8 @@ async function reportActivity(){
   }
 }
 function noteUserActivity(event){
+  // Going home is an exit, not a new activity with a 30-second grace.
+  if(event.target?.closest?.('a.admin-back'))return;
   if(event.isTrusted===false||!token||!clock.ready||dashboard.hidden)return;
   if(clock.remaining()<=0){handleSessionExpired();return}
   clock.activity();
@@ -168,8 +170,57 @@ function noteUserActivity(event){
 for(const type of ['pointerdown','keydown','input','scroll','touchstart']){
   document.addEventListener(type,noteUserActivity,{passive:true,capture:true});
 }
+// The 30-second waiting period applies ONLY while the admin screen is active.
+// On Home navigation or when the admin tab is hidden, the server begins
+// charging the remaining budget immediately. We never reset it on return.
+let leavingAdmin=false;
+function leaveAdmin(options={}){
+  if(!token||!clock.ready||leavingAdmin)return Promise.resolve();
+  leavingAdmin=true;
+  if(activityDebounce){clearTimeout(activityDebounce);activityDebounce=null}
+  activityPending=false;
+  const currentToken=token;
+  return fetch(API+'?mode=leave',{
+    method:'POST',cache:'no-store',keepalive:!!options.keepalive,
+    headers:{'Content-Type':'application/json',Authorization:'Bearer '+currentToken},
+    body:'{}'
+  }).then(async response=>{
+    if(!response.ok)return;
+    const data=await response.json();
+    if(token===currentToken&&data.sessionClock)clock.sync(data.sessionClock);
+  }).catch(()=>{}).finally(()=>{leavingAdmin=false});
+}
+const homeLink=document.querySelector('a.admin-back');
+homeLink.addEventListener('click',async event=>{
+  if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  // Wait for the server to commit departure before loading Home.
+  await Promise.race([leaveAdmin(),new Promise(resolve=>setTimeout(resolve,1600))]);
+  window.location.assign(homeLink.href);
+});
+window.addEventListener('pagehide',()=>{
+  // Best effort for browser Back/Close/Refresh; no token in URL/body.
+  // Normal Home navigation is already awaited above.
+  void leaveAdmin({keepalive:true});
+});
 document.addEventListener('visibilitychange',()=>{
-  if(!document.hidden)renderSessionTimer();
+  if(document.hidden){
+    void leaveAdmin({keepalive:true});
+  }else{
+    renderSessionTimer();
+    // Reconcile the authoritative budget after the tab was in background.
+    if(token&&clock.ready){
+      const currentToken=token;
+      void request(API,{headers:{Authorization:'Bearer '+currentToken}})
+        .then(result=>{
+          if(token===currentToken&&result.sessionClock){
+            clock.sync(result.sessionClock);renderSessionTimer();
+          }
+        }).catch(error=>{
+          if(error.message==='AUTH_REQUIRED'&&token===currentToken)handleSessionExpired();
+        });
+    }
+  }
 });
 $('adminSessionReset').addEventListener('click',async()=>{
   const btn=$('adminSessionReset');
