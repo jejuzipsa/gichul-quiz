@@ -2,20 +2,30 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.29">
+  <meta name="referrer" content="no-referrer"><meta name="app-version" content="2.30">
   <meta name="theme-color" content="#080d18">
   <link rel="icon" type="image/png" href="../assets/property-icon.png?v=2.29">
   <title>사이트 관리 | 공인중개사 기출문제</title>
   <script>try{const t=localStorage.getItem('gichulQuizTheme');document.documentElement.dataset.theme=t==='light'||t==='dark'?t:'dark'}catch(_){document.documentElement.dataset.theme='dark'}</script>
   <link rel="stylesheet" href="../styles.css?v=2.29">
-  <link rel="stylesheet" href="admin.css?v=2.29">
+  <link rel="stylesheet" href="admin.css?v=2.30">
 </head>
 <body>
 <main class="admin-shell">
   <header class="admin-topbar">
     <a class="admin-back" href="../">← 홈</a>
     <div class="admin-top-title"><img src="../assets/property-icon.png?v=2.29" width="48" height="48" alt=""><h1>사이트 관리</h1></div>
-    <button id="adminLogout" class="admin-logout" type="button" hidden>로그아웃</button>
+    <div class="admin-top-actions">
+      <div id="adminSessionControls" class="admin-session-controls" hidden>
+        <time id="adminSessionTimer" class="admin-session-timer" aria-label="남은 미사용 시간" title="활동이 멈춘 30초 후부터 누적 차감">10:00</time>
+        <button id="adminSessionReset" class="admin-extend-btn" type="button" title="누적 미사용 시간을 10분으로 초기화">10분 연장</button>
+      </div>
+      <button id="adminThemeToggle" class="theme-toggle-btn admin-theme-toggle" type="button" aria-label="라이트모드 켜기" title="라이트모드 켜기" aria-pressed="true">
+        <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+        <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+      </button>
+      <button id="adminLogout" class="admin-logout" type="button" hidden>로그아웃</button>
+    </div>
   </header>
   <section id="adminNotice" class="admin-login-state" aria-labelledby="adminLoginTitle">
     <h2 id="adminLoginTitle">관리자 로그인</h2>
@@ -143,6 +153,7 @@
     </section>
   </div>
 </main>
-<script src="admin.js?v=2.29"></script>
+<script src="session-clock.js?v=2.30"></script>
+<script src="admin.js?v=2.30"></script>
 </body>
 </html>
