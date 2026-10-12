@@ -38,6 +38,20 @@ need(app.includes("location.href='core-cards/index.html'"),'core card navigation
 need(fs.existsSync(path.join(ROOT,'assets/core-card-icon.png')),'core card icon asset missing');
 for(const p of ['core-cards/index.html','core-cards/cards.css','core-cards/cards.js','core-cards/data.js','core-cards/data-public.js','core-cards/data-registration.js','core-cards/data-tax.js']) need(fs.existsSync(path.join(ROOT,p)),p+' missing');
 need(cardIndex.includes('id="cardGrid"')&&cardIndex.includes('id="prevBtn"')&&cardIndex.includes('id="nextBtn"'),'core card stage controls missing');
+
+need(cardIndex.includes('class="stage-nav prev" type="button" aria-label="이전 카드"><span class="stage-nav-icon" aria-hidden="true">‹</span>') &&
+  cardIndex.includes('class="stage-nav next" type="button" aria-label="다음 카드"><span class="stage-nav-icon" aria-hidden="true">›</span>'),
+  'desktop navigation must retain accessible prev/next labels and anchored chevron spans');
+need(/\.stage-nav\{[^}]*align-self:stretch;[^}]*height:auto;[^}]*\}/.test(cardCss),
+  'desktop nav rails must stretch to full card row height');
+need(/\.stage-nav-icon\{[^}]*top:min\(50%,300px\);[^}]*\}/.test(cardCss),
+  'desktop chevrons must be anchored at a stable distance from card top');
+need(/@media\(max-width:760px\)\{[\s\S]*?\.stage-nav\{position:fixed;[^}]*width:52px;height:52px;[^}]*\}/.test(cardCss) &&
+  /@media\(max-width:760px\)\{[\s\S]*?\.stage-nav-icon\{top:50%\}/.test(cardCss),
+  'mobile controls must remain compact fixed buttons with centered chevrons');
+need(cardIndex.includes('href="cards.css?v=2.30&nav=1"'),
+  'navigation layout CSS cache key must be refreshed');
+
 need(cardIndex.includes('class="home-btn"')&&cardIndex.includes('aria-label="홈으로"')&&cardIndex.includes('class="home-icon"'),'icon-only home control missing');
 need(!cardIndex.includes('class="home-btn" href="../index.html">홈</a>'),'home control must not use text label');
 need(!cardCss.includes('.home-btn{display:none}'),'home button must remain visible on mobile');
