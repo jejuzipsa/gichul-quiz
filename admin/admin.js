@@ -195,7 +195,7 @@ homeLink.addEventListener('click',async event=>{
   if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
   event.preventDefault();
   // Wait for the server to commit departure before loading Home.
-  await Promise.race([leaveAdmin(),new Promise(resolve=>setTimeout(resolve,1600))]);
+  await Promise.race([leaveAdmin({keepalive:true}),new Promise(resolve=>setTimeout(resolve,1600))]);
   window.location.assign(homeLink.href);
 });
 window.addEventListener('pagehide',()=>{
