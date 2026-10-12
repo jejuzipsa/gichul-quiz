@@ -46,7 +46,7 @@ module.exports=async function handler(req,res){
       });
     }catch{return respond(res,503,{error:'STORE_UNAVAILABLE'})}
   }
-  if(mode==='activity'||mode==='reset'){
+  if(mode==='activity'||mode==='reset'||mode==='leave'){
     const hash=await requireAdmin(req,res,c);
     if(!hash)return;
     try{
