@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <link rel="icon" type="image/png" href="../assets/property-icon.png">
+  <title>한손노트 | 공인중개사 합격노트</title>
+  <script>
+    try {
+      const saved=localStorage.getItem('gichulQuizTheme');
+      document.documentElement.dataset.theme=saved==='dark'||saved==='light'?saved:(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+    } catch (_) { document.documentElement.dataset.theme='light'; }
+  </script>
+  <style>
+    :root{--bg:#f5f7fb;--surface:#fff;--surface2:#f0f3f8;--text:#161b22;--muted:#697386;--line:#dfe4ec;--primary:#6f72e8;--shadow:0 16px 40px rgba(27,39,65,.08);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif}
+    :root[data-theme="dark"]{color-scheme:dark;--bg:#080d18;--surface:#111a2b;--surface2:#18243a;--text:#eef2ff;--muted:#98a7bd;--line:#2a3852;--primary:#8196ff;--shadow:0 16px 40px rgba(0,0,0,.3)}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text)}a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+    .shell{width:min(850px,calc(100% - 24px));margin:auto;padding:20px 0 55px}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:20px}
+    .brand{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:850}
+    .brand img{width:44px;height:44px;object-fit:contain}
+    .back{padding:12px 15px;background:var(--surface);border:1px solid var(--line);border-radius:12px;font-size:13px;font-weight:800}
+    .page{border:1px solid var(--line);background:var(--surface);border-radius:22px;padding:clamp(20px,5vw,36px);box-shadow:var(--shadow)}
+    .eyebrow{margin:0 0 8px;font-size:12px;font-weight:900;letter-spacing:.1em;color:var(--primary)}h1{margin:0;font-size:clamp(26px,6vw,37px);letter-spacing:-.045em}
+    .lead{font-size:15px;line-height:1.75;color:var(--muted);margin:13px 0 22px}
+    .entry{display:flex;align-items:center;gap:16px;padding:18px;background:var(--surface2);border:1px solid var(--line);border-radius:17px}
+    .entry img{width:65px;height:65px;object-fit:contain;flex:none}.entry strong{display:block;font-size:19px;margin-bottom:7px}.entry p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .state{margin-top:17px;padding:16px;border:1px dashed var(--line);border-radius:14px;color:var(--muted);line-height:1.7;font-size:13px}
+    .state strong{display:block;color:var(--text);margin-bottom:3px;font-size:14px}
+    .foot{margin-top:15px;text-align:center;color:var(--muted);font-size:12px}
+    @media(max-width:500px){.entry{padding:13px;gap:12px}.entry img{width:48px;height:48px}.entry strong{font-size:17px}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="top">
+      <div class="brand"><img src="../assets/hand-note-icon.svg?v=2.31" alt="" aria-hidden="true"><span>공인중개사 합격노트</span></div>
+      <a class="back" href="../index.html">홈으로</a>
+    </header>
+    <section class="page" aria-labelledby="noteTitle">
+      <p class="eyebrow">MY STUDY NOTE</p>
+      <h1 id="noteTitle">한손노트</h1>
+      <p class="lead">스캔한 공부 내용을 모바일에서 한 장씩 넘겨볼 수 있도록 준비하는 공간이야.</p>
+      <div class="entry"><img src="../assets/hand-note-icon.svg?v=2.31" alt="" aria-hidden="true"><div><strong>부동산학개론</strong><p>PART · POINT 단위로 정리할 예정이야.</p></div></div>
+      <div class="state" role="status"><strong>학습 페이지 등록 준비 중</strong>교재 내용을 검수하고 모바일 화면에 맞게 편집한 뒤 순서대로 추가할 예정이야. 아직 공개된 학습 페이지는 없어.</div>
+    </section>
+    <p class="foot">© 2026 제주집사</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="손으로 카드를 잡고 있는 한손노트">
+ <defs>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#aab0ff"/><stop offset="1" stop-color="#655fe7"/></linearGradient>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe3d2"/><stop offset="1" stop-color="#f2b99f"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#514c9f" flood-opacity=".17"/></filter>
+ </defs>
+ <g filter="url(#shadow)">
+  <rect x="17" y="17" width="66" height="82" rx="10" transform="rotate(-12 17 17)" fill="#cdd2ff" stroke="#7977e6" stroke-width="3"/>
+  <rect x="28" y="13" width="69" height="86" rx="10" transform="rotate(-4 28 13)" fill="url(#card)" stroke="#5e5bd2" stroke-width="3"/>
+  <rect x="36" y="8" width="66" height="86" rx="9" fill="#fff" stroke="#6f72e8" stroke-width="3.3"/>
+  <path d="M50 27h37M50 38h30M50 49h34M50 60h25" stroke="#a6a7e9" stroke-width="5" stroke-linecap="round"/>
+  <rect x="50" y="71" width="28" height="8" rx="4" fill="#e9e9ff"/>
+ </g>
+ <path d="M46 114c-14-4-23-16-25-25-2-7 1-12 6-13 6-1 10 5 15 9l8 7V66c0-5 3-8 7-8s7 3 7 8v13-7c0-5 3-8 7-8s7 3 7 8v6-3c0-5 3-8 7-8s7 3 7 8v6-1c0-5 3-8 7-8s7 3 7 8v14c0 17-12 26-25 26H60c-5 0-10-2-14-6Z" fill="url(#skin)" stroke="#d28d77" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M64 80v12M78 78v14M92 80v12" stroke="#d28d77" stroke-width="2.4" stroke-linecap="round"/>
+ <path d="M29 82c6 4 13 11 17 18" stroke="#e6a58d" stroke-width="3" stroke-linecap="round"/>
+</svg>
