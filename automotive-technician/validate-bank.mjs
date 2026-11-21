@@ -1,7 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const root = process.argv[2];
+const rootArg = process.argv[2];
+const requireApproved = process.argv.includes("--require-approved");
+const root = rootArg && fs.existsSync(path.join(rootArg, "rounds")) ? path.join(rootArg, "rounds") : rootArg;
 if (!root) {
   console.error("Usage: node automotive-technician/validate-bank.mjs <private data dir>");
   process.exit(2);
@@ -22,10 +24,11 @@ for (const file of files) {
     if (!q.question || !Array.isArray(q.choices) || q.choices.length !== 4 || q.choices.some(x => !x)) errors.push(q.id + ": invalid text/choices");
     if (!Number.isInteger(q.answer) || q.answer < 1 || q.answer > 4) errors.push(q.id + ": invalid answer");
     if (!q.explanation) errors.push(q.id + ": missing explanation");
-    if (q.review_status !== "approved" || !q.answer_verified) pending++;
+    if (q.review_status !== "approved" || !q.answer_verified || q.publishable === false) pending++;
   }
   if (ids.size !== 20 || !Array.from({length:20},(_,i)=>i+1).every(x=>ids.has(x))) errors.push(file + ": numbering is incomplete");
 }
 if (files.length !== 36 || count !== 720) errors.push("Expected 36 files / 720 items; got " + files.length + " / " + count);
+if (requireApproved && pending > 0) errors.push("Publication gate: " + pending + " questions remain unapproved");
 console.log(JSON.stringify({files:files.length,count,pendingApproval:pending,errors:errors.length,details:errors.slice(0,100)},null,2));
 process.exitCode = errors.length ? 1 : 0;
