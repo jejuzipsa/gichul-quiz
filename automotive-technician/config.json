@@ -1,0 +1,41 @@
+{
+  "siteId": "automotive-technician",
+  "title": "자동차정비산업기사 필기",
+  "visibility": "private",
+  "theme": {
+    "primary": "#137c64",
+    "primaryHover": "#0f6350",
+    "background": "#f3f7f5",
+    "soft": "#e5f5ef"
+  },
+  "subjects": [
+    {
+      "id": "engine",
+      "number": 1,
+      "name": "자동차 엔진정비"
+    },
+    {
+      "id": "chassis",
+      "number": 2,
+      "name": "자동차 섀시정비"
+    },
+    {
+      "id": "electrical",
+      "number": 3,
+      "name": "자동차 전기·전자장치정비"
+    },
+    {
+      "id": "eco",
+      "number": 4,
+      "name": "친환경 자동차정비"
+    }
+  ],
+  "questionTrackIds": [
+    "past-exams",
+    "publisher-expected",
+    "concept-quiz"
+  ],
+  "sourceScope": "private-only",
+  "defaultReviewStatus": "needs_review",
+  "unreviewedQuestionsEnabled": false
+}
