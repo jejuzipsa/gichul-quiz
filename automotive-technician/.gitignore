@@ -1,0 +1,6 @@
+# Proprietary or personally licensed source material. Never commit to a public repo.
+private-data/
+source-scans/
+ocr-raw/
+*.private.json
+*.source.zip
